@@ -1,0 +1,48 @@
+URL: https://newsletter.manager.dev/p/dont-become-an-engineering-manager
+
+Don't become an Engineering Manager
+Over drinks a few weeks ago, a friend told me he'd been offered a promotion, to an Engineering Manager role. He planned to decline it, but wanted to hear my take first.
+Until recently, my answer in such conversations was always “100% go for it”. My logic was that it’s a super valuable experience, even if someone is not looking for the management career path. I told every engineer that a couple of years as an EM would teach them valuable skills, and they could always go back afterward.
+This time, we had a long discussion about the tradeoffs, and I finally agreed with him that he should not take that step.
+Here are the main arguments from our conversation:
+Thanks Unblocked for supporting today’s article!
+AI coding tools are fast, capable, and completely context-blind. Even with rules, skills, and MCP connections, they generate code that misses your conventions, ignores past decisions, and breaks patterns. You end up paying for that gap in rework and tokens.
+Unblocked changes the economics.
+It builds organizational context from your code, PR history, conversations, docs, and runtime signals. It maps relationships across systems, reconciles conflicting information, respects permissions, and surfaces what matters for the task at hand. Instead of guessing, agents operate with the same understanding as experienced engineers.
+You can:
+Generate plans, code, and reviews that reflect how your system actually works
+Reduce costly retrieval loops and tool calls by providing better context up front
+Spend less time correcting outputs for code that should have been right in the first place
+1. It’s a bad time to move away from tech
+WTF is OpenClaw? I’ve been on paternity leave for a few weeks, and another completely new project exploded…
+The pace of change in the last year has been completely crazy, and it’s not stopping.
+But even if you don’t give in to the constant FOMO - it’s impossible to argue that the way we worked hasn’t changed. Almost every part of our work looks different, and will continue to evolve.
+You've probably seen this tweet - the creator of Claude Code answering why Anthropic still needs software engineers:
+My friend was afraid that as a manager, he'd have less time to experiment and adapt. Especailly with a bigger team (he was offered to manage 6), you don’t have much time to play around.
+I could definitely relate to his fear. There are so many ideas I want to work on, tech I want to play with, and so little time to actually do it.
+2. The ladder is very competitive
+The classic EM ladder used to look like: EM → Senior EM → Director → VP.
+But companies have been flattening for two years now. Amazon increased its IC-to-manager ratio by 15%, and other companies followed.
+This means there are fewer Director and VP roles to grow into (and much less Senior EM ones). You can be a great EM for years and find yourself stuck.
+Companies still need someone to run teams, but from Senior EM upward, it becomes much more competitive. You’re competing with experienced leaders who were laid off from those ‘flattened’ companies.
+Also, there is less opportunity for internal growth. As an EM, to get promoted, you mostly need to start managing more engineers, which might not be possible right now. It’s more likely you’ll just get bigger scope with the same team - not a feat worthy of promotion.
+As an IC, being excellent at building things can get you much further.
+3. The pay is lower
+While my friend was offered a bump with the promotion to EM, the total compensation was less than the offers he received for Senior/Staff Engineer at other startups.
+This surprised him. The assumption has always been that management pays more. It does, if you compare an EM to a Senior Engineer at the same company. But when you compare across the industry, being a Staff engineer is better paid. I believe it’s because those engineers are in huge demand (and will continue to be so).
+For my friend specifically, staying on the IC track, becoming a Staff engineer and switching companies would have given him ~20-30% more than the EM promotion he was offered.
+So why am I still an EM
+2 reasons:
+First of all, I’m very optimistic about experienced Engineering Managers (who stayed hands-on), as I wrote in Engineering Management in the Age of Agents.
+While we are probably less sharp tech-wise, there are tons of relevant skills the job taught us over the years, that will still be relevant.
+And while it’s hard, I think I’ll manage to keep up.
+But the main reason is that I enjoy my job.
+While rationally I believe that being an IC is a smarter choice in 2026, I know I would enjoy it less.
+James Stanier wrote a great article about what to do when the ladder disappears, to help you figure out where you should aim. I highly recommend the exercise there!
+Final words
+If you are a senior engineer, the bottom line is that I wouldn’t recommend the jump to management right now. I would wait a couple of years to see how things will look like.
+BUT, and it’s a big but - if your gut tells you to do it (and not your brain), if it’s truly a path you want to pursue - then go for it!
+Discover weekly
+Even fewer middle managers and more flexible teams? by Gergely Orosz. I love Gergely’s weekly Pulse (I’m a paid subscriber), this one was especially interesting.
+Being an architect isn’t the sum of skills. It’s the product by Gregor Hohpe.
+The Product Velocity Paradox: When Your Engineers Outrun Your Product Team? by Sahar Carmel. An interesting article on the current reality in many companies.

@@ -1,0 +1,5 @@
+URL: https://grapheneos.social/@GrapheneOS/116160393783585567
+
+To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the
+native apps
+for Mastodon for your platform.

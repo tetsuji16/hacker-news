@@ -1,0 +1,8 @@
+URL: https://www.moss.town/
+
+MOSS is a painting toy where every brush is a tiny program.
+Paint with MOSSMOSS is a pixel editor with brushes that feel alive. Paint with tools that blend, spread, drip, grow, and glitch — each one behaving differently and each one completely customizable.
+Every cell of the MOSS canvas is a little piece of data that can be manipulated by a brush. Colors accumulate, patterns emerge, and happy accidents turn into your favorite pieces. It's the kind of toy where you sit down for five minutes and look up an hour later.
+MOSS comes with 50+ brushes ready to go, from simple paint and ink to wild things like vine growth, wet drips, and generative plaid. Don't like how one works? Tweak it! Every brush is programmable — change how it spreads, what it leaves behind, how it reacts to color.
+When you're done, save your work and share it with a friend. Anyone can open your image in MOSS to play with the same brushes and palette.
+Here are a few things people have made:

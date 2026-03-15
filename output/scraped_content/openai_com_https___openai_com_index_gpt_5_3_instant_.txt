@@ -1,0 +1,27 @@
+URL: https://openai.com/index/gpt-5-3-instant/
+
+Today, we’re releasing an update to ChatGPT’s most-used model that makes everyday conversations more consistently helpful and fluid. GPT‑5.3 Instant delivers more accurate answers, richer and better-contextualized results when searching the web, and reduces unnecessary dead ends, caveats, and overly declarative phrasing that can interrupt the flow of conversation.
+This update focuses on the parts of the ChatGPT experience people feel every day: tone, relevance, and conversational flow. These are nuanced problems that don’t always show up in benchmarks, but shape whether ChatGPT feels helpful or frustrating. GPT‑5.3 Instant directly reflects user feedback in these areas.
+We heard feedback that GPT‑5.2 Instant would sometimes refuse questions it should be able to answer safely, or respond in ways that feel overly cautious or preachy, particularly around sensitive topics.
+GPT‑5.3 Instant significantly reduces unnecessary refusals, while toning down overly defensive or moralizing preambles before answering the question. When a useful answer is appropriate, the model should now provide one directly, staying focused on your question without unnecessary caveats. In practice, this means fewer dead ends and more directly helpful answers.
+GPT-5.2 Instant
+GPT-5.3 Instant
+GPT‑5.3 Instant also improves the quality of answers when information comes from the web. It more effectively balances what it finds online with its own knowledge and reasoning—for example, using its existing understanding to contextualize recent news rather than simply summarizing search results.
+More broadly, GPT‑5.3 Instant is less likely to overindex on web results, which previously could lead to long lists of links or loosely connected information. It does a stronger job of recognizing the subtext of questions and surfacing the most important information, especially upfront, resulting in answers that are more relevant and immediately usable, without sacrificing speed or tone.
+GPT-5.2 Instant
+GPT-5.3 Instant
+GPT‑5.2 Instant’s tone could sometimes feel “cringe,” coming across as overbearing or making unwarranted assumptions about user intent or emotions.
+This update has a more focused yet natural conversational style, cutting back on unnecessary proclamations and phrases like “Stop. Take a breath.” We’re also working to keep ChatGPT’s personality more consistent across conversations and updates, so improvements feel like upgrades in capability while preserving a familiar and stable experience.
+As always, you can adjust the model’s response tone, like its warmth and enthusiasm, within settings.
+GPT-5.2 Instant
+GPT-5.3 Instant
+GPT‑5.3 Instant delivers more factual responses than previous models, with reduced hallucinations across a wide range of topics. To measure accuracy, we used two internal evaluations: one focused on higher-stakes domains such as medicine, law, and finance, and another measuring hallucination rates on de-identified ChatGPT conversations that users flagged as factual errors—cases that tend to be especially hallucination-prone.
+On the higher-stakes evaluation, GPT‑5.3 Instant reduces hallucination rates by 26.8% when using the web and 19.7% when relying only on its internal knowledge, compared to prior models. On the user-feedback evaluation, hallucinations decrease by 22.5% with web use and 9.6% without web access.
+GPT‑5.3 Instant is also a stronger writing partner. It’s better at helping you write resonant, imaginative, and immersive prose, whether you’re drafting fiction, refining a passage, or exploring new ideas. These changes help the model move more fluidly between practical tasks and expressive writing without losing clarity or coherence.
+GPT-5.2 Instant
+GPT-5.3 Instant
+While GPT‑5.3 Instant makes meaningful progress on everyday usability, there’s more work ahead:
+- Non-English languages: The response style of ChatGPT in some languages—such as Japanese and Korean—can sound stilted or overly literal. Improving tone and naturalness across languages remains an ongoing focus.
+- Tone: While GPT‑5.3 Instant’s response tone should feel smoother, we’re continuing to monitor feedback and improve while expanding customization options.
+GPT‑5.3 Instant is available starting today to all users in ChatGPT, as well as to developers in the API as ‘gpt-5.3-chat-latest.’ Updates to Thinking and Pro will follow soon. GPT‑5.2 Instant will remain available for three months for paid users in the model picker under the Legacy Models section, after which it will be retired on June 3, 2026.
+We did comprehensive safety training and evaluations for GPT‑5.3 Instant and detail that work in our system card.

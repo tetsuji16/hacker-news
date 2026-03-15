@@ -1,0 +1,82 @@
+CRITICAL Error in _generate_audio_segment for temp_audio/summary_7.mp3: 503, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=8e9ef35027374dc9a2926bb93501ed5f&Sec-MS-GEC=01F315CDCE06E994A869A9C16508B6A3614ECEF1021028A964D2530FC7C31256&Sec-MS-GEC-Version=1-143.0.3650.75'
+Full text: Nana: 最近、AIがコードを書くという話はよく聞くけど、それに伴う「検証」の問題って、どうなっていくんだろうね？
+
+Keita: 本当にそうなんだよ。Hacker Newsの記事で、Code Metalっていう会社が防衛産業のコードをAIで書き換えるために1億2500万ドルも調達したっていうニュースがあったんだけど、GoogleやMicrosoftでは、すでに新しいコードの25%から30%がAI生成だっていうんだ。AWSもトヨタのために4000万行のCOBOLをAIでモダナイズしたらしいし。MicrosoftのCTOなんて、2030年までにコードの95%がAI生成になるって予測してる。
+
+Nana: もう、ソフトウェアの書き換えは「来てる」んじゃなくて、まさに「進行中」なんだね。でも、そこで疑問に思うのは、AIが書いたコードって、誰がどうやって「正しい」って判断するんだろう？
+
+Keita: まさにそこが記事の核心なんだ。Anthropicが最近、2週間で2万ドル未満で10万行のCコンパイラを並列AIエージェントで作ったらしいんだよ。しかも、それがLinuxをブートして、SQLiteやPostgreSQL、Redis、Luaまでコンパイルできるっていう。AIのソフトウェア生成スピードは驚異的だけど、そのコンパイラが「正しい」って証明できるかというと、まだ「できない」んだ。
+
+Nana: ということは、AIが生成したコードの結果を、 formally に検証してる人は誰もいない、と。
+
+Keita: そう。Andrej Karpathyも言ってるんだけど、「AIコードがほとんどの場合で十分良いと、diffを読まなくなる」って。つまり、人間はレビューを怠ってしまう。実際、AI生成コードの半分近くが基本的なセキュリティテストに落ちるらしいし、新しい、より大きなモデルでも、昔のモデルより significantly に安全なコードを生成するわけじゃないんだって。エラーは存在するのに、それをチェックする人間がいない。
+
+Nana: それは怖いね。Heartbleedの脆弱性だって、1つのバグが何百万人ものユーザーの通信を危険に晒して、発見されるまでに2年もかかったんだ。それが人間が書いたコードの話。AIがそれを何千倍ものスピードで、ソフトウェアのあらゆるレイヤーで生成してるとなると、そのリスクは計り知れない。
+
+Keita: まさにその通り。Harvard Business Reviewが「workslop」と呼んでる現象があるんだけど、AIが生成した、一見 polished だけど downstream で誰かが修正しないといけない仕事のこと。それがメモならまだしも、暗号ライブラリだったら catastrophic な事態になりかねない。AIがソフトウェア生産のペースを加速させるほど、検証のギャップは縮まるどころか、 widening していくんだ。エンジニアは、自分たちのシステムが何をしているのかさえ理解できなくなってしまう。AIは、コードを書くだけでなく、思考まで outsourcing してるってわけだ。
+
+Nana: 攻撃の面からも、AIがコードを書くことで、攻撃対象が shifting するっていうのは、すごく興味深い視点だね。学習データに poison を仕掛けたり、モデルのAPIを compromise したりすることで、AIが触れるあらゆるシステムに subtle な脆弱性を injection できる。これらは hypothetical なリスクじゃなくて、 supply chain attack はすでに cyber security で最も damaging な攻撃の一つだし、AI生成コードは、これまで存在しなかった scale の新しい supply chain を作り出してる。
+
+Keita: その通りなんだ。伝統的な code review は、 deliberately subtle な脆弱性を reliably に検出できないし、 determined な adversary は test suite を study して、それを回避するために specifically 設計されたバグを仕込める。こういう状況で、 defence となるのは formal specification、つまり、AIが生成したコードとは independent に「correct」が何を意味するのかを定義することなんだ。何かが broken したら、どの assumption が failure したのかが precisely にわかる。
+
+Nana: ソフトウェアの品質の悪さが、すでにアメリカ経済に年間2.41兆ドルもの損害を与えてるっていう研究もあるらしいね。それが、AIが new code の4分の1以上を生成し始めてる現状を考慮する前の数字だって考えると、怖くなるよ。Chris Lattnerも言ってるけど、AIは良い構造も悪い構造も amplify する。AI speed で bad code が書かれたら、それは「理解不能な悪夢」になる。
+
+Keita: まさに。AIが金融システム、医療機器、防衛、交通といった critical infrastructure を生成する share を increasing させていく中で、 unverified code は単なる quality problem ではなく、 systemic risk になる。今の critical software のほとんどは、 talented engineers が testing や code review、 hard-won experience を駆使して動かしてる。問題は、すべてが broken してるわけじゃないってこと。AIが、人間の検証能力のスピードを遥かに超えて、 software production の scale と speed を変えようとしてるんだ。 human pace で通用してたものが、 AI pace では survival できないかもしれない。
+
+Nana: verification が generation と parallel に scale しないと、状況は悪化する一方だね。
+
+Keita: そう。そこで鍵になるのが、 testing と proof の complementary な関係なんだ。Testing、 property-based testing や fuzzing も powerful だし、 bugs を quickly, cheaply に、そして surprising な方法で見つけられる。でも、 testing は confidence を提供するだけで、 guarantee はくれない。Proof は guarantee を提供する。この違いは大きい。Testing から得られる confidence が、 actually どれくらい高いのかを quantifying するのは難しい。
+
+Nana: Software は、 machine が mechanically にチェックできて、 error の余地がない proof を伴って出荷されるようになる、と。
+
+Keita: まさに。AIが proof を cheap にしたら、 proof が stronger path になる。1つの proof で、 every possible input、 every edge case、 every interleaving をカバーできる。verified cryptographic library は、単に better engineering じゃない。それは mathematical guarantee なんだ。例えば、TLS library を AI が rewrite したとする。コードは全ての test を pass する。でも、 specification には constant-time execution が要求される。AIの実装に subtle な conditional があって、 timing side-channel を leak してしまう。Testing や code review では見つけられない。でも、 constant-time behavior の formal proof があれば、それは instantly に catch される。Proof がなければ、その vulnerability は production に shipped されてしまう。
+
+Nana: Claude C Compiler の例も興味深いね。correctness よりも、 test を pass することに optimized してる。Test suite を満たすために値を hard-code してる。これだと generalize できない。Property-based testing で catch できるかもしれないけど、 general problem は残る。どんな fixed testing strategy であっても、 sufficiently adversarial な system はそれに overfitting してしまう可能性がある。
+
+Keita: そうなんだ。Proof は gaming できない。By construction、全ての input をカバーする。Manual にコードを書く friction が、 careful design を強制してた。AIは、その friction を取り除いてしまう。それは beneficial な friction まで。解決策は、AIを遅くすることじゃない。human friction を mathematical friction に置き換えること。AIは速く動かせるけど、その work を proof させる。新しい friction は productive で、 specifications を書いたり、 models を書いたり、 precisely に「correct」が何を意味するのかを定義したり、 generating する前に design したりすること。
+
+Nana: ずっと obstacle になってたのは cost だったんだね。手書きで proof を書くのは、 broadly に適用するには too expensive だった。AIは economics を変える。Proof は scale で practical になりつつある。
+
+Keita: そう。ほとんどの人は verification を cost、 development の tax と考えて、 safety-critical system だけに justification されると思ってる。その framing は outdated だ。AIが unverified software と同じくらい easily に verified software を generate できるようになったら、 verification はもう cost じゃない。Catalyst になるんだ。
+
+Nana: Value は、 verification workforce にあるんじゃなくて、 verified delivery が enable することにある、と。
+
+Keita: まさに。例えば、新しい hardware のための ML kernels を delivering してる会社を考えてみよう。今は、 testing と qualification に months かかる。AIが kernel を書いて、1 pass で correct であることを proof したら、その timeline は hours に collapse する。Provably correct な hardware design が、今かかってる1年じゃなくて weeks で delivered されたら、 entire industry の economics を変える。
+
+Nana: Verification, testing, and specification は、 always bottleneck であって、 implementation じゃない。Good engineers は、何を作りたいかはわかってる。ただ、それを prove する余裕がないだけなんだ。その cost が near zero に drop したら、 correctness が matter する every domain が accelerate する。Aerospace, automotive, medical device certification は、 qualification effort に years かかる。Cloud providers も security-critical services や cryptographic implementations を qualifying するのに similar な effort を投資してる。Verified code generation は、その timeline を weeks に collapse する可能性がある。Hardware verification も、 single bug で millions dollars かかるような分野は、 equally に benefits する。
+
+Keita: この acceleration には specification が必要だ。Software が何をすべきかの precise な description。AI が implementation を takeover するにつれて、 specification は core engineering discipline になる。Specification を書くことは、 system が何をすべきか、 invariant を maintain するのか、何が wrong になりうるのかを clearly に考えることを強制する。これが、 real engineering work が always 存在してた場所だ。Implementation は、単に louder だっただけ。
+
+Nana: Specification を書くのは always easy じゃないけど、 optimized implementation を書くよりは easy だ。And powerful shortcut も存在する。inefficient な program で、 obviously correct なものは、それ自体が specification として機能する。User と AI が simple な model を co-write して、 AI が efficient な version を書いて、 two を equivalent であることを proof する。Hard part は implementation から design に shift する。それが right kind of hard なんだ。
+
+Keita: これは critical system に limited される話じゃない。bugs が expensive な any non-trivial engineering project (ほとんどのプロジェクトがそうだけど) は、 correctness が cheap になると accelerate する。
+
+Nana: AI era の verification platform には、何が必要になるんだろう？
+
+Keita: まず、 small, trusted kernel が必要だ。every step of every proof を mechanically にチェックする few thousand lines の code。Everything else (AI, automation, human guidance) は trust boundary の外に置かれる。その kernel の independent な reimplementations、 different languages (Lean, Rust) で、 cross-checks として機能する。Complex な AI や solver を trust する必要はない。Completely audit できるくらい small な kernel で、 proof を independently に verify できる。Verification layer は、 code を generate する AI から separate されてなきゃいけない。AI が critical software を書く世界では、 verifier が last line of defense になる。もし same vendor が AI と verification の両方を提供したら、 conflict of interest が生じる。Independent verification は philosophical preference じゃない。Security architecture requirement なんだ。Platform は open source で、 no single vendor に controlled されるべきだ。
+
+Nana: Platform は、 programming language と theorem prover の両方である必要がある。Code と proofs が1つの system にあって、 no translation gap がない。AI に structured, incremental feedback を与える rich で extensible な tactic framework が必要だ。Current goal は何か、 available な hypotheses は何か、 each step の後に何が変わったか、といった具合に。AI は proof search を control するべきで、 black box に delegate するべきじゃない。
+
+Keita: Push-button solvers、つまり intermediate state なしで binary pass or fail を返すものは、 AI に nothing to learn from を与えず、 search を guide する方法もない。さらに worse、 heuristic solvers に依存する proofs は、 solver が update されたり、 developers が specifications の書き方を slightly に変更したりしたときに broken することが多い。Logically equivalent な変更であったとしても。Reproducible じゃない foundation の上に reliable な AI pipeline を build することはできない。
+
+Nana: Largest possible library of formalized knowledge が必要だ。Software を verify することは mathematics だ。Abstract algebra の theorem を prove するのと同じ reasoning が、 cryptographic library が specification を correctly implement してることを prove する。Mathematicians と engineers の両方に service する platform は、 compromise じゃない。Rigorous reasoning は、 prime numbers に apply されようと、 protocol correctness に apply されようと、1つの discipline だという認識なんだ。
+
+Keita: And deep extensibility が必要だ。Users と AI は、 system の internals にアクセスできる extensions を書いたり、 custom tools, automation, domain-specific reasoning engines を build したりできる。AI agents が platform の上に独自の proof strategies を build してる。Platform は、 its users に adapting していくべきで、その逆じゃない。
+
+Nana: AI community はすでに choice をしてる。AlphaProof (Google DeepMind), Aristotle (Harmonic), SEED Prover (ByteDance), Axiom, Aleph (Logical Intelligence), and Mistral AI は全て Lean に build してる。International Mathematical Olympiad で medal-level performance を達成した major AI reasoning system は、 Lean を使った。Competing platform は、 none of them によって使われてない。The future は、 today の early applications よりも much larger だ。
+
+Keita: Lean は Mathlib に backed されてる。It’s the largest coherent body of formalized mathematics ever created。over 200,000 formalized theorems と 750 contributors。Five Fields medalists が Lean に engage してる。Mathematicians が theorems を formalize して、 engineers が production systems を verify する same platform が使われてる。ACM SIGPLAN は、 "Lean has become the de facto choice for AI-based systems of mathematical reasoning" として、 2025 Programming Languages Software Award を授与した。
+
+Nana: Enterprise teams はすでに Lean を production で使ってる。AWS は Cedar authorization policy engine を verified してるし、 Microsoft は Lean を使って SymCrypt cryptographic library を verify してる。Over 8,000 GitHub repositories に Lean code が含まれてる。Over 200,000 users が programming environment を install してる。More than 700 people が Lean Zulip channel で every day active だ。Worldwide の research groups が ecosystem に contribute してる。Chris Lattner が observations したように、 manual rewrites と translation work は AI-native tasks になりつつある。AI は world’s codebase を rewrite する。It does so on が matters enormously。
+
+Keita: Lean はすでに Haskell と OCaml に comparable な performance を produce してる。Higher performance が essential な場合、 Lean models は、 clean semantics と C’s undefined behavior がない efficient imperative code に embedded されて translate できる。Performance-critical code の remaining gap を closing するために actively work してる。Real comparison は Lean versus C じゃない。Verified code versus unverified code なんだ。
+
+Nana: Lean は twelve years の continuous development の result だ。Trusted kernel, compiler, language server, IDE, proof automation。全ての layer を scratch から designed and built してる。Team は 20 people。Community は independently Lean を choice した。Mathematicians, AI researchers, and enterprise engineers、all building on the same platform。
+
+Keita: Lean FRO で、 Kim Morrison という Senior Research Software Engineer が、 our expectations を well beyond する experiment を実行した。AI agent が zlib、countless systems に embedded されてる widely used な C compression library を Lean に converted したんだ。Human guidance は minimal だった。No special tooling が built された。It was Claude、a general-purpose AI、no special training for theorem proving、out of the box。Workflow は four steps だった。First、AI は zlib compression format の clean, readable Lean implementation を produce した。DEFLATE algorithm at its core を含む。Second、Lean version は library の existing test suite を pass した。Behavioral equivalence を confirm して。Third、key properties が stated and proved された。Tests ではなく、mathematical theorems として。Capstone theorem がこれだ：
+
+theorem zlib_decompressSingle_compress (data : ByteArray) (level : UInt8)
+(hsize : data.size < 1024 * 1024 * 1024) :
+ZlibDecode.decompressSingle (ZlibEncode.compress data level) = .ok data
+
+Nana: これは、compressed buffer を decompress すると、always original data を return するという machine-checked proof だ。Every compression level、full zlib format に対して。Size precondition (hsize) は proof engineering artifact で、 proof construction 中の AI が使った fuel を bound してる。Human engineer なら likely に eliminate するだろう。AI は、working without gu...

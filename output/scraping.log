@@ -100,3 +100,61 @@ DEBUG: Scraping URL: https://e.foundation/e-os/
 DEBUG: Successfully scraped 6092 chars from https://e.foundation/e-os/. Saved to output/scraped_content/e_foundation_https___e_foundation_e_os_.txt
 DEBUG: Scraping URL: https://govbase.com
 DEBUG: Trafilatura failed to download https://govbase.com
+DEBUG: Scraping URL: https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/
+DEBUG: Successfully scraped 14376 chars from https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/. Saved to output/scraped_content/www_apple_com_oduces_macbook_pro_with_all_new_m5_pro_and_m5_max_.txt
+DEBUG: Scraping URL: https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657
+DEBUG: Trafilatura failed to download https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657
+DEBUG: Scraping URL: https://editor.p5js.org/isohedral/full/vJa5RiZWs
+DEBUG: Trafilatura extracted empty text from https://editor.p5js.org/isohedral/full/vJa5RiZWs
+DEBUG: Scraping URL: https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/
+DEBUG: Successfully scraped 4518 chars from https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/. Saved to output/scraped_content/neilzone_co_uk__which_id_be_willing_to_verify_my_identity_or_age_.txt
+DEBUG: Scraping URL: https://www.ntik.me/posts/voice-agent
+DEBUG: Successfully scraped 17054 chars from https://www.ntik.me/posts/voice-agent. Saved to output/scraped_content/www_ntik_me_https___www_ntik_me_posts_voice_agent.txt
+DEBUG: Scraping URL: https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes
+DEBUG: Successfully scraped 4857 chars from https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes. Saved to output/scraped_content/futurism_com_intelligence_ars_technica_fires_reporter_ai_quotes.txt
+DEBUG: Scraping URL: https://openai.com/index/gpt-5-3-instant/
+DEBUG: Successfully scraped 4648 chars from https://openai.com/index/gpt-5-3-instant/. Saved to output/scraped_content/openai_com_https___openai_com_index_gpt_5_3_instant_.txt
+DEBUG: Scraping URL: https://newsletter.manager.dev/p/dont-become-an-engineering-manager
+DEBUG: Successfully scraped 5554 chars from https://newsletter.manager.dev/p/dont-become-an-engineering-manager. Saved to output/scraped_content/newsletter_manager_dev_r_manager_dev_p_dont_become_an_engineering_manager.txt
+DEBUG: Scraping URL: https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html
+DEBUG: Successfully scraped 23803 chars from https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html. Saved to output/scraped_content/leodemoura_github_io_2026_02_28_when_ai_writes_the_worlds_software_html.txt
+DEBUG: Scraping URL: https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/
+DEBUG: Successfully scraped 14523 chars from https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/. Saved to output/scraped_content/www_apple_com_ple_com_newsroom_2026_03_say_hello_to_macbook_neo_.txt
+DEBUG: Scraping URL: https://grapheneos.social/@GrapheneOS/116160393783585567
+DEBUG: Successfully scraped 136 chars from https://grapheneos.social/@GrapheneOS/116160393783585567. Saved to output/scraped_content/grapheneos_social___grapheneos_social__GrapheneOS_116160393783585567.txt
+DEBUG: Scraping URL: https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf
+DEBUG: Trafilatura extracted empty text from https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf
+DEBUG: Scraping URL: https://simonwillison.net/2026/Mar/4/qwen/
+DEBUG: Successfully scraped 4516 chars from https://simonwillison.net/2026/Mar/4/qwen/. Saved to output/scraped_content/simonwillison_net_https___simonwillison_net_2026_Mar_4_qwen_.txt
+DEBUG: Scraping URL: https://bill.newgrounds.com/news/post/1607118
+DEBUG: Trafilatura failed to download https://bill.newgrounds.com/news/post/1607118
+DEBUG: Scraping URL: https://unsloth.ai/docs/models/qwen3.5/fine-tune
+DEBUG: Successfully scraped 4651 chars from https://unsloth.ai/docs/models/qwen3.5/fine-tune. Saved to output/scraped_content/unsloth_ai_https___unsloth_ai_docs_models_qwen3_5_fine_tune.txt
+DEBUG: Scraping URL: https://jsomers.net/blog/it-turns-out
+DEBUG: Successfully scraped 4370 chars from https://jsomers.net/blog/it-turns-out. Saved to output/scraped_content/jsomers_net_https___jsomers_net_blog_it_turns_out.txt
+DEBUG: Scraping URL: https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/
+DEBUG: Successfully scraped 8584 chars from https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/. Saved to output/scraped_content/terriblesoftware_org_rg_2026_03_03_nobody_gets_promoted_for_simplicity_.txt
+DEBUG: Scraping URL: https://www.moss.town/
+DEBUG: Successfully scraped 969 chars from https://www.moss.town/. Saved to output/scraped_content/www_moss_town_https___www_moss_town_.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/articles/cly2m5e5ke4o
+DEBUG: Successfully scraped 5187 chars from https://www.bbc.com/news/articles/cly2m5e5ke4o. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_cly2m5e5ke4o.txt
+DEBUG: Scraping URL: http://karpathy.github.io/2026/02/12/microgpt/
+DEBUG: Successfully scraped 34223 chars from http://karpathy.github.io/2026/02/12/microgpt/. Saved to output/scraped_content/karpathy_github_io_http___karpathy_github_io_2026_02_12_microgpt_.txt
+DEBUG: Scraping URL: https://twitter.com/OpenAI/status/2027846016423321831
+DEBUG: Successfully scraped 293 chars from https://twitter.com/OpenAI/status/2027846016423321831. Saved to output/scraped_content/twitter_com_ps___twitter_com_OpenAI_status_2027846016423321831.txt
+DEBUG: Scraping URL: https://ghostty.org/docs
+DEBUG: Successfully scraped 739 chars from https://ghostty.org/docs. Saved to output/scraped_content/ghostty_org_https___ghostty_org_docs.txt
+DEBUG: Scraping URL: https://mlu-explain.github.io/decision-tree/
+DEBUG: Successfully scraped 6882 chars from https://mlu-explain.github.io/decision-tree/. Saved to output/scraped_content/mlu-explain_github_io_https___mlu_explain_github_io_decision_tree_.txt
+DEBUG: Scraping URL: https://99helpers.com/tools/ad-supported-chat
+DEBUG: Successfully scraped 6030 chars from https://99helpers.com/tools/ad-supported-chat. Saved to output/scraped_content/99helpers_com_https___99helpers_com_tools_ad_supported_chat.txt
+DEBUG: Scraping URL: https://atlas.flexport.com/
+DEBUG: Trafilatura failed to download https://atlas.flexport.com/
+DEBUG: Scraping URL: https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html
+DEBUG: Successfully scraped 4980 chars from https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html. Saved to output/scraped_content/ejholmes_github_io_b_io_2026_02_28_mcp_is_dead_long_live_the_cli_html.txt
+DEBUG: Scraping URL: https://developer.chrome.com/blog/webmcp-epp
+DEBUG: Successfully scraped 1951 chars from https://developer.chrome.com/blog/webmcp-epp. Saved to output/scraped_content/developer_chrome_com_https___developer_chrome_com_blog_webmcp_epp.txt
+DEBUG: Scraping URL: https://modernaicourse.org
+DEBUG: Successfully scraped 5726 chars from https://modernaicourse.org. Saved to output/scraped_content/modernaicourse_org_https___modernaicourse_org.txt
+DEBUG: Scraping URL: https://claude.com/import-memory
+DEBUG: Successfully scraped 1058 chars from https://claude.com/import-memory. Saved to output/scraped_content/claude_com_https___claude_com_import_memory.txt
