@@ -80,3 +80,23 @@ DEBUG: Scraping URL: https://modernaicourse.org
 DEBUG: Successfully scraped 5726 chars from https://modernaicourse.org. Saved to output/scraped_content/modernaicourse_org_https___modernaicourse_org.txt
 DEBUG: Scraping URL: https://claude.com/import-memory
 DEBUG: Successfully scraped 1058 chars from https://claude.com/import-memory. Saved to output/scraped_content/claude_com_https___claude_com_import_memory.txt
+DEBUG: Scraping URL: https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/
+DEBUG: Successfully scraped 4637 chars from https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/. Saved to output/scraped_content/motorolanews_com__com_motorola_three_new_b2b_solutions_at_mwc_2026_.txt
+DEBUG: Scraping URL: https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything
+DEBUG: Successfully scraped 18260 chars from https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything. Saved to output/scraped_content/www_svd_se_ata_privacy_concerns_workers_say_we_see_everything.txt
+DEBUG: Scraping URL: https://health.ucdavis.edu/news/headlines/first-ever-in-utero-stem-cell-therapy-for-fetal-spina-bifida-repair-is-safe-study-finds/2026/02
+DEBUG: Successfully scraped 4348 chars from https://health.ucdavis.edu/news/headlines/first-ever-in-utero-stem-cell-therapy-for-fetal-spina-bifida-repair-is-safe-study-finds/2026/02. Saved to output/scraped_content/health_ucdavis_edu_al_spina_bifida_repair_is_safe_study_finds_2026_02.txt
+DEBUG: Scraping URL: https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/
+DEBUG: Successfully scraped 13880 chars from https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/. Saved to output/scraped_content/www_apple_com_3_apple_introduces_the_new_ipad_air_powered_by_m4_.txt
+DEBUG: Scraping URL: https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should
+DEBUG: Successfully scraped 11045 chars from https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should. Saved to output/scraped_content/www_theguardian_com_ranger_secret_how_to_talk_to_anyone_why_you_should.txt
+DEBUG: Scraping URL: https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/
+DEBUG: Successfully scraped 5151 chars from https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/. Saved to output/scraped_content/www_windowslatest_com__its_discord_then_locks_the_server_after_backlash_.txt
+DEBUG: Scraping URL: https://maderix.substack.com/p/inside-the-m4-apple-neural-engine
+DEBUG: Successfully scraped 13028 chars from https://maderix.substack.com/p/inside-the-m4-apple-neural-engine. Saved to output/scraped_content/maderix_substack_com_x_substack_com_p_inside_the_m4_apple_neural_engine.txt
+DEBUG: Scraping URL: https://github.com/mandel-macaque/memento
+DEBUG: Successfully scraped 15723 chars from https://github.com/mandel-macaque/memento. Saved to output/scraped_content/github_com_https___github_com_mandel_macaque_memento.txt
+DEBUG: Scraping URL: https://e.foundation/e-os/
+DEBUG: Successfully scraped 6092 chars from https://e.foundation/e-os/. Saved to output/scraped_content/e_foundation_https___e_foundation_e_os_.txt
+DEBUG: Scraping URL: https://govbase.com
+DEBUG: Trafilatura failed to download https://govbase.com

@@ -8,25 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 15 Mar 2026 13:13:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2026 13:44:08 +0000</lastBuildDate>
     <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
     <itunes:category text="Technology"/>
     <itunes:image href="https://tetsuji16.github.io/hacker-news/output/HackerNewsLogo.png"/>
     <item>
       <title>Hacker News アップデート 2026-03-01</title>
-      <description><![CDATA[2026-03-01のHacker Newsトップストーリー要約:
-
-・ Microgpt
-・ We do not think Anthropic should be designated as a supply chain risk
-・ Ghostty – Terminal Emulator
-・ Decision trees – the unreasonable power of nested decision rules
-・ I built a demo of what AI chat will look like when it's “free” and ad-supported
-・ When does MCP make sense vs CLI?
-・ WebMCP is available for early preview
-・ 10-202: Introduction to Modern AI (CMU)
-・ Switch to Claude without starting over
-
-AIによって生成された日本語の要約をお楽しみください。]]></description>
+      <description><![CDATA[2026-03-01版のHacker Newsニュース要約です。AIによる日本語読み上げでお届けします。]]></description>
       <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-01.mp3</guid>
       <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-01.mp3" length="7956716" type="audio/mpeg"/>
       <itunes:duration>33:09</itunes:duration>
@@ -34,10 +22,22 @@ AIによって生成された日本語の要約をお楽しみください。]]>
     </item>
     <item>
       <title>Hacker News アップデート 2026-03-02</title>
-      <description><![CDATA[2026-03-02版のHacker Newsニュース要約です。AIによる日本語読み上げでお届けします。]]></description>
+      <description><![CDATA[2026-03-02のHacker Newsトップストーリー要約:
+
+・ Motorola announces a partnership with GrapheneOS
+・ Meta’s AI smart glasses and data privacy concerns
+・ First in-utero stem cell therapy for fetal spina bifida repair is safe: study
+・ New iPad Air, powered by M4
+・ How to talk to anyone and why you should
+・ “Microslop” filtered in the official Microsoft Copilot Discord server
+・ Inside the M4 Apple Neural Engine, Part 1: Reverse Engineering
+・ If AI writes code, should the session be part of the commit?
+・ /e/OS is a complete, fully “deGoogled” mobile ecosystem
+
+AIによって生成された日本語の要約をお楽しみください。]]></description>
       <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3" length="8363948" type="audio/mpeg"/>
-      <itunes:duration>34:50</itunes:duration>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3" length="9263468" type="audio/mpeg"/>
+      <itunes:duration>38:35</itunes:duration>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
