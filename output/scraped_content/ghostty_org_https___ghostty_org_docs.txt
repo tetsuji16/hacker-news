@@ -1,0 +1,14 @@
+URL: https://ghostty.org/docs
+
+Ghostty Docs
+Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+Install Ghostty and run! Zero configuration required to get up and running.
+Ready-to-run binaries for macOS. Packages or build from source for Linux.
+Keybindings
+Ghostty supports flexible, custom keybindings through the keybind configuration option.
+Color Theme
+Ghostty ships with hundreds of built-in themes, supports different themes for light and dark mode, and more.
+Configuration
+Ghostty supports hundreds of configuration options to make it look and behave exactly how you want.
+Terminal API (VT)
+For terminal application developers, a reference on terminal concepts and supported control sequences.

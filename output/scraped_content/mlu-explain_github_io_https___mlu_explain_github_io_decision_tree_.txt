@@ -1,0 +1,45 @@
+URL: https://mlu-explain.github.io/decision-tree/
+
+We just saw how a Decision Tree operates at a high-level: from the top down, it creates a series of sequential rules that split the data into well-separated regions for classification. But given the large number of potential options, how exactly does the algorithm determine where to partition the data? Before we learn how that works, we need to understand Entropy.
+Entropy measures the amount of information of some variable or event. We'll make use of it to identify regions consisting of a large number of similar (pure) or dissimilar (impure) elements.
+Given a certain set of events that occur with probabilities , the total entropy can be written as the negative sum of weighted probabilities:
+The quantity has a number of interesting properties:
+Entropy Properties
+- only if all but one of the are zero, this one having the value of 1. Thus the entropy vanishes only when there is no uncertainty in the outcome, meaning that the sample is completely unsurprising.
+- is maximum when all the are equal. This is the most uncertain, or 'impure', situation.
+- Any change towards the equalization of the probabilities increases .
+The entropy can be used to quantify the impurity of a collection of labeled data points: a node containing multiple classes is impure whereas a node including only one class is pure.
+Above, you can compute the entropy of a collection of labeled data points belonging to two classes, which is typical for binary classification problems. Click on the Add and Remove buttons to modify the composition of the bubble.
+Did you notice that pure samples have zero entropy whereas impure ones have larger entropy values? This is what entropy is doing for us: measuring how pure (or impure) a set of samples is. We'll use it in the algorithm to train Decision Trees by defining the Information Gain.
+Let's recap what we've learned so far. First, we saw how a Decision Tree classifies data by repeatedly partitioning the feature space into regions according to some conditional series of rules. Second, we learned about entropy, a popular metric used to measure the purity (or lack thereof) of a given sample of data. Third, we learned how Decision Trees use entropy in information gain and the ID3 algorithm to determine the exact conditional series of rules to select. Taken together, the three sections detail the typical Decision Tree algorithm.
+To reinforce concepts, let's look at our Decision Tree from a slightly different perspective.
+The tree below maps exactly to the tree we showed in How to Build a Decision Tree section above. However, instead of showing the partitioned feature space alongside our trees structure, let's look at the partitioned data points and their corresponding entropy at each node itself:
+From the top down, our sample of data points to classify shrinks as it gets partitioned to different decision and leaf nodes. In this manner, we could trace the full path taken by a training data point if we so desired. Note also that not every leaf node is pure: as discussed previously (and in the next section), we don't want the structure of our Decision Trees to be too deep, as such a model likely won't generalize well to unseen data.
+Without question, Decision Trees have a lot of things going for them. They're simple models that are easy to interpret. They're fast to train and require minimal data preprocessing. And they hand outliers with ease. Yet they suffer from a major limitation, and that is their instability compared with other predictors. They can be extremely sensitive to small perturbations in the data: a minor change in the training examples can result in a drastic change in the structure of the Decision Tree.
+Check for yourself how small random Gaussian perturbations on just 5% of the training examples create a set of completely different Decision Trees:
+In their vanilla form, Decision Trees are unstable.
+If left unchecked, the ID3 algorithm to train Decision Trees will work endlessly to minimize entropy. It will continue splitting the data until all leaf nodes are completely pure - that is, consisting of only one class. Such a process may yield very deep and complex Decision Trees. In addition, we just saw that Decision Trees are subject to high variance when exposed to small perturbations of the training data.
+Both issues are undesirable, as they lead to predictors that fail to clearly distinguish between persistent and random patterns in the data, a problem known as overfitting. This is problematic because it means that our model won't perform well when exposed to new data.
+There are ways to prevent excessive growth of Decision Trees by pruning them, for instance constraining their maximum depth, limiting the number of leaves that can be created, or setting a minimum size for the amount of items in each leaf and not allowing leaves with too few items in them.
+As for the issue of high variance? Well, unfortunately it's an intrinsic characteristic when training a single Decision Tree.
+Perhaps ironically, one way to alleviate the instability induced by perturbations is to introduce an extra layer of randomness in the training process. In practice this can be achieved by creating collections of Decision Trees trained on slightly different versions of the data set, the combined predictions of which do not suffer so heavily from high variance. This approach opens the door to one of the most successful Machine Learning algorithms thus far: random forests.
+Stay tuned for our future article!
+Thanks for reading! We hope that the article is insightful no matter where you are along your Machine Learning journey, and that you came away with a better understanding of the Decision Tree algorithm.
+To make things compact, we skipped over some relevant topics, such as using Decision Trees for regression, end-cut preference in tree models, and other tree-specific hyperparameters. Check out the resources listed below to learn more about those topics.
+To learn more about Machine Learning, check out our self-paced courses, our YouTube videos, and the Dive into Deep Learning textbook. If you have any comments or ideas related to MLU-Explain articles, feel free to reach out directly to Jared or Lucía. The code for this article is available here.
+A special thanks goes out to Brent Werness for valuable contributions to this article.
+This article is a product of the following resources + the awesome people who made (& contributed to) them:
+A Mathematical Theory Of Communication
+(Claude E. Shannon, 1948).
+Induction of decision trees
+(John Ross Quinlan, 1986).
+A Study on End-Cut Preference in Least Squares Regression Trees
+(Luis Torgo, 2001).
+The Origins Of The Gini Index: Extracts From Variabilità e Mutabilità (Corrado Gini, 1912)
+(Lidia Ceriani & Paolo Verne, 2012).
+D3.js
+(Mike Bostock & Philippe Rivière)
+d3-annotation
+(Susie Lu)
+KaTeX
+(Emily Eisenberg & Sophie Alpert)
