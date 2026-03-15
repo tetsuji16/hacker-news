@@ -1,0 +1,120 @@
+URL: https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything
+
+Bank details, sex and naked people who seem unaware they are being recorded. Behind Meta’s new smart glasses lies a hidden workforce, uneasy about peering into the most intimate parts of other people’s lives.
+The advertisement is everywhere. The ice hockey player Peter Forsberg is trying on a pair of black glasses. In the viral clip he talks to the glasses, asking who is Sweden’s greatest hockey player of all time.
+They are not just any glasses.
+They are Facebook owner Meta’s new AI glasses.
+The glasses are marketed as an all-in-one assistant that helps the wearer excel at work, capture beautiful sunsets, act as a travel guide and translate foreign languages in real time.
+So powerful that they are meant to compete with smartphones, while the user remains in control of their privacy.
+Reality would prove to be different.
+It is stuffy at the top of the hotel in Nairobi, Kenya. The grey sky presses the heat against the windows. The man in front of us is nervous. If his employer finds out that he is here, he could lose everything.
+He is one of the people few even realise exist – a flesh-and-blood worker in the engine room of the data industry. What he has to say is explosive.
+“In some videos you can see someone going to the toilet, or getting undressed. I don’t think they know, because if they knew they wouldn’t be recording.”
+In Svenska Dagbladet and Göteborgs-Posten’s investigation, the people behind Meta’s smart glasses testify to the hidden stream of privacy-sensitive data that is fed straight into the tech giant’s systems.
+It begins on the other side of the world.
+September 2025 in Menlo Park, the heart of Silicon Valley. Mark Zuckerberg, founder of Meta, the company behind Facebook, Instagram and WhatsApp, is about to present the initiative he hopes will define the company’s future. On gigantic screens, the audience can see him sitting backstage, leaning over a script and rehearsing.
+They lie in front of him on the table.
+“Meta Ray-Ban Glasses”.
+He stands up after a while, and puts the glasses on.
+The perspective shifts – on the screens, the audience sees the world through his eyes. Zuckerberg walks through the corridors, towards the stage. On the way, he is met with cheers, fist bumps and a nod from the international music star Diplo.
+On stage, Zuckerberg preaches. He explains that his revolutionary glasses are to be a kind of all-in-one assistant with everything from live translations to facial recognition.
+He concludes by thanking his American team. But what is shown in Menlo Park is just as much the result of a completely different type of work, far away from Silicon Valley.
+Over 9,300 miles away, on Mombasa Road in Nairobi, grey mirrored glass glints through the traffic dust.
+In a large office complex, long rows of employees sit in front of computer screens.
+The company they work for is called Sama and is a subcontractor to Meta. Here in Kenya’s capital, thousands of people train AI systems, teaching them to recognise and interpret the world.
+They are called data annotators, and they are the manual labourers of the AI revolution. On the screens they draw boxes around flower pots and traffic signs, follow contours, register pixels and name objects: cars, lamps, people. Every image must be described, labelled and quality assured.
+All to make the next generation of smart glasses a little more intelligent – a little more human.
+It is an uncomfortable truth for tech giants: the AI revolution is to a large extent built on labor in low-income countries. What we call “machine learning” is often the result of human hands.
+In the multi-million city of Nairobi, SvD and GP meet Sama workers at an indistinct hotel, at a safe distance from Sama. Some come straight from a night shift, others are preparing for a ten-hour shift in front of the screens.
+The employees have signed extensive confidentiality agreements – if they break them they can lose their jobs – and be thrown back into a life without income, often to the slums. Therefore we publish no names.
+The workers in Kenya say that it feels uncomfortable to go to work. They tell us about deeply private video clips, which appear to come straight out of Western homes, from people who use the glasses in their everyday lives.
+Several describe video material showing bathroom visits, sex and other intimate moments.
+“I saw a video where a man puts the glasses on the bedside table and leaves the room.”
+“Shortly afterwards his wife comes in and changes her clothes”, one of them says.
+Another worker talks about people coming out of bathrooms.
+“Someone may have been walking around with the glasses, or happened to be wearing them, and then the person’s partner was in the bathroom, or they had just come out naked”, an employee says.
+Do you sometimes feel that you are looking straight into other people’s private lives?
+“When you see these videos, it feels that way. But since it is a job, you have to do it. You understand that it is someone’s private life you are looking at, but at the same time you are just expected to carry out the work. You are not supposed to question it. If you start asking questions, you are gone.”
+Sees bank cards and naked bodies
+“We see everything – from living rooms to naked bodies. Meta has that type of content in its databases. People can record themselves in the wrong way and not even know what they are recording. They are real people like you and me”.
+The workers describe videos where people’s bank cards are visible by mistake, and people watching porn while wearing the glasses. Clips that could trigger “enormous scandals” if they were leaked.
+Glasögon video A.mp4
+“There are also sex scenes filmed with the smart glasses – someone is wearing them having sex. That is why this is so extremely sensitive. There are cameras everywhere in our office, and you are not allowed to bring your own phones or any device that can record”, an employee says.
+The data annotators also work with transcriptions, where they are to check that the AI assistant in Meta’s glasses has answered users’ questions correctly.
+“It can be about any topics at all. We see chats where someone talks about crimes or protests. It is not just greetings, it can be very dark things as well”, one of the workers says.
+Another recounts a text where a man described a woman he wanted to have sex with:
+“He commented on her body and said that he liked her breasts.”
+Launch in Sweden
+2025 becomes a breakthrough for Meta Ray-Ban, which is manufactured in collaboration with the eyewear giant EssilorLuxottica. From having sold two million smart glasses in 2023 and 2024 combined, sales are tripled to seven million units.
+In Sweden, Synsam is one of the major Swedish retailers, as is the chain Synoptik. Some independent opticians also carry the glasses.
+Throughout the autumn of 2025, we visit ten retailers in Stockholm and Gothenburg to ask the sales staff how the data from the Meta glasses is processed. Several of the sales people give us reassuring answers. We are told that we ourselves can choose exactly what data is shared with Meta.
+“Nothing is shared with them (Meta). That was a big concern for me as well. Are they going to get access to my data, that is a bit scary, but you have full control”, says an employee at a Synsam store.
+Others are more uncertain.
+“To be completely honest, I don’t know where the data goes, or if they take data at all”, says a shop assistant at an independent optician. Another salesperson points out that the customer can always choose not to share their data:
+“No, it is completely fine – everything stays locally in the app.”
+We buy our own pair of glases at Synsam’s flagship store in Gothenburg.
+At the Göteborgs-Posten newsroom we begin installing them. The glasses are to be connected to an app called Meta AI. Only after several approvals in the app is it possible to get started with the AI function. One of the steps concerns whether we want to share extra data with Meta to help improve their products. We choose “no”.
+The AI functions are activated with the voice command “Hey Meta”. Within ten minutes of the package being opened we begin asking questions. The glasses answer immediately, in English.
+Together with a system developer at Svenska Dagbladet we try to find out whether what the salesperson said is correct, that we can choose not to share our data with Meta. We try to use the glasses without internet connection turned on.
+Meta’s own words
+But that makes it impossible to get help interpreting what we see. The glasses urge us to turn on the connection. When we then analyse the network traffic from the app, we see that the phone has frequent contact with Meta servers in Luleå, Swden, and Denmark.
+In order to answer questions and interpret what the camera sees, the glasses require that data be processed via Meta’s infrastructure – it is not possible to interact with the AI solely locally on the phone.
+What the salespeople say about nothing being shared onwards does not appear to be correct.
+We contact Synsam and Synoptik for an interview about what training the sales staff receive and how it can be that the answers they give are so different. Synsam responded in writing that its role is to inform customers about the applicable terms and to provide internal training, but that responsibility for complying with Swedish law and Meta’s terms ultimately rests with the wearer. Synoptik responded in similar terms, saying its staff are trained in ethics and emphazise the user’s responsibility.
+Glasögon video A.mp4
+With the glasses we bought there is also a manual with a QR code that leads to Meta’s privacy policy for wearable products. This in turn links to other pages, such as the Terms of Use for Meta’s AI services.
+At first glance, it appears that we have significant control over our data. It states that voice recordings may only be saved and used for improvement or training of other Meta products if the user actively agrees.
+But for the AI assistant to function, voice, text, image and sometimes video must be processed and may be shared onwards. This data processing is done automatically and cannot be turned off.
+The human behind the AI
+We read further on in the Terms of Use for Meta’s AIs. The terms state that “in some cases, Meta will review your interactions with AIs, including the content of your conversations with or messages to AIs, and this review can be automated or manual (human).”
+It also states that the AIs may store and use information shared with them, and that the user should not share information “that you don’t want the AIs to use and retain, such as information about sensitive topics”.
+The user is given no choice; it is mandatory to participate.
+It is not specified how much data may be analysed or for how long it may be stored. Nor is it specified who is given access to the data.
+Data experts we contact in Sweden and abroad question how aware users really are that their data may be used to train Meta’s AI.
+The experts point to an unclear boundary between what is shared voluntarily and what is collected automatically – a boundary that can be difficult to detect.
+Unclear what the camera records
+When Meta offers services within the EU, the company is subject to the General Data Protection Regulation (GDPR), which requires transparency about how personal data is processed and where that processing takes place.
+Kleanthi Sardeli is a data protection lawyer at None Of Your Business (NOYB), a non-profit organisation in Vienna that has brought several legal cases against Meta. They are currently reviewing the new smart glasses.
+She says there is a clear transparency problem: users may not realise that the camera is recording when they begin speaking to the AI assistant.
+“If this happens in Europe, both transparency and a legal basis for the processing are lacking,” she says. She believes that explicit consent should be required when data is used to train artificial intelligence.
+“Once the material has been fed into the models, the user in practice loses control over how it is used,” Sardeli says.
+Petter Flink is an IT and security specialist at IMY, the Swedish Authority for Privacy Protection. It is the authority that is to protect Swedes’ personal data and privacy.
+According to him, few people truly consider what they are agreeing to when they start using services such as Meta’s glasses.
+“The user really has no idea what is happening behind the scenes”, says Petter Flink.
+At the same time, the technology has become both more accessible and more enticing, with new functions that quickly reach a broad audience.
+He emphasises that the data Meta collects is more valuable than the glasses themselves. The more details that can be extracted from the user’s everyday life, the more accurately advertising and services can be targeted at the person.
+"I think few people would want to share the details of their daily lives to that extent. But when it is presented in a fun and appealing way, it becomes harder to see the risks”, says Petter Flink.
+The Swedish Authority for Privacy Protection has not reviewed the Meta glasses.
+“Therefore we cannot comment on where the data ends up”, says Petter Flink.
+To understand what happens to the video footage generated when the AI service is used,
+we turn to people who previously worked at Meta in the US.
+They are unwilling to speak openly about their former workplace because of non-disclosure agreements and active careers in the tech industry.
+They speak with us on the condition of anonymity.
+According to our sources, sensitive data is not intended to be used to train the AI models.
+Even so, it can still happen.
+“As soon as the device ends up in the hands of users, they do whatever they want with it”, says one of the former Meta employees.
+According to the former Meta employees, faces that appear in annotation data are automatically blurred.
+However, data annotators in Kenya told SvD and GP that the anonymisation does not always work as intended. Faces that are to be covered are sometimes visible. We ask one of the former Meta employees how this is possible.
+“The algorithms sometimes miss. Especially in difficult lighting conditions, certain faces and bodies become visible”.
+Asking Meta about the private clips
+Where do the images come from? Can private videos from Sweden end up on screens in Kenya? Those who appear in the images, have they consented to appearing in this way?
+We contact Meta repeatedly for an open interview about how the company informs users about the glasses, what filters are used to prevent private material from reaching annotators, how the chain of subcontractors is audited, and why content showing extremely private situations appears.
+We also ask how long voice recordings and video clips are stored, how the possibility for consumers to object works, in practice, and whether the video clips can come from Swedish users.
+Glasögon video B.mp4
+After two months, we receive an email from Meta’s spokesperson in London, Joyce Omope. The letter does not directly answer our questions, but explains how data is transferred from the glasses to the user’s mobile app.
+Instead, Meta refers to its AI terms of use and privacy policy. These do not specify where the data ends up, but they do state that it may be subject to human review.
+We asked Meta to elaborate on how sharing highly private material with subcontractors such as Sama in Kenya can be reconciled with its privacy policy. We posed the same questions to Sama. There was no response.
+We receive no additional answers from Meta either and have to make do with what Meta’s spokesperson Joyce Omope first wrote:
+“When live AI is being used, we process that media according to the Meta AI Terms of Service and Privacy Policy.”
+A European Meta executive, who asked not to be named, says it does not matter where the data is processed as long as the data protection rules are equivalent to those in Europe.
+“Many believe that data must be stored within the EU to be protected. But under GDPR it does not matter where the server is located – as long as the country meets the EU’s requirements. If it does not, data may not be sent there”.
+They continue:
+“Technically, we have data centres in Sweden, Denmark and Ireland, but the physical location is actually less relevant. The legal responsibility lies with Meta Ireland, which is the European entity. Where the data is actually processed – in Europe or in the US – does not change the regulatory framework”.
+There is currently no EU decision recognising Kenya as providing an adequate level of protection, but the EU and Kenya began a dialogue on the matter in May 2024. It is expected to take time before an agreement is in place.
+Refers to the privacy policy
+Meta themselves write in their privacy policy that they must transfer, store and process user data globally, since “Meta is a company that operates globally”, and that they share information both internally between offices and data centres and externally with partners, third parties and service providers. Meta explicitly writes that this applies to interactions that people have with AI at Meta, for example content and messages.
+Petra Wierup, a lawyer at the Swedish Authority for Privacy Protection, IMY, says that if Meta is the data controller under GDPR, then they have a responsibility for Swedes’ personal data collected when the glasses are used.
+“For it to be permitted to use a service provider in a third country (outside the EU), it is required that robust agreements with instructions are in place. It must also be ensured that there is legal support for the transfers, so that the data that is transferred receives continued strong and equivalent protection when it is processed in a third country. The protection must therefore not become weaker when it is processed by subcontractors”, says Petra Wierup.
+At one end, the glasses are marketed as an everyday assistant – a voice in the frame that tells you what you are seeing. At the other end, people in Nairobi sit annotating the most intimate moments the camera captures: open-plan offices, living rooms, bedrooms, bathrooms.
+One annotator sums it up:
+“You think that if they knew about the extent of the data collection, no one would dare to use the glasses”.
