@@ -58,3 +58,25 @@ DEBUG: Scraping URL: https://e.foundation/e-os/
 DEBUG: Successfully scraped 6092 chars from https://e.foundation/e-os/. Saved to output/scraped_content/e_foundation_https___e_foundation_e_os_.txt
 DEBUG: Scraping URL: https://govbase.com
 DEBUG: Trafilatura failed to download https://govbase.com
+DEBUG: Scraping URL: https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/
+DEBUG: Successfully scraped 14376 chars from https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/. Saved to output/scraped_content/www_apple_com_oduces_macbook_pro_with_all_new_m5_pro_and_m5_max_.txt
+DEBUG: Scraping URL: http://karpathy.github.io/2026/02/12/microgpt/
+DEBUG: Successfully scraped 34223 chars from http://karpathy.github.io/2026/02/12/microgpt/. Saved to output/scraped_content/karpathy_github_io_http___karpathy_github_io_2026_02_12_microgpt_.txt
+DEBUG: Scraping URL: https://twitter.com/OpenAI/status/2027846016423321831
+DEBUG: Successfully scraped 293 chars from https://twitter.com/OpenAI/status/2027846016423321831. Saved to output/scraped_content/twitter_com_ps___twitter_com_OpenAI_status_2027846016423321831.txt
+DEBUG: Scraping URL: https://ghostty.org/docs
+DEBUG: Successfully scraped 739 chars from https://ghostty.org/docs. Saved to output/scraped_content/ghostty_org_https___ghostty_org_docs.txt
+DEBUG: Scraping URL: https://mlu-explain.github.io/decision-tree/
+DEBUG: Successfully scraped 6882 chars from https://mlu-explain.github.io/decision-tree/. Saved to output/scraped_content/mlu-explain_github_io_https___mlu_explain_github_io_decision_tree_.txt
+DEBUG: Scraping URL: https://99helpers.com/tools/ad-supported-chat
+DEBUG: Successfully scraped 6046 chars from https://99helpers.com/tools/ad-supported-chat. Saved to output/scraped_content/99helpers_com_https___99helpers_com_tools_ad_supported_chat.txt
+DEBUG: Scraping URL: https://atlas.flexport.com/
+DEBUG: Trafilatura failed to download https://atlas.flexport.com/
+DEBUG: Scraping URL: https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html
+DEBUG: Successfully scraped 4980 chars from https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html. Saved to output/scraped_content/ejholmes_github_io_b_io_2026_02_28_mcp_is_dead_long_live_the_cli_html.txt
+DEBUG: Scraping URL: https://developer.chrome.com/blog/webmcp-epp
+DEBUG: Successfully scraped 1951 chars from https://developer.chrome.com/blog/webmcp-epp. Saved to output/scraped_content/developer_chrome_com_https___developer_chrome_com_blog_webmcp_epp.txt
+DEBUG: Scraping URL: https://modernaicourse.org
+DEBUG: Successfully scraped 5726 chars from https://modernaicourse.org. Saved to output/scraped_content/modernaicourse_org_https___modernaicourse_org.txt
+DEBUG: Scraping URL: https://claude.com/import-memory
+DEBUG: Successfully scraped 1058 chars from https://claude.com/import-memory. Saved to output/scraped_content/claude_com_https___claude_com_import_memory.txt
