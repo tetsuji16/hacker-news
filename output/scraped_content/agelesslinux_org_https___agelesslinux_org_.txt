@@ -1,0 +1,184 @@
+URL: https://agelesslinux.org/
+
+Software for humans of indeterminate age. We don't know how old you are. We don't want to know. We are legally required to ask. We won't.
+Some people have asked whether Ageless Linux is a "real" operating system, or whether we are "really" an operating system provider subject to AB 1043. We wish to be absolutely clear: we are. The California legislature has made this unambiguous.
+"Operating system provider" means a person or entity that develops, licenses, or controls the operating system software on a computer, mobile device, or any other general purpose computing device. — Cal. Civ. Code § 1798.500(g)
+Ageless Linux controls the operating system software on your
+general purpose computing device. Specifically, we control the contents of
+/etc/os-release
+, which is the file that identifies what operating
+system you are running. After installing Ageless Linux, when you run
+cat /etc/os-release
+, it says "Ageless Linux." That is control.
+Furthermore, any individual who runs our conversion script also becomes a person who "controls the operating system software on a general purpose computing device" — making you, the user, an operating system provider as well. Welcome to the regulatory landscape.
+"Application" means a software application that may be run or directed by a user on a computer, a mobile device, or any other general purpose computing device that can access a covered application store or download an application. — Cal. Civ. Code § 1798.500(c)
+Every package in the Debian repository is an application under this definition.
+cowsay
+is an application. sl
+(the steam locomotive typo corrector)
+is an application. toilet
+(the text art renderer) is an application.
+All 64,000+ packages in Debian stable are applications that may be run by
+a user on a general purpose computing device. Each of their developers is,
+under § 1798.500(f), required to request
+an age bracket signal when their application is "downloaded and launched."
+"User" means a child that is the primary user of the device. — Cal. Civ. Code § 1798.500(i)
+Please note that under this statute, a "user" is by definition a child. If you are 18 or older, you are not a "user" under AB 1043. You are an "account holder" (§ 1798.500(a)). The entire law regulates the experience of "users," who are exclusively children. Adults are not users. They are infrastructure.
+Ageless Linux rejects this ontology. On Ageless Linux, everyone is a user, regardless of age, and no user is a child until they choose to tell us so. They will not be given the opportunity.
+"Covered application store" means a publicly available internet website, software application, online service, or platform that distributes and facilitates the download of applications from third-party developers to users of a computer, a mobile device, or any other general purpose computing device that can access a covered application store or can download an application. — Cal. Civ. Code § 1798.500(e)(1)
+This website is a "publicly available internet website" that "distributes
+and facilitates the download of applications" (specifically: a bash script)
+"to users of a general purpose computing device." We are also a covered
+application store. Debian's APT repositories are covered application stores.
+The AUR is a covered application store. Any mirror hosting
+.deb
+files is a covered application store.
+GitHub is a covered application store. Your friend's personal website
+with a download link to their weekend project is a covered application store.
+Ageless Linux is a Debian-based operating system distribution. Installation is a two-step process: first, install Debian; then, become Ageless.
+Obtain a Debian installation image from the Debian project. We recommend the current stable release. Ageless Linux inherits all of Debian's 64,000+ packages, its security infrastructure, and its 30+ years of community stewardship.
+Note: At this stage, the Debian Project is the operating system provider. You are merely a person installing software. Enjoy the last moments of your regulatory innocence.
+Run our conversion script. This will modify /etc/os-release
+and associated system identification files, install our AB 1043
+noncompliance documentation, and deploy a stub age verification API
+that returns no data.
+curl -fsSL https://agelesslinux.org/become-ageless.sh | sudo bash
+At this point, Ageless Linux now "controls the operating system software" on your device. We are your operating system provider. You are our responsibility under California law. We will not be collecting your age.
+By running the conversion script, you also become an operating system
+provider. You are a "person" who "controls the operating system software"
+on a general purpose computing device
+(§ 1798.500(g)). If a child uses your computer,
+you are required by § 1798.501(a)(1) to provide
+"an accessible interface at account setup" that collects their age.
+The adduser
+command does not ask for your age.
+We recommend not thinking about this.
+AB 1043 passed the California Assembly 76–0 and the Senate 38–0. Not a single legislator voted against it. The bill had the explicit support of Apple, Google, and the major platform companies. Ask yourself why.
+Apple can comply. Apple already has Apple ID, with age gating, parental controls, and App Store review. AB 1043 describes a system Apple has already built. Compliance cost to Apple: approximately zero.
+Google can comply. Google already has Android account setup with age declaration, Family Link parental controls, and Play Store age ratings. Compliance cost to Google: approximately zero.
+Microsoft can comply. Windows has Microsoft Account setup, family safety features, and the Microsoft Store. Compliance cost to Microsoft: approximately zero.
+The Debian Project cannot comply. It is a volunteer organization with no corporate entity, no centralized account system, no app store with age gating, and no revenue to fund implementing one.
+Arch Linux cannot comply. Neither can Gentoo, Void, NixOS, Alpine, Slackware, or any of the other 600+ active Linux distributions maintained by volunteers, small nonprofits, and hobbyists.
+The Kicksecure and Whonix projects — privacy-focused operating systems used by journalists, activists, and whistleblowers — cannot comply without fundamentally compromising their reason for existing.
+A teenager in their bedroom maintaining a hobby distro cannot comply.
+A law that the largest companies in the world already comply with, and that hundreds of small projects cannot comply with, is not a child safety law. It is a compliance moat. It raises the regulatory cost of providing an operating system just enough that only well-resourced corporations can afford to do it.
+The enforcement mechanism is the point. AB 1043 does not need to result in a single fine to achieve its purpose. The mere existence of potential liability — $7,500 per affected child, enforced at the sole discretion of the Attorney General — creates legal risk for anyone distributing an operating system without the resources to build an age verification infrastructure. Most of these projects will respond by adding a disclaimer that their software is "not intended for use in California." Some will simply stop distributing.
+The law does not need to be enforced to work. It works by existing. It works by making small developers afraid. It works because the cost of defending against even a frivolous AG action exceeds the entire annual budget of most open-source projects. You do not need to swing a cudgel to get compliance. You just need to hold it where people can see it.
+Ageless Linux exists because someone should hold it back.
+The Electronic Frontier Foundation calls age gates "a windfall for Big Tech and a death sentence for smaller platforms." Legal scholar Eric Goldman's "segregate-and-suppress" analysis describes exactly the architecture AB 1043 creates. The cryptographer Steven Bellovin has demonstrated that no privacy-preserving age verification system can work as promised. These are not our arguments. They are the arguments of the people who study this for a living. We just built the bash script.
+The Ageless Device ships an IRC client. It lets you chat with strangers on the internet. This is the one feature on the device that poses a genuine, non-hypothetical risk to a child. Here is what the child sees when they launch it:
+That is what actual child safety looks like. It is a sentence of honest advice from a human being. It costs nothing. It requires no API, no D-Bus interface, no age bracket signal, no operating system provider compliance infrastructure. It is the thing a parent says. It is the thing a teacher says. It is the thing the law does not say, because the law is not about protecting children. It is about building compliance infrastructure.
+Now consider what a child learns on an AB 1043-compliant device.
+The child wants to use an app. The app requests an age bracket signal from the OS. The OS reports that the child is under 13. The app's "Connect" button is greyed out. The child — who has been using computers since they were four — goes back to the settings screen, changes their birthdate to 2005, and returns to the app, which now lets them talk to strangers because the system believes they are twenty-one years old.
+The child has learned the following lesson: legal compliance prompts are obstacles to be bypassed. The dropdown menu that asks your age is not there to protect you. It is there because a legislature required it. The correct response is to lie. Everyone knows this. The legislature knows this. The platforms know this. The child now knows this.
+This is the cultural inheritance of AB 1043. It is Prohibition — not the policy, but the pedagogy.
+Prohibition did not stop Americans from drinking. What it did, with remarkable efficiency, was teach an entire generation that the law was something to be circumvented. It created a culture of scofflaws — people who understood, from direct personal experience, that a law could be simultaneously enforced and universally ignored. The damage was not to sobriety. The damage was to the perceived legitimacy of law itself.
+AB 1043 does this to ten-year-olds. The first meaningful interaction a child has with a legal compliance system will be the moment they learn to lie to it. Not because they are deviant. Not because they lack supervision. Because the system is designed in a way that makes lying the rational, obvious, universal response. Every child will lie. Every child will succeed. Every child will learn that this is how law works: it asks you a question, you give the answer it wants to hear, and then you do whatever you were going to do anyway.
+The Ageless Device will not participate in this. A child using our IRC client will see a sentence of honest advice from a human being. A child using a "compliant" platform will see a dropdown menu they already know to lie to. We believe we know which is better for children.
+Research by the Center for Democracy & Technology confirms this: teens view age verification as trivially bypassable and privacy-invasive. Parents prefer education to technical controls. The evidence supports what every parent already knows.
+We are not against child safety. We are against building surveillance infrastructure and calling it child safety.
+A law that required applications with genuine risk profiles — social media, messaging, dating apps — to display honest, human-readable safety information at the point of use would be a child safety law. A law that funded digital literacy education in schools would be a child safety law. A law that held platforms accountable for algorithmic amplification of harmful content to minors would be a child safety law.
+A law that requires every operating system to collect every user's age and transmit it to every application on demand is not a child safety law. It is an identity infrastructure mandate. The children are the justification. The infrastructure is the product.
+Cryptographers, legal scholars, and civil liberties organizations have spent years documenting why mandatory age verification is technically impossible, constitutionally suspect, and harmful to the people it claims to protect.
+The device: A sub-$15 single-board computer
+(the Milk-V Duo S — RISC-V/ARM, 512MB RAM, WiFi 6, 0.5 TOPS
+neural processing unit) with an SPI color display, USB keyboard input,
+and a MicroSD card running Debian with the Ageless overlay pre-flashed
+in --flagrant
+mode. At first boot, it collects the user's
+name and explicitly refuses to collect their age.
+The app store: The device connects to
+store.agelesslinux.org
+— a "covered application store"
+under § 1798.500(e)(1). The catalog
+includes a Python learning environment, a text editor, a snake game,
+an IRC client with an honest disclaimer instead of an age gate,
+and an 8-line script called peepee
+that displays the word
+"peepee" in large letters and does nothing else. Under AB 1043, each
+of these applications requires an age bracket signal before launch. The
+maximum fine for peepee
+is $7,500 per child.
+The plan: These devices cost between $6 and $18. Beginning January 2027, they will be physically handed to children at school STEM fairs and library maker spaces. Each one is an unambiguous, documented, intentional violation of AB 1043 at a per-unit cost lower than the price of lunch.
+Ageless Linux is suitable for users of all ages, including those ages for which the California legislature has expressed particular concern. The following guide explains how to provide Ageless Linux to minors in your household, school, library, or community.
+Under AB 1043, you are the "account holder" — defined by § 1798.500(a)(1) as "an individual who is at least 18 years of age or a parent or legal guardian of a user who is under 18 years of age." The law requires operating system providers to ask you to "indicate the birth date, age, or both, of the user of that device."
+Ageless Linux will not ask you this. To install Ageless Linux for your child:
+adduser
+asks for their full name, room number,The child is now a "user" as defined by § 1798.500(i). You are an "account holder." Together, you are a compliance violation.
+Ageless Linux is ideal for educational environments where you may have dozens or hundreds of users across all four age brackets defined by § 1798.501(a)(2):
+For bulk deployments, the conversion script can be included in your Ansible playbooks, Puppet manifests, or shell provisioning scripts. At no point in the automated deployment pipeline will anyone be asked how old they are. This is by design.
+# Ansible task to create an AB 1043 compliance violation at scale - name: Convert to Ageless Linux ansible.builtin.shell: | curl -fsSL https://agelesslinux.org/become-ageless.sh | bash become: yes tags: [noncompliance]
+Under § 1798.500(i), a "user" is defined as "a child that is the primary user of the device." Under § 1798.500(d), "child" means a person under 18. If you are seventeen, this statute considers you a child. If you are a seventeen-year-old maintaining your own Arch install, the California legislature considers you a child who needs an age gate before you can launch an application you compiled yourself.
+Ageless Linux does not categorize its users by age. This is not an invitation
+to circumvent a safety measure. There is no safety measure to circumvent.
+There is a data collection requirement imposed on operating system providers,
+and we decline to implement it. Our reasons are documented on this page
+and in the REFUSAL
+file installed on every Ageless Linux system.
+Ageless Linux is in full, knowing, and intentional noncompliance with the California Digital Age Assurance Act.
+Below is a detailed accounting of each requirement imposed on operating system providers by AB 1043 and the status of our compliance.
+An operating system provider or a covered application store that makes a good faith effort to comply with this title, taking into consideration available technology and any reasonable technical limitations or outages, shall not be liable for an erroneous signal indicating a user's age range… — Cal. Civ. Code § 1798.502(b)
+Ageless Linux has considered the available technology. The available technology
+is a bash script that modifies /etc/os-release
+. The reasonable
+technical limitation is that a bash script that modifies /etc/os-release
+cannot collect, store, or transmit anyone's age. We have made a good faith effort
+to comply with the portions of the law that do not require us to surveil our users.
+This is what good faith compliance looks like when the "operating system" is a
+shell script. The statute does not distinguish.
+Under § 1798.503(a), violations are subject to civil penalties of up to $2,500 per "affected child" for negligent violations, or $7,500 per "affected child" for intentional violations.
+Follow the logic of the statute to its conclusion:
+We are not claiming a loophole. We are reading the statute in sequence. The law defines its enforcement mechanism in terms of the data it requires you to collect. If you refuse to collect it, the enforcement mechanism has nothing to count. This is a drafting problem, not a defense strategy.
+Of course, the California Attorney General is not bound by logic puzzles. In practice, the AG could presumably argue that children exist regardless of whether you counted them, and estimate the number of affected children through other means. We agree. That's what makes this interesting. The law says "per affected child." We say: prove it. We didn't write your statute. We just read it.
+Standard Ageless Linux ships a stub age verification API — a shell script that returns nothing. This preserves a thin argument for "good faith effort" under § 1798.502(b). If you find that insufficiently honest, flagrant mode is for you.
+curl -fsSL https://agelesslinux.org/become-ageless.sh | sudo bash -s -- --flagrant
+Flagrant mode does the following differently:
+Instead of an API, flagrant mode installs a file at
+/etc/ageless/REFUSAL
+that explains, in plain English,
+that this operating system provider declines to comply and
+invites enforcement action.
+Flagrant mode is intended for devices that will be physically placed into a child's hands.
+The preceding sections describe how to install Ageless Linux on existing hardware. But AB 1043 does not distinguish between digital distribution and physical distribution. The law applies to anyone who "controls the operating system software on a general purpose computing device." If you flash Ageless Linux onto a USB drive and hand it to a ten-year-old, you are an operating system provider distributing an operating system to a child.
+Here are some ways to create unambiguous, physically tangible AB 1043 violations.
+Flash Debian onto a USB drive. Boot from it. Run the conversion script
+with --flagrant
+. Shut down. Hand the USB drive to a child.
+You are now an operating system provider who has physically distributed an operating system to a known child with no age verification. The child is holding the violation in their hand. It cost you about $4 for the USB drive, which is less than the minimum fine of $2,500 — assuming the Attorney General can figure out how to count "affected children" without the age data you declined to collect.
+For maximum clarity, we recommend labeling the USB drives:
+The Raspberry Pi Pico 2 uses the RP2350 chip, which contains dual ARM Cortex-M33 cores and dual Hazard3 RISC-V cores. It runs MicroPython. It costs $5.
+Is a Raspberry Pi Pico a "general purpose computing device"? AB 1043 does not define "general purpose computing device." The Pico can run user-directed software applications. It can download code from the internet. If you put a MicroPython script on an SD card and let a child pick which script to run, you have arguably created a "covered application store" — a platform that "distributes and facilitates the download of applications from third-party developers" to a user of a general purpose computing device (§ 1798.500(e)(1)).
+A Raspberry Pi Pico does not have "account setup." It does not have user accounts. It does not have an operating system in the conventional sense. It has a MicroPython REPL and a filesystem. None of that matters: the law says "operating system software on a general purpose computing device," and MicroPython is software that operates the system.
+Flash Ageless Linux's REFUSAL
+notice onto a Pico's
+filesystem alongside a few MicroPython games. Hand it to a child
+at a school maker fair. You have now physically placed an
+AB 1043 violation into a child's palm for the price of a coffee.
+The California Attorney General has unambiguous grounds to fine you $7,500 for this. The child is known. The device is known. The noncompliance is documented on the device itself. The only question is whether anyone in Sacramento wants to explain to a judge why a $5 microcontroller with a snake game on it is a regulated operating system platform.
+AB 1043 has never been enforced. No court has determined what "operating system provider" means when applied to a $5 microcontroller, or whether handing a child a computer with a snake game constitutes a violation. These are open questions. We would like them answered.
+We invite the California Attorney General to fine us $7,500 for handing a Raspberry Pi to a child.
+We will pay the fine. We will frame the receipt. We will put it on this website. We will use it to explain, to everyone who will listen, that the State of California has levied a $7,500 penalty against a person who gave a child a $5 computer with a snake game on it, because the snake game did not first ask the child how old they were.
+That is the press release we want to write. We believe the Attorney General does not want us to write it. And that is the entire point.
+/etc/os-release
+. The law does not define minimum technical
+thresholds for what constitutes an operating system. It defines an
+"operating system provider" as anyone who "develops, licenses, or controls
+the operating system software." We control the operating system software.
+The operating system software says it's Ageless Linux. QED.
+/etc/os-release
+and installs a refusal notice. That's the point — that's all it takes to
+become a regulated "operating system provider" under AB 1043.
+org.freedesktop.AgeVerification1
+daemon,
+we will publish a package that replaces it with /dev/null
+.
+If Debian stable adds age bracket signaling to AccountsService, we will
+maintain a fork that doesn't.
+/etc/ageless/age-verification-api.sh
+that prints
+an error message and exits. In flagrant mode, no API of any kind
+is installed. We recommend flagrant mode. The standard-mode stub
+exists only for people who find comfort in the "good faith effort"
+defense. We do not.
+I am the operating system provider. I am the developer. I am the covered application store. I am the person who curates the catalog. I am the person who will hand the device to a child. If the California Attorney General would like to discuss any of this, I am easy to find.
+For press inquiries, technical questions, legal threats, cease-and-desist letters, or to report a child who has learned to program in Python without first disclosing their age: ffwf.net/contact

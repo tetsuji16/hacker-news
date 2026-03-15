@@ -1,0 +1,20 @@
+DEBUG: Scraping URL: https://agelesslinux.org/
+DEBUG: Successfully scraped 23205 chars from https://agelesslinux.org/. Saved to output/scraped_content/agelesslinux_org_https___agelesslinux_org_.txt
+DEBUG: Scraping URL: https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european
+DEBUG: Successfully scraped 4372 chars from https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european. Saved to output/scraped_content/www_airbus_com_craft_from_kratos_for_first_flight_with_a_european.txt
+DEBUG: Scraping URL: https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/
+DEBUG: Successfully scraped 76302 chars from https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/. Saved to output/scraped_content/s4dbrd_github_io_4dbrd_github_io_posts_how_kernel_anti_cheats_work_.txt
+DEBUG: Scraping URL: https://atgreen.github.io/repl-yell/posts/sbcl-fibers/
+DEBUG: Successfully scraped 99047 chars from https://atgreen.github.io/repl-yell/posts/sbcl-fibers/. Saved to output/scraped_content/atgreen_github_io_s___atgreen_github_io_repl_yell_posts_sbcl_fibers_.txt
+DEBUG: Scraping URL: https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/
+DEBUG: Successfully scraped 12686 chars from https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/. Saved to output/scraped_content/ayushtambde_com_search_distillation_for_language_models_using_ppo_.txt
+DEBUG: Scraping URL: https://www.smithsonianmag.com/science-nature/bumblebee-queens-breathe-underwater-to-survive-drowning-revealing-how-they-can-live-submerged-for-a-week-180988330/
+DEBUG: Successfully scraped 8605 chars from https://www.smithsonianmag.com/science-nature/bumblebee-queens-breathe-underwater-to-survive-drowning-revealing-how-they-can-live-submerged-for-a-week-180988330/. Saved to output/scraped_content/www_smithsonianmag_com__how_they_can_live_submerged_for_a_week_180988330_.txt
+DEBUG: Scraping URL: https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/
+DEBUG: Successfully scraped 1816 chars from https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/. Saved to output/scraped_content/sebi_io_3_14_allow_me_to_get_to_know_you_mistakes_and_all_.txt
+DEBUG: Scraping URL: https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/
+DEBUG: Successfully scraped 5568 chars from https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/. Saved to output/scraped_content/terrytao_wordpress_com_matics_distillation_challenge_equational_theories_.txt
+DEBUG: Scraping URL: https://github.com/groverburger/grobpaint
+DEBUG: Successfully scraped 3567 chars from https://github.com/groverburger/grobpaint. Saved to output/scraped_content/github_com_https___github_com_groverburger_grobpaint.txt
+DEBUG: Scraping URL: https://sa.lj.am/rack-mount-hydroponics/
+DEBUG: Successfully scraped 5219 chars from https://sa.lj.am/rack-mount-hydroponics/. Saved to output/scraped_content/sa_lj_am_https___sa_lj_am_rack_mount_hydroponics_.txt

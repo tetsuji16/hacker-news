@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Hacker News デイリー (日本) </title>
+    <link>https://news.ycombinator.com</link>
+    <description>Hacker Newsのトップ記事をAIが日本語で要約してお届けするポッドキャストです。</description>
+    <itunes:explicit>no</itunes:explicit>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Sun, 15 Mar 2026 11:00:16 +0000</lastBuildDate>
+    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+    <itunes:category text="Technology"/>
+    <itunes:image href="https://tetsuji16.github.io/hacker-news/output/HackerNewsLogo.png"/>
+    <item>
+      <title>Hacker News アップデート 2026-03-15</title>
+      <description><![CDATA[2026-03-15のHacker Newsトップストーリー要約:
+
+・ Ageless Linux – Software for humans of indeterminate age
+・ Airbus is preparing two uncrewed combat aircraft
+・ How kernel anti-cheats work
+・ SBCL Fibers – Lightweight Cooperative Threads
+・ Tree Search Distillation for Language Models Using PPO
+・ Bumblebee queens breathe underwater to survive drowning
+・ Allow me to get to know you, mistakes and all
+・ Mathematics Distillation Challenge – Equational Theories
+・ Show HN: GrobPaint: Somewhere Between MS Paint and Paint.net
+・ Rack-mount hydroponics
+
+AIによって生成された日本語の要約をお楽しみください。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-15.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-15.mp3" length="9152684" type="audio/mpeg"/>
+      <itunes:duration>38:08</itunes:duration>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

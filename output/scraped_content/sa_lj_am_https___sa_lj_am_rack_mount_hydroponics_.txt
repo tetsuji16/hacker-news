@@ -1,0 +1,33 @@
+URL: https://sa.lj.am/rack-mount-hydroponics/
+
+early 2026
+i started growing lettuce in a spare server cabinet. this is, for many reasons, a terrible idea. here's how i did it.
+for reasons i won't explain here (because i genuinely can't) we ended up with two whole 42u rack cabinets when we only really needed about 10u. also, it seems like the door frame for this room was installed after these were wheeled in so simply pushing the extra one out without taking it apart isn't going to work.
+as fun as it sounds to go out and hoard 42u's worth of equipment to fill the void of my empty cabinet, i simply have no interest in running any of it. i want less computer, not more. in fact i've always dreamed of quitting computers and starting a farm. growing lettuce in the extra server cabinet just seemed like a good stepping stone. maybe.
+the design i went for is a flood and drain system. it's apparently also called ebb and flow. these work by growing the plants in growth medium (rock-wool, perlite, clay balls) in individual plastic or fabric pots. these are placed in trays that regularly get flooded with nutrient-rich water pumped from a reservoir.
+the flood cycle runs a few times a day. it is short, just enough to wet the roots of the plants. depending on your pump, this is usually in the order of a couple of minutes. to make sure the water does not go above a certain level in the flood cycle, most flood and drain tray designs have two holes at the bottom. one is an inlet connected to the pump. the other is a drain with an adjustable height, which drains away any overflow water.
+strangers on the internet often say flood and drain systems are the worst way to grow anything other than mould and algae. they are probably not wrong. however, these systems are also very simple, which means within my grasp. so here we are.
+the shopkeeper fetched them from somewhere outside the shop and clearly made up the price on the spot. i chose not to ask too many questions.
+they do make specialised trays for flood and drain systems, which have much better drainage. but they don't come in server rack size. otherwise this page would not be this long, now, would it?
+starting with the reservoir, you need to drill a number of holes in the lid:
+if you can find gaskets in the right size for these holes that's better. the less light that gets in your reservoir the less likely you'll have algae problems.
+then for the trays themselves you need two holes the appropriate size for your flood and drain kit.
+next, install the shelves, giving each grow tray around 10u. optional side quest: discover that they're not quite the right size for your rack and kludge it together with long and extremely rickety bolts.
+the shelves i got had helpful holes in them so it was straightforward to hang the lights with a bunch m5 bolts.
+now put the boxes on the shelves, reservoir at the bottom, thread the pump and aerator pipes and cords through the reservoir lid, terminate all the power cords, cut and connect the pump and drain pipes, and you're almost ready to plant.
+i started with seeds in a tray of rockwool. i was surprised how quickly the lettuces germinated, some in less than 24 hours. the other seeds (parsley, coriander, dill, spinach) took a little longer to germinate, and none of basil i tried sprouted.
+once they were large enough i moved them to individual mesh pots and added clay balls or perlite.
+one thing that didn't go so well: when the tray is flooded, some of the pots would float and then comically tip over. i managed to deal with this by sterilising some rocks and putting them at the bottom of the pots, but it feels like this should not be happening in the first place. maybe i should look into making a framework to hold them in place.
+i started with 18 hours of light and 4 flood cycles a day. over time i adjusted the flood cycle count to deal with signs of algae or dryness in the plants, and ended up with just two.
+naturally, since the equipments are plugged into a pdu they are controlled by cronjobs:
+# (aziz,) light
+0 4 * * * root ssh plantpower.internal on 2,3
+0 22 * * * root ssh plantpower.internal off 2,3
+# pump
+0 7 * * * root ssh plantpower.internal on 1
+2 7 * * * root ssh plantpower.internal off 1
+0 16 * * * root ssh plantpower.internal on 1
+2 16 * * * root ssh plantpower.internal off 1
+i found some mystery pink powder that claimed to be an npk 12-12-36 + trace elements fertiliser. it came with absolutely no dosage information at all so i chanced it with 20 grams for 30 litres of water in the reservoir. that seemed to work well enough for the lettuce at least, so i stuck with it. i'll start to play around with this once i get repeatable results.
+i was bracing for disaster, given how silly this whole thing is, but this worked much better than i expected. so far, i was able to successfully grow a few batches of different kinds of lettuce as well as various herbs, and it only leaked water all over our utility closet just twice.
+all that said, if you actually just want to grow stuff, you should probably not do any of this. this is not a serious guide and there are better approaches out there. but you do you. i had my fun with it, learned some things about hydroponics, and ate some delicious salads along the way.
