@@ -1,0 +1,8 @@
+URL: https://pixeldust.se/monkey-island-project
+
+The monkey island project
+The ongoing work involves the classic The Secret of Monkey Island. We are converting the complete game for the Commodore 64. My task in this project is to bring all the graphics to the screen on the Commodore 64 platform. This is a large task involving a meticulous process of hand-drawing each background, as well as the animations and characters.
+To be released sometime in the future. In the meantime, I will continue posting new artwork here.
+The game is coded by Andreas Larsson.
+Gameplay from some famous scenes. The game is not finished so things will be polished and further refined in the future.
+A collection of backgrounds from the game.

@@ -1,98 +1,1753 @@
 
---- New Job Started for 2026-03-15 at 2026-03-15 19:40:09.734246 ---
-SUCCESS: Ageless Linux – Software for humans of indeterminate age (https://agelesslinux.org/)
-SUCCESS: Airbus is preparing two uncrewed combat aircraft (https://www.airbus.com/en/newsroom/press-releases/2026-03-airbus-is-preparing-two-uncrewed-combat-aircraft-from-kratos-for-first-flight-with-a-european)
-SUCCESS: How kernel anti-cheats work (https://s4dbrd.github.io/posts/how-kernel-anti-cheats-work/)
-SUCCESS: SBCL Fibers – Lightweight Cooperative Threads (https://atgreen.github.io/repl-yell/posts/sbcl-fibers/)
-SUCCESS: Tree Search Distillation for Language Models Using PPO (https://ayushtambde.com/blog/tree-search-distillation-for-language-models-using-ppo/)
-SUCCESS: Bumblebee queens breathe underwater to survive drowning (https://www.smithsonianmag.com/science-nature/bumblebee-queens-breathe-underwater-to-survive-drowning-revealing-how-they-can-live-submerged-for-a-week-180988330/)
-SUCCESS: Allow me to get to know you, mistakes and all (https://sebi.io/posts/2026-03-14-allow-me-to-get-to-know-you-mistakes-and-all/)
-SUCCESS: Mathematics Distillation Challenge – Equational Theories (https://terrytao.wordpress.com/2026/03/13/mathematics-distillation-challenge-equational-theories/)
-SUCCESS: Show HN: GrobPaint: Somewhere Between MS Paint and Paint.net (https://github.com/groverburger/grobpaint)
-SUCCESS: Rack-mount hydroponics (https://sa.lj.am/rack-mount-hydroponics/)
+--- New Job Started at 2026-02-01 11:15:43.809320 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+FAIL: Summarization error - What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+FAIL: Summarization error - The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+FAIL: Summarization error - Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+FAIL: Summarization error - Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+FAIL: Summarization error - List animals until failure (https://rose.systems/animalist/)
+FAIL: Summarization error - pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+FAIL: Summarization error - Cells use 'bioelectricity' to coordinate and make group decisions (https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/)
 
---- New Job Started for 2026-03-01 at 2026-03-15 20:51:14.286064 ---
+--- New Job Started at 2026-02-01 11:19:30.428598 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+FAIL: Summarization error - What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+FAIL: Summarization error - The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+FAIL: Summarization error - Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+FAIL: Summarization error - Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+FAIL: Summarization error - List animals until failure (https://rose.systems/animalist/)
+FAIL: Summarization error - pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+FAIL: Summarization error - Cells use 'bioelectricity' to coordinate and make group decisions (https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/)
+
+--- New Job Started at 2026-02-01 11:26:45.005331 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+SUCCESS: In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+FAIL: Summarization error - pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+FAIL: Summarization error - Coffee as a staining agent substitute in electron microscopy (https://phys.org/news/2026-01-coffee-agent-substitute-electron-microscopy.html)
+
+--- New Job Started at 2026-02-01 11:28:07.044180 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+SUCCESS: In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+SUCCESS: Coffee as a staining agent substitute in electron microscopy (https://phys.org/news/2026-01-coffee-agent-substitute-electron-microscopy.html)
+
+--- New Job Started at 2026-02-01 11:37:09.506355 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+FAIL: Summarization error - List animals until failure (https://rose.systems/animalist/)
+FAIL: Summarization error - pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+FAIL: Summarization error - Coffee as a staining agent substitute in electron microscopy (https://phys.org/news/2026-01-coffee-agent-substitute-electron-microscopy.html)
+
+--- New Job Started at 2026-02-01 11:45:11.892331 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+FAIL: Summarization error - The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+FAIL: Summarization error - Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+FAIL: Summarization error - Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+FAIL: Summarization error - List animals until failure (https://rose.systems/animalist/)
+
+--- New Job Started at 2026-02-01 11:58:19.621127 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+FAIL: Summarization error - What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+FAIL: Summarization error - The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+FAIL: Summarization error - Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+FAIL: Summarization error - Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+FAIL: Summarization error - VisualJJ – Jujutsu in Visual Studio Code (https://www.visualjj.com/)
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+FAIL: Summarization error - pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+FAIL: Summarization error - List animals until failure (https://rose.systems/animalist/)
+
+--- New Job Started at 2026-02-01 12:10:41.675674 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+FAIL: Summarization error - What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+FAIL: Summarization error - The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+FAIL: Summarization error - How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+FAIL: Summarization error - Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+
+--- New Job Started at 2026-02-01 12:17:45.064901 ---
+FAIL: Scraping failed or too short - Netbird a German Tailscale alternative (P2P WireGuard-based overlay network) (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+
+--- New Job Started at 2026-02-01 12:55:42.443562 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+
+--- New Job Started at 2026-02-01 13:06:10.475450 ---
+
+--- New Job Started at 2026-02-01 13:06:57.140872 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: VisualJJ – Jujutsu in Visual Studio Code (https://www.visualjj.com/)
+
+--- New Job Started at 2026-02-01 13:24:21.612229 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+SUCCESS: VisualJJ – Jujutsu in Visual Studio Code (https://www.visualjj.com/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+
+--- New Job Started at 2026-02-01 13:32:52.360990 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+
+--- New Job Started at 2026-02-01 13:38:57.891733 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+FAIL: Summarization error - VisualJJ – Jujutsu in Visual Studio Code (https://www.visualjj.com/)
+
+--- New Job Started at 2026-02-01 13:44:31.046351 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+
+--- New Job Started at 2026-02-01 13:45:14.247251 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+FAIL: Summarization error - What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+
+--- New Job Started at 2026-02-01 13:48:17.009759 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+FAIL: Summarization error - What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+
+--- New Job Started at 2026-02-01 13:49:17.085236 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+
+--- New Job Started at 2026-02-01 13:50:16.674447 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+
+--- New Job Started at 2026-02-01 13:51:17.448909 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+
+--- New Job Started at 2026-02-01 23:00:52.718977 ---
+
+--- New Job Started at 2026-02-01 14:01:26.281815 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+
+--- New Job Started at 2026-02-01 14:05:35.915760 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=uMqx8NNT4xY
+
+--- New Job Started at 2026-02-01 14:10:40.628061 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+
+--- New Job Started at 2026-02-01 14:17:05.774623 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SUCCESS: MicroPythonOS graphical operating system delivers Android-like user experience (https://www.cnx-software.com/2026/01/29/micropythonos-graphical-operating-system-delivers-android-like-user-experience-on-microcontrollers/)
+
+--- New Job Started at 2026-02-01 14:23:01.743061 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SUCCESS: MicroPythonOS graphical operating system delivers Android-like user experience (https://www.cnx-software.com/2026/01/29/micropythonos-graphical-operating-system-delivers-android-like-user-experience-on-microcontrollers/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+
+--- New Job Started at 2026-02-01 14:31:23.673443 ---
+
+--- New Job Started at 2026-02-01 14:33:26.311976 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: What I learned building an opinionated and minimal coding agent (https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
+SUCCESS: How to Scale a System from 0 to 10M+ Users (https://blog.algomaster.io/p/scaling-a-system-from-0-to-10-million-users)
+SUCCESS: The Book of PF, 4th edition (https://nostarch.com/book-of-pf-4th-edition)
+SUCCESS: Sometimes your job is to stay the hell out of the way (https://randsinrepose.com/archives/sometimes-your-job-is-to-stay-the-hell-out-of-the-way/)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: MicroPythonOS graphical operating system delivers Android-like user experience (https://www.cnx-software.com/2026/01/29/micropythonos-graphical-operating-system-delivers-android-like-user-experience-on-microcontrollers/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: Amiga Unix (Amix) (https://www.amigaunix.com/doku.php/home)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+
+--- New Job Started for 2025-12-31 at 2026-02-01 14:52:32.444819 ---
+
+--- New Job Started for 2026-01-01 at 2026-02-01 14:52:38.203274 ---
+
+--- New Job Started for 2026-01-02 at 2026-02-01 14:52:41.498163 ---
+SUCCESS: Publish on your own site, syndicate elsewhere (https://indieweb.org/POSSE#)
+SUCCESS: Daft Punk Easter Egg in the BPM Tempo of Harder, Better, Faster, Stronger? (https://www.madebywindmill.com/tempi/blog/hbfs-bpm/)
+SUCCESS: Clicks Communicator (https://www.clicksphone.com/en/communicator)
+SUCCESS: HPV vaccination reduces oncogenic HPV16/18 prevalence from 16% to <1% in Denmark (https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.27.2400820)
+
+--- New Job Started for 2025-12-31 at 2026-02-01 14:54:24.012570 ---
+SUCCESS: Why users cannot create Issues directly (https://github.com/ghostty-org/ghostty/issues/3558)
+SUCCESS: Happy Public Domain Day 2026 (https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/)
+SUCCESS: Fighting Fire with Fire: Scalable Oral Exams (https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html)
+SUCCESS: Linux kernel security work (http://www.kroah.com/log/blog/2026/01/02/linux-kernel-security-work/)
+SUCCESS: I canceled my book deal (https://austinhenley.com/blog/canceledbookdeal.html)
+
+--- New Job Started for 2026-01-03 at 2026-02-01 14:59:20.860371 ---
+FAIL: Scraping failed or too short - Trump says Venezuela’s Maduro captured after strikes (https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/)
+FAIL: Scraping failed or too short - Total monthly number of StackOverflow questions over time (https://data.stackexchange.com/stackoverflow/query/1926661#graph)
+SUCCESS: 2026 will be my year of the Linux desktop (https://xeiaso.net/notes/2026/year-linux-desktop/)
+
+--- New Job Started for 2025-12-31 at 2026-02-01 15:00:36.584111 ---
+SUCCESS: The Most Popular Blogs of Hacker News in 2025 (https://refactoringenglish.com/blog/2025-hn-top-5/)
+SUCCESS: I canceled my book deal (https://austinhenley.com/blog/canceledbookdeal.html)
+SUCCESS: Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc. (https://exopriors.com/scry)
+SUCCESS: Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc. (https://exopriors.com/scry)
+FAIL: Scraping failed or too short - Akin's Laws of Spacecraft Design (2011) [pdf] (https://www.ece.uvic.ca/~elec399/201409/Akin%27s%20Laws%20of%20Spacecraft%20Design.pdf)
+FAIL: Scraping failed or too short - Akin's Laws of Spacecraft Design (2011) [pdf] (https://www.ece.uvic.ca/~elec399/201409/Akin%27s%20Laws%20of%20Spacecraft%20Design.pdf)
+SUCCESS: IPv6 just turned 30 and still hasn't taken over the world (https://www.theregister.com/2025/12/31/ipv6_at_30/)
+
+--- New Job Started for 2025-12-01 at 2026-02-01 15:02:09.472845 ---
+FAIL: Scraping failed or too short - DeepSeek-v3.2: Pushing the frontier of open large language models [pdf] (https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf)
+FAIL: Scraping failed or too short - India orders smartphone makers to preload state-owned cyber safety app (https://www.reuters.com/sustainability/boards-policy-regulation/india-orders-mobile-phones-preloaded-with-government-app-ensure-cyber-safety-2025-12-01/)
+FAIL: Summarization error - The C3 Programming Language (https://c3-lang.org)
+SUCCESS: A faster heart for F-Droid (https://f-droid.org/2025/12/30/a-faster-heart-for-f-droid.html)
+FAIL: Summarization error - Swift on Android: Full Native App Development Now Possible (https://docs.swifdroid.com/app/)
+SUCCESS: A Basic Just-In-Time Compiler (2015) (https://nullprogram.com/blog/2015/03/19/)
+SUCCESS: Search tool that only returns content created before ChatGPT's public release (https://tegabrain.com/Slop-Evader)
+SUCCESS: IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf] (https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf)
+SUCCESS: A faster heart for F-Droid (https://f-droid.org/2025/12/30/a-faster-heart-for-f-droid.html)
+FAIL: Scraping failed or too short - Cartographers have been hiding illustrations inside Switzerland’s maps (2020) (https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/)
+SUCCESS: A Beginner's Two-Component Crystal-Style Wi-Fi Detector (https://siliconjunction.wordpress.com/2025/12/12/a-beginners-two-component-crystal-style-wi-fi-detector/)
+SUCCESS: Warren Buffett steps down as Berkshire Hathaway CEO after six decades (https://www.latimes.com/business/story/2025-12-31/warren-buffett-steps-down-as-berkshire-hathaway-ceo-after-six-decades)
+
+--- New Job Started for 2026-01-04 at 2026-02-01 15:08:09.155326 ---
+SUCCESS: Google unkills JPEG XL? (https://tonisagrista.com/blog/2025/google-unkills-jpegxl/)
+SUCCESS: Lessons from 14 years at Google (https://addyosmani.com/blog/21-lessons/)
+SUCCESS: Warren Buffett steps down as Berkshire Hathaway CEO after six decades (https://www.latimes.com/business/story/2025-12-31/warren-buffett-steps-down-as-berkshire-hathaway-ceo-after-six-decades)
+SUCCESS: The unbearable joy of sitting alone in a café (https://candost.blog/the-unbearable-joy-of-sitting-alone-in-a-cafe/)
+FAIL: Summarization error - The compiler is your best friend (https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it)
+SUCCESS: Street Fighter II, the World Warrier (2021) (https://fabiensanglard.net/sf2_warrier/)
+SUCCESS: Neural Networks: Zero to Hero (https://karpathy.ai/zero-to-hero.html)
+SUCCESS: Web development is fun again (https://ma.ttias.be/web-development-is-fun-again/)
+SUCCESS: Claude Code On-the-Go (https://granda.org/en/2026/01/02/claude-code-on-the-go/)
+SUCCESS: Ghostty compiled to WASM with xterm.js API compatibility (https://github.com/coder/ghostty-web)
+FAIL: Summarization error - The compiler is your best friend (https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it)
+SUCCESS: The suck is why we're here (https://nik.art/the-suck-is-why-were-here/)
+SUCCESS: Demystifying DVDs (https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs)
+SUCCESS: Show HN: An interactive guide to how browsers work (https://howbrowserswork.com/)
+SUCCESS: Show HN: Terminal UI for AWS (https://github.com/huseyinbabal/taws)
+SUCCESS: I charged $18k for a Static HTML Page (2019) (https://idiallo.com/blog/18000-dollars-static-web-page)
+SUCCESS: Why xor eax, eax? (https://xania.org/202512/01-xor-eax-eax)
+FAIL: Scraping failed or too short - Algorithms for Optimization [pdf] (https://algorithmsbook.com/optimization/files/optimization.pdf)
+SUCCESS: Demystifying DVDs (https://hiddenpalace.org/News/One_Bad_Ass_Hedgehog_-_Shadow_the_Hedgehog#Demystifying_DVDs)
+SUCCESS: My role as a founder-CTO: year 8 (https://miguelcarranza.es/cto-year-8)
+FAIL: Summarization error - Codex, Opus, Gemini try to build Counter Strike (https://www.instantdb.com/essays/agents_building_counterstrike)
+SUCCESS: My role as a founder-CTO: year 8 (https://miguelcarranza.es/cto-year-8)
+
+--- New Job Started for 2026-01-05 at 2026-02-01 15:20:18.166944 ---
+SUCCESS: Animated AI (https://animatedai.github.io/)
+SUCCESS: It's hard to justify Tahoe icons (https://tonsky.me/blog/tahoe-icons/)
+SUCCESS: Databases in 2025: A Year in Review (https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html)
+SUCCESS: There were BGP anomalies during the Venezuela blackout (https://loworbitsecurity.com/radar/radar16/)
+
+--- New Job Started for 2025-12-02 at 2026-02-01 15:22:24.485508 ---
+SUCCESS: Try to take my position: The best promotion advice I ever got (https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/)
+SUCCESS: How Y Combinator made it smart to trust founders (https://elbowgreasegames.substack.com/p/when-good-actors-can-trust-each-other)
+SUCCESS: Animated AI (https://animatedai.github.io/)
+SUCCESS: I switched from VSCode to Zed (https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/)
+
+--- New Job Started for 2026-01-01 at 2026-02-01 15:24:35.277156 ---
+SUCCESS: Show HN: DoNotNotify – Log and intelligently block notifications on Android (https://donotnotify.com/)
+SUCCESS: Welcome to Gas Town (https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+SUCCESS: Anthropic acquires Bun (https://bun.com/blog/bun-joins-anthropic)
+SUCCESS: Brave overhauled its Rust adblock engine with FlatBuffers, cutting memory 75% (https://brave.com/privacy-updates/36-adblock-memory-reduction/)
+SUCCESS: Why does a least squares fit appear to have a bias when applied to simple data? (https://stats.stackexchange.com/questions/674129/why-does-a-linear-least-squares-fit-appear-to-have-a-bias-when-applied-to-simple)
+
+--- New Job Started for 2026-01-01 at 2026-02-01 15:27:07.186741 ---
+FAIL: Summarization error - 2025: The Year in LLMs (https://simonwillison.net/2025/Dec/31/the-year-in-llms/)
+SUCCESS: I designed and printed a custom nose guard to help my dog with DLE (https://snoutcover.com/billie-story)
+FAIL: Scraping failed or too short - Learning music with Strudel (https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92)
+SUCCESS: 2025: The Year in LLMs (https://simonwillison.net/2025/Dec/31/the-year-in-llms/)
+SUCCESS: Linux is good now (https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/)
+
+--- New Job Started for 2026-01-06 at 2026-02-01 15:31:45.855499 ---
+SUCCESS: Vietnam bans unskippable ads (https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds)
+SUCCESS: Paged Out (https://pagedout.institute)
+FAIL: Summarization error - Opus 4.5 is not the normal AI agent experience that I have had thus far (https://burkeholland.github.io/posts/opus-4-5-change-everything/)
+FAIL: Scraping failed or too short - enclose.horse (https://enclose.horse/)
+SUCCESS: Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone (https://github.com/rberg27/doom-coding)
+SUCCESS: Linux is good now (https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/)
+SUCCESS: AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention (https://www.theregister.com/2026/01/05/aws_price_increase/)
+SUCCESS: A website to destroy all websites (https://henry.codes/writing/a-website-to-destroy-all-websites/)
+SUCCESS: I wanted a camera that doesn't exist, so I built it (https://medium.com/@cristi.baluta/i-wanted-a-camera-that-doesnt-exist-so-i-built-it-5f9864533eb7)
+SUCCESS: OpenAI declares 'code red' as Google catches up in AI race (https://www.theverge.com/news/836212/openai-code-red-chatgpt)
+SUCCESS: Calling All Hackers: How money works (2024) (https://phrack.org/issues/71/17)
+SUCCESS: Locating a Photo of a Vehicle in 30 Seconds with GeoSpy (https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy)
+SUCCESS: A website to destroy all websites (https://henry.codes/writing/a-website-to-destroy-all-websites/)
+FAIL: Summarization error - I/O is no longer the bottleneck? (2022) (https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html)
+SUCCESS: Oral microbiome sequencing after taking probiotics (https://blog.booleanbiotech.com/oral-microbiome-biogaia)
+SUCCESS: Cameras and Lenses (2020) (https://ciechanow.ski/cameras-and-lenses/)
+SUCCESS: Mistral 3 family of models released (https://mistral.ai/news/mistral-3)
+SUCCESS: Cameras and Lenses (2020) (https://ciechanow.ski/cameras-and-lenses/)
+SUCCESS: Bluetooth Headphone Jacking: A Key to Your Phone [video] (https://media.ccc.de/v/39c3-bluetooth-headphone-jacking-a-key-to-your-phone)
+SUCCESS: Zig's new plan for asynchronous programs (https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/)
+
+--- New Job Started for 2026-01-07 at 2026-02-01 15:43:43.103280 ---
+SUCCESS: Sugar industry influenced researchers and blamed fat for CVD (2016) (https://www.ucsf.edu/news/2016/09/404081/sugar-papers-reveal-industry-role-shifting-national-heart-disease-focus)
+SUCCESS: Bluetooth Headphone Jacking: A Key to Your Phone [video] (https://media.ccc.de/v/39c3-bluetooth-headphone-jacking-a-key-to-your-phone)
+SUCCESS: Eat Real Food (https://realfood.gov)
+FAIL: Scraping failed or too short - US will ban Wall Street investors from buying single-family homes (https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/)
+SUCCESS: Shipmap.org (https://www.shipmap.org/)
+SUCCESS: Show HN: OpenWorkers – Self-hosted Cloudflare workers in Rust (https://openworkers.com/introducing-openworkers)
+FAIL: Scraping failed or too short - BYD Sells 4.6M Vehicles in 2025, Meets Revised Sales Goal (https://www.bloomberg.com/news/articles/2026-01-01/byd-sells-4-6-million-vehicles-in-2025-meets-revised-sales-goal)
+SUCCESS: Creators of Tailwind laid off 75% of their engineering team (https://github.com/tailwindlabs/tailwindcss.com/pull/2388)
+SUCCESS: What will enter the public domain in 2026? (https://publicdomainreview.org/features/entering-the-public-domain/2026/)
+FAIL: Scraping failed or too short - LaTeX Coffee Stains (2021) [pdf] (https://ctan.math.illinois.edu/graphics/pgf/contrib/coffeestains/coffeestains-en.pdf)
+SUCCESS: A4 Paper Stories (https://susam.net/a4-paper-stories.html)
+SUCCESS: Tailscale state file encryption no longer enabled by default (https://tailscale.com/changelog)
+SUCCESS: Show HN: OpenWorkers – Self-hosted Cloudflare workers in Rust (https://openworkers.com/introducing-openworkers)
+SUCCESS: A 30B Qwen model walks into a Raspberry Pi and runs in real time (https://byteshape.com/blogs/Qwen3-30B-A3B-Instruct-2507/)
+FAIL: Scraping failed or too short - BYD Sells 4.6M Vehicles in 2025, Meets Revised Sales Goal (https://www.bloomberg.com/news/articles/2026-01-01/byd-sells-4-6-million-vehicles-in-2025-meets-revised-sales-goal)
+SUCCESS: Health care data breach affects over 600k patients, Illinois agency says (https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-patients-illinois-agency-says)
+SUCCESS: I rebooted my social life (https://takes.jamesomalley.co.uk/p/this-might-be-oversharing)
+SUCCESS: Advent of Compiler Optimisations 2025 (https://xania.org/202511/advent-of-compiler-optimisation)
+SUCCESS: I rebooted my social life (https://takes.jamesomalley.co.uk/p/this-might-be-oversharing)
+
+--- New Job Started for 2026-01-08 at 2026-02-01 15:52:58.307104 ---
+SUCCESS: Python numbers every programmer should know (https://mkennedy.codes/posts/python-numbers-every-programmer-should-know/)
+SUCCESS: Bose has released API docs and opened the API for its EoL SoundTouch speakers (https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/)
+SUCCESS: Addressing the adding situation (https://xania.org/202512/02-adding-integers)
+SUCCESS: How to code Claude Code in 200 lines of code (https://www.mihaileric.com/The-Emperor-Has-No-Clothes/)
+SUCCESS: The Jeff Dean Facts (https://github.com/LRitzdorf/TheJeffDeanFacts)
+SUCCESS: Google AI Studio is now sponsoring Tailwind CSS (https://twitter.com/OfficialLoganK/status/2009339263251566902)
+SUCCESS: Python numbers every programmer should know (https://mkennedy.codes/posts/python-numbers-every-programmer-should-know/)
+FAIL: Summarization error - AI coding assistants are getting worse? (https://spectrum.ieee.org/ai-coding-degrades)
+SUCCESS: Sopro TTS: A 169M model with zero-shot voice cloning that runs on the CPU (https://github.com/samuel-vitorino/sopro)
+SUCCESS: 2025 Letter (https://danwang.co/2025-letter/)
+SUCCESS: The unreasonable effectiveness of the Fourier transform (https://joshuawise.com/resources/ofdm/)
+
+--- New Job Started for 2025-12-03 at 2026-02-01 15:57:50.868139 ---
+SUCCESS: Project Patchouli: Open-source electromagnetic drawing tablet hardware (https://patchouli.readthedocs.io/en/latest/)
+SUCCESS: Embassy: Modern embedded framework, using Rust and async (https://github.com/embassy-rs/embassy)
+SUCCESS: 2025 Letter (https://danwang.co/2025-letter/)
+SUCCESS: Kernel bugs hide for 2 years on average. Some hide for 20 (https://pebblebed.com/blog/kernel-bugs)
+SUCCESS: Ghostty is now non-profit (https://mitchellh.com/writing/ghostty-non-profit)
+
+--- New Job Started for 2026-01-02 at 2026-02-01 16:01:35.262219 ---
+
+--- New Job Started for 2026-01-02 at 2026-02-01 16:03:50.129835 ---
+
+--- New Job Started for 2026-01-09 at 2026-02-01 16:03:58.777482 ---
+SUCCESS: How will the miracle happen today? (https://kk.org/thetechnium/how-will-the-miracle-happen-today/)
+SUCCESS: IBM CEO says there is 'no way' spending on AI data centers will pay off (https://www.businessinsider.com/ibm-ceo-big-tech-ai-capex-data-center-spending-2025-12)
+SUCCESS: Publish on your own site, syndicate elsewhere (https://indieweb.org/POSSE#)
+SUCCESS: “Erdos problem #728 was solved more or less autonomously by AI” (https://mathstodon.xyz/@tao/115855840223258103)
+SUCCESS: Kagi releases alpha version of Orion for Linux (https://help.kagi.com/orion/misc/linux-status.html)
+FAIL: Scraping failed or too short - JavaScript Demos in 140 Characters (https://beta.dwitter.net)
+FAIL: Scraping failed or too short - Show HN: I made a memory game to teach you to play piano by ear (https://lend-me-your-ears.specr.net)
+SUCCESS: Richard D. James aka Aphex Twin speaks to Tatsuya Takahashi (2017) (https://web.archive.org/web/20180719052026/http://item.warp.net/interview/aphex-twin-speaks-to-tatsuya-takahashi/)
+SUCCESS: Show HN: Rocket Launch and Orbit Simulator (https://www.donutthejedi.com/)
+FAIL: Scraping failed or too short - Scientists discover oldest poison, on 60k-year-old arrows (https://www.nytimes.com/2026/01/07/science/poison-arrows-south-africa.html)
+SUCCESS: Publish on your own site, syndicate elsewhere (https://indieweb.org/POSSE#)
+SUCCESS: RTX 5090 and Raspberry Pi: Can it game? (https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/)
+FAIL: Scraping failed or too short - Show HN: Scroll Wikipedia like TikTok (https://quack.sdan.io)
+SUCCESS: Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files (https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k)
+SUCCESS: Daft Punk Easter Egg in the BPM Tempo of Harder, Better, Faster, Stronger? (https://www.madebywindmill.com/tempi/blog/hbfs-bpm/)
+
+--- New Job Started for 2026-01-10 at 2026-02-01 16:09:33.568205 ---
+FAIL: Scraping failed or too short - Open Chaos: A self-evolving open-source project (https://www.openchaos.dev/)
+SUCCESS: Cloudflare CEO on the Italy fines (https://twitter.com/eastdakota/status/2009654937303896492)
+SUCCESS: Daft Punk Easter Egg in the BPM Tempo of Harder, Better, Faster, Stronger? (https://www.madebywindmill.com/tempi/blog/hbfs-bpm/)
+SUCCESS: AI is a business model stress test (https://dri.es/ai-is-a-business-model-stress-test)
+SUCCESS: Show HN: I used Claude Code to discover connections between 100 books (https://trails.pieterma.es/)
+SUCCESS: Zig quits GitHub, says Microsoft's AI obsession has ruined the service (https://www.theregister.com/2025/12/02/zig_quits_github_microsoft_ai_obsession/)
+FAIL: Scraping failed or too short - 1D Conway's Life glider found, 3.7B cells long (https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136)
+SUCCESS: How Markdown took over the world (https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/)
+SUCCESS: Clicks Communicator (https://www.clicksphone.com/en/communicator)
+SUCCESS: I replaced Windows with Linux and everything's going great (https://www.theverge.com/tech/858910/linux-diary-gaming-desktop)
+SUCCESS: Eulogy for Dark Sky, a data visualization masterpiece (2023) (https://nightingaledvs.com/dark-sky-weather-data-viz/)
+FAIL: Scraping failed or too short - Micron Announces Exit from Crucial Consumer Business (https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business)
+SUCCESS: Clicks Communicator (https://www.clicksphone.com/en/communicator)
+SUCCESS: Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times (https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure)
+SUCCESS: Greenland sharks maintain vision for centuries through DNA repair mechanism (https://phys.org/news/2026-01-eye-greenland-sharks-vision-centuries.html)
+SUCCESS: HPV vaccination reduces oncogenic HPV16/18 prevalence from 16% to <1% in Denmark (https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.27.2400820)
+SUCCESS: Changes to Android Open Source Project (https://source.android.com/)
+SUCCESS: Everyone in Seattle hates AI (https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html)
+SUCCESS: HPV vaccination reduces oncogenic HPV16/18 prevalence from 16% to <1% in Denmark (https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2025.30.27.2400820)
+SUCCESS: Why users cannot create Issues directly (https://github.com/ghostty-org/ghostty/issues/3558)
+SUCCESS: RCE Vulnerability in React and Next.js (https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp)
+
+--- New Job Started for 2026-01-11 at 2026-02-01 16:20:39.569382 ---
+SUCCESS: The struggle of resizing windows on macOS Tahoe (https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/)
+SUCCESS: Why users cannot create Issues directly (https://github.com/ghostty-org/ghostty/issues/3558)
+SUCCESS: Don't fall into the anti-AI hype (https://antirez.com/news/158)
+SUCCESS: Happy Public Domain Day 2026 (https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/)
+SUCCESS: CLI agents make self-hosting on a home server easier and fun (https://fulghum.io/self-hosting)
+SUCCESS: I dumped Windows 11 for Linux, and you should too (https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html)
+SUCCESS: “Captain Gains” on Capitol Hill (https://www.nber.org/papers/w34524)
+SUCCESS: Finding and fixing Ghostty's largest memory leak (https://mitchellh.com/writing/ghostty-memory-leak-fix)
+SUCCESS: Happy Public Domain Day 2026 (https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/)
+SUCCESS: iCloud Photos Downloader (https://github.com/icloud-photos-downloader/icloud_photos_downloader)
+SUCCESS: Code and Let Live (https://fly.io/blog/code-and-let-live/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=il-TXbn5iMA
+SUCCESS: Fighting Fire with Fire: Scalable Oral Exams (https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html)
+SUCCESS: This game is a single 13 KiB file that runs on Windows, Linux and in the Browser (https://iczelia.net/posts/snake-polyglot/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=TDkH3EbWTYc
+
+--- New Job Started for 2026-01-12 at 2026-02-01 16:27:10.305848 ---
+FAIL: Summarization error - Show HN: I built a dashboard to compare mortgage rates across 120 credit unions (https://finfam.app/blog/credit-union-mortgages)
+SUCCESS: Cowork: Claude Code for the rest of your work (https://claude.com/blog/cowork-research-preview)
+SUCCESS: Fighting Fire with Fire: Scalable Oral Exams (https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html)
+SUCCESS: Floppy disks turn out to be the greatest TV remote for kids (https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/)
+SUCCESS: TimeCapsuleLLM: LLM trained only on data from 1800-1875 (https://github.com/haykgrigo3/TimeCapsuleLLM)
+SUCCESS: Linux kernel security work (http://www.kroah.com/log/blog/2026/01/02/linux-kernel-security-work/)
+SUCCESS: Postal Arbitrage (https://walzr.com/postal-arbitrage)
+SUCCESS: Date is out, Temporal is in (https://piccalil.li/blog/date-is-out-and-temporal-is-in/)
+
+--- New Job Started for 2025-12-04 at 2026-02-01 16:31:16.446594 ---
+FAIL: Summarization error - LLVM: The bad parts (https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html)
+SUCCESS: Linux kernel security work (http://www.kroah.com/log/blog/2026/01/02/linux-kernel-security-work/)
+SUCCESS: Apple picks Gemini to power Siri (https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html)
+SUCCESS: Unauthenticated remote code execution in OpenCode (https://cy.md/opencode-rce/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=c0mLhHDcY3I
+SUCCESS: Show HN: AI in SolidWorks (https://www.trylad.com)
+
+--- New Job Started for 2026-01-03 at 2026-02-01 16:34:11.735360 ---
+FAIL: Scraping failed or too short - Trump says Venezuela’s Maduro captured after strikes (https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/)
+FAIL: Scraping failed or too short - Total monthly number of StackOverflow questions over time (https://data.stackexchange.com/stackoverflow/query/1926661#graph)
+SUCCESS: How elites could shape mass preferences as AI reduces persuasion costs (https://arxiv.org/abs/2512.04047)
+
+--- New Job Started for 2026-01-03 at 2026-02-01 16:36:06.485215 ---
+FAIL: Scraping failed or too short - Trump says Venezuela’s Maduro captured after strikes (https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/)
+FAIL: Scraping failed or too short - Total monthly number of StackOverflow questions over time (https://data.stackexchange.com/stackoverflow/query/1926661#graph)
+SUCCESS: 2026 will be my year of the Linux desktop (https://xeiaso.net/notes/2026/year-linux-desktop/)
+
+--- New Job Started for 2026-01-13 at 2026-02-01 16:37:58.670366 ---
+SUCCESS: Valve reveals it’s the architect behind a push to bring Windows games to Arm (https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais)
+SUCCESS: A 40-line fix eliminated a 400x performance gap (https://questdb.com/blog/jvm-current-thread-user-time/)
+SUCCESS: AI generated music barred from Bandcamp (https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/)
+SUCCESS: 2026 will be my year of the Linux desktop (https://xeiaso.net/notes/2026/year-linux-desktop/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=Rs_JrOIo3SE
+SUCCESS: The Tulip Creative Computer (https://github.com/shorepine/tulipcc)
+SUCCESS: Are two heads better than one? (https://eieio.games/blog/two-heads-arent-better-than-one/)
+FAIL: Scraping failed or too short - Some ecologists fear their field is losing touch with nature (https://www.nature.com/articles/d41586-025-04150-w)
+SUCCESS: The Most Popular Blogs of Hacker News in 2025 (https://refactoringenglish.com/blog/2025-hn-top-5/)
+SUCCESS: How to make a damn website (2024) (https://lmnt.me/blog/how-to-make-a-damn-website.html)
+FAIL: Scraping failed or too short - The Cray-1 Computer System (1977) [pdf] (https://s3data.computerhistory.org/brochures/cray.cray1.1977.102638650.pdf)
+SUCCESS: Transparent leadership beats servant leadership (https://entropicthoughts.com/transparent-leadership-beats-servant-leadership)
+SUCCESS: No management needed: anti-patterns in early-stage engineering teams (https://www.ablg.io/blog/no-management-needed)
+SUCCESS: Text-based web browsers (https://cssence.com/2026/text-based-web-browsers/)
+SUCCESS: The Most Popular Blogs of Hacker News in 2025 (https://refactoringenglish.com/blog/2025-hn-top-5/)
+SUCCESS: IPv6 just turned 30 and still hasn't taken over the world (https://www.theregister.com/2025/12/31/ipv6_at_30/)
+SUCCESS: Why are 38 percent of Stanford students saying they're disabled? (https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/)
+
+--- New Job Started for 2026-01-14 at 2026-02-01 16:45:53.925672 ---
+SUCCESS: IPv6 just turned 30 and still hasn't taken over the world (https://www.theregister.com/2025/12/31/ipv6_at_30/)
+FAIL: Summarization error - Claude Cowork exfiltrates files (https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)
+SUCCESS: There's a ridiculous amount of tech in a disposable vape (https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html)
+SUCCESS: Ford F-150 Lightning outsold the Cybertruck and was then canceled for poor sales (https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/)
+FAIL: Summarization error - The C3 Programming Language (https://c3-lang.org)
+SUCCESS: SparkFun Officially Dropping AdaFruit due to CoC Violation (https://www.sparkfun.com/official-response)
+SUCCESS: It’s time to free JavaScript (2024) (https://javascript.tm/letter)
+SUCCESS: Find a pub that needs you (https://www.ismypubfucked.com/)
+SUCCESS: Why some clothes shrink in the wash and how to unshrink them (https://www.swinburne.edu.au/news/2025/08/why-some-clothes-shrink-in-the-wash-and-how-to-unshrink-them/)
+FAIL: Summarization error - The C3 Programming Language (https://c3-lang.org)
+SUCCESS: Every GitHub object has two IDs (https://www.greptile.com/blog/github-ids)
+FAIL: Summarization error - I hate GitHub Actions with passion (https://xlii.space/eng/i-hate-github-actions-with-passion/)
+FAIL: Summarization error - Swift on Android: Full Native App Development Now Possible (https://docs.swifdroid.com/app/)
+SUCCESS: Scaling long-running autonomous coding (https://cursor.com/blog/scaling-agents)
+SUCCESS: I ignore the spotlight as a staff engineer (https://lalitm.com/software-engineering-outside-the-spotlight/)
+FAIL: Summarization error - Swift on Android: Full Native App Development Now Possible (https://docs.swifdroid.com/app/)
+SUCCESS: A Basic Just-In-Time Compiler (2015) (https://nullprogram.com/blog/2015/03/19/)
+SUCCESS: PGlite – Embeddable Postgres (https://pglite.dev/)
+
+--- New Job Started for 2026-01-15 at 2026-02-01 16:55:46.542285 ---
+SUCCESS: Apple is fighting for TSMC capacity as Nvidia takes center stage (https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc)
+SUCCESS: A Basic Just-In-Time Compiler (2015) (https://nullprogram.com/blog/2015/03/19/)
+SUCCESS: Pocket TTS: A high quality TTS that gives your CPU a voice (https://kyutai.org/blog/2026-01-13-pocket-tts)
+SUCCESS: Inside The Internet Archive's Infrastructure (https://hackernoon.com/the-long-now-of-the-web-inside-the-internet-archives-fight-against-forgetting)
+SUCCESS: IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf] (https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf)
+SUCCESS: The URL shortener that makes your links look as suspicious as possible (https://creepylink.com/)
+SUCCESS: Multivox: Volumetric Display (https://github.com/AncientJames/multivox)
+SUCCESS: Photos capture the breathtaking scale of China's wind and solar buildout (https://e360.yale.edu/digest/china-renewable-photo-essay)
+FAIL: Scraping failed or too short - Average DRAM price in USD over last 18 months (https://pcpartpicker.com/trends/price/memory/)
+SUCCESS: Claude is good at assembling blocks, but still falls apart at creating them (https://www.approachwithalacrity.com/claude-ne/)
+SUCCESS: IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf] (https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf)
+FAIL: Scraping failed or too short - 25 Years of Wikipedia (https://wikipedia25.org)
+SUCCESS: Linux boxes via SSH: suspended when disconected (https://shellbox.dev/)
+SUCCESS: First impressions of Claude Cowork (https://simonw.substack.com/p/first-impressions-of-claude-cowork)
+SUCCESS: A Beginner's Two-Component Crystal-Style Wi-Fi Detector (https://siliconjunction.wordpress.com/2025/12/12/a-beginners-two-component-crystal-style-wi-fi-detector/)
+SUCCESS: Fighting the age-gated internet (https://www.wired.com/story/age-verification-is-sweeping-the-us-activists-are-fighting-back/)
+SUCCESS: A Beginner's Two-Component Crystal-Style Wi-Fi Detector (https://siliconjunction.wordpress.com/2025/12/12/a-beginners-two-component-crystal-style-wi-fi-detector/)
+
+--- New Job Started for 2026-01-16 at 2026-02-01 17:05:14.424410 ---
+SUCCESS: Cloudflare acquires Astro (https://astro.build/blog/joining-cloudflare/)
+
+--- New Job Started for 2026-01-04 at 2026-02-01 17:05:51.458197 ---
+SUCCESS: 6-Day and IP Address Certificates Are Generally Available (https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability)
+SUCCESS: East Germany balloon escape (https://en.wikipedia.org/wiki/East_Germany_balloon_escape)
+
+--- New Job Started for 2025-12-05 at 2026-02-01 17:07:21.926161 ---
+
+--- New Job Started for 2026-01-04 at 2026-02-01 17:07:25.300633 ---
+FAIL: Summarization error - Cursor's latest “browser experiment” implied success without evidence (https://embedding-shapes.github.io/cursor-implied-success-without-evidence/)
+SUCCESS: STFU (https://github.com/Pankajtanwarbanna/stfu)
+SUCCESS: Briar keeps Iran connected via Bluetooth and Wi-Fi when the internet goes dark (https://briarproject.org/manual/fa/)
+SUCCESS: Lessons from 14 years at Google (https://addyosmani.com/blog/21-lessons/)
+SUCCESS: Michelangelo's first painting, created when he was 12 or 13 (https://www.openculture.com/2026/01/discover-michelangelos-first-painting.html)
+SUCCESS: OpenBSD-current now runs as guest under Apple Hypervisor (https://www.undeadly.org/cgi?action=article;sid=20260115203619)
+SUCCESS: Netflix to Acquire Warner Bros (https://about.netflix.com/en/news/netflix-to-acquire-warner-bros)
+SUCCESS: Lessons from 14 years at Google (https://addyosmani.com/blog/21-lessons/)
+SUCCESS: Just the Browser (https://justthebrowser.com/)
+FAIL: Scraping failed or too short - Netflix’s AV1 Journey: From Android to TVs and Beyond (https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80)
+SUCCESS: Dell UltraSharp 52 Thunderbolt Hub Monitor (https://www.dell.com/en-us/shop/dell-ultrasharp-52-thunderbolt-hub-monitor-u5226kw/apd/210-bthw/monitors-monitor-accessories)
+SUCCESS: The unbearable joy of sitting alone in a café (https://candost.blog/the-unbearable-joy-of-sitting-alone-in-a-cafe/)
+SUCCESS: The unbearable joy of sitting alone in a café (https://candost.blog/the-unbearable-joy-of-sitting-alone-in-a-cafe/)
+FAIL: Summarization error - Cloudflare outage on December 5, 2025 (https://blog.cloudflare.com/5-december-2025-outage/)
+SUCCESS: Street Fighter II, the World Warrier (2021) (https://fabiensanglard.net/sf2_warrier/)
+
+--- New Job Started for 2026-01-17 at 2026-02-01 17:16:11.498551 ---
+SUCCESS: ASCII characters are not pixels: a deep dive into ASCII rendering (https://alexharri.com/blog/ascii-rendering)
+FAIL: Scraping failed or too short - We put Claude Code in Rollercoaster Tycoon (https://labs.ramp.com/rct)
+SUCCESS: The recurring dream of replacing developers (https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
+SUCCESS: Street Fighter II, the World Warrier (2021) (https://fabiensanglard.net/sf2_warrier/)
+SUCCESS: High-Level Is the Goal (https://bvisness.me/high-level/)
+SUCCESS: Gemini 3 Pro: the frontier of vision AI (https://blog.google/technology/developers/gemini-3-pro-vision/)
+SUCCESS: The Dilbert Afterlife (https://www.astralcodexten.com/p/the-dilbert-afterlife)
+FAIL: Summarization error - LLM Structured Outputs Handbook (https://nanonets.com/cookbooks/structured-llm-outputs)
+SUCCESS: Neural Networks: Zero to Hero (https://karpathy.ai/zero-to-hero.html)
+SUCCESS: Kip: A programming language based on grammatical cases of Turkish (https://github.com/kip-dili/kip)
+SUCCESS: The Olivetti Company (https://www.abortretry.fail/p/the-olivetti-company)
+SUCCESS: Neural Networks: Zero to Hero (https://karpathy.ai/zero-to-hero.html)
+SUCCESS: An Elizabethan mansion's secrets for staying warm (https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm)
+SUCCESS: BMW PHEV: Safety fuse replacement is extremely expensive (https://evclinic.eu/2025/12/04/2021-phev-bmw-ibmucp-21f37e-post-crash-recovery-when-eu-engineering-becomes-a-synonym-for-unrepairable-generating-waste/)
+SUCCESS: FLUX.2 [Klein]: Towards Interactive Visual Intelligence (https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence)
+SUCCESS: Web development is fun again (https://ma.ttias.be/web-development-is-fun-again/)
+SUCCESS: Web development is fun again (https://ma.ttias.be/web-development-is-fun-again/)
+FAIL: Summarization error - Patterns for Defensive Programming in Rust (https://corrode.dev/blog/defensive-programming/)
+SUCCESS: Claude Code On-the-Go (https://granda.org/en/2026/01/02/claude-code-on-the-go/)
+
+--- New Job Started for 2026-01-18 at 2026-02-01 17:26:31.251903 ---
+SUCCESS: Gaussian Splatting – A$AP Rocky "Helicopter" music video (https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting)
+SUCCESS: Flux 2 Klein pure C inference (https://github.com/antirez/flux2.c)
+SUCCESS: Claude Code On-the-Go (https://granda.org/en/2026/01/02/claude-code-on-the-go/)
+SUCCESS: jQuery 4 (https://blog.jquery.com/2026/01/17/jquery-4-0-0/)
+SUCCESS: If you put Apple icons in reverse it looks like someone getting good at design (https://mastodon.social/@heliographe_studio/115890819509545391)
+SUCCESS: Most technical problems are people problems (https://blog.joeschrag.com/2023/11/most-technical-problems-are-really.html)
+SUCCESS: Command-line Tools can be 235x Faster than your Hadoop Cluster (2014) (https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+SUCCESS: The suck is why we're here (https://nik.art/the-suck-is-why-were-here/)
+SUCCESS: Predicting OpenAI's ad strategy (https://ossa-ma.github.io/blog/openads)
+SUCCESS: Prediction markets are ushering in a world in which news becomes about gambling (https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/)
+SUCCESS: The suck is why we're here (https://nik.art/the-suck-is-why-were-here/)
+SUCCESS: A Social Filesystem (https://overreacted.io/a-social-filesystem/)
+SUCCESS: Raising money fucked me up (https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up)
+SUCCESS: Trick users and bypass warnings – Modern SVG Clickjacking attacks (https://lyra.horse/blog/2025/12/svg-clickjacking/)
+SUCCESS: ThinkNext Design (https://thinknextdesign.com/home.html)
+SUCCESS: Show HN: An interactive guide to how browsers work (https://howbrowserswork.com/)
+FAIL: Summarization error - Show HN: An interactive guide to how browsers work (https://howbrowserswork.com/)
+SUCCESS: UniFi 5G (https://blog.ui.com/article/introducing-unifi-5g)
+SUCCESS: Show HN: Terminal UI for AWS (https://github.com/huseyinbabal/taws)
+
+--- New Job Started for 2025-12-06 at 2026-02-01 17:37:29.636206 ---
+
+--- New Job Started for 2026-01-19 at 2026-02-01 17:38:07.894292 ---
+SUCCESS: Show HN: Terminal UI for AWS (https://github.com/huseyinbabal/taws)
+SUCCESS: Level S4 solar radiation event (https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026)
+FAIL: Summarization error - What came first: the CNAME or the A record? (https://blog.cloudflare.com/cname-a-record-order-dns-standards/)
+SUCCESS: Apple testing new App Store design that blurs the line between ads and results (https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/)
+SUCCESS: Notes on Apple's Nano Texture (2025) (https://jon.bo/posts/nano-texture/)
+SUCCESS: I charged $18k for a Static HTML Page (2019) (https://idiallo.com/blog/18000-dollars-static-web-page)
+SUCCESS: Tiny Core Linux: a 23 MB Linux distro with graphical desktop (http://www.tinycorelinux.net/)
+SUCCESS: The coming industrialisation of exploit generation with LLMs (https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/)
+SUCCESS: I charged $18k for a Static HTML Page (2019) (https://idiallo.com/blog/18000-dollars-static-web-page)
+SUCCESS: Dead Internet Theory (https://kudmitry.com/articles/dead-internet-theory/)
+SUCCESS: A decentralized peer-to-peer messaging application that operates over Bluetooth (https://bitchat.free/)
+SUCCESS: Radboud University selects Fairphone as standard smartphone for employees (https://www.ru.nl/en/staff/news/radboud-university-selects-fairphone-as-standard-smartphone-for-employees)
+FAIL: Summarization error - Gas Town Decoded (https://www.alilleybrinker.com/mini/gas-town-decoded/)
+SUCCESS: GrapheneOS is the only Android OS providing full security patches (https://grapheneos.social/@GrapheneOS/115647408229616018)
+SUCCESS: The Code-Only Agent (https://rijnard.com/blog/the-code-only-agent)
+
+--- New Job Started for 2026-01-05 at 2026-02-01 17:45:37.863987 ---
+
+--- New Job Started for 2026-01-05 at 2026-02-01 17:46:24.902704 ---
+SUCCESS: Z-Image: Powerful and highly efficient image generation model with 6B parameters (https://github.com/Tongyi-MAI/Z-Image)
+SUCCESS: It's hard to justify Tahoe icons (https://tonsky.me/blog/tahoe-icons/)
+
+--- New Job Started for 2026-01-20 at 2026-02-01 17:49:18.399316 ---
+SUCCESS: It's hard to justify Tahoe icons (https://tonsky.me/blog/tahoe-icons/)
+SUCCESS: A 26,000-year astronomical monument hidden in plain sight (2019) (https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/)
+SUCCESS: Reticulum, a secure and anonymous mesh networking stack (https://github.com/markqvist/Reticulum)
+FAIL: Summarization error - Nanolang: A tiny experimental language designed to be targeted by coding LLMs (https://github.com/jordanhubbard/nanolang)
+SUCCESS: Autism's confusing cousins (https://www.psychiatrymargins.com/p/autisms-confusing-cousins)
+SUCCESS: Unconventional PostgreSQL Optimizations (https://hakibenita.com/postgresql-unconventional-optimizations)
+SUCCESS: California is free of drought for the first time in 25 years (https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years)
+SUCCESS: Databases in 2025: A Year in Review (https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html)
+SUCCESS: Porsche sold more electrified cars in Europe in 2025 than pure gas-powered cars (https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html)
+SUCCESS: Databases in 2025: A Year in Review (https://www.cs.cmu.edu/~pavlo/blog/2026/01/2025-databases-retrospective.html)
+SUCCESS: The Unix Pipe Card Game (https://punkx.org/unix-pipe-game/)
+SUCCESS: Scaling long-running autonomous coding (https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/)
+SUCCESS: I'm addicted to being useful (https://www.seangoedecke.com/addicted-to-being-useful/)
+SUCCESS: Screenshots from developers: 2002 vs. 2015 (2015) (https://anders.unix.se/2015/12/10/screenshots-from-developers--2002-vs.-2015/)
+SUCCESS: Instabridge has acquired Nova Launcher (https://novalauncher.com/nova-is-here-to-stay)
+SUCCESS: There were BGP anomalies during the Venezuela blackout (https://loworbitsecurity.com/radar/radar16/)
+SUCCESS: There were BGP anomalies during the Venezuela blackout (https://loworbitsecurity.com/radar/radar16/)
+SUCCESS: Self-hosting my photos with Immich (https://michael.stapelberg.ch/posts/2025-11-29-self-hosting-photos-with-immich/)
+
+--- New Job Started for 2026-01-21 at 2026-02-01 17:59:34.345663 ---
+SUCCESS: Try to take my position: The best promotion advice I ever got (https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/)
+SUCCESS: Show HN: ChartGPU – WebGPU-powered charting library (1M points at 60fps) (https://github.com/ChartGPU/ChartGPU)
+SUCCESS: Try to take my position: The best promotion advice I ever got (https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/)
+SUCCESS: Claude's new constitution (https://www.anthropic.com/news/claude-new-constitution)
+SUCCESS: Waiting for dawn in search: Search index, Google rulings and impact on Kagi (https://blog.kagi.com/waiting-dawn-search)
+SUCCESS: HTML as an Accessible Format for Papers (2023) (https://info.arxiv.org/about/accessible_HTML.html)
+SUCCESS: Skip is now free and open source (https://skip.dev/blog/skip-is-free/)
+SUCCESS: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant (https://www.media.mit.edu/publications/your-brain-on-chatgpt/)
+SUCCESS: How Y Combinator made it smart to trust founders (https://elbowgreasegames.substack.com/p/when-good-actors-can-trust-each-other)
+SUCCESS: Anthropic's original take home assignment open sourced (https://github.com/anthropics/original_performance_takehome)
+SUCCESS: How Y Combinator made it smart to trust founders (https://elbowgreasegames.substack.com/p/when-good-actors-can-trust-each-other)
+SUCCESS: Can you slim macOS down? (https://eclecticlight.co/2026/01/21/can-you-slim-macos-down/)
+SUCCESS: Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs (https://github.com/mastra-ai/mastra)
+SUCCESS: The past was not that cute (https://juliawise.net/the-past-was-not-that-cute/)
+SUCCESS: eBay explicitly bans AI "buy for me" agents in user agreement update (https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/)
+SUCCESS: The challenges of soft delete (https://atlas9.dev/blog/soft-delete.html)
+SUCCESS: I switched from VSCode to Zed (https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/)
+SUCCESS: I switched from VSCode to Zed (https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/)
+SUCCESS: The unexpected effectiveness of one-shot decompilation with Claude (https://blog.chrislewis.au/the-unexpected-effectiveness-of-one-shot-decompilation-with-claude/)
+SUCCESS: Show HN: DoNotNotify – Log and intelligently block notifications on Android (https://donotnotify.com/)
+SUCCESS: Show HN: DoNotNotify – Log and intelligently block notifications on Android (https://donotnotify.com/)
+
+--- New Job Started for 2026-01-22 at 2026-02-01 18:11:32.241093 ---
+SUCCESS: GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers (https://gptzero.me/news/neurips/)
+FAIL: Scraping failed or too short - Show HN: isometric.nyc – giant isometric pixel art map of NYC (https://cannoneyed.com/isometric-nyc/)
+FAIL: Scraping failed or too short - Qwen3-TTS family is now open sourced: Voice design, clone, and generation (https://qwen.ai/blog?id=qwen3tts-0115)
+SUCCESS: Leaving Intel (https://www.brendangregg.com/blog//2025-12-05/leaving-intel.html)
+FAIL: Scraping failed or too short - I was banned from Claude for scaffolding a Claude.md file? (https://hugodaniel.com/posts/claude-code-banned-me/)
+SUCCESS: Why does SSH send 100 packets per keystroke? (https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/)
+SUCCESS: Welcome to Gas Town (https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+SUCCESS: In Europe, wind and solar overtake fossil fuels (https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels)
+SUCCESS: Douglas Adams on the English–American cultural divide over "heroes" (https://shreevatsa.net/post/douglas-adams-cultural-divide/)
+SUCCESS: Welcome to Gas Town (https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04)
+SUCCESS: Your app subscription is now my weekend project (https://rselbach.com/your-sub-is-now-my-weekend-project)
+FAIL: Scraping failed or too short - We will ban you and ridicule you in public if you waste our time on crap reports (https://curl.se/.well-known/security.txt)
+SUCCESS: Threat actors expand abuse of Microsoft Visual Studio Code (https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/)
+
+--- New Job Started for 2025-12-07 at 2026-02-01 18:16:19.490111 ---
+SUCCESS: Brave overhauled its Rust adblock engine with FlatBuffers, cutting memory 75% (https://brave.com/privacy-updates/36-adblock-memory-reduction/)
+SUCCESS: Brave overhauled its Rust adblock engine with FlatBuffers, cutting memory 75% (https://brave.com/privacy-updates/36-adblock-memory-reduction/)
+
+--- New Job Started for 2026-01-23 at 2026-02-01 18:18:33.802076 ---
+SKIP: YouTube URL - https://www.youtube.com/watch?v=moBCOEiqiPs
+SUCCESS: Microsoft gave FBI set of BitLocker encryption keys to unlock suspects' laptops (https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/)
+SUCCESS: Proton spam and the AI consent problem (https://dbushell.com/2026/01/22/proton-spam/)
+SUCCESS: I failed to recreate the 1996 Space Jam website with Claude (https://j0nah.com/i-failed-to-recreate-the-1996-space-jam-website-with-claude/)
+SUCCESS: Booting from a vinyl record (2020) (https://boginjr.com/it/sw/dev/vinyl-boot/)
+SUCCESS: Why does a least squares fit appear to have a bias when applied to simple data? (https://stats.stackexchange.com/questions/674129/why-does-a-linear-least-squares-fit-appear-to-have-a-bias-when-applied-to-simple)
+SUCCESS: Proof of Corn (https://proofofcorn.com/)
+SUCCESS: Why does a least squares fit appear to have a bias when applied to simple data? (https://stats.stackexchange.com/questions/674129/why-does-a-linear-least-squares-fit-appear-to-have-a-bias-when-applied-to-simple)
+SUCCESS: Gas Town's agent patterns, design bottlenecks, and vibecoding at scale (https://maggieappleton.com/gastown)
+SUCCESS: Unrolling the Codex agent loop (https://openai.com/index/unrolling-the-codex-agent-loop/)
+FAIL: Scraping failed or too short - Capital One to acquire Brex for $5.15B (https://www.reuters.com/legal/transactional/capital-one-buy-fintech-firm-brex-515-billion-deal-2026-01-22/)
+SUCCESS: Show HN: Whosthere: A LAN discovery tool with a modern TUI, written in Go (https://github.com/ramonvermeulen/whosthere)
+SUCCESS: Bugs Apple loves (https://www.bugsappleloves.com)
+FAIL: Summarization error - Google Titans architecture, helping AI have long-term memory (https://research.google/blog/titans-miras-helping-ai-have-long-term-memory/)
+
+--- New Job Started for 2026-01-06 at 2026-02-01 18:25:04.342976 ---
+
+--- New Job Started for 2026-01-06 at 2026-02-01 18:26:02.784092 ---
+FAIL: Summarization error - Dollar-stores overcharge customers while promising low prices (https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs)
+
+--- New Job Started for 2026-01-24 at 2026-02-01 18:27:17.247121 ---
+SUCCESS: BirdyChat becomes first European chat app that is interoperable with WhatsApp (https://www.birdy.chat/blog/first-to-interoperate-with-whatsapp)
+SUCCESS: Vietnam bans unskippable ads (https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds)
+SUCCESS: Banned C++ features in Chromium (https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md)
+SUCCESS: Claude Code's new hidden feature: Swarms (https://twitter.com/NicerInPerson/status/2014989679796347375)
+SUCCESS: Vietnam bans unskippable ads (https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds)
+SUCCESS: Microsoft will give the FBI a Windows PC data encryption key if ordered (https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare)
+SUCCESS: The state of Schleswig-Holstein is consistently relying on open source (https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html)
+SUCCESS: Doing gigabit Ethernet over my British phone wires (https://thehftguy.com/2026/01/22/doing-gigabit-ethernet-over-my-british-phone-wires/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=TK2N99BDw7A
+SUCCESS: Postmortem: Our first VLEO satellite mission (with imagery and flight data) (https://albedo.com/post/clarity-1-what-worked-and-where-we-go-next)
+SUCCESS: Some C habits I employ for the modern day (https://www.unix.dog/~yosh/blog/c-habits-for-me.html)
+FAIL: Summarization error - Opus 4.5 is not the normal AI agent experience that I have had thus far (https://burkeholland.github.io/posts/opus-4-5-change-everything/)
+FAIL: Scraping failed or too short - enclose.horse (https://enclose.horse/)
+SUCCESS: Raspberry Pi Drag Race: Pi 1 to Pi 5 – Performance Comparison (https://the-diy-life.com/raspberry-pi-drag-race-pi-1-to-pi-5-performance-comparison/)
+FAIL: Summarization error - Opus 4.5 is not the normal AI agent experience that I have had thus far (https://burkeholland.github.io/posts/opus-4-5-change-everything/)
+FAIL: Scraping failed or too short - enclose.horse (https://enclose.horse/)
+SUCCESS: Maze Algorithms (2017) (http://www.jamisbuck.org/mazes/)
+SUCCESS: Using LLMs at Oxide (https://rfd.shared.oxide.computer/rfd/0576)
+SUCCESS: How I estimate work (https://www.seangoedecke.com/how-i-estimate-work/)
+SUCCESS: Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone (https://github.com/rberg27/doom-coding)
+SUCCESS: Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone (https://github.com/rberg27/doom-coding)
+SUCCESS: The Anatomy of a macOS App (https://eclecticlight.co/2025/12/04/the-anatomy-of-a-macos-app/)
+SUCCESS: AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention (https://www.theregister.com/2026/01/05/aws_price_increase/)
+
+--- New Job Started for 2026-01-25 at 2026-02-01 18:39:09.765077 ---
+SUCCESS: First, make me care (https://gwern.net/blog/2026/make-me-care)
+SUCCESS: AWS raises GPU prices 15% on a Saturday, hopes you weren't paying attention (https://www.theregister.com/2026/01/05/aws_price_increase/)
+SUCCESS: A macOS app that blurs your screen when you slouch (https://github.com/tldev/posturr)
+FAIL: Scraping failed or too short - Adoption of EVs tied to real-world reductions in air pollution: study (https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/)
+SUCCESS: I wasted years of my life in crypto (https://twitter.com/kenchangh/status/1994854381267947640)
+SUCCESS: A flawed paper in management science has been cited more than 6k times (https://statmodeling.stat.columbia.edu/2026/01/22/aking/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=Gv4sDL9Ljww
+SUCCESS: Google confirms 'high-friction' sideloading flow is coming to Android (https://www.androidauthority.com/google-sideloading-android-high-friction-process-3633468/)
+FAIL: Summarization error - Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems (https://www.diljitpr.net/blog-post-postgresql-dlq)
+SUCCESS: I wanted a camera that doesn't exist, so I built it (https://medium.com/@cristi.baluta/i-wanted-a-camera-that-doesnt-exist-so-i-built-it-5f9864533eb7)
+SUCCESS: Deutsche Telekom is throttling the internet (https://netzbremse.de/en/)
+SUCCESS: Web-based image editor modeled after Deluxe Paint (https://github.com/steffest/DPaint-js)
+SUCCESS: I wanted a camera that doesn't exist, so I built it (https://medium.com/@cristi.baluta/i-wanted-a-camera-that-doesnt-exist-so-i-built-it-5f9864533eb7)
+SUCCESS: Doom has been ported to an earbud (https://doombuds.com)
+SUCCESS: Z2 – Lithographically fabricated IC in a garage fab (https://sam.zeloof.xyz/second-ic/)
+SUCCESS: Introduction to PostgreSQL Indexes (https://dlt.github.io/blog/posts/introduction-to-postgresql-indexes/)
+SUCCESS: Calling All Hackers: How money works (2024) (https://phrack.org/issues/71/17)
+SUCCESS: Calling All Hackers: How money works (2024) (https://phrack.org/issues/71/17)
+
+--- New Job Started for 2025-12-08 at 2026-02-01 18:48:36.070696 ---
+
+--- New Job Started for 2026-01-26 at 2026-02-01 18:48:37.560201 ---
+SUCCESS: Television is 100 years old today (https://diamondgeezer.blogspot.com/2026/01/tv100.html)
+SUCCESS: Locating a Photo of a Vehicle in 30 Seconds with GeoSpy (https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy)
+SUCCESS: Apple introduces new AirTag with longer range and improved findability (https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/)
+SUCCESS: Locating a Photo of a Vehicle in 30 Seconds with GeoSpy (https://geospy.ai/blog/locating-a-photo-of-a-vehicle-in-30-seconds-with-geospy)
+SUCCESS: France Aiming to Replace Zoom, Google Meet, Microsoft Teams, etc. (https://twitter.com/lellouchenico/status/2015775970330882319)
+SUCCESS: Over 36,500 killed in Iran's deadliest massacre, documents reveal (https://www.iranintl.com/en/202601255198)
+SUCCESS: After two years of vibecoding, I'm back to writing by hand (https://atmoio.substack.com/p/after-two-years-of-vibecoding-im)
+SUCCESS: IBM to acquire Confluent (https://www.confluent.io/blog/ibm-to-acquire-confluent/)
+SUCCESS: ChatGPT Containers can now run bash, pip/npm install packages and download files (https://simonwillison.net/2026/Jan/26/chatgpt-containers/)
+SUCCESS: There is an AI code review bubble (https://www.greptile.com/blog/ai-code-review-bubble)
+FAIL: Summarization error - I/O is no longer the bottleneck? (2022) (https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html)
+FAIL: Scraping failed or too short - Qwen3-Max-Thinking (https://qwen.ai/blog?id=qwen3-max-thinking)
+SUCCESS: Fedora Asahi Remix is now working on Apple M3 (https://bsky.app/profile/did:plc:okydh7e54e2nok65kjxdklvd/post/3mdd55paffk2o)
+SUCCESS: I/O is no longer the bottleneck? (2022) (https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html)
+SUCCESS: JuiceSSH – Give me my pro features back (https://nproject.io/blog/juicessh-give-me-back-my-pro-features/)
+SUCCESS: Strong earthquake hits northern Japan, tsunami warning issued (https://www3.nhk.or.jp/nhkworld/en/news/20251209_02/)
+SUCCESS: Oral microbiome sequencing after taking probiotics (https://blog.booleanbiotech.com/oral-microbiome-biogaia)
+SUCCESS: Oral microbiome sequencing after taking probiotics (https://blog.booleanbiotech.com/oral-microbiome-biogaia)
+
+--- New Job Started for 2026-01-27 at 2026-02-01 18:57:27.558331 ---
+FAIL: Scraping failed or too short - 430k-year-old well-preserved wooden tools are the oldest ever found (https://www.nytimes.com/2026/01/26/science/archaeology-neanderthals-tools.html)
+SUCCESS: A few random notes from Claude coding quite a bit last few weeks (https://twitter.com/karpathy/status/2015883857489522876)
+SUCCESS: FBI is investigating Minnesota Signal chats tracking ICE (https://www.nbcnews.com/tech/internet/fbi-investigating-minnesota-signal-minneapolis-group-ice-patel-kash-rcna256041)
+SUCCESS: Microsoft increases Office 365 and Microsoft 365 license prices (https://office365itpros.com/2025/12/08/microsoft-365-pricing-increase/)
+SUCCESS: TikTok users can't upload anti-ICE videos. The company blames tech issues (https://www.cnn.com/2026/01/26/tech/tiktok-ice-censorship-glitch-cec)
+SUCCESS: Prism (https://openai.com/index/introducing-prism)
+SUCCESS: Xfwl4 – The Roadmap for a Xfce Wayland Compositor (https://alexxcons.github.io/blogpost_15.html)
+SUCCESS: Doing the thing is doing the thing (https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing)
+
+--- New Job Started for 2026-01-07 at 2026-02-01 19:01:16.331914 ---
+
+--- New Job Started for 2026-01-07 at 2026-02-01 19:01:22.318462 ---
+SUCCESS: Heathrow scraps liquid container limit (https://www.bbc.com/news/articles/c1evvx89559o)
+FAIL: Summarization error - Jepsen: NATS 2.12.1 (https://jepsen.io/analyses/nats-2.12.1)
+FAIL: Summarization error - Windows 11's Patch Tuesday nightmare gets worse (https://www.windowscentral.com/microsoft/windows-11/windows-11s-botched-patch-tuesday-update-nightmare-continues-as-microsoft-confirms-some-pcs-might-fail-to-boot)
+SUCCESS: The hidden engineering of runways (https://practical.engineering/blog/2026/1/20/the-hidden-engineering-of-runways)
+SUCCESS: Sugar industry influenced researchers and blamed fat for CVD (2016) (https://www.ucsf.edu/news/2016/09/404081/sugar-papers-reveal-industry-role-shifting-national-heart-disease-focus)
+SUCCESS: Sugar industry influenced researchers and blamed fat for CVD (2016) (https://www.ucsf.edu/news/2016/09/404081/sugar-papers-reveal-industry-role-shifting-national-heart-disease-focus)
+SUCCESS: AMD GPU Debugger (https://thegeeko.me/blog/amd-gpu-debugging/)
+
+--- New Job Started for 2026-01-28 at 2026-02-01 19:06:52.173455 ---
+SUCCESS: Microsoft forced me to switch to Linux (https://www.himthe.dev/blog/microsoft-to-linux)
+SUCCESS: ICE using Palantir tool that feeds on Medicaid data (https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data)
+SUCCESS: Eat Real Food (https://realfood.gov)
+SUCCESS: Eat Real Food (https://realfood.gov)
+FAIL: Scraping failed or too short - US will ban Wall Street investors from buying single-family homes (https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/)
+FAIL: Scraping failed or too short - US will ban Wall Street investors from buying single-family homes (https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/)
+SUCCESS: Airfoil (2024) (https://ciechanow.ski/airfoil/)
+SUCCESS: Android’s desktop interface leaks (https://9to5google.com/2026/01/27/android-desktop-leak/)
+SUCCESS: Let's put Tailscale on a jailbroken Kindle (https://tailscale.com/blog/tailscale-jailbroken-kindle)
+SUCCESS: Mousefood – Build embedded terminal UIs for microcontrollers (https://github.com/ratatui/mousefood)
+SUCCESS: Somebody used spoofed ADSB signals to raster the meme of JD Vance (https://alecmuffett.com/article/143548)
+FAIL: Scraping failed or too short - Amazon cuts 16k jobs (https://www.reuters.com/legal/litigation/amazon-cuts-16000-jobs-globally-broader-restructuring-2026-01-28/)
+SUCCESS: Oban, the job processing framework from Elixir, has come to Python (https://www.dimamik.com/posts/oban_py/)
+SUCCESS: Rust’s Standard Library on the GPU (https://www.vectorware.com/blog/rust-std-on-gpu/)
+SUCCESS: Shipmap.org (https://www.shipmap.org/)
+SUCCESS: Shipmap.org (https://www.shipmap.org/)
+SUCCESS: Trinity large: An open 400B sparse MoE model (https://www.arcee.ai/blog/trinity-large)
+SUCCESS: Has the cost of building software dropped 90%? (https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/)
+SUCCESS: Creators of Tailwind laid off 75% of their engineering team (https://github.com/tailwindlabs/tailwindcss.com/pull/2388)
+SUCCESS: Creators of Tailwind laid off 75% of their engineering team (https://github.com/tailwindlabs/tailwindcss.com/pull/2388)
+FAIL: Scraping failed or too short - LaTeX Coffee Stains (2021) [pdf] (https://ctan.math.illinois.edu/graphics/pgf/contrib/coffeestains/coffeestains-en.pdf)
+FAIL: Scraping failed or too short - LaTeX Coffee Stains (2021) [pdf] (https://ctan.math.illinois.edu/graphics/pgf/contrib/coffeestains/coffeestains-en.pdf)
+SUCCESS: Hunting for North Korean Fiber Optic Cables (https://nkinternet.com/2025/12/08/hunting-for-north-korean-fiber-optic-cables/)
+
+--- New Job Started for 2026-01-29 at 2026-02-01 19:16:07.243059 ---
+SUCCESS: Claude Code daily benchmarks for degradation tracking (https://marginlab.ai/trackers/claude-code/)
+SUCCESS: Project Genie: Experimenting with infinite, interactive worlds (https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/)
+SUCCESS: Apple to soon take up to 30% cut from all Patreon creators in iOS app (https://www.macrumors.com/2026/01/28/patreon-apple-tax/)
+FAIL: Scraping failed or too short - We can’t send mail farther than 500 miles (2002) (https://web.mit.edu/jemorris/humor/500-miles)
+SUCCESS: PlayStation 2 Recompilation Project Is Absolutely Incredible (https://redgamingtech.com/playstation-2-recompilation-project-is-absolutely-incredible/)
+SUCCESS: A4 Paper Stories (https://susam.net/a4-paper-stories.html)
+SUCCESS: A4 Paper Stories (https://susam.net/a4-paper-stories.html)
+SUCCESS: AGENTS.md outperforms skills in our agent evals (https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
+SUCCESS: Europe’s next-generation weather satellite sends back first images (https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images)
+SUCCESS: Bag of words, have mercy on us (https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us)
+SUCCESS: Vitamin D and Omega-3 have a larger effect on depression than antidepressants (https://blog.ncase.me/on-depression/)
+FAIL: Summarization error - Flameshot (https://github.com/flameshot-org/flameshot)
+SUCCESS: A lot of population numbers are fake (https://davidoks.blog/p/a-lot-of-population-numbers-are-fake)
+SUCCESS: Tailscale state file encryption no longer enabled by default (https://tailscale.com/changelog)
+SUCCESS: Tailscale state file encryption no longer enabled by default (https://tailscale.com/changelog)
+SUCCESS: Trials avoid high risk patients and underestimate drug harms (https://www.nber.org/papers/w34534)
+
+--- New Job Started for 2025-12-09 at 2026-02-01 19:23:10.334359 ---
+SUCCESS: A 30B Qwen model walks into a Raspberry Pi and runs in real time (https://byteshape.com/blogs/Qwen3-30B-A3B-Instruct-2507/)
+SUCCESS: A 30B Qwen model walks into a Raspberry Pi and runs in real time (https://byteshape.com/blogs/Qwen3-30B-A3B-Instruct-2507/)
+
+--- New Job Started for 2026-01-30 at 2026-02-01 19:25:01.301719 ---
+SUCCESS: Moltbook (https://www.moltbook.com/)
+FAIL: Scraping failed or too short - Antirender: remove the glossy shine on architectural renderings (https://antirender.com/)
+SUCCESS: Peerweb: Decentralized website hosting via WebTorrent (https://peerweb.lol/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=QKSPk_0N4Jc
+SUCCESS: Kimi K2.5 Technical Report [pdf] (https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf)
+SUCCESS: Show HN: Gemini Pro 3 imagines the HN front page 10 years from now (https://dosaygo-studio.github.io/hn-front-page-2035/news)
+FAIL: Summarization error - HTTP Cats (https://http.cat/)
+SUCCESS: GOG: Linux "the next major frontier" for gaming as it works on a native client (https://www.xda-developers.com/gog-calls-linux-the-next-major-frontier-for-gaming-as-it-works-on-a-native-client/)
+SUCCESS: Grid: Free, local-first, browser-based 3D printing/CNC/laser slicer (https://grid.space/stem/)
+SUCCESS: Surely the crash of the US economy has to be soon (https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/)
+SUCCESS: Health care data breach affects over 600k patients, Illinois agency says (https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-patients-illinois-agency-says)
+SUCCESS: Health care data breach affects over 600k patients, Illinois agency says (https://www.nprillinois.org/illinois/2026-01-06/health-care-data-breach-affects-600-000-patients-illinois-agency-says)
+SUCCESS: Netflix Animation Studios Joins the Blender Development Fund as Corporate Patron (https://www.blender.org/press/netflix-animation-studios-joins-the-blender-development-fund-as-corporate-patron/)
+SUCCESS: PeerTube is recognized as a digital public good by Digital Public Goods Alliance (https://www.digitalpublicgoods.net/r/peertube)
+
+--- New Job Started for 2026-01-08 at 2026-02-01 19:31:29.237801 ---
+
+--- New Job Started for 2026-01-08 at 2026-02-01 19:31:45.407462 ---
+
+--- New Job Started for 2026-01-31 at 2026-02-01 19:31:56.035447 ---
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Show HN: I trained a 9M speech model to fix my Mandarin tones (https://simedw.com/2026/01/31/ear-pronunication-via-ctc/)
+SUCCESS: Mistral releases Devstral2 and Mistral Vibe CLI (https://mistral.ai/news/devstral-2-vibe-cli)
+SUCCESS: Finland looks to introduce Australia-style ban on social media (https://yle.fi/a/74-20207494)
+SUCCESS: Euro firms must ditch Uncle Sam's clouds and go EU-native (https://www.theregister.com/2026/01/30/euro_firms_must_ditch_us/)
+SUCCESS: Outsourcing thinking (https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html)
+SUCCESS: Bose has released API docs and opened the API for its EoL SoundTouch speakers (https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/)
+SUCCESS: Bose has released API docs and opened the API for its EoL SoundTouch speakers (https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/)
+SUCCESS: CPython Internals Explained (https://github.com/zpoint/CPython-Internals)
+SUCCESS: My ridiculously robust photo management system (Immich edition) (https://jaisenmathai.com/articles/my-ridiculously-robust-photo-management-system-immich-edition/)
+SUCCESS: Nvidia's 10-year effort to make the Shield TV the most updated Android device (https://arstechnica.com/gadgets/2026/01/inside-nvidias-10-year-effort-to-make-the-shield-tv-the-most-updated-android-device-ever/)
+SUCCESS: Bruno Simon – 3D Portfolio (https://bruno-simon.com/)
+SUCCESS: Nintendo DS code editor and scriptable game engine (https://crl.io/ds-game-engine/)
+SUCCESS: We have ipinfo at home or how to geolocate IPs in your CLI using latency (https://blog.globalping.io/we-have-ipinfo-at-home-or-how-to-geolocate-ips-in-your-cli-using-latency/)
+SUCCESS: How to code Claude Code in 200 lines of code (https://www.mihaileric.com/The-Emperor-Has-No-Clothes/)
+SUCCESS: How to code Claude Code in 200 lines of code (https://www.mihaileric.com/The-Emperor-Has-No-Clothes/)
+SUCCESS: 10 Years of Let's Encrypt (https://letsencrypt.org/2025/12/09/10-years)
+SUCCESS: The Jeff Dean Facts (https://github.com/LRitzdorf/TheJeffDeanFacts)
+SUCCESS: The Jeff Dean Facts (https://github.com/LRitzdorf/TheJeffDeanFacts)
+
+--- New Job Started for 2026-02-01 at 2026-02-01 19:41:39.463807 ---
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: Generative AI and Wikipedia editing: What we learned in 2025 (https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/)
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+SUCCESS: Pebble Index 01 – External memory for your brain (https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain)
+SUCCESS: Scientist who helped eradicate smallpox dies at age 89 (https://www.scientificamerican.com/article/smallpox-eradication-champion-william-foege-dies-at-89/)
+SUCCESS: Show HN: Moltbook – A social network for moltbots (clawdbots) to hang out (https://www.moltbook.com/)
+FAIL: Scraping failed or too short - Opentrees.org (2024) (https://opentrees.org/#pos=1/-37.8/145)
+SUCCESS: Cells use 'bioelectricity' to coordinate and make group decisions (https://www.quantamagazine.org/cells-use-bioelectricity-to-coordinate-and-make-group-decisions-20260112/)
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: Google AI Studio is now sponsoring Tailwind CSS (https://twitter.com/OfficialLoganK/status/2009339263251566902)
+SUCCESS: Data Processing Benchmark Featuring Rust, Go, Swift, Zig, Julia etc. (https://github.com/zupat/related_post_gen)
+SUCCESS: Google AI Studio is now sponsoring Tailwind CSS (https://twitter.com/OfficialLoganK/status/2009339263251566902)
+FAIL: Summarization error - Pg_tracing: Distributed Tracing for PostgreSQL (https://github.com/DataDog/pg_tracing)
+SUCCESS: If you're going to vibe code, why not do it in C? (https://stephenramsay.net/posts/vibe-coding.html)
+FAIL: Summarization error - AI coding assistants are getting worse? (https://spectrum.ieee.org/ai-coding-degrades)
+FAIL: Summarization error - AI coding assistants are getting worse? (https://spectrum.ieee.org/ai-coding-degrades)
+SUCCESS: Icons in Menus Everywhere – Send Help (https://blog.jim-nielsen.com/2025/icons-in-menus/)
+SUCCESS: Sopro TTS: A 169M model with zero-shot voice cloning that runs on the CPU (https://github.com/samuel-vitorino/sopro)
+SUCCESS: Sopro TTS: A 169M model with zero-shot voice cloning that runs on the CPU (https://github.com/samuel-vitorino/sopro)
+SUCCESS: Kaiju – General purpose 3D/2D game engine in Go and Vulkan with built in editor (https://github.com/KaijuEngine/kaiju)
+SUCCESS: The unreasonable effectiveness of the Fourier transform (https://joshuawise.com/resources/ofdm/)
+SUCCESS: The unreasonable effectiveness of the Fourier transform (https://joshuawise.com/resources/ofdm/)
+SUCCESS: Donating the Model Context Protocol and establishing the Agentic AI Foundation (https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
+SUCCESS: Project Patchouli: Open-source electromagnetic drawing tablet hardware (https://patchouli.readthedocs.io/en/latest/)
+SUCCESS: Project Patchouli: Open-source electromagnetic drawing tablet hardware (https://patchouli.readthedocs.io/en/latest/)
+
+--- New Job Started for 2025-12-10 at 2026-02-01 20:01:36.335721 ---
+FAIL: Scraping failed or too short - Size of Life (https://neal.fun/size-of-life/)
+SUCCESS: Embassy: Modern embedded framework, using Rust and async (https://github.com/embassy-rs/embassy)
+SUCCESS: Embassy: Modern embedded framework, using Rust and async (https://github.com/embassy-rs/embassy)
+FAIL: Summarization error - Rust in the kernel is no longer experimental (https://lwn.net/Articles/1049831/)
+FAIL: Scraping failed or too short - Australia begins enforcing world-first teen social media ban (https://www.reuters.com/legal/litigation/australia-social-media-ban-takes-effect-world-first-2025-12-09/)
+FAIL: Scraping failed or too short - Auto-grading decade-old Hacker News discussions with hindsight (https://karpathy.bearblog.dev/auto-grade-hn/)
+FAIL: Scraping failed or too short - Qwen3-Omni-Flash-2025-12-01：a next-generation native multimodal large model (https://qwen.ai/blog?id=qwen3-omni-flash-20251201)
+FAIL: Summarization error - Kernel bugs hide for 2 years on average. Some hide for 20 (https://pebblebed.com/blog/kernel-bugs)
+SUCCESS: Kernel bugs hide for 2 years on average. Some hide for 20 (https://pebblebed.com/blog/kernel-bugs)
+
+--- New Job Started for 2026-01-09 at 2026-02-01 20:07:49.516824 ---
+SUCCESS: How Google Maps allocates survival across London's restaurants (https://laurenleek.substack.com/p/how-google-maps-quietly-allocates)
+
+--- New Job Started for 2026-01-09 at 2026-02-01 20:10:23.847995 ---
+SUCCESS: How will the miracle happen today? (https://kk.org/thetechnium/how-will-the-miracle-happen-today/)
+SUCCESS: Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux (https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html)
+SUCCESS: How will the miracle happen today? (https://kk.org/thetechnium/how-will-the-miracle-happen-today/)
+SUCCESS: “Erdos problem #728 was solved more or less autonomously by AI” (https://mathstodon.xyz/@tao/115855840223258103)
+SUCCESS: Super Mario 64 for the PS1 (https://github.com/malucard/sm64-psx)
+FAIL: Scraping failed or too short - Rubio stages font coup: Times New Roman ousts Calibri (https://www.reuters.com/world/us/rubio-stages-font-coup-times-new-roman-ousts-calibri-2025-12-09/)
+FAIL: Scraping failed or too short - Show HN: Automated license plate reader coverage in the USA (https://alpranalysis.com)
+
+--- New Job Started for 2025-12-11 at 2026-02-01 20:16:07.428353 ---
+SUCCESS: “Erdos problem #728 was solved more or less autonomously by AI” (https://mathstodon.xyz/@tao/115855840223258103)
+SUCCESS: Kagi releases alpha version of Orion for Linux (https://help.kagi.com/orion/misc/linux-status.html)
+FAIL: Scraping failed or too short - JavaScript Demos in 140 Characters (https://beta.dwitter.net)
+FAIL: Scraping failed or too short - Show HN: I made a memory game to teach you to play piano by ear (https://lend-me-your-ears.specr.net)
+SUCCESS: GPT-5.2 (https://openai.com/index/introducing-gpt-5-2/)
+SUCCESS: Kagi releases alpha version of Orion for Linux (https://help.kagi.com/orion/misc/linux-status.html)
+FAIL: Scraping failed or too short - JavaScript Demos in 140 Characters (https://beta.dwitter.net)
+FAIL: Scraping failed or too short - Show HN: I made a memory game to teach you to play piano by ear (https://lend-me-your-ears.specr.net)
+SUCCESS: Richard D. James aka Aphex Twin speaks to Tatsuya Takahashi (2017) (https://web.archive.org/web/20180719052026/http://item.warp.net/interview/aphex-twin-speaks-to-tatsuya-takahashi/)
+FAIL: Summarization error - Getting a Gemini API key is an exercise in frustration (https://ankursethi.com/blog/gemini-api-key-frustration/)
+SUCCESS: Richard D. James aka Aphex Twin speaks to Tatsuya Takahashi (2017) (https://web.archive.org/web/20180719052026/http://item.warp.net/interview/aphex-twin-speaks-to-tatsuya-takahashi/)
+FAIL: Scraping failed or too short - Show HN: Rocket Launch and Orbit Simulator (https://www.donutthejedi.com/)
+FAIL: Scraping failed or too short - Scientists discover oldest poison, on 60k-year-old arrows (https://www.nytimes.com/2026/01/07/science/poison-arrows-south-africa.html)
+SUCCESS: Show HN: Rocket Launch and Orbit Simulator (https://www.donutthejedi.com/)
+FAIL: Scraping failed or too short - Scientists discover oldest poison, on 60k-year-old arrows (https://www.nytimes.com/2026/01/07/science/poison-arrows-south-africa.html)
+SUCCESS: The highest quality codebase (https://gricha.dev/blog/the-highest-quality-codebase)
+SUCCESS: RTX 5090 and Raspberry Pi: Can it game? (https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/)
+FAIL: Scraping failed or too short - Show HN: Scroll Wikipedia like TikTok (https://quack.sdan.io)
+SUCCESS: RTX 5090 and Raspberry Pi: Can it game? (https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/)
+FAIL: Scraping failed or too short - Show HN: Scroll Wikipedia like TikTok (https://quack.sdan.io)
+SUCCESS: Rivian Unveils Custom Silicon, R2 Lidar Roadmap, and Universal Hands Free (https://riviantrackr.com/news/rivian-unveils-custom-silicon-r2-lidar-roadmap-universal-hands-free-and-its-next-gen-autonomy-platform/)
+
+--- New Job Started for 2026-01-10 at 2026-02-01 20:30:50.728634 ---
+
+--- New Job Started for 2026-01-10 at 2026-02-01 20:31:28.779251 ---
+FAIL: Scraping failed or too short - Open Chaos: A self-evolving open-source project (https://www.openchaos.dev/)
+SUCCESS: Cloudflare CEO on the Italy fines (https://twitter.com/eastdakota/status/2009654937303896492)
+SUCCESS: Patterns.dev (https://www.patterns.dev/)
+SUCCESS: Open Chaos: A self-evolving open-source project (https://www.openchaos.dev/)
+SUCCESS: AI is a business model stress test (https://dri.es/ai-is-a-business-model-stress-test)
+SUCCESS: Craft software that makes people feel something (https://rapha.land/craft-software-that-makes-people-feel-something/)
+FAIL: Scraping failed or too short - Programmers and software developers lost the plot on naming their tools (https://larr.net/p/namings.html)
+SUCCESS: Cloudflare CEO on the Italy fines (https://twitter.com/eastdakota/status/2009654937303896492)
+SUCCESS: Show HN: I used Claude Code to discover connections between 100 books (https://trails.pieterma.es/)
+SUCCESS: An SVG is all you need (https://jon.recoil.org/blog/2025/12/an-svg-is-all-you-need.html)
+SUCCESS: AI is a business model stress test (https://dri.es/ai-is-a-business-model-stress-test)
+SUCCESS: How Markdown took over the world (https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/)
+SUCCESS: Litestream VFS (https://fly.io/blog/litestream-vfs/)
+SUCCESS: Show HN: I used Claude Code to discover connections between 100 books (https://trails.pieterma.es/)
+SUCCESS: I replaced Windows with Linux and everything's going great (https://www.theverge.com/tech/858910/linux-diary-gaming-desktop)
+SUCCESS: Denial of service and source code exposure in React Server Components (https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components)
+SUCCESS: How Markdown took over the world (https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/)
+SUCCESS: Eulogy for Dark Sky, a data visualization masterpiece (2023) (https://nightingaledvs.com/dark-sky-weather-data-viz/)
+SUCCESS: I replaced Windows with Linux and everything's going great (https://www.theverge.com/tech/858910/linux-diary-gaming-desktop)
+
+--- New Job Started for 2025-12-12 at 2026-02-01 20:52:06.060739 ---
+SUCCESS: Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times (https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure)
+SUCCESS: Eulogy for Dark Sky, a data visualization masterpiece (2023) (https://nightingaledvs.com/dark-sky-weather-data-viz/)
+SUCCESS: GNU Unifont (https://unifoundry.com/unifont/index.html)
+SUCCESS: Greenland sharks maintain vision for centuries through DNA repair mechanism (https://phys.org/news/2026-01-eye-greenland-sharks-vision-centuries.html)
+SUCCESS: Flock Hardcoded the Password for America's Surveillance Infrastructure 53 Times (https://nexanet.ai/blog/53-times-flocksafety-hardcoded-the-password-for-americas-surveillance-infrastructure)
+SUCCESS: macOS 26.2 enables fast AI clusters with RDMA over Thunderbolt (https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt)
+SUCCESS: Changes to Android Open Source Project (https://source.android.com/)
+SUCCESS: Greenland sharks maintain vision for centuries through DNA repair mechanism (https://phys.org/news/2026-01-eye-greenland-sharks-vision-centuries.html)
+SUCCESS: Rats Play DOOM (https://ratsplaydoom.com/)
+
+--- New Job Started for 2026-01-11 at 2026-02-01 21:05:02.005777 ---
+SUCCESS: Changes to Android Open Source Project (https://source.android.com/)
+SUCCESS: 4 billion if statements (2023) (https://andreasjhkarlsson.github.io//jekyll/update/2023/12/27/4-billion-if-statements.html)
+
+--- New Job Started for 2026-01-11 at 2026-02-01 21:06:12.200574 ---
+SUCCESS: The struggle of resizing windows on macOS Tahoe (https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/)
+SUCCESS: The struggle of resizing windows on macOS Tahoe (https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/)
+SUCCESS: Nokia N900 Necromancy (https://yaky.dev/2025-12-11-nokia-n900-necromancy/)
+SUCCESS: Don't fall into the anti-AI hype (https://antirez.com/news/158)
+SUCCESS: Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig (https://github.com/ringtailsoftware/uvm32)
+SUCCESS: Don't fall into the anti-AI hype (https://antirez.com/news/158)
+SUCCESS: CLI agents make self-hosting on a home server easier and fun (https://fulghum.io/self-hosting)
+SUCCESS: CLI agents make self-hosting on a home server easier and fun (https://fulghum.io/self-hosting)
+SUCCESS: String theory inspires a brilliant, baffling new math proof (https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/)
+FAIL: Scraping failed or too short - Google de-indexed Bear Blog and I don't know why (https://journal.james-zhan.com/google-de-indexed-my-entire-bear-blog-and-i-dont-know-why/)
+SUCCESS: I dumped Windows 11 for Linux, and you should too (https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html)
+SUCCESS: I dumped Windows 11 for Linux, and you should too (https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html)
+SUCCESS: CRISPR fungus: Protein-packed, sustainable, and tastes like meat (https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607)
+FAIL: Scraping failed or too short - Finding and fixing Ghostty's largest memory leak (https://mitchellh.com/writing/ghostty-memory-leak-fix)
+SUCCESS: Finding and fixing Ghostty's largest memory leak (https://mitchellh.com/writing/ghostty-memory-leak-fix)
+SUCCESS: SQLite JSON at full index speed using generated columns (https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing)
+FAIL: Summarization error - iCloud Photos Downloader (https://github.com/icloud-photos-downloader/icloud_photos_downloader)
+FAIL: Summarization error - iCloud Photos Downloader (https://github.com/icloud-photos-downloader/icloud_photos_downloader)
+SUCCESS: Code and Let Live (https://fly.io/blog/code-and-let-live/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=il-TXbn5iMA
+
+--- New Job Started for 2025-12-13 at 2026-02-01 21:27:32.092394 ---
+SUCCESS: Code and Let Live (https://fly.io/blog/code-and-let-live/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=il-TXbn5iMA
+FAIL: Summarization error - This game is a single 13 KiB file that runs on Windows, Linux and in the Browser (https://iczelia.net/posts/snake-polyglot/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=TDkH3EbWTYc
+SUCCESS: This game is a single 13 KiB file that runs on Windows, Linux and in the Browser (https://iczelia.net/posts/snake-polyglot/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=TDkH3EbWTYc
+
+--- New Job Started for 2026-01-12 at 2026-02-01 21:33:55.155500 ---
+
+--- New Job Started for 2026-01-12 at 2026-02-01 21:37:01.385774 ---
+SUCCESS: Cowork: Claude Code for the rest of your work (https://claude.com/blog/cowork-research-preview)
+SUCCESS: Cowork: Claude Code for the rest of your work (https://claude.com/blog/cowork-research-preview)
+SUCCESS: Floppy disks turn out to be the greatest TV remote for kids (https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/)
+SUCCESS: Floppy disks turn out to be the greatest TV remote for kids (https://blog.smartere.dk/2026/01/floppy-disks-the-best-tv-remote-for-kids/)
+SUCCESS: TimeCapsuleLLM: LLM trained only on data from 1800-1875 (https://github.com/haykgrigo3/TimeCapsuleLLM)
+FAIL: Summarization error - TimeCapsuleLLM: LLM trained only on data from 1800-1875 (https://github.com/haykgrigo3/TimeCapsuleLLM)
+SUCCESS: Postal Arbitrage (https://walzr.com/postal-arbitrage)
+SUCCESS: Postal Arbitrage (https://walzr.com/postal-arbitrage)
+SUCCESS: Date is out, Temporal is in (https://piccalil.li/blog/date-is-out-and-temporal-is-in/)
+SUCCESS: Date is out, Temporal is in (https://piccalil.li/blog/date-is-out-and-temporal-is-in/)
+FAIL: Summarization error - LLVM: The bad parts (https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html)
+SUCCESS: LLVM: The bad parts (https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html)
+SUCCESS: Apple picks Gemini to power Siri (https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html)
+SUCCESS: Apple picks Gemini to power Siri (https://www.cnbc.com/2026/01/12/apple-google-ai-siri-gemini.html)
+SUCCESS: Unauthenticated remote code execution in OpenCode (https://cy.md/opencode-rce/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=c0mLhHDcY3I
+FAIL: Scraping failed or too short - Unauthenticated remote code execution in OpenCode (https://cy.md/opencode-rce/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=c0mLhHDcY3I
+SUCCESS: Show HN: AI in SolidWorks (https://www.trylad.com)
+SUCCESS: Show HN: AI in SolidWorks (https://www.trylad.com)
+
+--- New Job Started for 2026-01-13 at 2026-02-01 22:06:14.468566 ---
+
+--- New Job Started for 2026-01-13 at 2026-02-01 22:09:02.840360 ---
+SUCCESS: A 40-line fix eliminated a 400x performance gap (https://questdb.com/blog/jvm-current-thread-user-time/)
+SUCCESS: A 40-line fix eliminated a 400x performance gap (https://questdb.com/blog/jvm-current-thread-user-time/)
+SUCCESS: AI generated music barred from Bandcamp (https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=Rs_JrOIo3SE
+SUCCESS: AI generated music barred from Bandcamp (https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=Rs_JrOIo3SE
+SUCCESS: The Tulip Creative Computer (https://github.com/shorepine/tulipcc)
+SUCCESS: The Tulip Creative Computer (https://github.com/shorepine/tulipcc)
+SUCCESS: Are two heads better than one? (https://eieio.games/blog/two-heads-arent-better-than-one/)
+FAIL: Scraping failed or too short - Some ecologists fear their field is losing touch with nature (https://www.nature.com/articles/d41586-025-04150-w)
+SUCCESS: Are two heads better than one? (https://eieio.games/blog/two-heads-arent-better-than-one/)
+FAIL: Scraping failed or too short - Some ecologists fear their field is losing touch with nature (https://www.nature.com/articles/d41586-025-04150-w)
+SUCCESS: How to make a damn website (2024) (https://lmnt.me/blog/how-to-make-a-damn-website.html)
+FAIL: Scraping failed or too short - The Cray-1 Computer System (1977) [pdf] (https://s3data.computerhistory.org/brochures/cray.cray1.1977.102638650.pdf)
+SUCCESS: How to make a damn website (2024) (https://lmnt.me/blog/how-to-make-a-damn-website.html)
+FAIL: Scraping failed or too short - The Cray-1 Computer System (1977) [pdf] (https://s3data.computerhistory.org/brochures/cray.cray1.1977.102638650.pdf)
+FAIL: Scraping failed or too short - No management needed: anti-patterns in early-stage engineering teams (https://www.ablg.io/blog/no-management-needed)
+SUCCESS: No management needed: anti-patterns in early-stage engineering teams (https://www.ablg.io/blog/no-management-needed)
+SUCCESS: Text-based web browsers (https://cssence.com/2026/text-based-web-browsers/)
+SUCCESS: Text-based web browsers (https://cssence.com/2026/text-based-web-browsers/)
+
+--- New Job Started for 2026-01-14 at 2026-02-01 22:32:49.367636 ---
+
+--- New Job Started for 2026-01-14 at 2026-02-01 22:33:52.668423 ---
+FAIL: Summarization error - Claude Cowork exfiltrates files (https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)
+FAIL: Summarization error - Claude Cowork exfiltrates files (https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)
+SUCCESS: There's a ridiculous amount of tech in a disposable vape (https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html)
+SUCCESS: There's a ridiculous amount of tech in a disposable vape (https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html)
+SUCCESS: Ford F-150 Lightning outsold the Cybertruck and was then canceled for poor sales (https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/)
+SUCCESS: Ford F-150 Lightning outsold the Cybertruck and was then canceled for poor sales (https://electrek.co/2026/01/13/ford-f150-lightning-outsold-tesla-cybertruck-canceled-not-selling-enough/)
+SUCCESS: SparkFun Officially Dropping AdaFruit due to CoC Violation (https://www.sparkfun.com/official-response)
+SUCCESS: SparkFun Officially Dropping AdaFruit due to CoC Violation (https://www.sparkfun.com/official-response)
+FAIL: Scraping failed or too short - Find a pub that needs you (https://www.ismypubfucked.com/)
+SUCCESS: Find a pub that needs you (https://www.ismypubfucked.com/)
+SUCCESS: Why some clothes shrink in the wash and how to unshrink them (https://www.swinburne.edu.au/news/2025/08/why-some-clothes-shrink-in-the-wash-and-how-to-unshrink-them/)
+SUCCESS: Why some clothes shrink in the wash and how to unshrink them (https://www.swinburne.edu.au/news/2025/08/why-some-clothes-shrink-in-the-wash-and-how-to-unshrink-them/)
+FAIL: Scraping failed or too short - Every GitHub object has two IDs (https://www.greptile.com/blog/github-ids)
+SUCCESS: Every GitHub object has two IDs (https://www.greptile.com/blog/github-ids)
+FAIL: Summarization error - I hate GitHub Actions with passion (https://xlii.space/eng/i-hate-github-actions-with-passion/)
+FAIL: Summarization error - I hate GitHub Actions with passion (https://xlii.space/eng/i-hate-github-actions-with-passion/)
+FAIL: Scraping failed or too short - Scaling long-running autonomous coding (https://cursor.com/blog/scaling-agents)
+
+--- New Job Started for 2026-01-15 at 2026-02-01 23:00:44.151667 ---
+SUCCESS: Scaling long-running autonomous coding (https://cursor.com/blog/scaling-agents)
+SUCCESS: Apple is fighting for TSMC capacity as Nvidia takes center stage (https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc)
+
+--- New Job Started for 2026-01-15 at 2026-02-01 23:05:07.905864 ---
+SUCCESS: Pocket TTS: A high quality TTS that gives your CPU a voice (https://kyutai.org/blog/2026-01-13-pocket-tts)
+SUCCESS: Apple is fighting for TSMC capacity as Nvidia takes center stage (https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc)
+SUCCESS: Inside The Internet Archive's Infrastructure (https://hackernoon.com/the-long-now-of-the-web-inside-the-internet-archives-fight-against-forgetting)
+SUCCESS: Pocket TTS: A high quality TTS that gives your CPU a voice (https://kyutai.org/blog/2026-01-13-pocket-tts)
+SUCCESS: The URL shortener that makes your links look as suspicious as possible (https://creepylink.com/)
+SUCCESS: Inside The Internet Archive's Infrastructure (https://hackernoon.com/the-long-now-of-the-web-inside-the-internet-archives-fight-against-forgetting)
+SUCCESS: Photos capture the breathtaking scale of China's wind and solar buildout (https://e360.yale.edu/digest/china-renewable-photo-essay)
+SUCCESS: The URL shortener that makes your links look as suspicious as possible (https://creepylink.com/)
+SUCCESS: Claude is good at assembling blocks, but still falls apart at creating them (https://www.approachwithalacrity.com/claude-ne/)
+FAIL: Scraping failed or too short - 25 Years of Wikipedia (https://wikipedia25.org)
+SUCCESS: Photos capture the breathtaking scale of China's wind and solar buildout (https://e360.yale.edu/digest/china-renewable-photo-essay)
+SUCCESS: Linux boxes via SSH: suspended when disconected (https://shellbox.dev/)
+SUCCESS: Claude is good at assembling blocks, but still falls apart at creating them (https://www.approachwithalacrity.com/claude-ne/)
+FAIL: Scraping failed or too short - 25 Years of Wikipedia (https://wikipedia25.org)
+SUCCESS: First impressions of Claude Cowork (https://simonw.substack.com/p/first-impressions-of-claude-cowork)
+SUCCESS: Linux boxes via SSH: suspended when disconected (https://shellbox.dev/)
+
+--- New Job Started for 2026-01-16 at 2026-02-01 23:32:53.561410 ---
+SUCCESS: First impressions of Claude Cowork (https://simonw.substack.com/p/first-impressions-of-claude-cowork)
+SUCCESS: Cloudflare acquires Astro (https://astro.build/blog/joining-cloudflare/)
+
+--- New Job Started for 2026-01-16 at 2026-02-01 23:37:23.417028 ---
+SUCCESS: 6-Day and IP Address Certificates Are Generally Available (https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability)
+SUCCESS: Cloudflare acquires Astro (https://astro.build/blog/joining-cloudflare/)
+SUCCESS: East Germany balloon escape (https://en.wikipedia.org/wiki/East_Germany_balloon_escape)
+SUCCESS: 6-Day and IP Address Certificates Are Generally Available (https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability)
+FAIL: Summarization error - Cursor's latest “browser experiment” implied success without evidence (https://embedding-shapes.github.io/cursor-implied-success-without-evidence/)
+SUCCESS: East Germany balloon escape (https://en.wikipedia.org/wiki/East_Germany_balloon_escape)
+SUCCESS: STFU (https://github.com/Pankajtanwarbanna/stfu)
+FAIL: Summarization error - Cursor's latest “browser experiment” implied success without evidence (https://embedding-shapes.github.io/cursor-implied-success-without-evidence/)
+SUCCESS: Briar keeps Iran connected via Bluetooth and Wi-Fi when the internet goes dark (https://briarproject.org/manual/fa/)
+SUCCESS: STFU (https://github.com/Pankajtanwarbanna/stfu)
+SUCCESS: Michelangelo's first painting, created when he was 12 or 13 (https://www.openculture.com/2026/01/discover-michelangelos-first-painting.html)
+SUCCESS: Briar keeps Iran connected via Bluetooth and Wi-Fi when the internet goes dark (https://briarproject.org/manual/fa/)
+SUCCESS: OpenBSD-current now runs as guest under Apple Hypervisor (https://www.undeadly.org/cgi?action=article;sid=20260115203619)
+SUCCESS: Michelangelo's first painting, created when he was 12 or 13 (https://www.openculture.com/2026/01/discover-michelangelos-first-painting.html)
+SUCCESS: Just the Browser (https://justthebrowser.com/)
+SUCCESS: OpenBSD-current now runs as guest under Apple Hypervisor (https://www.undeadly.org/cgi?action=article;sid=20260115203619)
+SUCCESS: Dell UltraSharp 52 Thunderbolt Hub Monitor (https://www.dell.com/en-us/shop/dell-ultrasharp-52-thunderbolt-hub-monitor-u5226kw/apd/210-bthw/monitors-monitor-accessories)
+SUCCESS: Just the Browser (https://justthebrowser.com/)
+
+--- New Job Started for 2026-01-17 at 2026-02-02 00:11:19.341492 ---
+SUCCESS: Dell UltraSharp 52 Thunderbolt Hub Monitor (https://www.dell.com/en-us/shop/dell-ultrasharp-52-thunderbolt-hub-monitor-u5226kw/apd/210-bthw/monitors-monitor-accessories)
+SUCCESS: ASCII characters are not pixels: a deep dive into ASCII rendering (https://alexharri.com/blog/ascii-rendering)
+FAIL: Scraping failed or too short - We put Claude Code in Rollercoaster Tycoon (https://labs.ramp.com/rct)
+
+--- New Job Started for 2026-01-17 at 2026-02-02 00:16:47.741901 ---
+SUCCESS: ASCII characters are not pixels: a deep dive into ASCII rendering (https://alexharri.com/blog/ascii-rendering)
+FAIL: Scraping failed or too short - We put Claude Code in Rollercoaster Tycoon (https://labs.ramp.com/rct)
+SUCCESS: The recurring dream of replacing developers (https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
+SUCCESS: The recurring dream of replacing developers (https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html)
+SUCCESS: High-Level Is the Goal (https://bvisness.me/high-level/)
+SUCCESS: High-Level Is the Goal (https://bvisness.me/high-level/)
+SUCCESS: The Dilbert Afterlife (https://www.astralcodexten.com/p/the-dilbert-afterlife)
+SUCCESS: The Dilbert Afterlife (https://www.astralcodexten.com/p/the-dilbert-afterlife)
+FAIL: Summarization error - LLM Structured Outputs Handbook (https://nanonets.com/cookbooks/structured-llm-outputs)
+FAIL: Summarization error - LLM Structured Outputs Handbook (https://nanonets.com/cookbooks/structured-llm-outputs)
+SUCCESS: Kip: A programming language based on grammatical cases of Turkish (https://github.com/kip-dili/kip)
+FAIL: Summarization error - Kip: A programming language based on grammatical cases of Turkish (https://github.com/kip-dili/kip)
+SUCCESS: The Olivetti Company (https://www.abortretry.fail/p/the-olivetti-company)
+SUCCESS: The Olivetti Company (https://www.abortretry.fail/p/the-olivetti-company)
+SUCCESS: An Elizabethan mansion's secrets for staying warm (https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm)
+SUCCESS: An Elizabethan mansion's secrets for staying warm (https://www.bbc.com/future/article/20260116-an-elizabethan-mansions-secrets-for-staying-warm)
+SUCCESS: FLUX.2 [Klein]: Towards Interactive Visual Intelligence (https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence)
+SUCCESS: FLUX.2 [Klein]: Towards Interactive Visual Intelligence (https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence)
+
+--- New Job Started for 2026-01-18 at 2026-02-02 00:48:03.606888 ---
+
+--- New Job Started for 2026-01-18 at 2026-02-02 00:48:54.354271 ---
+SUCCESS: Gaussian Splatting – A$AP Rocky "Helicopter" music video (https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting)
+SUCCESS: Gaussian Splatting – A$AP Rocky "Helicopter" music video (https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting)
+SUCCESS: Flux 2 Klein pure C inference (https://github.com/antirez/flux2.c)
+SUCCESS: Flux 2 Klein pure C inference (https://github.com/antirez/flux2.c)
+SUCCESS: jQuery 4 (https://blog.jquery.com/2026/01/17/jquery-4-0-0/)
+FAIL: Summarization error - jQuery 4 (https://blog.jquery.com/2026/01/17/jquery-4-0-0/)
+SUCCESS: If you put Apple icons in reverse it looks like someone getting good at design (https://mastodon.social/@heliographe_studio/115890819509545391)
+SUCCESS: If you put Apple icons in reverse it looks like someone getting good at design (https://mastodon.social/@heliographe_studio/115890819509545391)
+SUCCESS: Command-line Tools can be 235x Faster than your Hadoop Cluster (2014) (https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+SUCCESS: Command-line Tools can be 235x Faster than your Hadoop Cluster (2014) (https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html)
+SUCCESS: Predicting OpenAI's ad strategy (https://ossa-ma.github.io/blog/openads)
+SUCCESS: Predicting OpenAI's ad strategy (https://ossa-ma.github.io/blog/openads)
+SUCCESS: Prediction markets are ushering in a world in which news becomes about gambling (https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/)
+SUCCESS: Prediction markets are ushering in a world in which news becomes about gambling (https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/)
+SUCCESS: A Social Filesystem (https://overreacted.io/a-social-filesystem/)
+SUCCESS: A Social Filesystem (https://overreacted.io/a-social-filesystem/)
+SUCCESS: Raising money fucked me up (https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up)
+SUCCESS: Raising money fucked me up (https://blog.yakkomajuri.com/blog/raising-money-fucked-me-up)
+SUCCESS: ThinkNext Design (https://thinknextdesign.com/home.html)
+SUCCESS: ThinkNext Design (https://thinknextdesign.com/home.html)
+
+--- New Job Started for 2026-01-19 at 2026-02-02 01:28:26.924187 ---
+
+--- New Job Started for 2026-01-19 at 2026-02-02 01:29:06.194894 ---
+SUCCESS: Level S4 solar radiation event (https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026)
+SUCCESS: Level S4 solar radiation event (https://www.swpc.noaa.gov/news/g4-severe-geomagnetic-storm-levels-reached-19-jan-2026)
+SUCCESS: What came first: the CNAME or the A record? (https://blog.cloudflare.com/cname-a-record-order-dns-standards/)
+SUCCESS: What came first: the CNAME or the A record? (https://blog.cloudflare.com/cname-a-record-order-dns-standards/)
+SUCCESS: Apple testing new App Store design that blurs the line between ads and results (https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/)
+SUCCESS: Apple testing new App Store design that blurs the line between ads and results (https://9to5mac.com/2026/01/16/iphone-apple-app-store-search-results-ads-new-design/)
+SUCCESS: Notes on Apple's Nano Texture (2025) (https://jon.bo/posts/nano-texture/)
+SUCCESS: Notes on Apple's Nano Texture (2025) (https://jon.bo/posts/nano-texture/)
+SUCCESS: The coming industrialisation of exploit generation with LLMs (https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/)
+SUCCESS: The coming industrialisation of exploit generation with LLMs (https://sean.heelan.io/2026/01/18/on-the-coming-industrialisation-of-exploit-generation-with-llms/)
+SUCCESS: Dead Internet Theory (https://kudmitry.com/articles/dead-internet-theory/)
+SUCCESS: Dead Internet Theory (https://kudmitry.com/articles/dead-internet-theory/)
+SUCCESS: A decentralized peer-to-peer messaging application that operates over Bluetooth (https://bitchat.free/)
+SUCCESS: A decentralized peer-to-peer messaging application that operates over Bluetooth (https://bitchat.free/)
+SUCCESS: Radboud University selects Fairphone as standard smartphone for employees (https://www.ru.nl/en/staff/news/radboud-university-selects-fairphone-as-standard-smartphone-for-employees)
+SUCCESS: Radboud University selects Fairphone as standard smartphone for employees (https://www.ru.nl/en/staff/news/radboud-university-selects-fairphone-as-standard-smartphone-for-employees)
+SUCCESS: Gas Town Decoded (https://www.alilleybrinker.com/mini/gas-town-decoded/)
+SUCCESS: Gas Town Decoded (https://www.alilleybrinker.com/mini/gas-town-decoded/)
+SUCCESS: The Code-Only Agent (https://rijnard.com/blog/the-code-only-agent)
+SUCCESS: The Code-Only Agent (https://rijnard.com/blog/the-code-only-agent)
+
+--- New Job Started for 2026-01-20 at 2026-02-02 02:08:24.436272 ---
+SUCCESS: A 26,000-year astronomical monument hidden in plain sight (2019) (https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/)
+
+--- New Job Started for 2026-01-20 at 2026-02-02 02:09:03.886968 ---
+SUCCESS: Reticulum, a secure and anonymous mesh networking stack (https://github.com/markqvist/Reticulum)
+SUCCESS: A 26,000-year astronomical monument hidden in plain sight (2019) (https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/)
+FAIL: Summarization error - Nanolang: A tiny experimental language designed to be targeted by coding LLMs (https://github.com/jordanhubbard/nanolang)
+SUCCESS: Reticulum, a secure and anonymous mesh networking stack (https://github.com/markqvist/Reticulum)
+SUCCESS: Unconventional PostgreSQL Optimizations (https://hakibenita.com/postgresql-unconventional-optimizations)
+FAIL: Summarization error - Nanolang: A tiny experimental language designed to be targeted by coding LLMs (https://github.com/jordanhubbard/nanolang)
+SUCCESS: California is free of drought for the first time in 25 years (https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years)
+SUCCESS: Unconventional PostgreSQL Optimizations (https://hakibenita.com/postgresql-unconventional-optimizations)
+SUCCESS: Porsche sold more electrified cars in Europe in 2025 than pure gas-powered cars (https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html)
+SUCCESS: California is free of drought for the first time in 25 years (https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years)
+SUCCESS: The Unix Pipe Card Game (https://punkx.org/unix-pipe-game/)
+SUCCESS: Porsche sold more electrified cars in Europe in 2025 than pure gas-powered cars (https://newsroom.porsche.com/en/2026/company/porsche-deliveries-2025-41516.html)
+SUCCESS: Scaling long-running autonomous coding (https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/)
+SUCCESS: The Unix Pipe Card Game (https://punkx.org/unix-pipe-game/)
+SUCCESS: I'm addicted to being useful (https://www.seangoedecke.com/addicted-to-being-useful/)
+SUCCESS: Scaling long-running autonomous coding (https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/)
+SUCCESS: Instabridge has acquired Nova Launcher (https://novalauncher.com/nova-is-here-to-stay)
+SUCCESS: I'm addicted to being useful (https://www.seangoedecke.com/addicted-to-being-useful/)
+
+--- New Job Started for 2026-01-21 at 2026-02-02 02:43:21.980329 ---
+SUCCESS: Instabridge has acquired Nova Launcher (https://novalauncher.com/nova-is-here-to-stay)
+SUCCESS: Show HN: ChartGPU – WebGPU-powered charting library (1M points at 60fps) (https://github.com/ChartGPU/ChartGPU)
+
+--- New Job Started for 2026-01-21 at 2026-02-02 02:47:58.907709 ---
+SUCCESS: Claude's new constitution (https://www.anthropic.com/news/claude-new-constitution)
+SUCCESS: Show HN: ChartGPU – WebGPU-powered charting library (1M points at 60fps) (https://github.com/ChartGPU/ChartGPU)
+SUCCESS: Waiting for dawn in search: Search index, Google rulings and impact on Kagi (https://blog.kagi.com/waiting-dawn-search)
+SUCCESS: Claude's new constitution (https://www.anthropic.com/news/claude-new-constitution)
+SUCCESS: Skip is now free and open source (https://skip.dev/blog/skip-is-free/)
+SUCCESS: Waiting for dawn in search: Search index, Google rulings and impact on Kagi (https://blog.kagi.com/waiting-dawn-search)
+SUCCESS: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant (https://www.media.mit.edu/publications/your-brain-on-chatgpt/)
+SUCCESS: Skip is now free and open source (https://skip.dev/blog/skip-is-free/)
+SUCCESS: Anthropic's original take home assignment open sourced (https://github.com/anthropics/original_performance_takehome)
+SUCCESS: Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant (https://www.media.mit.edu/publications/your-brain-on-chatgpt/)
+SUCCESS: Can you slim macOS down? (https://eclecticlight.co/2026/01/21/can-you-slim-macos-down/)
+SUCCESS: Anthropic's original take home assignment open sourced (https://github.com/anthropics/original_performance_takehome)
+SUCCESS: Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs (https://github.com/mastra-ai/mastra)
+SUCCESS: Can you slim macOS down? (https://eclecticlight.co/2026/01/21/can-you-slim-macos-down/)
+SUCCESS: eBay explicitly bans AI "buy for me" agents in user agreement update (https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/)
+SUCCESS: Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs (https://github.com/mastra-ai/mastra)
+SUCCESS: The challenges of soft delete (https://atlas9.dev/blog/soft-delete.html)
+SUCCESS: eBay explicitly bans AI "buy for me" agents in user agreement update (https://www.valueaddedresource.net/ebay-bans-ai-agents-updates-arbitration-user-agreement-feb-2026/)
+
+--- New Job Started for 2026-01-22 at 2026-02-02 03:21:10.669259 ---
+SUCCESS: The challenges of soft delete (https://atlas9.dev/blog/soft-delete.html)
+SUCCESS: GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers (https://gptzero.me/news/neurips/)
+FAIL: Scraping failed or too short - Show HN: isometric.nyc – giant isometric pixel art map of NYC (https://cannoneyed.com/isometric-nyc/)
+FAIL: Scraping failed or too short - Qwen3-TTS family is now open sourced: Voice design, clone, and generation (https://qwen.ai/blog?id=qwen3tts-0115)
+FAIL: Scraping failed or too short - I was banned from Claude for scaffolding a Claude.md file? (https://hugodaniel.com/posts/claude-code-banned-me/)
+
+--- New Job Started for 2026-01-22 at 2026-02-02 03:28:09.093469 ---
+SUCCESS: Why does SSH send 100 packets per keystroke? (https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/)
+SUCCESS: GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers (https://gptzero.me/news/neurips/)
+FAIL: Scraping failed or too short - Show HN: isometric.nyc – giant isometric pixel art map of NYC (https://cannoneyed.com/isometric-nyc/)
+FAIL: Scraping failed or too short - Qwen3-TTS family is now open sourced: Voice design, clone, and generation (https://qwen.ai/blog?id=qwen3tts-0115)
+SUCCESS: In Europe, wind and solar overtake fossil fuels (https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels)
+FAIL: Scraping failed or too short - I was banned from Claude for scaffolding a Claude.md file? (https://hugodaniel.com/posts/claude-code-banned-me/)
+SUCCESS: Why does SSH send 100 packets per keystroke? (https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/)
+SUCCESS: Douglas Adams on the English–American cultural divide over "heroes" (https://shreevatsa.net/post/douglas-adams-cultural-divide/)
+SUCCESS: In Europe, wind and solar overtake fossil fuels (https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels)
+SUCCESS: Your app subscription is now my weekend project (https://rselbach.com/your-sub-is-now-my-weekend-project)
+FAIL: Scraping failed or too short - We will ban you and ridicule you in public if you waste our time on crap reports (https://curl.se/.well-known/security.txt)
+SUCCESS: Douglas Adams on the English–American cultural divide over "heroes" (https://shreevatsa.net/post/douglas-adams-cultural-divide/)
+SUCCESS: Threat actors expand abuse of Microsoft Visual Studio Code (https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/)
+
+--- New Job Started for 2026-01-23 at 2026-02-02 03:45:58.421226 ---
+SKIP: YouTube URL - https://www.youtube.com/watch?v=moBCOEiqiPs
+SUCCESS: Your app subscription is now my weekend project (https://rselbach.com/your-sub-is-now-my-weekend-project)
+FAIL: Scraping failed or too short - We will ban you and ridicule you in public if you waste our time on crap reports (https://curl.se/.well-known/security.txt)
+SUCCESS: Microsoft gave FBI set of BitLocker encryption keys to unlock suspects' laptops (https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/)
+SUCCESS: Threat actors expand abuse of Microsoft Visual Studio Code (https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/)
+
+--- New Job Started for 2026-01-23 at 2026-02-02 03:52:49.595989 ---
+SKIP: YouTube URL - https://www.youtube.com/watch?v=moBCOEiqiPs
+SUCCESS: Proton spam and the AI consent problem (https://dbushell.com/2026/01/22/proton-spam/)
+SUCCESS: Microsoft gave FBI set of BitLocker encryption keys to unlock suspects' laptops (https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/)
+SUCCESS: Booting from a vinyl record (2020) (https://boginjr.com/it/sw/dev/vinyl-boot/)
+SUCCESS: Proton spam and the AI consent problem (https://dbushell.com/2026/01/22/proton-spam/)
+SUCCESS: Proof of Corn (https://proofofcorn.com/)
+SUCCESS: Booting from a vinyl record (2020) (https://boginjr.com/it/sw/dev/vinyl-boot/)
+SUCCESS: Gas Town's agent patterns, design bottlenecks, and vibecoding at scale (https://maggieappleton.com/gastown)
+SUCCESS: Proof of Corn (https://proofofcorn.com/)
+FAIL: Scraping failed or too short - Gas Town's agent patterns, design bottlenecks, and vibecoding at scale (https://maggieappleton.com/gastown)
+SUCCESS: Unrolling the Codex agent loop (https://openai.com/index/unrolling-the-codex-agent-loop/)
+FAIL: Scraping failed or too short - Capital One to acquire Brex for $5.15B (https://www.reuters.com/legal/transactional/capital-one-buy-fintech-firm-brex-515-billion-deal-2026-01-22/)
+FAIL: Summarization error - Unrolling the Codex agent loop (https://openai.com/index/unrolling-the-codex-agent-loop/)
+FAIL: Scraping failed or too short - Capital One to acquire Brex for $5.15B (https://www.reuters.com/legal/transactional/capital-one-buy-fintech-firm-brex-515-billion-deal-2026-01-22/)
+SUCCESS: Show HN: Whosthere: A LAN discovery tool with a modern TUI, written in Go (https://github.com/ramonvermeulen/whosthere)
+SUCCESS: Show HN: Whosthere: A LAN discovery tool with a modern TUI, written in Go (https://github.com/ramonvermeulen/whosthere)
+SUCCESS: Bugs Apple loves (https://www.bugsappleloves.com)
+SUCCESS: Bugs Apple loves (https://www.bugsappleloves.com)
+
+--- New Job Started for 2026-01-24 at 2026-02-02 04:18:26.598173 ---
+
+--- New Job Started for 2026-01-24 at 2026-02-02 04:20:52.982464 ---
+SUCCESS: BirdyChat becomes first European chat app that is interoperable with WhatsApp (https://www.birdy.chat/blog/first-to-interoperate-with-whatsapp)
+SUCCESS: BirdyChat becomes first European chat app that is interoperable with WhatsApp (https://www.birdy.chat/blog/first-to-interoperate-with-whatsapp)
+SUCCESS: Banned C++ features in Chromium (https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md)
+SUCCESS: Banned C++ features in Chromium (https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md)
+SUCCESS: Claude Code's new hidden feature: Swarms (https://twitter.com/NicerInPerson/status/2014989679796347375)
+SUCCESS: Claude Code's new hidden feature: Swarms (https://twitter.com/NicerInPerson/status/2014989679796347375)
+SUCCESS: Microsoft will give the FBI a Windows PC data encryption key if ordered (https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare)
+SUCCESS: Microsoft will give the FBI a Windows PC data encryption key if ordered (https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare)
+SUCCESS: Doing gigabit Ethernet over my British phone wires (https://thehftguy.com/2026/01/22/doing-gigabit-ethernet-over-my-british-phone-wires/)
+SUCCESS: Doing gigabit Ethernet over my British phone wires (https://thehftguy.com/2026/01/22/doing-gigabit-ethernet-over-my-british-phone-wires/)
+SUCCESS: Postmortem: Our first VLEO satellite mission (with imagery and flight data) (https://albedo.com/post/clarity-1-what-worked-and-where-we-go-next)
+SUCCESS: Postmortem: Our first VLEO satellite mission (with imagery and flight data) (https://albedo.com/post/clarity-1-what-worked-and-where-we-go-next)
+FAIL: Summarization error - Some C habits I employ for the modern day (https://www.unix.dog/~yosh/blog/c-habits-for-me.html)
+FAIL: Summarization error - Some C habits I employ for the modern day (https://www.unix.dog/~yosh/blog/c-habits-for-me.html)
+SUCCESS: Raspberry Pi Drag Race: Pi 1 to Pi 5 – Performance Comparison (https://the-diy-life.com/raspberry-pi-drag-race-pi-1-to-pi-5-performance-comparison/)
+SUCCESS: Maze Algorithms (2017) (http://www.jamisbuck.org/mazes/)
+SUCCESS: Raspberry Pi Drag Race: Pi 1 to Pi 5 – Performance Comparison (https://the-diy-life.com/raspberry-pi-drag-race-pi-1-to-pi-5-performance-comparison/)
+SUCCESS: How I estimate work (https://www.seangoedecke.com/how-i-estimate-work/)
+SUCCESS: Maze Algorithms (2017) (http://www.jamisbuck.org/mazes/)
+SUCCESS: How I estimate work (https://www.seangoedecke.com/how-i-estimate-work/)
+
+--- New Job Started for 2026-01-25 at 2026-02-02 04:56:50.652184 ---
+SUCCESS: First, make me care (https://gwern.net/blog/2026/make-me-care)
+
+--- New Job Started for 2026-01-25 at 2026-02-02 05:02:07.711520 ---
+SUCCESS: A macOS app that blurs your screen when you slouch (https://github.com/tldev/posturr)
+FAIL: Scraping failed or too short - Adoption of EVs tied to real-world reductions in air pollution: study (https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/)
+FAIL: Scraping failed or too short - A flawed paper in management science has been cited more than 6k times (https://statmodeling.stat.columbia.edu/2026/01/22/aking/)
+SUCCESS: First, make me care (https://gwern.net/blog/2026/make-me-care)
+SUCCESS: Google confirms 'high-friction' sideloading flow is coming to Android (https://www.androidauthority.com/google-sideloading-android-high-friction-process-3633468/)
+SUCCESS: A macOS app that blurs your screen when you slouch (https://github.com/tldev/posturr)
+FAIL: Scraping failed or too short - Adoption of EVs tied to real-world reductions in air pollution: study (https://keck.usc.edu/news/adoption-of-electric-vehicles-tied-to-real-world-reductions-in-air-pollution-study-finds/)
+FAIL: Scraping failed or too short - A flawed paper in management science has been cited more than 6k times (https://statmodeling.stat.columbia.edu/2026/01/22/aking/)
+FAIL: Summarization error - Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems (https://www.diljitpr.net/blog-post-postgresql-dlq)
+SUCCESS: Google confirms 'high-friction' sideloading flow is coming to Android (https://www.androidauthority.com/google-sideloading-android-high-friction-process-3633468/)
+SUCCESS: Deutsche Telekom is throttling the internet (https://netzbremse.de/en/)
+SUCCESS: Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems (https://www.diljitpr.net/blog-post-postgresql-dlq)
+SUCCESS: Web-based image editor modeled after Deluxe Paint (https://github.com/steffest/DPaint-js)
+SUCCESS: Deutsche Telekom is throttling the internet (https://netzbremse.de/en/)
+SUCCESS: Doom has been ported to an earbud (https://doombuds.com)
+SUCCESS: Web-based image editor modeled after Deluxe Paint (https://github.com/steffest/DPaint-js)
+SUCCESS: Introduction to PostgreSQL Indexes (https://dlt.github.io/blog/posts/introduction-to-postgresql-indexes/)
+SUCCESS: Doom has been ported to an earbud (https://doombuds.com)
+
+--- New Job Started for 2026-01-26 at 2026-02-02 05:26:54.869433 ---
+SUCCESS: Television is 100 years old today (https://diamondgeezer.blogspot.com/2026/01/tv100.html)
+SUCCESS: Introduction to PostgreSQL Indexes (https://dlt.github.io/blog/posts/introduction-to-postgresql-indexes/)
+SUCCESS: Apple introduces new AirTag with longer range and improved findability (https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/)
+
+--- New Job Started for 2026-01-26 at 2026-02-02 05:34:17.484795 ---
+SUCCESS: France Aiming to Replace Zoom, Google Meet, Microsoft Teams, etc. (https://twitter.com/lellouchenico/status/2015775970330882319)
+SUCCESS: Television is 100 years old today (https://diamondgeezer.blogspot.com/2026/01/tv100.html)
+SUCCESS: Over 36,500 killed in Iran's deadliest massacre, documents reveal (https://www.iranintl.com/en/202601255198)
+SUCCESS: Apple introduces new AirTag with longer range and improved findability (https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/)
+FAIL: Summarization error - After two years of vibecoding, I'm back to writing by hand (https://atmoio.substack.com/p/after-two-years-of-vibecoding-im)
+SUCCESS: France Aiming to Replace Zoom, Google Meet, Microsoft Teams, etc. (https://twitter.com/lellouchenico/status/2015775970330882319)
+SUCCESS: ChatGPT Containers can now run bash, pip/npm install packages and download files (https://simonwillison.net/2026/Jan/26/chatgpt-containers/)
+SUCCESS: Over 36,500 killed in Iran's deadliest massacre, documents reveal (https://www.iranintl.com/en/202601255198)
+SUCCESS: There is an AI code review bubble (https://www.greptile.com/blog/ai-code-review-bubble)
+FAIL: Summarization error - After two years of vibecoding, I'm back to writing by hand (https://atmoio.substack.com/p/after-two-years-of-vibecoding-im)
+FAIL: Scraping failed or too short - Qwen3-Max-Thinking (https://qwen.ai/blog?id=qwen3-max-thinking)
+SUCCESS: Fedora Asahi Remix is now working on Apple M3 (https://bsky.app/profile/did:plc:okydh7e54e2nok65kjxdklvd/post/3mdd55paffk2o)
+SUCCESS: ChatGPT Containers can now run bash, pip/npm install packages and download files (https://simonwillison.net/2026/Jan/26/chatgpt-containers/)
+FAIL: Scraping failed or too short - There is an AI code review bubble (https://www.greptile.com/blog/ai-code-review-bubble)
+FAIL: Scraping failed or too short - Qwen3-Max-Thinking (https://qwen.ai/blog?id=qwen3-max-thinking)
+SUCCESS: JuiceSSH – Give me my pro features back (https://nproject.io/blog/juicessh-give-me-back-my-pro-features/)
+SUCCESS: Fedora Asahi Remix is now working on Apple M3 (https://bsky.app/profile/did:plc:okydh7e54e2nok65kjxdklvd/post/3mdd55paffk2o)
+SUCCESS: JuiceSSH – Give me my pro features back (https://nproject.io/blog/juicessh-give-me-back-my-pro-features/)
+
+--- New Job Started for 2026-01-27 at 2026-02-02 06:02:58.695529 ---
+FAIL: Scraping failed or too short - 430k-year-old well-preserved wooden tools are the oldest ever found (https://www.nytimes.com/2026/01/26/science/archaeology-neanderthals-tools.html)
+SUCCESS: A few random notes from Claude coding quite a bit last few weeks (https://twitter.com/karpathy/status/2015883857489522876)
+SUCCESS: FBI is investigating Minnesota Signal chats tracking ICE (https://www.nbcnews.com/tech/internet/fbi-investigating-minnesota-signal-minneapolis-group-ice-patel-kash-rcna256041)
+
+--- New Job Started for 2026-01-27 at 2026-02-02 06:06:34.208829 ---
+FAIL: Scraping failed or too short - 430k-year-old well-preserved wooden tools are the oldest ever found (https://www.nytimes.com/2026/01/26/science/archaeology-neanderthals-tools.html)
+SUCCESS: TikTok users can't upload anti-ICE videos. The company blames tech issues (https://www.cnn.com/2026/01/26/tech/tiktok-ice-censorship-glitch-cec)
+SUCCESS: A few random notes from Claude coding quite a bit last few weeks (https://twitter.com/karpathy/status/2015883857489522876)
+SUCCESS: Prism (https://openai.com/index/introducing-prism)
+SUCCESS: FBI is investigating Minnesota Signal chats tracking ICE (https://www.nbcnews.com/tech/internet/fbi-investigating-minnesota-signal-minneapolis-group-ice-patel-kash-rcna256041)
+SUCCESS: Xfwl4 – The Roadmap for a Xfce Wayland Compositor (https://alexxcons.github.io/blogpost_15.html)
+SUCCESS: TikTok users can't upload anti-ICE videos. The company blames tech issues (https://www.cnn.com/2026/01/26/tech/tiktok-ice-censorship-glitch-cec)
+FAIL: Scraping failed or too short - Prism (https://openai.com/index/introducing-prism)
+SUCCESS: Doing the thing is doing the thing (https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing)
+SUCCESS: Xfwl4 – The Roadmap for a Xfce Wayland Compositor (https://alexxcons.github.io/blogpost_15.html)
+FAIL: Scraping failed or too short - Doing the thing is doing the thing (https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing)
+SUCCESS: Heathrow scraps liquid container limit (https://www.bbc.com/news/articles/c1evvx89559o)
+SUCCESS: Heathrow scraps liquid container limit (https://www.bbc.com/news/articles/c1evvx89559o)
+FAIL: Summarization error - Windows 11's Patch Tuesday nightmare gets worse (https://www.windowscentral.com/microsoft/windows-11/windows-11s-botched-patch-tuesday-update-nightmare-continues-as-microsoft-confirms-some-pcs-might-fail-to-boot)
+FAIL: Summarization error - Windows 11's Patch Tuesday nightmare gets worse (https://www.windowscentral.com/microsoft/windows-11/windows-11s-botched-patch-tuesday-update-nightmare-continues-as-microsoft-confirms-some-pcs-might-fail-to-boot)
+SUCCESS: The hidden engineering of runways (https://practical.engineering/blog/2026/1/20/the-hidden-engineering-of-runways)
+
+--- New Job Started for 2026-01-28 at 2026-02-02 06:29:17.541758 ---
+SUCCESS: The hidden engineering of runways (https://practical.engineering/blog/2026/1/20/the-hidden-engineering-of-runways)
+SUCCESS: Microsoft forced me to switch to Linux (https://www.himthe.dev/blog/microsoft-to-linux)
+
+--- New Job Started for 2026-01-28 at 2026-02-02 06:34:41.893568 ---
+FAIL: Scraping failed or too short - Microsoft forced me to switch to Linux (https://www.himthe.dev/blog/microsoft-to-linux)
+SUCCESS: ICE using Palantir tool that feeds on Medicaid data (https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data)
+SUCCESS: ICE using Palantir tool that feeds on Medicaid data (https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data)
+SUCCESS: Airfoil (2024) (https://ciechanow.ski/airfoil/)
+SUCCESS: Airfoil (2024) (https://ciechanow.ski/airfoil/)
+SUCCESS: Android’s desktop interface leaks (https://9to5google.com/2026/01/27/android-desktop-leak/)
+SUCCESS: Android’s desktop interface leaks (https://9to5google.com/2026/01/27/android-desktop-leak/)
+SUCCESS: Mousefood – Build embedded terminal UIs for microcontrollers (https://github.com/ratatui/mousefood)
+SUCCESS: Mousefood – Build embedded terminal UIs for microcontrollers (https://github.com/ratatui/mousefood)
+SUCCESS: Somebody used spoofed ADSB signals to raster the meme of JD Vance (https://alecmuffett.com/article/143548)
+FAIL: Scraping failed or too short - Amazon cuts 16k jobs (https://www.reuters.com/legal/litigation/amazon-cuts-16000-jobs-globally-broader-restructuring-2026-01-28/)
+SUCCESS: Somebody used spoofed ADSB signals to raster the meme of JD Vance (https://alecmuffett.com/article/143548)
+FAIL: Scraping failed or too short - Amazon cuts 16k jobs (https://www.reuters.com/legal/litigation/amazon-cuts-16000-jobs-globally-broader-restructuring-2026-01-28/)
+SUCCESS: Oban, the job processing framework from Elixir, has come to Python (https://www.dimamik.com/posts/oban_py/)
+SUCCESS: Oban, the job processing framework from Elixir, has come to Python (https://www.dimamik.com/posts/oban_py/)
+FAIL: Scraping failed or too short - Rust’s Standard Library on the GPU (https://www.vectorware.com/blog/rust-std-on-gpu/)
+SUCCESS: Rust’s Standard Library on the GPU (https://www.vectorware.com/blog/rust-std-on-gpu/)
+SUCCESS: Trinity large: An open 400B sparse MoE model (https://www.arcee.ai/blog/trinity-large)
+SUCCESS: Trinity large: An open 400B sparse MoE model (https://www.arcee.ai/blog/trinity-large)
+
+--- New Job Started for 2026-01-29 at 2026-02-02 07:03:04.632627 ---
+
+--- New Job Started for 2026-01-29 at 2026-02-02 07:05:56.029211 ---
+SUCCESS: Claude Code daily benchmarks for degradation tracking (https://marginlab.ai/trackers/claude-code/)
+SUCCESS: Claude Code daily benchmarks for degradation tracking (https://marginlab.ai/trackers/claude-code/)
+SUCCESS: Project Genie: Experimenting with infinite, interactive worlds (https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/)
+SUCCESS: Project Genie: Experimenting with infinite, interactive worlds (https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/)
+SUCCESS: Apple to soon take up to 30% cut from all Patreon creators in iOS app (https://www.macrumors.com/2026/01/28/patreon-apple-tax/)
+FAIL: Scraping failed or too short - We can’t send mail farther than 500 miles (2002) (https://web.mit.edu/jemorris/humor/500-miles)
+SUCCESS: Apple to soon take up to 30% cut from all Patreon creators in iOS app (https://www.macrumors.com/2026/01/28/patreon-apple-tax/)
+FAIL: Scraping failed or too short - We can’t send mail farther than 500 miles (2002) (https://web.mit.edu/jemorris/humor/500-miles)
+SUCCESS: PlayStation 2 Recompilation Project Is Absolutely Incredible (https://redgamingtech.com/playstation-2-recompilation-project-is-absolutely-incredible/)
+SUCCESS: PlayStation 2 Recompilation Project Is Absolutely Incredible (https://redgamingtech.com/playstation-2-recompilation-project-is-absolutely-incredible/)
+FAIL: Scraping failed or too short - AGENTS.md outperforms skills in our agent evals (https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
+SUCCESS: AGENTS.md outperforms skills in our agent evals (https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
+SUCCESS: Europe’s next-generation weather satellite sends back first images (https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images)
+SUCCESS: Europe’s next-generation weather satellite sends back first images (https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images)
+SUCCESS: Vitamin D and Omega-3 have a larger effect on depression than antidepressants (https://blog.ncase.me/on-depression/)
+SUCCESS: Vitamin D and Omega-3 have a larger effect on depression than antidepressants (https://blog.ncase.me/on-depression/)
+SUCCESS: Flameshot (https://github.com/flameshot-org/flameshot)
+SUCCESS: Flameshot (https://github.com/flameshot-org/flameshot)
+SUCCESS: A lot of population numbers are fake (https://davidoks.blog/p/a-lot-of-population-numbers-are-fake)
+SUCCESS: A lot of population numbers are fake (https://davidoks.blog/p/a-lot-of-population-numbers-are-fake)
+
+--- New Job Started for 2026-01-30 at 2026-02-02 07:38:12.228286 ---
+
+--- New Job Started for 2026-01-30 at 2026-02-02 07:39:25.675260 ---
+FAIL: Scraping failed or too short - Moltbook (https://www.moltbook.com/)
+FAIL: Scraping failed or too short - Antirender: remove the glossy shine on architectural renderings (https://antirender.com/)
+SUCCESS: Moltbook (https://www.moltbook.com/)
+FAIL: Scraping failed or too short - Antirender: remove the glossy shine on architectural renderings (https://antirender.com/)
+SUCCESS: Peerweb: Decentralized website hosting via WebTorrent (https://peerweb.lol/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=QKSPk_0N4Jc
+SUCCESS: Peerweb: Decentralized website hosting via WebTorrent (https://peerweb.lol/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=QKSPk_0N4Jc
+FAIL: Summarization error - Kimi K2.5 Technical Report [pdf] (https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf)
+SUCCESS: Kimi K2.5 Technical Report [pdf] (https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf)
+FAIL: Summarization error - HTTP Cats (https://http.cat/)
+FAIL: Summarization error - HTTP Cats (https://http.cat/)
+SUCCESS: GOG: Linux "the next major frontier" for gaming as it works on a native client (https://www.xda-developers.com/gog-calls-linux-the-next-major-frontier-for-gaming-as-it-works-on-a-native-client/)
+SUCCESS: GOG: Linux "the next major frontier" for gaming as it works on a native client (https://www.xda-developers.com/gog-calls-linux-the-next-major-frontier-for-gaming-as-it-works-on-a-native-client/)
+SUCCESS: Grid: Free, local-first, browser-based 3D printing/CNC/laser slicer (https://grid.space/stem/)
+SUCCESS: Grid: Free, local-first, browser-based 3D printing/CNC/laser slicer (https://grid.space/stem/)
+SUCCESS: Surely the crash of the US economy has to be soon (https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/)
+SUCCESS: Surely the crash of the US economy has to be soon (https://wilsoniumite.com/2026/01/27/surely-it-has-to-be-soon/)
+SUCCESS: Netflix Animation Studios Joins the Blender Development Fund as Corporate Patron (https://www.blender.org/press/netflix-animation-studios-joins-the-blender-development-fund-as-corporate-patron/)
+SUCCESS: Netflix Animation Studios Joins the Blender Development Fund as Corporate Patron (https://www.blender.org/press/netflix-animation-studios-joins-the-blender-development-fund-as-corporate-patron/)
+
+--- New Job Started for 2026-01-31 at 2026-02-02 08:03:53.751746 ---
+
+--- New Job Started for 2026-01-31 at 2026-02-02 08:04:09.355992 ---
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Mobile carriers can get your GPS location (https://an.dywa.ng/carrier-gnss.html)
+SUCCESS: Show HN: I trained a 9M speech model to fix my Mandarin tones (https://simedw.com/2026/01/31/ear-pronunication-via-ctc/)
+SUCCESS: Show HN: I trained a 9M speech model to fix my Mandarin tones (https://simedw.com/2026/01/31/ear-pronunication-via-ctc/)
+SUCCESS: Finland looks to introduce Australia-style ban on social media (https://yle.fi/a/74-20207494)
+SUCCESS: Finland looks to introduce Australia-style ban on social media (https://yle.fi/a/74-20207494)
+SUCCESS: Euro firms must ditch Uncle Sam's clouds and go EU-native (https://www.theregister.com/2026/01/30/euro_firms_must_ditch_us/)
+SUCCESS: Euro firms must ditch Uncle Sam's clouds and go EU-native (https://www.theregister.com/2026/01/30/euro_firms_must_ditch_us/)
+SUCCESS: Outsourcing thinking (https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html)
+SUCCESS: Outsourcing thinking (https://erikjohannes.no/posts/20260130-outsourcing-thinking/index.html)
+SUCCESS: CPython Internals Explained (https://github.com/zpoint/CPython-Internals)
+SUCCESS: CPython Internals Explained (https://github.com/zpoint/CPython-Internals)
+SUCCESS: My ridiculously robust photo management system (Immich edition) (https://jaisenmathai.com/articles/my-ridiculously-robust-photo-management-system-immich-edition/)
+SUCCESS: My ridiculously robust photo management system (Immich edition) (https://jaisenmathai.com/articles/my-ridiculously-robust-photo-management-system-immich-edition/)
+SUCCESS: Nintendo DS code editor and scriptable game engine (https://crl.io/ds-game-engine/)
+SUCCESS: Nintendo DS code editor and scriptable game engine (https://crl.io/ds-game-engine/)
+SUCCESS: Nvidia's 10-year effort to make the Shield TV the most updated Android device (https://arstechnica.com/gadgets/2026/01/inside-nvidias-10-year-effort-to-make-the-shield-tv-the-most-updated-android-device-ever/)
+SUCCESS: Nvidia's 10-year effort to make the Shield TV the most updated Android device (https://arstechnica.com/gadgets/2026/01/inside-nvidias-10-year-effort-to-make-the-shield-tv-the-most-updated-android-device-ever/)
+SUCCESS: We have ipinfo at home or how to geolocate IPs in your CLI using latency (https://blog.globalping.io/we-have-ipinfo-at-home-or-how-to-geolocate-ips-in-your-cli-using-latency/)
+SUCCESS: We have ipinfo at home or how to geolocate IPs in your CLI using latency (https://blog.globalping.io/we-have-ipinfo-at-home-or-how-to-geolocate-ips-in-your-cli-using-latency/)
+
+--- New Job Started for 2026-02-01 at 2026-02-02 08:13:24.895178 ---
+
+--- New Job Started for 2026-02-01 at 2026-02-02 08:13:26.475245 ---
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+FAIL: Scraping failed or too short - Netbird – Open Source Zero Trust Networking (https://netbird.io/)
+SUCCESS: In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+FAIL: Summarization error - In praise of –dry-run (https://henrikwarne.com/2026/01/31/in-praise-of-dry-run/)
+SUCCESS: Generative AI and Wikipedia editing: What we learned in 2025 (https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/)
+SUCCESS: Generative AI and Wikipedia editing: What we learned in 2025 (https://wikiedu.org/blog/2026/01/29/generative-ai-and-wikipedia-editing-what-we-learned-in-2025/)
+SUCCESS: Scientist who helped eradicate smallpox dies at age 89 (https://www.scientificamerican.com/article/smallpox-eradication-champion-william-foege-dies-at-89/)
+SUCCESS: Scientist who helped eradicate smallpox dies at age 89 (https://www.scientificamerican.com/article/smallpox-eradication-champion-william-foege-dies-at-89/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+SUCCESS: List animals until failure (https://rose.systems/animalist/)
+FAIL: Scraping failed or too short - Show HN: Moltbook – A social network for moltbots (clawdbots) to hang out (https://www.moltbook.com/)
+SUCCESS: Show HN: Moltbook – A social network for moltbots (clawdbots) to hang out (https://www.moltbook.com/)
+SUCCESS: Adventure Game Studio: OSS software for creating adventure games (https://www.adventuregamestudio.co.uk/)
+SUCCESS: MicroPythonOS graphical operating system delivers Android-like user experience (https://www.cnx-software.com/2026/01/29/micropythonos-graphical-operating-system-delivers-android-like-user-experience-on-microcontrollers/)
+SUCCESS: Adventure Game Studio: OSS software for creating adventure games (https://www.adventuregamestudio.co.uk/)
+SUCCESS: MicroPythonOS graphical operating system delivers Android-like user experience (https://www.cnx-software.com/2026/01/29/micropythonos-graphical-operating-system-delivers-android-like-user-experience-on-microcontrollers/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap (https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+SUCCESS: Reliable 25 Gigabit Ethernet via Thunderbolt (https://kohlschuetter.github.io/blog/posts/2026/01/27/tb25/)
+
+--- New Job Started for 2026-02-02 at 2026-02-02 15:11:36.991800 ---
+SUCCESS: Notepad++ hijacked by state-sponsored actors (https://notepad-plus-plus.org/news/hijacked-incident-info-update/)
+SUCCESS: Two kinds of AI users are emerging (https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/)
+SUCCESS: My iPhone 16 Pro Max produces garbage output when running MLX LLMs (https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/)
+SUCCESS: Show HN: Wikipedia as a doomscrollable social media feed (https://xikipedia.org)
+SUCCESS: Treasures found on HS2 route stored in secret warehouse (https://www.bbc.com/news/articles/c93v21q5xdvo)
+FAIL: Scraping failed or too short - Actors: A Model of Concurrent Computation [pdf] (1985) (https://apps.dtic.mil/sti/tr/pdf/ADA157917.pdf)
+SUCCESS: Time Machine-style Backups with rsync (2018) (https://samuelhewitt.com/blog/2018-06-05-time-machine-style-backups-with-rsync)
+FAIL: Summarization error - Apple's MacBook Pro DFU port documentation is wrong (https://lapcatsoftware.com/articles/2026/2/1.html)
+FAIL: Summarization error - Contracts in Nix (https://sraka.xyz/posts/contracts.html)
+SUCCESS: Founding is a snowball (https://blog.bawolf.com/p/founding-is-a-snowball)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 17:13:02.232373 ---
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: "Warn about PyPy being unmaintained" (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: The influence of anxiety: Harold Bloom and literary inheritance (https://thepointmag.com/examined-life/the-influence-of-anxiety/)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+FAIL: Summarization error - Lisp-style C++ template meta programming (https://github.com/mistivia/lmp)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 17:19:54.641379 ---
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: "Warn about PyPy being unmaintained" (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: The influence of anxiety: Harold Bloom and literary inheritance (https://thepointmag.com/examined-life/the-influence-of-anxiety/)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+FAIL: Summarization error - Lisp-style C++ template meta programming (https://github.com/mistivia/lmp)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 17:33:04.132026 ---
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: "Warn about PyPy being unmaintained" (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: The influence of anxiety: Harold Bloom and literary inheritance (https://thepointmag.com/examined-life/the-influence-of-anxiety/)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+FAIL: Summarization error - Lisp-style C++ template meta programming (https://github.com/mistivia/lmp)
+
+--- New Job Started for 2026-02-02 at 2026-03-08 18:35:41.557235 ---
+FAIL: Scraping failed or too short - The Codex App (https://openai.com/index/introducing-the-codex-app/)
+FAIL: Scraping failed or too short - xAI joins SpaceX (https://www.spacex.com/updates#xai-joins-spacex)
+
+--- New Job Started for 2026-02-02 at 2026-03-08 19:35:45.099838 ---
+FAIL: Scraping failed or too short - The Codex App (https://openai.com/index/introducing-the-codex-app/)
+FAIL: Scraping failed or too short - xAI joins SpaceX (https://www.spacex.com/updates#xai-joins-spacex)
+SUCCESS: Todd C. Miller – Sudo maintainer for over 30 years (https://www.millert.dev/)
+SUCCESS: 4x faster network file sync with rclone (vs rsync) (2025) (https://www.jeffgeerling.com/blog/2025/4x-faster-network-file-sync-rclone-vs-rsync/)
+SUCCESS: Nano-vLLM: How a vLLM-style inference engine works (https://neutree.ai/blog/nano-vllm-part-1)
+SUCCESS: My iPhone 16 Pro Max produces garbage output when running MLX LLMs (https://journal.rafaelcosta.me/my-thousand-dollar-iphone-cant-do-math/)
+SUCCESS: Anki ownership transferred to AnkiHub (https://forums.ankiweb.net/t/ankis-growing-up/68610)
+SUCCESS: Court orders restart of all US offshore wind power construction (https://arstechnica.com/science/2026/02/court-orders-restart-of-all-us-offshore-wind-construction/)
+SUCCESS: Hacking Moltbook (https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys)
+
+--- New Job Started for 2026-02-03 at 2026-03-08 20:04:07.938471 ---
+SUCCESS: Agent Skills (https://agentskills.io/home)
+FAIL: Scraping failed or too short - Qwen3-Coder-Next (https://qwen.ai/blog?id=qwen3-coder-next)
+SUCCESS: Lessons learned shipping 500 units of my first hardware product (https://www.simonberens.com/p/lessons-learned-shipping-500-units)
+FAIL: Scraping failed or too short - New York’s budget bill would require “blocking technology” on all 3D printers (https://blog.adafruit.com/2026/02/03/new-york-wants-to-ctrlaltdelete-your-3d-printer/)
+SUCCESS: France dumps Zoom and Teams as Europe seeks digital autonomy from the US (https://apnews.com/article/europe-digital-sovereignty-big-tech-9f5388b68a0648514cebc8d92f682060)
+SUCCESS: Deno Sandbox (https://deno.com/blog/introducing-deno-sandbox)
+SUCCESS: Xcode 26.3 – Developers can leverage coding agents directly in Xcode (https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/)
+SUCCESS: Bunny Database (https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/)
+SUCCESS: AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines (https://github.com/alibaba/AliSQL)
+SUCCESS: Prek: A better, faster, drop-in pre-commit replacement, engineered in Rust (https://github.com/j178/prek)
+
+--- New Job Started for 2026-02-04 at 2026-03-08 20:27:02.374602 ---
+SUCCESS: Voxtral Transcribe 2 (https://mistral.ai/news/voxtral-transcribe-2)
+FAIL: Scraping failed or too short - Data centers in space makes no sense (https://civai.org/blog/space-data-centers)
+SUCCESS: I miss thinking hard (https://www.jernesto.com/articles/thinking_hard)
+SUCCESS: AI is killing B2B SaaS (https://nmn.gl/blog/ai-killing-b2b-saas)
+SUCCESS: Claude Code: connect to a local model when your quota runs out (https://boxc.net/blog/2026/claude-code-connecting-to-local-models-when-your-quota-runs-out/)
+SUCCESS: A case study in PDF forensics: The Epstein PDFs (https://pdfa.org/a-case-study-in-pdf-forensics-the-epstein-pdfs/)
+SUCCESS: Building a 24-bit arcade CRT display adapter from scratch (https://www.scd31.com/posts/building-an-arcade-display-adapter)
+SUCCESS: Show HN: Craftplan – I built my wife a production management tool for her bakery (https://github.com/puemos/craftplan)
+FAIL: Scraping failed or too short - Claude Code for Infrastructure (https://www.fluid.sh/)
+SUCCESS: Tractor (https://incoherency.co.uk/blog/stories/tractor.html)
+
+--- New Job Started for 2026-02-05 at 2026-03-08 20:52:11.708417 ---
+SUCCESS: Claude Opus 4.6 (https://www.anthropic.com/news/claude-opus-4-6)
+FAIL: Scraping failed or too short - GPT-5.3-Codex (https://openai.com/index/introducing-gpt-5-3-codex/)
+SUCCESS: Don't rent the cloud, own instead (https://blog.comma.ai/datacenter/)
+SUCCESS: My AI Adoption Journey (https://mitchellh.com/writing/my-ai-adoption-journey)
+SUCCESS: We tasked Opus 4.6 using agent teams to build a C Compiler (https://www.anthropic.com/engineering/building-c-compiler)
+SUCCESS: LinkedIn checks for 2953 browser extensions (https://github.com/mdp/linkedin-extension-fingerprinting)
+FAIL: Scraping failed or too short - When internal hostnames are leaked to the clown (https://rachelbythebay.com/w/2026/02/03/badnas/)
+SUCCESS: OpenClaw is what Apple intelligence should have been (https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been)
+SUCCESS: Orchestrate teams of Claude Code sessions (https://code.claude.com/docs/en/agent-teams)
+FAIL: Scraping failed or too short - Microsoft's Copilot chatbot is running into problems (https://www.wsj.com/tech/ai/microsofts-pivotal-ai-product-is-running-into-big-problems-ce235b28)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 21:12:48.474894 ---
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+
+--- New Job Started for 2026-02-06 at 2026-03-08 21:15:12.929013 ---
+SUCCESS: Warn about PyPy being unmaintained (https://github.com/astral-sh/uv/pull/17643)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 21:18:26.306224 ---
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: Warn about PyPy being unmaintained (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 21:25:14.316242 ---
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 21:27:53.212251 ---
+
+--- New Job Started for 2026-03-08 at 2026-03-08 21:28:04.381477 ---
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: Warn about PyPy being unmaintained (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: Warn about PyPy being unmaintained (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: Warn about PyPy being unmaintained (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+
+--- New Job Started for 2026-03-08 at 2026-03-08 21:36:58.634432 ---
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: How to run Qwen 3.5 locally (https://unsloth.ai/docs/models/qwen3.5)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: Cloud VM benchmarks 2026 (https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: Warn about PyPy being unmaintained (https://github.com/astral-sh/uv/pull/17643)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: How to run Qwen 3.5 locally (https://unsloth.ai/docs/models/qwen3.5)
+SUCCESS: Lisp-style C++ template meta programming (https://github.com/mistivia/lmp)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: LLM Writing Tropes.md (https://tropes.fyi/tropes-md)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+SUCCESS: Show HN: A weird thing that detects your pulse from the browser video (https://pulsefeedback.io/)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: Lisp-style C++ template meta programming (https://github.com/mistivia/lmp)
+SUCCESS: How to run Qwen 3.5 locally (https://unsloth.ai/docs/models/qwen3.5)
+SUCCESS: The stagnancy of publishing and the disappearance of the midlist (https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul)
+SUCCESS: How to run Qwen 3.5 locally (https://unsloth.ai/docs/models/qwen3.5)
+SUCCESS: How to run Qwen 3.5 locally (https://unsloth.ai/docs/models/qwen3.5)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+SUCCESS: In 1985 Maxell built a bunch of life-size robots for its bad floppy ad (https://buttondown.com/suchbadtechads/archive/maxell-life-size-robots/)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+SUCCESS: Autoresearch: Agents researching on single-GPU nanochat training automatically (https://github.com/karpathy/autoresearch)
+SUCCESS: Lisp-style C++ template meta programming (https://github.com/mistivia/lmp)
+SUCCESS: Emacs internals: Deconstructing Lisp_Object in C (Part 2) (https://thecloudlet.github.io/blog/project/emacs-02/)
+
+--- New Job Started for 2026-03-01 at 2026-03-08 22:33:17.681819 ---
 SUCCESS: Microgpt (http://karpathy.github.io/2026/02/12/microgpt/)
-SUCCESS: We do not think Anthropic should be designated as a supply chain risk (https://twitter.com/OpenAI/status/2027846016423321831)
-SUCCESS: Ghostty – Terminal Emulator (https://ghostty.org/docs)
-SUCCESS: Decision trees – the unreasonable power of nested decision rules (https://mlu-explain.github.io/decision-tree/)
-SUCCESS: I built a demo of what AI chat will look like when it's “free” and ad-supported (https://99helpers.com/tools/ad-supported-chat)
-FAIL: Scraping failed or too short - Flightradar24 for Ships (https://atlas.flexport.com/)
-SUCCESS: When does MCP make sense vs CLI? (https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
-FAIL: Summarization error - WebMCP is available for early preview (https://developer.chrome.com/blog/webmcp-epp)
-SUCCESS: 10-202: Introduction to Modern AI (CMU) (https://modernaicourse.org)
-SUCCESS: Switch to Claude without starting over (https://claude.com/import-memory)
 
---- New Job Started for 2026-03-02 at 2026-03-15 21:07:50.461215 ---
-SUCCESS: Motorola announces a partnership with GrapheneOS (https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/)
-SUCCESS: Meta’s AI smart glasses and data privacy concerns (https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything)
-SUCCESS: First in-utero stem cell therapy for fetal spina bifida repair is safe: study (https://health.ucdavis.edu/news/headlines/first-ever-in-utero-stem-cell-therapy-for-fetal-spina-bifida-repair-is-safe-study-finds/2026/02)
-SUCCESS: New iPad Air, powered by M4 (https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/)
-SUCCESS: How to talk to anyone and why you should (https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should)
-SUCCESS: “Microslop” filtered in the official Microsoft Copilot Discord server (https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/)
-SUCCESS: Inside the M4 Apple Neural Engine, Part 1: Reverse Engineering (https://maderix.substack.com/p/inside-the-m4-apple-neural-engine)
-SUCCESS: If AI writes code, should the session be part of the commit? (https://github.com/mandel-macaque/memento)
-SUCCESS: /e/OS is a complete, fully “deGoogled” mobile ecosystem (https://e.foundation/e-os/)
-FAIL: Scraping failed or too short - Show HN: Govbase – Follow a bill from source text to news bias to social posts (https://govbase.com)
+--- New Job Started for 2026-03-17 at 2026-03-17 07:47:30.146493 ---
 
---- New Job Started for 2026-03-03 at 2026-03-15 21:31:43.088559 ---
+--- New Job Started for 2026-03-17 at 2026-03-17 22:05:19.074404 ---
+FAIL: Scraping failed or too short - US SEC preparing to scrap quarterly reporting requirement (https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/)
+SUCCESS: Kagi Translate now supports LinkedIn Speak as an output language (https://translate.kagi.com/?from=en&to=LinkedIn+speak)
+SUCCESS: Every layer of review makes you 10x slower (https://apenwarr.ca/log/20260316)
+SUCCESS: Monkey Island for Commodore 64 Ground Up (https://pixeldust.se/monkey-island-project)
+SUCCESS: Claude Tips for 3D Work (https://www.davesnider.com/posts/claude-3d)
 
---- New Job Started for 2026-03-01 at 2026-03-15 21:49:40.253770 ---
-SUCCESS: Microgpt (http://karpathy.github.io/2026/02/12/microgpt/)
-SUCCESS: We do not think Anthropic should be designated as a supply chain risk (https://twitter.com/OpenAI/status/2027846016423321831)
-SUCCESS: Ghostty – Terminal Emulator (https://ghostty.org/docs)
-SUCCESS: Decision trees – the unreasonable power of nested decision rules (https://mlu-explain.github.io/decision-tree/)
-SUCCESS: I built a demo of what AI chat will look like when it's “free” and ad-supported (https://99helpers.com/tools/ad-supported-chat)
-FAIL: Scraping failed or too short - Flightradar24 for Ships (https://atlas.flexport.com/)
-SUCCESS: When does MCP make sense vs CLI? (https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
-SUCCESS: WebMCP is available for early preview (https://developer.chrome.com/blog/webmcp-epp)
-SUCCESS: 10-202: Introduction to Modern AI (CMU) (https://modernaicourse.org)
-SUCCESS: Switch to Claude without starting over (https://claude.com/import-memory)
-
---- New Job Started for 2026-03-02 at 2026-03-15 22:14:06.213124 ---
-SUCCESS: Motorola announces a partnership with GrapheneOS (https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/)
-SUCCESS: Meta’s AI smart glasses and data privacy concerns (https://www.svd.se/a/K8nrV4/metas-ai-smart-glasses-and-data-privacy-concerns-workers-say-we-see-everything)
-SUCCESS: First in-utero stem cell therapy for fetal spina bifida repair is safe: study (https://health.ucdavis.edu/news/headlines/first-ever-in-utero-stem-cell-therapy-for-fetal-spina-bifida-repair-is-safe-study-finds/2026/02)
-SUCCESS: New iPad Air, powered by M4 (https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-ipad-air-powered-by-m4/)
-SUCCESS: How to talk to anyone and why you should (https://www.theguardian.com/lifeandstyle/2026/feb/24/stranger-secret-how-to-talk-to-anyone-why-you-should)
-SUCCESS: “Microslop” filtered in the official Microsoft Copilot Discord server (https://www.windowslatest.com/2026/03/02/microsoft-gets-tired-of-microslop-bans-the-word-on-its-discord-then-locks-the-server-after-backlash/)
-SUCCESS: Inside the M4 Apple Neural Engine, Part 1: Reverse Engineering (https://maderix.substack.com/p/inside-the-m4-apple-neural-engine)
-SUCCESS: If AI writes code, should the session be part of the commit? (https://github.com/mandel-macaque/memento)
-SUCCESS: /e/OS is a complete, fully “deGoogled” mobile ecosystem (https://e.foundation/e-os/)
-FAIL: Scraping failed or too short - Show HN: Govbase – Follow a bill from source text to news bias to social posts (https://govbase.com)
-
---- New Job Started for 2026-03-03 at 2026-03-15 22:44:23.975959 ---
-SUCCESS: MacBook Pro with M5 Pro and M5 Max (https://www.apple.com/newsroom/2026/03/apple-introduces-macbook-pro-with-all-new-m5-pro-and-m5-max/)
-FAIL: Scraping failed or too short - British Columbia is permanently adopting daylight time (https://www.cbc.ca/news/canada/british-columbia/b-c-adopting-year-round-daylight-time-9.7111657)
-FAIL: Scraping failed or too short - The Xkcd thing, now interactive (https://editor.p5js.org/isohedral/full/vJa5RiZWs)
-SUCCESS: I'm reluctant to verify my identity or age for any online services (https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/)
-SUCCESS: Show HN: I built a sub-500ms latency voice agent from scratch (https://www.ntik.me/posts/voice-agent)
-SUCCESS: Ars Technica fires reporter after AI controversy involving fabricated quotes (https://futurism.com/artificial-intelligence/ars-technica-fires-reporter-ai-quotes)
-SUCCESS: GPT‑5.3 Instant (https://openai.com/index/gpt-5-3-instant/)
-SUCCESS: Don't become an engineering manager (https://newsletter.manager.dev/p/dont-become-an-engineering-manager)
-FAIL: Summarization error - When AI writes the software, who verifies it? (https://leodemoura.github.io/blog/2026/02/28/when-ai-writes-the-worlds-software.html)
-SKIP: YouTube URL - https://www.youtube.com/watch?v=B3m3AMRlYfc
-
---- New Job Started for 2026-03-04 at 2026-03-15 23:14:12.479429 ---
-SUCCESS: MacBook Neo (https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/)
-SUCCESS: Motorola GrapheneOS devices will be bootloader unlockable/relockable (https://grapheneos.social/@GrapheneOS/116160393783585567)
-FAIL: Scraping failed or too short - Claude's Cycles [pdf] (https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf)
-SUCCESS: Something is afoot in the land of Qwen (https://simonwillison.net/2026/Mar/4/qwen/)
-FAIL: Scraping failed or too short - Building a new Flash (https://bill.newgrounds.com/news/post/1607118)
-SUCCESS: Qwen3.5 Fine-Tuning Guide (https://unsloth.ai/docs/models/qwen3.5/fine-tune)
-SUCCESS: “It turns out” (2010) (https://jsomers.net/blog/it-turns-out)
-SUCCESS: Nobody gets promoted for simplicity (https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/)
-SUCCESS: Moss is a pixel canvas where every brush is a tiny program (https://www.moss.town/)
-SUCCESS: TikTok will not introduce end-to-end encryption, saying it makes users less safe (https://www.bbc.com/news/articles/cly2m5e5ke4o)
-
---- New Job Started for 2026-03-01 at 2026-03-15 23:57:45.081005 ---
-SUCCESS: Microgpt (http://karpathy.github.io/2026/02/12/microgpt/)
-SUCCESS: We do not think Anthropic should be designated as a supply chain risk (https://twitter.com/OpenAI/status/2027846016423321831)
-SUCCESS: Ghostty – Terminal Emulator (https://ghostty.org/docs)
-SUCCESS: Decision trees – the unreasonable power of nested decision rules (https://mlu-explain.github.io/decision-tree/)
-SUCCESS: I built a demo of what AI chat will look like when it's “free” and ad-supported (https://99helpers.com/tools/ad-supported-chat)
-FAIL: Scraping failed or too short - Flightradar24 for Ships (https://atlas.flexport.com/)
-SUCCESS: When does MCP make sense vs CLI? (https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html)
-SUCCESS: WebMCP is available for early preview (https://developer.chrome.com/blog/webmcp-epp)
-SUCCESS: 10-202: Introduction to Modern AI (CMU) (https://modernaicourse.org)
-SUCCESS: Switch to Claude without starting over (https://claude.com/import-memory)
+--- New Job Started for 2026-03-17 at 2026-03-17 22:09:49.123606 ---
+FAIL: Scraping failed or too short - US SEC preparing to scrap quarterly reporting requirement (https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/)
+SUCCESS: Kagi Translate now supports LinkedIn Speak as an output language (https://translate.kagi.com/?from=en&to=LinkedIn+speak)
+SUCCESS: Every layer of review makes you 10x slower (https://apenwarr.ca/log/20260316)
+SUCCESS: Monkey Island for Commodore 64 Ground Up (https://pixeldust.se/monkey-island-project)
+SUCCESS: Claude Tips for 3D Work (https://www.davesnider.com/posts/claude-3d)
+SUCCESS: Show HN: Thermal Receipt Printers – Markdown and Web UI (https://github.com/sadreck/ThermalMarky)
+FAIL: Summarization error - In space, no one can hear you kernel panic (2020) (https://increment.com/software-architecture/in-space-no-one-can-hear-you-kernel-panic/)
+SKIP: YouTube URL - https://www.youtube.com/watch?v=3v8AsTHfAG0
+SUCCESS: The unlikely story of Teardown Multiplayer (https://blog.voxagon.se/2026/03/13/teardown-multiplayer.html)
+FAIL: Summarization error - Pyodide: a Python distribution based on WebAssembly (https://github.com/pyodide/pyodide)

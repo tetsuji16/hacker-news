@@ -1,0 +1,32 @@
+URL: https://github.com/pyodide/pyodide
+
+Pyodide is a Python distribution for the browser and Node.js based on WebAssembly.
+Pyodide is a port of CPython to WebAssembly/Emscripten.
+Pyodide makes it possible to install and run Python packages in the browser with micropip. Any pure Python package with a wheel available on PyPi is supported. Many packages with C, C++, and Rust extensions have also been ported for use with Pyodide. These include many general-purpose packages such as regex, PyYAML, and cryptography, and scientific Python packages including NumPy, pandas, SciPy, Matplotlib, and scikit-learn.
+Pyodide comes with a robust Javascript ⟺ Python foreign function interface so that you can freely mix these two languages in your code with minimal friction. This includes full support for error handling, async/await, and much more.
+When used inside a browser, Python has full access to the Web APIs.
+Try Pyodide in a REPL directly in your browser. For further information, see the documentation.
+- If you wish to use a hosted distribution of Pyodide: see the Getting Started documentation.
+- If you wish to host Pyodide yourself, you can download Pyodide from the releases page and serve it with a web server.
+- If you wish to use Pyodide with a bundler, see the documentation on Working with Bundlers
+- If you are a Python package maintainer, see the documentation on building and testing Python packages.
+- If you want to add a package to the Pyodide distribution, see the documentation on adding a package to the Pyodide distribution
+- If you wish to experiment or contribute back to the Pyodide runtime, see the documentation on building Pyodide from source
+The Pyodide project consists of the following components:
+- A build of CPython with a few patches (https://github.com/pyodide/pyodide/tree/main/cpython/)
+- A JS/Python foreign function interface (https://github.com/pyodide/pyodide/tree/main/src/core and https://github.com/pyodide/pyodide/tree/main/src/py)
+- JavaScript code for creating and managing Pyodide interpreters (https://github.com/pyodide/pyodide/tree/main/src/js)
+- A choice of Emscripten platform, which consists of a version + ABI-sensitive flags + static libraries to link. This is described here and implemented in (https://github.com/pyodide/pyodide/tree/main/Makefile.envs)
+- A toolchain for cross compiling testing and installing packages for Pyodide.
+Pyodide was created in 2018 by Michael Droettboom at Mozilla as part of the Iodide project. Iodide is an experimental web-based notebook environment for literate scientific computing and communication.
+Iodide is no longer maintained. If you want to use Pyodide in an interactive client-side notebook, see Pyodide notebook environments.
+Please view the contributing guide for tips on filing issues, making changes, and submitting pull requests. Pyodide is an independent and community-driven open-source project. The decision-making process is outlined in the Project governance.
+- Blog: blog.pyodide.org
+- Mailing list: mail.python.org/mailman3/lists/pyodide.python.org/
+- Twitter: twitter.com/pyodide
+- Stack Overflow: stackoverflow.com/questions/tagged/pyodide
+- Discord: Pyodide Discord
+For a full list of current and historical sponsors, please see the Funding section of our About page.
+Pyodide also has a large number of small donors. If you’re interested in supporting Pyodide, check out our OpenCollective and GitHub Sponsors pages.
+- BrowserStack: This project is tested with BrowserStack
+Pyodide uses the Mozilla Public License Version 2.0.

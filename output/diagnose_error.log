@@ -1,0 +1,51 @@
+C:\Users\tetsu\vscode\newscast\app\summarizer.py:2: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\tetsu\vscode\newscast\app\main.py", line 189, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\tetsu\vscode\newscast\app\main.py", line 176, in main
+    job(target)
+    ~~~^^^^^^^^
+  File "C:\Users\tetsu\vscode\newscast\app\main.py", line 57, in job
+    print(f"Processing: {title}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp932' codec can't encode character '\u2013' in position 46: illegal multibyte sequence
+Fetching stories for 2026-03-17...
+Scraped 10 stories for 2026-03-17
+Fetched 10 stories.
+Processing: US SEC preparing to scrap quarterly reporting requirement
+  - [FAIL] Scraping failed or too short. Skipping: https://www.reuters.com/business/finance/us-sec-preparing-eliminate-quarterly-reporting-requirement-wsj-says-2026-03-16/
+Processing: Kagi Translate now supports LinkedIn Speak as an output language
+  - [SUCCESS] Scraped 211 characters.
+  - Attempting summarization with gemini-3-flash-preview...
+    gemini-3-flash-preview success!
+  - Summary generated.
+  - Waiting 15s to respect API rate limits...
+Processing: Every layer of review makes you 10x slower
+  - [SUCCESS] Scraped 15626 characters.
+  - Attempting summarization with gemini-3-flash-preview...
+    gemini-3-flash-preview success!
+  - Summary generated.
+  - Waiting 15s to respect API rate limits...
+Processing: Monkey Island for Commodore 64 Ground Up
+  - [SUCCESS] Scraped 674 characters.
+  - Attempting summarization with gemini-3-flash-preview...
+    gemini-3-flash-preview success!
+  - Summary generated.
+  - Waiting 15s to respect API rate limits...
+Processing: Claude Tips for 3D Work
+  - [SUCCESS] Scraped 3951 characters.
+  - Attempting summarization with gemini-3-flash-preview...
+    gemini-3-flash-preview success!
+  - Summary generated.
+  - Waiting 15s to respect API rate limits...

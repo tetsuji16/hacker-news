@@ -1,52 +1,403 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
   <channel>
-    <title>Hacker News デイリー (日本) </title>
+    <title>Hacker News デイリー (日本)</title>
     <link>https://news.ycombinator.com</link>
-    <description>Hacker Newsのトップ記事をAIが日本語で要約してお届けするポッドキャストです。</description>
+    <description>Hacker Newsのトップ記事を日本語で要約してお届けするポッドキャストです。</description>
     <itunes:explicit>no</itunes:explicit>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 15 Mar 2026 15:41:23 +0000</lastBuildDate>
-    <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2026 13:18:29 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
     <itunes:category text="Technology"/>
     <itunes:image href="https://tetsuji16.github.io/hacker-news/output/HackerNewsLogo.png"/>
     <item>
-      <title>Hacker News アップデート 2026-03-01</title>
-      <description><![CDATA[2026-03-01のHacker Newsトップストーリー要約:
-
-・ Microgpt
-・ We do not think Anthropic should be designated as a supply chain risk
-・ Ghostty – Terminal Emulator
-・ Decision trees – the unreasonable power of nested decision rules
-・ I built a demo of what AI chat will look like when it's “free” and ad-supported
-・ When does MCP make sense vs CLI?
-・ WebMCP is available for early preview
-・ 10-202: Introduction to Modern AI (CMU)
-・ Switch to Claude without starting over
-
-AIによって生成された日本語の要約をお楽しみください。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-01.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-01.mp3" length="9517580" type="audio/mpeg"/>
-      <itunes:duration>39:39</itunes:duration>
-      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <title>Hacker News アップデート 2025-12-01</title>
+      <description><![CDATA[2025-12-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-01.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-01.mp3" length="5690924" type="audio/mpeg"/>
+      <itunes:duration>23:42</itunes:duration>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hacker News アップデート 2026-03-02</title>
-      <description><![CDATA[2026-03-02版のHacker Newsニュース要約です。AIによる日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3" length="9263468" type="audio/mpeg"/>
-      <itunes:duration>38:35</itunes:duration>
-      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <title>Hacker News アップデート 2025-12-02</title>
+      <description><![CDATA[2025-12-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-02.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-02.mp3" length="7623212" type="audio/mpeg"/>
+      <itunes:duration>31:45</itunes:duration>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hacker News アップデート 2026-03-15</title>
-      <description><![CDATA[2026-03-15版のHacker Newsニュース要約です。AIによる日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-15.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-15.mp3" length="9152684" type="audio/mpeg"/>
-      <itunes:duration>38:08</itunes:duration>
-      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <title>Hacker News アップデート 2025-12-03</title>
+      <description><![CDATA[2025-12-03版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-03.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-03.mp3" length="6869900" type="audio/mpeg"/>
+      <itunes:duration>28:37</itunes:duration>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2025-12-04</title>
+      <description><![CDATA[2025-12-04版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-04.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-04.mp3" length="9015212" type="audio/mpeg"/>
+      <itunes:duration>37:33</itunes:duration>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2025-12-07</title>
+      <description><![CDATA[2025-12-07版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-07.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-07.mp3" length="8802956" type="audio/mpeg"/>
+      <itunes:duration>36:40</itunes:duration>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2025-12-09</title>
+      <description><![CDATA[2025-12-09版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-09.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-09.mp3" length="8820332" type="audio/mpeg"/>
+      <itunes:duration>36:45</itunes:duration>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2025-12-11</title>
+      <description><![CDATA[2025-12-11版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-11.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-11.mp3" length="9062924" type="audio/mpeg"/>
+      <itunes:duration>37:45</itunes:duration>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2025-12-12</title>
+      <description><![CDATA[2025-12-12版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-12.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-12.mp3" length="8051084" type="audio/mpeg"/>
+      <itunes:duration>33:32</itunes:duration>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2025-12-31</title>
+      <description><![CDATA[2025-12-31版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-31.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-31.mp3" length="7943372" type="audio/mpeg"/>
+      <itunes:duration>33:05</itunes:duration>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-01</title>
+      <description><![CDATA[2026-01-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-01.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-01.mp3" length="9346988" type="audio/mpeg"/>
+      <itunes:duration>38:56</itunes:duration>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-02</title>
+      <description><![CDATA[2026-01-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-02.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-02.mp3" length="8261324" type="audio/mpeg"/>
+      <itunes:duration>34:25</itunes:duration>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-03</title>
+      <description><![CDATA[2026-01-03版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-03.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-03.mp3" length="7719980" type="audio/mpeg"/>
+      <itunes:duration>32:09</itunes:duration>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-04</title>
+      <description><![CDATA[2026-01-04版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-04.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-04.mp3" length="9967820" type="audio/mpeg"/>
+      <itunes:duration>41:31</itunes:duration>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-05</title>
+      <description><![CDATA[2026-01-05版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-05.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-05.mp3" length="10151948" type="audio/mpeg"/>
+      <itunes:duration>42:17</itunes:duration>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-06</title>
+      <description><![CDATA[2026-01-06版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-06.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-06.mp3" length="10094828" type="audio/mpeg"/>
+      <itunes:duration>42:03</itunes:duration>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-07</title>
+      <description><![CDATA[2026-01-07版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-07.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-07.mp3" length="6964268" type="audio/mpeg"/>
+      <itunes:duration>29:01</itunes:duration>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-08</title>
+      <description><![CDATA[2026-01-08版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-08.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-08.mp3" length="9459116" type="audio/mpeg"/>
+      <itunes:duration>39:24</itunes:duration>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-09</title>
+      <description><![CDATA[2026-01-09版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-09.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-09.mp3" length="5894156" type="audio/mpeg"/>
+      <itunes:duration>24:33</itunes:duration>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-10</title>
+      <description><![CDATA[2026-01-10版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-10.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-10.mp3" length="8708780" type="audio/mpeg"/>
+      <itunes:duration>36:17</itunes:duration>
+      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-11</title>
+      <description><![CDATA[2026-01-11版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-11.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-11.mp3" length="8288108" type="audio/mpeg"/>
+      <itunes:duration>34:31</itunes:duration>
+      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-12</title>
+      <description><![CDATA[2026-01-12版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-12.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-12.mp3" length="7342892" type="audio/mpeg"/>
+      <itunes:duration>30:35</itunes:duration>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-13</title>
+      <description><![CDATA[2026-01-13版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-13.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-13.mp3" length="6598028" type="audio/mpeg"/>
+      <itunes:duration>27:29</itunes:duration>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-14</title>
+      <description><![CDATA[2026-01-14版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-14.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-14.mp3" length="7420556" type="audio/mpeg"/>
+      <itunes:duration>30:55</itunes:duration>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-15</title>
+      <description><![CDATA[2026-01-15版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-15.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-15.mp3" length="7746188" type="audio/mpeg"/>
+      <itunes:duration>32:16</itunes:duration>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-16</title>
+      <description><![CDATA[2026-01-16版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-16.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-16.mp3" length="8199212" type="audio/mpeg"/>
+      <itunes:duration>34:09</itunes:duration>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-17</title>
+      <description><![CDATA[2026-01-17版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-17.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-17.mp3" length="8331308" type="audio/mpeg"/>
+      <itunes:duration>34:42</itunes:duration>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-18</title>
+      <description><![CDATA[2026-01-18版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-18.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-18.mp3" length="9661004" type="audio/mpeg"/>
+      <itunes:duration>40:15</itunes:duration>
+      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-19</title>
+      <description><![CDATA[2026-01-19版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-19.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-19.mp3" length="9728588" type="audio/mpeg"/>
+      <itunes:duration>40:32</itunes:duration>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-20</title>
+      <description><![CDATA[2026-01-20版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-20.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-20.mp3" length="9245708" type="audio/mpeg"/>
+      <itunes:duration>38:31</itunes:duration>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-21</title>
+      <description><![CDATA[2026-01-21版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-21.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-21.mp3" length="9493100" type="audio/mpeg"/>
+      <itunes:duration>39:33</itunes:duration>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-22</title>
+      <description><![CDATA[2026-01-22版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-22.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-22.mp3" length="5701196" type="audio/mpeg"/>
+      <itunes:duration>23:45</itunes:duration>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-23</title>
+      <description><![CDATA[2026-01-23版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-23.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-23.mp3" length="6003596" type="audio/mpeg"/>
+      <itunes:duration>25:00</itunes:duration>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-24</title>
+      <description><![CDATA[2026-01-24版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-24.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-24.mp3" length="11001452" type="audio/mpeg"/>
+      <itunes:duration>45:50</itunes:duration>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-25</title>
+      <description><![CDATA[2026-01-25版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-25.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-25.mp3" length="7198220" type="audio/mpeg"/>
+      <itunes:duration>29:59</itunes:duration>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-26</title>
+      <description><![CDATA[2026-01-26版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-26.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-26.mp3" length="8151404" type="audio/mpeg"/>
+      <itunes:duration>33:57</itunes:duration>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-27</title>
+      <description><![CDATA[2026-01-27版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-27.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-27.mp3" length="6589196" type="audio/mpeg"/>
+      <itunes:duration>27:27</itunes:duration>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-28</title>
+      <description><![CDATA[2026-01-28版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-28.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-28.mp3" length="9492236" type="audio/mpeg"/>
+      <itunes:duration>39:33</itunes:duration>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-29</title>
+      <description><![CDATA[2026-01-29版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-29.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-29.mp3" length="9029132" type="audio/mpeg"/>
+      <itunes:duration>37:37</itunes:duration>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-30</title>
+      <description><![CDATA[2026-01-30版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-30.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-30.mp3" length="5947148" type="audio/mpeg"/>
+      <itunes:duration>24:46</itunes:duration>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-01-31</title>
+      <description><![CDATA[2026-01-31版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-31.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-31.mp3" length="8924588" type="audio/mpeg"/>
+      <itunes:duration>36:42</itunes:duration>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-02-01</title>
+      <description><![CDATA[2026-02-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-01.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-01.mp3" length="8203532" type="audio/mpeg"/>
+      <itunes:duration>34:10</itunes:duration>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-02-02</title>
+      <description><![CDATA[2026-02-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-02.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-02.mp3" length="9766316" type="audio/mpeg"/>
+      <itunes:duration>40:41</itunes:duration>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-02-03</title>
+      <description><![CDATA[2026-02-03版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-03.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-03.mp3" length="9807692" type="audio/mpeg"/>
+      <itunes:duration>40:51</itunes:duration>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-02-04</title>
+      <description><![CDATA[2026-02-04版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-04.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-04.mp3" length="12696524" type="audio/mpeg"/>
+      <itunes:duration>52:54</itunes:duration>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-02-05</title>
+      <description><![CDATA[2026-02-05版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-05.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-05.mp3" length="8662508" type="audio/mpeg"/>
+      <itunes:duration>36:05</itunes:duration>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-03-08</title>
+      <description><![CDATA[2026-03-08版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-08.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-08.mp3" length="10783052" type="audio/mpeg"/>
+      <itunes:duration>44:55</itunes:duration>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-03-17</title>
+      <description><![CDATA[2026-03-17のHacker Newsトップストーリー要約:
+
+・ Kagi Translate now supports LinkedIn Speak as an output language
+・ Every layer of review makes you 10x slower
+・ Monkey Island for Commodore 64 Ground Up
+・ Claude Tips for 3D Work
+・ Show HN: Thermal Receipt Printers – Markdown and Web UI
+・ In space, no one can hear you kernel panic (2020)
+・ The unlikely story of Teardown Multiplayer
+・ Pyodide: a Python distribution based on WebAssembly
+
+日本語の要約をお楽しみください。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-17.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-17.mp3" length="6768236" type="audio/mpeg"/>
+      <itunes:duration>28:12</itunes:duration>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
