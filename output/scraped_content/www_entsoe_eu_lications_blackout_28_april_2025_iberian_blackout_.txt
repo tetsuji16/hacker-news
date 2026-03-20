@@ -1,0 +1,122 @@
+URL: https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/
+
+28 April 2025 Blackout
+This page was last updated on 20 March 2026
+Summary
+The final report of the Expert Panel on the 28 April 2025 blackout in continental Spain and Portugal identifies the causes of the blackout and outlines recommendations to strengthen the resilience of Europe’s interconnected electricity system. It was prepared by a technical Expert Panel of 49 members, including representatives from Transmission System Operators (TSOs), Regional Coordination Centres (RCCs), ACER and National Regulatory Authorities (NRAs), and was chaired by experts from two unaffected TSOs.
+The investigation concludes that the blackout resulted from a combination of many interacting factors, including oscillations, gaps in voltage and reactive power control, differences in voltage regulation practices, rapid output reductions and generator disconnections in Spain, and uneven stabilisation capabilities. These factors led to fast increases of voltage and cascading generation disconnections in Spain, resulting in the blackout in continental Spain and Portugal.
+Based on these findings, the Expert Panel sets out recommendations addressing each of the factors identified in the report to help prevent similar events in the future. These include strengthened operational practices, improved monitoring of system behaviour and closer coordination and data exchange among power system actors. The findings of the investigation also underscore the need for regulatory frameworks to adapt in order to support the evolving nature of the power system.
+The 28 April blackout was a first of its kind event, and the recommendations aim to strengthen system resilience with solutions that are already technologically deployable. This blackout highlights how developments at the local level can have system-wide implications and underlines the importance of maintaining strong links between local and European system behaviour and coordination, while ensuring that market mechanisms, regulatory frameworks and energy policies remain aligned with the physical limits of the system.
+Context
+On 28 April 2025, at 12:33 CEST, the power systems of continental Spain and Portugal experienced a total blackout. A small area in Southwest France close to the Spanish border experienced disruptions for a very short duration and several industrial consumers and generators were affected.
+The rest of the European power system did not experience any significant disturbance as a result of the incident.
+This was the most severe blackout incident on the European power system in over 20 years, and the first ever of its kind.
+Figure 1 – Geographic area affected by the incident of 28 April 2025.
+Expert Panel
+Following the blackout, on 12 May 2025, ENTSO-E set up an Expert Panel in line with Article 15(5) of the Commission Regulation (EU) 2017/1485 of 2 August 2017 establishing a guideline on electricity transmission system operation (SO GL) and the Incident Classification Scale (ICS) Methodology. The ICS Methodology is the framework for classifying and reporting incidents in the power system and for organising the investigation of such incidents and is especially relevant to the work of the Expert Panel. It is noted that the investigation of the Expert Panel was performed in line with the version of the ICS Methodology applicable at the time of the incident.
+Under the legal requirements of both SO GL and the ICS Methodology, when the incident is classified according to the ICS Methodology criteria as scale 3 incident – blackout – the Expert Panel is tasked to investigate the root causes of the incident, produce a comprehensive analysis, and make recommendations in a final report, published on 20 March 2026.
+The Expert Panel consists of representatives from TSOs, the Agency for the Cooperation of Energy Regulators (ACER), National Regulatory Authorities (NRAs), and Regional Coordination Centres (RCCs).
+The Panel is led by experts from TSOs not directly affected by the incident and includes experts from both affected and non-affected TSOs. The Expert Panel is led by Klaus Kaschnitz (APG, Austria) and Richard Balog (MAVIR, Hungary).
+ENTSO-E Bodies Convenors participating in the Expert Panel
+- Olivier Arrivé – as chair of the System Operation Committees
+- Robert Koch – as convenor of the Steering Group Resilient Operation
+- Rafal Kuczynski – as convenor of the Regional Group Continental Europe
+Experts from TSOs and RCCs participating in the Expert Panel
+| Amprion (Germany) | Tilman Ringelband |
+| EirGrid (Ireland) | Donna Kearney |
+| Elia (Belgium) | Bernard Malfliet |
+| Elia (Belgium) | Peter Van Meirhaeghe |
+| Energinet (Denmark) | Bent Myllerup |
+| Mavir (Hungary) | Andras Woynarovich |
+| Red Electrica (Spain) | David Alvira |
+| REN (Portugal) | Filipe Ribeiro |
+| RTE (France) | Laurent Rosseel |
+| SEleNe CC (Greece) | Maria-Faidra Katsiantoni |
+| Swissgrid (Switzerland) | Bastien Grand |
+| Terna (Italy) | Guido Coletta |
+| Terna (Italy) | Giorgio Giannuzzi |
+| Transelectrica (Romania) | Mihai Cremenescu |
+Experts from ACER and NRAs participating in the Expert Panel
+| ACER | Georgios Antonopoulos |
+| ACER | Uros Gabrijel |
+| ACER | Aleksander Glapiak |
+| ACER | Maria Barroso Gomes |
+| ACER | Domen Kodric |
+| ACER | Zoran Vujasinovic |
+| ACER | Jan Kostevc |
+| ANRE (Romania) | Alina Poanta |
+| ARERA (Italy) | Marco Pasquadibisceglie |
+| ARERA (Italy) | Andrea Rosazza |
+| BNetzA (Germany) | Jochen Gerlach |
+| BNetzA (Germany) | Thomas Hoelzer |
+| BNetzA (Germany) | Nicolas Krieger |
+| CNMC (Spain) | Virginia Garcia Escoin |
+| CNMC (Spain) | Teresa Ibanez Tarrago |
+| CNMC (Spain) | Diego Roldan Cabanillas |
+| CRE (France) | Martin Frédéric |
+| CRE (France) | Pierrick Muller |
+| CRE (France) | Sara Rami |
+| CREG (Belgium) | Marijn Maenhoudt |
+| CREG (Belgium) | Emilie Leroy-Biasutti |
+| EI (Sweden) | Anna Carlen |
+| ElCom (Switzerland) | Raffaele Bornatico |
+| ERSE (Portugal) | Jose Capelo |
+| ERSE (Portugal) | Paulo Oliveira |
+| ERU (Czech Republic) | Pavel Simoncik |
+| MEKH (Hungary) | Erika Szirmai |
+| URE (Poland) | Lukasz Makos |
+| URE (Poland) | Piotr Rak |
+| URE (Poland) | Witold Zuchowski |
+Expert Panel Meetings
+- 12 May 2025
+- 3 June 2025
+- 23 June 2025
+- 15 July 2025
+- 18 August 2025
+- 2 September 2025
+- 19 September 2025
+- 14 October 2025
+- 30 October 2025
+- 18 November 2025
+- 10 December 2025
+- 15 January 2026
+- 29 January 2026
+- 12 February 2026
+- 26 February 2026
+- 16 March 2026
+Investigation Steps
+On 12 May 2025, the Expert Panel initiated its investigation into the causes of the blackout. In accordance with the ICS methodology, the investigation is conducted in two phases:
+1. Data collection and factual report
+In the first phase of the investigation, the Expert Panel collected and analysed all data on the incident available at the time to reconstruct the events of 28 April. At the end of this first phase, the Expert Panel delivered its factual report, released on 3 October 2025. It describes the system conditions that prevailed on 28 April 2025, provides a detailed sequence of events during the incident and describes how the system was restored after the incident.
+The report highlights the exceptional and unprecedented nature of this incident - the first time a cascading series of disconnections of generation components along with voltage increases has been part of the sequence of events leading to a blackout in the Continental Europe Synchronous Area.
+Download the factual report of the Expert Panel
+2. Final report and recommendations
+In the second phase, which started immediately after the finalisation of the factual report, the Panel focused on the identification and analysis of the root causes of the incident. The Expert Panel specifically evaluated cascading disconnections of generation in the system, the voltage control and the oscillations’ mitigation measures. The Panel also assessed the performance of generators in regard to protection settings and contribution to voltage control, as well as the performance of the system defence plans and analysed the various steps of the restoration phase.
+Based on the findings, the Panel sets out recommendations in its final report addressing each of the factors identified to help prevent similar events in the future.
+Information to Stakeholders
+A dedicated joint workshop of the System Operations European Stakeholder Committee (SO ESC) and of the Grid Connection European Stakeholder Committee (GC ESC), chaired by ACER, was organised on 18 July 2025 to inform the stakeholders on the progress of the investigation of the Expert Panel. A second joint workshop of SO ESC and GC ESC took place on 13 October 2025 to discuss the factual report. Detailed information about the role, composition and work of these two Committees is available on the ENTSO-E website here.
+Publications & Documents
+Reports
+Press releases
+- ENTSO-E Publishes Expert Panel Final Report on 28 April 2025 Blackout in Spain and Portugal
+- 28 April Blackout in Spain and Portugal: Expert Panel releases comprehensive factual report
+- 28 April Blackout in Spain and Portugal: Expert Panel confirms factual report publication on 3 October
+- 28 April Blackout in Spain and Portugal: Expert Panel finalises data collection and prepares factual report
+- 28 April Blackout in Spain and Portugal: Expert Panel releases new information
+- 28 April Iberian Peninsula Blackout: Expert Panel releases new information and announces a stakeholder meeting
+- Expert Panel will review the reports on the 28th April blackout published this week by the Spanish government and the Spanish TSO
+- ENTSO-E Expert Panel continues collection of data and identifies next steps on Iberian Peninsula blackout investigation
+- ENTSO-E Expert Panel initiates the investigation into the causes of Iberian blackout
+- Iberian Black-out: ENTSO-E congratulates Red Electrica and REN for the rapid recovery of the electricity systems of Portugal and Spain, and establishes an Expert Panel to investigate the incident
+- Incident in the power systems of Spain and Portugal
+Presentations
+- Presentation - Media Briefing by ENTSO-E based on Expert Panel's final report
+- Media briefing on Factual Report
+ICS Methodology document
+Letters
+- Letter to ENTSO-E from the Vice-President of the Spanish Government and Minister for Ecological Transition and the Demographic Challenge, Ms. Sara Aagesen
+- Letter to MITECO - Data Collection for the investigation of the 28 April 2025 Iberian Blackout by the Expert Panel
+- Letter to Red Eléctrica – Request for Data supporting the work of the Expert Panel for the 28 April 2025 Iberian Blackout
+Contacts
+- For any further information, please contact info@entsoe.eu
+- For media requests, please contact media@entsoe.eu

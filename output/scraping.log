@@ -3003,3 +3003,21 @@ DEBUG: Scraping URL: https://gist.github.com/mattmanning/1002653/b7a1e88479a10ea
 DEBUG: Successfully scraped 22950 chars from https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404. Saved to output/scraped_content/gist_github_com_g_1002653_b7a1e88479a10eaae3bd5298b8b2c86e16fb4404.txt
 DEBUG: Scraping URL: https://www.theatlantic.com/newsletters/2025/12/costco-is-an-american-achievement/685411/
 DEBUG: Successfully scraped 7561 chars from https://www.theatlantic.com/newsletters/2025/12/costco-is-an-american-achievement/685411/. Saved to output/scraped_content/www_theatlantic_com__2025_12_costco_is_an_american_achievement_685411_.txt
+DEBUG: Scraping URL: https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html
+DEBUG: Successfully scraped 1362 chars from https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html. Saved to output/scraped_content/www_lemonde_fr_ime_by_le_monde_through_fitness_app_6751640_4_html.txt
+DEBUG: Scraping URL: https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/
+DEBUG: Successfully scraped 12693 chars from https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/. Saved to output/scraped_content/blogs_windows_com_ider_2026_03_20_our_commitment_to_windows_quality_.txt
+DEBUG: Scraping URL: https://github.com/MoonshotAI/Attention-Residuals
+DEBUG: Successfully scraped 4227 chars from https://github.com/MoonshotAI/Attention-Residuals. Saved to output/scraped_content/github_com_https___github_com_MoonshotAI_Attention_Residuals.txt
+DEBUG: Scraping URL: https://zserge.com/posts/visicalc/
+DEBUG: Successfully scraped 14494 chars from https://zserge.com/posts/visicalc/. Saved to output/scraped_content/zserge_com_https___zserge_com_posts_visicalc_.txt
+DEBUG: Scraping URL: https://practical.engineering/blog/2026/3/17/the-los-angeles-aqueduct-is-wild
+DEBUG: Successfully scraped 18843 chars from https://practical.engineering/blog/2026/3/17/the-los-angeles-aqueduct-is-wild. Saved to output/scraped_content/practical_engineering_ng_blog_2026_3_17_the_los_angeles_aqueduct_is_wild.txt
+DEBUG: Scraping URL: https://perl.petamem.com/gpw2026/perl-mit-ai-gpw2026.html#/4/1/1
+DEBUG: Successfully scraped 15124 chars from https://perl.petamem.com/gpw2026/perl-mit-ai-gpw2026.html#/4/1/1. Saved to output/scraped_content/perl_petamem_com_etamem_com_gpw2026_perl_mit_ai_gpw2026_html__4_1_1.txt
+DEBUG: Scraping URL: https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service
+DEBUG: Successfully scraped 120572 chars from https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service. Saved to output/scraped_content/deepdelver_substack_com__substack_com_p_delve_fake_compliance_as_a_service.txt
+DEBUG: Scraping URL: https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/
+DEBUG: Successfully scraped 10729 chars from https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/. Saved to output/scraped_content/www_entsoe_eu_lications_blackout_28_april_2025_iberian_blackout_.txt
+DEBUG: Scraping URL: https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
+DEBUG: Trafilatura failed to download https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950

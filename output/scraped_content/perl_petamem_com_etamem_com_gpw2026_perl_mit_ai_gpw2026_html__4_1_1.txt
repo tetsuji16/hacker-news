@@ -1,0 +1,352 @@
+URL: https://perl.petamem.com/gpw2026/perl-mit-ai-gpw2026.html#/4/1/1
+
+GPW 2016 · Nuremberg · "KI: Wie testet man ein Hirn?"
+That was 10 years ago. A lot happened.
+"Patience you must have, my young Padawan"
+This prologue is not about Perl — but it is necessary context.
+Some things are better left unspoken.
+What I can show you today is roughly half of what happened.
+→ moving on
+Designed, built, automated
+Experimental J1 · Prague
+3.4 kWp · 64 kWh · 66% off-grid
+Reference W1 · Saxony
+20+ kWp · 40 kWh · 85% off-grid
+Victron ecosystem · Perl monitoring & control
+Reference S1 · Nuremberg
+~24 kWp · 45 kWh · 80+% off-grid · feed-in
+Reference J2 · Prague
+40 kWp · 120 kWh · 100% off-grid
+A technocrat's house — 2050s standard
+A house this complex needs an automation system
+that doesn't exist yet.
+→
+Witty House Infrastructure Processor
+First tools: Victron Modbus + ECS BMS — all in Perl
+$ ecs_bms_tool -range 1-16 # query all battery modules
+$ ecs_bms_tool -get cell_voltage -get cell_temperature
+$ ecs_bms_tool -otype json # JSON for pipeline integration
+$ Wmodbus discover 192.168.2.0/24 # find Modbus devices on network
+$ Wmodbus --host 192.168.2.201 --unit 2 read holding 0-10
+$ Wmodbus --host 192.168.2.201 --profile vents-dbe900l monitor
+ecs_bms_tool
+— ECS LiPro BMS management (SoC, cell voltage, balancing)
+Wmodbus
+— Modbus TCP/RTU: discovery, read/write, device profiles, monitoring
+Wcli
+— solar irradiance & PV power calculator
+Wthermal
+— physics-based house thermal model
+Scripts work. But a house is more than solar panels.
+Preferably in Perl, obviously.
+"We do not like CPAN" — dependencies create problems. So we reimplement everything ourselves. But worse.
+"We do not like PBP" — contributions are done by amateurs. Too high expectations would kill contribution.
+"Efficient algorithms are overrated" — "So what? That's 0.1s faster?"
+"Tests? TDD? That's superfluous work!"
+"I don't like you, you cannot use my GPL code"
+(FHEM people: no offense. Well, maybe a little.)
+Nice idea. Wrong execution.
+I felt there had to be something better.
+Why CAN? Hardware arbitration (CSMA/CR) · true multi-master · 1 Mbit/s · differential · industrial grade
+Why not WiFi/Zigbee? No batteries to die. No mesh to collapse. Building for 50 years, not 5.
+Why not RS485? No arbitration. Master-slave only. Two nodes transmit = garbage.
+Why not KNX? 9600 baud (1990s design). Expensive. Closed ecosystem.
+So you have 20 nodes — now what?
+Higher layers are always a supplement, never a requirement.
+Hardware
+STM32F103 (Cortex-M3, 72 MHz)
+STM32F303 (Cortex-M4F, FPU)
+Native bxCAN controller
+Software
+FreeRTOS · libopencm3
+No vendor HAL lock-in
+One YAML = one firmware
+Dependency resolver inspired by Linux Kconfig
+Ganglion = GANG of Lightweight I/O Nodes — insect-brain model.
+IF-THEN rules, timers, local variables — compiled to bytecode on the MCU.
+Nodes operate autonomously even when hub/server are down.
+DEF LightTimeout = 300 # 5 minutes
+# Motion detected: light on, start timer
+IF motion:detected THEN lights:on; SET $T_0 = LightTimeout
+# Timer expired: light off
+IF !$T_0 THEN lights:off
+# Cross-node: kitchen smoke → alarm everywhere
+DEF Kitchen = 42
+IF Kitchen:smoke:detected THEN buzzer:alarm(1)
+Toolchain:
+Wgc
+— Compiler (Perl)Wgi
+— InterpreterWgs
+— SimulatorSpecialized RasPi hubs. Named by function, not by accident.
+No hub is a single point of failure. Each domain runs independently.
+SELV = Safety Extra Low Voltage. Under 60V DC. Safe to touch.
+The trick: Entire lighting chain runs from battery storage. 48V → 24V DC/DC → LED. No 230V AC anywhere.
+DALI controls at 16V. Switches, sensors, dimmers — all SELV.
+Inverters fail? Lights stay on — they bypass AC entirely.
+Switch next to the bathtub? No problem. No electrician needed.
+🇬🇧 English
+🇩🇪 Deutsch
+Protocols
+CAN bus 1Mbit Modbus TCP/RTU DALI MQTT SNMP I2C 1-WireModbus
+17 of 21 function codes · 869 tests · 91% coverage
+30+ external integrations
+Victron VRM · MasterTherm · PVGIS · Discord · Nextcloud · Proxmox · UniFi · ...
+All protocol handlers in Perl · Mojolicious async I/O
+Villa-A (Prague) — completely off-grid
+Villa-B (Germany) — same concept, different config
+Two deployments = real generalization, not "works on my machine"
+Invisible when it works. Competent when it matters. Built for decades, not warranties.
+Using AI to write Perl — the practical reality
+A lot of Perl prototypes — some grew to standard tools
+FreeRTOS / libopencm3 source
+A lot of Perl code
+2025-09-28
+"User 'PETAMEM' set to nologin. Your account may have been included in a precautionary password reset in the wake of a data breach incident at some other site. Please talk to modules@perl.org to find out how to proceed."
+→ Talked to modules@perl.org. No answer.
+2025-10-01
+"Ich leite das mal auf Steffen Winklers Empfehlung hier weiter an Dich, weil von modules@perl.org bislang keine Reaktion kam. Würde jetzt mal wieder gerne ein paar Module auf CPAN schmeissen. :-)"
+→ An Andy Koenig. No answer.
+2025-10-06
+"Hi Sören. Weißt Du zufällig wo ich eines Andy König oder halt jemanden der mit PAUSE/CPAN weiterhelfen kann habhaft werden könnte? Wir würden mal gerne unsere Module auf Vordermann bringen, aber [...] und bei modules@perl.org oder andyk@cpan.org rührt sich keiner."
+→ An Sören Laird, LinkedIn. No answer.
+SNMP
+Simple Network Management Protocol — how you monitor and manage network devices. Routers, switches, firewalls, UPS, printers — anything with an IP.
+MIB
+Management Information Base — the schema. Defines what each device can report: CPU load, interface counters, temperature, error rates, ...
+The problem
+Thousands of vendor MIBs. Written in ASN.1. Riddled with vendor deviations from the standard. Every monitoring system needs a parser — and every parser struggles.
+2 days with AI · CPAN module was 93% working · targeted fixes, no rewrite
+| Parser | Language | Failures | Pass rate |
+|---|---|---|---|
+| pysmi | Python | 296 | 93.8% |
+| gosmi | Go | 91 | 98.1% |
+| Ours | Perl | 39 | 99.2% |
+4740 MIBs · 301 fixes · 52 fewer failures than Go
+Wanted gRPC in Perl. Everything on CPAN: dormant, dead, or broken.
+So we built it. From scratch. FFI::Platypus bindings to the gRPC C API.
+Learning path: UUID::FFI → SQLite::FFI → Grpc::FFI
+326 tests passing · zero memory leaks · zero crashes
+Cross-language: Perl client ↔ Java/Go servers — working
+Streaming: unary, client, server, bidirectional
+85% production ready · ~43 implementation files
+And yet — this was a prelude
+for something bigger.
+What if FFI wasn't just a tailored library connector...
+...but more integrated and automatic?
+AI doesn't do this on its own.
+Human: strategy, architecture, learning path, priorities
+AI: execution, documentation, pattern learning, iteration
+gRPC example: I decided "start with UUID, then SQLite, then gRPC"
+AI executed each phase, documented lessons, graduated to the next
+Without the navigator — the AI builds impressive things that go nowhere.
+Without the AI — the navigator doesn't have enough hours in the day.
+But how far can this actually go?
+Turning the predicate around.
+pperl
+PetaPerl / ParallelPerl
+A Perl 5 interpreter — designed by humans.
+Written in Rust — by many AI agents.
+Serious — no toy or academic exercise.
+pperl
+PetaPerl / ParallelPerl
+A Perl 5 interpreter Platform — designed by humans.
+Written in Rust — by many AI agents.
+Serious — no toy or academic exercise.
+Common failure mode: underestimating Perl 5's complexity
+Perl 5.42 — ish
+Compatibility: strive for maximum Perl 5 compliance, currently 5.42
+Performance: strive for V8 levels
+XS: no, but yes
+Native Rust implementations, integral to the interpreter
+Linux only — all architectures
+We really don't care about use v5.xx
+~61–400 failures — give or take
+Performance: good, bad and ugly
+| Benchmark | perl5 | pperl | ratio |
+|---|---|---|---|
+list_util::sum |
+191.8K | 372.8K | 1.9x |
+list_util::min |
+199.8K | 772.9K | 3.9x |
+list_util::max |
+201.3K | 673.7K | 3.3x |
+list_util::product |
+2.7M | 4.0M | 1.5x |
+Native Rust implementations — not XS, not C
+Maximum compatibility. But more.
+Powered by Rayon — Rust's data-parallelism library
+Work-stealing scheduler
+Divides work into tasks, idle threads steal from busy ones — automatic load balancing
+One-line change in Rust
+.iter()
+→ .par_iter()
+— same code, parallel execution
+Guaranteed data-race freedom
+If it compiles, it's safe. Rust's type system enforces this at compile time.
+# This just works. In parallel.
+my @results = map { expensive_computation($_) } @large_list;
+# No threads. No MCE. No forks.
+# pperl detects safe loops → Rayon handles the rest.
+--parallel
+flag · list ≥ 1000 items · no shared mutation
+Just-In-Time — compile to machine code while running
+How it works in pperl:
+Cranelift — the compiler backend behind Wasmtime and Rust's alternative codegen.
+Production-proven. Targets: x86-64 · AArch64 · s390x · RISC-V
+# pperl detects this as a hot loop pattern
+my $sum = 0;
+for my $i (1 .. 1_000_000) {
+$sum += $i;
+}
+# → Cranelift compiles to native machine code
+Inner loop JIT — single hot loop compiled to native code
+| Benchmark | perl5 | pperl interpreted | pperl JIT | vs perl5 |
+|---|---|---|---|---|
+| Mandelbrot | 133ms | 1493ms | 41ms | 3.2× faster |
+| Ackermann | 13ms | 630ms | 12ms | 1.1× faster |
+Good. But only the innermost loop is compiled. What about nested loops?
+Mandelbrot set
+Triple-nested while loop
+19 variables · float arithmetic
+Pure Perl.
+No XS. No Inline::C.
+No tricks.
+All 3 loop levels compiled as one native function
+| Mandelbrot 1000×1000 | perl5 | pperl interpreted | pperl JIT | vs perl5 |
+|---|---|---|---|---|
+| Wall time | 12,514ms | — | 163ms | 76× faster |
+200 million escape iterations of float arithmetic.
+19 variables, 3 loop levels — Cranelift register-allocates across all of them.
+Perl. With JIT. That's a sentence nobody expected.
+JIT + Rayon: compile to native, then split across cores
+| Mandelbrot | perl5 | pperl JIT | pperl JIT + 8 threads | vs perl5 |
+|---|---|---|---|---|
+| 1000×1000 | 12,514ms | 163ms | 29ms | 431× faster |
+| 4000×4000 | ~200s | 2,304ms | 342ms | ~580× faster |
+JIT alone: 76×. Adding 8 threads: another ~7× on top.
+user 2.6s
+vs real 0.34s
+— near-linear scaling across cores.
+Demo Time!
+No XS. No Inline::C. No compilation. Just call C.
+# Layer 0 — Raw: any library, you provide type signatures
+use Peta::FFI qw(dlopen call);
+my $lib = dlopen("libz.so.1");
+my $ver = call($lib, "zlibVersion", "()p");
+say "zlib: $ver"; # 1.3.1
+# Layer 1 — Pre-baked: curated signatures, zero ceremony
+use Peta::FFI::Libc qw(getpid strlen strerror uname);
+say strlen("hello"); # 5
+my @info = uname();
+say "$info[0] $info[2]"; # Linux 6.18.6-arch1-1
+Pack-style type codes: (p)L
+= strlen(const char*) → size_t
+50+ native Rust modules already built in — Auto-FFI extends to everything else
+Powered by libffi — any signature works, no pre-generated stubs
+| Layer | Scope | Mechanism |
+|---|---|---|
+| Raw (Layer 0) | Any .so on the system | dlopen + dlsym + libffi call frame |
+| Pre-baked (Layer 1) | libc, libuuid, ... | Direct Rust libc::* calls — zero overhead |
+| Discovery (Layer 2) | System-wide scan | scan() → hashref of { soname => path } |
+# Layer 2 — What's on this system?
+use Peta::FFI qw(scan dlopen call);
+my $libs = scan();
+say scalar(keys %$libs), " libraries found";
+if (exists $libs->{"libz.so.1"}) {
+my $z = dlopen("libz.so.1");
+say "zlib: ", call($z, "zlibVersion", "()p");
+}
+Libc: ~30 functions (process, strings, env, math, file, time)
+UUID: 6 functions via dlopen — dies with install hint if missing
+Like Python's .pyc — but for Perl. Opt-in.
+# Default: no caching (safe for development)
+$ pperl script.pl
+# Enable: compile once, load from cache on subsequent runs
+$ pperl --cache script.pl
+# Invalidate all caches
+$ pperl --flush
+First run: parse → codegen → execute → save .plc
+Second run: load .plc → execute (no parsing, no codegen)
+Storable-model: bincode deserializes directly to final runtime types. Zero intermediate conversion.
+| Benchmark | perl5 | pperl | pperl --cache |
+|---|---|---|---|
+three_modules |
+22.3ms | 12.6ms | 9.9ms |
+mixed_native_fallback |
+26.3ms | 13.0ms | 10.0ms |
+deep_deps |
+18.1ms | 13.1ms | 9.9ms |
+Net module-loading cost: 33–37% faster with cache. Biggest win on fallback modules. Native Rust modules already near-zero cost.
+SHA-256 keyed · mtime + version validation · aggressive format versioning
+Emacs-style daemon/client model
+$ pperl --daemon script.pl # compile, warm up, listen
+$ pperl --client script.pl # connect → fork → run → respond
+$ pperl --stop script.pl # clean shutdown
+First run: parse → codegen → execute (warm-up) → listen
+Client request: connect → fork() → child inherits arenas → execute → respond
+fork() gives each client a fresh address space
+with all arenas already mapped — zero I/O, zero parsing, zero deserialization
+| Benchmark | perl5 | pperl | --cache | --daemon |
+|---|---|---|---|---|
+| 5 native modules | 15.0ms | 4.3ms | 4.3ms | 4.6ms |
+| fallback + native mix | 23.5ms | 15.8ms | ~10ms | 5.0ms (3.2×) |
+Eliminates both startup costs: process creation (~3-4ms) + module compilation (0-15ms)
+Faster than bytecode cache — no deserialization, arenas are already in memory
+Unix domain socket · JSON wire protocol · copy-on-write pages via fork()
+| Solution | Scope | Isolation | State leakage | Status |
+|---|---|---|---|---|
+| PPerl | General CLI | None | Yes | Dead (2004) |
+| SpeedyCGI | CGI | None | Yes | Dead (2003) |
+| mod_perl | Apache | Per-child | Per-request | Maintained |
+| Starman | PSGI | Per-worker | Per-request | Maintained |
+| FastCGI | Web | Per-process | Per-request | Maintained |
+| pperl daemon | General CLI | Per-request (fork) | None | Active |
+All prior solutions: same interpreter across requests — state leakage by design
+pperl: fresh child per request via fork() — compiled arenas via COW, clean runtime state
+Good fit:
+Not yet:
+Rule of thumb: the longer and more complex the script,
+the more likely you hit a corner case. If you don't want to touch the code — use perl5.
+How serious is "maximum compatibility"?
+The bug: $,
+(OFS) vs $\
+(ORS) in print
+pperl checked both with the same flag mask. Perl5 doesn't.
+perl5 — $,
+(OFS)
+if (SvGMAGICAL(ofs) || SvOK(ofs))
+Checks get-magic AND ok-flags
+perl5 — $\
+(ORS)
+if (PL_ors_sv && SvOK(PL_ors_sv))
+Checks ok-flags only. No get-magic.
+pperl had:
+// Same mask for both — SVS_GMG included for ORS. Wrong.
+if flags & (SVF_IOK | SVF_NOK | SVF_POK | SVF_ROK | SVS_GMG) != 0
+Practical impact: near zero.
+To trigger this, you'd need a tie
+on $\
+whose FETCH
+returns undef, while the underlying SV has get-magic set but none of IOK/NOK/POK/ROK — and then call print
+. Nobody writes this. Nobody has ever written this.
+We fixed it anyway.
+The depth of compatibility is the product's guarantee.
+Get it here:
+Richard Jelinek · rj@petamem.com
+PetaMem s.r.o. · petamem.com
+psh
+An interactive Perl shell
+ls "-la"; # it's just a sub call
+cd "/tmp"; # chdir wrapper
+ps "aux"; # system command
+# But you're already in a scripting language:
+for my $f (glob("*.log")) {
+if (-M $f > 7) {
+rm $f;
+say "cleaned $f";
+}
+}
+Object pipes — pass data structures, not text:
+ps() | grep { $_->{mem} > 100_000 }
+| sort { $b->{cpu} <=> $a->{cpu} };
+PowerShell's philosophy · Perl's text power · pperl's JIT speed

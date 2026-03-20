@@ -1,0 +1,997 @@
+URL: https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service
+
+Delve - Fake Compliance as a Service - Part I
+How Delve managed to falsely convince hundreds of customers they were compliant and then lied about it when exposed and called out
+The version that arrived in your mailbox is truncated. Visit the full article here to view the rest.
+Backups of this article:
+https://archive.is/HokPb
+https://archive.ph/YTsgc
+https://web.archive.org/web/20260319020740/https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service
+Reporters who want to get in touch: Drop an email at aicpnay@proton.me. In case my Proton account gets blocked or you don’t get an answer, tweet using the hashtag #AICPNAY with contact details and I’ll do my best to get in touch with you.
+At its core, this article argues that Delve fakes compliance while creating the appearance of compliance without the underlying substance.
+Delve achieves its claim of being the fastest platform by producing fake evidence, generating auditor conclusions on behalf of certification mills that rubber stamp reports, and skipping major framework requirements while telling clients they have achieved 100% compliance. Their “US-based auditors” are Indian certification mills operating through empty US shells and mailbox agents. Auditors breach independence rules by signing off anyway, leaving companies unknowingly exposed to criminal liability under HIPAA and hefty fines under GDPR.
+Delve hands customers fabricated evidence of board meetings, tests, and processes that never happened. The platform forces companies to choose between adopting fake evidence or performing mostly manual work with little real automation or AI. It produces audit reports that falsely claim independent verification while Delve itself effectively wears the auditor hat, generating identical reports for all clients, including Lovable, Bland, Cluely, and NASDAQ-traded Duos Edge. It hosts trust pages that list security measures that were never implemented.
+When clients ask hard questions, Delve dodges. They demand calls where founders charm, promise, and namedrop Lovable, Bland, and “every Fortune 500” as proof. When that fails, donuts arrive.
+The leaked spreadsheet:
+https://archive.ph/6ZSzX
+The leaked reports:
+https://mega.nz/folder/3ZNi3DqZ#ZH-M2Au1zErISCPD5Hgegg
+Table Of Contents
+Preface - How it all started
+Introduction
+A typical Delve experience
+The leak and Delve’s response
+What the leak and our research reveals
+Analyzing the leaked reports
+The auditor rabbit hole
+Product Notes
+Compliant or not?
+Closing words
+Appendix - Analysis of public SOC 2 trust pages
+Post Scriptum - Note about other players (CompAI)
+0 Preface - How it all started
+Two months ago, an email went out to a few hundred Delve clients informing them that Delve had leaked their audit reports, alongside other confidential information, through a Google spreadsheet that was publicly accessible. This email also claimed that Delve’s audit reports were fraudulent. The company I work for was one of those clients that received that email.
+Instead of providing clarification and being transparent, Delve’s leadership decided to go into deny and deflect mode. When directly asking them for clarification, they flat-out denied everything.
+This was serious, as it potentially involved nearly all of Delve’s clients and raised questions about the validity of the compliance reports Delve’s clients had received.
+Multiple colleagues in my network received the same email. Having the shared experience of being underwhelmed with the Delve experience, and having the overall sense that something fishy was going on, we decided to pool resources and investigate together. This article is the result of that collaboration.
+The reason we felt the way we did was due to how little actual work any of us had to perform to become ‘compliant’, combined with a product practically devoid of any real AI. It mostly felt like a SOC 2 template pack with a thin SAAS platform wrapper where you simply adopt and sign all templated documents. No custom tailoring, no AI guidance, no real automation. Just pre-populated forms that required you to click “save”.
+Some of us have gone through compliance before and felt there was a huge mismatch between our past experience and our experience with Delve.
+In this article I will walk you through a typical experience with Delve, the leak that exposed their operation, and how it revealed the fraud we uncovered. I will show, among other things, how for each of the below categories:
+Audit Integrity & Independence
+Delve breaches AICPA/ISO rules by acting as auditor, generating pre-drafted assessments, tests, and conclusions
+Delve relies on audit firms that rubber stamp reports because genuine independent verification would expose the evidence as fabricated or deficient
+Named leadership (Karun Kaushik, Selin Kocalar, Charles Nwatu, Taher Lokhandwala, Isaiah de la Fuente, Varun Gurnaney) is complicit in intentional misconduct
+Misrepresentation to Customers
+Delve misleads clients by claiming reports are produced by US-based CPA firms, when in reality they are produced by Delve and rubber stamped by Indian certification mills
+Delve leads clients to believe they are compliant when they are not
+Delve helps clients mislead the public by hosting trust pages that contain security measures that were never implemented
+Delve lies to clients when directly questioned, denying documented facts about the leak and report generation
+Delve markets AI-driven automation while the product is practically devoid of AI, relying on pre-populated templates, manual forms, and fabricated evidence
+Product & Process Deficiencies
+Delve’s product is unable to get companies truly compliant
+Delve’s platform forces companies to choose between adopting fake evidence or performing mostly manual work with little real automation
+Unable to deliver real compliance through its platform, Delve depends on fraudulent auditors who rubber stamp reports for clients, falling back on off-platform manual work with external vCISOs and good auditors only when complaints or profile threaten its business interests
+Regulatory & Compliance Risk
+Delve’s process results in clients violating GDPR and HIPAA requirements, exposing them to criminal liability under HIPAA and fines up to 4% of global revenue under GDPR
+Companies relying on Delve face regulatory, contractual, and reputational risk
+Prospect and Client advice
+For any prospect considering Delve or any current Delve client:
+Delve loves claiming this is all an attempt by their “jealous competitors” to fraudulently discredit them. When clients ask concrete questions, they dodge answering the question and instead coax you into getting on a call with them, where they charm you and tell you everything you want to hear. They’ll even throw in some donuts.
+One other tactic they frequently employ is to promise issues won’t arise again because their old process, product or auditor is about to be or has already been replaced with something better, that they are about to see the results of. This is a deflection and delaying technique. Whenever they start being frequntly called out on using a particular auditor, they’ll switch to another equally dodgy one that hasn’t been flagged yet. If they’re called out on their deficient product, they point to a superior tier or new feature on the timeline that will solve everything.
+Expressing unhappiness and a desire to leave will lead to Delve pairing you with an external virtual CISO that will help you do compliance right. You should know that this means you will have to do all the work manually.
+If you are concerned about Delve’s conduct and practices, ask them questions in writing. Do not allow them to deflect. Do not get on a call with them. In the closing words at the end of this article you’ll find more advice.
+All information contained in this article can be reproduced by consulting public sources and having access to the Delve platform.
+All screenshots and information are actual as of mid January 2026.
+1 Introduction
+Here we set the stage. We’ll quickly list all parties involved, and will provide some background context that is useful to understand the rest of this article.
+1.1 The parties involved and named in this article
+1.1.1 Companies affected
+High profile companies like those listed in the image above, and hundreds of others are affected by this. Companies additionally affected are those that partner with Delve’s clients, having been misinformed of the risks involved in partnering with those clients.
+Many of those companies process PHI of millions of US citizens on a daily basis. Some of those even serve national defense interests.
+1.1.2 Auditors
+The audit firms listed in the illustration above were identified during our research process, but are not necessarily all audit firms used by Delve.
+From what we were able to establish, 99%+ of Delve’s clients went through either Accorp or Gradient over the past 6 months.
+In the wake of Delve’s leak in December, Delve is reported to have switched to Glocert as their primary ISO 27001 auditing firm.
+1.1.3 Individuals
+Karun Kaushik and Selin Kocalar - The founders of Delve
+Cory Ross - Founding Customer Success
+Charles Nwatu - Head of compliance
+Taher Lokhandwala - Head of growth
+Isaiah de la Fuente - Chief of Staff
+Varun Gurnaney - Head of Enterprise
+The above individuals knowingly participated in Delve's deliberate misconduct regarding audit practices.
+1.2 What is compliance?
+Delve is a compliance company. They help businesses get certified for frameworks like SOC 2, ISO 27001, HIPAA, and GDPR. Companies need these certifications to prove they handle data in a secure way and to unlock deals with larger customers who require them.
+Compliance has traditionally been a time-consuming process that involved lots of spreadsheets. It used to be manual, expensive and slow.
+To give you an idea of what this is all about, we will primarily focus on SOC 2 in this article. SOC 2 is the most commonly pursued framework in the US. Practically all tech companies that sell to enterprises are expected to be ‘SOC 2 compliant’, which basically means they’ve had to have a SOC 2 audit performed in the last year.
+Getting a clean SOC 2 report means hiring a CPA firm to review your security controls. If they successfully verify the security you claim to have, through a lot of evidence you provide them, they issue a report saying your security measures are sound. This report becomes proof you can show customers and investors.
+SOC 2 and ISO 27001, the European counterpart to SOC 2, are voluntary frameworks. HIPAA and GDPR are not.
+HIPAA applies to any company handling health records in the US. Penalties are severe, with willful neglect punishable by criminal charges and prison time.
+GDPR covers any company processing data of EU residents, regardless of where the company is based. Fines run up to 4% of global annual revenue or 20 million euros, whichever is higher.
+These frameworks carry the force of law because they protect information people cannot easily protect themselves: medical histories, genetic data, biometric identifiers, location patterns, and the full record of their digital lives.
+The companies that help other companies become compliant through automation are called GRC automation platforms.
+1.3 Who is Delve?
+Delve was founded in 2023 by Karun Kaushik and Selin Kocalar, both Forbes 30 Under 30 members and MIT dropouts who met as freshmen. They started with a medical AI scribe, pivoted to compliance after hitting HIPAA headaches themselves, and went through Y Combinator in 2024.1
+In July 2025, Delve raised $32 million in Series A funding led by Insight Partners. Before that they had raised a $3.3 million seed round and went through Y Combinator.
+Delve’s pitch is speed through AI. They claim to get companies compliant in days rather than months, using what they call “agentic AI” through an “AI-native” platform.
+Their marketing promises AI agents that automatically collect evidence, write reports, and monitor compliance gaps without human busywork.
+The reality, as this article will show, is different.
+1.4 The auditing piece
+SOC 2 audits operate under strict independence requirements designed to preserve trust in the attestation process. These rules exist precisely to prevent the kind of conduct this article exposes. While Delve offers compliance services for HIPAA, GDPR, and ISO 27001, this article focuses primarily on SOC 2. The rules surrounding those other frameworks would require their own detailed treatment; the goal here is to establish a clear pattern in Delve’s behavior, not to catalog every possible regulatory violation.
+Independence and Separation of Duties
+The fundamental principle is simple: the party implementing controls cannot be the party attesting to their effectiveness. AICPA’s Code of Professional Conduct states that members must “accept the obligation to act in a way that will serve the public interest, honor the public trust, and demonstrate a commitment to professionalism.” When accountants cannot be expected to make truthful representations, “we lose the ability to assess any public or private company’s actual performance.”
+For SOC 2 specifically, AT-C Section 205 requires practitioners to maintain independence in both fact and appearance throughout the engagement. The practitioner must not assume management responsibilities or act as an advocate for the subject matter being examined.
+What This Means in Practice
+Under AT-C Section 315, auditors must “seek to obtain reasonable assurance that the entity complied with the specified requirements, in all material respects, including designing the examination to detect both intentional and unintentional material noncompliance.” This requires independent design of test procedures, independent evaluation of evidence, and independent formation of conclusions.
+The auditor’s report must represent their own professional judgment, not pre-written conclusions provided by the entity being audited or its platform vendor.
+Why This Matters
+Delve’s model inverts this structure. By generating auditor conclusions, test procedures, and final reports before any independent review occurs, Delve places itself in the role of both implementer and examiner. This is not a technicality. It is a structural fraud that invalidates the entire attestation.
+For readers who wish to verify these requirements:
+2 A typical Delve experience
+This story has many threads, and I struggled with where to start. Do I lead with the leaked documents? The auditor shell game? The fake AI?
+In the end, I felt that starting with my company’s experience, which illustrates many of the points I make and prove later on, was the most effective way to get the picture across.
+I collaborated on this article with users from other Delve clients. We compared notes. The patterns I describe below showed up across all of our accounts. Unless mentioned otherwise, nothing here is cherry-picked. Later sections dissect specific mechanisms.
+This section shows what it is like to be a Delve client.
+2.1 Sales
+Delve goes all out during the sales process. Through their marketing and sales process they continuously emphasize being the fastest to get companies compliant, thanks to their AI. They repeatedly emphasize the impressive companies they work with, and how they partner with the best and most respected US-based audit firms, and that their work is accepted by Fortune 500 companies.
+Within the first few minutes of the demo call we did with Delve, they had already mentioned how companies like Lovable, Bland, WisprFlow and hundreds of others are choosing Delve over competitors. The main point they kept driving home was that their revolutionary tech, supposedly way ahead of any other company’s, enabled compliance to be achieved with just 10 hours of work instead of the hundreds it used to take.
+Their demo was short but did a good job showing how automated everything supposedly was. They clicked through everything pretty quickly, and stopped at every place that made the process look easy or automated. They showed an integration pulling information out of AWS, the “ready to go” default policies you could just adopt without modification, the reasonably short list of tasks, the AI questionnaire automation, the beautiful trust page you could publish and their ‘AI-copilot’ chatbot.
+What they didn’t show, however, was that most integrations were fake and required manual screenshots, that tons of forms need to be manually filled out, that the trust page wasn’t accurate and they didn’t show any of the tasks that had pre-created fake evidence.
+Their “best offer” for SOC 2 started at $15,000, which we were able to negotiate down to $13,000 on the call. They kept emphasizing how it was a great deal, that we were getting so much value that other companies paid more for. They remained pretty inflexible on pricing until we made clear we were considering a competitor. We must have been told at least four times that they couldn’t go any lower because they’d make a loss. There was a lot of pressure and posturing, but the price quickly dropped to just $6,000 when they realized we were serious about going elsewhere, and they would throw in ISO 27001 and a 200 hour penetration test as well.
+Pushing us to sign within 24 hours or lose that good a deal, we decided to just move forward and get it over with. In hindsiht, there were many red flags, but we just wanted to get the job done quickly and move on. If Delve was good enough for companies like Lovable, they had to be doing something right. Right?
+2.2 Post-Sales
+2.2.1 Trust Pages Before Work
+Once you’ve been invited to the Delve platform and log in for the first time, you’ll be greeted with an interface that reveals there are four categories for activities:
+But even before you get started doing any real work, you can go into the trust tab and activate and publish the trust page for your company. You’d think it would probably be a very minimal trust page with everything failing at first, since you haven’t done any work, right?
+Nope, you immediately get a fully populated trust page that would have you believe you’re running the most secure company on earth. Delve's trust page presented our company as fully secure before we had completed any compliance work, enabling us to close deals based on misrepresented security claims.
+Noteworthy is that the list hadn’t changed after we finished compliance in any way, but still wasn’t truthful. My expectation was that the list reflected the security you’d get at the end of Delve’s process, but it took getting there to learn that that wasn’t true either.
+It says we did vulnerability scanning and a pentest, when we only ever did the scan. It says we did data recovery simulations, which we never did. It says we remediated vulnerabilities, which we never did.
+It is literally a made-up list of security measures of which more than half are not implemented, or even supported or addressed by Delve’s process and platform.
+In short, this product is built to help companies fake security rather than communicate their real security.
+2.2.2 The Four Categories: Pre-Populated Forms and Manual Uploads
+When you do actually decide to get started and do the work, you’ll find that the platform expects you to perform a number of tasks across four categories:
+Policies - These are all pre-created, and Delve recommends adopting them as they are.
+Sadly, unless you spend a whole week of manually revising them to be accurate, you will have inaccurate policies full of false promises. Every single one of Delve’s policies claims to have measures in place that Delve’s process and platform do not address.Even though we knew we’d technically be lying about our security to anyone we sent these policies to for review (clients, auditors, investors), we decided to adopt these policies because we simply didn’t have the bandwidth to rewrite them all manually.
+Team - Background checks, security training and manual device security through screenshots for every employee.
+This is a lot of manual work. it took each of our emloyees 2 hours to their individual tasks done.30 minutes to manually secure and screenshot laptop security configuration. It is a lot of work if you have a big company.
+Also, we didn’t have disk encryption support on a few laptops, but that didn’t stop Delve from signing off on HIPAA:30 minutes to manually start a Certn background check process.
+30 minutes (or more) to manually write up a performance evaluation:
+30 minutes to do all training (watching Delve’s Youtube videos) and quizzes.
+Tech - You add vendors here. This is what Delve calls integrations, but most of these are just forms where you are asked to submit screenshots:
+Company - Security procedures and company-wide tasks are live here. This is just a list of forms that are all pre-filled with fake evidence. You can speedrun through this by just clicking accept on every one of them.
+2.2.3 ‘AI-Native’!?
+One thing that stands out as you go through all of Delve’s tasks is that there isn’t any AI to speed up any of the work. The only thing available is an ‘AI Co-pilot’ that can provide generic advice, and that doesn’t seem to have much context beyond what form you’re in. More than half of the time the AI co-pilot would tell me the evidence in the platform was not sufficient, and it would refer to links of other GRC platforms.
+As opposed to what is promised during the sales process, the tasks are not customized to the company. You are basically dumped into an interface and told by the customer success person that you can ask questions on Slack if you get stuck.
+The reality is that there will be very few times you’ll ever need any help from Delve’s team, primarily because everything in their platform is pre-populated. You won’t have to ask how to do a risk assessment, because you get the same pre-generated risks that every other Delve customer gets. You won’t have to complain about having to do board meetings, after you were explicitly promised during the sales call that this is something all other providers but Delve ask for, because you get pre-created fake board meeting notes that you can adopt as is.
+Seriously, becoming compliant with Delve is nothing more than clicking through a bunch of pre-populated forms and accepting everything. Unless you want to do compliance the proper way, in which case Dropbox is as good a tool as Delve since you need to then manually collect and write everything.
+2.2.4 Typical tasks, fake evidence
+Ok, you sit down to get cracking on compliance. What do you do next?
+You accept the default policies that are inaccurate out of the box. Like this policy that claims to have an MDM in place when the Delve process consists of making a manual screenshot of your Mac firewall settings:
+You accept the pre-created contents for security simulation by accepting the three “security incidents”:
+You do the risk assessment by adopting the ten default risks:
+You accept Delve’s pre-fabricated fake board meeting minutes:
+One of our obvious concerns was that this approach would never pass an audit, but we were explicitly told Delve never failed a single audit in the past, and that auditors have never flagged a single issue with their process. They tried to put our minds at ease by telling us about all the amazing Delve clients that sold to Fortune 500 companies using the exact same process.
+Delve continuously reminding us that they serve clients like Lovable, Bland, WisprFlow and many others ended up wearing us down, so we just took their word for it and moved on.
+2.2.5 Integrations that don’t integrate with anything
+When the time comes to actually hook up your stack to Delve, so that Delve can do that ‘continuous monitoring’ thing, you’ll find that the vast majority of their integrations don’t integrate with anything at all. They are just containers for screenshots you’ll have to go out and manually collect.
+Imagine my surprise when I learned that AI-native compliance would mean I’d have to spend many hours manually collecting screenshots and filling out forms. I truly feel like a mindless agent in what Delve calls “the agentic experience”.
+Here you can see how the Linear ‘integration’ consists of Manual Tests and Forms:
+On the employee tab, you manually do background checks through Certn, fill out more forms, watch useless YouTube videos, and manually screenshot laptop security. For 100 employees, all 100 of them have to manually secure laptops once and upload screenshots.
+You also do manual performance reviews for every employee with no way to pull data from other solutions. Lots of typing if you have 20+ employees.
+Seriously, Delve gets you compliant by having you accept pre-created fake evidence, filling out forms and manually collecting screenshots without any way to pull in information from solutions that do automate these things.
+2.2.6 Delve ‘fixes’ everything though
+Forgot to onboard existing employees before the observation period started? No problem! That is what happened to us, and Delve told us not to worry. It wouldn’t jeopardize our audit.
+Later I saw how they handled it. Delve marked all checks as passing for employees who never did anything. Training complete. Devices secured. Background checks performed. Every employee had identical fake boilerplate evidence.
+For these employees, Delve fakes evidence on your behalf.
+You read that right. Delve produced fake evidence for device security, background checks, and training for a number of our employees.
+2.2.7 Passing SOC 2 with flying colors
+At the end of the observation period, despite knowing you didn’t do any real work and adopted fake evidence left and right, you get this wonderful message informing you you passed your SOC 2 audit with flying colors, and that you just received “an incredibly high quality report”:
+2.3 Post-Compliance
+After you get your SOC 2 report, you’re probably thinking it’ll unlock a lot of doors and enterprise sales will get a lot easier. That is sort of the case. Our experience is that quite a few enterprises simply don’t care and won’t even look at your report or your trust page. They just tick some internal box and move on. Other companies, on the other hand, are a lot stricter and won’t take your SOC 2 report as proof of sufficient security at face value. Those companies will want you to prove and defend what you’re claiming.
+So what do you do when those pesky enterprises send a questionnaire? You just drop it into the Delve Questionnaire AI. Easy enough! For us, it ended up answering around 70% of all questions, and we filled out the remaining 30% manually. Delve wasn’t of much use for that remaining 30%, and we didn’t get the impression that they (the Delve team) really understood the domain, so we ended up working with Claude to get the remaining part done.
+The trouble starts when you look at the answers Delve’s AI provided. Based on what your Delve policies claim, the questionnaire AI answers questions stating you have an MDM, had a 200 hour pen-test performed, and do regular backup restoration simulations. Tens of questions are answered like that. Great, you just lied to your vendor but at least you have a good shot at landing the deal. So what did we do? We kept our mouths shut.
+But what do you do when the enterprise you are selling to asks you to show that pen-test report (which you never did despite paying for it, because Delve told you a pentest-tools.com vulnerability scan sufficed)? When they ask for your most recent risk assessment, do you just screenshot Delve’s pre-fabricated assessment and pray nobody will pay attention?
+It was that point where the realization sank in. We knew we messed up. We were unable to answer most questions honestly without jeopardizing the deals we were trying to land. We scrambled to get things done the proper way outside of Delve, in an effort to pretend to know what we were doing, but it ended up simply being too much work to get done quickly enough to save things.
+We lost a number of deals because we were stuck in securtiy review and we lost momentum. A few we were able to salvage, but all in all it was a very frustrating process.
+Delve wasn’t of much help throughout the entire ordeal. Customer support kept promising to get back to us, but ended up giving us nonsense solutions that felt GPT-generated, or at times ghosted us altogether.
+After announcing we were considering to leave Delve, one of the founders got on a call with us, who kept reiterating how it was unique what we were going through. We were told that companies like Lovable and Bland coast through all security reviews with their Delve reports. That practically all F500 companies accept their reports blindly.
+They promised they were about to ship new features and products that would solve our problems. They showed us a demo of a no-code automation tool called Pathways that would get rid of all the manual work we complained about, which they had already shown during their demo many months before.
+They kept talking about it as if they had built it themselves, so I verified by asking explicitly if they did. They told me they had “built it from the ground up”.
+Which was peculiar, since I knew this tool to be SimStudio, which I recognized because I used it in the past. Below you can see Delve’s version on the left, and a regular SimStudio deployment on the right:
+While waiting for those new features and fixes, they paired us with a vCISO to resolve our issues and get the job done correctly. It was an OK experience, but we did everything manually and off-platform. Those new features and fixes that were supposed to be shipped within weeks still weren’t there months later. I’ve since heard that this is a common pattern with Delve. That they will do anything to keep you as a client, and will make any promise that’ll convince you to stay. Delve has sent us multiple boxes of donuts already to keep us happy.
+Somewhere mid-process with the vCISO, working on salvaging those enterprise deals by getting the job done properly, we again complained to Delve, this time about the amount of manual work we were doing. They then quoted us more than $40,000 to get access to the GRC workflow builder tool, because it was usually only sold to enterprises as they said.
+We have since unpublished our trust page and no longer rely on Delve for our compliance.
+3 The leak and Delve’s response
+Late December, an email went out to hundreds of Delve’s clients that informed them that Delve had leaked a spreadsheet with confidential client reports:
+Every entry had a Google docs link that pointed to the audit report of that client. These reports are supposed to be confidential because they contain sensitive information.
+The email also claimed that the spreadsheet revealed that Delve, rather than the auditors, was generating these reports. This is the email:
+An archived version of that spreadsheet is available here: https://archive.ph/6ZSzX
+All reports contained in the spreadsheet that have been circulating are backed up and available through the below link for verification and analytical purposes: https://mega.nz/folder/3ZNi3DqZ#ZH-M2Au1zErISCPD5Hgegg
+A few days later, Delve’s CEO sent out an email to affected clients, refuting the allegations from the initial email:
+Subject: Email with falsified claims sent to Delve customers
+Hello,
+Yesterday, an AI-generated email was sent to Delve customers with falsified claims and an alert about a publicly accessible internal audit automation document. While this email is not from a credible source, in the spirit of transparency, we want to proactively address this situation.
+First and foremost, I personally assure you that you are in compliance and there is no impact to the validity of your audit report. We take the accuracy of our compliance reports very seriously as we know many customers use them as a core pillar of trust to prove compliance to F500 and federal institutions.
+Secondly, after investigating the situation, we determined that human error resulted in a document being made publicly available. We also determined that no external party gained access to the Delve platform, integrations, or any databases where sensitive data resides. The scope of this situation is limited to the aforementioned document.
+Situation Assessment
+Upon receipt, we immediately reviewed the situation and determined that a document had been shared with public visibility. The document contained high level customer information and links to draft audit reports. Access to the document was immediately revoked.
+Taking Action
+Security and compliance are core to how we operate at Delve. We maintain strong access controls, perform regular internal reviews across our systems, and conduct quarterly penetration testing. We have taken action to reduce the likelihood of a similar event in the future, including tightening default document sharing settings, adding additional review requirements for externally accessible files, and supplementing employee training around customer data handling.
+We’re working hard to create a world-class compliance experience and if you’d like to talk further regarding any of the information above or about our trusted audit process, I’m more than happy to personally connect. Please simply reply to this email.
+We’re excited to continue to serve you, and wish you a very happy new year.
+Sincerely,
+Karun Kaushik
+CEO and Co-founder, Delve
+Karun Kaushik’s claim that no “external party gained access to … any database where sensitive data resides” is an outright lie. The spreadsheet itself constituted and was used as a database of sensitive client information, and the linked reports contained private data, signatures, and architectural diagrams.
+Delve revoked access to the main spreadsheet and individual reports very shortly after the exposing email went out, so they can be assumed to have thought that nobody had accessed or downloaded those reports before Delve made them private.
+Those hundreds of draft reports contained individuals’ private information and signatures:
+Those draft reports contained confidential architectural diagrams:
+And as reported on Reddit, another email went out as well to a larger audience:
+Again, Karun refutes all claims by stating that “an AI-generated email” went out with “falsified claims”.
+He claims the issue was “limited to this document” (the spreadsheet), and fails to report that the individual reports were accessible as well.
+Then that “false claims about Delve’s audits” are being spread and that “these claims are untrue”.
+This email also establishes that Delve’s head of Security and Compliance, Charles Nwatu, was the person who remediated the situation, and therefore knows the true contents and extent of the breach. This means he knows Karun Kaushik’s statements about the breach are false.
+In the article referenced in that last email, named “Inside Delve’s Trusted Compliance Process”, Charles Nwatu and Karun Kaushik explain in great detail how legitimate their process allegedly is. They make sweeping claims like everything being “triple verified” and that “no two audit reports are the same.” All made up.
+Based on what you’re about to see and read in the following section, it will become obvious that Charles Nwatu and Karun Kaushik are lying here about multiple things.
+4 What the leak and our research reveals
+This section contains a summary of what the leak and the subsequent research have uncovered about Delve that contradict their public claims.
+This section also contains background information on SOC 2 reports: who is allowed to write what and what each section is for.
+4.1 Summary of Delve’s Claims vs Reality
+4.2 Background Context - Regular Process vs. Delve’s Process
+In the table below you can see the how different compliance steps are approached between the normal required process and Delve’s process.
+4.3 Background Context - The structure of a SOC 2 report
+This section is meant to show you what the usual and required structure and process for a SOC 2 report is, so that you know what normal looks like and that you’re able to recognize when Delve significantly deviates from it.
+Delve’s reports follow the expected structure that the AICPA prescribes, where different parts of the report are provided by different parties.
+This section will explain the purpose of each section, who is required and allowed to write them, and who provides that section in Delve’s process.
+Section 1 - The Auditor Report
+This section is the summary and conclusion of a SOC 2 report. It may only be written by an independent auditor (CPA).
+It summarizes the scope of the audit, states the auditor’s obligations and ends with the audit’s findings.
+In the auditor’s obligations part, it is clearly stated that the auditor conducted the audit in accordance with AICPA rules, and that the conclusion was obtained by verifying the appropriateness of the company description and verifying through evidence that the claimed security measures actually exist and work. This section is present in Delve’s reports as well.
+Every single Delve report has the same pre-generated conclusion. Again, written and provided by Delve, and not the auditor:
+And every draft report has the license ID of their preferred SOC 2 partner (Accorp, based in India) pre-embedded so it can be signed without modification:
+This is in clear violation of AICPA rules, where Delve takes on the role of Auditor by providing these conclusions.
+Section 2 - Management’s Assertion
+This section is the company’s promise that it followed the rule and that everything stated by the company in the report is accurate (to their knowledge). It is the company that provides this signed section, usually based on a template provided by auditors.
+It is a pretty short and bland statement that sums up everything presented in the larger report:
+Section 3 - System Description
+This is the heart of any SOC 2 report. This section contains a summary description of the company, what its products are, what solutions they use and what security measures they have in place. This section is provided by the company.
+It is meant to be the readable and comprehensive overview of everything relevant to security that a company wants to have verified by an auditor, and that they want to present to outside parties as proof of those measures.
+That is why it is so important that this section is accurate, because companies are evaluated based on its contents, and because the controls listed in the subsequent section are based on what this section describes.
+Section 4 - Applicable Trust Services Criteria and Controls
+This section breaks down the previous section’s security measures into a clearly defined list of ‘security controls’, alongside the test procedures and conclusions of the auditor for each of them. The list of controls is provided by the company (often determined together with GRC advisor/platform), but the tests and conclusions must come from the auditor. This section therefore represents the auditor’s work product.
+note: in the land of SOC 2, section 4 is occasionally cut up into two separate sections. In that case, the first presents a list of security controls, and the second presents the tests performed on those controls and its conclusions.
+Section 5 - Other Information Provided
+Anything that might be useful to the reader may be added by the client as part of this section at the end of the engagement. It could be an explanation of why certain things weren’t done, why certain controls didn’t work, or anything else.
+5 Analyzing the leaked reports
+Before we dive in, I want to once again note that Delve’s CEO communicated to his clients that the claim that reports are generated is false.
+The AI-generated email is fraudulent
+- Karun Kaushik, in an email addressing fraud allegations that were sent to a few hundred Delve clients
+This section will show, through detailed analysis, that Delve’s reports are, in fact, generated.
+I will show that:
+Delve’s leadership built a system that writes auditor conclusions before any auditor sees the evidence
+The reports contain pre-written auditor conclusions before any client input
+The draft template was reused across hundreds of clients with only names changed
+Accorp, Accorian, and others stamped the same ‘Draft’ template (more details in section 6)
+Every single one of Delve’s clients makes massive misrepresentations about their security posture and about the trust service criteria they had audited.
+5.1 Background - Who Actually Writes What
+To understand how Delve’s report generation works, you need to know what each party contributes. In a legitimate SOC 2 engagement, the company describes its systems and controls, the auditor independently designs and performs tests, then writes conclusions based on evidence reviewed.
+Here’s how Delve actually divides the work:
+After being accused of generating reports, Delve published an article titled “Our Trusted Compliance Process” claiming that “no two audit reports are the same.” They made this claim because they assumed the leaked reports weren’t publicly available for analysis. They were wrong.
+So what actually differentiates one Delve report from another? Only four customer-provided elements:
+A signature
+A brief company description (2-3 paragraphs)
+A network diagram
+An org chart with key roles
+That’s it.
+When Delve delivers a “draft” SOC 2 report, the auditor’s conclusion is already written. The tests are already defined. The results are already determined. The client simply fills in their yellow-highlighted details (name, description, diagrams, signature) and the report is complete.
+This sequence matters. Generating auditor conclusions before the customer provides their system description violates multiple AICPA independence requirements. The auditor cannot form a conclusion before knowing what they’re auditing, unless the conclusion is fabricated and not based on actual examination.
+Here’s what those yellow-highlighted customer sections look like in practice:
+A closer look:
+Everything outside those highlights is automatically copy-pasted from Delve’s master template.
+5.2 Sign that Delve breaks independence rules - Conclusions present before customer signs or provides info
+There are a number of entries (draft reports) in the document that clearly belong to real Delve clients, but where the Delve clients haven’t gotten around to filling out the yellow parts as requested by Delve. That means that those customers haven’t provided a signature, a summary description of their company and a diagram.
+What stood out with those particular draft reports, that didn’t have customer-provided specifics, is that they already had the final auditor verdict, test procedures and test conclusions embedded.
+Those tests (procedures and conclusions) and final report conclusions were absolutely identical across the hundreds of documents. That isn’t surprising when the conclusions are automatically copied from a template when the report is generated.
+5.3 Sign that reports are generated from Delve-owned template - Section 3 similarity
+When looking at any 2 random reports, like the Browser Use and Cluely reports below, if you put the text side by side, this is what you’ll typically see:
+Looks similar, right? Sadly that similarity is not always visually apparent, which is the result of variable length company names and logo sizes. In the screenshot below you can see that the left report has a larger logo, pushing text down. The report on the right has a smaller logo, but a longer description.
+This causes the default text to break to the next page at different points:
+Small changes like that cascade through the document, which makes it impossible to establish similarity through visual comparison alone.
+5.4 Sign that reports are generated from Delve-owned template - Content similarity comparison
+To overcome the problem from the previous section, we did a textual analysis.
+There are 575 files in the txt_files dump:
+81 of those files are ISO 27001 form files:
+Which means all the other 494 reports (575 - 81) are SOC 2 reports:
+Of the SOC 2 subset, 259 files are SOC 2 Type II reports.
+When searching for a snippet from a typical Delve Section 3 (the part that uniquely describes a company’s security program) like the following:
+An Endpoint Security Solution is installed with the feature of scanning the device automatically and log reports are reviewed
+We’ll find that particular string in 493 files, which is 99.8% of all files. That means there is only one report that does not contain that string.
+The same applies to pieces of text that contain incorrect grammar, present in 492 files (99.6%)
+<company_name> has developed an organization-wide Information Security Policies.
+And Nonsensical sentences like this, present in 493 files (99.8%)
+The infrastructure comprises cloud architecture including database,
+networking devices, virtual servers, etc.
+5.5 Sign that reports are generated from Delve-owned template - Always same test procedures and conclusions
+Note: This is specific to SOC 2 Type II reports
+For SOC 2 Type II reports, auditors must test and verify every security measure listed as a control, documenting their process and conclusions for each:
+When controls require a triggering event, auditors sometimes cannot test effectiveness if that trigger never occurs. They typically note "no exceptions" but state the control couldn't be tested. This happens with security incidents that never occurred, emergency plans never activated, and similar events.
+What stands out from the 259 SOC 2 Type II reports in the leak is not only identical test procedures and conclusions across every report, but that four specific controls could not be tested for any client:
+Control
+Incident response policies are established, documented, and communicated to ensure timely and effective response to security incidents. Security incidents are documented and include root causes and lessons learned from the incident.Conclusion
+The operating effectiveness of the control related to security incidents could not be tested because there no security incidents reported during the engagement
+259 out of 259 Type II reports had this conclusion, including the missing word (“because there no security incidents”??), which would imply that not a single Delve client had a breach during their three month monitoring period.
+I’m not going to dismiss the possibility that not even one of 250 companies had a security breach in the past year, but the conclusion being written weirdly does make it look like copy-pasting.
+Control
+Significant changes to people, roles and responsibilities for key personnel are internally communicated to all personnel.Test Conclusions
+No exceptions noted. The operating effectiveness of the control related to significant changes to people, roles and responsibilities could not be tested because there were no significant changes made during the engagement period.
+Hmm. 259 out of 259 again.
+So not even one of Delve’s clients had any significant changes to people, roles or responsibilities? What are the odds!?
+Control
+Cybersecurity insurance is maintained to provide financial protection and support in the event of a cyber incident or data breach.Conclusion
+The operating effectiveness of the control related to cybersecurity incidents could not be tested because there no cyber incidents reported during the engagement
+For some weird reason every one of Delve’s reports has cybersecurity insurance listed as a control, but a conclusion unrelated to it:
+This mismatch and conclusion are present in all 259 out of 259 Type II report:
+Control
+Customer data is securely deleted from all systems and storage locations upon termination of the customer relationship.
+Conclusion
+The operating effectiveness of the control related to customer data deletion upon termination could not be tested because there were no customer terminations during the engagement
+Not a single one of Delve’s customers apparently lost a client throughout the 3 month monitoring period. Amazing. Delve must be the most effective churn-reduction method in history.
+These identical tests and conclusions in Section 4, required to be written by the auditor, are the result of Delve’s report generation process.
+5.6 Sign that reports are generated - Test values
+Some spreadsheet rows contain typical keyboard-mashed test values like ‘sdf’ and ‘dlkjf’. If this sheet feeds a report generation script, these values should appear in the generated reports. If reports are created manually, they wouldn’t.
+Let’s test whether they appear.
+Examples
+5.6.1 Entry 89 (ID 1Nte5OQzqLkkgdLxHvD4alEaN-4YyeAifnK6A4YEgVkw)
+The row’s values:
+Legal Name; Company Name; Audit End Date; Observation Period (type 2); System Name ;Infra Provider; Company Website;Company Contact Email
+g;g;g;;g;Render;g;g
+All fields are filled out as ‘g’, with the exception of ‘Render’.
+Let’s see if we can find a bunch of ‘g’s and ‘Render’:
+Note that the second page in the image (Page 4) is the “Independent Service Auditor’s Report”.
+Also note that the third page in the image contains the word ‘Render’.
+5.6.2 Entry 226 (ID 1sKCqKGUwWc6osSSGlAO6Jf-Rs8zNjba534uCxBSLH6Q)
+The row’s values:
+Legal Name; Company Name; Audit End Date; Observation Period (type 2); System Name ;Infra Provider; Company Website;Company Contact Email
+sdf;sdfsd;;sdfsdaf-sfdsdfds;platform;GCP;sdf;sdf
+And those values appear in the draft like expected.
+5.7 Sign that reports are generated - Different firms with same report
+Looking at the two different reports from the spreadsheet that were generated for Coretsu below, we can see that they have different covers, even though they were generated close in time:
+What I suspect happened here is that Delve accidentally made a mistake in generating the report, so before changing the front cover manually, they generated another version.
+I’m basing that off of the fact that the Accorp report was generated before the Accorian report was generated, and that the Accorp report contains empty values:
+And the wrongly generated draft report was not sent to the client so that the yellow parts could be filled out:
+Once the report was generated succesfully, they likely pasted in a new audit report cover, belonging to Accorian. What they forgot, however, was to replace Accorp’s firm ID with Accorian’s:
+Let’s emphasize that once more:
+The correct sign-off for Accorian reports looks like the following, which I was able to grab from the final Levels.FYI SOC 2 report that was prepared by Accorian and that I got access to a while ago:
+5.8 Sign that reports are generated - Errors
+This section documents anomalies typical of script-generated documents, not manual data entry.
+Errors cluster around test and placeholder values, likely from document generation failures or script modifications to support additional subservice providers.
+5.8.1 Row 63’s title field
+Error: TypeError: Cannot read properties of undefined (reading 'namedValues')
+5.8.2 Row 92’s legal name field.
+Error: TypeError: Cannot read properties of undefined (reading '0')
+5.8.3 Row 216’s Link field.
+This row is most likely meant for testing purposes as some of the values are ‘delve’ and ‘delveee’.
+Error: ReferenceError: Docs is not defined
+5.8.4 Other non-error testing fields
+There are multiple places in the spreadsheet where consecutive test entries have failed and led to empty google doc fields.
+This is likely a result of a development process where something just didn’t work as expected until it worked after multiple iterations.
+5.9 Sign that reports are generated - Subservice Providers
+Another thing that stood out was that tests mostly happened around changes in infra or subservice provider:
+That made me wonder: If there is some form or script where the infra provider is entered, how does that change the contents of the report? I was expecting significant differences as each infra provider has different ways of approaching security and has different controls in place.
+As I looked into the different reports, I noticed that entry 90 with id 1JQnfW5AqSasRj8vfWxyBNqIUNuoCrmlXaWH3P_C9wxs
+had Azure
+listed as the infra provider, but when opening the file something clearly went wrong when Selin (see screenshot above) attempted to generate that document:
+Which led her to try again with Azure and then with GCP:
+Could it be that they weren’t dropping in conditional sections but rather just filled in the name of the infra provider in multiple places? Surely not given how different those providers are, right?
+Well, that is exactly what they did!
+Whatever section an infra provider is mentioned in, they are all the same across all possible infra providers. One example is the subservice provider description:
+<full_provider_name> (<abbreviated>)
+<abbreviated> has provided an Independent Service Auditors Report (SOC 2).
+The Criteria that relate to controls at the subservice organizations included all criteria related to the Trust Service Principles of Security. The types of controls that are necessary to meet the applicable trust services criteria, either alone or in combination with controls at Portant include:
+● The system is protected against unauthorized access
+● The system is available for operation and use and in the capacities as committed or agreed.
+● Policies and procedures exist related to security and availability and are implemented and followed.
+And the sample applies to the Network Segmentation Overview section:
+Network Segmentation Overview
+The system is hosted in <full_provider_name> (<abbreviated>) in a virtual private cloud (VPC) environment which protects the network from unauthorized external access. The network topology includes segmented VPCs and access control lists (ACLs). Portant PTY LTD employs IDS and IPS via <abbreviated> to identify and protect against threats in conjunction with its security policy network settings.
+User requests to <client_name> web-based systems are encrypted using Transport Layer Security (TLS) using certificates from an established third-party certificate authority. Remote access is done through a bastion host with a virtual private network (VPN). The hardware components that make up the aforementioned system include servers hosted, managed, and protected by <abbreviated>. Production servers at <abbreviated> maintain failover capabilities in the event of physical hardware or logical software failures. This infrastructure is hosted in high availability data centers with multiple availability zones.
+5.10 Temporal Clustering of Identical Reports
+Delve didn’t use one static template,they modified it periodically, creating distinct “generations” of reports. When analyzed chronologically, the leaked documents cluster into clear batches:
+100+ reports with identical content, then a small group with a specific grammar fix or phrasing tweak, then another stable batch.
+For example, Delve added “The” to “Organization has established an organization chart” in early August 2025. Reports generated before that date lack the article; reports after include it, with no other variation.
+This pattern confirms centralized template generation rather than individualized audit work.
+True independent audits would produce gradual, random variation across reports. Instead, Delve’s documents show synchronized “updates” applied en masse, as if generated from a single source file that changed periodically.
+5.11 Signs of who was involved - Selin Kocalar’s involvement
+One of the entries has sskocalar@gmail.com
+as the company contact email.
+One of Delve’s founders is Selin Kocalar, and if sskocalar@gmail.com
+turns out to be her personal email address, this makes it likely she was personally involved in setting up and testing the report generation tool.
+To verify if sskocalar@gmail.com
+is actually Selin’s personal email address, I did a google search, which led me to find a ‘Chapter Development Report’ from June 2019 - June 2020 where Selin Kocalar is listed as chapter president with that exact email address:
+5.12 Signs of who was involved - Taher Lokhandwala’s involvement
+One of the values used in generating a test document, through the Delve report generator, contains the name Taher. This is likely to be a reference to a senior Delve employee that practically serves as Delve’s head of growth, Taher Lokhandwala.
+Specifically, the entire value reads “Taher re mariala”.
+When we look up the google doc ID’s PDF we can see that the fields from the screenshot above, “taher re mariala” and “ore mariala”, are present in the ISO form as well:
+While less definitive than the Kocalar evidence, it is still an indicator of who is likely to be aware of and co-responsible for operating this system.
+5.13 Delve Defense #1 - Draft reports are only a starting point - No difference between drafts and final reports
+On a call with one of their clients, as I was told by said client, Delve told them that all GRC companies do what Delve does, and that the draft is just a starting point.
+First of all, having worked with a number of other GRC companies and audit firms in the past, I can confidently say it is not true that all GRC companies do this. Some of them help you generate section 3 descriptions of your company, but I have never heard of a compliance automation company automating report and conclusion generation on behalf of the auditor.
+Besides, If you download a few finalized SOC 2 reports from Delve Customers’ trust pages, you’ll find that there are no difference in text between the draft document they signed (link at top of article) and the final published reports.
+To illustrate this, let’s do a comparison between the draft and final reports of a company called Ziina.
+The only difference is that the final report is “digitally signed” by Accorp:
+Beyond that, there are literally no differences:
+And the same applies to all other companies present in the spreadsheet, like Cluely:
+Note: The PDF exports from Google docs have slightly different breakpoints than Delve’s final reports, which is the result of Delve staff downloading .doc files from Google docs and then converting them themselves using Word or another tool. I was able to replicate the correct pdf output using ilovepdf.com, though different tools may have been used at different times.
+I’m not sure if Delve is going to play this card publicly, but it seems like an obvious defense they’d try again given that they used it on at least one occasion before. So I thought it would be best to get ahead of that.
+And the claim doesn’t even make sense. Customers are told that they received an “incredibly high quality report”, where they only need to modify the highlighted sections (a few lines and a diagram), and then sign the letter:
+How is it a draft report when it already contains the auditor’s conclusions the moment you’re asked to fill it out and sign it? Are they claiming to make changes to these ‘drafts’ after final signatures have already been provided? That would constitute another different type of fraud altogether.
+5.14 Delve Defense # 2 - Refuting claim that most reports are custom - The exceptions
+Just to make sure Delve won’t get the chance to cherry pick a report to show how custom their reports are, I’m going to highlight the one report in the leaked set that is different:
+Duos Edge
+One particular report that stands out, and of which having the information leaked is a serious matter, since it is part of a publicly traded company, is Duos Edge (subsidiary of Duos Technologies Group, Inc., NASDAQ: DUOT).
+They substituted the default section 3 with their own version that is a lot more detailed and seems to be actually accurate.
+Misrepresentations by Duos Edge
+What is interesting about this report is that it still has the exact same controls and auditor conclusion as all the other reports. Duos has a ton of security measures in their company that just aren’t tested for in the SOC 2 report, despite being described in their section 3. Another strong indicator of rubber stamping.
+Despite it being a good thing that Duos edge put in the effort to create a thorough description of their company, their section 3 contains a massive misrepresentation that is simply a complete fabrication:
+This SOC 2 Type 2 examination covers the period April 1, 2025 through September 30, 2025, and includes evaluation of the design and operating effectiveness of controls relevant to the Security, Availability, Processing Integrity, Confidentiality, and Privacy Trust Services Criteria. B. Infrastructure (Physical and Logical Components)
+They also claim this in their Management Assertion in Section 2:
+What that means is that Duos Edge claims that they were audited for the Availability, Processing Integrity, Confidentiality and Privacy Trust Services Criteria (TSC). Those are criteria separate from the default Security TSC (Trust Services Criteria), which encompasses the Common Criteria (CC), and require their own controls, tests and conclusions.
+As can be seen in Duos Edge’s report, the only controls listed in Section 4 are part of the Security/Common Criteria. Furthermore, the only tests the auditor performed were on the Security criteria. No other tests or test conclusions are present in the report.
+That means that Duos Edge, in contradiction to repeated claims, does not have a SOC 2 report that covers Availability, Processing Integrity, Confidentiality and Privacy, despite publicly communicating that they do.
+Additionally, the Security test procedure descriptions and conclusions are also exactly the same as all other reports and have literally no connection to what is described in Section 3 in any way, shape or form.
+Another company misrepresenting their security, without having adopted Delve’s default Section 3 garbage this time, audited by an Indian rubber stamp firm that doesn’t check anything, facilitated by a platform that creates fake evidence… I’m not even sure who to blame here.
+Audit fraud and misrepresentation of security is already serious for small non-public companies, but is a wholly different ballgame altogether when it comes to publicly traded companies.
+SEC, are you paying attention?
+6. The auditor rabbit hole
+Delve claims to work with "the best and most respected US-based audit firms." The reality is a shell game of Indian certification mills, US shell addresses, and auditors who stamp whatever Delve puts in front of them.
+A fraudulent compliance platform needs fraudulent auditors. Without firms willing to sign pre-written reports, Delve's template generation would be worthless. This section traces the network of firms that make Delve's fraud possible, where they're actually based, who runs them, and how they're connected to each other.
+Let’s start with a visual overview of the connections between Accorp/Gradient and Delve:
+6.1 Frauditor #1 - Accorp
+Delve uses Accorp as their preferred SOC 2 audit partner, and claims it is a high-quality US-based firm.
+Hundreds of Accorp audits were present in the recent leak of the spreadsheet named “Ongoing Accorp audits”, which contained the draft and filled out SOC 2 reports of a large number of Delve clients. That leak made it clear that Delve writes, and Accorp stamps.
+When looking into Accorp, I was primarily interested in learning about their legitimacy and the claim that they are US-based.
+Let’s take a look at the addresses listed on their primary site:
+The US address is a single small office that an individual CPA operates from under the name Citta. All the other addresses are virtual offices or fake addresses.
+It is safe to conclude that none of these places are used by Accorp, and they clearly do not have US presence. Combine that with the evidence from the previous section, and evidence of BQC/Jayshree Dutta being the primary auditor on behalf of Accorp (see later section), and we can conclude that Accorp is a fraudulent Audit firm operating from India.
+Additional addresses:
+They also have an Indian address listed on their primary website, which seems to actually be an office building:
+1003-1004 Suryakiran building, KG Marg, Connaught Place, Delhi
+They have additional addresses listed on their other websites:
+PO BOX 646, EDISON NJ 08818, New Jersey, New Jersey 08818, US
+Building No: 241, Flat: M-01, 31B ST, Naif, Deira Dubai, United Arab Emirates, Dubai, Dubai, AE
+5161 Lankershim Blvd, North Hollywood, CA 91601, USA
+6.2 Frauditor #2 - Gradient Certification
+Delve uses Gradient as their preferred ISO 27001 audit partner, and claims it is a high-quality US-based firm.
+A large number of Gradient ISO 27001 registration forms were present in the Delve leak. That is peculiar, begging the question why Gradient ISO forms are present in a listing of Accorp audits. The reason for that is of course that Accorp and Gradient are part of the same operation.
+Through public records research I was able to establish that Gradient operates through entities located in India and the US. From what I can find it seems that Gradient’s US address is nothing more than a mailbox address.
+Lets dig in.
+6.2.1 Gradient’s Indian entity
+Public records show that the directors of Gradient Certification Pvt Ltd (CIN U74909DL2025PTC456892) are:
+Kumar Gauraw (DIN 11343900)
+Viren Singh (DIN 11343899).
+their listed address is:
+When looking for ‘Gradient Certification’ on Google maps, another address also located in Delhi pops up:
+6.2.2 Gradient’s US entity
+Gradientcert.com lists two US addresses:
+The first seems to just be a registered agent popular with scammers:
+the second address is a residential address:
+It is now safe to assume that Gradient does not have real US presence. Let’s dig a little deeper.
+Looking up Gradient Certification in Wyoming’s Chamber of Commerce records surfaced the following:
+That’s interesting! The president of Gradient Certification Inc. is listed to be Anamika Singh.
+On Gradient’s Certification of Reinstatement, anamika has a US phone number listed:
+While their annual profit report lists her address as Gradient’s Indian entity incorporation address:
+According to public records, Anamika is additionally associated with at least three other firms:
+These all have Anamika Singh as director in common, alongside Kush Kaushik. Kush is one of the founders of another VC-backed compliance automation startup named Scrut Automation.
+Note that I am not implying Scrut/Delve and Karun/Kush are related in any way, it just might be a weird coincidence.
+6.3 Contacting Accorp and Gradient
+Note - I’m not comfortable sharing my private Whatsapp conversations in this section, so I recommend doing your own research.
+In an attempt to uncover more, I decided to get in touch with Gradient and Accorp directly to get a better picture of their process and pricing.
+In contacting Gradient, I got connected to Kumar Gauraw through Whatsapp. Kumar Gauraw, as you can see above in the Gradient section, is one of Gradient’s directors.
+After some haggling, Kumar told me he could take care of ISO 27001 and SOC 2 for less than $2k altogether. SOC 2 would go through Accorp, but I wouldn’t have to deal with them directly, and ISO 27001 would go through Gradient.
+Both audits would be managed by a colleague of his that he introduced me to: Jayshree Dutta.
+As you can see in the RocketReach image below, Kumar Gauraw is also connected to BQC Assessment, just like Anamika Singh and just like Jayshree Dutta, whose name I had seen before on Delve’s platform before Kumar mentioned her (see next section).
+6.4 The BQCCert and Jayshree Jana Dutta connection
+As I looked into the employees of BQC Assessments and CyberTryZub, one name in particular stood out: Jayshree Jana Dutta.
+Despite not being a CPA, Jayshree seems to perform SOC 2 audits:
+As mentioned before, the particular reason she stood out was because I had seen that exact name before on Delve’s platform.
+The auditors’ names can be found by navigating to the Trust Center tab:
+And then clicking into the View Documents
+view, revealing all downloadable documents including the audit reports.
+As visible in the following screenshot, the auditor’s name for both ISO 27001 and SOC 2 is listed as Jayshree Dutta. Could this be the same Jayshree I found earlier that works for CyberTryZub? Hard to tell with just a name, so I started digging.
+The name is return visible in the above screenshot only returns a name. The full API endpoint is api.delve.co/audit/instances/documents
+and returns:
+What if I try other endpoints like api.delve.co/audit/instances
+or api.delve.co/audit/
+?
+Success!
+That endpoint returned detailed audit information, including the name and email address of the auditor. It was in fact the same Jayshree as the one from CyberTryZub!
+Why would the name of an auditor working for CyberTryZub, BQCcert and NKVA be listed as the auditor on Delve’s platform? None of those are US-based CPA firms, but all of them have close ties to Gradient certification and Accorp.
+6.5 Frauditor #3 Accorian
+The connection with Accorian was established through Coretsu Inc. and Levels.FYI.
+Coretsu had multiple entries in the leaked sheet. The first entry (September 6, 2025) was for an Accorp audit, whereas the second entry (September 8, 2025) was for an Accorian audit.
+The first attempt was made at 9/10/2025 10:09:02. Something probably went wrong as the first attempt did not lead to a valid generated report. the second attempt was made at 9/10/2025 10:10:11. That second attempt, created just one minute later, did lead to a valid draft report. This draft was probably made in error, since placeholders were not replaced.
+The third attempt took place at 9/10/2025 17:10:42, about 7 hours after those initial two attempts. That attempt also led to a draft report.
+What stands out is that one draft that wasn’t filled out by the client had an Accorp cover, whereas the draft report that did have information filled out had an Accorian cover:
+The Coretsu Inc. report, that has an Accorian cover, is identical to the Accorp reports.
+What makes me believe that this is also an automatically generated report, with just the cover changed, is that Accorp’s firm license number is still at the end of the auditor conclusion section:
+The mere fact that an Accorian report is present in an auto-generated document pipeline alongside Accorp reports, sharing identical content, structure, and even the wrong firm license number, demonstrates that these 'independent' audit firms are functionally interchangeable shells in Delve's operation.
+6.6 Frauditor #4 Glocert
+It was brought to my attention by a friend who is helping out with this article that Delve is now pushing another audit firm in the wake of the Accorp/Gradient situation. Apparently their new go-to company for ISO 27001 is Glocert.
+Glocert turns out to be another front for an Indian cert mill. This time ‘headquartered’ in the UK. Hard to say for sure, but it is likely that Delve ended up with Glocert through an Accorian connection:
+Looking up Glocert in the UK Governmental database reveals that the UK company is an empty shell with no UK-based activity or revenue.
+The records for GLOCERT INTERNATIONAL CERTIFICATIONS (UK) LIMITED (12515846) show that it has been dormant for the past four years.
+And that the company “did not trade during the current year or comparative year and has not made either a profit or a loss”:
+They claim to be headquartered in the UK, but all publicly available documents show they have zero presence in the UK and are an Indian operation. The sole shareholder is Selvarane Krishnan, who is based in India:
+The people at Delve just can’t help themselves.
+6.7 Misled auditor - Prescient
+In Lovable’s SOC 2 report, which was created by Prescient Assurance and which I obtained by requesting it from Lovable, shows that Delve’s nonsense even creeps in when working with serious firms.
+Looking at that report, there are clear signs that Delve either knowingly misled Prescient, or that Prescient accommodated Delve’s deficient process. Given their reputation and by the small number of Delve/Prescient reports out there, I’m assuming it is the former.
+Prescient’s report for Lovable is clearly not generated through a template, since the auditor’s report, auditor tests and auditor conclusions all seem specific to Lovable.
+What is obvious, however, is that Delve provided the templated Section 3 text and the list of controls. As shown in this article, both are full of false and nonsensical statements.
+Many of the security measures described in Section 3 are not part of the list of controls, and are therefore not tested by Prescient, the auditor.
+Here Lovable claims to use VPNs and Bastion Hosts, that haven’t been tested by Prescient:
+It has the same grammatical errors as all of Delve’s other reports (not that this matters in any material way, but it stands out):
+It has the same fake Delve-generated ‘IT Leadership Committee Charter’ and “Board Meeting Minutes” that every other Delve client gets:
+So Lovable too is making claims about their security measures that are false.
+Has Prescient not noticed that every Delve client has the same board meeting minutes? Even if Prescient was sloppy here, I still believe this is mostly a result of being fed fake evidence from Delve rather than intentional fraud.
+7 Product Notes
+Earlier we already went into what a typical experience with Delve looked like, but in this section we’ll dive a bit deeper into a number of aspects:
+Integrations — Delve’s integrations are fake.
+Forms — Delve is a product built upon forms. It is not AI-Native.
+Pathways — Delve did not build its own enterprise tool, and is potentially using it without attribution.
+Customization — Delve claims customers get a program tailored to them, but they all get the same.
+7.1 Fake Integrations
+One thing that Delve puts a lot of emphasis on in their sales calls is that they have full support for practically any stack. They claim to have more integrations than most other platforms in the space.
+It looks pretty comprehensive when you have the call:
+But the reality is that nearly all of Delve’s integrations are fake, and only exist as ‘integrations’ to fool you into believing they have more support and tech than they truly do.
+What do I mean when I say Fake Integration? It means that it integrates with nothing. It doesn’t pull information from an external source, it doesn’t authenticate with any third party, it doesn’t connect with anything.
+Ok, so what does it do then you might wonder. Good question.
+It means you get a number of forms and screenshot upload fields packaged together in something they call an integration. Literally:
+It isn’t even hard to establish this. Their full list of integrations is retrieved through a backend call that returns a list of all integrations, including fields that reveal whether they require authentication to the ‘integration’ or not.
+Every single one of Delve’s so called integrations that have authRequired
+set to false
+are fake integrations:
+Delve only has 14 real integrations, and most of those only contain one or two automated tests. The 100+ other integrations are placeholders for manual evidence.
+7.2 Delve == Forms
+At its core, Delve is not an AI-native platform with advanced capabilities. It is just a list of forms.
+All tasks in the Company
+and Team
+tab are forms, and many in the tech
+tab are as well:
+It is ironic that Policies, despite also presenting a form of sorts when you edit them, are not reprsented as a Delve Form in the strict sense of the (Delve) definition.
+By looking at backend traffic with Delve’s platform in DevTools, it becomes apparent that nearly all tasks on the Delve platform are represented as forms.
+Some of the most common backend URLs called are the below:
+https://platform.api.delve.co/v1/forms/structure?formId=<form_uuid>
+https://platform.api.delve.co/v1/forms/by-controls?type=ORG
+https://platform.api.delve.co/v1/forms/<form_uuid>/submissions?page=1&limit=10
+https://platform.api.delve.co/v1/forms/structure?<form_uuid>
+Beyond proving how much Delve relies on basic forms, I will spend a little bit of time in the section showing how Delve’s process is designed around default values that customers are expected to accept.
+7.2.1 Form types
+Based on returned results from multiple endpoints, I’ve been able to stitch together that the below controls are represented as forms. All tasks that are part of the ‘company’ and ‘team’ tab in Delve are represented as forms under the hood.
+There are three possible ‘types’ of entities:
+INTEGRATION
+USER
+ORG
+And three possible formType
+values that can apply to them:
+FORM
+TABLE
+TRAINING
+Regardless of the combination of these two, these are all forms.
+There may be others as I and my friends did not have access to frameworks beyond SOC 2, HIPAA, GDPR and ISO 27001. All forms I was able to discover:
+"name":"CablingSecurityAssessment","humanizedName":"Infrastructure Security Assessment","type":"ORG","formType":"FORM"
+"name":"CompanyAccessRequestForm","humanizedName":"Access Request Form","type":"ORG","formType":"TABLE"
+"name":"CompanyApplicationLoginPage","humanizedName":"Application Login Page","type":"ORG","formType":"FORM"
+"name":"CompanyCustomerSecurityPractices","humanizedName":"Customer Security Guidelines","type":"ORG","formType":"FORM"
+"name":"CompanyGDPRAgeVerification","humanizedName":"Age Verification Form","type":"ORG","formType":"FORM"
+"name":"CompanyGDPRConsentWithdrawal","humanizedName":"Consent Withdrawal Form","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRCriminalData","humanizedName":"Criminal Data Handling Protocol","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRDPIA","humanizedName":"Data Protection Impact Assessment","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRDSR","humanizedName":"Data Subject Request Form","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRGovernanceMeeting","humanizedName":"Governance Meeting Agenda/Minutes","type":"ORG","formType":"FORM"
+"name":"CompanyGDPRNotificationLog","humanizedName":"Breach Notification Log","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRPrivacyNotice","humanizedName":"Privacy Notice Template","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRROPA","humanizedName":"Records of Processing Activities","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRSensitiveData","humanizedName":"Information About Handling Sensitive Data","type":"ORG","formType":"TABLE"
+"name":"CompanyGDPRTransfers","humanizedName":"Data Transfer Agreement","type":"ORG","formType":"TABLE"
+"name":"CompanyInventory","humanizedName":"Inventory Management Form","type":"ORG","formType":"TABLE"
+"name":"CompanyLandingPageChecklist","humanizedName":"Landing Page Checklist","type":"ORG","formType":"FORM"
+"name":"CompanyManagementBoard","humanizedName":"Board Meeting","type":"ORG","formType":"FORM"
+"name":"CompanyManagementITLC","humanizedName":"IT Leadership Meeting","type":"ORG","formType":"FORM"
+"name":"CompanyManagementRC","humanizedName":"Risk Committee Meeting","type":"ORG","formType":"FORM"
+"name":"CompanyPhysicalSecurityAssessment","humanizedName":"Physical Security Assessment Checklist","type":"ORG","formType":"FORM"
+"name":"CompanyRisk","humanizedName":"Risk Assessment","type":"ORG","formType":"TABLE"
+"name":"CompanySecurityIncident","humanizedName":"Security Incident Report","type":"ORG","formType":"TABLE"
+"name":"CompanySecurityPractices","humanizedName":" Security Practices Guide","type":"ORG","formType":"FORM"
+"name":"CompanySimulatedIncident","humanizedName":"Security Simulation Report","type":"ORG","formType":"TABLE"
+"name":"CompanyWhistleblowerForm","humanizedName":"Whistleblower Reporting Form","type":"ORG","formType":"TABLE"
+"name":"TeamBackgroundCheck","humanizedName":"Background Check","type":"USER","formType":"FORM"
+"name":"TeamEmployeeOffboarding","humanizedName":"Employee Offboarding Checklist","type":"USER","formType":"FORM"
+"name":"TeamEmployeeOnboarding","humanizedName":"Employee Onboarding Checklist","type":"USER","formType":"FORM"
+"name":"TeamEmployeePositionChange","humanizedName":"Employee Position Change","type":"USER","formType":"FORM"
+"name":"TeamPerformanceEvaluation","humanizedName":"Performance Evaluation","type":"USER","formType":"FORM"
+"name":"TechOffboarding","humanizedName":"Access Termination Form","type":"INTEGRATION","formType":"FORM"
+"name":"TechOnboarding","humanizedName":"Integration Onboarding Form","type":"INTEGRATION","formType":"FORM"
+"name":"TechProjectSecurity","humanizedName":"Project Security Review","type":"INTEGRATION","formType":"FORM"
+"name":"TechRiskAssesment","humanizedName":"Risk Evaluation Form","type":"INTEGRATION","formType":"FORM"
+"name":"TechVendorSecurity","humanizedName":"Security Testing","type":"ORG","formType":"FORM"
+"name":"TrainingCompliancePolicies","humanizedName":"Compliance Policies Training","type":"USER","formType":"TRAINING"
+"name":"TrainingComputerSettings","humanizedName":"Computer Settings Training","type":"USER","formType":"TRAINING"
+7.2.2 The fake integrations are also forms
+When Delve shows how many platforms they ‘integrate’ with, they’re actually showing a list of manual forms you could fill out.
+For any of these manual ‘integrations’, where the sole evidence comes from user input and screenshot uploads, looking under the hood will reveal their true manual nature:
+https://platform.api.delve.co/v1/forms/by-type?type=INTEGRATION&integrationId=<integration_uuid>
+{
+"success": true,
+"data": [
+{
+"id": "<form_uuid>",
+"name": "TechOnboarding",
+"humanizedName": "Integration Onboarding Form",
+"type": "INTEGRATION",
+"formType": "FORM",
+"groups": [
+"IT & Operational Security"
+],
+"frameworks": [
+"HIPAA",
+"ISO27001",
+"SOC2",
+"GDPR"
+],
+"isAdmin": true,
+"isOptional": false,
+"submissionType": "SINGLE",
+"maxSubmissions": 1,
+"status": "COMPLETED"
+},
+{
+...
+"name": "TechRiskAssesment",
+"humanizedName": "Risk Evaluation Form",
+"type": "INTEGRATION",
+"formType": "FORM",
+...
+},
+{
+...
+"name": "TechOffboarding",
+"humanizedName": "Access Termination Form",
+"type": "INTEGRATION",
+"formType": "FORM",
+...
+}
+],
+"message": "Operation successful"
+}
+7.2.3 Note on Default Values
+As you can see below, a number of forms have default values built in. In fact, practically every control in Delve, with very few exceptions, has defaults.
+As recommended by Delve’s CSM, we adopted those default values wherever they existed, only filling out placeholder fields. Those placeholder fields were usually nothing more than coming up with a fantasy date a meeting was performed.
+It is painstakingly clear that Delve’s speed heavily relies upon pre-populated forms being adopted by its users.
+7.2.4 Example of default form values - Board meetings
+Here is a particular example where companies are required to prove they do board meetings.
+What the below example illustrates is not only what fields such a form consists of, and how manual of a process it is (if you do it the right way), but also that there are default values that contain placeholders that users should fill out if they do it the Delve way.
+That default value isn’t generated through AI. It is just a boilerplate template provided by Delve that they encourage you to adopt as is.
+At our company we adopted the below, which is a fake board meeting that never happened:
+Board meetings requirement Delve
+Source: https://platform.api.delve.co/v1/forms/structure?<form_uuid>
+{
+"success": true,
+"data": {
+"id": "<id_uuid>",
+"name": "CompanyManagementBoard",
+"humanizedName": "Board Meeting",
+"frameworks": [],
+"type": "ORG",
+"formType": "FORM",
+"description": "Create a company board that meets twice a year to discuss the company's direction. Conduct at least 1 meeting.",
+"isAdmin": true,
+"isOptional": false,
+"isRecurring": true,
+"recurrenceType": "YEARLY",
+"recurrenceInterval": 2,
+"snoozed": false,
+"submissionType": "MULTIPLE",
+"metadata": null,
+"fields": [
+{
+"id": "<id_uuid>",
+"name": "MeetingAttendees",
+"type": "SHORT_INPUT",
+"label": "Attendees",
+"validationRules": {
+"required": true
+},
+"options": null,
+"order": 1,
+"metadata": null
+},
+{
+"id": "<id_uuid>",
+"name": "MeetingDate",
+"type": "DATE",
+"label": "Date",
+"validationRules": {
+"required": true
+},
+"options": null,
+"order": 2,
+"metadata": null
+},
+{
+"id": "<id_uuid>",
+"name": "MeetingMinutes",
+"type": "PARAGRAPH_INPUT",
+"label": "Meeting minutes",
+"description": "Full meeting minutes including Review and Approval, Financial Performance and Budget, Risk Management and Compliance sections",
+"validationRules": {
+"required": true
+},
+"options": null,
+"defaultValue": "1. Review and Approval\r\n- Approval of previous meeting minutes\r\n- Status update on action items from the last meeting\r\n\r\n2. Financial Performance and Budget\r\n- Review of key financial metrics: total revenue, annual recurring revenue, average monthly burn, runway\r\n- Discussion of financial performance against targets\r\n- Review and approval of organizational budgets\r\n\r\n3. Risk Management and Compliance\r\n- Review of Risk and Governance Executive Committee report\r\n- Discussion of annual risk assessment results and mitigation strategies\r\n- Review of internal control systems and their effectiveness\r\n- Compliance status and regulatory concerns\r\n- Cybersecurity and data protection measures\r\n\r\n4. Business Strategy and Operations\r\n- Review of overall organization strategy and execution\r\n- Discussion of short-term and long-term business objectives\r\n- Product roadmap and key milestones\r\n- Go-to-Market (GTM) strategy effectiveness\r\n- Competitive landscape analysis\r\n- Evaluation of additional resource needs (people, processes, tools, technologies)\r\n\r\n5. Human Resources and Succession Planning\r\n- Review of organizational structure and any proposed changes\r\n- Discussion on team capabilities and performance\r\n- Review of hiring plans and talent acquisition strategies\r\n- Evaluation of compensation and performance evaluation programs\r\n- Review and update of succession plans for key roles\r\n- Discussion on retaining competent individuals and fraud prevention incentives\r\n\r\n6. Business Continuity and Risk Mitigation\r\n- Evaluation of business contingency plans\r\n- Discussion of fraud and misconduct mitigation strategies\r\n\r\n7. Board Composition and Governance\r\n- Evaluation of board members' skills and expertise\r\n- Assessment of need for subcommittees, experts, or consultants\r\n- Discussion of any corporate governance issues or updates\r\n\r\n8. Capital Structure and Fundraising\r\n- Review of current capital structure\r\n- Discussion on fundraising needs and strategies\r\n- Update on cap table and any recent or planned changes\r\n\r\n9. Strategic Initiatives and Future Planning\r\n- Discussion on major strategic initiatives\r\n- Long-term vision and potential partnerships\r\n- Any other business or open topics\r\n\r\nAction Items:\r\n1. [ENTER HERE]\r\n\r\nNext Meeting:\r\n- Proposed date for the next board meeting: [ENTER DATE]",
+"order": 3,
+"metadata": null
+},
+{
+"id": "<id_uuid>",
+"name": "MeetingApprovedBy",
+"type": "SHORT_INPUT",
+"label": "Meeting minutes approved by",
+"validationRules": {
+"required": true
+},
+"options": null,
+"order": 4,
+"metadata": null
+},
+{
+"id": "<id_uuid>",
+"name": "ApprovalDate",
+"type": "DATE",
+"label": "Approved date",
+"validationRules": {
+"required": true
+},
+"options": null,
+"order": 5,
+"metadata": null
+}
+]
+},
+"message": "Operation successful"
+}
+7.2.5 Example of default form values - Security Simulation Report
+The security simulation report task has a fixed description stating there are 3 security incidents. If you add one or however many, it keeps saying 3 (I tried):
+"data":{"id":"20f6ea0e-a1b0-4482-a830-1bd6cd81036a","name":"CompanySimulatedIncident","humanizedName":"Security Simulation Report","frameworks":[],"type":"ORG","formType":"TABLE","description":"Suppose the following 3 security incidents happened, discuss how you'd respond. Either modify the suggested responses below or write up your own responses.",
+Delve’s platform is built assuming custom user input is an edge case. The Delve way assumes adopting all of their fake pre-generated evidence.
+7.3 Pathways
+The only thing that looked remotely useful and that had some actual AI going was the Pathways (workflows) module, which we were demoed twice while being a Delve client.
+Sadly we didn’t get access since it was a much higher cost tier and meant for enterprises.
+Luckily it was as easy as browsing to app.delve.co/w
+to get access. That was the case for a while at least. They seem to have fixed that now.
+Like I mentioned at the start of the article, their claim to have built this themselves had left a really bad taste in my mouth since I knew this was just SimStudio:
+Just watch any of the videos below to see it is the exact same product:
+Youtube - 🚀 Install SIM AI Locally 💻 + Google Integrations
+Youtube - How To Use Sim AI (Step By Step Guide 2025)
+I don’t know what type of deal they have going with the Sim guys, but no attribution when using an open source project and then claiming you built it yourself is really, really bad form! Especially to ask as much money as they do for a product they basically seem to have stolen.
+Not surprising though given their many other lies!
+7.4 No customized programs
+I’ll keep this one short. Based on the fixed number of controls observed in Delve’s platform, based on the static number of controls listed on trust pages of hundreds of Delve clients (which might not be an accurate indicator since the trust pages are fake), and based on the fact that every one of Delve’s reports has the same list of controls, the conclusion can be drawn that for any particular framework, Delve rolls out the same program for every client.
+7.5 Security like its the 90s
+I just want to take a second to highlight the irony of calling yourself an agentic AI-native platform and then have to deal with stuff like this:
+8 Compliant or not?
+Delve's platform produces the appearance of a functioning compliance program while systematically failing to deliver the substance required by any major framework.
+Having established how Delve generates reports and manufactures auditor sign-offs, we now turn to what these documents actually contain. The picture is stark: Delve's platform is structurally incapable of producing genuine compliance with SOC 2, ISO 27001, HIPAA, or GDPR, yet it systematically leads clients to believe, and represent to others, that they are fully compliant.
+The mechanisms of this deception operate across multiple layers:
+Delve’s trust pages are a static representation of a fictional security program that no Delve company has implemented. For any particular framework Delve shows the exact same list of made-up controls.
+Delve’s default report sections lead clients to misrepresent their compliance state, stating they are compliant with criteria (TSCs) that are never addressed.
+Delve is a point-in-time platform, and is unable to provide continuous evidence in accordance with regular compliance requirements.
+Delve only supports four frameworks (SOC 2, ISO 27001, HIPAA, GDPR) through their platform, and each falls short by not having all of that framework’s requirements present in Delve.
+Delve’s policies are filled with claimed procedures and controls that no Delve client has addressed or implemented, and are not represented in their platform.
+Delve’s Section 3 (description) template is full of false claims about the presence of supposed security controls.
+Delve’s Section 4 (auditor tests and test conclusions) is full of made-up tests that aren’t even possible given the nature of the evidence that Delve produces
+Delve’s process leads its clients’ unknowing failure to address a signifcant number of mandatory requirements, causing them to be liable towards their clients, investors and the public as a result.
+Delve’s process and product lead its regulated clients (HIPAA/GDPR) to unknowingly be in violation of mandatory regulations
+8.1 Trust pages are a lie
+Disclaimer: Delve launched a completely revamped trust page design in the past week. The primary changes beyond the design are that the same controls are mapped differently now and that there is no longer any claim of live monitoring. The biggest two problems persist, however, as trust pages still don’t reflect the reality of the company (you can be on 0% on Delve and have a full trust center with green marks), and programs are always the same (despite Delve’s claims to customize programs).
+Delve’s trust pages are designed to mislead. What is supposed to be a page to communicate your actual security posture, is in reality a fixed pre-generated list of controls claimed to be ‘completed’ and ‘monitored live’.
+That controls listed on the trust page are ‘completed’ is false, as we can see from the analysis below that all of Delve’s customers that have SOC 2 listed as their sole framework have the exact asme number of complete controls, regardless of when they activated the trust page or whether or not it shows SOC 2 as completed or not.
+Most Delve customers activate them before completing any work, yet the pages display full green checkmarks across all controls. The trust page communicates that these are ‘live’ and ‘completed’, but the reality is that they are neither.
+Even after completing all the tasks in Delve’s platform and obtaining a SOC 2 report, the majority of trust page controls remain a complete fabrication and were never implemented. For example, Delve’s security testing ‘task’ shows you should either do vulnerability scanning or a penetration test. Most of Delve’s customers only do a vulnerability scan through pentest-tools (Delve’s platform has this recommendation), but the trust page lists both vulnerability scanning and penetration testing regardless of whether or not you did either.
+This isn’t an exhaustive list, but the same applies to:
+Access Reviews
+Cybersecurity insurance
+Secure connection requirements (like Tailscale)
+Mobile device management (see screenshot)
+Infrastructure authentication (like Teleport)
+Data classification and access control
+Intrusion detection
+ePHI access authorization and monitoring (HIPAA)
+Removable media controls (No USB enforced, only possible through MDM)
+EU representative appointment (GDPR)
+These are all a complete fiction. If you look at a trust page of a company like Bland, you should assume that the majority of those controls, that don’t even exist in the Delve platform, are not implemented.
+MDM example
+Take MDM for example. As you can see below, the trust page clearly states that security policies are enforced on devices with remote wipe capabiliy
+:
+You might be wondering if that was maybe just a minor mistake and anomaly, but you’d be wrong. Looking at the policy and Delve’s template Section 3 (the part of the SOC 2 report where a company describes its security measures), you’ll see that this is a pattern.
+The standard Delve policy claims that an MDM is in place to “centrally manage endpoint devices”:
+Section 3 is a little less outspoken and clear. One part states that a “comprehensive endpoint protection system” is in place, which usually means EDR but could also mean MDM. Elsewhere in Section 3 mention is made that “Windows systems are managed through the patch management system” and in yet another place it says that “all changes to the information processing facilities, including equipment, supporting facilities and utilities, networks, application software, systems software and security devices are managed and controlled.”:
+These statements are incompatible with what Delve requires from its users. Delve’s platform does not integrate with any MDM solution, and their own process consists of requiring users to upload multiple screenshots (one for each type of security setting) after manually securing devices. That means that those devices are not centrally managed, and policies cannot be enforced remotely.
+That those trust pages are pre-generated becomes obvious when looking at some of the trust pages that belong to Delve’s clients. Having analyzed 322 publicly accessible trust pages of Delve customers that went through SOC 2, we found that 321 of them (so (99.69%) were identical. The one exception, Aura AI, had controls mixed in from a previously delisted GDPR framework (See appendix with trust page similarity analysis).
+That controls listed on the trust page are ‘live’ is just as much of a fabrication, as Delve is fundamentally incapable of monitoring the vast majority of those controls in a live manner. Most of those controls require manual screenshot uploads and form submissions that, at best, can serve as point-in-time evidence.
+Just like we saw with the fixed list of tasks that exist on Delve, the trust page reinforces that Delve’s process revolves around fixed deliverables that are reused across all clients. Delve’s claims around customization are a complete fabrication.
+The implication of this is that every Delve customer is materially misrepresenting their security posture to the world, including their partners, customers and investors.
+8.2 Every Delve client misrepresents their compliance state
+To be clear: every Delve report contains numerous lies, fabrications and misrepresentations. A number of those will be illustrated in later sections of this chapter.
+One that immediately stands out, if you start combing through Delve’s SOC 2 Type II reports, can be found on the very first page of Section 2, the Managent Assertion (the section where they promise the report is accurate and that they are telling the truth).
+The description is intended to provide users with information about the “Wispr Flow AI” that may be useful when assessing the risks arising from interactions with Wispr AI, Inc. system, particularly information about the suitability of design and operating effectiveness of Wispr AI, Inc. controls to meet the criteria related to Security, Availability, Processing Integrity, Confidentiality and Privacy set forth in TSP Section 100, 2017 Trust Services Principles and Criteria for Security, Availability, Processing Integrity, Confidentiality and Privacy (applicable trust services criteria).
+This is the same misrepresentation that Duos Edge has made as stated in section 5, where a detailed explanation can be found of why that is bad. In short, it is similar to claiming you have 5 certifications when in reality you only have one.
+Every one of Delve’s SOC 2 Type II reports that went through their default auditor, Accorp, has this misrepresentation.
+8.3 Delve is a point-in-time platform, not continuous
+The continuous version of SOC 2 (Type II), requires evidence that something is being done over a period of time. For many security activities you need to show you’re doing it all the time. Evidence of having done something once is insufficient. Delve’s process is structurally incompatible with that requirement.
+Take the MDM example from before. Users are asked to make and provide screenshots of security settings only once. Auditors have no way of checking if those devices stayed secure, or if they were all turned back to the insecure state right after those screenshots were made. Additionally, those screenshots make it really hard to attribute them to any particular user or device, as those screenshots could belong to any laptop. They don’t contain a username or device ID after all.
+That makes it impossible for an auditor to check if the security is continuous, and if it even applies to all employees and devices that belong to a company.
+Taking into consideration that Delve is mostly architected around forms, it makes sense that Delve’s process is incompatible with this requirement for continuous evidence, and why it is so reticent to work with serious firms that don’t just rubber stamp.
+Delve might point out, as you can see in the example forms highlighted in the product section of this article, that forms can be recurring:
+“isRecurring”: true,
+“recurrenceType”: “YEARLY”,
+“recurrenceInterval”: 2,
+It might not be unreasonable to ask a company to fill out a form twice a year, but Delve also has forms that should be filled out every quarter or even every month. It gets even worse when you realize that certain commitments require providing evidence daily, like proving that your devices are scanned on a daily basis.
+Yet every firm Delve worked with, including Accorp, Prescient, Gradient, Accorian, Prudence Advisors, and others, issued valid SOC 2 reports based on the ‘evidence’ Delve provided. That is only possible if those auditors accepted point-in-time evidence as proof of continuous effectiveness, or if they did not review the evidence at all.
+8.4 Framework Coverage
+8.4.1 Frameworks supported
+Delve markets that their product has support for a large number of frameworks. The reality is that Delve’s platform only ever had (partial) support for four frameworks:
+SOC 2
+ISO 27001
+HIPAA
+GDPR
+This can be inferred from the fact that there isn’t a single framework mapping discoverable across all Form, Integration and Control mappings but the below (snippet from section 7.1.1):
+“frameworks”: [
+“HIPAA”,
+“ISO27001”,
+“SOC2”,
+“GDPR”
+],
+For frameworks like ISO 42001 (ironic since this is the AI certification), HITRUST, CMMC, FedRAMP, CCPA and many others, Delve defers clients to off-platform vCISO services to get the job done manually.
+For the vast majority of frameworks, Delve turns out to have the exact model, being a services company, that it claims to be replacing.
+8.4.2 Framework gaps
+Not having continuous monitoring for most controls is fundamentally incompatible with the requirements of most frameworks.
+In terms of specific controls missing, A thorough mapping of every framework and control is beyond the scope of this article.
+But ISO 27001 illustrates the pattern clearly. Delve's platform lacks any real asset register, sensitivity labeling of information, or PII register.
+These are not optional extras in ISO 27001. They are foundational controls that every certified organization must implement and demonstrate. Delve's customers adopt default forms describing processes that do not exist, then receive certificates claiming those controls are in place.
+8.5 The Policy Problem
+Delve provides default policies out of the box that customers adopt with a single click. You’d of course expect these policies to be consistent with the activities performed in the Delve platform, but that isn’t the case.
+These policies, just like what we saw with the trust page, describe security measures that do not exist in the customer’s environment.
+A few examples:
+“The password policy is strictly enforced for all applications used over the Internet.”
+- Delve Network Security Poliy
+and:
+“All passwords must be stored in the company-approved password manager.”
+- Delve Password Management Policy
+Strange, since Delve doesn’t even check if you have a password manager or proper secrets storage solution. We didn’t implement one, and neither Delve nor the auditor asked.
+“Vulnerabilities assessed by <company> shall be patched or remediated in the following timeframes:”
+- Operations Security Policy
+We never remediated anything. It isn’t tracked in Delve’s platform anyway. You just upload the PDF of a free vulnerability scan and all security scanning and vulnerability management boxes pass.
+“Permission from the IT Department must be obtained before using wireless connections.”
+- Delve Network Security Policy
+What!?
+“The company has a mobile device management (MDM) system in place to centrally manage endpoint devices supporting the service to the customer. The MDM tool is appropriately configured to prevent against unauthorized or inappropriate connectivity of endpoint devices to the Company’s environment.”
+- Delve Network Security Policy
+There was no MDM, just manual screeshots of laptop configs.
+To de-identify health information using this method, <company> must remove all 18 identifiers related to: Names, Geographics subdivisions […], Dates directly related to individuals, etc.
+- PHI De-identification Policy and Procedure
+And the list goes on and on.
+This Applies to each and every one of Delve’s many policies:
+8.6 Section 3 (Description) Fiction
+As mentioned previously, SOC 2 reports contain a Section 3 describing the company’s system and controls. This section is boilerplate in Delve-generated reports.
+Just like with policies you would, again, expect the default description of a Delve compliance program to be a truthful representation of the actual program right? Wrong! Delve’s representation of its clients’ security programs are a complete fiction as well.
+Here are a few examples that are just completely made up. Sorry for all the puns. I just can’t help but laugh at the massive amount of nonsense that can be found in these reports.
+Note: Each of the below controls are present in all of Delve’s section
+Local users do not have access to modify password rules.
+How does Delve enforce this without requiring an MDM? They don’t.
+Remote access is done through a bastion host with a virtual private network (VPN).
+The platform doesn’t show this control, so no evidence is ever provided. Auditors also didn’t ask.
+All systems and devices are protected by the comprehensive endpoint protection system.
+Delve’s patented Comprehensive Endpoint Protection System (CEPS) will protect your fleet of devices! Oh wait.. Delve doesn’t have anything like that. They have a guide for manually securing your laptop.
+The endpoints include antivirus, anti-malware, and Trojan protection from any source. This also includes e-mail scanning of the systems which prevents malicious scripts and viruses from e-mails.
+Any source you say!? Endpoint protection that has “E-MAIL SCANNING OF THE SYSTEMS”? I’m happy their imaginary solution prevents malicious scripts and viruses from e-mails, because I’d be scared to open them otherwise.
+Apart from which all systems are restricted to the internet with the content filtering system routed through the proxy server.
+“THE content filtering system” routed through “THE proxy server”. What magical content filtering system and which proxy server are we talking about here that every Delve client supposedly has? Sounds cutting edge.
+Windows systems are managed through the patch management system, while OS patching for network devices is handled automatically through their update process.
+Windows systems can be managed through “THE patch management system”? Another impressive fictional invention by Delve.
+An Endpoint Security Solution is installed with the feature of scanning the device automatically and log reports are reviewed by the IT team/Management
+Really? We never installed an EDR solution. Remember? We just did screenshots. But I feel safe knowing Delve’s solution has the feature of “scanning the device automatically.”
+Risk Management and Risk Assessment
+Risk assessments are performed annually to identify current risk levels, with recommendations to minimize those risks that are determined to pose an unacceptable level of risk to Babacare As part of this process, security threats are identified and the risk from these threats is formally assessed.
+Babacare has operationalized a risk assessment process to identify and manage risks that could adversely affect their ability to provide reliable processing for User Organizations. This process consists of an Information Security team identifying significant risks in their areas of responsibility and implementing appropriate measures to address those risks.
+Following steps are involved in performing risk assessments
+Risk identification for each asset in a process and at Organizational level.
+Risk analysis & evaluation for each asset in a process & at Organizational level.
+Risk treatment & residual risk.
+Risk identification is not done for each asset. The default process is to just accept Delve’s default risks, that conveniently contains one risk for every threat category:
+The auditor’s conclusion for everything described in Section 3? “Controls were operating effectively throughout the observation period.”
+8.7 Section 4 (Tests and Test Conclusions) Fiction
+In section 4 of SOC 2 Type II reports, the auditor describes the test procedure and conclusion for each control.
+All those tests and conclusions that Delve generated for Accorp to sign are just made up.
+All of the below snippets can be found in every Type II Delve/Accorp report:
+Inspected onscreen evidence to observe that Backups are taken daily, multi-availability zones are configured, and alerts are in place to notify operating personnel in case of a backup failure and its remediation.
+No exceptions noted
+We don’t do daily backups. Delve wasn’t even able to pull backup settings on the particular cloud provider we use, so they have no way of knowing.
+Further observed that workstations are scanned to test patch compliance on a daily basis.
+No exceptions noted
+How? The default process with Delve is to do screenshots of your settings, that you configured manually. Without any type of access, without an agent or an MDM, how could Delve or Accorp possibly test this remotely on a daily basis?
+Selected a sample of new contractors. For the selected samples, inspected evidence to observe that contractors are required to acknowledge and sign a confidentiality agreement to ensure the protection of sensitive information.
+No exceptions noted
+We didn’t have contractors.
+Further, inspected evidence to observe that the Board of Directors has members who are independent from management to promote objective evaluations and decision making.
+No exceptions noted
+The board literally consists of the founders, and we have never done a real board meeting.
+Inspected evidence to observe that the Board meetings are conducted regularly …
+No exceptions noted
+We don’t do board meetings. We do have fake board meeting notes provided by Delve though.
+Inspected evidence to observe that an intrusion detection system is utilized to monitor and detect unauthorized access or anomalies within the network, ensuring timely identification and response to potential security incidents.
+We have an IPS?
+Inspected evidence to observe that the data classification policy is established, documented, and implemented to categorize data based on sensitivity and criticality, ensuring appropriate handling and protection measures are applied.
+We never did Data Classification or made a Data Inventory. Delve didn’t even have that listed in their platform. There was just a policy.
+Inspected evidence to observe that Cybersecurity insurance is maintained to provide financial protection and support in the event of a cyber incident or data breach.
+First of all, we don’t have insurance. Secondly, the auditor conclusion has nothing to do with insurance, and claims it couldn’t be tested because no security incidents took place..?
+And it just goes on and on. It is all made up.
+No conclusion from any Delve report can be trusted to be accurate. The whole foundation of SOC 2, building trust, is just completely destroyed when you work with Delve.
+8.8 so who is on the hook for this?
+This touches real companies and real people. Compliance exists so that when a startup says “we’re SOC 2 certified,” or “HIPAA compliant,” or “GDPR compliant,” a hospital or a bank or a defense contractor can trust that claim enough to share data. When that trust is manufactured instead of earned, the damage doesn’t stop at the company that bought the report. It flows downstream to their customers, their customers’ customers, and eventually to individuals whose medical records, financial data, or personal information ends up exposed because someone cut corners.
+HIPAA and GDPR weren’t created as paperwork exercises. They exist because criminals actively want health records to sell, identities to steal, and systems to ransom. Faking compliance doesn’t just violate some abstract professional code. It leaves actual people unprotected against actual threats.
+Delve’s clients are in an impossible position. They paid for expertise they didn’t get, received platforms showing 100% completion that meant nothing, and were handed the same pre-fabricated evidence as a thousand other companies. They were told this was how compliance worked now: fast, automated, handled. They published trust pages broadcasting security measures they never implemented, because Delve said those pages were accurate. Now they face liability for representations they made in good faith, based on assurances that turned out to be lies.
+That is where the anger should go. Delve built a machine designed to make clients complicit without their knowledge, to manufacture plausible deniability while producing exactly the opposite.
+8.9 The PHI and PII Problem
+The implications extend beyond contractual misrepresentation. Delve’s customer list includes companies processing protected health information (PHI) for millions of U.S. citizens and personal data for European residents. Under HIPAA, these companies are required to implement administrative, physical, and technical safeguards with documented compliance evidence. Under GDPR, they must demonstrate lawful processing, data minimization, and cross-border transfer protections.
+Delve’s platform produces the paperwork without doing the work.
+The result: companies handling the most sensitive categories of personal data (medical records, biometric data, financial information) are operating under the false assurance of compliance while lacking the controls legally required to protect that data.
+9 Closing words
+If it wasn’t the case that companies need to manually secure every device individually and provide screenshots, and that some minor work needs to be performed to make the few integrations that Delve has pass, Becoming fake ‘compliant’ with Delve is literally as easy as clicking into every form and accepting their defaults.
+At our company, becoming ‘compliant’ ended up taking approximately 4 hours + 2 hours per employee doing it the Delve way.
+When we had to get it done properly shortly after, it took 200+ hours, and the Delve platform was a nightmare to work with and in many cases worse than using a spreadsheet.
+Existing Delve clients
+If you are a Delve client, it is not my job to convince you whether or not to continue your professional relationship with Delve or not. I saw it as my mission to convey my experience and research conclusions to the public and to expose what I was able to establish through multiple sources.
+What I can however do is provide advice on how to proceed if you are evaluating whether to continue with Delve or not, and how to approach that conversation with them.
+There is a good chance your customers could hold you liable for communicating a materially false compliance status to them. It is tempting to point the finger at Delve, but the reality is that you are responsible for the statements you make to your clients. Delve might be liable in many ways for their false claims towards you, the public, and towards investors, but that doesn’t absolve you of your own responsibility.
+It is for that reason that I strongly recommend that you engage with Delve in writing. In my own communications with Delve I noticed a recurring pattern of the founders inviting us to get on a call. Those calls would invariably contain every reassurance imaginable. They will mention how their reports have passed review with practically every F500 company out there, that their auditors are independent and that they have some three-step review process, and they will continuously remind you of the great companies like Bland and WisprFlow that they work with.
+Additionally, when you’re unhappy with Delve’s services, their default process is to either promise a vCISO manually doing the work for you, essentially turning them into a services company, or to promise that whatever they fail to deliver is around the corner. This pattern plays out over the span of many months.
+How to communicate with Delve moving forward
+They will jerk you around when you ask for the truth. When asking if they generated reports they will meander on about how all platforms generate reports. Not only is this false, but no other platform out there generates the auditors’ conclusion. So instead of asking if they generated reports, ask them directly if they generated the tests, conclusions and auditor conclusions or not. Yes or no.
+Note that Delve still has the ability to lie, but also keep in mind that if you ask them a straightforward question and they proceed to lie to you, they are in serious trouble. So even if you get on a call with their team, ensure that you record the call (do not take no for an answer, cover your ass here), and ask questions like:
+Audits
+Who is Jayshree Dutta, what is her role, and why does she appear as the assigned auditor for both SOC 2 and ISO 27001 in your platform?
+Does Accorp review evidence before signing reports, or do they sign what you provide?
+Do you generate the auditor’s report, test procedures, and test conclusions before any auditor reviews client evidence?
+Have you ever generated a report with one firm’s cover page but another firm’s license number embedded in the conclusion?
+Regarding the “US-based auditors” you partner with, from what country do their employees primarily operate?
+Platform claims
+You claim 100+ integrations. How many authenticate with third parties and pull data automatically?
+You claim to customize security programs for each client. Why do 99% of your SOC 2 reports contain identical control text?
+Is Pathways built on Sim Studio open source code?
+Outside of Pathways, does any part of your platform use AI to automate compliance tasks, or is it all manual forms?
+Leak response
+Why did Karun Kaushik claim no external party accessed sensitive data when the leaked spreadsheet contained hundreds of draft reports with confidential architectural diagrams and individual signatures?
+Why did you describe the exposing email as “AI-generated” and “falsified” when the spreadsheet it referenced was real and publicly archived?
+Frameworks
+Does your platform fully support any framework beyond SOC 2, ISO 27001, HIPAA, and GDPR?
+For ISO 42001, CMMC, FedRAMP, or HITRUST, do you deliver compliance through your platform or through manual vCISO services?
+Delve: I will be monitoring, and I or someone from my company will be one of those people who gets on a call with you (again).
+P.s. Thanks for the donuts. Please send some more
+— AICPNAY
+APPENDIX - Analysis of public SOC 2 trust pages
+==== SOC 2 CONTROL SET COMPARISON REPORT ====
+Reference file: 10x-science-inc.json
+Total companies: 322
+Matching companies: 321
+Deviating companies:1
+Similarity rate: 99.69%
+Across 321 independent organizations, Delve is deploying an identical SOC 2 control set consisting of 51 controls, reused verbatim without observable customization.
+==== METHODOLOGY & SCOPE DISCLAIMER ====
+This analysis includes ALL publicly discovered Delve-hosted trust pages containing exclusively SOC 2 frameworks, without exception. ...
+==== METHODOLOGY: DATA EXTRACTION EXPLANATION ====
+Control datasets were extracted directly from publicly accessible Delve trust pages by parsing the embedded Next.js application payload present in each page’s HTML source. ...
+==== FULL CONTROL SET (ALPHABETICAL) ====
+- Access control procedures established
+- Access reviews conducted
+- Access revoked upon termination
+... <truncated>
+==== MATCHING FILES ====
+10x-science-inc.json (reference)
+...
+zubu-ai.json
+==== DEVIATING FILES ====
+aura-ai.json
+==== DEVIATION DETAILS ====
+aura-ai.json:
+Extra controls:
++ Automated Individual Decision-Making, Including Profiling
++ Binding Corporate Rules (BCRs)
++ Codes of Conduct
+... <truncated>
+==== DEVIATION ANALYSIS DISCLAIMER ====
+<truncated>
+Post Scriptum - Note about other players (CompAI)
+One thing I would like to get ahead of here is that the previously mentioned leak has led a number of Delve’s competitors to reach out to us. I can’t blame the sales reps for trying, but some were definitely a lot more shameless than others.
+One in particular I would like to call out is CompAI, a company operating in an eerily similar way to Delve, at an even lower price point ($500 per month). Their emails were a lot more insistent and aggressive, making strong accusations against Delve, which was all the more ironic given how CompAI has garnered a reputation of its own for similar practices. CompAI’s founder, Lewis Carhart, was discovered to have bribed a Reddit mod to take over the ISO27001 subreddit. You can read all about it in this reddit thread:
+https://techcrunch.com/2025/07/22/21-year-old-mit-dropouts-raise-32m-at-300m-valuation-led-by-insight/
