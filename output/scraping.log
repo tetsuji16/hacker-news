@@ -2983,3 +2983,23 @@ DEBUG: Scraping URL: https://blog.voxagon.se/2026/03/13/teardown-multiplayer.htm
 DEBUG: Successfully scraped 14444 chars from https://blog.voxagon.se/2026/03/13/teardown-multiplayer.html. Saved to output/scraped_content\blog_voxagon_se_og_voxagon_se_2026_03_13_teardown_multiplayer_html.txt
 DEBUG: Scraping URL: https://github.com/pyodide/pyodide
 DEBUG: Successfully scraped 3502 chars from https://github.com/pyodide/pyodide. Saved to output/scraped_content\github_com_https___github_com_pyodide_pyodide.txt
+DEBUG: Scraping URL: https://code.claude.com/docs/en/channels
+DEBUG: Successfully scraped 5560 chars from https://code.claude.com/docs/en/channels. Saved to output/scraped_content/code_claude_com_https___code_claude_com_docs_en_channels.txt
+DEBUG: Scraping URL: https://www.bristol.ac.uk/news/2026/march/bombarding-gamblers-with-offers-greatly-increases-betting-and-gambling-harm.html
+DEBUG: Successfully scraped 4344 chars from https://www.bristol.ac.uk/news/2026/march/bombarding-gamblers-with-offers-greatly-increases-betting-and-gambling-harm.html. Saved to output/scraped_content/www_bristol_ac_uk_s_greatly_increases_betting_and_gambling_harm_html.txt
+DEBUG: Scraping URL: https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years
+DEBUG: Successfully scraped 12772 chars from https://omar.yt/posts/wayland-set-the-linux-desktop-back-by-10-years. Saved to output/scraped_content/omar_yt_sts_wayland_set_the_linux_desktop_back_by_10_years.txt
+DEBUG: Scraping URL: https://www.getclockwise.com
+DEBUG: Successfully scraped 5036 chars from https://www.getclockwise.com. Saved to output/scraped_content/www_getclockwise_com_https___www_getclockwise_com.txt
+DEBUG: Scraping URL: https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/
+DEBUG: Successfully scraped 4332 chars from https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/. Saved to output/scraped_content/www_marksimonson_com_om_notebook_view_the_day_i_discovered_type_design_.txt
+DEBUG: Scraping URL: https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/
+DEBUG: Successfully scraped 1359 chars from https://lemire.me/blog/2026/03/18/how-many-branches-can-your-cpu-predict/. Saved to output/scraped_content/lemire_me_2026_03_18_how_many_branches_can_your_cpu_predict_.txt
+DEBUG: Scraping URL: https://www.v-dem.net/news/press-release-democratic-backsliding-reaches-western-democracies-with-us-decline-unprecedented/
+DEBUG: Successfully scraped 3813 chars from https://www.v-dem.net/news/press-release-democratic-backsliding-reaches-western-democracies-with-us-decline-unprecedented/. Saved to output/scraped_content/www_v-dem_net_western_democracies_with_us_decline_unprecedented_.txt
+DEBUG: Scraping URL: https://inara.technology
+DEBUG: Successfully scraped 2316 chars from https://inara.technology. Saved to output/scraped_content/inara_technology_https___inara_technology.txt
+DEBUG: Scraping URL: https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404
+DEBUG: Successfully scraped 22950 chars from https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404. Saved to output/scraped_content/gist_github_com_g_1002653_b7a1e88479a10eaae3bd5298b8b2c86e16fb4404.txt
+DEBUG: Scraping URL: https://www.theatlantic.com/newsletters/2025/12/costco-is-an-american-achievement/685411/
+DEBUG: Successfully scraped 7561 chars from https://www.theatlantic.com/newsletters/2025/12/costco-is-an-american-achievement/685411/. Saved to output/scraped_content/www_theatlantic_com__2025_12_costco_is_an_american_achievement_685411_.txt

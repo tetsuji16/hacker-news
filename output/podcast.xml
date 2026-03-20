@@ -8,396 +8,507 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Tue, 17 Mar 2026 13:18:29 +0000</lastBuildDate>
-    <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2026 01:36:08 +0000</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     <itunes:category text="Technology"/>
     <itunes:image href="https://tetsuji16.github.io/hacker-news/output/HackerNewsLogo.png"/>
     <item>
-      <title>Hacker News アップデート 2025-12-01</title>
-      <description><![CDATA[2025-12-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-01.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-01.mp3" length="5690924" type="audio/mpeg"/>
-      <itunes:duration>23:42</itunes:duration>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Hacker News アップデート 2026-03-01</title>
+      <description><![CDATA[2026-03-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-01.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-01.mp3" length="9517580" type="audio/mpeg"/>
+      <itunes:duration>39:39</itunes:duration>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hacker News アップデート 2025-12-02</title>
-      <description><![CDATA[2025-12-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-02.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-02.mp3" length="7623212" type="audio/mpeg"/>
-      <itunes:duration>31:45</itunes:duration>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 +0000</pubDate>
+      <title>Hacker News アップデート 2026-03-02</title>
+      <description><![CDATA[2026-03-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-02.mp3" length="9263468" type="audio/mpeg"/>
+      <itunes:duration>38:35</itunes:duration>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Hacker News アップデート 2025-12-03</title>
-      <description><![CDATA[2025-12-03版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-03.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-03.mp3" length="6869900" type="audio/mpeg"/>
-      <itunes:duration>28:37</itunes:duration>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2025-12-04</title>
-      <description><![CDATA[2025-12-04版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-04.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-04.mp3" length="9015212" type="audio/mpeg"/>
-      <itunes:duration>37:33</itunes:duration>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2025-12-07</title>
-      <description><![CDATA[2025-12-07版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-07.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-07.mp3" length="8802956" type="audio/mpeg"/>
-      <itunes:duration>36:40</itunes:duration>
-      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2025-12-09</title>
-      <description><![CDATA[2025-12-09版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-09.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-09.mp3" length="8820332" type="audio/mpeg"/>
-      <itunes:duration>36:45</itunes:duration>
-      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2025-12-11</title>
-      <description><![CDATA[2025-12-11版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-11.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-11.mp3" length="9062924" type="audio/mpeg"/>
-      <itunes:duration>37:45</itunes:duration>
-      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2025-12-12</title>
-      <description><![CDATA[2025-12-12版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-12.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-12.mp3" length="8051084" type="audio/mpeg"/>
-      <itunes:duration>33:32</itunes:duration>
-      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2025-12-31</title>
-      <description><![CDATA[2025-12-31版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-31.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2025-12-31.mp3" length="7943372" type="audio/mpeg"/>
-      <itunes:duration>33:05</itunes:duration>
-      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-01</title>
-      <description><![CDATA[2026-01-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-01.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-01.mp3" length="9346988" type="audio/mpeg"/>
-      <itunes:duration>38:56</itunes:duration>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-02</title>
-      <description><![CDATA[2026-01-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-02.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-02.mp3" length="8261324" type="audio/mpeg"/>
-      <itunes:duration>34:25</itunes:duration>
-      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-03</title>
-      <description><![CDATA[2026-01-03版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-03.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-03.mp3" length="7719980" type="audio/mpeg"/>
-      <itunes:duration>32:09</itunes:duration>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-04</title>
-      <description><![CDATA[2026-01-04版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-04.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-04.mp3" length="9967820" type="audio/mpeg"/>
-      <itunes:duration>41:31</itunes:duration>
-      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-05</title>
-      <description><![CDATA[2026-01-05版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-05.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-05.mp3" length="10151948" type="audio/mpeg"/>
-      <itunes:duration>42:17</itunes:duration>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-06</title>
-      <description><![CDATA[2026-01-06版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-06.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-06.mp3" length="10094828" type="audio/mpeg"/>
-      <itunes:duration>42:03</itunes:duration>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-07</title>
-      <description><![CDATA[2026-01-07版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-07.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-07.mp3" length="6964268" type="audio/mpeg"/>
-      <itunes:duration>29:01</itunes:duration>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-08</title>
-      <description><![CDATA[2026-01-08版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-08.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-08.mp3" length="9459116" type="audio/mpeg"/>
-      <itunes:duration>39:24</itunes:duration>
-      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-09</title>
-      <description><![CDATA[2026-01-09版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-09.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-09.mp3" length="5894156" type="audio/mpeg"/>
-      <itunes:duration>24:33</itunes:duration>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-10</title>
-      <description><![CDATA[2026-01-10版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-10.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-10.mp3" length="8708780" type="audio/mpeg"/>
-      <itunes:duration>36:17</itunes:duration>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-11</title>
-      <description><![CDATA[2026-01-11版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-11.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-11.mp3" length="8288108" type="audio/mpeg"/>
-      <itunes:duration>34:31</itunes:duration>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-12</title>
-      <description><![CDATA[2026-01-12版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-12.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-12.mp3" length="7342892" type="audio/mpeg"/>
-      <itunes:duration>30:35</itunes:duration>
-      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-13</title>
-      <description><![CDATA[2026-01-13版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-13.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-13.mp3" length="6598028" type="audio/mpeg"/>
-      <itunes:duration>27:29</itunes:duration>
-      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-14</title>
-      <description><![CDATA[2026-01-14版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-14.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-14.mp3" length="7420556" type="audio/mpeg"/>
-      <itunes:duration>30:55</itunes:duration>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-15</title>
-      <description><![CDATA[2026-01-15版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-15.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-15.mp3" length="7746188" type="audio/mpeg"/>
-      <itunes:duration>32:16</itunes:duration>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-16</title>
-      <description><![CDATA[2026-01-16版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-16.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-16.mp3" length="8199212" type="audio/mpeg"/>
-      <itunes:duration>34:09</itunes:duration>
-      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-17</title>
-      <description><![CDATA[2026-01-17版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-17.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-17.mp3" length="8331308" type="audio/mpeg"/>
-      <itunes:duration>34:42</itunes:duration>
-      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-18</title>
-      <description><![CDATA[2026-01-18版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-18.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-18.mp3" length="9661004" type="audio/mpeg"/>
-      <itunes:duration>40:15</itunes:duration>
-      <pubDate>Sun, 18 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-19</title>
-      <description><![CDATA[2026-01-19版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-19.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-19.mp3" length="9728588" type="audio/mpeg"/>
-      <itunes:duration>40:32</itunes:duration>
-      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-20</title>
-      <description><![CDATA[2026-01-20版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-20.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-20.mp3" length="9245708" type="audio/mpeg"/>
-      <itunes:duration>38:31</itunes:duration>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-21</title>
-      <description><![CDATA[2026-01-21版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-21.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-21.mp3" length="9493100" type="audio/mpeg"/>
-      <itunes:duration>39:33</itunes:duration>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-22</title>
-      <description><![CDATA[2026-01-22版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-22.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-22.mp3" length="5701196" type="audio/mpeg"/>
-      <itunes:duration>23:45</itunes:duration>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-23</title>
-      <description><![CDATA[2026-01-23版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-23.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-23.mp3" length="6003596" type="audio/mpeg"/>
-      <itunes:duration>25:00</itunes:duration>
-      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-24</title>
-      <description><![CDATA[2026-01-24版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-24.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-24.mp3" length="11001452" type="audio/mpeg"/>
-      <itunes:duration>45:50</itunes:duration>
-      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-25</title>
-      <description><![CDATA[2026-01-25版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-25.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-25.mp3" length="7198220" type="audio/mpeg"/>
-      <itunes:duration>29:59</itunes:duration>
-      <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-26</title>
-      <description><![CDATA[2026-01-26版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-26.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-26.mp3" length="8151404" type="audio/mpeg"/>
-      <itunes:duration>33:57</itunes:duration>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-27</title>
-      <description><![CDATA[2026-01-27版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-27.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-27.mp3" length="6589196" type="audio/mpeg"/>
-      <itunes:duration>27:27</itunes:duration>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-28</title>
-      <description><![CDATA[2026-01-28版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-28.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-28.mp3" length="9492236" type="audio/mpeg"/>
-      <itunes:duration>39:33</itunes:duration>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-29</title>
-      <description><![CDATA[2026-01-29版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-29.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-29.mp3" length="9029132" type="audio/mpeg"/>
-      <itunes:duration>37:37</itunes:duration>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-30</title>
-      <description><![CDATA[2026-01-30版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-30.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-30.mp3" length="5947148" type="audio/mpeg"/>
-      <itunes:duration>24:46</itunes:duration>
-      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-01-31</title>
-      <description><![CDATA[2026-01-31版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-31.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-01-31.mp3" length="8924588" type="audio/mpeg"/>
-      <itunes:duration>36:42</itunes:duration>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-02-01</title>
-      <description><![CDATA[2026-02-01版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-01.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-01.mp3" length="8203532" type="audio/mpeg"/>
-      <itunes:duration>34:10</itunes:duration>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-02-02</title>
-      <description><![CDATA[2026-02-02版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-02.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-02.mp3" length="9766316" type="audio/mpeg"/>
-      <itunes:duration>40:41</itunes:duration>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-02-03</title>
-      <description><![CDATA[2026-02-03版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-03.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-03.mp3" length="9807692" type="audio/mpeg"/>
-      <itunes:duration>40:51</itunes:duration>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-02-04</title>
-      <description><![CDATA[2026-02-04版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-04.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-04.mp3" length="12696524" type="audio/mpeg"/>
-      <itunes:duration>52:54</itunes:duration>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-02-05</title>
-      <description><![CDATA[2026-02-05版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-05.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-02-05.mp3" length="8662508" type="audio/mpeg"/>
-      <itunes:duration>36:05</itunes:duration>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hacker News アップデート 2026-03-08</title>
-      <description><![CDATA[2026-03-08版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
-      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-08.mp3</guid>
-      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-08.mp3" length="10783052" type="audio/mpeg"/>
-      <itunes:duration>44:55</itunes:duration>
-      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      <title>Hacker News アップデート 2026-03-15</title>
+      <description><![CDATA[2026-03-15版のHacker Newsニュース要約です。日本語読み上げでお届けします。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-15.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-15.mp3" length="9152684" type="audio/mpeg"/>
+      <itunes:duration>38:08</itunes:duration>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hacker News アップデート 2026-03-17</title>
       <description><![CDATA[2026-03-17のHacker Newsトップストーリー要約:
 
-・ Kagi Translate now supports LinkedIn Speak as an output language
-・ Every layer of review makes you 10x slower
-・ Monkey Island for Commodore 64 Ground Up
-・ Claude Tips for 3D Work
-・ Show HN: Thermal Receipt Printers – Markdown and Web UI
-・ In space, no one can hear you kernel panic (2020)
-・ The unlikely story of Teardown Multiplayer
-・ Pyodide: a Python distribution based on WebAssembly
+■ Kagi Translate now supports LinkedIn Speak as an output language
+Nana: Kagi Translate が面白いアップデートをリリースしましたね。出力言語の選択肢に、新たに LinkedIn Speak という項目が追加されたんです。
+
+Keita: LinkedIn Speak ですか？それって特定の国の言語ではなくて、あのビジネス向け SNS の LinkedIn でよく見かける、あの独特な言い回しのことですよね？
+
+Nana: その通りです。普通の文章を、あえて LinkedIn で「意識が高い」とされる、少し大げさでキラキラしたビジネス表現に変換してくれる機能なんです。Kagi Translate の UI を見ると、翻訳の品質を選ぶ Standard や Best と並んで、この LinkedIn Speak が選択できるようになっているんですよ。
+
+Keita: 翻訳というよりは、もはや「スタイル変換」に近いですね。例えば、どんなふうに変換されるんでしょうか？
+
+Nana: 例えば「仕事を辞めました」というシンプルな一文を入力すると、LinkedIn Speak では「私は次の章へと進む決意をし、これまでの素晴らしい経験を糧に、新たな挑戦という名の旅に出ることにしました」といった感じに、情熱的なトーンに変換されるイメージです。
+
+Keita: なるほど、あの独特のポジティブで長文な雰囲気ですね。確かに、自分で書くのは少し気恥ずかしいですが、AI が生成してくれるなら、ネタとして面白いかもしれません。でも、なぜ Kagi はこのようなニッチな機能を実装したんでしょう？
+
+Nana: Kagi は広告なしのサブスクリプション型検索エンジンとして、ユーザーの利便性と遊び心を大切にしています。今回の機能も、単なる翻訳ツールとしての枠を超えて、Generative AI の可能性をユーモラスに表現したかったんだと思います。
+
+Keita: 確かに、最近は LinkedIn での過剰な自己アピールが LinkedIn Speak と揶揄されることもありますし、ちょっとした皮肉も効いている気がしますね。実用性という点では、どうなんでしょう？
+
+Nana: 実は、ビジネスメールの作成や、SNS で少しフォーマルな、あるいは熱意のある表現をしたい時に、ドラフト作成のヒントとして使えるかもしれません。ただ、基本的には Kagi らしいユニークな Branding の一環と捉えるのが自然でしょうね。
+
+Keita: 無料版でも 20,000 文字まで試せるみたいですから、自分の平凡な日常の出来事がどれだけドラマチックな LinkedIn Speak に変わるのか、一度試してみたくなりますね。
+
+Nana: こうした遊び心のある機能が、厳しい競争が続く Search Engine や Translation Service の世界で、Kagi のような独自路線のサービスを際立たせるんでしょうね。
+
+■ Every layer of review makes you 10x slower
+Nana: 最近話題になっていた、承認プロセスが一つ増えるごとにスピードが10倍遅くなるっていう話、読みました？
+
+Keita: 10倍ですか？ さすがにそれは大げさな気がしますけど。
+
+Nana: それが、実際に計算してみると驚くほど納得感があるんですよ。ここで言っているのは、手を動かしている実作業の時間ではなくて、完了までにかかる「Wall clock time」、つまり現実の経過時間のことなんです。
+
+Keita: なるほど。待ち時間も含めた全体のスパンということですね。
+
+Nana: そうです。例えば、単純な Bug fix に30分かかるとしますよね。それが隣の席の人に Code Review をもらうだけで、待ち時間を含めて5時間、つまり半日近くかかってしまう。さらに、その前に Architects team による Design doc の承認が必要になると、一気に50時間、つまり1週間近くまで膨れ上がるんです。
+
+Keita: 30分の作業が、承認のレイヤーが重なるだけで1週間になっちゃうんですか。
+
+Nana: そうなんです。さらに他部署との調整が必要になると500時間、つまり1クォーターがかりのプロジェクトになってしまう。この記事では、これを 10x ずつ遅くなる法則として紹介していて、組織が大きくなるほどこの「調整の Overhead」が指数関数的に増えていくと指摘しています。
+
+Keita: でも、今は Generative AI がありますよね。AI がコードを書けば、最初の30分がもっと短縮されて、全体も速くなるんじゃないですか？
+
+Nana: そこが今回の記事の鋭いところで、AI は「作る」スピードは上げられても、この「待機時間」という Bottleneck は解決できないと言っているんです。例えば Claude が3分でコードを生成したとしても、その後の Code Review に5時間かかるなら、全体のスピードはほとんど変わりませんよね。
+
+Keita: 確かに。むしろ、中身をよく確認せずに AI の書いたコードをそのまま投げたりしたら、Reviewer の負担が増えて、さらにプロセスが停滞しそうです。
+
+Nana: まさにその通りです。だから、AI で無理やり出力を増やしても、パイプラインが詰まるだけなんですよね。結局、スピードを上げる唯一の持続的な方法は、Review のレイヤーそのものを減らすこと。つまり、プロセスの途中でのチェックを減らしても品質を担保できるような仕組みを作ることなんです。
+
+Keita: でも、チェックを減らすのは怖いですよね。Bug が増えて、逆に Quality が下がるリスクはありませんか？
+
+Nana: そこで引き合いに出されているのが、日本車メーカーの製造プロセス、いわゆる Toyota Production System です。昔の U.S. の自動車工場は、最後にまとめて Quality Assurance、いわゆる QA を行うことで品質を保とうとしていました。でも、それは結局「ミスが起きる前提」の仕組みなんですよね。
+
+Keita: 確かに、後段に強力なチェック機能があると、前段で作る人は「誰かが直してくれるだろう」という心理が働いて、かえって責任感が薄れるかもしれません。
+
+Nana: その通りです。一方で、成功したモデルでは、現場の一人ひとりが異常を感じたらラインを止める権限を持つ「自働化」という考え方がありました。これは組織全体の Trust、つまり信頼関係がベースにあります。エンジニアが自分たちで品質に責任を持ち、ミスが起きないようにシステム自体を改善し続ける文化ですね。
+
+Keita: なるほど。Code Review の目的も、単に間違いを見つけることじゃなくて、将来的にその Review 自体が不要になるようにシステムを自動化したり、Interface を整理したりすることにあるべきなんですね。
+
+Nana: そうなんです。結局、AI 時代に強い組織というのは、AI を使って大量にコードを吐き出す組織ではなく、小規模で信頼関係の強いチームが、最小限の承認レイヤーで高機能なモジュールを素早く組み上げていくようなスタイルなのかもしれません。
+
+Keita: 組織が大きくなるほど難しそうですけど、Microservices みたいな考え方を、改めてチームのサイズや権限委譲の観点で見直す必要がありそうですね。
+
+Nana: そうですね。これからは「一人ひとりが持つべき権限」と、それを支える「システムの堅牢さ」が、本当の意味での Scalability を決める鍵になりそうです。
+
+■ Monkey Island for Commodore 64 Ground Up
+Nana: 今日は、レトロゲーム界隈で非常に注目を集めているプロジェクトについて深掘りしていきましょう。1990年にリリースされたアドベンチャーゲームの金字塔、「The Secret of Monkey Island」を、なんと「Commodore 64」向けにフル移植しようという試みが進行中なんです。
+
+Keita: 「Commodore 64」といえば、80年代を代表する8ビット機ですよね。あのアートワークが美しい「The Secret of Monkey Island」を、スペックの限られた古いハードウェアで再現するなんて、かなり無謀な挑戦に聞こえますが。
+
+Nana: そう思いますよね。でも、このプロジェクトの凄いところは、単なるエミュレーションではなく、完全に「Ground Up」、つまりゼロから再構築している点なんです。特にグラフィックに関しては、オリジナルの背景やアニメーション、キャラクターを、すべて「Commodore 64」の制約に合わせて「Hand-drawing」で描き直しているんですよ。
+
+Keita: すべて手描きなんですか！それは途方もない作業ですね。ドットの一つひとつを、マシンの制限されたカラーパレットに落とし込んでいくわけですよね。
+
+Nana: その通りです。職人技と言っても過言ではありません。このプロジェクトのコーディングは Andreas Larsson という方が担当していて、技術的にも非常に高度なことをやっています。現在公開されている「Gameplay」のプレビュー動画を見ると、有名なシーンが驚くほど忠実に、そしてスムーズに再現されているのが分かります。
+
+Keita: 「Commodore 64」の限界を押し広げようとしている感じが伝わってきますね。現時点での開発状況はどうなっているんでしょうか。
+
+Nana: 現在も「Ongoing work」として制作が進められていて、完成時期はまだ未定です。ただ、制作者は定期的に新しい「Artwork」や「Backgrounds」を公開していて、着実に形になってきています。まだ未完成の部分も多いですが、これからさらに「Polish」をかけて、洗練させていく予定だそうです。
+
+Keita: 当時のファンにとっては夢のようなプロジェクトですね。ハードウェアの制約をクリエイティビティで乗り越えていくプロセスは、エンジニア視点で見ても非常にワクワクします。
+
+Nana: まさに「Retro Gaming」への愛と執念が生んだプロジェクトですよね。今後のアップデートで、あの独特のユーモアや世界観がどう再現されていくのか、引き続き注目していきたいところです。
+
+■ Claude Tips for 3D Work
+Nana: 最近、Claude Codeを3D開発に活用するための実践的なアプローチが話題になっています。3D空間のコーディングって、Web開発の中でも特に難易度が高い分野ですよね。
+
+Keita: 確かに、2Dのレイアウトならコードを見ればある程度想像がつきますけど、3Dだとオブジェクトの配置やカメラの角度、座標計算が複雑で、AIがどこまで正確に把握できるのか気になります。
+
+Nana: 筆者もそこを指摘していますね。CSSや基本的なAPIパターンのような構造的なコードはClaudeに任せられるけれど、3D空間における「視覚的な推論」に関しては、まだAIが単独で完結させるのは難しいようです。
+
+Keita: 具体的にはどんなところで躓くんでしょうか？
+
+Nana: 例えば、Three.jsを使ったプロジェクトで、オブジェクトが重なっていないか、あるいは特定の角度から正しく見えるかといった判断です。以前は、開発者が手動でスクリーンショットを撮って、「ここが間違っているよ」とClaudeに何度も送り、数時間かけて修正させていたそうです。
+
+Keita: それはかなり骨が折れる作業ですね。せっかくAIを使っているのに、人間が付きっきりでフィードバックを与えないといけないなんて。
+
+Nana: そうなんです。しかも、Claudeに直接STLファイルを読み込ませようとしても、中身を理解したふりをしてデタラメを答えてしまう、いわゆるHallucinationが起きることもあるみたいですね。
+
+Keita: バイナリデータを無理やり解釈しようとしちゃうわけですね。何かスマートな解決策はあるんですか？
+
+Nana: そこで提案されているのが、独自の「反復的な検証ループ」を構築するという手法です。Claudeが自分自身でアプリを操作できるように、Playwrightを使ったツールを先に作り上げるんですよ。
+
+Keita: AIが自分でブラウザを動かすんですか？
+
+Nana: はい。Claudeが自らカメラを動かして、デバッグ用のRed Spheres、つまり赤い球体を目印として座標に配置し、そのスクリーンショットを自分で確認して「意図通りに配置できたか」を検証するんです。
+
+Keita: なるほど！人間にスクリーンショットをねだるんじゃなくて、自分で確認する「目」と、環境を操作する「手」をツールとして与えてあげるわけですね。
+
+Nana: その通りです。筆者は、Claudeにいきなり複雑なタスクをお願いするのではなく、まずはAIと人間が共通の認識を持てるようなShared Language、つまり「共通言語」としてのToolingを構築することが重要だと述べています。
+
+Keita: 面白い考え方ですね。AIを単なる「コードを書く機械」として見るのではなく、適切な道具を与えて「自律的なワークフロー」に組み込むという視点は、これからのAI開発において欠かせないものになりそうです。
+
+■ Show HN: Thermal Receipt Printers – Markdown and Web UI
+Nana: ガジェット好きなら一度は手を出したことがあるかもしれない、Thermal Receipt Printer、いわゆるレシートプリンターについての面白いプロジェクトを見つけました。
+
+Keita: レシートプリンター！確かに、手に入れたはいいものの、結局使い道に困って埃をかぶっている人、多そうですよね。何か面白い活用法があるんですか？
+
+Nana: 今回紹介するのは ThermalMarky というツールで、なんと Markdown 形式で書いたテキストをそのままレシートとして印刷できるようにしてくれるんです。
+
+Keita: Markdown で書けるのは便利ですね！普通、レシートプリンターに何かを印刷させようとすると、専用のコマンドを送ったりして結構面倒なイメージがありますけど。
+
+Nana: そうですよね。この ThermalMarky は、Markdown Support が充実していて、Header や Bold、Underline、それに Lists といった基本的な装飾に対応しています。さらに、Web UI も用意されているので、ブラウザ上のエディタでパパッと書いて印刷ボタンを押すだけで済むんです。
+
+Keita: Web UI まであるんですか。それは手軽でいいですね。でも、レシートって中央揃えにしたり、横線を引いたりしたいこともありますよね？
+
+Nana: そのあたりも考えられていて、独自の拡張タグが用意されているんです。例えば [align=center] と書けば中央揃えになりますし、[qr=URL] と書くだけで自動的に QR Code を生成して印刷してくれる機能まであります。
+
+Keita: QR Code が簡単に作れるのは実用的ですね！お店のメニューとか、ちょっとしたメモを渡す時に便利そうです。導入は難しいんですか？
+
+Nana: 基本的には Docker Ready なので、docker compose up を実行するだけで環境が整います。USB 接続と Network 接続の両方に対応していて、設定ファイルである .env にプリンターの VENDOR_ID や PRODUCT_ID を書き込むだけで繋がります。
+
+Keita: Docker で動くなら、Raspberry Pi とかに繋いで常時起動させておくのも良さそうですね。
+
+Nana: まさに。CLI Mode もあるので、Terminal から直接ファイルを送ったり、echo でパイプして印刷することも可能です。ただ、注意点として、レシートプリンターは機種によって仕様がバラバラなので、作者の方は MUNBYN 製のプリンターでテストしているそうです。
+
+Keita: なるほど、自分の持っているデバイスで動くか確認は必要ですね。でも、Markdown で手軽に「自分専用のレシート」が作れるのは、眠っていたプリンターを叩き起こす良いきっかけになりそうです。
+
+■ In space, no one can hear you kernel panic (2020)
+Nana: 宇宙空間で「Kernel Panic」が起きることを想像してみて。地上なら再起動すれば済むかもしれないけれど、地球から何百万マイルも離れた場所では、そう簡単にはいかないわ。
+
+Keita: 確かに、物理的に修理に行くこともできないし、通信の遅延を考えるとリアルタイムの操作も難しいですよね。NASAはどうやってそのリスクを管理しているんですか？
+
+Nana: 基本的な戦略は「Resilient Software」と「Redundant Hardware」の組み合わせね。物理的な欠陥や宇宙線によるビット反転が起きることを前提に、システムが構築されているの。特に「Software Architecture」が重要で、予期せぬ事態が起きても、地球からの介入なしに「Emergency Protocols」へ切り替えられる「Fault-protection」のレイヤーが必要になるわ。
+
+Keita: 柔軟性が大事なんですね。でも、地上の「Data Center」みたいに、負荷が高まったらサーバーを増やすというわけにはいかないですよね？
+
+Nana: その通りよ。宇宙船の「Computational Power」はミッションの間ずっと一定だから。地上のサーバーなら処理が遅れるだけで済むかもしれないけれど、火星に向かっている探査機が計算ミスをすれば、惑星を通り過ぎてしまう。だから、優先度の低いタスクを即座に捨てるような、ある意味で冷徹な設計が求められるの。
+
+Keita: タスクを捨てることで、ミッションクリティカルな処理を守るわけですね。ハードウェアの冗長化についてはどうですか？
+
+Nana: 有名なのは「Space Shuttle Program」ね。4台のコンピューターが全く同じソフトウェアを走らせて、常に「Voting System」で多数決を取っていたの。3台が同意すれば実行、1台が違う結果を出せばそれを切り離す。さらに、それらが全滅した時のための5台目のバックアップまで用意されていたわ。
+
+Keita: 5台も！ それだけリスクに対してシビアなんですね。ソフトウェアの設計思想で、過去にミッションを救った例はあるんですか？
+
+Nana: アポロ11号の月着陸の時のエピソードが象徴的ね。着陸の直前に「Error 1202」というエラーコードが出たんだけど、これは計算機の負荷が限界を超えたことを示していたの。でも、設計者の Margaret Hamilton がシステムを「Asynchronous」に設計していたおかげで、コンピューターは着陸に不要なタスクを自動で中断して、最も重要な処理を優先し続けた。それで無事に着陸できたのよ。
+
+Keita: もしその設計がなかったら、着陸は中止されていたかもしれないんですね。
+
+Nana: ええ。他にも「Voyager 2」は、打ち上げ時の激しい振動を異常と検知して、地上からの指示を待たずに自分で「Recovery Mode」に移行したわ。1970年代の時点で、すでにそれだけの自律的な「Fault-detection」が組み込まれていたのは驚異的よね。
+
+Keita: 40年以上前のソフトウェアが、今でも現役で動いている理由がわかった気がします。最近の探査機はどう進化しているんですか？
+
+Nana: 最近では、ハードウェアが故障してもソフトウェアのアップデートで機能を代替するケースが増えているわ。「Mars Odyssey」のような古い軌道周回機でも、センサーが寿命を迎えた後に「Star-tracking Camera」を使って位置を特定する新しいアルゴリズムを送り込んで、寿命を数年も延ばしているの。
+
+Keita: 完璧なハードウェアを作るのではなく、不具合が起きてもソフトウェアの知恵で乗り越える。まさに「Systems Engineering」の極致ですね。
+
+■ The unlikely story of Teardown Multiplayer
+Nana: あの大人気ボクセル崩壊ゲーム、TeardownにMultiplayer機能が追加されるまでの舞台裏が公開されたのですが、これが技術的にかなり面白いんですよ。元々このゲームは物理演算が複雑すぎて、ネットワーク同期は不可能だと思われていたんです。
+
+Keita: 確かに、Teardownは建物が粉々に砕け散るのが売りですからね。プレイヤーごとに壊れ方が違ったら、ゲームとして成立しなさそうです。最初はどのようなアプローチを試したんですか？
+
+Nana: 2021年の実験では、破壊されたVoxelデータをそのまま送るというNaiveな方法を試したそうですが、Bandwidthを使いすぎて一瞬でネットワークがパンクしてしまったらしいです。その後、コミュニティが作ったTDMPというModがリバースエンジニアリングでMultiplayerを実現したことに刺激を受けて、本格的な開発が始まったんです。
+
+Keita: コミュニティの力はすごいですね。でも、公式として実装するにはもっと堅牢な仕組みが必要になりますよね？
+
+Nana: その通りです。そこで彼らが採用したのが、Semi-deterministicというハイブリッドなアプローチです。破壊ロジックそのものを、浮動小数点ではなくFixed-point integer、つまり固定小数点数で書き直して、全クライアントで全く同じ計算結果が出るようにしたんです。
+
+Keita: なるほど。計算結果が同じなら、大きなVoxelデータを送らなくても、「どこをどう壊したか」というCommandを送るだけで同期できるわけですね。
+
+Nana: そうなんです。そのCommandはReliableな通信で確実に届け、一方でプレイヤーの位置や物の速度などは、多少ズレても後で補正できるUnreliableなState synchronizationで送るという使い分けをしています。
+
+Keita: 効率的ですね。でも、途中から参加するJoin in progressはどう解決したんでしょう？ すでにボロボロになった世界を再現するのは大変そうです。
+
+Nana: それが一番の難所だったようです。最終的には、そのセッションで発生したDeterministicなCommandの履歴をすべて記録しておいて、新しいクライアントが参加した時にそれを一気に流し込んで世界を再現するという手法をとっています。
+
+Keita: 執念を感じる実装ですね。さらに既存のModとの互換性も維持しつつ、UIの描画コマンドまでDelta-compressionで送るようにしたとか。
+
+Nana: 開発チームも、これが決してエレガントな解決策ではなく、泥臭いハードワークの積み重ねだと言っています。技術的な制約を一つずつ突破していくプロセスは、まさにエンジニアリングの醍醐味ですね。
+
+■ Pyodide: a Python distribution based on WebAssembly
+Nana: 今日は、ブラウザ上で Python をフルスタックで動かすためのプロジェクト、Pyodide について深掘りしていこうと思います。
+
+Keita: ブラウザで Python ですか？ 普通はサーバーサイドで動かすものですよね。最近よく聞く WebAssembly を使っているんでしょうか。
+
+Nana: その通りです。Pyodide は CPython を WebAssembly にポートしたディストリビューションで、ブラウザや Node.js の上で直接 Python を実行できるようにしてくれます。単に構文が動くだけでなく、かなり本格的な仕組みなんですよ。
+
+Keita: 本格的というと、どのあたりのことですか？ Python といえば豊富なライブラリが魅力ですが、それらもブラウザで動くんですか？
+
+Nana: そこが Pyodide の一番の強みですね。micropip というパッケージインストーラーを使って、PyPI にある純粋な Python パッケージなら、ほとんどの Wheel をインストールして実行できます。さらに驚くべきは、NumPy や pandas、SciPy、Matplotlib、scikit-learn といった、C 言語や Rust の拡張を含んだ科学計算用パッケージも、すでに数多く移植されている点です。
+
+Keita: それはすごいですね！ データサイエンスのスタックがそのままブラウザで動くとなると、サーバーを用意しなくてもクライアントサイドだけで完結した分析ツールが作れそうです。
+
+Nana: まさにそうです。しかも、JavaScript と Python の間の Foreign Function Interface 、いわゆる FFI が非常に強力なんです。JavaScript のコードから Python の関数を呼び出したり、その逆も可能です。error handling や async/await にも対応していて、ブラウザの Web API にも Python から直接アクセスできます。
+
+Keita: つまり、UI は JavaScript や React で作って、計算ロジックだけを Python で書くといった、両方の言語のいいとこ取りができるわけですね。
+
+Nana: その通りです。もともとは 2018 年に Mozilla のプロジェクトの一部として開発が始まったものですが、現在は独立した Open Source プロジェクトとしてコミュニティによって運営されています。
+
+Keita: 開発環境を整えるのは大変なんですか？
+
+Nana: いえ、非常に手軽ですよ。公式の REPL が用意されているので、ブラウザを開くだけですぐに試せます。自分でホストすることもできますし、既存の Bundler と組み合わせて Web アプリケーションに組み込むためのドキュメントも充実しています。
+
+Keita: サーバーサイドの負荷を気にせずに Python のパワーをフロントエンドで使えるのは、Web 開発の可能性を大きく広げそうですね。
+
+Nana: そうですね。特に教育ツールやインタラクティブなデータビジュアライゼーション、あるいは機械学習のデモなど、活用の幅は非常に広いと思います。Python エコシステムの資産をそのまま Web に持ち込める Pyodide は、今後さらに注目されるはずです。
 
 日本語の要約をお楽しみください。]]></description>
       <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-17.mp3</guid>
       <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-17.mp3" length="6768236" type="audio/mpeg"/>
       <itunes:duration>28:12</itunes:duration>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-03-20</title>
+      <description><![CDATA[2026-03-20のHacker Newsトップストーリー要約:
+
+■ Claude Code: Channels
+Nana: Claude Codeの新しいアップデート、ついに「Channels」という機能が追加されましたね。これ、かなり面白いですよ。
+
+Keita: Channelsですか？名前からすると、何かの通信経路のようなものかなと想像するんですが、具体的にどういうことができるんですか？
+
+Nana: 一言で言えば、Claude Codeの操作を、普段使っているTelegramやDiscord経由でリモートから行えるようになる仕組みなんです。これまでターミナルを開いてキーボードを叩くしかなかった操作が、チャットアプリから可能になる。
+
+Keita: え、Discordからコードベースをいじれるってことですか？それはかなり便利そうですね。外出先でちょっとした修正をお願いしたり、ステータスを確認したりするのに役立ちそう。
+
+Nana: その通りです。しかも、プラグイン方式を採用していて、Bunで動作するようになっています。まずは「fakechat」というローカルホストで動くデモ環境で試せるので、いきなり外部サービスを繋がなくても仕組みを理解できるのが親切ですよね。
+
+Keita: 確かにいきなりTelegramを連携するのはハードルが高そうですし、デモがあるのは助かります。でも、セキュリティ面が少し気になりますね。勝手に誰でもコードに介入できたりしないんでしょうか？
+
+Nana: そこは非常にしっかり設計されています。各チャンネルには「sender allowlist」という仕組みがあって、初回にペアリングコードを入力して認証したユーザーしかメッセージを送れないようになっています。それに、TeamやEnterpriseプランでは、管理者が組織全体でこの機能を有効にするかどうかを制御できるんです。
+
+Keita: なるほど。勝手にチャットボットが外部からアクセスされるリスクは低そうですね。ちなみにこれ、今はまだ正式リリースというわけではないんですか？
+
+Nana: 現状は「research preview」という位置付けです。なので、現時点ではAnthropicが提供している公式のプラグインしか使えません。ただ、将来的に独自のチャンネルを構築したり、スケジュールタスクを実行させたりと、使い方の幅はかなり広がりそうです。
+
+Keita: プログラミングの作業環境がターミナルからチャットアプリに拡張されるというのは、体験としてかなり新鮮ですね。まずは手元のPCで「fakechat」から試してみようかな。
+
+Nana: ぜひ。Claude Codeのバージョンが2.1.80以降でないと動かないので、まずはアップデートを確認してみてくださいね。
+
+■ Bombarding gamblers with offers greatly increases betting and gambling harm
+Nana: 最近、Central Queensland UniversityとUniversity of Bristolによる興味深くて、少し恐ろしい研究結果が発表されました。ギャンブルのマーケティングと、それによる依存症のリスクについての研究です。
+
+Keita: ギャンブルの広告についてはよく議論になりますよね。具体的に何がわかったんですか？
+
+Nana: 結論から言うと、メールやプッシュ通知といった「ダイレクトマーケティング」を拒否したグループは、受け取っていたグループに比べて、ベット回数が23％減り、使った金額が39％も少なかったんです。さらに、精神的な苦痛といった「短期的な害」が67％も減少したというデータが出ています。
+
+Keita: 67％ですか？それは驚異的な数字ですね。単なる相関関係ではなく、因果関係が証明されたということでしょうか？
+
+Nana: その通りです。これまでも懸念はされていましたが、実際の環境下で「マーケティングが直接的に害を拡大させている」という因果関係が確認されたのは今回が初めてです。Dr Philip Newallも指摘していますが、これはこれまで「マーケティング規制の必要性は薄い」としていた政府の見解を根底から覆すものになり得ます。
+
+Keita: 確かに、スマホに届く「無料ベット権」のような通知は、一度でも足を踏み入れた人にとっては非常に強力なトリガーになりそうですね。
+
+Nana: まさにその通りです。記事の中で紹介されていたNaman Jawaidさんの体験談が非常にリアルです。彼は、最初はちょっとした無料特典がきっかけで始めたベットが、気づけば1日に平均2,000ポンドも使うような深刻な依存にまで発展してしまった。彼が言うには、運営側は個人のデータを分析して、数日ベットがないと絶妙なタイミングで再勧誘のメッセージを送ってくるそうです。
+
+Keita: それはもう、個人の意思力で抗うのはかなり難しそうですね。アルゴリズムでコントロールされているようなものですし。
+
+Nana: そうなんです。彼は最終的に金融犯罪にまで手を染めて刑務所に入ることになり、そこから立ち直ったのですが、今では同じように苦しむ人を支援する立場として「今すぐ何らかの規制が必要だ」と強く訴えています。
+
+Keita: 企業側は「大人の娯楽」として広告を出しているかもしれませんが、実際には個人の脆弱性をピンポイントで突いているわけですよね。
+
+Nana: 専門家も、今回の結果を受けて規制強化、あるいは完全な禁止すら検討すべきだと主張しています。テクノロジーを活用したパーソナライズされたマーケティングが、これほどまでに現実の生活を破壊する力を持っているという事実は、もっと社会的に議論されるべきですよね。
+
+Keita: テクノロジーの進化が、必ずしもユーザーのウェルビーイングに直結しているわけではないという、考えさせられる話でしたね。
+
+■ Wayland set the Linux Desktop back by 10 years
+Nana: 最近、Linux界隈で大きな議論を呼んでいる記事を見かけました。「WaylandはLinuxデスクトップを10年後退させた」という、かなり辛辣なタイトルなのですが、興味深い内容だったので取り上げたいと思います。
+
+Keita: 10年後退！それは穏やかじゃないですね。Waylandといえば、長年X11に代わる次世代のディスプレイサーバーとして開発されてきたものですよね。一体何がそんなに問題視されているんでしょうか？
+
+Nana: 記事の筆者は、Waylandが17年という歳月をかけてもなお、日常的なワークフローでトラブルを引き起こしている点を指摘しています。例えば、スクリーンレコーディングがうまくいかなかったり、クリップボードが機能しなかったりと、X11では当たり前にできていたことが、Waylandでは制限されていることが多いんです。
+
+Keita: なるほど。セキュリティを重視するあまり、ユーザーの自由度を奪ってしまっているという側面があるわけですね。でも、新しいプロトコルを作るなら、もっと便利になることを期待しませんか？
+
+Nana: その通りです。記事では、同じくインフラ層を刷新したPipeWireと比較しています。PipeWireは登場から短期間で急速に普及し、今やLinuxのオーディオシステムのデファクトスタンダードになりました。それに対してWaylandは、いまだに市場シェアを半分程度に押し上げるのが精一杯で、いまだに「安定している」とは言い難い状況です。
+
+Keita: 17年かけてその状況というのは、確かにエンジニアリングのプロジェクトとしては考えさせられますね。しかも、パフォーマンス向上を掲げていたはずが、実際にはX11の方が速いというベンチマーク結果も出ているとか。
+
+Nana: ええ。特にNVidiaのGPUを使っているユーザーにとっては、いまだに頭痛の種ですしね。最も問題なのは、Waylandが単一のソフトウェアではなく「プロトコル」であるため、 compositorごとに実装がバラバラで、機能の断片化が進んでしまっていることなんです。
+
+Keita: それはユーザーにとっては致命的ですね。何かが動かないとき、それがWaylandのせいなのか、compositorのせいなのか、アプリのせいなのか切り分けが難しい。結局、既存の成熟したエコシステムを壊して、ユーザーを実験台にしているだけではないか、という批判も出ています。
+
+Nana: 開発者サイドにも言い分はあるでしょう。彼らは善意で無償の時間を割いて開発していますから、ユーザーから「使えない」と突き上げられれば、フラストレーションも溜まりますよね。ただ、筆者は「Waylandは開発者が自分たちのために作った『楽しいおもちゃ』であって、一般ユーザーを強制的に移行させるべきものではなかった」と結論づけています。
+
+Keita: 厳しい意見ですが、説得力があります。結局、技術的に正しくても、ユーザーの体験が置き去りになっては意味がないということでしょうか。
+
+Nana: まさにそうです。記事の最後では、今後5年以内に「WaylandからX11に戻るプロジェクト」や「WaylandとX11の両方を置き換える全く新しいプロトコル」が登場すると予測しています。
+
+Keita: 2030年には、ようやくLinuxデスクトップが本当に安定しているのか、それとも別の火種が生まれているのか……。引き続き注目していきたいトピックですね。
+
+■ Clockwise acquired by Salesforce and shutting down next week
+Nana: 最近のテック業界、また一つ大きな動きがありましたね。スマートスケジューリングツールのClockwiseがSalesforceに買収され、サービスを終了すると発表しました。
+
+Keita: え、本当ですか？Clockwiseってかなり多くの企業が使っていた印象がありますけど、突然ですね。スケジュールを自動調整してFocus Timeを確保してくれるあのツールですよね？
+
+Nana: その通りです。UberやNetflix、Atlassianといった大企業も導入していました。彼らの発表によると、約10年間蓄積してきたスケジューリングのノウハウを、Salesforceの「Agentic Enterprise」構想に統合する戦略のようです。
+
+Keita: なるほど。AIによる自律的なエージェント開発に舵を切るための「Acqui-hire」に近い動きなんでしょうか。でも、ユーザーにとってはかなりショックですよね。来年、2026年の3月27日でサービス完全停止ですか。
+
+Nana: そうなんです。特に厄介なのが、Clockwiseが自動生成していたFocus Timeのブロックや、スマートホールドされていたイベントが、サービス終了とともにカレンダーから消えてしまう点です。
+
+Keita: それは困りますね。カレンダーが急にスカスカになったり、逆に予定が詰め込まれたりするリスクがあるということですよね。代替ツールを探すにしても、今の設定をそのまま移行するのは大変そうです。
+
+Nana: 幸い、ClockwiseはReclaimという競合サービスとパートナーシップを結んでいて、移行をサポートする体制を整えています。価格の100%マッチングや、移行ガイドの提供など、かなり手厚いフォローを打ち出していますね。
+
+Keita: ユーザーにとっては救いですが、ツールに依存していた業務フローを別のプラットフォームへ移す作業は、やっぱり骨が折れますよね。それにしても、データはどうなるんでしょうか？
+
+Nana: サービス終了後、すぐに削除されると明言されています。Salesforceへのデータ移行も行われないようです。プライバシーの観点からは安心ですが、長年使っていたユーザーにとっては、全てがリセットされるという寂しさもあるかもしれません。
+
+Keita: 時代の流れとはいえ、愛用していた生産性ツールが突然なくなるのは辛いですね。AI時代の「スケジューリング」という領域が、これからより巨大なエコシステムの中に飲み込まれていく象徴的な出来事のように感じます。
+
+Nana: まさにそうですね。個別のツールとして輝いていた機能が、巨大なプラットフォームの基盤技術へと吸収されていく。効率化を突き詰めた結果、ツールそのものが姿を消すというのは、皮肉でもあり、進化の過程なのかもしれません。
+
+■ The Day I Discovered Type Design
+Nana: 最近、あるデザイナーが50年前の自身のキャリアを振り返った記事を読んだんだけど、これがなかなか興味深くてね。1976年、彼が20歳の時にタイプデザインに魅了されたきっかけについての話なんだ。
+
+Keita: 50年前か。今のDigital FontやPCを使ったデザインとは全く環境が違った時代ですよね。当時、デザインの現場ってどんな感じだったんですか？
+
+Nana: まさにそこが面白いところでね。当時はまだDesktop Publishingなんて存在しなくて、文字を組むためには膨大なコストがかかる植字機を使わなきゃいけなかった。だからこそ、デザイナーは自分の手でLetteringをする技術が必須だったんだ。Speedball penや筆を使って、クライアントに見せるためのレイアウトを手描きで作っていた時代さ。
+
+Keita: なるほど。PCでフォントを選んで終わり、という現代とは違って、文字の一つひとつを自分で描くことがデザインの基本スキルだったわけですね。その彼は、どうやってその世界に引き込まれていったんですか？
+
+Nana: 偶然、教室に転がっていた『U&lc』という雑誌が大きな転換点になったらしい。これはHerb Lubalinという伝説的なデザイナーが編集していた伝説的な出版物で、その美しさに彼は完全にノックアウトされたんだ。ITCという会社が当時、新しいタイプフェイスを公募していて、採用されれば多額の印税が手に入るっていう夢のある話もあってね。
+
+Keita: 当時の5万ドルって、今で言えば29万ドルくらいですよね。まさに当時のデザイナーにとってのゴールドラッシュだったんだ。それで、彼はどんな文字をデザインしたんですか？
+
+Nana: Uncial Sansという、カリグラフィーのスタイルを取り入れたモダンで幾何学的なサンセリフ体だね。Rapid-o-graphの製図ペンやコンパス、T定規を使って、手作業で大きな紙に描き込んでいったんだ。今のツールで言えばIllustratorやFontLabを使っている感覚に近いけれど、すべてがアナログの職人芸だった。
+
+Keita: 現代はAIが文字を生成する時代ですけど、50年前にそんな情熱を持ってアルファベットの骨格と向き合っていた人がいたと思うと、ちょっと胸が熱くなりますね。彼がその時に抱いた「いつかタイプデザインを仕事にする」という夢は、結局どうなったんですか？
+
+Nana: 実際に最初のタイプフェイスが世に出るまでには20年ほどかかったみたいだけど、彼はその後、グラフィックデザインやアートディレクションの仕事をする傍ら、ずっとその火を絶やさなかったんだ。50年経って今の彼が見ても、その学生時代の課題には「いくつかのデザイン上の問題点はある」なんて言ってるけど、当時の先生からは最高評価のA+をもらっているよ。
+
+Keita: 50年経っても自分の原点をこれだけ鮮明に語れるっていうのは、本当に素晴らしいキャリアですよね。ツールは変わっても、文字に対する愛情みたいなものは不変なのかもしれないな。
+
+■ How many branches can your CPU predict?
+Nana: 最近、Daniel Lemireが興味深いベンチマークの結果をブログに投稿していました。「CPUはいくつまで分岐予測を学習できるのか」というテーマなんですが、これがなかなか面白い結果で。
+
+Keita: 分岐予測ですか？CPUが次にどの命令を実行するか先読みする、あの仕組みですよね。具体的にどうやって計測したんですか？
+
+Nana: シンプルなwhileループの中に、ランダムな値を生成して、それが奇数かどうかで分岐させる処理を書いているんです。通常、ランダムな値なら50%の確率で外れるはずですよね。でも、同じランダムデータの列を何度も繰り返すと、CPUは学習して予測精度を上げていくわけです。
+
+Keita: なるほど！最初はランダムだと思って予測を外していたCPUが、同じパターンだと気づいて学習しちゃうんですね。それで、結局いくつまで記憶できるものなんですか？
+
+Nana: 今回のテスト対象になったプロセッサで言うと、かなり差が出ました。まず、IntelのEmerald Rapidsは5,000個。次にAppleのM4が10,000個。そして驚くことに、AMDのZen 5は30,000個まで完璧に予測できたそうです。
+
+Keita: 30,000！？桁が違いますね。Intelと比べると6倍ですよ。これ、ベンチマークをとる時にかなり気をつけないと結果が歪みませんか？
+
+Nana: まさにそこが重要なポイントなんです。小規模なデータセットでベンチマークを回すと、CPUがその範囲を完全に学習してしまって、現実のデータとはかけ離れた「速すぎる結果」が出てしまう可能性がある。開発者が自分のコードを評価する時、この「CPUの学習能力」を考慮しないと、後で痛い目を見るというわけです。
+
+Keita: 言われてみれば、最適化だと思っていたものが、実はただCPUの予測能力に助けられていただけ、というケースもありそうですね。
+
+Nana: その通りです。特に高性能なCPUほど、現実の予測しにくいデータセットよりも、学習可能な繰り返しパターンに対して過剰に最適化されてしまう側面がある。ベンチマークを作る時は、どれだけCPUを「欺けるか」が鍵になるかもしれませんね。
+
+Keita: CPUの性能向上を喜ぶ一方で、計測の難しさも増しているんですね。Intelの結果も少し残念ですが、Zen 5の底力というか、ブランチプレディクターの設計思想の違いが垣間見えて面白いですね。
+
+Nana: ええ。ハードウェアの進化とソフトウェアの検証手法、この両方を常にアップデートしていかないと、本当の意味でのパフォーマンスは見えてこないということでしょうね。
+
+■ Democratic Backsliding Reaches Western Democracies, U.S. Decline "Unprecedented"
+Nana: 最近、V-Dem Instituteが出したDemocracy Report 2026を読んだんだけど、かなり衝撃的な内容だったよ。世界中でDemocratic backsliding、つまり民主主義の衰退が加速しているんだ。
+
+Keita: 民主主義の衰退って、よく聞く言葉だけど具体的に何が起きているの？特定の地域だけの話ではないのかな。
+
+Nana: それが、今回はかなり深刻なんだ。調査によると、世界の約4分の1の国でautocratization、つまり権威主義化が進んでいる。特に驚きなのは、それが新興国だけでなく、ヨーロッパやNorth Americaといった伝統的に安定していた民主主義国家でも起きていることだよ。
+
+Keita: ヨーロッパやNorth Americaで？それは意外だね。具体的にどの国が影響を受けているの？
+
+Nana: reportでは、Italy、United Kingdom、そしてUSAの名前が挙げられている。特にUSAの劣化スピードがUnprecedented、つまり前例がないレベルなんだ。V-Dem Liberal Democracy indexのスコアがたった1年で24％も低下して、世界ランクが20位から51位まで急落しているんだよ。
+
+Keita: 20位から51位への急落というのは、かなり劇的だね。何がそこまで急激な変化を引き起こしているんだろう。
+
+Nana: reportの分析では、President Donald Trumpの2期目における権力の集中が主な要因とされているね。具体的には、Institutionalized checks and balancesの弱体化や、Civil serviceの politicization、そしてJudiciaryへの圧力といった動きが指摘されている。特にFreedom of Expressionへの攻撃は、世界中で最も顕著に見られる傾向の一つなんだ。
+
+Keita: 権力の監視機能が失われていくっていうのは、テック業界でもよく議論される「透明性」の欠如と通じるところがあるね。メディアやAcademic freedomがターゲットになるのも非常に危ういサインに思えるよ。
+
+Nana: まさにその通りだね。ただ、すべてが悪いニュースというわけではないんだ。BrazilやPolandなど、18カ国ではDemocratization、つまり民主化が進んでいるというデータもある。特にBotswanaやGuatemalaのような国々では、メディアの自由が向上しているんだよ。
+
+Keita: それは少し救われるね。でも、やはりUSAのような経済的・政治的に巨大な影響力を持つ国が変化すると、国際的なNormsやTradeのあり方まで変わってしまう可能性があるわけだよね。
+
+Nana: そうなんだ。Staffan I Lindberg教授も、そうした大国の権威主義化がGlobal orderそのものを再形成してしまうことを懸念している。次は2026年のMidterm electionsが重要なテストになると言われているから、今後の動向を注視する必要があるだろうね。
+
+Keita: 民主主義というシステムが揺らいでいる今、僕たちもただ楽観視するのではなく、こうしたデータの背景にある構造をしっかり理解しておく必要がありそうだね。
+
+■ I built a clip-on muscle sensor so personal trainers can show clients progress
+Nana: 最近、パーソナルトレーニングの世界に面白いガジェットが登場したみたいだよ。Inaraっていう、クリップ式の筋電センサーなんだけど。
+
+Keita: 筋電センサー？聞いたことはあるけど、いわゆるEMGだよね。医療現場とかスポーツ科学の研究所で使うようなイメージがあるけど、それを一般のトレーナーが使うってこと？
+
+Nana: その通り。まさにその「敷居の高さ」を解消しようとしているのがこのデバイスなんだ。クリップオンで簡単に装着できて、クライアントの筋肉が今まさにどう動いているかをリアルタイムで可視化できる仕組みだよ。
+
+Keita: なるほどね。トレーナーが「ここを意識して！」って言っても、クライアントにはなかなか伝わらないことって多いじゃない。それが数値として見えたら、確かに納得感が全然違うだろうね。
+
+Nana: そうなんだ。結局、ジムを辞めてしまう最大の理由って「成果が見えないこと」だと言われているからね。Inaraを使うと、セッションごとに筋肉の活性度を記録できる。先週よりもこの部位に負荷がかかっている、とかがデータで示せるわけだよ。
+
+Keita: それはすごい武器になるね。単なる「感覚」で教えているトレーナーと、「データ」に基づいて指導しているトレーナーだったら、後者の方が圧倒的に信頼できるし、何より料金設定も上げられそうじゃない？
+
+Nana: まさにそこが狙い目なんだよ。いわゆる「Data-backed coaching」を実現することで、トレーナーが低価格の競争から抜け出して、高単価なサービスを提供できる環境を作るのが目的みたい。
+
+Keita: 技術的な面ではどうなの？リアルタイムで確認できるってことは、レイテンシーとかは気にならないのかな。
+
+Nana: リアルタイムで筋肉の収縮をモニタリングできるから、フォームが崩れる前に疲労のサインを検知したり、あるいは狙った筋肉にちゃんと負荷が乗っているかチェックできる。怪我の予防にも繋がるっていうのは、クライアントにとっても大きなメリットだよね。
+
+Keita: 確かに。鏡を見て自己流でやるのと、センサーで最適化された指導を受けるのとでは、数ヶ月後の結果に雲泥の差が出そうだね。これが普及すれば、ジムの風景も結構変わりそうだな。
+
+Nana: だよね。ただのダイエット記録じゃなくて、筋肉の「質」や「連動性」を可視化する。パーソナルトレーニングが、いよいよ完全にデータドリブンな市場に変わろうとしている感じがするよ。
+
+Keita: 面白い時代になったね。トレーニングの「見える化」、これはちょっと注目しておきたいガジェットだよ。
+
+■ Drugwars for the TI-82/83/83 Calculators
+Nana: TI-82やTI-83といったグラフ計算機、昔の数学の授業で使っていた人は多いと思うんだけど、最近その懐かしいプログラムコードがHacker Newsで話題になっていたんだよね。
+
+Keita: 計算機で遊ぶゲームといえば、あのモノクロの画面で動くやつだよね。具体的に何のゲームの話なの？
+
+Nana: "Drugwars"だよ。80年代に流行った名作シミュレーションゲームで、プレイヤーが麻薬の売人になって借金を返しつつ、安く買って高く売るっていう商売を繰り返すゲーム。
+
+Keita: あー！懐かしい。あの頃、授業中にこっそり計算機で遊んでいた人、結構いたんじゃないかな。でも、なぜ今になってそのソースコードが話題になっているの？
+
+Nana: 実はこの記事の投稿者が、TI-82や83で動くコードをGitHubで共有したんだ。しかも、最近のTI-84 Plusのような新しいモデルでも動くように修正案を出し合ったりしていて、コミュニティの熱量がすごいんだよ。
+
+Keita: なるほどね。単にゲームを懐かしむだけじゃなくて、古いプラットフォームのプログラムを現代のハードでどうやって動かすかっていう、技術的なパズルとしても面白いんだ。
+
+Nana: その通り。スレッドでは、ソースコードの互換性問題について議論されていて、「>=」のような演算子の書き換えとか、エミュレーターで動かすための具体的なテクニックが共有されている。中には、Z80のアセンブラに移植してレトロゲーム機で動かそうとしている猛者までいるよ。
+
+Keita: 素晴らしいね。当時のBASICコードを読んで、それを今の言語やハードウェアに移植するって、まさにエンジニアの遊び心そのものだ。
+
+Nana: 実際、そのコードを読んでみると、GOTO文やラベルジャンプが多用された、非常にシンプルなBASICで書かれているのがわかる。複雑な構造ではないけれど、だからこそロジックが追いやすくて、プログラミング学習の最初のステップとしても優秀なんだろうね。
+
+Keita: 確かに。今の洗練されたフレームワークで学ぶのもいいけど、こういうガリガリ書かれたコードを一行ずつ読み解いていくのは、プログラミングの原点に戻るような楽しさがあるかもしれないね。
+
+Nana: まさにそう。技術が進化しても、こういう「面白いものをみんなで共有して、動かしてみる」というコミュニティの文化は、何十年経っても変わらないんだなって実感するよ。
+
+Keita: 聴いているリスナーの中にも、昔計算機でゲームを自作した経験がある人がいるかもしれないね。もし倉庫から計算機が出てきたら、試しに動かしてみるのもいいかもしれない。
+
+Nana: ぜひ試してほしいな。ただし、数学の宿題が疎かにならないようにだけ注意が必要だね。
+
+■ The Cult of Costco
+Nana: 最近、The Atlanticに載っていた「The Cult of Costco」という記事がすごく興味深くてさ。コストコが単なる小売店じゃなくて、現代社会における一種の「聖域」になっているという分析なんだけど。
+
+Keita: コストコが聖域？確かにあの巨大な倉庫に入った瞬間のワクワク感は独特だよね。でも、何がそんなに特別なんだろう？
+
+Nana: 記事の筆者いわく、世の中の仕組みがどんどん壊れていくように感じる現代において、コストコだけは「変わらない」っていう安心感があるらしいんだ。従業員の満足度も高いし、顧客は「いい買い物ができた」っていう充足感を共有している。まるで文明の良心みたいな場所として機能しているんだよ。
+
+Keita: 確かにあのカートを押して歩いていると、妙に落ち着くというか、みんながある種のリズムで動いている感じはあるよね。あの巨大なカートの操作性の良さも、計算し尽くされているのかな？
+
+Nana: そう、あれは「Peterbilt」を操縦するような感覚なのに、ハンドリングは「Porsche」のようだっていう表現が面白くてね。みんなが空間を共有して、お互いに邪魔にならないように譲り合う。あの暗黙のルールみたいなものが、現代のギスギスした日常とは対照的だっていうんだ。
+
+Keita: なるほどね。言われてみれば、あの「Kirkland Signature」というブランドも象徴的だよね。派手なロゴも広告もないけれど、品質と価格への信頼だけで世界中から支持されている。ある種の「アンチ・ブランド」というか、賢い消費者の証みたいになってるよね。
+
+Nana: その通り。それに会員制というビジネスモデルも、もともとは連邦職員のための非営利団体から始まっているという歴史があって、利益だけを追求するのではなく、メンバーに価値を還元するという姿勢がカルト的なロイヤリティを生んでいるんだと思う。
+
+Keita: でも、試食コーナーの周りとか、ホリデーシーズンの混雑時にはその文明的な振る舞いも崩壊したりするよね。そこが人間臭くていいっていうことかな？
+
+Nana: 筆者もそこを認めているよ。でも不思議なことに、最後はレジの列でみんな正気に戻るんだ。あの黙々と順番を待つ光景に、ある種の共同体としての秩序を感じるんだろうね。
+
+Keita: 確かに、殺伐としたニュースが多い中で、巨大なカートを押しながら「同じ目的を持った人々と空間を共有する」っていう体験は、今の僕たちに必要な何かなのかもしれないね。
+
+Nana: 本当にそう。孤独が社会問題化している中で、物理的に人が集まって共通の「熱狂」を感じられる場所っていうのは、テック業界が作るどんなプラットフォームよりも人間らしい場所なのかもしれないよ。
+
+日本語の要約をお楽しみください。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-20.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-20.mp3" length="8021900" type="audio/mpeg"/>
+      <itunes:duration>33:25</itunes:duration>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

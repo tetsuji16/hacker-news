@@ -1,0 +1,50 @@
+URL: https://www.getclockwise.com
+
+Our Next Chapter
+A new chapter for our team, and an important update for our customers
+From the earliest days of Clockwise, it has been our mission to help the world make time for what matters. We've built a business to be proud of, serving some of the most impressive customers like Uber, Netflix, and Atlassian. And the impact has been far reaching, with over 8 million hours of Focus Time created and 23 million meetings moved to better times.
+We’ve been building AI into the heart of scheduling long before it became the defining technology of our time. Along the way, we've developed deep expertise in scheduling and calendars. Hard-won knowledge from nearly a decade of tackling one of the most underestimated problems in the modern workplace: shared time. It's a problem we care deeply about, and one that isn't going away.
+That's why we're excited about this next chapter: the Clockwise team is joining Salesforce.
+We believe this move will allow us to have even greater impact by bringing our deep expertise in building reliable, agentic software to the Agentic Enterprise.
+As part of this transition, Clockwise will be going away. Our product will no longer be available starting on March 27, 2026.
+To our customers, we want to thank you. You have inspired us to keep building and we deeply appreciate the trust you've placed with us. We don't take lightly what you gave us — your time, your trust, and your belief in what we were building.
+-
+Frequently Asked Questions
+How will the events on my calendar be impacted when the Clockwise services end?
+Any Smart Hold events created by Clockwise (such as Focus Time, Travel Time, Meeting Breaks, and Personal Calendar synced events) will be removed from your calendar. Flexible Meetings will stop moving and the green Clockwise sparkle will be removed.
+What about my Clockwise Scheduling Links? Will they stop working?
+Yes, Clockwise Scheduling Links will no longer be available. We recommend transitioning your links immediately to another service, such as Reclaim.
+Will my Focus Time blocks just disappear from my calendar or stay as-is?
+All Focus Time blocks managed by Clockwise will be removed from your calendar.
+Data
+Will Salesforce have access to my data?
+No, there is no transfer of data to Salesforce, and your data will be deleted.
+What happens to all my data — my calendar preferences, Scheduling Links, and Focus Time settings?
+Your data will be deleted shortly after you lose access to the product on March 27, 2026.
+How long will Clockwise retain my data after shutdown and when will it be deleted?
+All user data will be deleted shortly after March 27, 2026. There will be no confirmation of this deletion, but there will be notice if the deletion date changes and/or there are changes to our decision to delete all user data.
+Billing
+Will I get a refund for unused subscription time?
+You will get a refund for any prepaid subscription that extends past March 27, 2026, on a prorated basis. For example, if you're on an annual plan that renews on September 1, 2026, and you've prepaid for the full year, you would receive a refund for the unused portion of your subscription from March 27 through August 31, 2026. To understand your current billing status, please visit the Plans & Billing page.
+Will my card be charged again before shutdown?
+We are trying to avoid any charges before shutdown. If for some reason you do get charged, please know that amount will be added to your refund.
+Will I be able to access prior invoices?
+Past invoices will be accessible on the Plans & Billing page until March 27th, 2026.
+What's Next
+Are there other tools Clockwise recommends as an alternative?
+Yes, we’ve partnered with Reclaim to provide a smooth transition for anyone looking for AI-powered scheduling and calendar optimization. Reclaim offers a solution we feel confident recommending to Clockwise users and customers looking for intelligent scheduling of Focus Time, Habits, and Smart Meetings.
+Reclaim has committed to the following support for Clockwise paid customers
+- 100% price match guarantee for migrating team
+- Priority migration support to help replicate your Clockwise setup
+- Dedicated onboarding webinars throughout March for Clockwise users
+- Enterprise onboarding assistance for larger teams
+- Fast-tracked security reviews (SOC 2 Type II, SSO & SCIM support – trust center)
+You can find more information here.
+Is there a migration guide to help me recreate my setup elsewhere?
+Yes, Reclaim has created a custom guide for Clockwise customers to help with the transition. It includes details on the benefits they’re providing exclusively to former Clockwise customers and details about how to get started. You can find the guide here.
+Support
+Who can I contact if I have questions or issues during the wind-down period?
+Please contact support@getclockwise.com.
+How long will customer support be available?
+Customer support will be available until March 27, 2026.
+We're so grateful we could help. Together we made your calendars better, to the tune of:
