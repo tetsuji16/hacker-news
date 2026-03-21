@@ -3021,3 +3021,23 @@ DEBUG: Scraping URL: https://www.entsoe.eu/publications/blackout/28-april-2025-i
 DEBUG: Successfully scraped 10729 chars from https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/. Saved to output/scraped_content/www_entsoe_eu_lications_blackout_28_april_2025_iberian_blackout_.txt
 DEBUG: Scraping URL: https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
 DEBUG: Trafilatura failed to download https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
+DEBUG: Scraping URL: https://tinygrad.org/#tinybox
+DEBUG: Successfully scraped 5609 chars from https://tinygrad.org/#tinybox. Saved to output/scraped_content/tinygrad_org_https___tinygrad_org__tinybox.txt
+DEBUG: Scraping URL: https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/
+DEBUG: Successfully scraped 6460 chars from https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/. Saved to output/scraped_content/lucumr_pocoo_org_mr_pocoo_org_2026_3_20_some_things_just_take_time_.txt
+DEBUG: Scraping URL: https://grafeo.dev/
+DEBUG: Successfully scraped 4029 chars from https://grafeo.dev/. Saved to output/scraped_content/grafeo_dev_https___grafeo_dev_.txt
+DEBUG: Scraping URL: https://www.wired.com/story/how-invisalign-became-the-worlds-biggest-3d-printing-company/
+DEBUG: Successfully scraped 16988 chars from https://www.wired.com/story/how-invisalign-became-the-worlds-biggest-3d-printing-company/. Saved to output/scraped_content/www_wired_com_ign_became_the_worlds_biggest_3d_printing_company_.txt
+DEBUG: Scraping URL: https://phys.org/news/2026-03-hour-explosion.html
+DEBUG: Successfully scraped 3948 chars from https://phys.org/news/2026-03-hour-explosion.html. Saved to output/scraped_content/phys_org_https___phys_org_news_2026_03_hour_explosion_html.txt
+DEBUG: Scraping URL: https://github.com/pagel-s/termcraft
+DEBUG: Successfully scraped 2881 chars from https://github.com/pagel-s/termcraft. Saved to output/scraped_content/github_com_https___github_com_pagel_s_termcraft.txt
+DEBUG: Scraping URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646
+DEBUG: Trafilatura failed to download https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646
+DEBUG: Scraping URL: https://nostarch.com/electronics-for-kids-2e
+DEBUG: Successfully scraped 1460 chars from https://nostarch.com/electronics-for-kids-2e. Saved to output/scraped_content/nostarch_com_https___nostarch_com_electronics_for_kids_2e.txt
+DEBUG: Scraping URL: https://www.creativetension.co/posts/common-lisp-development-tooling
+DEBUG: Successfully scraped 38872 chars from https://www.creativetension.co/posts/common-lisp-development-tooling. Saved to output/scraped_content/www_creativetension_co_vetension_co_posts_common_lisp_development_tooling.txt
+DEBUG: Scraping URL: https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/
+DEBUG: Successfully scraped 14531 chars from https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/. Saved to output/scraped_content/railsatscale_com_ow_zjit_removes_redundant_object_loads_and_stores_.txt

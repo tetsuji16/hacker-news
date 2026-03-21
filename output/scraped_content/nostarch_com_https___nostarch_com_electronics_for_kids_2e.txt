@@ -1,0 +1,16 @@
+URL: https://nostarch.com/electronics-for-kids-2e
+
+Download Chapter 4: Creating Light with LEDs
+"Don't be fooled by the title. This collection of hands-on projects for tinkering with (and learning about) simple electronics is substantive enough to engross even gadget-loving adults."
+— The Wall Street Journal
+Electronics for Kids will teach you how electronics really work: what electricity is, how circuits behave, and how and why things like resistors, capacitors, and transistors do what they do. But reading about electronics isn't enough.
+Across 21 hands-on projects, you'll put your new knowledge to the test. You'll learn to read schematics, solder components onto a circuit board, use integrated circuits, and think in digital logic. You'll build:
+- An intruder alarm
+- Your own electromagnet and motor
+- A sunrise wake-up alarm
+- A color guessing game
+- A circuit that senses touch
+- A secret code checker, and more
+By the end of the book, you'll combine everything you've learned to design and build a playable LED reaction game from scratch, not by following a recipe, but because you understand how every part of it works. (Don't skip any chapters if you can help it!)
+This second edition has been completely rewritten with all new full-color illustrations, clearer explanations, and a complete progression from basic electricity through digital electronics. Open to any page and see for yourself.
+Ages 10 and up. No experience needed. Check out the table of contents for the full list of projects.

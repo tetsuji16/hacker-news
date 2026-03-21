@@ -1,0 +1,80 @@
+URL: https://github.com/pagel-s/termcraft
+
+Terminal-first 2D sandbox survival in Rust, tuned toward a classic early-2012 block-survival loop.
+Docs · Installation · Gameplay · Supported Content · Media Credits
+Unofficial fan project. Not affiliated with Mojang or Microsoft.
+Early alpha. The game is playable, but some systems are still rough or buggy.
+Full highlight video: termcraft.mp4
+YouTube: https://youtu.be/kR986Xqzj7E
+Soundtrack in the full highlight: Fantasy Orchestral Theme by Joth and Boss Battle #2 [Symphonic Metal] by nene via OpenGameArt, bothCC0
+. Full details: Media Credits
+termcraft
+keeps the classic survival progression, dimensions, crafting, and exploration pressure of the early block-survival formula, but adapts the experience to a side-on terminal game.
+Current scope:
+- procedural Overworld, Nether, and End generation
+- mining, placement, inventory, crafting, furnaces, brewing, boats, and chests
+- health, hunger, combat, weather, fluids, gravity blocks, crops, and farming
+- passive and hostile mobs, villages, dungeons, strongholds, and Nether fortresses
+- repo-local save persistence and autosave
+Requirements:
+- Rust stable toolchain
+- a terminal with raw input support
+- mouse support for the best local experience
+Install Rust first:
+Clone the repo and start the game:
+git clone https://github.com/pagel-s/termcraft.git
+cd termcraft
+cargo run --release
+If you want the optimized binary directly:
+git clone https://github.com/pagel-s/termcraft.git
+cd termcraft
+cargo build --release
+./target/release/termcraft
+If you want it installed into Cargo's local bin path after cloning:
+git clone https://github.com/pagel-s/termcraft.git
+cd termcraft
+cargo install --path .
+termcraft
+Local saves are written into saves/
+inside the repo.
+A
+/D
+or arrow keys: moveW
+/Up
+/Space
+: jump or swim upX
+: toggle sneakE
+: inventory1
+-9
+: hotbar selectionLeft Click
+: mine / attackRight Click
+: place / interactF
+: explicit hovered-block use fallback if right click is unreliable in the current terminalO
+: settings menuQ
+/Esc
+: close UI or quit from world view
+Developer/test shortcuts currently available:
+F5
+: travel to OverworldF6
+: travel to NetherF7
+: travel to EndF8
+: return to spawnF9
+: equip diamond combat loadout
+- The primary supported mode right now is local single-player.
+- Client/server code exists, but it is still experimental and is not a featured public mode yet.
+- If mouse right-click is unreliable in your terminal, use
+F
+as the explicit interaction fallback.
+For feedback, bugs, or release questions, contact: pagel.sebastian.1@gmail.com
+Useful checks:
+cargo test --quiet
+cargo clippy --all-targets -- -D warnings
+./scripts/release_smoke.sh
+Release process:
+Local saves are written under saves/
+and are intentionally repo-local, not OS-global.
+- chunk files:
+saves/<dimension>_chunk_<x>.bin
+- progression file:
+saves/player_progression.bin
+See World Format for the current save layout.
