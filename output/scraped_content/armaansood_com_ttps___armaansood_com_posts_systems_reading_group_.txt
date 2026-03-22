@@ -1,0 +1,32 @@
+URL: https://armaansood.com/posts/systems-reading-group/
+
+Five Years of Running a Systems Reading Group at Microsoft
+March 2026
+I started a reading group in 2021, a few months after joining Microsoft as a new grad on the Azure Databases team. The group was initially focused on database internals, which was my favorite subject at UW. Databases touch so many areas of CS: compiler construction in the query engine, memory management with the buffer pool, storage systems, algorithms, networking. It's almost a microcosm of the whole field. There's also plenty of active research and conferences, like SIGMOD and VLDB, so it never gets old.
+How it started
+My day job is on the backend distributed storage engine for Cosmos DB, so I spend most of my time thinking about LSM-trees, B-trees, and distributed systems. When I joined Microsoft, I wanted to find other people who were curious about these topics beyond what their immediate work required.
+The first paper we read was Algorithms Behind Modern Storage Systems. A handful of people showed up. The format was simple: everyone reads the paper on their own, we meet for an hour, and we talk through it. Pretty informal, just a conversation about the paper.
+From there we went through a mix of database internals classics and systems papers:
+- WiscKey: Separating Keys from Values in SSD-conscious Storage
+- LLAMA: A Cache/Storage Subsystem for Modern Hardware
+- Finding a Needle in Haystack: Facebook's Photo Storage
+- Column-Stores vs. Row-Stores: How Different Are They Really?
+- The Bw-Tree (I'm a bit biased on this one since I work on the Cosmos DB implementation), and an interesting follow-up Building a Bw-Tree Takes More Than Just Buzz Words
+That was basically the format for the first couple of years. Someone would suggest a paper, we'd vote on it, and then we'd meet and discuss. We also had a side channel where people shared engineering blog posts and talks that caught their attention. That informal sharing turned out to be just as valuable as the readings.
+How it evolved
+The more database papers we read, the more we found ourselves pulling on threads that led outside of databases. A storage engine paper would turn into a conversation about memory hierarchies. A replication paper would lead us into consensus protocols. Over time we started deliberately reading papers on adjacent topics, like What Every Programmer Should Know About Memory and Paxos Made Simple.
+In 2024, we shifted from one-off papers to guided reading series. We worked through sections of the Red Book (Stonebraker and Hellerstein's Readings in Database Systems) over several sessions. That structure made a big difference. Instead of context-switching between unrelated papers every meeting, we could build on previous discussions and go deeper.
+By 2025, the scope had grown well beyond databases, and I renamed the group to "Microsoft Systems Reading Group" to reflect that. The 2026 theme is datacenter foundations, and we will be reading through The Datacenter as a Computer and learn about things like servers, racks, network clusters, load balancing, power supplies, cooling, efficiency, failures, etc. Things we rely on and take for granted when we build a distributed database on a public cloud.
+What I've learned about running one
+Start small and stay consistent. The group has had active periods and quiet periods. The quiet periods almost always happened when the cadence got disrupted. It's better to meet once a month without fail than to aim for biweekly and skip half of them. Consistency builds habit, and habit builds attendance.
+Let the scope grow organically. If I'd insisted on "databases only" from the start, the group would have stagnated. Following curiosity wherever it led kept things interesting and brought in people from different teams who wouldn't have joined a databases-only group.
+Guided series beat one-off papers. One-off papers are great for getting started, but a multi-session series on a single topic is where the real depth happens. People build shared context, and the discussions get progressively more interesting.
+You don't have to be the expert. Some of the best sessions were on topics I didn't deeply understand. Saying "I want to learn about this, let's figure it out together" is a much better pitch than "let me teach you about this." It lowers the barrier for participation and makes the group genuinely collaborative.
+Have a co-organizer. This year, a colleague reached out about restarting the series after a quiet stretch. Having someone else invested in keeping things running makes a huge difference. When one person gets busy (and you will), the other can keep the momentum going.
+Make it easy to show up unprepared. Not everyone will read every paper. That's fine. If your format requires everyone to have done the reading for the meeting to work, attendance will drop. A quick 5-minute summary at the start goes a long way.
+What I got out of it
+The obvious benefit is learning. I've read papers I never would have picked up on my own, on topics ranging from memory chip architecture to how Google schedules containers at scale.
+But the less obvious benefit is the people. Running this group connected me with engineers, researchers, and scientists across Microsoft who are curious about the same things I am. Some of those connections have led to useful conversations about real work problems. Some of them are just interesting people to talk to. It also makes me happy to know that this company is full of people who are genuinely interested in this stuff.
+If you're thinking about starting a reading group at your company, don't overthink it. Just post a paper, invite some people who you know will be interested, and see who shows up. You can figure out the rest as you go.
+If you're a Microsoft employee and want to join, you can find us at aka.ms/msrg.
+Main

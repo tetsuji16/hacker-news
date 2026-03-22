@@ -1,0 +1,34 @@
+URL: https://trustcompliance.xyz
+
+The Biggest Compliance Fraud
+in SOC 2 History
+Most Checked Companies
+Coretsu Inc.
+Workforce AI
+Vulcan Technologies
+Lucidic AI
+Cyberdesk
+The Human Chemical Co.
+Trusted by Security Teams
+“Just checked all 12 of our vendors. 3 of them used Delve. This tool saved us weeks of manual review.”
+“The game is weirdly addictive. Got my whole security team playing it.”
+“Shared this with our compliance team. They ran every vendor through the scanner within an hour.”
+“Finally, someone made SOC 2 verification accessible to non-security people.”
+The Anatomy of a Compliance Scam
+The Scheme
+Delve sold SOC 2 and ISO 27001 certifications as a service. Companies paid, received reports, and displayed compliance badges -- without any real audit taking place.
+The Leak
+533 audit reports from 455 companies were leaked publicly. Forensic analysis revealed 99.8% identical boilerplate text across every single report.
+The Fallout
+Every company in the database now faces existential questions about their security posture. Customers, investors, and partners deserve to know the truth.
+Verify. Scan. Assess.
+Free tools to check your vendor's compliance integrity.
+Is your vendor in the leaked database?
+Enter any company name and instantly find out if they appear in the 533 leaked audit reports. See their report type, audit dates, and infrastructure details.
+Discussed on
+Get the full company exposure list
+455 companies with compromised audits. Get the complete list with report types, dates, and risk indicators — delivered to your inbox.
+No spam. Unsubscribe anytime. Your email is never shared.
+Don't wait until your customers ask.
+If your vendor is in this database, you need to know now -- before it becomes a board-level conversation.
+Check Your Vendor Now

@@ -3061,3 +3061,23 @@ DEBUG: Scraping URL: https://pooladkhay.com/posts/first-kernel-patch/
 DEBUG: Successfully scraped 15969 chars from https://pooladkhay.com/posts/first-kernel-patch/. Saved to output/scraped_content/pooladkhay_com_https___pooladkhay_com_posts_first_kernel_patch_.txt
 DEBUG: Scraping URL: https://sashiko.dev/
 DEBUG: Successfully scraped 1490 chars from https://sashiko.dev/. Saved to output/scraped_content/sashiko_dev_https___sashiko_dev_.txt
+DEBUG: Scraping URL: https://trustcompliance.xyz
+DEBUG: Successfully scraped 1747 chars from https://trustcompliance.xyz. Saved to output/scraped_content/trustcompliance_xyz_https___trustcompliance_xyz.txt
+DEBUG: Scraping URL: https://composio.dev/content/openclaw-security-and-vulnerabilities
+DEBUG: Successfully scraped 26795 chars from https://composio.dev/content/openclaw-security-and-vulnerabilities. Saved to output/scraped_content/composio_dev__dev_content_openclaw_security_and_vulnerabilities.txt
+DEBUG: Scraping URL: https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/
+DEBUG: Successfully scraped 799 chars from https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/. Saved to output/scraped_content/stuartbreckenridge_net_pc_gamer_recommends_rss_readers_in_a_37mb_article_.txt
+DEBUG: Scraping URL: https://bramcohen.com/p/manyana
+DEBUG: Successfully scraped 4017 chars from https://bramcohen.com/p/manyana. Saved to output/scraped_content/bramcohen_com_https___bramcohen_com_p_manyana.txt
+DEBUG: Scraping URL: https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/
+DEBUG: Successfully scraped 11972 chars from https://larstofus.com/2026/03/22/the-gold-standard-of-optimization-a-look-under-the-hood-of-rollercoaster-tycoon/. Saved to output/scraped_content/larstofus_com_ion_a_look_under_the_hood_of_rollercoaster_tycoon_.txt
+DEBUG: Scraping URL: https://stevekrouse.com/precision
+DEBUG: Successfully scraped 7889 chars from https://stevekrouse.com/precision. Saved to output/scraped_content/stevekrouse_com_https___stevekrouse_com_precision.txt
+DEBUG: Scraping URL: https://armaansood.com/posts/systems-reading-group/
+DEBUG: Successfully scraped 5808 chars from https://armaansood.com/posts/systems-reading-group/. Saved to output/scraped_content/armaansood_com_ttps___armaansood_com_posts_systems_reading_group_.txt
+DEBUG: Scraping URL: https://www.projectnomad.us
+DEBUG: Successfully scraped 3726 chars from https://www.projectnomad.us. Saved to output/scraped_content/www_projectnomad_us_https___www_projectnomad_us.txt
+DEBUG: Scraping URL: https://github.com/danveloper/flash-moe
+DEBUG: Successfully scraped 6936 chars from https://github.com/danveloper/flash-moe. Saved to output/scraped_content/github_com_https___github_com_danveloper_flash_moe.txt
+DEBUG: Scraping URL: https://avaloniaui.net/blog/maui-avalonia-preview-1
+DEBUG: Successfully scraped 13529 chars from https://avaloniaui.net/blog/maui-avalonia-preview-1. Saved to output/scraped_content/avaloniaui_net_ttps___avaloniaui_net_blog_maui_avalonia_preview_1.txt

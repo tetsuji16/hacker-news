@@ -1,0 +1,40 @@
+URL: https://bramcohen.com/p/manyana
+
+Manyana
+A Coherent Vision for the Future of Version Control
+I’m releasing Manyana, a project which I believe presents a coherent vision for the future of version control — and a compelling case for building it.
+It’s based on the fundamentally sound approach of using CRDTs for version control, which is long overdue but hasn’t happened yet because of subtle UX issues. A CRDT merge always succeeds by definition, so there are no conflicts in the traditional sense — the key insight is that changes should be flagged as conflicting when they touch each other, giving you informative conflict presentation on top of a system which never actually fails. This project works that out.
+Better conflict presentation
+One immediate benefit is much more informative conflict markers. Two people branch from a file containing a function. One deletes the function. The other adds a line in the middle of it. A traditional VCS gives you this:
+<<<<<<< left
+=======
+def calculate(x):
+a = x * 2
+logger.debug(f"a={a}")
+b = a + 1
+return b
+>>>>>>> right
+Two opaque blobs. You have to mentally reconstruct what actually happened.
+Manyana gives you this:
+<<<<<<< begin deleted left
+def calculate(x):
+a = x * 2
+======= begin added right
+logger.debug(f"a={a}")
+======= begin deleted left
+b = a + 1
+return b
+>>>>>>> end conflict
+Each section tells you what happened and who did it. Left deleted the function. Right added a line in the middle. You can see the structure of the conflict instead of staring at two blobs trying to figure it out.
+What CRDTs give you
+CRDTs (Conflict-Free Replicated Data Types) give you eventual consistency: merges never fail, and the result is always the same no matter what order branches are merged in — including many branches mashed together by multiple people working independently. That one property turns out to have profound implications for every aspect of version control design.
+Line ordering becomes permanent. When two branches insert code at the same point, the CRDT picks an ordering and it sticks. This prevents problems when conflicting sections are both kept but resolved in different orders on different branches.
+Conflicts are informative, not blocking. The merge always produces a result. Conflicts are surfaced for review when concurrent edits happen “too near” each other, but they never block the merge itself. And because the algorithm tracks what each side did rather than just showing the two outcomes, the conflict presentation is genuinely useful.
+History lives in the structure. The state is a weave — a single structure containing every line which has ever existed in the file, with metadata about when it was added and removed. This means merges don’t need to find a common ancestor or traverse the DAG. Two states go in, one state comes out, and it’s always correct.
+Rebase without the nightmare
+One idea I’m particularly excited about: rebase doesn’t have to destroy history. Conventional rebase creates a fictional history where your commits happened on top of the latest main. In a CRDT system, you can get the same effect — replaying commits one at a time onto a new base — while keeping the full history. The only addition needed is a “primary ancestor” annotation in the DAG.
+This matters because aggressive rebasing quickly produces merge topologies with no single common ancestor, which is exactly where traditional 3-way merge falls apart. CRDTs don’t care — the history is in the weave, not reconstructed from the DAG.
+What this is and isn’t
+Manyana is a demo, not a full-blown version control system. It’s about 470 lines of Python which operate on individual files. Cherry-picking and local undo aren’t implemented yet, though the README lays out a vision for how those can be done well.
+What it is is a proof that CRDT-based version control can handle the hard UX problems and come out with better answers than the tools we’re all using today — and a coherent design for building the real thing.
+The code is public domain. The full design document is in the README.
