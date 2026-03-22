@@ -1,0 +1,9 @@
+URL: https://sashiko.dev/
+
+Sashiko (刺し子, literally "little stabs") is a form of decorative reinforcement stitching from Japan. Originally used to reinforce points of wear or to repair worn places or tears with patches, here it represents our mission to reinforce the Linux kernel through automated, intelligent patch review.
+Sashiko is an agentic Linux kernel code review system. It monitors public mailing lists to thoroughly evaluate proposed Linux kernel changes. The system acts like a team of specialized reviewers covering domains from high-level architecture verification and security audits to low-level resource management and concurrency analysis.
+It relies on an open-source set of per-subsystem and generic prompts initially created by Chris Mason, combined with a custom multi-stage review protocol to maximize accuracy and minimize false positives.
+This is an open-source project that belongs to the Linux Foundation, licensed under the Apache License, Version 2.0.
+This particular instance of Sashiko is provided as a service and is actively reviewing all LKML (Linux Kernel Mailing List) submissions. All compute resources and LLM tokens utilized for these automated reviews are proudly provided and funded by Google.
+Quality of Reviews: In our tests using Gemini 3.1 Pro, Sashiko was able to successfully identify 53.6% of bugs based on an unfiltered selection of the last 1000 upstream commits with Fixed:
+tags. 100% of these historical bugs had previously made it through human-driven code reviews.

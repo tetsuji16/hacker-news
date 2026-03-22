@@ -1,0 +1,13 @@
+URL: https://hormuz.pythonic.ninja/
+
+Hormuz Minesweeper
+Star
+−
+□
+×
+000
+reset
+READY to start winning!!!
+Left-click reveal. Right-click flag. Double-click chord. Mines only spawn on water.
+dig mode
+Another win?

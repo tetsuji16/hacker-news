@@ -3041,3 +3041,23 @@ DEBUG: Scraping URL: https://www.creativetension.co/posts/common-lisp-developmen
 DEBUG: Successfully scraped 38872 chars from https://www.creativetension.co/posts/common-lisp-development-tooling. Saved to output/scraped_content/www_creativetension_co_vetension_co_posts_common_lisp_development_tooling.txt
 DEBUG: Scraping URL: https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/
 DEBUG: Successfully scraped 14531 chars from https://railsatscale.com/2026-03-18-how-zjit-removes-redundant-object-loads-and-stores/. Saved to output/scraped_content/railsatscale_com_ow_zjit_removes_redundant_object_loads_and_stores_.txt
+DEBUG: Scraping URL: https://43081j.com/2026/03/three-pillars-of-javascript-bloat
+DEBUG: Successfully scraped 15878 chars from https://43081j.com/2026/03/three-pillars-of-javascript-bloat. Saved to output/scraped_content/43081j_com_081j_com_2026_03_three_pillars_of_javascript_bloat.txt
+DEBUG: Scraping URL: https://tooscut.app/
+DEBUG: Successfully scraped 875 chars from https://tooscut.app/. Saved to output/scraped_content/tooscut_app_https___tooscut_app_.txt
+DEBUG: Scraping URL: https://mtbest.net/chest-fridge/
+DEBUG: Successfully scraped 3369 chars from https://mtbest.net/chest-fridge/. Saved to output/scraped_content/mtbest_net_https___mtbest_net_chest_fridge_.txt
+DEBUG: Scraping URL: https://www.theboomloom.com
+DEBUG: Successfully scraped 1662 chars from https://www.theboomloom.com. Saved to output/scraped_content/www_theboomloom_com_https___www_theboomloom_com.txt
+DEBUG: Scraping URL: https://github.com/hectorvent/floci
+DEBUG: Successfully scraped 3143 chars from https://github.com/hectorvent/floci. Saved to output/scraped_content/github_com_https___github_com_hectorvent_floci.txt
+DEBUG: Scraping URL: https://hormuz.pythonic.ninja/
+DEBUG: Successfully scraped 171 chars from https://hormuz.pythonic.ninja/. Saved to output/scraped_content/hormuz_pythonic_ninja_https___hormuz_pythonic_ninja_.txt
+DEBUG: Scraping URL: https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
+DEBUG: Successfully scraped 9538 chars from https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23. Saved to output/scraped_content/github_com_rity_trivy_security_advisories_GHSA_69fq_xp46_6x23.txt
+DEBUG: Scraping URL: https://radar.cloudflare.com/domains/domain/archive.today
+DEBUG: Successfully scraped 2416 chars from https://radar.cloudflare.com/domains/domain/archive.today. Saved to output/scraped_content/radar_cloudflare_com__radar_cloudflare_com_domains_domain_archive_today.txt
+DEBUG: Scraping URL: https://pooladkhay.com/posts/first-kernel-patch/
+DEBUG: Successfully scraped 15969 chars from https://pooladkhay.com/posts/first-kernel-patch/. Saved to output/scraped_content/pooladkhay_com_https___pooladkhay_com_posts_first_kernel_patch_.txt
+DEBUG: Scraping URL: https://sashiko.dev/
+DEBUG: Successfully scraped 1490 chars from https://sashiko.dev/. Saved to output/scraped_content/sashiko_dev_https___sashiko_dev_.txt

@@ -1,0 +1,24 @@
+URL: https://tooscut.app/
+
+Professional video editing, right in your browser
+Everything you need to edit
+Built on WebGPU and Rust/WASM for performance that rivals native apps.
+GPU-Accelerated Rendering
+WebGPU-powered compositing via Rust/WASM delivers near-native performance for real-time previews and exports.
+Multi-Track Timeline
+Canvas-rendered timeline with unlimited video and audio tracks, linked clips, and cross-transitions.
+Keyframe Animation
+Animate any property with bezier easing curves. Transform, opacity, effects — everything is keyframeable.
+Real-Time Effects
+Apply brightness, contrast, saturation, blur, and hue rotation — all GPU-computed with instant preview.
+Brightness
+Contrast
+Saturation
+Blur
+Zero Install, Full Power
+Everything runs in the browser. Your media stays local with the File System Access API — nothing leaves your machine.
+Local-first
+WebGPU
+WASM
+Web Audio
+File API

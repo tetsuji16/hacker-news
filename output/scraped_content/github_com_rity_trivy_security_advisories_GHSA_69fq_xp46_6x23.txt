@@ -1,0 +1,161 @@
+URL: https://github.com/aquasecurity/trivy/security/advisories/GHSA-69fq-xp46-6x23
+
+Trivy ecosystem supply chain temporarily compromised
+Description
+Summary
+On March 19, 2026, a threat actor used compromised credentials to publish a malicious Trivy v0.69.4 release, force-push 76 of 77 version tags in aquasecurity/trivy-action
+to credential-stealing malware, and replace all 7 tags in aquasecurity/setup-trivy
+with malicious commits.
+Exposure Window
+| Component | Start (UTC) | End (UTC) | Duration |
+|---|---|---|---|
+| trivy v0.69.4 | 2026-03-19 18:22 1 | 2026-03-19 ~21:42 | ~3 hours |
+| trivy-action | 2026-03-19 ~17:43 2 | 2026-03-20 ~05:40 | ~12 hours |
+| setup-trivy | 2026-03-19 ~17:43 2 | 2026-03-19 ~21:44 | ~4 hours |
+Affected Components
+Note that all malicious components, artifacts, commits, etc have been removed from all sources and destinations (yet they may linger in intermediary caches). Use this information to understand if you have been exposed to the malicious artifacts during the exposure window.
+trivy
+binary and image
+You are affected if you used:
+- trivy binaries version v0.69.4 (or latest during the exposure window) distributed via GitHub, Deb, RPM.
+- trivy container images v0.69.4 (or latest during the exposure window) distributed via GHCR, ECR public, Docker Hub.
+You are not affected if you used:
+- trivy (binary or image) version v0.69.3 or earlier.
+- v0.69.3 is protected by GitHub's immutable releases feature (enabled March 3, before v0.69.3 was published).
+- v0.69.2 predates immutable releases enablement but integrity can be verified via sigstore signatures (see "How to Verify" section below).
+- trivy images referenced by digest.
+- trivy binaries built from source.
+- The malicious code was not committed to Trivy's main branch. It was fetched and built on the ephemeral runner, and also committed to a v0.70.0 branch but no release or git tag was ever pushed.
+- homebrew from official formula (
+brew install trivy
+)- The official homebrew formula is building trivy directly from source.
+- There's an additional custom trivy tap which was compromised as part of the v0.69.4 release, but that tap requires special installation and is not even mentioned in the trivy documentation.
+aquasecurity/trivy-action
+GitHub Action
+You are affected if you used:
+- Any tags prior except 0.35.0 (0.0.1 – 0.34.2) to reference the action.
+- the action's
+version: latest
+parameter explicitly (not the default) during the trivy binary exposure window. - SHA pinning to a commit prior to 2025-04-09.
+- trivy-action started pinning setup-go with pull request trivy-action#456. If you pinned trivy-action to a commit prior to that PR (merged 2025-04-09), then you would get a safe trivy-action but it would get a malicious setup-trivy, if invoked during the setup-trivy exposure window.
+You are not affected if you used:
+- 0.35.0 tag
+- 0.35.0 is protected by GitHub's immutable releases feature (enabled March 4, before 0.35.0 was published) and was not affected by the tag hijacking attack.
+- SHA pinning to a safe commit commit after 2025-04-09.
+aquasecurity/setup-trivy
+GitHub Action
+You are affected if you used:
+- Any version without pinning.
+You are not affected if you used:
+- SHA pinning to a safe commit.
+Attack Details
+Root Cause
+This incident is a continuation of the supply chain attack that began in late February 2026. Following the initial disclosure on March 1, credential rotation was performed but was not atomic (not all credentials were revoked simultaneously). The attacker could have use a valid token to exfiltrate newly rotated secrets during the rotation window (which lasted a few days). This could have allowed the attacker to retain access and execute the March 19 attack.
+Trivy v0.69.4 binary and container images
+The attacker created a malicious release by:
+- Pushing a commit (
+1885610c
+) that swapped theactions/checkout
+reference to an imposter commit (70379aad
+) containing a composite action that downloaded malicious Go source files from a typosquatted domain - Adding
+--skip=validate
+to goreleaser to bypass binary validation - Tagging this commit as
+v0.69.4
+, triggering the release pipeline
+The compromised release was distributed across Trivy's regular distribution channels channels: GHCR, ECR Public, Docker Hub (both 0.69.4
+and latest
+tags), deb/rpm packages, and get.trivy.dev
+.
+The attacker attempted to release a v0.70.0 malicious release but that was stopped prematurely.
+trivy-action tag hijacking
+The attacker force-pushed 76 of 77 version tags to malicious commits that injected an infostealer into entrypoint.sh
+. The malicious code executes before the legitimate Trivy scan and does the following:
+- Dumps
+Runner.Worker
+process memory via/proc/<pid>/mem
+to extract secrets. Sweeps 50+ filesystem paths for SSH keys, AWS/GCP/Azure credentials, Kubernetes tokens, Docker configs,.env
+files, database credentials, and cryptocurrency wallets. - Encrypts collected data using AES-256-CBC with RSA-4096 hybrid encryption.
+- Transmits to attacker-controlled infrastructure. If exfiltration fails and
+INPUT_GITHUB_PAT
+is set, creates a publictpcp-docs
+repository on the victim's GitHub account and uploads stolen data as a release asset.
+setup-trivy release replacement
+All 7 existing tags (v0.2.0 – v0.2.6) were force-pushed to malicious commits. The malicious action.yaml
+contained the same infostealer as trivy-action, injected as a "Setup environment" step that executes before the legitimate Trivy installation.
+We have removed all malicious releases within ~4 hours and re-created v0.2.6 with safe content. Tags v0.2.0 – v0.2.5 were not restored.
+Recommended Actions
+Update to Known-Safe Versions
+| Component | Safe Version |
+|---|---|
+| Trivy binary | v0.69.2, v0.69.3 |
+| trivy-action | v0.35.0 |
+| setup-trivy | v0.2.6 |
+Regarding trivy-action: The original tags (0.0.1
+– 0.34.2
+) were deleted during remediation. Because the attacker's force-push caused these tags to be treated as immutable releases by GitHub, they cannot be re-created with the same names. New tags have been published with a v
+prefix (v0.0.1
+– v0.34.2
+) pointing to the original legitimate commits. Three tags: v0.0.10
+, v0.34.1
+, and v0.34.2
+have not yet been restored. If you need to reference a version older than 0.35.0, use the v
+-prefixed tag (e.g., aquasecurity/trivy-action@v0.34.0
+instead of @0.34.0
+).
+Rotate All Potentially Exposed Secrets
+Based on information shared above, if there is any possibility that a compromised version ran in your environment, all secrets accessible to affected pipelines must be treated as exposed and rotated immediately.
+Audit Trivy Versions
+Check whether your organization pulled or executed Trivy v0.69.4 from any source. Remove any affected artifacts immediately.
+Audit GitHub Action References
+Review all workflows using aquasecurity/trivy-action
+or aquasecurity/setup-trivy
+. Check workflow run logs from March 19–20, 2026 for signs of compromise.
+Search for Exfiltration Artifacts
+Look for repositories named tpcp-docs
+in your GitHub organization. The presence of such a repository may indicate that the fallback exfiltration mechanism was triggered and secrets were successfully stolen.
+Pin GitHub Actions to Full SHA Hashes
+Pin GitHub Actions to full, immutable commit SHA hashes, don't use mutable version tags. As described here: https://docs.github.com/en/actions/reference/security/secure-use#using-third-party-actions
+How to Verify Existing Installations
+Binary verification
+# Download binary and sigstore bundle
+curl -sLO "https://github.com/aquasecurity/trivy/releases/download/v0.69.2/trivy_0.69.2_Linux-64bit.tar.gz"
+curl -sLO "https://github.com/aquasecurity/trivy/releases/download/v0.69.2/trivy_0.69.2_Linux-64bit.tar.gz.sigstore.json"
+# Verify signature
+$ cosign verify-blob \
+--certificate-identity-regexp 'https://github\.com/aquasecurity/' \
+--certificate-oidc-issuer 'https://token.actions.githubusercontent.com' \
+--bundle trivy_0.69.2_Linux-64bit.tar.gz.sigstore.json \
+trivy_0.69.2_Linux-64bit.tar.gz
+Verified OK
+# Check signing timestamp
+$ date -u -d @$(jq -r '.verificationMaterial.tlogEntries[].integratedTime' trivy_0.69.2_Linux-64bit.tar.gz.sigstore.json)
+Sat Mar 1 19:11:02 UTC 2026
+# ✅ Signed on Mar 1, before the attack on Mar 19
+Container image verification
+# Verify signature and get image digest
+$ cosign verify \
+--certificate-identity-regexp 'https://github\.com/aquasecurity/' \
+--certificate-oidc-issuer 'https://token.actions.githubusercontent.com' \
+--new-bundle-format \
+ghcr.io/aquasecurity/trivy:0.69.2
+Verification for ghcr.io/aquasecurity/trivy:0.69.2 --
+The following checks were performed on each of these signatures:
+- The cosign claims were validated
+- Existence of the claims in the transparency log was verified offline
+- The code-signing certificate was verified using trusted certificate authority certificates
+# Get digest and check all signing timestamps via Rekor
+$ DIGEST=$(cosign verify \
+--certificate-identity-regexp 'https://github\.com/aquasecurity/' \
+--certificate-oidc-issuer 'https://token.actions.githubusercontent.com' \
+--new-bundle-format -o json ghcr.io/aquasecurity/trivy:0.69.2 2>/dev/null | \
+jq -r '.[0].critical.image."docker-manifest-digest"')
+$ rekor-cli search --sha "$DIGEST" | grep -v 'Found' | while read uuid; do
+rekor-cli get --uuid "$uuid" | grep IntegratedTime
+done
+IntegratedTime: 2026-03-01T19:13:52Z
+IntegratedTime: 2026-03-01T19:13:47Z
+IntegratedTime: 2026-03-01T19:13:57Z
+IntegratedTime: 2026-03-01T19:13:54Z
+IntegratedTime: 2026-03-01T19:13:46Z
+IntegratedTime: 2026-03-01T19:13:37Z
+# ✅ All signed on Mar 1, before the attack on Mar 19
