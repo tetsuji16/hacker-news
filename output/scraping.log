@@ -3081,3 +3081,23 @@ DEBUG: Scraping URL: https://github.com/danveloper/flash-moe
 DEBUG: Successfully scraped 6936 chars from https://github.com/danveloper/flash-moe. Saved to output/scraped_content/github_com_https___github_com_danveloper_flash_moe.txt
 DEBUG: Scraping URL: https://avaloniaui.net/blog/maui-avalonia-preview-1
 DEBUG: Successfully scraped 13529 chars from https://avaloniaui.net/blog/maui-avalonia-preview-1. Saved to output/scraped_content/avaloniaui_net_ttps___avaloniaui_net_blog_maui_avalonia_preview_1.txt
+DEBUG: Scraping URL: https://ykumar.me/blog/eclip-autoresearch/
+DEBUG: Successfully scraped 6926 chars from https://ykumar.me/blog/eclip-autoresearch/. Saved to output/scraped_content/ykumar_me_https___ykumar_me_blog_eclip_autoresearch_.txt
+DEBUG: Scraping URL: https://github.com/localstack/localstack
+DEBUG: Successfully scraped 6331 chars from https://github.com/localstack/localstack. Saved to output/scraped_content/github_com_https___github_com_localstack_localstack.txt
+DEBUG: Scraping URL: https://twitter.com/anemll/status/2035901335984611412
+DEBUG: Successfully scraped 293 chars from https://twitter.com/anemll/status/2035901335984611412. Saved to output/scraped_content/twitter_com_ps___twitter_com_anemll_status_2035901335984611412.txt
+DEBUG: Scraping URL: https://iev.ee/blog/the-quadratic-problem-nobody-fixed/
+DEBUG: Successfully scraped 18527 chars from https://iev.ee/blog/the-quadratic-problem-nobody-fixed/. Saved to output/scraped_content/iev_ee____iev_ee_blog_the_quadratic_problem_nobody_fixed_.txt
+DEBUG: Scraping URL: https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise
+DEBUG: Successfully scraped 17368 chars from https://socket.dev/blog/trivy-under-attack-again-github-actions-compromise. Saved to output/scraped_content/socket_dev_trivy_under_attack_again_github_actions_compromise.txt
+DEBUG: Scraping URL: https://github.com/dune3d/dune3d
+DEBUG: Successfully scraped 3379 chars from https://github.com/dune3d/dune3d. Saved to output/scraped_content/github_com_https___github_com_dune3d_dune3d.txt
+DEBUG: Scraping URL: https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/
+DEBUG: Successfully scraped 33359 chars from https://www.bunniestudios.com/blog/2026/bio-the-bao-i-o-coprocessor/. Saved to output/scraped_content/www_bunniestudios_com_studios_com_blog_2026_bio_the_bao_i_o_coprocessor_.txt
+DEBUG: Scraping URL: https://www.asimov.press/p/ai-science
+DEBUG: Successfully scraped 25399 chars from https://www.asimov.press/p/ai-science. Saved to output/scraped_content/www_asimov_press_https___www_asimov_press_p_ai_science.txt
+DEBUG: Scraping URL: https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html
+DEBUG: Successfully scraped 2477 chars from https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html. Saved to output/scraped_content/www_lemonde_fr__deal_to_end_offshore_wind_projects_6751739_4_html.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/articles/cy01g522ww4o
+DEBUG: Successfully scraped 3364 chars from https://www.bbc.com/news/articles/cy01g522ww4o. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_cy01g522ww4o.txt
