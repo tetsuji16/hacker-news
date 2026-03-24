@@ -1,0 +1,20 @@
+URL: https://www.githubstatus.com/incidents/kp06czybl7dw
+
+This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+Posted Mar 24, 2026 - 20:56 UTC
+Update
+We are investigating elevated error rates affecting multiple GitHub services including Actions, Issues, Pull Requests, Webhooks, Codespaces, and login functionality. Some users may have experienced errors when accessing these features. Most services are now showing signs of recovery. We'll post another update by 21:00 UTC.
+Posted Mar 24, 2026 - 20:38 UTC
+Update
+Issues is experiencing degraded performance. We are continuing to investigate.
+Posted Mar 24, 2026 - 20:23 UTC
+Update
+Pull Requests is experiencing degraded performance. We are continuing to investigate.
+Posted Mar 24, 2026 - 20:23 UTC
+Update
+Webhooks is experiencing degraded performance. We are continuing to investigate.
+Posted Mar 24, 2026 - 20:20 UTC
+Investigating
+We are investigating reports of degraded performance for Actions
+Posted Mar 24, 2026 - 20:18 UTC
+This incident affected: Webhooks, Issues, Pull Requests, and Actions.

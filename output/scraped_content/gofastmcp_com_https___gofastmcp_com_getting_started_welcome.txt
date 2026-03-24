@@ -1,0 +1,21 @@
+URL: https://gofastmcp.com/getting-started/welcome
+
+Move Fast and Make Things
+The Model Context Protocol (MCP) lets you give agents access to your tools and data. But building an effective MCP application is harder than it looks. FastMCP handles all of it. Declare a tool with a Python function, and the schema, validation, and documentation are generated automatically. Connect to a server with a URL, and transport negotiation, authentication, and protocol lifecycle are managed for you. You focus on your logic, and the MCP part just works: with FastMCP, best practices are built in. That’s why FastMCP is the standard framework for working with MCP. FastMCP 1.0 was incorporated into the official MCP Python SDK in 2024. Today, the actively maintained standalone project is downloaded a million times a day, and some version of FastMCP powers 70% of MCP servers across all languages. FastMCP has three pillars:Servers
+Expose tools, resources, and prompts to LLMs.
+Apps
+Give your tools interactive UIs rendered directly in the conversation.
+Clients
+Connect to any MCP server — local or remote, programmatic or CLI.
+LLM-Friendly Docs
+The FastMCP documentation is available in multiple LLM-friendly formats:MCP Server
+The FastMCP docs are accessible via MCP! The server URL ishttps://gofastmcp.com/mcp
+.
+In fact, you can use FastMCP to search the FastMCP docs:
+Text Formats
+The docs are also available in llms.txt format:- llms.txt - A sitemap listing all documentation pages
+- llms-full.txt - The entire documentation in one file (may exceed context windows)
+.md
+to the URL. For example, this page becomes https://gofastmcp.com/getting-started/welcome.md
+.
+You can also copy any page as markdown by pressing “Cmd+C” (or “Ctrl+C” on Windows) on your keyboard.

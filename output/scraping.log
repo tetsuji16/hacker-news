@@ -3101,3 +3101,23 @@ DEBUG: Scraping URL: https://www.lemonde.fr/en/international/article/2026/03/23/
 DEBUG: Successfully scraped 2477 chars from https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html. Saved to output/scraped_content/www_lemonde_fr__deal_to_end_offshore_wind_projects_6751739_4_html.txt
 DEBUG: Scraping URL: https://www.bbc.com/news/articles/cy01g522ww4o
 DEBUG: Successfully scraped 3364 chars from https://www.bbc.com/news/articles/cy01g522ww4o. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_cy01g522ww4o.txt
+DEBUG: Scraping URL: https://www.githubstatus.com/incidents/kp06czybl7dw
+DEBUG: Successfully scraped 1120 chars from https://www.githubstatus.com/incidents/kp06czybl7dw. Saved to output/scraped_content/www_githubstatus_com_ttps___www_githubstatus_com_incidents_kp06czybl7dw.txt
+DEBUG: Scraping URL: https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/
+DEBUG: Successfully scraped 8935 chars from https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/. Saved to output/scraped_content/www_apple_com_w_all_in_one_platform_for_businesses_of_all_sizes_.txt
+DEBUG: Scraping URL: https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/
+DEBUG: Successfully scraped 3279 chars from https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/. Saved to output/scraped_content/blog_jakesaunders_dev_ers_dev_is_anybody_else_bored_of_talking_about_ai_.txt
+DEBUG: Scraping URL: https://newsroom.arm.com/blog/introducing-arm-agi-cpu
+DEBUG: Successfully scraped 10907 chars from https://newsroom.arm.com/blog/introducing-arm-agi-cpu. Saved to output/scraped_content/newsroom_arm_com_ps___newsroom_arm_com_blog_introducing_arm_agi_cpu.txt
+DEBUG: Scraping URL: https://github.com/BerriAI/litellm/issues/24512
+DEBUG: Successfully scraped 5028 chars from https://github.com/BerriAI/litellm/issues/24512. Saved to output/scraped_content/github_com_https___github_com_BerriAI_litellm_issues_24512.txt
+DEBUG: Scraping URL: https://github.com/t8/hypura
+DEBUG: Successfully scraped 8077 chars from https://github.com/t8/hypura. Saved to output/scraped_content/github_com_https___github_com_t8_hypura.txt
+DEBUG: Scraping URL: https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/
+DEBUG: Successfully scraped 12292 chars from https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/. Saved to output/scraped_content/www_xda-developers_com__11_rewrites_linux_runs_windows_games_speed_gains_.txt
+DEBUG: Scraping URL: https://gofastmcp.com/getting-started/welcome
+DEBUG: Successfully scraped 1708 chars from https://gofastmcp.com/getting-started/welcome. Saved to output/scraped_content/gofastmcp_com_https___gofastmcp_com_getting_started_welcome.txt
+DEBUG: Scraping URL: https://antithesis.com/blog/2026/hegel/
+DEBUG: Successfully scraped 16761 chars from https://antithesis.com/blog/2026/hegel/. Saved to output/scraped_content/antithesis_com_https___antithesis_com_blog_2026_hegel_.txt
+DEBUG: Scraping URL: https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/
+DEBUG: Successfully scraped 1646 chars from https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/. Saved to output/scraped_content/sbcwiki_com_bcwiki_com_docs_soc_manufacturers_arm_arm_silicon_.txt

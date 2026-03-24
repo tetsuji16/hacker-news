@@ -1,0 +1,131 @@
+URL: https://antithesis.com/blog/2026/hegel/
+
+Hypothesis, Antithesis, synthesis
+Hello. I wrote Hypothesis. Then, back in November, I joined Antithesis, shortly followed by Liam DeVoe (another core Hypothesis maintainer). The inevitable result was synthesis, which is why today we’re introducing our new family of property-based testing libraries, Hegel.1
+Hegel is an attempt to bring the quality of property-based testing found in Hypothesis to every language, and to make this seamlessly integrate with Antithesis to increase its bug-finding power. Today we’re releasing Hegel for Rust, but this is the first of many libraries. We plan to release Hegel for Go in the next week or two, and we’ve got Hegel libraries in various states of readiness for C++, OCaml, and TypeScript that we plan to release over the coming weeks or months.
+Here’s an example from Hegel for Rust to whet your appetite:
+#[hegel::test(test_cases = 1000)]
+fn test_fraction_parse_robustness(tc: hegel::TestCase) {
+let s: String = tc.draw(generators::text());
+let _ = Fraction::from_str(&s); // should never panic
+}
+This finds a bug in the fraction
+crate where from_str("0/0")
+panics rather than returning an error value.2
+If that was already enough of a sales pitch for you, you can check out Hegel here.
+If not, let me tell you a bit more about why property-based testing, and Hegel in particular, are pretty great and why I think you should use them.
+What’s property-based testing?
+We saw an example of it above with Hegel for Rust: Property-based testing is testing where, rather than providing a full concrete test case yourself, you instead use the library to specify a range of values for which the test should pass. In our fraction
+example, our claim was a common one: Our parser should never crash, it should always either produce a valid result or error value.
+You can think of that property-based test as infinitely many copies of tests that look like the following, where each test replaces the s
+value with a different string:
+#[test]
+fn test_fraction_parse_robustness() {
+let s: String = "0/0";
+let _ = Fraction::from_str(&s); // should never panic
+}
+The benefit of property-based testing libraries is that you don’t have to come up with those strings.
+“Doesn’t crash” is probably the most boring property-based test, but it’s surprisingly useful. Coming from Python, it’s very useful (it’s surprisingly hard to write a Python program that never crashes), but as we saw, this happens even in Rust.
+Here’s another example of a more interesting common property:
+use hegel::generators::{self, Generator, integers, booleans};
+use rust_decimal::Decimal;
+use std::str::FromStr;
+#[hegel::composite]
+fn decimal_gen(tc: hegel::TestCase) -> Decimal {
+let int_part = tc.draw(integers::<i64>());
+let has_frac = tc.draw(booleans());
+if has_frac {
+let frac_digits = tc.draw(integers::<u32>()
+.min_value(1).max_value(28));
+let frac_val = tc.draw(integers::<u64>()
+.max_value(10u64.saturating_pow(frac_digits.min(18))));
+let s = format!("{}.{:0>width$}", int_part, frac_val,
+width = frac_digits as usize);
+Decimal::from_str(&s).unwrap_or(Decimal::from(int_part))
+} else {
+Decimal::from(int_part)
+}
+}
+#[hegel::test(test_cases = 1000)]
+fn test_decimal_scientific_roundtrip(tc: hegel::TestCase) {
+let d = tc.draw(decimal_gen());
+let sci = format!("{:e}", d);
+let parsed = Decimal::from_scientific(&sci)
+.expect(&format!("Failed to parse {:?} from {}", sci, d));
+assert_eq!(d, parsed);
+}
+Here we had to define our own custom generator for Decimal
+using Hegel’s support for composing generators. After that, we got to test a common property called “round tripping” — if you serialize a value into some format and then read it back, you should get the same value back. This is probably one of the most common non-trivial properties that it’s worth testing in most projects, as most software needs to transform data between different formats at some point. In this case it turns out that rust_decimal
+doesn’t correctly handle zero when converting numbers to scientific notation, and this test finds the bug.
+I have a rough classification of bugs found by property-based testing as falling into three categories:
+- You forgot about zero.
+- This data type is cursed and you fell afoul of the curse.
+- You made an error in a complicated structural invariant.
+At Antithesis we’re most excited about the third category, but generally I find a lot of the initial value of property-based testing comes from shaking out the first two, because bugs of this type are so easy to find.
+For example, here’s a test that shows heck
+running afoul of Unicode being cursed (reported bug):
+use heck::ToTitleCase;
+#[hegel::test(test_cases = 1000)]
+fn test_title_case_idempotent(tc: hegel::TestCase) {
+let s: String = tc.draw(generators::text());
+let once = s.to_title_case();
+let twice = once.to_title_case();
+assert_eq!(once, twice);
+}
+This tests the intuitive property that once you’ve converted something into title case, it’s in title case and shouldn’t need further changes. Unfortunately, this fails by drawing “ß”, which the first to_title_case
+turns into "SS"
+which the second then turns into "Ss"
+.
+The best example I’ve got for you right now of “complicated structural invariants” comes from this (it turns out, already known) bug Hegel found in the im
+library:
+#[hegel::test(test_cases = 1000)]
+fn test_ordmap_get_prev(tc: hegel::TestCase) {
+// Trick to boost the size to make sure we test on large key sets.
+let n = tc.draw(generators::integers::<usize>().max_value(200));
+let keys: Vec<i32> = tc.draw(generators::vecs(generators::integers()).min_size(n));
+let im_map: OrdMap<i32, i32> = keys.iter().map(|&k| (k, k)).collect();
+let bt_map: BTreeMap<i32, i32> = keys.iter().map(|&k| (k, k)).collect();
+let key = tc.draw(generators::integers::<i32>());
+let im_prev = im_map.get_prev(&key).map(|(k, v)| (*k, *v));
+let bt_prev = bt_map.range(..=key).next_back().map(|(&k, &v)| (k, v));
+assert_eq!(im_prev, bt_prev, "get_prev({}) mismatch with {} keys", key, im_map.len());
+}
+This finds that above a certain size, get_prev
+returns the wrong value.
+This sort of test is a simple example of what we usually call “model-based testing” — you’ve got something you want to test, and you construct a “model” of it — usually some bad implementation of the same thing that e.g. stores everything in memory, or implements things inefficiently. You can then use property-based testing to check that the model and reality always agree.
+There are many more ways to use property-based testing than this. This post just showcases some of the more effective sorts of tests you can write with it. When getting started I actually tend to recommend starting with one of your existing tests and refactoring it, but once you start thinking in terms of this sort of testing you’ll start to see examples like the above ones everywhere.
+What’s Hypothesis?
+If you’re not familiar with it, Hypothesis is the most widely used property-based testing library in the world.
+Some of why Hypothesis is the most widely used library of this sort is because it’s written in Python, which I’m given to understand has a few users. But Hypothesis wasn’t the first property-based testing library in Python, only the first that achieved widespread use. This is because it has a lot of benefits over other property-based testing libraries.
+The main3 ones are:
+- Hypothesis has a great library of high-quality generators, and flexible tools for building on them.
+- Hypothesis has “internal shrinking”, which means that it will basically always give you a high-quality and readable final example. It avoids many of the pitfalls of shrinking in other property-based testing libraries, such as producing invalid test cases, requiring manually writing shrinkers, and poor quality out-of-the-box shrinking.4
+- Hypothesis has a test database, which means that when a test fails, if you rerun it it will automatically fail fast in the same way.
+My running joke with Hypothesis is that every other property-based testing library is based on QuickCheck, which was a great innovation in testing, but is fundamentally written for Haskell programmers, and Haskell programmers are willing to put up with a lot of suffering for correctness. If Python programmers were willing to put up with suffering to achieve correctness, they’d not be writing Python in the first place!
+Like everything else, Hypothesis started as basically a QuickCheck port, but over time as I (and later we) listened to what people found annoying about that, it diverged further and further from the original style of property-based testing which looks more like writing theorems about your code, and moved much more to a highly ergonomic extension to “normal” testing that increases its bug-finding power.
+All of these benefits follow from the underlying model of Hypothesis, which is relatively simple.5 But the reality is that the real competitive advantage of Hypothesis is that we (me, Liam, and Zac Hatfield-Dodds) put an unreasonable amount of work into it. As a result, not many other libraries come close, because most people are only willing to put a reasonable amount of work in. Go’s Rapid library is probably the most credible port we’ve seen, but most of the other libraries that claim to be Hypothesis inspired didn’t adopt the core model, and as a result don’t get the benefits of it.
+And, to be honest, we’re not willing to put that much work in again for new languages either! We’d love it if every language had a Hypothesis-quality property-based testing library, but not as much as we’d love not to have to maintain that for every language.
+A slightly crazy idea
+This led to the slightly crazy idea that I pitched when joining Antithesis: What if, instead of writing Hypothesis for every language, we just make it easy for other languages to use Hypothesis? It’s extremely common to wrap libraries in other languages in Python bindings, so why not go the other way?6
+This is the core idea of Hegel: We run Hypothesis,7 and let it be the source of all generated data, wrapping it with a thin client library that turns it into values in your preferred target language. We get to implement the full feature-set of Hypothesis, because it’s all there for us already.
+This means, each time you want to spin up a new Hegel library, you just have to implement the Hegel protocol, figure out the right API for the target language, and you’ve got a new high quality property-based testing library for your language of choice. The only actually hard part is a bit of care and good taste to make sure that it feels like a native citizen of the language.
+As well as Hypothesis-grade property-based testing for every language, the other part of this is of course Antithesis. Medium-to-long term, the plan is that Hegel becomes one of the major entry points to running on Antithesis. That way, you can write your Hegel tests outside of Antithesis,8 get them working smoothly on your own infrastructure, and then easily run them on Antithesis to get increased bug-finding power, as well as all the usual debugging and reproducibility benefits you get from running on Antithesis.
+Short term, this plan already more or less works! Hegel isn’t yet particularly good at testing the sort of highly concurrent distributed systems that are the bread-and-butter of Antithesis testing — it has largely inherited the limitations of Hypothesis in this regard. So we think Antithesis will be great if you’re writing Hegel tests and you want a bit more oomph, but Hegel will only sometimes be great if you’ve got Antithesis and want to improve your testing on it. Watch this space, though! Hopefully we’ll have some more updates on that over the coming months.
+Why should you use Hegel?
+I’m obviously biased, but I really think Hegel is going to be a huge part of the future of how we do software development. I’d think that even if we weren’t currently in the middle of AI-based workflows changing everything, but we are and that makes a big difference.
+As Liam has recently articulated well, property-based testing is going to be a huge part of how we make AI-agent-based software development not go terribly. For those of us who use property-based testing, it’s already been a huge part of how we make human-based software development not go terribly for the last several decades, but all of the advantages we’ve been leaning on are now extra important.
+I’ve done a bunch of work on AI evaluations in the past, and one of the things that always stood out is how many times an AI would pass a coding evaluation and then you’d add property-based tests and find that a substantial fraction of its solutions now failed (this is, to be fair, also the experience of humans writing code and property-based testing it for the first time). AI has gotten much better since then, but its code is still, for want of a better word, sloppy, and we need tools to compensate for that.
+But the converse of this is that it’s also never been easier to get started with property-based testing than before, because agents are actually pretty good at writing the tests! I have a confession to make: All those examples of bugs we found using Hegel? I didn’t write them. Claude did.
+As well as the core Hegel libraries, we’re also releasing a Hegel skill for getting agents to write property-based tests for you. I don’t think it can — or should — replace you writing your own property-based tests, but the hardest part of property-based testing for people has always seemed to be writing the first test, because it forces you to think a lot more about how to generate data for testing your code. Letting an agent get you over that initial hump is going to be a huge win.
+All of this is, of course, an argument that you should be using property-based testing, rather than Hegel in particular. Why should you use Hegel in particular?
+Well, if you’ve already got great property-based tests that you’re happy with, you probably shouldn’t. Hegel is still early days and while we want it to be the best property-based testing library in every language, and are confident that we’ll get it there, we can’t deny that it’s got some rough edges. That being said, if you want to check it out anyway, I bet Claude will one-shot porting over your existing tests to it, and you can decide for yourself which you prefer (and if it’s the existing ones, we would really appreciate your telling us why so we can fix it!).
+If, on the other hand, you’d like to get started on some green field property-based testing, we think Hegel is a great place to do it. It inherits a lot of power from its Hypothesis core, and we’ve made it as easy to use as possible.
+What’s next
+In the short term, the big thing we’re working on is Hegel for other languages. As mentioned, we’ve got Go, C++, OCaml, and TypeScript in the works at various levels of readiness. Expect to see some or all of these over the coming weeks.
+Between that, supporting users, and the inevitable feature requests and bug reports we expect/hope to get, we’re going to be a bit busy in the short term, but we’ve also got some more ambitious plans coming up.
+We’d like to drop the Python dependency for Hegel. As well as being kind of weird, it’s definitely the current performance limiter on running Hegel tests. Our current long-term plan is to implement a second Hegel server in Rust, but we’re not promising this will happen or committing to any timelines yet.
+After that, our top priority is getting Hegel better at the sort of workloads that Antithesis shines at. Currently we expect it to work well for the traditional sort of property-based testing that Hypothesis is already good at, but we’re looking to expand it to be better at highly concurrent and non-deterministic tests.
+As well as making this better for testing the sorts of distributed systems people use Antithesis to test, it’s also a prerequisite for better integration with Antithesis’s other new open source property-based initiative, Bombadil.9 From the very beginning, it’s been the plan that Bombadil is going to get great shrinking and great Antithesis fuzzer integration through the Hegel protocol, but we didn’t have a runner capable of it when Oskar started the project, and we agreed it would be crazy to delay the project for that. Figuring out how to bridge that gap is very much on our roadmap.
+Join the dialectic
+Right now, Hegel is more or less a “developer preview”. We expect the underlying logic to be pretty rock solid, because Hypothesis is pretty rock solid, but there are definitely going to be some rough edges in how we interact with it. We’re pretty happy with the API but expect we’ve not got it 100% right.
+We’d love it if you checked out Hegel and let us know about any bugs you find with it, whether they’re in your code or ours!
