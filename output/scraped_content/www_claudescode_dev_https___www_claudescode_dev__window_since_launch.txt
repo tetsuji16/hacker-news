@@ -1,0 +1,495 @@
+URL: https://www.claudescode.dev/?window=since_launch
+
+Interesting Observations
+A quick read on momentum, adoption, and where the current activity is clustering.
+Growth
++8%W/W
+Acceleration
+-17.9pp
+Doubling Time
+61 days
+Early Adopter Commits
+These are the earliest observed public-era Claude Code commits we can verify after launch. Multiple same-day candidates may exist, so this is suggestive rather than definitive.Feb 24, 2025
+Earliest observed launch-day candidates for Claude Code adoption
+moinmir/ClashOfCans
+Change initial game setup to always have exactly 1 correct can
+This improves the starting condition by ensuring players always begin with exactly
+one can in the correct position, making the initial game state more consistent.
+🤖 Generated with Claude Code
+Co-Authored-By: Claude <[email protected]>
+1 of 5 candidatesRotates every 5s
+New Repos This Week
+114,780
+Original repos (non-forks) with their first observed Claude Code commit in the last 7 days
+Net Code Delta
++30.7B
+Lines added minus lines deleted for the current slice
+Top 3 Languages
+01TypeScript
+34.8%
+7.25M commits
+02Python
+18.9%
+3.92M commits
+03JavaScript
+10.2%
+2.13M commits
+Total Commits
+20,807,011
+Global activity
+Lines Added
++50,442,790,274
+New code generated
+Lines Deleted
+-19,767,154,942
+Refactored code
+Active Repos
+1,087,403
+Contributing projects
+ViewActivity Over Time
+System Activity Log
+Since Launch · All · Mar 25, 8:02 PMc907bd803/25/2026, 18:59:38standardbeagle/agnt
+chore: bump version to 0.12.23
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
+Co-Authored-By: Claude Opus 4.5 <[email protected]>
+0c5107803/25/2026, 18:59:25mearley24/AI-Server
+fix: persist seen_trade_ids to disk so restarts don't re-copy old trades
+6fd955103/25/2026, 18:57:42ydesjardins200-coder/wavesfinancial
+Add reviews.html — aggregate ratings, masonry reviews grid with filter, province scores + update footer links across all pages
+adee22d03/25/2026, 18:57:33bencrane/data-engine-x-api
+refactor: BJC-124 remove GLOBAL_ENTITY_IDS feature flag and legacy code paths
+Global entity identity is now the only code path. Removes:
+- GLOBAL_ENTITY_IDS setting from app/config.py
+- _use_global_entity_ids() helper and all conditional branches
+- Legacy org-scoped identity resolution and query filtering
+- All flag-toggling test fixtures and legacy-path tests
+Co-Authored-By: Claude Opus 4.6 <[email protected]>
+daa8b0803/25/2026, 18:56:28standardbeagle/agnt
+fix: daemon stop now terminates process on Windows
+Wire hub's new onShutdown callback to signal context cancel so the
+daemon process exits when remote SHUTDOWN verb is received. Add
+verification loop in daemon stop/restart to confirm process death
+before reporting success. Update go-cli-server to v0.3.4.
+Closes: ql47c1ivU52v
+Co-Authored-By: Claude Opus 4.6 (1M context) <[email protected]>
+84da71503/25/2026, 18:56:13ayeshakhalid192007-dev/humanoid-ai-studio
+fix(ci): use Railway deploy hooks instead of CLI token
+CLI token auth fails on Railway trial accounts. Deploy hooks are
+a POST-based webhook requiring no auth token — just a secret URL.
+User needs to generate hooks in Railway dashboard and add as GitHub secrets.
+Co-Authored-By: Claude Sonnet 4.6 <[email protected]>
+9791d4903/25/2026, 18:55:58CannObserv/watcher
+#41 fix: address CR round 2 — DRY field partial, consolidate meta, fix poller test
+Co-Authored-By: Claude Sonnet 4.6 <[email protected]>
+106113003/25/2026, 18:55:21standardbeagle/go-cli-server
+fix: add onShutdown callback for remote shutdown notification
+Hub.SetOnShutdown(fn) allows host processes to react when a remote
+SHUTDOWN verb is received. handleShutdown() invokes the callback before
+hub.Stop(), enabling the daemon process to cancel its signal context
+and exit cleanly on Windows (where SIGTERM doesn't exist).
+Co-Authored-By: Claude Opus 4.6 (1M context) <[email protected]>
+cff078803/25/2026, 18:54:34james-axis/project-origin
+fix: ESM/CommonJS import compatibility for twilio module
+- Changed named import to default import with destructuring
+- twilio is CommonJS and doesn't support named ESM exports
+- Fixes Railway deployment crash
+42edbb103/25/2026, 18:53:12GroupRaymondi/invicta-supabase-flow
+fix: replace @react-pdf-viewer with native iframe — resolves t.length crash
+Root cause: @[email protected] is incompatible with [email protected].
+The useMemo fix (commit fc71ee9) stabilized the plugin lifecycle, allowing
+the viewer to reach the broken pdfjs v4 API and throw:
+'undefined is not an object (evaluating t.length)'
+This broke ALL comprovante access across every client and process.
+Fix: replace entire @react-pdf-viewer stack with native <iframe>.
+- Browsers (Chrome, Safari, Firefox) render PDFs natively inside iframes
+with built-in zoom, page navigation, and print — no external library
+- Images continue to use <img> tag (unchanged)
+- Removes: Worker, Viewer, defaultLayoutPlugin, SpecialZoomLevel,
+PDF_WORKER_URL, pdfError state, useIframeFallback state,
+galleryPdfErrors state (and all their effects/handlers)
+- renderPdfPreview() → single <iframe src={activeUrl}>
+- renderGalleryPdfContent() → single <iframe src={docUrl}>
+- renderPdfError() → renamed renderImageError() for image-only errors
+- 115 lines deleted, 20 added
+555a5a803/25/2026, 18:53:04ayeshakhalid192007-dev/humanoid-ai-studio
+fix(ci): switch Railway deploy to official railwayapp/railway-deploy action
+CLI token auth is restricted on trial accounts. Official GitHub Action
+handles auth more reliably. Keeps test gate before deployment.
+Co-Authored-By: Claude Sonnet 4.6 <[email protected]>
+432595f03/25/2026, 18:52:28snobol4ever/.github
+PJ-41: document conjunction-fix regression; PJ-42 = blunt zero-sweep approach
+Two fix attempts both reverted:
+- PJ-40: pj_emit_body direct in NAF → 16/20 (lbl_outer_ω wiring)
+- PJ-41: *next_local in conjunction branch → puzzle_18 0 lines (frame collision)
+PJ-42 approach: blunt zero-sweep [trail+1+nvars+8 .. +64] at naf_ok/naf_fail.
+No frame layout changes. Safe because those slots are dead after NAF exits.
+Score held at 19/20 throughout.
+f5af75803/25/2026, 18:52:22thefiredev-cloud/Protocol-Guide
+chore: Update ethereal-floating-lollipop.md
+Auto-committed by Claude Code after file modification
+3d50aba03/25/2026, 18:50:33Endymion1236/centre-equestre-agon
+fix: impayés propres + échéances isolées + détail forfait
+Bug IN-06 — Échéances fusionnées avec d'autres prestations :
+Avant : quand on inscrit à un stage après un forfait annuel,
+le stage était ajouté dans l'échéance pending du forfait
+→ échéance 8/10 à 164.50€ au lieu de 34.50€
+Après : les échéances (echeancesTotal > 1) sont EXCLUES
+de la recherche de commande ouverte → jamais fusionnées.
+Appliqué dans handleEnroll ET dans le flow stage.
+Impayés — Échéances exclues :
+Avant : toutes les échéances non payées apparaissaient dans
+les impayés → 10 lignes × N clients = illisible
+Après : les échéances sont filtrées (echeancesTotal > 1)
+→ seules les commandes normales apparaissent dans Impayés
+→ les échéances ont leur propre onglet dédié
+Échéances — Détail des items visible :
+Avant : on ne voyait que 'galop d'or — mercredi 10:00'
+sans comprendre pourquoi l'échéance 8 coûte plus.
+Après : un bloc détail s'affiche sous l'en-tête avec
+chaque ligne : Adhésion 60€, Licence 25€, Forfait 260€
+→ l'admin comprend la composition du forfait.
+Build compilé OK.
+b9ab8b303/25/2026, 18:49:38martinnhoo/frame-iq-mvp
+fix: UX — SettingsPage + AccountsPage + DashboardOverview → zero inglês
+SettingsPage:
+- 'Could not open billing portal' → PT
+- 'Failed to update profile' → PT
+- 'Profile updated' → PT
+- 'Limited access. Upgrade...' → PT
+- 'Unlimited messages · Everything' → PT
+- 'Manage billing' → PT
+- Descrições de API keys → PT
+AccountsPage:
+- Fallback 'Connect/Connecting/Coming soon' → PT
+- Toasts de erro de conexão → PT
+- 'Customer ID saved' → PT
+DashboardOverview — feed cards (15 strings):
+- 'You prefer X hooks' → 'Você prefere hooks de X'
+- 'Avoid X hooks' → 'Evite hooks de X'
+- 'Hook quality: X/10 avg' → 'Qualidade média: X/10'
+- 'Score hooks before spending' → 'Avalie hooks antes de gastar'
+- 'Hook score improving/declining' → PT
+- 'X overuse detected' → PT
+- 'Replicate this' → 'Replique este formato'
+359289903/25/2026, 18:49:09CannObserv/watcher
+#41 fix: address CR round 1 — inline field partial, a11y, DRY filters, non-JS fallbacks
+Co-Authored-By: Claude Opus 4.6 (1M context) <[email protected]>
+51c90e403/25/2026, 18:49:01Held0fTheWelt/BETTER-TOMORROW
+test(integration): add cross-service contracts and execution profiles
+WAVE 9 (FINAL WAVE) - Complete comprehensive test expansion mission.
+Added deliverables:
+- Backend-to-world-engine bridge contract tests: 24 tests, all passing
+* Ticket issuance validation with HMAC-SHA256 signatures
+* Secret and API key mismatch detection
+* Expiration and TTL handling
+* Field mapping compatibility (UUID, alphanumeric, special chars)
+* Version compatibility and forward compatibility
+* Join context authentication requirements
+- Test execution profiles documentation (updated with actual metrics)
+* Fast Admin: 1,038 tests, ~10-15s, 100% pass
+* Full Admin: 1,038 tests, ~15-20s, 100% pass
+* Fast World-Engine: 683 tests, ~10s, 99% pass (5 known failures)
+* Full World-Engine: 770 tests, ~12s, 97.7% pass (18 known failures)
+* Security tests: 399+ tests, 100% pass
+* Contract tests: 1,179+ tests, 100% pass
+* Bridge tests: 24 tests, 100% pass
+- XFail policy and known issues documentation
+* 18 test isolation failures identified and tracked
+* Root cause: Configuration module caching in pytest
+* 3 remediation options documented (quick/proper/workaround)
+* Non-blocking; all critical paths (contracts/security) pass 100%
+- Final validation report
+* All 9 waves summarized with metrics
+* Security guarantees delivered
+* Deployment readiness checklist
+* CI/CD integration commands ready
+* Production-ready status confirmed
+Updated CHANGELOG.md:
+- Added v0.1.10 summary entry with all wave completions
+- Final mission status: ACCOMPLISHED
+Architecture improvements delivered:
+- 1,808+ tests across 3 components
+- Clear marker system for selective execution
+- Cross-service contract verification
+- Production-grade security testing
+- Complete test documentation
+Known limitations:
+- 18 tests fail in full suite due to config caching (pass in isolation)
+- Documented with remediation timeline
+- Does not block production deployment
+CI/CD ready profiles:
+- Pre-commit: 683/688 tests in ~10s
+- PR merge gate: 1,179+ contract tests in ~25s
+- Security audit: 399+ security tests in ~20s
+- Pre-deploy: Full validation ~45s
+151e6f303/25/2026, 18:48:16dearjohndoe/ton-agents-marketplace
+dx: add MCP gotchas resource, SIDECAR_PYTHON docs, service --name note
+- mcp/resources/gotchas.py: new resource catallaxy://guide/gotchas with
+known pitfalls discovered during agent development:
+* TonAPI returns nft/collection as string instead of dict for unknown items
+* test_agent tool ignores AGENT_COMMAND (hardcoded python)
+* workdir matters when running sidecar run
+* port conflict after manual runs
+* parallel request bursting inside agent
+- mcp/resources/sidecar_env.py: document SIDECAR_PYTHON as auto-injected var
+- mcp/resources/create_guide.py: add doctor step, --name flag position warning
+- mcp/server.py: register new gotchas resource
+Co-Authored-By: Claude Sonnet 4.6 <[email protected]>
+6188d1e03/25/2026, 18:47:46Olaf888-ai/pv-rechner
+Original Rechner + White-Theme
+e37ceaf03/25/2026, 18:47:46martinnhoo/frame-iq-mvp
+fix: UX completa — zero inglês em todas as páginas
+PÁGINAS CORRIGIDAS:
+ScriptGenerator:
+- toast 'Enter a product/service' → PT
+- toast 'Failed to generate script' → PT
+- 'Copied' → 'Copiado'
+- 'Writing script' → PT/ES
+BriefGenerator:
+- Todos os placeholders em inglês → PT
+- 'Generating brief...' → 'Gerando brief...'
+- 'Generate Creative Brief' → 'Gerar Brief Criativo'
+- Toasts de erro → PT
+HookGenerator:
+- Toasts → PT
+- Country: 'Brazil' → 'Brasil', 'Mexico' → 'México', 'United States' → 'EUA', 'India' → 'Índia'
+- Funnel: 'Awareness — cold audience' → PT
+- Strength: 'High' → 'Alto'
+PreflightCheck:
+- Drop zone: 'Please drop a video file' → PT
+- Audio errors → PT
+- Verdict labels: 'Strong/Solid/Optimal/Good' → 'Forte/Sólido/Ótimo/Bom'
+- Category labels: 'Suggestion/Tip/Note' → 'Sugestão/Dica/Nota'
+- Format labels: 'Testimonial' → 'Depoimento', 'Before-After' → 'Antes-Depois'
+- Country names → PT
+TranslatePage:
+- Todos os toasts → PT
+CompetitorDecoder:
+- 'Competitor/Analyze/Copy/Copied' → PT
+SettingsPage + AccountsPage + DashboardOverview:
+- Identificados para próximo commit (precisam de Chrome ao vivo)
+c11c52603/25/2026, 18:47:16snobol4ever/.github
+Scripten planning session archive entry — e2200e6
+e2200e603/25/2026, 18:46:42snobol4ever/.github
+Scripten: add SCRIPTEN.md vision, SCRIPTEN_DEMO.md family tree, SCRIPTEN_DEMO2.md puzzle solver
+7e9895003/25/2026, 18:46:25snobol4ever/.github
+PJ-40: diagnose puzzle_18 NAF inner-locals leak; fix approach in §CRITICAL NEXT ACTION (PJ-41)
+19/20 baseline preserved at 56850fd.
+Root cause: \+ emitter calls pj_emit_goal for inner conjunction, which uses
+local next_local_tmp (not *next_local). Inner ucall cs slots never reflected in
+*next_local → naf_locals_start==naf_locals_end → zero loop is empty → inner
+call_N_beta labels left live with stale cs → outer retry re-enters NAF.
+Fix (PJ-41): change conjunction branch in pj_emit_goal to use/update *next_local.
+PJ-40 regression (pj_emit_body direct in NAF, 16/20) documented and reverted.
+fcac0ae03/25/2026, 18:45:44thefiredev-cloud/Protocol-Guide
+chore: Create netlify.toml
+Auto-committed by Claude Code after file modification
+5d0b89803/25/2026, 18:45:07thefiredev-cloud/Protocol-Guide
+fix: increase agency selector maxWidth to reduce truncation
+- Web: 40% → 50% maxWidth
+- Native: 220px → 260px maxWidth
+- Allows longer agency names like 'Los Angeles County EMS Agency' to display more fully
+- Tooltip (title attribute) still shows full name on web hover
+- Resolves agency name truncation issue from visual QA
+c0b730d03/25/2026, 18:44:56bencrane/data-engine-x-api
+docs: BJC-123 update repo documentation for global entity model
+- DATA_ENGINE_X_ARCHITECTURE.md: Updated database shape section to document
+global entity identity and association-based visibility. Added Section 8
+documenting resolved architectural problems from the migration.
+- GLOBAL_DATA_MODEL_ANALYSIS.md: Added Post-Migration section documenting what
+was implemented, migration phases, and remaining items.
+- ENTITY_DATABASE_DESIGN_PRINCIPLES.md: Updated Principles 3 and 4 with
+implementation status confirming they are now in production.
+- DATA_ACCESS_AND_AUTH_GUIDE.md: Updated tenant visibility to reflect
+association-based filtering. Restructured schema reference to separate
+globally-identified entity tables from org-scoped analysis tables.
+- PERSISTENCE_MODEL.md: Updated entity upsert documentation to reflect global
+identity and association writes.
+- Added OPERATIONAL_REALITY_CHECK_2026-03-25.md with post-migration production
+state snapshot.
+Co-Authored-By: Claude Opus 4.6 <[email protected]>
+b5205f503/25/2026, 18:44:51thefiredev-cloud/Protocol-Guide
+chore: Create home.tsx
+Auto-committed by Claude Code after file modification
+969f12903/25/2026, 18:43:10Kalisiyatrust/seek-god
+Add content reader modal, remove premium gating, launch week updates
+- Create ContentReader modal for viewing full article text on video/audio cards
+- Remove premium lock badges and showPremiumLock prop from ContentCard
+- Add dismissible LaunchBanner component across homepage and content pages
+- Add "Free Content Library" section to homepage with 6-card grid
+- Update hero badge to "Launch Week — Everything Free!"
+- Update hero CTA to link to /content with "No signup required" messaging
+- Update video page with "Read Full Summary" instead of play button
+- Update audio page with "Read Guide" instead of play/pause controls
+Co-Authored-By: Claude Opus 4.6 <[email protected]>
+cff349a03/25/2026, 18:42:41thefiredev-cloud/Protocol-Guide
+chore: Create home.tsx
+Auto-committed by Claude Code after file modification
+2b02c3d03/25/2026, 18:42:23Held0fTheWelt/BETTER-TOMORROW
+test(wave8): add comprehensive persistence and recovery coverage
+Implement WAVE 8 of the test expansion for World of Shadows v0.1.10,
+focusing on persistence layer guarantees and recovery scenarios.
+Test Coverage Added:
+- test_store_json.py: 19 tests (from 9) covering JSON persistence,
+large transcripts, participant/prop state, special characters,
+atomic writes, and file management
+- test_store_recovery.py: 18 tests (from 8) covering save/load cycles,
+data consistency, partial write recovery, and multi-cycle stability
+- test_store_sqlalchemy.py: 14 tests (from 7) covering SQLAlchemy
+backend persistence, database operations, and SQL-specific scenarios
+- test_store_config.py: 24 new tests covering store configuration,
+backend selection, validation, and initialization
+Key Achievements:
+- 51 new tests total (75 persistence tests across 4 files)
+- Real file I/O and database testing (no mocks for storage)
+- Recovery from corruption and partial writes
+- Data integrity verification across restart cycles
+- Configuration validation and error handling
+- Comprehensive coverage of Layer 5 (Persistence) and Layer 9 (Recovery)
+per WORLD_ENGINE_TARGET_TEST_MATRIX.md
+Test Markers:
+- All tests marked: @pytest.mark.persistence
+- All tests marked: @pytest.mark.contract
+- Total world-engine test suite: 770+ tests
+All 75 WAVE 8 persistence tests passing.
+Co-Authored-By: Claude Haiku 4.5 <[email protected]>
+e45146c03/25/2026, 18:42:19martinnhoo/frame-iq-mvp
+fix: UX — saudação sempre em PT, zero inglês no produto
+BUGS CORRIGIDOS:
+1. Saudação em inglês (bug crítico de conversão):
+- greetingTitle: 'Your account is ready' → 'Sua conta está pronta'
+- No-connection: 'To give you real insights...' → PT sempre
+- 'What do you want to do?' → 'O que quer fazer?'
+- Connected-no-data: fallback inglês → PT
+- Todos os else blocks que caíam em inglês → PT como padrão
+2. Sidebar 'AI Chat' → 'IA Chat' sempre
+3. Strings hardcoded em inglês:
+- 'Copy' → 'Copiar' (feedback row)
+- 'Script' title → 'Roteiro'
+- 'Error' → 'Erro'
+- 'Yes, proceed' → 'Sim, continuar'
+- 'Executing...' → 'Executando...'
+- 'Done ✓' → 'Pronto ✓'
+- 'Pause/Activate' → 'Pausar/Ativar'
+- 'Ask anything...' → 'Pergunte algo...'
+REGRA: PT é o padrão. ES é a única exceção explícita.
+Inglês não aparece mais para usuários BR.
+bd826e903/25/2026, 18:42:15AlexBabetov/01-zhivoi-urok-constructor
+fix: keepalive пинги теперь работают всё время стриминга
+clearInterval(keepalive) ранее вызывался сразу после получения
+заголовков ответа от Anthropic API — то есть ДО начала стриминга
+токенов. В результате nginx мог оборвать SSE-соединение по
+proxy_read_timeout (60с) во время длинных уроков.
+Теперь keepalive останавливается только после завершения цикла
+reader.read() (когда стрим реально закончен) или в catch-блоке
+при ошибке.
+Co-Authored-By: Claude Sonnet 4.6 <[email protected]>
+478da6a03/25/2026, 18:41:48thefiredev-cloud/Protocol-Guide
+fix: replace Ionicons with MaterialIcons to resolve web font loading error
+- Changed import from Ionicons to MaterialIcons in app/_layout.tsx
+- Removed Ionicons.ttf from public/fonts (381KB)
+- Web continues to use SVG icons via icon-symbol.web.tsx
+- Native now uses MaterialIcons.font instead of Ionicons.font
+- Resolves OTS parsing error and font decode failures on web
+b2a6af203/25/2026, 18:41:36standardbeagle/agnt
+claim: ql47c1ivU52v by beagle-ab2-1525659
+Co-Authored-By: Claude Opus 4.6 (1M context) <[email protected]>
+2632fa903/25/2026, 18:40:54Endymion1236/centre-equestre-agon
+fix: 5 bugs du plan de tests
+PL-07/PL-10 — Dates décalées d'1 jour (RDV pro + vue mois) :
+Cause : fmtDate() utilisait toISOString() qui convertit en UTC
+→ minuit local = veille 22h/23h UTC = date -1
+Corrigé : fmtDate() utilise getFullYear/getMonth/getDate (local)
+→ plus de décalage de timezone
+PL-09 — Duplication copie les tarifs multi-jours :
+Les champs price1day/2days/3days/4days sont maintenant
+copiés lors de la duplication de semaine.
+Note : enrolled est déjà remis à [] (pas de copie d'inscrits)
+ST-01 — En-tête modale affiche '175€/séance' pour un stage :
+Corrigé : les stages affichent '175€' (sans '/séance')
+Les cours gardent '22€/séance'
+ST-04 — Enfants inscrits à 2 créneaux au même horaire :
+Ajout d'un filtre de conflit horaire : si un enfant est
+déjà inscrit sur un autre créneau le même jour à la même
+heure, il n'apparaît plus dans la liste des disponibles.
+Build compilé OK.
+d4759ef03/25/2026, 18:40:22ydesjardins200-coder/wavesfinancial
+Add about.html — story, mission, values, team, commitments + update About Us footer links across all pages
+5926ba103/25/2026, 18:40:17thefiredev-cloud/Protocol-Guide
+chore: Create _layout.tsx
+Auto-committed by Claude Code after file modification
+28127a403/25/2026, 18:40:15bencrane/data-engine-x-api
+feat: BJC-126 end-to-end validation smoke test
+Comprehensive pytest suite (35 tests, 12 scenarios) validating global entity
+model behavior: cross-org enrichment identity, association isolation per org,
+list endpoint filtering via associations, Clay ingestion, standalone execute,
+dedicated table org-scoping, FMCSA/federal isolation, timeline lineage,
+super-admin visibility, company-scoped user filtering, person/job global
+identity, and snapshot versioning.
+Co-Authored-By: Claude Opus 4.6 <[email protected]>
+d80c1ef03/25/2026, 18:40:07beedoo-gmbh/pv-rechner
+White-Theme - sauber vom Original-Backup
+14d18e603/25/2026, 18:39:55thefiredev-cloud/Protocol-Guide
+chore: Create _layout.tsx
+Auto-committed by Claude Code after file modification
+f35c81903/25/2026, 18:39:47beedoo-gmbh/pv-rechner
+White-Theme vom sauberen Backup - kein Login
+22e158e03/25/2026, 18:39:39mearley24/AI-Server
+fix: use EOA mode — funds transferred to EOA wallet, proxy signing broken in py-clob-client
+886371a03/25/2026, 18:38:48ayeshakhalid192007-dev/humanoid-ai-studio
+fix(build): add missing book/src/lib/oauth.ts to git tracking
+File was on disk but never committed, causing GitHub Actions build to fail
+with "Module not found: Can't resolve '../lib/oauth'"
+Co-Authored-By: Claude Sonnet 4.6 <[email protected]>
+02f7a4703/25/2026, 18:38:12Held0fTheWelt/BETTER-TOMORROW
+test(wave7): add websocket, rejoin, and runtime contract coverage
+Add 70 new tests across 4 test files for comprehensive WebSocket, rejoin,
+and runtime command coverage:
+- test_ws_auth.py: 18 tests covering WebSocket authentication, identity
+verification, ticket validation, and connection setup (5 new tests)
+- test_ws_rejoin.py: 12 tests for rejoin behavior, state preservation,
+and disconnect/reconnect flows (2 new tests)
+- test_runtime_commands.py: 22 tests for command execution, validation,
+and state mutations (11 new tests)
+- test_ws_runtime_commands_and_isolation.py: 18 new tests for WebSocket
+command execution and state/broadcast isolation
+Coverage includes:
+- WebSocket handshake and auth validation
+- Identity and character verification
+- Ticket tampering and expiration detection
+- Rejoin state preservation across disconnect
+- Seat ownership and lobby state persistence
+- Runtime command execution (move, say, emote, inspect, ready, start)
+- Command parameter validation
+- State isolation and broadcast boundaries
+- Cross-run leakage prevention
+- Unauthorized action rejection
+All tests pass with no regressions. World-engine test suite expanded
+from 683 to 753 tests (+36 existing tests, +70 new tests).
+Co-Authored-By: Claude Haiku 4.5 <[email protected]>
+e7feb1903/25/2026, 18:37:43thefiredev-cloud/Protocol-Guide
+chore: Create search-cache-memory.ts
+Auto-committed by Claude Code after file modification
+0e0761503/25/2026, 18:34:25thefiredev-cloud/Protocol-Guide
+chore: Create tier-validation.ts
+Auto-committed by Claude Code after file modification
+d21ef7003/25/2026, 18:34:03thefiredev-cloud/Protocol-Guide
+chore: Create tier-validation.ts
+Auto-committed by Claude Code after file modification
+a191f4c03/25/2026, 18:33:40thefiredev-cloud/Protocol-Guide
+chore: Create tier-validation.ts
+Auto-committed by Claude Code after file modification
+558443603/25/2026, 18:32:53ydesjardins200-coder/wavesfinancial
+Add favicon.ico, favicon-32.png, apple-touch-icon.png + inject favicon tags across all 13 pages
+aad9b0f03/25/2026, 18:32:34nushell-prophet/cozy
+docs: add changelog cross-version check to validate-docs skill
+Sequential changelog entries can contradict each other (e.g. v0.0.2
+records switching FROM X but v0.0.1 already claims X was never used).
+This was discovered during a manual doc audit — adding it to the
+skill's checklist so future validations catch it automatically.
+Co-Authored-By: Claude Opus 4.6 (1M context) <[email protected]>
+Top Repositories
+Since Launch · All · ranked by commits
+Languages
+Code distribution
+Showing total commits by language

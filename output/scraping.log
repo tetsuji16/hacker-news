@@ -3121,3 +3121,23 @@ DEBUG: Scraping URL: https://antithesis.com/blog/2026/hegel/
 DEBUG: Successfully scraped 16761 chars from https://antithesis.com/blog/2026/hegel/. Saved to output/scraped_content/antithesis_com_https___antithesis_com_blog_2026_hegel_.txt
 DEBUG: Scraping URL: https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/
 DEBUG: Successfully scraped 1646 chars from https://sbcwiki.com/docs/soc-manufacturers/arm/arm-silicon/. Saved to output/scraped_content/sbcwiki_com_bcwiki_com_docs_soc_manufacturers_arm_arm_silicon_.txt
+DEBUG: Scraping URL: https://fightchatcontrol.eu/?foo=bar
+DEBUG: Successfully scraped 259 chars from https://fightchatcontrol.eu/?foo=bar. Saved to output/scraped_content/fightchatcontrol_eu_https___fightchatcontrol_eu__foo_bar.txt
+DEBUG: Scraping URL: https://rpastro.square.site/s/stories/phm
+DEBUG: Trafilatura extracted empty text from https://rpastro.square.site/s/stories/phm
+DEBUG: Scraping URL: https://www.nytimes.com/2026/03/25/us/politics/supreme-court-cox-music-copyright.html
+DEBUG: Trafilatura failed to download https://www.nytimes.com/2026/03/25/us/politics/supreme-court-cox-music-copyright.html
+DEBUG: Scraping URL: https://lapcatsoftware.com/articles/2026/3/11.html
+DEBUG: Successfully scraped 3663 chars from https://lapcatsoftware.com/articles/2026/3/11.html. Saved to output/scraped_content/lapcatsoftware_com_https___lapcatsoftware_com_articles_2026_3_11_html.txt
+DEBUG: Scraping URL: https://ente.com/blog/ensu/
+DEBUG: Successfully scraped 5581 chars from https://ente.com/blog/ensu/. Saved to output/scraped_content/ente_com_https___ente_com_blog_ensu_.txt
+DEBUG: Scraping URL: https://www.claudescode.dev/?window=since_launch
+DEBUG: Successfully scraped 24681 chars from https://www.claudescode.dev/?window=since_launch. Saved to output/scraped_content/www_claudescode_dev_https___www_claudescode_dev__window_since_launch.txt
+DEBUG: Scraping URL: https://ngrok.com/blog/quantization
+DEBUG: Successfully scraped 30125 chars from https://ngrok.com/blog/quantization. Saved to output/scraped_content/ngrok_com_https___ngrok_com_blog_quantization.txt
+DEBUG: Scraping URL: https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/
+DEBUG: Successfully scraped 4240 chars from https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/. Saved to output/scraped_content/github_blog_s_to_github_copilot_interaction_data_usage_policy_.txt
+DEBUG: Scraping URL: https://arcprize.org/arc-agi/3
+DEBUG: Successfully scraped 1798 chars from https://arcprize.org/arc-agi/3. Saved to output/scraped_content/arcprize_org_https___arcprize_org_arc_agi_3.txt
+DEBUG: Scraping URL: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
+DEBUG: Successfully scraped 13450 chars from https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/. Saved to output/scraped_content/mariozechner_at_osts_2026_03_25_thoughts_on_slowing_the_fuck_down_.txt
