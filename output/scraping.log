@@ -3141,3 +3141,23 @@ DEBUG: Scraping URL: https://arcprize.org/arc-agi/3
 DEBUG: Successfully scraped 1798 chars from https://arcprize.org/arc-agi/3. Saved to output/scraped_content/arcprize_org_https___arcprize_org_arc_agi_3.txt
 DEBUG: Scraping URL: https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/
 DEBUG: Successfully scraped 13450 chars from https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/. Saved to output/scraped_content/mariozechner_at_osts_2026_03_25_thoughts_on_slowing_the_fuck_down_.txt
+DEBUG: Scraping URL: https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what
+DEBUG: Successfully scraped 15388 chars from https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what. Saved to output/scraped_content/www_derekthompson_org_rekthompson_org_p_we_havent_seen_the_worst_of_what.txt
+DEBUG: Scraping URL: https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform
+DEBUG: Successfully scraped 5198 chars from https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform. Saved to output/scraped_content/home_cern_t_europes_flagship_open_access_publishing_platform.txt
+DEBUG: Scraping URL: https://voxday.net/2026/03/25/rip-john-bradley/
+DEBUG: Successfully scraped 1684 chars from https://voxday.net/2026/03/25/rip-john-bradley/. Saved to output/scraped_content/voxday_net_https___voxday_net_2026_03_25_rip_john_bradley_.txt
+DEBUG: Scraping URL: https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam
+DEBUG: Successfully scraped 7468 chars from https://bethmathews.substack.com/p/why-so-many-control-rooms-were-seafoam. Saved to output/scraped_content/bethmathews_substack_com_stack_com_p_why_so_many_control_rooms_were_seafoam.txt
+DEBUG: Scraping URL: https://futuresearch.ai/blog/litellm-attack-transcript/
+DEBUG: Successfully scraped 2245 chars from https://futuresearch.ai/blog/litellm-attack-transcript/. Saved to output/scraped_content/futuresearch_ai____futuresearch_ai_blog_litellm_attack_transcript_.txt
+DEBUG: Scraping URL: https://github.com/resumex/doom-over-dns
+DEBUG: Successfully scraped 3354 chars from https://github.com/resumex/doom-over-dns. Saved to output/scraped_content/github_com_https___github_com_resumex_doom_over_dns.txt
+DEBUG: Scraping URL: https://www.johndcook.com/blog/2026/03/26/table-precision/
+DEBUG: Successfully scraped 4144 chars from https://www.johndcook.com/blog/2026/03/26/table-precision/. Saved to output/scraped_content/www_johndcook_com_www_johndcook_com_blog_2026_03_26_table_precision_.txt
+DEBUG: Scraping URL: https://press.asimov.com/articles/culture-shift
+DEBUG: Successfully scraped 21053 chars from https://press.asimov.com/articles/culture-shift. Saved to output/scraped_content/press_asimov_com_https___press_asimov_com_articles_culture_shift.txt
+DEBUG: Scraping URL: https://github.com/russellromney/turbolite
+DEBUG: Successfully scraped 31529 chars from https://github.com/russellromney/turbolite. Saved to output/scraped_content/github_com_https___github_com_russellromney_turbolite.txt
+DEBUG: Scraping URL: https://colibri.social/
+DEBUG: Successfully scraped 1561 chars from https://colibri.social/. Saved to output/scraped_content/colibri_social_https___colibri_social_.txt

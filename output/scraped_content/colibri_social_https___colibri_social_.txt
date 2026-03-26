@@ -1,0 +1,15 @@
+URL: https://colibri.social/
+
+LET YOUR COMMUNITY SPREAD ITS WINGS.
+Colibri is an open source chat platform built on the AT protocol for communities big and small.
+CHAT, TALK, AND HANG OUT IN REAL TIME.
+From quick chats and drop-in voice or video calls to organized forum discussions, Colibri gives your community the perfect space to stay connected and share what matters.
+YOU OWN YOUR DATA.
+Your data isn’t trapped on our servers, it's stored within the personal data server that hosts your ATmosphere profile. You can check our FAQ page for more information.
+EASY MOD TOOLING.
+Running more than just a group chat? Colibri allows you to easily block and remove messages, kick members from your community, and stop them from joining again.
+A MODERN, SIMPLE, AND FAMILIAR UI.
+Colibri's user interface is inspired by other apps like Discord, Teams and Slack. You'll feel right at home with familiar design elements, structures, and features.
+QUESTIONS? WE’VE GOT ANSWERS.
+Your data is stored on the personal data server that hosts your profile. On the AT protocol, each user has their own profile that isn't specific to any app or service. You can use it to log in anywhere! Because of this, you need a single source of truth that handles logins and data storage for you. The server that does this for you is called your personal data server, or PDS.
+If you've previously signed up to Bluesky, they will currently be hosting your PDS for you. But it's easy to migrate to a self-hosted PDS as well! Tools like PDS MOOver can help you migrate your data to your own servers when you are ready to.
