@@ -1,0 +1,13 @@
+requests
+trafilatura
+google-generativeai
+edge-tts
+pydub
+audioop-lts; python_version >= "3.13"
+schedule
+beautifulsoup4
+lxml
+python-dotenv
+podgen
+mutagen
+pytz

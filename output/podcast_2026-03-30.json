@@ -1,34 +1,46 @@
 {
-  "date": "2026-03-27",
-  "duration_seconds": 161,
-  "size_bytes": 646700,
+  "date": "2026-03-30",
+  "duration_seconds": 214,
+  "size_bytes": 856748,
   "articles": [
     {
-      "title": "Anatomy of the .claude/ folder",
+      "title": "Copilot edited an ad into my PR",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Make macOS consistently bad unironically",
+      "title": "How to turn anything into a router",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Apple discontinues the Mac Pro",
+      "title": "Fedware: Government apps that spy harder than the apps they ban",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Hold on to Your Hardware",
+      "title": "Bird brains (2023)",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Desk for people who work at home with a cat",
+      "title": "Do your own writing",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "title": "CodingFont: A game to help you pick a coding font",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "title": "The Cognitive Dark Forest",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "Philly courts will ban all smart eyeglasses starting next week",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "Cherri – programming language that compiles to an Apple Shortuct",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     }
   ]

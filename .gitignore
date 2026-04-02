@@ -1,0 +1,30 @@
+# Prerequisites
+*.py[cod]
+__pycache__/
+.venv/
+venv/
+ENV/
+
+# Configuration
+.env
+docker-compose.yml
+
+# Data and Logs
+output/*.log
+output/diagnose_error.log
+temp_audio/
+tmp_*/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+!output/*.mp3
+!output/*.json
+!output/*.png
+!output/podcast.xml
+
+output/*.log

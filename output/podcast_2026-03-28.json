@@ -1,34 +1,38 @@
 {
-  "date": "2026-03-27",
-  "duration_seconds": 161,
-  "size_bytes": 646700,
+  "date": "2026-03-28",
+  "duration_seconds": 190,
+  "size_bytes": 763244,
   "articles": [
     {
-      "title": "Anatomy of the .claude/ folder",
+      "title": "Founder of GitLab battles cancer by founding companies",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Make macOS consistently bad unironically",
+      "title": "Spanish legislation as a Git repo",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Apple discontinues the Mac Pro",
+      "title": "I decompiled the White House's new app",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Hold on to Your Hardware",
+      "title": "Go hard on agents, not on your filesystem",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Desk for people who work at home with a cat",
+      "title": "CSS is DOOMed",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "title": "LG's new 1Hz display is the secret behind a new laptop's battery life",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "title": "Further human + AI + proof assistant work on Knuth's \"Claude Cycles\" problem",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     }
   ]

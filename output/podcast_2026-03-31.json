@@ -1,34 +1,42 @@
 {
-  "date": "2026-03-27",
-  "duration_seconds": 161,
-  "size_bytes": 646700,
+  "date": "2026-03-31",
+  "duration_seconds": 213,
+  "size_bytes": 852524,
   "articles": [
     {
-      "title": "Anatomy of the .claude/ folder",
+      "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Make macOS consistently bad unironically",
+      "title": "Android Developer Verification",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Apple discontinues the Mac Pro",
+      "title": "Artemis II is not safe to fly",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Hold on to Your Hardware",
+      "title": "Universal Claude.md – cut Claude output tokens",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Desk for people who work at home with a cat",
+      "title": "Ollama is now powered by MLX on Apple Silicon in preview",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "title": "Google's 200M-parameter time-series foundation model with 16k context",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "GitHub backs down, kills Copilot pull-request ads after backlash",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "Researchers find 3,500-year-old loom that reveals textile revolution",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     }
   ]

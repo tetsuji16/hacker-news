@@ -1,34 +1,42 @@
 {
-  "date": "2026-03-27",
-  "duration_seconds": 161,
-  "size_bytes": 646700,
+  "date": "2026-04-01",
+  "duration_seconds": 199,
+  "size_bytes": 798092,
   "articles": [
     {
-      "title": "Anatomy of the .claude/ folder",
+      "title": "EmDash – A spiritual successor to WordPress that solves plugin security",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Make macOS consistently bad unironically",
+      "title": "Claude Code Unpacked : A visual guide",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Apple discontinues the Mac Pro",
+      "title": "DRAM pricing is killing the hobbyist SBC market",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Hold on to Your Hardware",
+      "title": "AI for American-produced cement and concrete",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Desk for people who work at home with a cat",
+      "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "title": "Show HN: Git bayesect – Bayesian Git bisection for non-deterministic bugs",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "title": "CERN levels up with new superconducting karts",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "TinyLoRA – Learning to Reason in 13 Parameters",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "Claude wrote a full FreeBSD remote kernel RCE with root shell",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     }
   ]

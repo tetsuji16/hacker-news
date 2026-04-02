@@ -1,34 +1,38 @@
 {
-  "date": "2026-03-27",
-  "duration_seconds": 161,
-  "size_bytes": 646700,
+  "date": "2026-03-29",
+  "duration_seconds": 184,
+  "size_bytes": 740108,
   "articles": [
     {
-      "title": "Anatomy of the .claude/ folder",
+      "title": "ChatGPT won't let you type until Cloudflare reads your React state",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Make macOS consistently bad unironically",
+      "title": "Voyager 1 runs on 69 KB of memory and an 8-track tape recorder",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Apple discontinues the Mac Pro",
+      "title": "C++26 is done: ISO C++ standards meeting Trip Report",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Hold on to Your Hardware",
+      "title": "Pretext: TypeScript library for multiline text measurement and layout",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "Desk for people who work at home with a cat",
+      "title": "Miasma: A tool to trap AI web scrapers in an endless poison pit",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "People inside Microsoft are fighting to drop mandatory Microsoft Account",
+      "title": "Police used AI facial recognition to wrongly arrest TN woman for crimes in ND",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     },
     {
-      "title": "$500 GPU outperforms Claude Sonnet on coding benchmarks",
+      "title": "Coding agents could make free software matter again",
+      "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
+    },
+    {
+      "title": "My MacBook keyboard is broken and it's insanely expensive to fix",
       "summary": "Nana: 申し訳ありませんが、この記事の詳細は現在取得できませんでした。\nKeita: そうなんですね。残念ですが、次の話題に行きましょう。"
     }
   ]
