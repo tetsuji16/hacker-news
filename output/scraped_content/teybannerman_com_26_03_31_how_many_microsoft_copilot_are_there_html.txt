@@ -1,0 +1,10 @@
+URL: https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html
+
+How many products does Microsoft have named 'Copilot'? I mapped every one
+A few weeks ago, I tried to explain to someone what Microsoft Copilot is. I couldn’t… because the name ‘Copilot’ now refers to at least 75 different things.
+Apps, features, platforms, a keyboard key, an entire category of laptops - and a tool for building more Copilots. All named ‘Copilot’.
+I went looking for the full list. No single source had all of them. Not even Microsoft’s own website or documentation. So I pieced it together from product pages, launch announcements, and marketing materials.
+The visualisation below maps every one, grouped by category, with lines showing how they connect. It’s interactive - click around. Try to find a pattern. I couldn’t.
+-
+-
+| Visualisation created with Flourish | Image download |

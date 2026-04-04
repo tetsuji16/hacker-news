@@ -1,0 +1,55 @@
+URL: https://github.com/teamchong/turboquant-wasm
+
+Experimental WASM + relaxed SIMD build of botirk38/turboquant for browsers and Node.js.
+Based on the paper "TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate" (Google Research, ICLR 2026).
+Live Demo — vector search, image similarity, and 3D Gaussian Splatting compression running in the browser.
+- npm package with embedded WASM —
+npm install turboquant-wasm
+- Relaxed SIMD —
+@mulAdd
+FMA maps tof32x4.relaxed_madd
+- SIMD-vectorized QJL sign packing/unpacking and scaling
+- TypeScript API —
+TurboQuant.init()
+/encode()
+/decode()
+/dot()
+- Golden-value tests — byte-identical output with the reference Zig implementation
+The WASM binary uses relaxed SIMD instructions:
+| Runtime | Minimum Version |
+|---|---|
+| Chrome | 114+ |
+| Firefox | 128+ |
+| Safari | 18+ |
+| Node.js | 20+ |
+import { TurboQuant } from "turboquant-wasm";
+const tq = await TurboQuant.init({ dim: 1024, seed: 42 });
+// Compress a vector (~4.5 bits/dim, ~6x compression)
+const compressed = tq.encode(myFloat32Array);
+// Decode back
+const decoded = tq.decode(compressed);
+// Fast dot product without decoding
+const score = tq.dot(queryVector, compressed);
+tq.destroy();
+class TurboQuant {
+static async init(config: { dim: number; seed: number }): Promise<TurboQuant>;
+encode(vector: Float32Array): Uint8Array;
+decode(compressed: Uint8Array): Float32Array;
+dot(query: Float32Array, compressed: Uint8Array): number;
+destroy(): void;
+}
+# Run tests
+zig test -target aarch64-macos src/turboquant.zig
+# Full npm build (zig -> wasm-opt -> base64 embed -> bun + tsc)
+bun run build
+# Build WASM only
+bun run build:zig
+Requires Zig 0.15.2 and Bun.
+Encoding preserves inner products — verified by golden-value tests and distortion bounds:
+- MSE decreases with dimension (unit vectors)
+- Bits/dim is ~4.5 (payload only, excluding 22-byte header)
+- Dot product preservation — mean absolute error < 1.0 for unit vectors at dim=128
+- Bit-identical output with botirk38/turboquant for same input + seed
+- botirk38/turboquant — original Zig implementation
+- TurboQuant paper (Google Research, ICLR 2026) — algorithm design
+MIT

@@ -1929,3 +1929,12 @@ SUCCESS: Colibri – chat platform built on the AT Protocol for communities big 
 2026-04-05 00:43:32,583 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-05 00:43:32,584 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-05 00:43:32,862 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-05 00:43:35,641 - hn_podcast - ERROR - Git push failed (exit code 128): fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+

@@ -3179,3 +3179,23 @@ DEBUG: Scraping URL: https://mtlynch.io/claude-code-found-linux-vulnerability/
 DEBUG: Successfully scraped 7643 chars from https://mtlynch.io/claude-code-found-linux-vulnerability/. Saved to output/scraped_content/mtlynch_io__mtlynch_io_claude_code_found_linux_vulnerability_.txt
 DEBUG: Scraping URL: https://github.com/borski/travel-hacking-toolkit
 DEBUG: Successfully scraped 6369 chars from https://github.com/borski/travel-hacking-toolkit. Saved to output/scraped_content/github_com_https___github_com_borski_travel_hacking_toolkit.txt
+DEBUG: Scraping URL: https://jaso1024.com/mvidia/
+DEBUG: Trafilatura extracted empty text from https://jaso1024.com/mvidia/
+DEBUG: Scraping URL: https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html
+DEBUG: Successfully scraped 802 chars from https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html. Saved to output/scraped_content/teybannerman_com_26_03_31_how_many_microsoft_copilot_are_there_html.txt
+DEBUG: Scraping URL: https://arxiv.org/abs/2604.01193
+DEBUG: Successfully scraped 2415 chars from https://arxiv.org/abs/2604.01193. Saved to output/scraped_content/arxiv_org_https___arxiv_org_abs_2604_01193.txt
+DEBUG: Scraping URL: https://github.com/teamchong/turboquant-wasm
+DEBUG: Successfully scraped 2097 chars from https://github.com/teamchong/turboquant-wasm. Saved to output/scraped_content/github_com_https___github_com_teamchong_turboquant_wasm.txt
+DEBUG: Scraping URL: https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs
+DEBUG: Successfully scraped 554 chars from https://www.theverge.com/tech/907003/apple-approves-driver-that-lets-nvidia-egpus-work-with-arm-macs. Saved to output/scraped_content/www_theverge_com_s_driver_that_lets_nvidia_egpus_work_with_arm_macs.txt
+DEBUG: Scraping URL: https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf
+DEBUG: Successfully scraped 251 chars from https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf. Saved to output/scraped_content/www_thetimes_com_sarah_wynn_williams_careless_people_meta_nrffdfpmf.txt
+DEBUG: Scraping URL: https://thoughts.wyounas.com/p/some-unusual-trees
+DEBUG: Successfully scraped 6204 chars from https://thoughts.wyounas.com/p/some-unusual-trees. Saved to output/scraped_content/thoughts_wyounas_com_https___thoughts_wyounas_com_p_some_unusual_trees.txt
+DEBUG: Scraping URL: https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research
+DEBUG: Successfully scraped 7957 chars from https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research. Saved to output/scraped_content/news_stanford_edu_immune_response_inside_cells_inflammation_research.txt
+DEBUG: Scraping URL: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
+DEBUG: Successfully scraped 19567 chars from https://magazine.sebastianraschka.com/p/components-of-a-coding-agent. Saved to output/scraped_content/magazine_sebastianraschka_com_ebastianraschka_com_p_components_of_a_coding_agent.txt
+DEBUG: Scraping URL: https://www.anthropic.com/research/emotion-concepts-function
+DEBUG: Successfully scraped 18504 chars from https://www.anthropic.com/research/emotion-concepts-function. Saved to output/scraped_content/www_anthropic_com_w_anthropic_com_research_emotion_concepts_function.txt

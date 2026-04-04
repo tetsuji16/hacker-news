@@ -1,0 +1,40 @@
+URL: https://news.stanford.edu/stories/2026/03/immune-response-inside-cells-inflammation-research
+
+In brief
+- SLAC researchers observed a key master regulator of inflammation inside living cells, revealing a dense, gel-like structure that is much less organized than expected.
+- The findings suggest this inflammation-triggering system forms a flexible cluster of proteins, which could influence the design of treatments for inflammatory diseases.
+- The study also revealed a link between inflammation and the machinery that controls cell division, suggesting a possible explanation for why cells usually stop dividing while mounting an inflammatory response.
+In new research, scientists at the Department of Energy’s SLAC National Accelerator Laboratory, in collaboration with researchers at Harvard University and Brigham Young University, used the Stanford-SLAC Cryo-EM Center to capture, for the first time, the formation of an immune signaling complex inside intact human cells.
+The results, published in Science Advances, provide a closer look at how the complex assembles and interacts with other parts of the cell, offering new insight into the early stages of the body’s inflammatory response to infection and other stress signals. Their work, which challenges longstanding models of the process, could help guide future efforts to develop new therapeutic approaches for inflammatory diseases.
+“Our findings suggest the inflammasome may assemble in a very different way than scientists previously thought,” said collaborator Peter Dahlberg, an assistant professor at SLAC and Stanford University. “I think we've changed the game by showing that another route is possible.”
+Revisiting the cartwheel
+When cells detect infection or other forms of stress, they activate molecular alarm systems that trigger immune responses designed to protect the body. One of these systems is the inflammasome – a protein complex that senses danger signals and initiates inflammation by releasing signaling molecules that activate immune cells.
+“The inflammasome acts like an early warning system,” said SLAC researcher Phyllis Wang, who led the research. “Once it’s activated, it releases signaling proteins called cytokines that trigger downstream immune responses. It’s one of the earliest steps in the inflammatory pathway.”
+The researchers focused on one of the best-studied members of the inflammasome family, known as NLRP3. Over the past decade, studies have shown that NLRP3 forms a highly ordered structure resembling a cartwheel, with protein “spokes” radiating outward from a central hub.
+However, those models were based largely on experiments performed with purified proteins outside the cell rather than direct observations of the complex in its native environment.
+“People have been able to purify individual components and determine structures that look like a well-ordered wheel,” Wang said. “But no one had directly visualized the complex assembling inside human cells with all of its interacting partners at the centrosome, a cellular structure that plays a key role in cell division.”
+Slice of life
+Capturing that view required overcoming significant technical challenges. The team used cryo-electron tomography, a technique that allows researchers to generate 3D reconstructions of cellular structures preserved in a frozen state. The method makes it possible to observe molecular assemblies inside cells at extremely high resolution.
+The team used cryo-electron tomography, a technique that allows researchers to generate 3D reconstructions of cellular structures preserved in a frozen state. | J. Wang et al., Science Advances, March 27, 2026
+Because electrons cannot easily pass through thick biological material coherently, cells must first be thinned to extremely small slices. To do this, the researchers used a focused ion beam system that precisely mills away cellular material to create ultrathin sections suitable for imaging. The setup is combined with fluorescence microscopy, allowing scientists to locate specific molecular targets before cutting and imaging the sample. Developing this method required years of trial and error.
+“If you put an entire cell into an electron microscope, it essentially appears black because electrons can’t penetrate it,” Dahlberg said. “You have to remove most of the cell and leave behind just a thin region that contains the structure you want to study.”
+Starting to gel
+Once the technique to precisely guide the sectioning of cells was established, the team labeled inflammasome components with fluorescent markers and used dyes to identify the centrosome, the subcellular location where the inflammasome is known to assemble. This allowed the researchers to target sectioning to where inflammasomes were forming inside the cell before imaging those regions with cryo-electron tomography.
+The images revealed a structure that looked surprisingly different from the cartwheel often depicted in models. The inflammasome appeared to form a dense, gel-like cluster of proteins and signal molecules that accumulated around the centrosome. The gel structure is much larger than the cartwheel-like structures themselves, suggesting that it could be composed of cartwheels or cartwheel fragments that were too diverse to identify definitively in this study.
+As the gel structure expands, it pushes apart the two centrioles – small, tube-like structures – that make up the centrosome. Under normal conditions, centriole separation is one of the earliest steps in the process of cell division. But in this case, the growing protein assembly appears to trap the centrioles and prevent the cell from continuing through the division cycle.
+The observation may help explain a longstanding biological puzzle: Cells generally do not divide while simultaneously mounting an inflammatory response.
+“Inflammasome activation and cell division are usually mutually exclusive,” Wang said. “A cell can either divide or respond to danger signals, but it typically doesn’t do both at the same time.”
+By showing the inflammasome forming directly around the centrosome, the researchers propose a possible physical mechanism linking these two processes.
+Changing the approach
+Inflammation is involved in a wide range of diseases, including autoimmune disorders, cardiovascular disease, and neurodegenerative conditions. As a result, the NLRP3 inflammasome has become an important target for drug development.
+Many pharmaceutical strategies have focused on designing molecules that block movement within the inflammasome. However, the new findings suggest the structure may behave less like a rigid molecular machine and more like a flexible protein condensate formed through many weak interactions.
+“If the system also behaves like a phase-separated assembly – a gel of many weakly interacting proteins – it can add a new way to approach therapeutic design, alongside cartwheel-based approaches,” said Hao Wu, a professor at Harvard who collaborated on this research.
+The researchers emphasize that their findings represent how one type of inflammasome operates in the cell type they studied. Further experiments will be needed to determine whether the same mechanism occurs for other types of inflammasomes in other cell types.
+“The next step is to determine whether it’s a general principle or something that occurs only in certain systems,” Dahlberg said.
+For Wang, one of the most memorable moments came when the team first observed the centrioles separating within the developing inflammasome structure.
+“It was the first time we could really see how the system works,” she said. “Those moments are rare, but when you realize you’re seeing something no one has seen before, it’s incredibly satisfying.”
+For more information
+The research was funded in part by the DOE Office of Science, the National Institutes of Health and the Chan Zuckerberg Initiative DAF, an advised fund of the Silicon Valley Community Foundation.
+This story was originally published by SLAC National Accelerator Laboratory.
+Writer
+Ali Sundermier
