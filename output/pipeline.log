@@ -1860,3 +1860,72 @@ SUCCESS: How much precision can you squeeze out of a table? (https://www.johndco
 SUCCESS: Fermented foods shaped human biology (https://press.asimov.com/articles/culture-shift)
 SUCCESS: Show HN: Turbolite – a SQLite VFS serving sub-250ms cold JOIN queries from S3 (https://github.com/russellromney/turbolite)
 SUCCESS: Colibri – chat platform built on the AT Protocol for communities big and small (https://colibri.social/)
+2026-04-05 00:29:19,563 - hn_podcast - INFO - --- New Job Started for 2026-04-04 at 2026-04-05 00:29:19.563452 ---
+2026-04-05 00:29:19,568 - hn_podcast - INFO - Fetching stories for 2026-04-04...
+2026-04-05 00:29:21,512 - hn_podcast - INFO - Fetched 9 stories.
+2026-04-05 00:29:21,513 - hn_podcast - INFO - Processing: Simple self-distillation improves code generation
+2026-04-05 00:29:22,253 - hn_podcast - INFO -   - [SUCCESS] Scraped 2415 characters.
+2026-04-05 00:29:22,254 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:29:30,096 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:29:30,098 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:29:30,099 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:29:45,100 - hn_podcast - INFO - Processing: Delve removed from Y Combinator
+2026-04-05 00:29:45,875 - trafilatura.downloads - ERROR - not a 200 response: 404 for URL https://www.ycombinator.com/companies/delve
+2026-04-05 00:29:45,876 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://www.ycombinator.com/companies/delve
+2026-04-05 00:29:45,877 - hn_podcast - INFO - Processing: Herbie: Automatically improve imprecise floating point formulas
+2026-04-05 00:29:47,073 - hn_podcast - INFO -   - [SUCCESS] Scraped 8348 characters.
+2026-04-05 00:29:47,075 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:29:53,233 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:29:53,235 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:29:53,236 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:30:08,238 - hn_podcast - INFO - Processing: OpenClaw privilege escalation vulnerability
+2026-04-05 00:30:09,623 - hn_podcast - INFO -   - [SUCCESS] Scraped 1541 characters.
+2026-04-05 00:30:09,624 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:30:20,370 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:30:20,372 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:30:20,373 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:30:35,375 - hn_podcast - INFO - Processing: The FAA’s flight restriction for drones is an attempt to criminalize filming ICE
+2026-04-05 00:30:36,130 - hn_podcast - INFO -   - [SUCCESS] Scraped 4971 characters.
+2026-04-05 00:30:36,131 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:30:43,202 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:30:43,204 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:30:43,205 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:30:58,206 - hn_podcast - INFO - Processing: Run Linux containers on Android, no root required
+2026-04-05 00:30:59,902 - hn_podcast - INFO -   - [SUCCESS] Scraped 3631 characters.
+2026-04-05 00:30:59,903 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:31:05,120 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:31:05,122 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:31:05,123 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:31:20,124 - hn_podcast - INFO - Processing: Gold overtakes U.S. Treasuries as the largest foreign reserve asset
+2026-04-05 00:31:21,444 - hn_podcast - INFO -   - [SUCCESS] Scraped 6679 characters.
+2026-04-05 00:31:21,445 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:31:28,057 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:31:28,058 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:31:28,060 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:31:43,061 - hn_podcast - INFO - Processing: Claude Code Found a Linux Vulnerability Hidden for 23 Years
+2026-04-05 00:31:44,193 - hn_podcast - INFO -   - [SUCCESS] Scraped 7643 characters.
+2026-04-05 00:31:44,194 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:31:50,893 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:31:50,895 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:31:50,896 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:32:05,898 - hn_podcast - INFO - Processing: Show HN: Travel Hacking Toolkit – Points search and trip planning with AI
+2026-04-05 00:32:07,846 - hn_podcast - INFO -   - [SUCCESS] Scraped 6369 characters.
+2026-04-05 00:32:07,847 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 00:32:19,155 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 00:32:19,156 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 00:32:19,157 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 00:32:34,158 - hn_podcast - INFO - Final processed articles list length: 8
+2026-04-05 00:32:34,159 - hn_podcast - INFO - Starting audio generation for 8 articles...
+2026-04-05 00:43:32,183 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-04.mp3 (1446.7s)
+2026-04-05 00:43:32,292 - hn_podcast - INFO - Audio generation complete!
+2026-04-05 00:43:32,311 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-04.json (duration=1446s, size=5787404B)
+2026-04-05 00:43:32,313 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-05 00:43:32,324 - hn_podcast - INFO - Found 16 metadata files to process.
+2026-04-05 00:43:32,541 - hn_podcast - INFO - RSS feed generated with 16 episodes at output/podcast.xml
+2026-04-05 00:43:32,556 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-05 00:43:32,558 - hn_podcast - INFO - RSS feed update complete!
+2026-04-05 00:43:32,559 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-05 00:43:32,565 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-05 00:43:32,583 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-05 00:43:32,584 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-05 00:43:32,862 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

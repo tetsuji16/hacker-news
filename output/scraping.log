@@ -3161,3 +3161,21 @@ DEBUG: Scraping URL: https://github.com/russellromney/turbolite
 DEBUG: Successfully scraped 31529 chars from https://github.com/russellromney/turbolite. Saved to output/scraped_content/github_com_https___github_com_russellromney_turbolite.txt
 DEBUG: Scraping URL: https://colibri.social/
 DEBUG: Successfully scraped 1561 chars from https://colibri.social/. Saved to output/scraped_content/colibri_social_https___colibri_social_.txt
+DEBUG: Scraping URL: https://arxiv.org/abs/2604.01193
+DEBUG: Successfully scraped 2415 chars from https://arxiv.org/abs/2604.01193. Saved to output/scraped_content/arxiv_org_https___arxiv_org_abs_2604_01193.txt
+DEBUG: Scraping URL: https://www.ycombinator.com/companies/delve
+DEBUG: Trafilatura failed to download https://www.ycombinator.com/companies/delve
+DEBUG: Scraping URL: https://herbie.uwplse.org/doc/latest/tutorial.html
+DEBUG: Successfully scraped 8348 chars from https://herbie.uwplse.org/doc/latest/tutorial.html. Saved to output/scraped_content/herbie_uwplse_org_https___herbie_uwplse_org_doc_latest_tutorial_html.txt
+DEBUG: Scraping URL: https://nvd.nist.gov/vuln/detail/CVE-2026-33579
+DEBUG: Successfully scraped 1541 chars from https://nvd.nist.gov/vuln/detail/CVE-2026-33579. Saved to output/scraped_content/nvd_nist_gov_https___nvd_nist_gov_vuln_detail_CVE_2026_33579.txt
+DEBUG: Scraping URL: https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice
+DEBUG: Successfully scraped 4971 chars from https://www.eff.org/deeplinks/2026/04/faas-temporary-flight-restriction-drones-blatant-attempt-criminalize-filming-ice. Saved to output/scraped_content/www_eff_org_ion_drones_blatant_attempt_criminalize_filming_ice.txt
+DEBUG: Scraping URL: https://github.com/ExTV/Podroid
+DEBUG: Successfully scraped 3631 chars from https://github.com/ExTV/Podroid. Saved to output/scraped_content/github_com_https___github_com_ExTV_Podroid.txt
+DEBUG: Scraping URL: https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr
+DEBUG: Successfully scraped 6679 chars from https://economictimes.indiatimes.com/news/international/us/gold-overtakes-u-s-treasuries-as-the-worlds-largest-foreign-reserve-asset-in-2026-can-gold-challenge-the-u-s-dollars-dominance-and-hold-its-ground/articleshow/126420128.cms?from=mdr. Saved to output/scraped_content/economictimes_indiatimes_com_hold_its_ground_articleshow_126420128_cms_from_mdr.txt
+DEBUG: Scraping URL: https://mtlynch.io/claude-code-found-linux-vulnerability/
+DEBUG: Successfully scraped 7643 chars from https://mtlynch.io/claude-code-found-linux-vulnerability/. Saved to output/scraped_content/mtlynch_io__mtlynch_io_claude_code_found_linux_vulnerability_.txt
+DEBUG: Scraping URL: https://github.com/borski/travel-hacking-toolkit
+DEBUG: Successfully scraped 6369 chars from https://github.com/borski/travel-hacking-toolkit. Saved to output/scraped_content/github_com_https___github_com_borski_travel_hacking_toolkit.txt

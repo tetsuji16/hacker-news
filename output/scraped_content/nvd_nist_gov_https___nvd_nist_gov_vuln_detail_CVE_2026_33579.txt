@@ -1,0 +1,10 @@
+URL: https://nvd.nist.gov/vuln/detail/CVE-2026-33579
+
+CVE-2026-33579 DetailDescriptionOpenClaw before 2026.3.28 contains a privilege escalation vulnerability in the /pair approve command path that fails to forward caller scopes into the core approval check. A caller with pairing privileges but without admin privileges can approve pending device requests asking for broader scopes including admin access by exploiting the missing scope validation in extensions/device-pair/index.ts and src/infra/device-pairing.ts. Metrics
+NVD enrichment efforts reference publicly available information to associate
+vector strings. CVSS information contributed by other sources is also
+displayed.
+References to Advisories, Solutions, and ToolsBy selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to [email protected].
+Weakness Enumeration
+Known Affected Software Configurations Switch to CPE 2.2CPEs loading, please wait.
+Denotes Vulnerable Software Quick InfoCVE Dictionary Entry:CVE-2026-33579 NVD Published Date: 03/31/2026 NVD Last Modified: 04/01/2026 Source: VulnCheck |
