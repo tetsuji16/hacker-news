@@ -88,18 +88,29 @@ async def _generate_audio_segment(text: str, output_path: str) -> None:
             
             communicate = edge_tts.Communicate(seg['text'], seg['voice'])
             
-            # Add retry logic for Edge TTS network instability
-            max_retries = 3
+            # Add retry logic for Edge TTS network instability (especially 503 errors)
+            max_retries = 10
             for attempt in range(max_retries):
                 try:
+                    # If file accidentally left behind from a failed attempt, clear it
+                    if os.path.exists(temp_part):
+                        os.remove(temp_part)
+                        
                     await communicate.save(temp_part)
-                    break
-                except Exception as eval_err:
-                    if attempt < max_retries - 1:
-                        logger.warning(f"Edge TTS error (attempt {attempt+1}/{max_retries}): {eval_err}. Retrying in 5s...")
-                        await asyncio.sleep(5)
+                    
+                    # Verify file was actually created and has content
+                    if os.path.exists(temp_part) and os.path.getsize(temp_part) > 100:
+                        break
                     else:
-                        logger.error(f"CRITICAL Edge TTS error on {output_path}: {eval_err}")
+                        raise Exception("Generated audio file is empty or missing")
+                        
+                except Exception as eval_err:
+                    curr_wait = min(60, 2 * (attempt + 1)) # Linear/Exp growth backoff
+                    if attempt < max_retries - 1:
+                        logger.warning(f"Edge TTS error (attempt {attempt+1}/{max_retries}): {eval_err}. Retrying in {curr_wait}s...")
+                        await asyncio.sleep(curr_wait)
+                    else:
+                        logger.error(f"FATAL Edge TTS error after {max_retries} attempts: {eval_err}")
                         raise  # Re-raise to abort this article's generation
             
             temp_files.append(temp_part)
@@ -181,10 +192,27 @@ def create_podcast_audio(articles: list, output_file: str, music_path: str = Non
         except Exception as e:
             logger.warning(f"Could not add background music: {e}")
 
-    # Export final file
-    combined.export(output_file, format="mp3")
-    
-    # Cleanup
-    for f in os.listdir(temp_dir):
-        os.remove(os.path.join(temp_dir, f))
-    os.rmdir(temp_dir)
+    # Export final file and cleanup
+    try:
+        if len(combined) < 10000: # Less than 10 seconds is probably a failure
+            logger.error(f"CRITICAL: Final podcast audio {output_file} is too short ({len(combined)/1000:.1f}s). Not exporting.")
+            if os.path.exists(output_file):
+                 os.remove(output_file)
+            return False
+            
+        combined.export(output_file, format="mp3")
+        logger.info(f"Successfully generated podcast audio at {output_file} ({len(combined)/1000:.1f}s)")
+        return True
+    finally:
+        # Cleanup
+        if os.path.exists(temp_dir):
+            for f in os.listdir(temp_dir):
+                try:
+                    os.remove(os.path.join(temp_dir, f))
+                except Exception:
+                    pass
+            try:
+                os.rmdir(temp_dir)
+            except Exception:
+                pass
+
