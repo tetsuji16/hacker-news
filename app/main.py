@@ -300,7 +300,8 @@ def main():
     elif args.run_now:
         job()
     else:
-        schedule_time = os.getenv("SCHEDULE_TIME", "08:00")
+        schedule_time = os.getenv("SCHEDULE_TIME", "06:00")
+
         logger.info(f"Scheduler started. Job runs daily at {schedule_time}")
         schedule.every().day.at(schedule_time).do(job)
         

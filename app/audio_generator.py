@@ -19,36 +19,60 @@ async def _generate_audio_segment(text: str, output_path: str) -> None:
     lines = text.split('\n')
     all_segments = []
     
+    last_speaker = "Keita" # Assume start with Nana unless specified
     for line in lines:
         line = line.strip()
         if not line:
             continue
+
+        # Stop processing if we hit the summary section
+        if "[Summary]" in line or "要約" in line:
+            break
+
             
         # Clean up markdown bolding and any stray SSML tags
         line = line.replace("**", "").replace("_", "")
         line = re.sub(r'<[^>]*>', '', line)
         
-        # Skip section headers
-        if line.startswith("["):
+        # Skip section headers or separators
+        if line.startswith("[") or line.startswith("#") or "---" in line or "***" in line:
             continue
+
 
         # Handle different name formats or lack thereof
         current_jp_voice = NANA_VOICE
-        if line.startswith("Nana:") or line.startswith("**Nana:**"):
-            line = line.replace("Nana:", "").replace("**Nana:**", "").strip()
+        
+        # Check for explicit labels
+        if line.startswith("Nana:") or line.startswith("**Nana:**") or line.startswith("Nana :"):
+            line = re.sub(r'^\**Nana:\**\s*', '', line).strip()
             current_jp_voice = NANA_VOICE
-        elif line.startswith("Keita:") or line.startswith("**Keita:**"):
-            line = line.replace("Keita:", "").replace("**Keita:**", "").strip()
+            last_speaker = "Nana"
+        elif line.startswith("Keita:") or line.startswith("**Keita:**") or line.startswith("Keita :"):
+            line = re.sub(r'^\**Keita:\**\s*', '', line).strip()
             current_jp_voice = KEITA_VOICE
-        elif line.startswith("「") or line.startswith("「**"):
-            # If it starts with a quote, it's likely part of the conversation
-            # We'll just use the last voice or default to Nana if not clear
-            # For simplicity, let's keep it but maybe it's better to just check the length
-            pass
+            last_speaker = "Keita"
+        elif line.startswith(":"):
+            # Handle the case where AI forgets the name but keeps the colon
+            line = line.lstrip(":").strip()
+            # Alternate speaker
+            if last_speaker == "Nana":
+                current_jp_voice = KEITA_VOICE
+                last_speaker = "Keita"
+            else:
+                current_jp_voice = NANA_VOICE
+                last_speaker = "Nana"
         else:
-            # If no name, we'll still try to speak it if it's long enough
-            if len(line) < 5:
+            # If no name, alternate speaker to maintain conversation flow
+            if len(line) < 2:
                 continue
+                
+            if last_speaker == "Nana":
+                current_jp_voice = KEITA_VOICE
+                last_speaker = "Keita"
+            else:
+                current_jp_voice = NANA_VOICE
+                last_speaker = "Nana"
+
 
             
         if not line:

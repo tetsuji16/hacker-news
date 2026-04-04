@@ -123,8 +123,7 @@ def generate_rss(articles: list, mp3_path: str, base_url: str, output_xml: str):
                     else:
                         sections.append(f"## ■ {title}")
             
-            header = "各記事の要約を「である」調でまとめる。\n\n---\n\n"
-            summary = header + "\n\n".join(sections) + "\n\n---\n日本語の要約をお楽しみください。"
+            summary = "\n\n".join(sections)
         else:
             summary = f"{date_str}版のHacker Newsニュース要約です。日本語読み上げでお届けします。"
 
@@ -152,7 +151,7 @@ def generate_index_html(podcast, output_path):
         safe_summary = safe_summary.replace("## ■ ", "<strong>■ ").replace("<br><br><strong>", "</strong><br><br><strong>")
         # Add the final closing strong tag if we started one
         if "<strong>" in safe_summary and safe_summary.count("<strong>") > safe_summary.count("</strong>"):
-            safe_summary = safe_summary.replace("---<br>日本語の要約", "</strong><br>---<br>日本語の要約")
+            safe_summary += "</strong>"
 
         episodes_html += f"""
         <article class="episode">
