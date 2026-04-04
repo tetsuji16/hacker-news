@@ -13,8 +13,9 @@ def generate_rss(articles: list, mp3_path: str, base_url: str, output_xml: str):
     p = Podcast(
         name="Hacker News デイリー (日本)",
         description="Hacker Newsの最新トップストーリーを日本語で要約してお届けするポッドキャストです。最新のAI、プログラミング、スタートアップ情報を毎日配信。",
-        website="https://news.ycombinator.com",
+        website="https://tetsuji16.github.io/hacker-news/",
         explicit=False,
+
         language="ja-JP",
         image=f"{base_url}HackerNewsLogo.png"
     )
