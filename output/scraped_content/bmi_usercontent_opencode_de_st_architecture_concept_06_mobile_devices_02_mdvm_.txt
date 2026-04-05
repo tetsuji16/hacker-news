@@ -1,0 +1,139 @@
+URL: https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/
+
+Mobile Device Vulnerability Management Concept¶
+Motivation¶
+The Wallet Unit provides for authentication means which can be bound to multiple identification means, such as the PID, via a public/private key pair, see cryptography.
+When issuing the PID, the WB confirms to the PP (via OpenID4VCI Key Attestation) that the keys to which a PID is to be bound are controlled by an authentication means(../05-cryptography.md) that meets certain security requirements with regard to resistance against attackers with a certain attack potential (see ISO/IEC 18045).
+Furthermore, in the context of performing electronic identification at assurance level high, such as the PID, it is required that authentication of wallet users is done in accordance with, the requirements for the characteristics and design of electronic identification means at assurance level high, as set out in Implementing Regulation (EU) 2015/1502 (see CIR 2024/2979 Article 5 1. b/g).
+Therefore, the authentication means provides two important assurances:
+-
+The authentication means protects against duplication and tampering attacks to the key store by attackers with high attack potential. Thus, the PP can be sure that it's issued credentials that are bound to the keys of the authentication mean cannot be duplicated by an attacker with high attack potential and thus the identification means itself cannot be duplicated in their entirety (see CIR 2015/1502 Annex 2.2.1).
+-
+The authentication means protects against attacks on the user’s authentication mechanism by attackers with high attack potential. Thus, the PP can be sure that it's issued credentials that are bound to the keys of the authentication mean cannot be misused by an attacker with high attack potential, e.g. for single presentations of a credential (see CIR 2015/1502 Annex 2.3.1).
+The first assurance can be achieved by creating and processing the relevant keys in an RWSCD implemented as an HSM that has been appropriately evaluated and certified. This assurance can therefore be achieved independently of the user device.
+The second assurance concerns the authentication mechanism of the user towards the relying party when presenting the credential. This includes two-factor authentication of the user towards the RWSCA. The security of the user authentication mechanism and the authentication factors depend on the security of the user device. The solution comprises a possession factor secured by the HKS of the mobile device and a knowledge factor entered via the mobile device.
+The security of the possession factor depends on the existence of exploitable vulnerabilities in the HKS of the mobile device that allow the key to be extracted or misused.
+The security of the knowledge factor, depends on the existence of exploitable vulnerabilities in the wallet instance and/or the operating system of the mobile device.
+A preceding vulnerability analysis and certification of the HKS or the OS with regard to resistance to a specific attack potential, which would significantly reduce the likelihood of the existence of relevant vulnerabilities, is not available for mobile devices in practice. Rather, it can be observed that relevant vulnerabilities have become known for mobile devices in the past.
+For this reason, the solution provides for monitoring identified vulnerabilities for the HKS and the operating system of user devices through a mobile device vulnerability management (MDVM) during operation to reduce the likelihood that existing relevant vulnerabilities can be exploited. This is achieved by ensuring that if vulnerabilities are known for a user device that could compromise the user's authentication mechanism towards the RWSCA with a attack potential of ‘high’ or lower, the use of keys secured by the RWSCA/RWSCD is prevented. Thus, the confirmation of the WB to the PP remains valid.
+To achieve this goal, the MDVM provides for the following functions:
+| Function | Description |
+|---|---|
+| Verify device/app security posture | Provides verified information regarding device integrity and authenticity, as well as wallet app integrity and authenticity for a specific user device/wallet instance. To achieve this, security functions from the platform of the user device are used, as well as platform independent solutions such as RASP (Runtime Application Self-Protection) solutions. |
+| Identify device class | Provides verified information regarding the device model, the operating system incl. version and patch level and the HKS. This could be achieved with the verified information from platform attestations and RASP attestations. |
+| Verify vulnerabilities for device classes | Provides up-to-date information on relevant vulnerabilities of the device operation system and HKS of a dedicated device class. |
+| Decide on device/app usage | Based on device/app security and vulnerability information, (1) prevent confirmation to the PP via OpenID4VCI Key Attestation if devices/wallet instances are not sufficient secure, (2) prevent the use of RWSCD keys by user authentication with insufficiently secure devices/wallet instances. |
+The components and roles for providing these functions are introduced in the decomposition chapter of the architecture.
+Collected Signals¶
+This chapter provides an overview of the collected signals and their mapping to relevant threats. It also describes additional uses of these signals for plausibility checks and for determining the device class used to query the MDVM databases.
+Overview¶
+| Signal-Source | Threats | Synergies | Notes |
+|---|---|---|---|
+| KeyAttestation | rooting via unlocked bootloader, unknown system image (e.g. custom ROM), loss of root of trust (e.g. manipulated boot sequence), app repackaging & tampering & spoofing & downgrading, app cloning, device or HKS emulation attacks, Replay attacks, response reuse, device proxy used to spoof attestations | LPADB, RASP | Used as input for DCVDB, needs LPADB to increase resilience against non-publicly leaked KeyAttestation keys |
+| PlayIntegrity | app repackaging & tampering & spoofing, Replay attacks, response reuse, proxy attestations, app downgrade attacks, side-loaded older vulnerable app versions, rooting via unlocked bootloader, unknown system image (e.g. custom ROM), loss of root of trust (e.g. manipulated boot sequence) + Google proprietary backend MDVM verdict to identify compromised devices, Credential theft tools, input automation/bots, overlay attacks (e.g. tapjacking), can be used to enforce security update policies (MEETS_STRONG_INTEGRITY requires a security patch in the last 12 months) | KeyAttestation, RASP | Bootloader state needs to be checked to trust PlayIntegrity verdicts, Unsure how trustworthy → unclear how the evaluation in the google backend works (also known to be often targeted by open source rooting community using leaked KeyAttestation keys) |
+| iOS DC Device Check | Replay attacks, tampering with certificate, device proxy used to spoof attestations, app repackaging & tampering & spoofing, leaked debug builds, it's unclear from documentation what additional threats could be mitigated | RASP | DeviceCheck needs additional security measures as it does not attest to the integrity of the device → RASP |
+| Leaked Platform Attestation Key Database (LPADB) | rooting based on unlocking bootloader using publicly leaked attestation keys for obfuscation | KeyAttestation | - |
+| Device Class Vulnerability Database (DCVDB) | insecure user devices due to publicly known vulnerabilities e.g. rooting/local privilege escalation, TEE, bootloader/chain of trust exploits | KeyAttestation, RASP | DCVDB is only as effective as the identification of the correct device class |
+| Runtime Application Self-Protection (RASP) | App Hooking/debugging & Repackaging & tampering, UD rooting & emulation | - | RASP provides a way to continuously and dynamically monitor the app and the user’s device for integrity and authenticity while the app is running. Additionally, it provides an alternative detection framework that operates independently of the platform mechanisms. |
+Android KeyAttestation Signals¶
+| Signal | Enforcement | Details | Example Value | Mitigated Threats | Additional Usage | Plausibility Check |
+|---|---|---|---|---|---|---|
+| SecurityLevel | Hardwareenforced | identifies HKS type | TrustedEnvironment or StrongBox | emulation attacks e.g. emulation of devices or key stores | ensure the keys are stored in a secure key storage | used, must always be the same |
+| attestationIdModel | Hardwareenforced | identifies device model | e.g. "SM-A146P" for a Samsung Galaxy A14 5G | app cloning | used to identify device class | used, must always be the same |
+| attestationIdProduct | Hardwareenforced | identifies device model (alternative source attribute) | e.g. "a14xmeea" for a Samsung Galaxy A14 5G | app cloning | used to identify device class | used, must always be the same |
+| attestationIdDevice | Hardwareenforced | identifies device model (alternative source attribute) | e.g. "a14xm" for a Samsung Galaxy A14 5G | app cloning | used to identify device class | used, must always be the same |
+| osVersion | Hardwareenforced | identifies OS version | e.g. "130000" for Android 13 | app cloning, downgrade attacks | used to identify device class | used, can only increase, not decrease |
+| osPatchLevel | Hardwareenforced | identifies the current security patch level | e.g. "202508" for security patch level August 2025 | - | used to identify device class | used, can only increase, not decrease |
+| RootOfTrust. deviceLocked |
+Hardwareenforced | identifies the current boot loader state | e.g. "true" if device booted a signed image that was successfully verified by Verified Boot | rooting via unlocked bootloader, unknown system image (e.g. custom ROM), loss of root of trust (e.g. manipulated boot sequence) | - | not used |
+| RootOfTrust. verifiedBootState |
+Hardwareenforced | identifies the device's Verified Boot state | e.g. "Verified" for fully verified root of trust | rooting via unlocked bootloader, unknown system image (e.g. custom ROM), loss of root of trust (e.g. manipulated boot sequence), emulation attacks | - | not used |
+| attestationChallenge | Hardwareenforced | server-provided challenge | max 128 bytes length | Replay attacks, response reuse, device proxy used to spoof attestations | - | not used |
+| AttestationApplicationId. AttestationPackageInfo. package_name |
+Softwareenforced | identifies apps that are allowed to use the secret key material under attestation | e.g. "org.sprind.wallet" | app repackaging & tampering & spoofing | - | not used |
+| AttestationApplicationId. AttestationPackageInfo. version |
+Softwareenforced | identifies the apps "versionCode" from the build properties | e.g. "1" | app downgrade attacks, side-loaded older vulnerable app versions | - | used, can only increase, not decrease |
+| AttestationApplicationId. signature_digests |
+Softwareenforced | set of SHA-256 digests of the app's signing certificates | SHA-256 digests in Base64 encoding | app repackaging & tampering & spoofing | - | not used |
+Notes:
+- "attestationIdModel", "attestationIdProduct", and "attestationIdDevice" can all be used to identify the device model for determining the device class. All three are included because tests have shown that some devices do not provide all of these values. To increase the likelihood of identifying the model via key attestation, all three fields should be evaluated.
+- The key attestation signature and certificates (including the full certificate chain) must be validated in order to rely on the signals as described. Google’s revocation list for key-attestation certificates should also be checked. However, the list is not updated frequently enough, and there are regularly leaked keys publicly available that can still be used to sign key attestations but have not yet been revoked by Google.
+- Android key attestation also includes additional information about the properties of the attested key, such as user-authentication requirements for key usage or the key’s purpose (signing, encryption, etc.). These aspects are not documented in this list, as they do not mitigate a specific threat to the app or the device. Nonetheless, they are important and must be verified when evaluating the key attestation.
+Android PlayIntegrity Verdict Signals¶
+| Signal | Provider | Details | Example Value | Mitigated Threats | Collect Experience | Plausibility Check |
+|---|---|---|---|---|---|---|
+| requestDetails. requestPackageName |
+OS | Package name the request claims to originate from; Play Integrity verifies it matches the calling app + signing cert | e.g. "org.sprind.wallet" | app repackaging & tampering & spoofing | - | not used |
+| requestDetails. nonce |
+Wallet Backend | Random value generated by your backend to prevent replay; returned unchanged in the verdict | base64 encoded 16–32 bytes | Replay attacks, response reuse, proxy attestations | - | not used |
+| requestDetails. timestamp |
+Time when Google produced the verdict | e.g. "1672531199000" (Unix ms) | Replay attacks, response reuse, proxy attestations | - | not used | |
+| appIntegrity. appRecognitionVerdict |
+Whether the app is recognized as original, unmodified, validly installed | e.g. "PLAY_RECOGNIZED" | app repackaging & tampering & spoofing, side-loading (unintended?) | - | not used | |
+| appIntegrity. packageName |
+The actual package Google sees executing the request (also from a KeyAttestation) | e.g. "org.sprind.wallet" | app repackaging & tampering & spoofing | - | not used | |
+| appIntegrity. certificateSha256Digest |
+SHA-256 digest of the app's signing certificate (also from a KeyAttestation) | SHA-256 digests in Base64 encoding | app repackaging & tampering & spoofing | - | not used | |
+| appIntegrity. versionCode |
+identifies the apps "versionCode" from the build properties (also from a KeyAttestation) | e.g. "1" | app downgrade attacks, side-loaded older vulnerable app versions | - | could be used, can only increase, not decrease | |
+| deviceIntegrity. deviceRecognitionVerdict |
+Describes device trust level | e.g. "MEETS_STRONG_INTEGRITY" | rooting via unlocked bootloader, unknown system image (e.g. custom ROM), loss of root of trust (e.g. manipulated boot sequence) + Google proprietary backend MDVM verdict to identify compromised devices (we do not know what they are actually doing in their backend) | yes | not used | |
+| deviceIntegrity. deviceAttributes. sdkVersion |
+The devices's Android SDK API level (OS Version) | e.g. "33" for Android 13, | app cloning, downgrade attacks | - | could be used, can only increase, not decrease | |
+| deviceIntegrity. recentDeviceActivity. deviceActivityLevel |
+integrity token requests on this device in the last hour per app | e.g. "LEVEL_1" to "LEVEL_4" | Bot traffic, emulator farms, proxy device to spoof verdicts | yes | not used | |
+| accountDetails. appLicensingVerdict |
+Indicates if the app has been installed from PlayStore | e.g. "LICENSED", "UNLICENSED", "UNEVALUATED" | sideloaded APKs without entitlement (unintended?) | yes | not used | |
+| environmentDetails. appAccessRiskVerdict. appsDetected |
+List of other apps detected that may capture, overlay, control, or otherwise interfere with your app (screen recorders, overlay malware, automation tools, etc.) | e.g. "KNOWN_CAPTURING", "UNKNOWN_CONTROLLING" | Credential theft tools, input automation/bots, overlay attacks (e.g. tapjacking) | yes | maybe | |
+| environmentDetails. playProtectVerdict |
+Indicates Play Protect’s assessment of device/app risk | e.g. "NO_ISSUES" or "MEDIUM_RISK" | Using devices with known malware, disabled Play Protect (which is a possible user choice) | yes | maybe |
+Notes:
+- Since our minimum Android version will be Android 13, we will be checking for "MEETS_STRONG_INTEGRITY", and the table above is based on the capabilities of the hardware-backed Play Integrity verdict.
+- MEETS_STRONG_INTEGRITY also includes the requirement that the device has received a security patch within the last 12 months.
+- The PlayIntegrity verdict signature must be validated and the verdict needs to be decrypted (using keys provided via theGoogle Play Console) in order to rely on the signals as described.
+Android RASP¶
+Since we have not yet decided on a RASP solution, the documented detection features should be considered a preliminary set of requirements for potential RASP solutions.
+| Detection Feature | Details | Mitigated Threats |
+|---|---|---|
+| App Hooking/debugging | Monitors for dynamic debugger attachment, library injection, instrumentation frameworks (Frida, Xposed, LSPosed, DobbyHook), and other forms of dynamic manipulation of runtime logic. | Reverse engineering, dynamic runtime manipulation |
+| App Repackaging | Detects modifications to the app bundle, re-signing with unauthorized certificates, or injected frameworks before installation. | app repackaging & tampering & spoofing |
+| App tampering | Identifies binary patches, altered code segments, unexpected file changes, and modifications to critical logic. | Disabled protections, patched logic |
+| UD rooting | Detects rooting indicators such as sandbox violations, privileged file access, injected toolchains, and elevated OS capabilities. | Privilege escalation, unrestricted hooking, bypass of integrity controls and sandbox isolation |
+| UD emulation | Detects execution in virtualized, automated, or non-real hardware environments through system behavior checks and hardware consistency verification. | Automation fraud, bot attacks, spoofed devices |
+Notes:
+- RASP provides a way to continuously and dynamically monitor the app and the user’s device for integrity and authenticity while the app is running.
+- Root detection by RASP is particularly important in the Android environment, as there are publicly known and well-documented methods that use leaked key-attestation keys to emulate a device with a locked bootloader, even when it is running a modified system image (e.g., a rooted system image). This root-detection mechanism works in combination with an independently maintained blocklist, separate from Google’s revocation list, for publicly leaked key-attestation keys that have not been revoked by Google. It is intended in particular to serve as a barrier against the use of non-publicly leaked key-attestation keys.
+iOS DCDeviceCheck.AppAttest Attestation¶
+| Signal | Provider | Details | Example Value | Mitigated Threats | Plausibility Check |
+|---|---|---|---|---|---|
+| attestationObject (x5c) | Secure Enclave + Apple attestation servers | CBOR object that proves the App Attest key was generated in a SecureEnclave | Binary CBOR structure | Replay attacks, tampering with certificate, it's unclear from documentation what additional threats could be mitigated, might also identify app repackaging & tampering & spoofing, device emulation, tampered runtime, jailbroken(rooted) OS | not used |
+| credentialId | Secure Enclave | 32-byte opaque identifier for the App Attest key generated in the Secure Enclave | Base64 string | Key cloning or device proxy used to spoof attestations | used, checked against assertion |
+| clientDataHash | Wallet Backend | SHA-256 hash of your server-provided challenge | 32-byte digest | Replay attacks, response reuse, device proxy used to spoof attestations | not used |
+| RP ID | OS + Secure Enclave | your app’s App ID prefix, a period and your CFBundleIdentifier | e.g. SHA‑256( TeamID + "." + BundleID ) | app repackaging & tampering & spoofing | not used |
+| environment (aaguid) | OS + Secure Enclave | Indicates whether the key is from "development" or "production" environment | e.g. "production" | leaked debug builds | not used |
+| counter | Secure Enclave | counts how many times the key has been used to sign, MUST be 0 for attestations | "0" | It is unclear what the implications are if the counter is not equal to 0 | initially stored to populate DB |
+Notes:
+- The attestation also includes a receipt that can be used to query a risk metric from Apple’s servers. Apple’s documentation describes this metric as follows: “The receipt represents the metric as a string that indicates the number of attested keys associated with a given device over the past 30 days. Look for this value to be a low number.” This metric could help identify devices that are being used to generate attestations or assertions on behalf of other devices (proxy attestation threat). However, it has significant limitations: neither the metric nor the expected thresholds are clearly defined, and its use requires our backend to communicate with Apple’s servers, which introduces additional privacy risks due to the potential for tracking on Apple’s side. For additional information, see WardenSupreme’s description of the feature.
+- iOS does not provide any hardware-backed information about the device model or the OS version/patch level. These values must be queried from the OS after ensuring that the device and operating system have not been tampered with.
+iOS DCDeviceCheck.AppAttest Assertions¶
+| Signal | Provider | Details | Example Value | Mitigated Threats | Additional Usage | Plausibility Check |
+|---|---|---|---|---|---|---|
+| assertionObject | Secure Enclave | CBOR object containing signature over challenge + state with the App Attest key | Binary CBOR structure | Replay attacks, tampering with certificate, it's unclear from documentation what additional threats could be mitigated, might also identify app repackaging & tampering & spoofing, Device emulation, tampered runtime, jailbroken(rooted) OS | - | Must validate signature with attestation public key |
+| keyId (matches credentialId) | Secure Enclave | Identifier of the App Attest key used to sign the assertion | Base64 string | App cloning, device proxy used to spoof attestations | - | Must match known attested keyId (credentialId from attestation) |
+| clientDataHash | Wallet Backend | SHA-256 hash of server-generated challenge and optional payload | 32-byte digest | Replay attacks, response reuse | - | not used |
+| RP ID | OS + Secure Enclave | your app’s App ID prefix, a period and your CFBundleIdentifier | e.g. SHA‑256( TeamID + "." + BundleID ) | app repackaging & tampering & spoofing | - | not used |
+| counter | Secure Enclave | counts how many times the key has been used to sign | "42" | Replay attacks, response reuse, device proxy used to spoof attestations | - | The counter is required to increase monotonically. Big jumps could indicate app/device is used to proxy attestations for other app/devices, lower value then recorded point to a replay attack |
+iOS RASP¶
+Since we have not yet decided on a RASP solution, the documented detection features should be considered a preliminary set of requirements for potential RASP solutions.
+| Detection Feature | Details | Mitigated Threats |
+|---|---|---|
+| App Hooking/debugging | Monitors for dynamic debugger attachment, library injection, instrumentation frameworks (Frida, Substrate), and other forms of dynamic manipulation of runtime logic. | Reverse engineering, dynamic runtime manipulation |
+| App Repackaging | Detects modifications to the app bundle, re-signing with unauthorized certificates, or injected frameworks before installation. | app repackaging & tampering & spoofing |
+| App tampering | Identifies binary patches, altered code segments, unexpected file changes, and modifications to critical logic. | Disabled protections, patched logic |
+| UD rooting | Detects jailbreak indicators such as sandbox violations, privileged file access, injected toolchains, and elevated OS capabilities. | Privilege escalation, unrestricted hooking, keychain access, bypass of integrity controls. |
+| UD emulation | Detects execution in virtualized, automated, or non-real hardware environments through system behavior checks and hardware consistency verification. | Automation fraud, bot attacks, spoofed devices |
+Notes:
+- Apple’s platform security provides strong install-time protections: App Sandbox & Code Signing, App Store Review (prevent obviously malicious or re-signed apps from entering the store), System Integrity Protection (prevents unsigned code execution on non-jailbroken devices). Based on the documented functionality of these features they do not provide information about or protection against: Rooting (Jailbreak) or elevated privileges, runtime hooking or instrumentation.
+- “Your app uses the App Attest service to assert its authenticity. A compromised version of your app running on a genuine, unmodified Apple device can’t create valid assertions." Apple documentation
+- RASP provides a way to continuously and dynamically monitor the app and the user’s device for integrity and authenticity while the app is running.

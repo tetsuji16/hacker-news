@@ -1,0 +1,26 @@
+URL: https://isseven.app/
+
+v7.7.7
+The only number validation API you'll ever need.
+One number. One truth. Zero compromises.
+// live demo
+POST /api/isseven
+// response will appear here
+// api documentation
+POST /api/isseven
+Send a JSON body with a number
+field.
+Returns whether it is seven.
+Request
+{ "number": 7 }
+Response — 200 OK for 7 values
+{ "isseven": true, "ad": "Upgrade to isseven Pro for an ad-free experience!" }
+Response — 200 OK for non seven values
+{ "isseven": false, "ad": "isseven Pro: because your sevens deserve better." }
+// pricing
+Free
+$0/mo
+Pro
+$77/mo
+Enterprise
+$777/mo

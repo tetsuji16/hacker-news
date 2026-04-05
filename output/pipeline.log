@@ -1938,3 +1938,449 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 
+2026-04-05 11:44:28,285 - hn_podcast - INFO - --- New Job Started for 2026-04-05 at 2026-04-05 11:44:28.284693 ---
+2026-04-05 11:44:28,287 - hn_podcast - INFO - Fetching stories for 2026-04-05...
+2026-04-05 11:44:29,659 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-05 11:44:29,665 - hn_podcast - INFO - Processing: Introduction to Computer Music [pdf]
+2026-04-05 11:44:50,503 - trafilatura.utils - ERROR - parsed tree length: 1, wrong data type or not valid HTML
+2026-04-05 11:44:50,506 - trafilatura.core - ERROR - empty HTML tree: None
+2026-04-05 11:44:50,508 - trafilatura.core - WARNING - discarding data: None
+2026-04-05 11:44:50,527 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://composerprogrammer.com/introductiontocomputermusic.pdf
+2026-04-05 11:44:50,527 - hn_podcast - INFO - Processing: OpenScreen is an open-source alternative to Screen Studio
+2026-04-05 11:44:52,268 - hn_podcast - INFO -   - [SUCCESS] Scraped 3624 characters.
+2026-04-05 11:44:52,270 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:44:52,984 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:44:52,986 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:44:53,162 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:44:53,163 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:44:53,240 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:44:53,242 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:44:53,410 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:44:53,411 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:44:53,413 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:44:53,792 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:44:53,807 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:44:53,812 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:45:08,813 - hn_podcast - INFO - Processing: LLM Wiki – example of an "idea file"
+2026-04-05 11:45:11,095 - hn_podcast - INFO -   - [SUCCESS] Scraped 11573 characters.
+2026-04-05 11:45:11,097 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:45:11,186 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:11,187 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:45:11,264 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:11,265 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:45:11,443 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:11,444 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:45:11,526 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:11,527 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:45:11,528 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:45:11,911 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:45:11,926 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:45:11,927 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:45:26,930 - hn_podcast - INFO - Processing: Shooting down ideas is not a skill
+2026-04-05 11:45:27,711 - hn_podcast - INFO -   - [SUCCESS] Scraped 5061 characters.
+2026-04-05 11:45:27,712 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:45:27,796 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:27,797 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:45:27,993 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:27,994 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:45:28,063 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:28,065 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:45:28,267 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:28,268 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:45:28,269 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:45:28,624 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:45:28,638 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:45:28,643 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:45:43,644 - hn_podcast - INFO - Processing: AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy
+2026-04-05 11:45:44,395 - hn_podcast - INFO -   - [SUCCESS] Scraped 3725 characters.
+2026-04-05 11:45:44,397 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:45:44,469 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:44,471 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:45:44,665 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:44,666 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:45:44,735 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:44,737 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:45:44,943 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:45:44,944 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:45:44,947 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:45:45,340 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:45:45,358 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:45:45,364 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:46:00,367 - hn_podcast - INFO - Processing: Advice to Young People, the Lies I Tell Myself (2024)
+2026-04-05 11:46:01,375 - hn_podcast - INFO -   - [SUCCESS] Scraped 36899 characters.
+2026-04-05 11:46:01,377 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:46:01,475 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:01,476 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:46:01,636 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:01,637 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:46:01,735 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:01,736 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:46:01,908 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:01,909 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:46:01,910 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:46:02,241 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:46:02,254 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:46:02,259 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:46:17,260 - hn_podcast - INFO - Processing: German implementation of eIDAS will require an Apple/Google account to function
+2026-04-05 11:46:19,456 - hn_podcast - INFO -   - [SUCCESS] Scraped 24778 characters.
+2026-04-05 11:46:19,458 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:46:19,554 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:19,555 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:46:19,727 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:19,728 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:46:19,821 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:19,822 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:46:19,972 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:19,973 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:46:19,974 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:46:20,408 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:46:20,421 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:46:20,425 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:46:35,427 - hn_podcast - INFO - Processing: Isseven
+2026-04-05 11:46:35,950 - hn_podcast - INFO -   - [SUCCESS] Scraped 566 characters.
+2026-04-05 11:46:35,951 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:46:36,034 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:36,035 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:46:36,211 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:36,212 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:46:36,289 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:36,289 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:46:36,363 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:36,364 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:46:36,365 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:46:36,702 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:46:36,717 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:46:36,723 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:46:51,724 - hn_podcast - INFO - Processing: Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust
+2026-04-05 11:46:52,267 - hn_podcast - INFO -   - [SUCCESS] Scraped 941 characters.
+2026-04-05 11:46:52,267 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:46:52,336 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:52,337 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:46:52,523 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:52,524 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:46:52,594 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:52,595 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:46:52,665 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:46:52,667 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:46:52,668 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:46:53,018 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:46:53,030 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:46:53,035 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:47:08,037 - hn_podcast - INFO - Processing: A case study in testing with 100+ Claude agents in parallel
+2026-04-05 11:47:09,364 - hn_podcast - INFO -   - [SUCCESS] Scraped 12736 characters.
+2026-04-05 11:47:09,365 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 11:47:09,451 - hn_podcast - ERROR -     gemini-3.1-flash-lite-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:47:09,453 - hn_podcast - INFO -   - Attempting summarization with gemini-3-flash-preview...
+2026-04-05 11:47:09,532 - hn_podcast - ERROR -     gemini-3-flash-preview error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:47:09,533 - hn_podcast - INFO -   - Attempting summarization with gemini-2.5-flash...
+2026-04-05 11:47:09,608 - hn_podcast - ERROR -     gemini-2.5-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:47:09,610 - hn_podcast - INFO -   - Attempting summarization with gemini-2.0-flash...
+2026-04-05 11:47:09,684 - hn_podcast - ERROR -     gemini-2.0-flash error: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2026-04-05 11:47:09,685 - hn_podcast - INFO -   - Exhausted all specified Google AI Studio models. Trying OpenRouter...
+2026-04-05 11:47:09,687 - hn_podcast - INFO -   - Attempting fallback summarization with OpenRouter (Google: Gemini 2.0 Flash)...
+2026-04-05 11:47:10,009 - hn_podcast - ERROR -     OpenRouter error: 401 - {"error":{"message":"Missing Authentication header","code":401}}
+2026-04-05 11:47:10,024 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 11:47:10,026 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 11:47:25,028 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-05 11:47:25,029 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-05 11:50:46,851 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-05.mp3 (206.7s)
+2026-04-05 11:50:46,864 - hn_podcast - INFO - Audio generation complete!
+2026-04-05 11:50:46,874 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-05.json (duration=206s, size=827084B)
+2026-04-05 11:50:46,875 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-05 11:50:46,886 - hn_podcast - INFO - Found 17 metadata files to process.
+2026-04-05 11:50:47,117 - hn_podcast - INFO - RSS feed generated with 17 episodes at output/podcast.xml
+2026-04-05 11:50:47,137 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-05 11:50:47,139 - hn_podcast - INFO - RSS feed update complete!
+2026-04-05 11:50:47,141 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-05 11:50:47,157 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-05 11:50:47,170 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-05 11:50:47,172 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-05 11:50:47,226 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

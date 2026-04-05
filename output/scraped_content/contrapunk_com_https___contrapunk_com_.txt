@@ -1,0 +1,17 @@
+URL: https://contrapunk.com/
+
+CONTRAPUNK
+Real-time MIDI harmony generator and guitar-to-MIDI converter. Proper counterpoint rules. Sub-10ms latency. Built in Rust.
+Free. No login. Browser works in Chrome with any MIDI controller.
+🎹 HARMONY ENGINE
+8 harmony modes with real counterpoint rules. Palestrina, Bach, Jazz, Free. 28 scale modes. Deterministic voicing.
+🎸 GUITAR INPUT
+Plug in your guitar. Real-time pitch detection, onset tracking, auto-calibration. Play guitar, hear counterpoint.
+⚡ SUB-10MS LATENCY
+Single-cycle detection, 2-frame voting, 128-sample buffers. Fast enough for live performance.
+🌐 RUNS EVERYWHERE
+Native desktop via Tauri. Browser via WebAssembly. Server mode for studios. Same Rust core everywhere.
+🎼 VOICE LEADING
+Parallel fifths rejection. Voice crossing prevention. Spacing rules. Centuries of music theory, in code.
+🔓 OPEN SOURCE
+MIT licensed. Counterpoint rules are centuries of human knowledge. They should be accessible to every musician.
