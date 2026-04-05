@@ -2384,3 +2384,92 @@ message: "API key not valid. Please pass a valid API key."
 2026-04-05 11:50:47,170 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-05 11:50:47,172 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-05 11:50:47,226 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-05 11:50:48,469 - hn_podcast - ERROR - Git push failed (exit code 128): fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+2026-04-05 19:45:05,513 - hn_podcast - INFO - Scheduler started. Job runs daily at 06:00
+2026-04-05 20:12:47,322 - hn_podcast - INFO - Scheduler started. Job runs daily at 06:00
+2026-04-05 20:15:06,915 - hn_podcast - INFO - Scheduler started. Job runs daily at 06:00
+2026-04-05 20:16:03,417 - hn_podcast - INFO - --- New Job Started for 2026-04-05 at 2026-04-05 20:16:03.417413 ---
+2026-04-05 20:16:03,425 - hn_podcast - INFO - Fetching stories for 2026-04-05...
+2026-04-05 20:16:04,707 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-05 20:16:04,711 - hn_podcast - INFO - Processing: Introduction to Computer Music (2009) [pdf]
+2026-04-05 20:16:45,417 - trafilatura.utils - ERROR - parsed tree length: 1, wrong data type or not valid HTML
+2026-04-05 20:16:45,431 - trafilatura.core - ERROR - empty HTML tree: None
+2026-04-05 20:16:45,434 - trafilatura.core - WARNING - discarding data: None
+2026-04-05 20:16:45,487 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://composerprogrammer.com/introductiontocomputermusic.pdf
+2026-04-05 20:16:45,488 - hn_podcast - INFO - Processing: OpenScreen is an open-source alternative to Screen Studio
+2026-04-05 20:16:47,328 - hn_podcast - INFO -   - [SUCCESS] Scraped 3624 characters.
+2026-04-05 20:16:47,330 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:16:54,808 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:16:54,810 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:16:54,811 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:17:09,814 - hn_podcast - INFO - Processing: LLM Wiki – example of an "idea file"
+2026-04-05 20:17:12,287 - hn_podcast - INFO -   - [SUCCESS] Scraped 11573 characters.
+2026-04-05 20:17:12,288 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:17:20,307 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:17:20,308 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:17:20,309 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:17:35,311 - hn_podcast - INFO - Processing: German implementation of eIDAS will require an Apple/Google account to function
+2026-04-05 20:17:37,684 - hn_podcast - INFO -   - [SUCCESS] Scraped 24778 characters.
+2026-04-05 20:17:37,686 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:17:45,095 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:17:45,097 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:17:45,099 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:18:00,101 - hn_podcast - INFO - Processing: AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy
+2026-04-05 20:18:00,787 - hn_podcast - INFO -   - [SUCCESS] Scraped 3725 characters.
+2026-04-05 20:18:00,788 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:18:06,635 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:18:06,637 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:18:06,638 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:18:21,640 - hn_podcast - INFO - Processing: Advice to young people, the lies I tell myself (2024)
+2026-04-05 20:18:22,679 - hn_podcast - INFO -   - [SUCCESS] Scraped 36899 characters.
+2026-04-05 20:18:22,680 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:18:32,293 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:18:32,295 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:18:32,297 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:18:47,298 - hn_podcast - INFO - Processing: Rubysyn: Clarifying Ruby's Syntax and Semantics
+2026-04-05 20:18:51,485 - hn_podcast - INFO -   - [SUCCESS] Scraped 30858 characters.
+2026-04-05 20:18:51,486 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:18:58,508 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:18:58,510 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:18:58,512 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:19:13,513 - hn_podcast - INFO - Processing: Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust
+2026-04-05 20:19:14,352 - hn_podcast - INFO -   - [SUCCESS] Scraped 1180 characters.
+2026-04-05 20:19:14,354 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:19:23,597 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:19:23,599 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:19:23,600 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:19:38,602 - hn_podcast - INFO - Processing: Shooting down ideas is not a skill
+2026-04-05 20:19:39,336 - hn_podcast - INFO -   - [SUCCESS] Scraped 5061 characters.
+2026-04-05 20:19:39,338 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:19:47,047 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:19:47,049 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:19:47,051 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:20:02,053 - hn_podcast - INFO - Processing: Zml-smi: universal monitoring tool for GPUs, TPUs and NPUs
+2026-04-05 20:20:02,565 - hn_podcast - INFO -   - [SUCCESS] Scraped 3994 characters.
+2026-04-05 20:20:02,566 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-05 20:20:09,575 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-05 20:20:09,577 - hn_podcast - INFO -   - Summary generated.
+2026-04-05 20:20:09,578 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-05 20:20:24,580 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-05 20:20:24,582 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-05 20:32:57,176 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-05.mp3 (1629.4s)
+2026-04-05 20:32:57,298 - hn_podcast - INFO - Audio generation complete!
+2026-04-05 20:32:57,325 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-05.json (duration=1629s, size=6517964B)
+2026-04-05 20:32:57,327 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-05 20:32:57,342 - hn_podcast - INFO - Found 17 metadata files to process.
+2026-04-05 20:32:57,613 - hn_podcast - INFO - RSS feed generated with 17 episodes at output/podcast.xml
+2026-04-05 20:32:57,636 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-05 20:32:57,638 - hn_podcast - INFO - RSS feed update complete!
+2026-04-05 20:32:57,640 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-05 20:32:57,660 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-05 20:32:57,674 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-05 20:32:57,675 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-05 20:32:57,959 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

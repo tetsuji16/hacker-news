@@ -15,3 +15,4 @@ Native desktop via Tauri. Browser via WebAssembly. Server mode for studios. Same
 Parallel fifths rejection. Voice crossing prevention. Spacing rules. Centuries of music theory, in code.
 🔓 OPEN SOURCE
 MIT licensed. Counterpoint rules are centuries of human knowledge. They should be accessible to every musician.
+There was a 1970s Indonesian progressive rock band also called Contrapunk that released an album called "Putri Mohon Diri". They blended traditional Indonesian instruments, intense guitar work, and classical influences. Listen on YouTube.

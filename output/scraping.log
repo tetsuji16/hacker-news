@@ -3219,3 +3219,23 @@ DEBUG: Scraping URL: https://contrapunk.com/
 DEBUG: Successfully scraped 941 chars from https://contrapunk.com/. Saved to output/scraped_content/contrapunk_com_https___contrapunk_com_.txt
 DEBUG: Scraping URL: https://imbue.com/product/mngr_part_2/
 DEBUG: Successfully scraped 12736 chars from https://imbue.com/product/mngr_part_2/. Saved to output/scraped_content/imbue_com_https___imbue_com_product_mngr_part_2_.txt
+DEBUG: Scraping URL: https://composerprogrammer.com/introductiontocomputermusic.pdf
+DEBUG: Trafilatura extracted empty text from https://composerprogrammer.com/introductiontocomputermusic.pdf
+DEBUG: Scraping URL: https://github.com/siddharthvaddem/openscreen
+DEBUG: Successfully scraped 3624 chars from https://github.com/siddharthvaddem/openscreen. Saved to output/scraped_content/github_com_https___github_com_siddharthvaddem_openscreen.txt
+DEBUG: Scraping URL: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+DEBUG: Successfully scraped 11573 chars from https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f. Saved to output/scraped_content/gist_github_com_thub_com_karpathy_442a6bf555914893e9891c11519de94f.txt
+DEBUG: Scraping URL: https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/
+DEBUG: Successfully scraped 24778 chars from https://bmi.usercontent.opencode.de/eudi-wallet/wallet-development-documentation-public/latest/architecture-concept/06-mobile-devices/02-mdvm/. Saved to output/scraped_content/bmi_usercontent_opencode_de_st_architecture_concept_06_mobile_devices_02_mdvm_.txt
+DEBUG: Scraping URL: https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop
+DEBUG: Successfully scraped 3725 chars from https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop. Saved to output/scraped_content/www_phoronix_com_ww_phoronix_com_news_Linux_7_0_AWS_PostgreSQL_Drop.txt
+DEBUG: Scraping URL: https://jxnl.co/writing/2024/06/01/advice-to-young-people/
+DEBUG: Successfully scraped 36899 chars from https://jxnl.co/writing/2024/06/01/advice-to-young-people/. Saved to output/scraped_content/jxnl_co_jxnl_co_writing_2024_06_01_advice_to_young_people_.txt
+DEBUG: Scraping URL: https://github.com/squadette/rubysyn/blob/master/README.md
+DEBUG: Successfully scraped 30858 chars from https://github.com/squadette/rubysyn/blob/master/README.md. Saved to output/scraped_content/github_com_github_com_squadette_rubysyn_blob_master_README_md.txt
+DEBUG: Scraping URL: https://contrapunk.com/
+DEBUG: Successfully scraped 1180 chars from https://contrapunk.com/. Saved to output/scraped_content/contrapunk_com_https___contrapunk_com_.txt
+DEBUG: Scraping URL: https://scottlawsonbc.com/post/shooting-down-ideas
+DEBUG: Successfully scraped 5061 chars from https://scottlawsonbc.com/post/shooting-down-ideas. Saved to output/scraped_content/scottlawsonbc_com_https___scottlawsonbc_com_post_shooting_down_ideas.txt
+DEBUG: Scraping URL: https://zml.ai/posts/zml-smi/
+DEBUG: Successfully scraped 3994 chars from https://zml.ai/posts/zml-smi/. Saved to output/scraped_content/zml_ai_https___zml_ai_posts_zml_smi_.txt

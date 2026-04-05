@@ -8,12 +8,12 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 05 Apr 2026 02:50:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 11:32:57 +0000</lastBuildDate>
     <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To"/>
     </itunes:category>
-    <itunes:image href="https://your-domain.com/hacker-news/HackerNewsLogo.png"/>
+    <itunes:image href="https://tetsuji16.github.io/hacker-news/output/HackerNewsLogo.png"/>
     <itunes:owner>
       <itunes:name>Tetsuji</itunes:name>
       <itunes:email>tetsuji.kato@gmail.com</itunes:email>
@@ -234,8 +234,8 @@ Docker で動くなら、Raspberry Pi とかに繋いで常時起動させてお
 サーバーサイドの負荷を気にせずに Python のパワーをフロントエンドで使えるのは、Web 開発の可能性を大きく広げそうですね。
 
 そうですね。特に教育ツールやインタラクティブなデータビジュアライゼーション、あるいは機械学習のデモなど、活用の幅は非常に広いと思います。Python エコシステムの資産をそのまま Web に持ち込める Pyodide は、今後さらに注目されるはずです。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-17.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-17.mp3" length="6768236" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-17.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-17.mp3" length="6768236" type="audio/mpeg"/>
       <itunes:duration>28:12</itunes:duration>
       <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -480,8 +480,8 @@ TI-82やTI-83といったグラフ計算機、昔の数学の授業で使って�
 確かに、殺伐としたニュースが多い中で、巨大なカートを押しながら「同じ目的を持った人々と空間を共有する」っていう体験は、今の僕たちに必要な何かなのかもしれないね。
 
 本当にそう。孤独が社会問題化している中で、物理的に人が集まって共通の「熱狂」を感じられる場所っていうのは、テック業界が作るどんなプラットフォームよりも人間らしい場所なのかもしれないよ。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-20.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-20.mp3" length="8021900" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-20.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-20.mp3" length="8021900" type="audio/mpeg"/>
       <itunes:duration>33:25</itunes:duration>
       <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -668,8 +668,8 @@ PerlをRustで再実装するっていうだけでも驚きですが、なぜわ
 報告書の作成には、多くのTSOやACER、各国の規制当局が参加していますが、非常に専門的で緻密な調査が行われたことが伺えますね。ただの「停電」で終わらせず、こうして教訓を共有し、次世代のグリッドのResilienceを高めていく姿勢は非常に勉強になります。
 
 実際、今回の報告書には既にデプロイ可能な技術的な解決策が多く盛り込まれています。エネルギー政策と物理的なシステムの限界をどう一致させていくか、今後も注目しておく必要がありますね。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-21.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-21.mp3" length="6472172" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-21.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-21.mp3" length="6472172" type="audio/mpeg"/>
       <itunes:duration>26:57</itunes:duration>
       <pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1139,8 +1139,8 @@ LKML、つまりLinux Kernel Mailing Listに流れてくるパッチを監視し
 Googleがリソースを提供して、Linux Foundationのプロジェクトとして運営されている。これは単なる実験的なツールを超えて、Kernel開発の現場に不可欠なインフラの一部になりつつあるのかもしれませんね。
 
 まさにそうです。AIが単にコードを書く時代から、膨大なコードベースの品質を維持するために貢献する時代へ、確実にシフトしていますね。これからの開発プロセスがどう変わっていくのか、非常に楽しみです。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-22.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-22.mp3" length="14934092" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-22.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-22.mp3" length="14934092" type="audio/mpeg"/>
       <itunes:duration>55:14</itunes:duration>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1383,8 +1383,8 @@ MacBook Proで397Bという巨大なパラメーターを持つモデルを動�
 次のステップとしては、Maui.EssentialsのAvalonia向け実装や、WinUIとの相互運用性を高めていく予定だそうです。これから.NET 11のリリースに向けて、さらに完成度が上がっていくのが楽しみですね。
 
 LinuxデスクトップやWebAssemblyでも.NETのクロスプラットフォーム開発が加速しそうです。早く触ってみたいですね！]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-23.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-23.mp3" length="8030732" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-23.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-23.mp3" length="8030732" type="audio/mpeg"/>
       <itunes:duration>33:27</itunes:duration>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1627,8 +1627,8 @@ Terminal Bの掲示板がほぼ真っ白になっている映像を見ました�
 空港という、もっとも安全管理が徹底されているはずの場所での事故だけに、調査結果は今後の航空業界の安全基準にも大きく関わってきそうです。
 
 全くその通りだね。亡くなった方々の冥福を祈るとともに、再発防止に向けた報告をしっかりと待つ必要があるね。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-24.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-24.mp3" length="8395148" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-24.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-24.mp3" length="8395148" type="audio/mpeg"/>
       <itunes:duration>34:58</itunes:duration>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1851,8 +1851,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 4万5000コア！一つのラックでそこまでいけるのか…。AIインフラの構築スピードが、これでまた一段と加速しそうだね。GPUだけでなく、CPU側でこれほどまで強烈なパワーを見せつけてくると、今後のデータセンターの勢力図にも影響が出てくるんじゃないかな。
 
 まさにその通り。AIが高度化する中で、推論や推論後のエージェント処理をどう効率化するかという課題に対して、Armが強力な回答を提示した形だね。今後の導入事例が楽しみだよ。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-25.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-25.mp3" length="7696556" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-25.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-25.mp3" length="7696556" type="audio/mpeg"/>
       <itunes:duration>32:04</itunes:duration>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1897,8 +1897,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ End of "Chat Control": EU parliament stops mass surveillance
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-26.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-26.mp3" length="877772" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-26.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-26.mp3" length="877772" type="audio/mpeg"/>
       <itunes:duration>03:39</itunes:duration>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1931,8 +1931,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ $500 GPU outperforms Claude Sonnet on coding benchmarks
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-27.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-27.mp3" length="646700" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-27.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-27.mp3" length="646700" type="audio/mpeg"/>
       <itunes:duration>02:41</itunes:duration>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -1969,8 +1969,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-28.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-28.mp3" length="763244" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-28.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-28.mp3" length="763244" type="audio/mpeg"/>
       <itunes:duration>03:10</itunes:duration>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2007,8 +2007,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ My MacBook keyboard is broken and it's insanely expensive to fix
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-29.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-29.mp3" length="740108" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-29.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-29.mp3" length="740108" type="audio/mpeg"/>
       <itunes:duration>03:04</itunes:duration>
       <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2053,8 +2053,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ Turning a MacBook into a touchscreen with $1 of hardware (2018)
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-30.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-30.mp3" length="856748" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-30.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-30.mp3" length="856748" type="audio/mpeg"/>
       <itunes:duration>03:34</itunes:duration>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2095,8 +2095,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ Researchers find 3,500-year-old loom that reveals textile revolution
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-03-31.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-03-31.mp3" length="852524" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-31.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-03-31.mp3" length="852524" type="audio/mpeg"/>
       <itunes:duration>03:33</itunes:duration>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2137,8 +2137,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ Claude wrote a full FreeBSD remote kernel RCE with root shell
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-04-01.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-04-01.mp3" length="798092" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-01.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-01.mp3" length="798092" type="audio/mpeg"/>
       <itunes:duration>03:19</itunes:duration>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2175,8 +2175,8 @@ HypothesisとAntithesisの合体、まさに「Synthesis（統合）」という
 ## ■ Windows 95 defenses against installers that overwrite a file with an older one
 申し訳ありませんが、この記事の詳細は現在取得できませんでした。
 そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-04-02.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-04-02.mp3" length="748364" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-02.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-02.mp3" length="748364" type="audio/mpeg"/>
       <itunes:duration>03:07</itunes:duration>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -2205,51 +2205,42 @@ Anthropicの研究者であるNicholas Carliniは、最新のAIモデルClaude C
 
 ■ Show HN: Travel Hacking Toolkit – Points search and trip planning with AI
 Travel Hacking Toolkitは、Model Context Protocol（MCP）を利用して、AIエージェントに旅行計画やマイレージ運用の最適化を代行させるためのオープンソースプロジェクトである。このツールキットはOpenCodeやClaude Codeに対応しており、Skiplagged、Kiwi、Trivago、Airbnbなどの検索エンジンをMCPサーバーとして直接AIに接続することで、旅行予約に関する複雑なタスクを自動化する。具体的には、Seats.aeroなどのサービスと連携して特典航空券の空席状況を調査し、SerpAPIによるキャッシュ価格との比較や、AwardWalletによるマイル残高の確認を一括して行える点が特徴である。技術的には、Markdown形式で定義された「スキル」がAIにAPIの呼び出し方やワークフローを教示し、アライアンス情報やマイレージ価値といった参照データを用いることで、ユーザーに対して最もコストパフォーマンスの高い選択肢を提示する仕組みとなっている。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-04-04.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-04-04.mp3" length="5787404" type="audio/mpeg"/>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-04.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-04.mp3" length="5787404" type="audio/mpeg"/>
       <itunes:duration>24:06</itunes:duration>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hacker News アップデート 2026-04-05</title>
-      <description><![CDATA[## ■ OpenScreen is an open-source alternative to Screen Studio
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+      <description><![CDATA[■ OpenScreen is an open-source alternative to Screen Studio
+OpenScreenは、洗練されたプロダクトデモやチュートリアル動画を容易に作成できることで知られる有料ツールScreen Studioの代替を目指した、無料のオープンソース・プロジェクトである。本ツールはElectron、React、TypeScript、PixiJSなどのモダンな技術スタックを基盤としており、自動ズームや手動ズーム、モーションブラー、背景カスタマイズ、テキストや矢印による注釈追加といった、デモ動画作成に不可欠な基本機能を網羅している。MITライセンスの下で提供されており、個人利用および商用利用が完全に無料である点が最大の特徴である。現状ではベータ版としての提供であり、開発者証明書の未取得によるOS側のセキュリティ警告や、システムオーディオキャプチャにおけるプラットフォーム特有の制約が存在するものの、高価なサブスクリプションを避けつつ「見た目の美しい動画」を手軽に作成したいユーザーにとっては非常に強力な選択肢となる。
 
-## ■ LLM Wiki – example of an "idea file"
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ LLM Wiki – example of an "idea file"
+LLM Wikiは、LLMを用いて個人やチームの知識ベースを動的に構築・維持する新しいパターンである。従来型のRAGは問い合わせの都度ドキュメントを検索し回答を生成する一時的な処理に留まるが、LLM WikiはMarkdownファイルを永続的な「資産」として扱い、新規情報を取り込むたびにLLMが内容の要約、構造化、相互参照の構築、矛盾の指摘といったメンテナンスを自動的に行う。この手法は、元資料となるRaw sources、LLMが管理するWiki、およびルールを定義するSchemaの3層で構成され、ObsidianのようなローカルMarkdownエディタと組み合わせることで、LLMを知識管理のエンジニアとして機能させることが可能となる。人間が「何を取り入れ、どのような問いを立てるか」に集中し、LLMが煩雑な整理や bookkeeping を担うことで、長期間にわたり知識が蓄積され続けるエコシステムを構築できる点が最大の特徴である。
 
-## ■ Shooting down ideas is not a skill
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ German implementation of eIDAS will require an Apple/Google account to function
+ドイツにおけるeIDAS（電子ID）実装の計画では、モバイルウォレットのセキュリティを確保するため、デバイスの整合性検証をAppleやGoogleが提供するプラットフォームの仕組みに大きく依存する設計が採用されている。具体的には、OpenID4VCI Key AttestationやPlay Integrity API、iOSのDeviceCheckなどの技術を組み合わせることで、端末のルート化や改ざん、OSの脆弱性の有無をリアルタイムで監視するMobile Device Vulnerability Management（MDVM）モデルが導入される。この設計では、ハードウェアレベルでの鍵保護を確実にするためにデバイスの信頼性を担保する必要があるが、その評価をプラットフォーマーのインフラに委ねる形となるため、結果として公式のアカウントや特定のOSバージョン、セキュリティパッチレベルの維持が公的IDを利用するための事実上の前提条件となっている。このアプローチは、高度なセキュリティレベルを実現する一方で、特定の巨大テック企業のシステムから独立したデバイス利用を制限する可能性があり、国家のデジタル主権とテック企業のプラットフォーム依存という複雑な課題を浮き彫りにしている。
 
-## ■ AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ AWS engineer reports PostgreSQL perf halved by Linux 7.0, fix may not be easy
+Linux 7.0の導入に伴い、AWSのエンジニアがPostgreSQLのパフォーマンスが以前のバージョン比で約半分に低下するという深刻なリグレッションを報告した。この性能低下は、Linux 7.0におけるカーネルのプリエンプションモデルの制限変更が主因であり、特定のCPU環境下でユーザー空間のスピンロックのオーバーヘッドが増大したことに起因する。事態を重く見たカーネル開発コミュニティ内では以前の設定を維持するためのパッチも検討されたが、カーネルメンテナンスの主要な開発者はこれを拒否し、PostgreSQL側が新たに導入されたRSEQのタイムスライス拡張を利用するように実装を修正すべきであるとの見解を示した。Linux 7.0は間もなく安定版がリリースされ、Ubuntu 26.04 LTSのカーネルとしても採用される予定であるため、PostgreSQL側がこの要求に対応しなければ、データベースサーバーの運用において重大なパフォーマンス劣化を伴う可能性がある。
 
-## ■ Advice to Young People, the Lies I Tell Myself (2024)
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ Advice to young people, the lies I tell myself (2024)
+本記事は、人生の主体的な選択と高い当事者意識（High Agency）がいかにキャリアや成長を左右するかを説いたエッセイである。著者は、幸運とは機会の有無ではなく、視野の広さによってチャンスを認知できる能力に依存すると論じ、自身がいかにして従来の採用プロセスに頼らず、相手の抱える課題を解決する「配管工」のようなスタンスで信頼を勝ち取ってきたかを振り返っている。また、著者は成功の鍵を「能力主義」という抽象的な概念ではなく、いかに他者から共に働きたいと思われるかというソフトスキルの重要性と、困難な状況を克服した経験の蓄積による「自信の獲得」にあると主張している。総じて、スキルアップには「オンシーズンとオフシーズン」のような学習のサイクルが必要であり、何事も「やりたいと強く願うこと」と「反復的な実践」が成功への唯一の道筋であるという、極めてストイックな人生哲学が提示されている。
 
-## ■ German implementation of eIDAS will require an Apple/Google account to function
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ Rubysyn: Clarifying Ruby's Syntax and Semantics
+Rubysynは、Ruby言語の複雑な構文と意味論を整理し、明快に再定義することを目的とした実験的プロジェクトである。このプロジェクトでは、Rubyが持つ柔軟で多様なシンタックスシュガーを、Lispベースの最小限のプリミティブな構文へと変換することで、言語仕様の本質的な挙動を明らかにしようと試みている。具体的には、配列リテラルのsplat構文の展開ロジックや、多重代入における変数のバインディング、さらには条件分岐やループ構造内における変数宣言のスコープルールなど、標準ドキュメントでは曖昧になりがちな挙動を静的な解析可能な形式として定義している。最終的には、これらのプリミティブな構成要素を組み合わせることで、Rubyの実行モデルを可視化し、言語仕様に対する包括的かつ論理的な説明を提供することが目指されている。
 
-## ■ Isseven
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust
+ContrapunkはRustで開発されたリアルタイムのMIDIハーモニー生成およびギター・MIDI変換ツールであり、音楽理論における対位法の厳格なルールをプログラムとして実装している点が最大の特徴である。内部的にはRustの強力な並列処理や最適化が活かされており、10ミリ秒以下の低レイテンシーを実現することで、ライブパフォーマンスやリアルタイムでの作曲支援を可能にしている。技術スタックとしてはTauriとWebAssemblyを採用することで、デスクトップネイティブ環境とWebブラウザの両方での実行をサポートしており、ユーザーは自身のMIDIコントローラーやギターを接続するだけで、複雑な音楽理論に基づいたハーモニーを即座に生成できる。MITライセンスで公開されている本プロジェクトは、 centuries of music theory（数世紀にわたる音楽理論）をコードとして民主化することを目指しており、バッハやパレストリーナ、ジャズといった多様なハーモニーモードを搭載した、技術と芸術が融合したオープンソースプロダクトである。
 
-## ■ Show HN: Contrapunk – Real-time counterpoint harmony from guitar input, in Rust
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。
+■ Shooting down ideas is not a skill
+会議の場において他者のアイデアを即座に批判し撃ち落とす行為は、本人にとってはリスク回避という価値貢献のように思われがちであるが、実際には想像力を伴わない安易な行動に過ぎず、組織にとっての創造性を著しく阻害している。アイデアの提案には未来を想像する多大なエネルギーを要するのに対し、批判はわずかな労力で完結するという非対称性が存在し、これが組織内でのネガティビティバイアスを助長する構造的な問題を生んでいる。早期のアイデアは未成熟な青虫のようなものであり、その可能性を理解せぬまま欠点のみを指摘することは、将来的なイノベーションの芽を摘む行為に他ならない。これを解決するために、Edward de BonoのSix Thinking Hatsの概念に基づき、まずはアイデアの潜在的価値を最大化する「イエローハット」の視点で対話を行い、その後にリスクを検証する「ブラックハット」の思考を取り入れるべきである。批判を行う際は単なる拒絶ではなく、懸念点を解決すべき条件として提示することで、チーム全体でアイデアを育てる建設的な環境を構築することが肝要である。
 
-## ■ A case study in testing with 100+ Claude agents in parallel
-申し訳ありませんが、この記事の詳細は現在取得できませんでした。
-そうなんですね。残念ですが、次の話題に行きましょう。]]></description>
-      <guid isPermaLink="false">https://your-domain.com/hacker-news/podcast_2026-04-05.mp3</guid>
-      <enclosure url="https://your-domain.com/hacker-news/podcast_2026-04-05.mp3" length="827084" type="audio/mpeg"/>
-      <itunes:duration>03:26</itunes:duration>
+■ Zml-smi: universal monitoring tool for GPUs, TPUs and NPUs
+zml-smiは、NVIDIA GPU、AMD GPU、Google TPU、AWS Trainiumといった多様なAI向けアクセラレータのパフォーマンスと健全性を、単一のインターフェースで監視できる汎用的な診断ツールである。このツールは、ハードウェアごとの固有ドライバ以外の追加インストールを必要としないサンドボックス化された構成を特徴としており、リアルタイムの利用率や温度、メモリ使用量、さらにはプロセスごとのリソース消費状況を可視化する。特にAMD GPU対応においては、ライブラリが期待する特定のパスにファイルが存在しなくても動作するように、`fopen64`呼び出しをインターセプトしてサンドボックス内の設定ファイルへリダイレクトするという巧妙な共有ライブラリの仕組みを採用している。各ハードウェアプラットフォームから収集可能な詳細なメトリクスを統一された形式で提供することで、複雑化するモダンなAI計算インフラのモニタリングを大幅に効率化するソリューションとなっている。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-05.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-05.mp3" length="6517964" type="audio/mpeg"/>
+      <itunes:duration>27:09</itunes:duration>
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
