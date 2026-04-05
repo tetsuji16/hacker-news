@@ -3239,3 +3239,23 @@ DEBUG: Scraping URL: https://scottlawsonbc.com/post/shooting-down-ideas
 DEBUG: Successfully scraped 5061 chars from https://scottlawsonbc.com/post/shooting-down-ideas. Saved to output/scraped_content/scottlawsonbc_com_https___scottlawsonbc_com_post_shooting_down_ideas.txt
 DEBUG: Scraping URL: https://zml.ai/posts/zml-smi/
 DEBUG: Successfully scraped 3994 chars from https://zml.ai/posts/zml-smi/. Saved to output/scraped_content/zml_ai_https___zml_ai_posts_zml_smi_.txt
+DEBUG: Scraping URL: https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337
+DEBUG: Successfully scraped 4833 chars from https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337. Saved to output/scraped_content/apps_apple_com_ple_com_nl_app_google_ai_edge_gallery_id6749645337.txt
+DEBUG: Scraping URL: https://github.com/love2d/love
+DEBUG: Successfully scraped 3580 chars from https://github.com/love2d/love. Saved to output/scraped_content/github_com_https___github_com_love2d_love.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/videos/ce3d5gkd2geo
+DEBUG: Successfully scraped 822 chars from https://www.bbc.com/news/videos/ce3d5gkd2geo. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_videos_ce3d5gkd2geo.txt
+DEBUG: Scraping URL: https://lalitm.com/post/building-syntaqlite-ai/
+DEBUG: Successfully scraped 22829 chars from https://lalitm.com/post/building-syntaqlite-ai/. Saved to output/scraped_content/lalitm_com_https___lalitm_com_post_building_syntaqlite_ai_.txt
+DEBUG: Scraping URL: https://github.com/JuliusBrussee/caveman
+DEBUG: Successfully scraped 3775 chars from https://github.com/JuliusBrussee/caveman. Saved to output/scraped_content/github_com_https___github_com_JuliusBrussee_caveman.txt
+DEBUG: Scraping URL: https://ai.georgeliu.com/p/running-google-gemma-4-locally-with
+DEBUG: Successfully scraped 26157 chars from https://ai.georgeliu.com/p/running-google-gemma-4-locally-with. Saved to output/scraped_content/ai_georgeliu_com_eorgeliu_com_p_running_google_gemma_4_locally_with.txt
+DEBUG: Scraping URL: https://www.mattkeeter.com/blog/2026-04-05-tailcall/
+DEBUG: Successfully scraped 17261 chars from https://www.mattkeeter.com/blog/2026-04-05-tailcall/. Saved to output/scraped_content/www_mattkeeter_com_tps___www_mattkeeter_com_blog_2026_04_05_tailcall_.txt
+DEBUG: Scraping URL: https://websites.umich.edu/~mejn/cp2/
+DEBUG: Trafilatura failed to download https://websites.umich.edu/~mejn/cp2/
+DEBUG: Scraping URL: https://github.com/salmanmohammadi/nanocode/discussions/1
+DEBUG: Successfully scraped 585 chars from https://github.com/salmanmohammadi/nanocode/discussions/1. Saved to output/scraped_content/github_com__github_com_salmanmohammadi_nanocode_discussions_1.txt
+DEBUG: Scraping URL: https://www.kavliprize.org/nancy-kanwisher-autobiography
+DEBUG: Successfully scraped 16124 chars from https://www.kavliprize.org/nancy-kanwisher-autobiography. Saved to output/scraped_content/www_kavliprize_org___www_kavliprize_org_nancy_kanwisher_autobiography.txt

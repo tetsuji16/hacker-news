@@ -1,0 +1,82 @@
+URL: https://github.com/JuliusBrussee/caveman
+
+why use many token when few do trick
+Install • Benchmarks • Before/After • Why
+A Claude Code skill/plugin and Codex plugin that makes agent talk like caveman — cutting ~75% of tokens while keeping full technical accuracy.
+Based on the viral observation that caveman-speak dramatically reduces LLM token usage without losing technical substance. So we made it a one-line install.
+|
+|
+|
+|
+Same fix. 75% less word. Brain still big.
+Real token counts from the Claude API (reproduce it yourself):
+| Task | Normal (tokens) | Caveman (tokens) | Saved |
+|---|---|---|---|
+| Explain React re-render bug | 1180 | 159 | 87% |
+| Fix auth middleware token expiry | 704 | 121 | 83% |
+| Set up PostgreSQL connection pool | 2347 | 380 | 84% |
+| Explain git rebase vs merge | 702 | 292 | 58% |
+| Refactor callback to async/await | 387 | 301 | 22% |
+| Architecture: microservices vs monolith | 446 | 310 | 30% |
+| Review PR for security issues | 678 | 398 | 41% |
+| Docker multi-stage build | 1042 | 290 | 72% |
+| Debug PostgreSQL race condition | 1200 | 232 | 81% |
+| Implement React error boundary | 3454 | 456 | 87% |
+| Average | 1214 | 294 | 65% |
+Range: 22%–87% savings across prompts.
+Important
+Caveman only affects output tokens — thinking/reasoning tokens are untouched. Caveman no make brain smaller. Caveman make mouth smaller. Biggest win is readability and speed, cost savings are a bonus.
+A March 2026 paper "Brevity Constraints Reverse Performance Hierarchies in Language Models" found that constraining large models to brief responses improved accuracy by 26 percentage points on certain benchmarks and completely reversed performance hierarchies. Verbose not always better. Sometimes less word = more correct.
+npx skills add JuliusBrussee/caveman
+Or with Claude Code plugin system:
+claude plugin marketplace add JuliusBrussee/caveman
+claude plugin install caveman@caveman
+Codex:
+- Clone repo
+- Open Codex in repo
+- Run
+/plugins
+- Search
+Caveman
+- Install plugin
+Install once. Use in all sessions after that.
+One rock. That it.
+Trigger with:
+/caveman
+or Codex$caveman
+- "talk like caveman"
+- "caveman mode"
+- "less tokens please"
+Stop with: "stop caveman" or "normal mode"
+| Thing | Caveman Do? |
+|---|---|
+| English explanation | 🪨 Caveman smash filler words |
+| Code blocks | ✍️ Write normal (caveman not stupid) |
+| Technical terms | 🧠 Keep exact (polymorphism stay polymorphism) |
+| Error messages | 📋 Quote exact |
+| Git commits & PRs | ✍️ Write normal |
+| Articles (a, an, the) | 💀 Gone |
+| Pleasantries | 💀 "Sure I'd be happy to" is dead |
+| Hedging | 💀 "It might be worth considering" extinct |
+┌─────────────────────────────────────┐
+│ TOKENS SAVED ████████ 75% │
+│ TECHNICAL ACCURACY ████████ 100%│
+│ SPEED INCREASE ████████ ~3x │
+│ VIBES ████████ OOG │
+└─────────────────────────────────────┘
+- Faster response — less token to generate = speed go brrr
+- Easier to read — no wall of text, just the answer
+- Same accuracy — all technical info kept, only fluff removed (science say so)
+- Save money — ~71% less output token = less cost
+- Fun — every code review become comedy
+Caveman not dumb. Caveman efficient.
+Normal LLM waste token on:
+- "I'd be happy to help you with that" (8 wasted tokens)
+- "The reason this is happening is because" (7 wasted tokens)
+- "I would recommend that you consider" (7 wasted tokens)
+- "Sure, let me take a look at that for you" (10 wasted tokens)
+Caveman say what need saying. Then stop.
+If caveman save you mass token, mass money — leave mass star. ⭐
+- Blueprint — specification-driven development for Claude Code. Natural language → blueprints → parallel builds → working software.
+- Revu — local-first macOS study app with FSRS spaced repetition, decks, exams, and study guides. revu.cards
+MIT — free like mass mammoth on open plain.

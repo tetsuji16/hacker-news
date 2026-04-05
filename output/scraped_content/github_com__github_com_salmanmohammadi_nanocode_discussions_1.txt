@@ -1,0 +1,9 @@
+URL: https://github.com/salmanmohammadi/nanocode/discussions/1
+
+Introducing nanocode: The best Claude Code that $200 can buy. #1
+-
+|
+I'm so excited to share
+nanocode.mp4You can get started for free using the Google TRC program which gives you free access to pre-emptible TPUs for a month - and I think new Google Cloud accounts also get $300 in credits. I was fortunate to have access to the TRC program for 3 months for this project, and I found most of the time that my spot instances were rarely interrupted and I could easily have the same pod up for a week or more. You can reproduce Training
+|
+Beta Was this translation helpful? Give feedback.

@@ -2473,3 +2473,99 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-05 20:32:57,674 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-05 20:32:57,675 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-05 20:32:57,959 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-05 20:33:08,460 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-05 20:33:08,470 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-01.mp3
+2026-04-05 20:33:08,474 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-02.mp3
+2026-04-05 20:33:08,477 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-15.mp3
+2026-04-05 20:33:08,480 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-17.mp3
+2026-04-05 20:33:08,483 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-20.mp3
+2026-04-05 20:33:08,486 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-21.mp3
+2026-04-05 20:33:08,490 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-22.mp3
+2026-04-05 20:33:08,496 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-23.mp3
+2026-04-05 20:33:08,499 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-24.mp3
+2026-04-05 20:33:08,502 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-25.mp3
+2026-04-05 20:33:08,504 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-26.mp3
+2026-04-05 20:33:08,506 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-27.mp3
+2026-04-05 20:33:08,508 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-28.mp3
+2026-04-05 20:33:08,510 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-29.mp3
+2026-04-05 20:33:08,512 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-30.mp3
+2026-04-05 20:33:08,513 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-03-31.mp3
+2026-04-05 20:33:08,516 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-01.mp3
+2026-04-05 20:33:08,518 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-02.mp3
+2026-04-05 20:33:08,523 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-04.mp3
+2026-04-05 20:33:08,533 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-05.mp3
+2026-04-06 06:00:07,108 - hn_podcast - INFO - --- New Job Started for 2026-04-06 at 2026-04-06 06:00:07.105141 ---
+2026-04-06 06:00:07,109 - hn_podcast - INFO - Fetching stories for 2026-04-06...
+2026-04-06 06:00:32,208 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-06 06:00:32,214 - hn_podcast - INFO - Processing: Gemma 4 on iPhone
+2026-04-06 06:00:36,758 - hn_podcast - INFO -   - [SUCCESS] Scraped 4833 characters.
+2026-04-06 06:00:36,760 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:00:47,700 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:00:47,701 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:00:47,702 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:01:02,703 - hn_podcast - INFO - Processing: LÖVE: 2D Game Framework for Lua
+2026-04-06 06:01:04,455 - hn_podcast - INFO -   - [SUCCESS] Scraped 3580 characters.
+2026-04-06 06:01:04,456 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:01:10,328 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:01:10,330 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:01:10,331 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:01:25,332 - hn_podcast - INFO - Processing: Artemis II crew see first glimpse of far side of Moon [video]
+2026-04-06 06:01:26,662 - hn_podcast - INFO -   - [SUCCESS] Scraped 822 characters.
+2026-04-06 06:01:26,663 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:01:34,298 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:01:34,300 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:01:34,302 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:01:49,303 - hn_podcast - INFO - Processing: Eight years of wanting, three months of building with AI
+2026-04-06 06:01:50,039 - hn_podcast - INFO -   - [SUCCESS] Scraped 22829 characters.
+2026-04-06 06:01:50,041 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:01:56,925 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:01:56,927 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:01:56,928 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:02:11,929 - hn_podcast - INFO - Processing: Caveman: Why use many token when few token do trick
+2026-04-06 06:02:13,952 - hn_podcast - INFO -   - [SUCCESS] Scraped 3775 characters.
+2026-04-06 06:02:13,953 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:02:30,105 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:02:30,107 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:02:30,108 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:02:45,109 - hn_podcast - INFO - Processing: Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code
+2026-04-06 06:02:46,581 - hn_podcast - INFO -   - [SUCCESS] Scraped 26157 characters.
+2026-04-06 06:02:46,583 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:02:55,187 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:02:55,188 - hn_podcast - WARNING -   - Summarization failed for: Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code
+2026-04-06 06:02:55,189 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:03:10,190 - hn_podcast - INFO - Processing: A tail-call interpreter in (nightly) Rust
+2026-04-06 06:03:11,536 - hn_podcast - INFO -   - [SUCCESS] Scraped 17261 characters.
+2026-04-06 06:03:11,537 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:03:18,942 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:03:18,944 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:03:18,945 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:03:33,947 - hn_podcast - INFO - Processing: Computational Physics (2nd Edition)
+2026-04-06 06:03:34,863 - trafilatura.downloads - ERROR - not a 200 response: 403 for URL https://websites.umich.edu/~mejn/cp2/
+2026-04-06 06:03:34,864 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://websites.umich.edu/~mejn/cp2/
+2026-04-06 06:03:34,865 - hn_podcast - INFO - Processing: Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs
+2026-04-06 06:03:37,267 - hn_podcast - INFO -   - [SUCCESS] Scraped 585 characters.
+2026-04-06 06:03:37,269 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:03:45,772 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:03:45,773 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:03:45,775 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:04:00,776 - hn_podcast - INFO - Processing: From birds to brains: My path to the fusiform face area (2024)
+2026-04-06 06:04:01,561 - hn_podcast - INFO -   - [SUCCESS] Scraped 16124 characters.
+2026-04-06 06:04:01,563 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-06 06:04:33,695 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-06 06:04:33,697 - hn_podcast - INFO -   - Summary generated.
+2026-04-06 06:04:33,698 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-06 06:04:48,699 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-06 06:04:48,701 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-06 06:17:14,154 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-06.mp3 (1665.3s)
+2026-04-06 06:17:14,260 - hn_podcast - INFO - Audio generation complete!
+2026-04-06 06:17:14,301 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-06.json (duration=1665s, size=6661772B)
+2026-04-06 06:17:14,302 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-06 06:17:14,324 - hn_podcast - INFO - Found 18 metadata files to process.
+2026-04-06 06:17:14,564 - hn_podcast - INFO - RSS feed generated with 18 episodes at output/podcast.xml
+2026-04-06 06:17:14,584 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-06 06:17:14,587 - hn_podcast - INFO - RSS feed update complete!
+2026-04-06 06:17:14,589 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-06 06:17:14,614 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-06 06:17:14,630 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-06 06:17:14,631 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-06 06:17:14,919 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
