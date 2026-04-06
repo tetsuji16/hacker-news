@@ -2569,3 +2569,73 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-06 06:17:14,630 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-06 06:17:14,631 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-06 06:17:14,919 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-06 06:17:26,033 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-07 06:00:26,456 - hn_podcast - INFO - --- New Job Started for 2026-04-07 at 2026-04-07 06:00:26.456191 ---
+2026-04-07 06:00:26,479 - hn_podcast - INFO - Fetching stories for 2026-04-07...
+2026-04-07 06:00:50,338 - hn_podcast - INFO - Fetched 9 stories.
+2026-04-07 06:00:50,343 - hn_podcast - INFO - Processing: A macOS kernel bug can cause OpenClaw to stop working after 49.7 days
+2026-04-07 06:00:50,893 - trafilatura.core - WARNING - discarding data: None
+2026-04-07 06:00:50,899 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking
+2026-04-07 06:00:50,900 - hn_podcast - INFO - Processing: Show HN: Ghost Pepper – 100% local hold-to-talk speech-to-text for macOS
+2026-04-07 06:00:52,227 - hn_podcast - INFO -   - [SUCCESS] Scraped 2275 characters.
+2026-04-07 06:00:52,228 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:00:58,720 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:00:58,723 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:00:58,724 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:01:13,725 - hn_podcast - INFO - Processing: Launch HN: Freestyle – Sandboxes for Coding Agents
+2026-04-07 06:01:32,624 - hn_podcast - INFO -   - [SUCCESS] Scraped 2669 characters.
+2026-04-07 06:01:32,625 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:01:39,444 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:01:39,445 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:01:39,446 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:01:54,447 - hn_podcast - INFO - Processing: A cryptography engineer's perspective on quantum computing timelines
+2026-04-07 06:01:55,389 - hn_podcast - INFO -   - [SUCCESS] Scraped 13738 characters.
+2026-04-07 06:01:55,390 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:02:02,382 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:02:02,383 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:02:02,384 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:02:17,385 - hn_podcast - INFO - Processing: Show HN: GovAuctions lets you browse government auctions at once
+2026-04-07 06:02:17,952 - hn_podcast - INFO -   - [SUCCESS] Scraped 1683 characters.
+2026-04-07 06:02:17,953 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:02:24,423 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:02:24,425 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:02:24,426 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:02:39,427 - hn_podcast - INFO - Processing: Root Persistence via macOS Recovery Mode Safari
+2026-04-07 06:02:40,558 - hn_podcast - INFO -   - [SUCCESS] Scraped 10527 characters.
+2026-04-07 06:02:40,559 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:02:46,776 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:02:46,777 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:02:46,778 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:03:01,779 - hn_podcast - INFO - Processing: Battle for Wesnoth: open-source, turn-based strategy game
+2026-04-07 06:03:03,164 - hn_podcast - INFO -   - [SUCCESS] Scraped 3974 characters.
+2026-04-07 06:03:03,165 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:03:10,679 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:03:10,681 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:03:10,682 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:03:25,683 - hn_podcast - INFO - Processing: German police name alleged leaders of GandCrab and REvil ransomware groups
+2026-04-07 06:03:26,203 - hn_podcast - INFO -   - [SUCCESS] Scraped 6616 characters.
+2026-04-07 06:03:26,205 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:03:35,335 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:03:35,336 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:03:35,337 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:03:50,338 - hn_podcast - INFO - Processing: What being ripped off taught me
+2026-04-07 06:03:50,797 - hn_podcast - INFO -   - [SUCCESS] Scraped 8017 characters.
+2026-04-07 06:03:50,798 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-07 06:03:59,878 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-07 06:03:59,879 - hn_podcast - INFO -   - Summary generated.
+2026-04-07 06:03:59,880 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-07 06:04:14,881 - hn_podcast - INFO - Final processed articles list length: 8
+2026-04-07 06:04:14,883 - hn_podcast - INFO - Starting audio generation for 8 articles...
+2026-04-07 06:14:45,981 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-07.mp3 (1412.3s)
+2026-04-07 06:14:46,058 - hn_podcast - INFO - Audio generation complete!
+2026-04-07 06:14:46,067 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-07.json (duration=1412s, size=5649836B)
+2026-04-07 06:14:46,068 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-07 06:14:46,071 - hn_podcast - INFO - Found 19 metadata files to process.
+2026-04-07 06:14:46,223 - hn_podcast - INFO - RSS feed generated with 19 episodes at output/podcast.xml
+2026-04-07 06:14:46,241 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-07 06:14:46,243 - hn_podcast - INFO - RSS feed update complete!
+2026-04-07 06:14:46,244 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-07 06:14:46,287 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-07 06:14:46,313 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-07 06:14:46,314 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-07 06:14:46,401 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

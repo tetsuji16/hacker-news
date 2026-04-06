@@ -3259,3 +3259,21 @@ DEBUG: Scraping URL: https://github.com/salmanmohammadi/nanocode/discussions/1
 DEBUG: Successfully scraped 585 chars from https://github.com/salmanmohammadi/nanocode/discussions/1. Saved to output/scraped_content/github_com__github_com_salmanmohammadi_nanocode_discussions_1.txt
 DEBUG: Scraping URL: https://www.kavliprize.org/nancy-kanwisher-autobiography
 DEBUG: Successfully scraped 16124 chars from https://www.kavliprize.org/nancy-kanwisher-autobiography. Saved to output/scraped_content/www_kavliprize_org___www_kavliprize_org_nancy_kanwisher_autobiography.txt
+DEBUG: Scraping URL: https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking
+DEBUG: Trafilatura extracted empty text from https://photon.codes/blog/we-found-a-ticking-time-bomb-in-macos-tcp-networking
+DEBUG: Scraping URL: https://github.com/matthartman/ghost-pepper
+DEBUG: Successfully scraped 2275 chars from https://github.com/matthartman/ghost-pepper. Saved to output/scraped_content/github_com_https___github_com_matthartman_ghost_pepper.txt
+DEBUG: Scraping URL: https://www.freestyle.sh/
+DEBUG: Successfully scraped 2669 chars from https://www.freestyle.sh/. Saved to output/scraped_content/www_freestyle_sh_https___www_freestyle_sh_.txt
+DEBUG: Scraping URL: https://words.filippo.io/crqc-timeline/
+DEBUG: Successfully scraped 13738 chars from https://words.filippo.io/crqc-timeline/. Saved to output/scraped_content/words_filippo_io_https___words_filippo_io_crqc_timeline_.txt
+DEBUG: Scraping URL: https://www.govauctions.app/
+DEBUG: Successfully scraped 1683 chars from https://www.govauctions.app/. Saved to output/scraped_content/www_govauctions_app_https___www_govauctions_app_.txt
+DEBUG: Scraping URL: https://yaseenghanem.com/recovery-unrestricted-write-access/
+DEBUG: Successfully scraped 10527 chars from https://yaseenghanem.com/recovery-unrestricted-write-access/. Saved to output/scraped_content/yaseenghanem_com_seenghanem_com_recovery_unrestricted_write_access_.txt
+DEBUG: Scraping URL: https://www.wesnoth.org
+DEBUG: Successfully scraped 3974 chars from https://www.wesnoth.org. Saved to output/scraped_content/www_wesnoth_org_https___www_wesnoth_org.txt
+DEBUG: Scraping URL: https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/
+DEBUG: Successfully scraped 6616 chars from https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/. Saved to output/scraped_content/krebsonsecurity_com_s_unkn_head_of_ru_ransomware_gangs_revil_gandcrab_.txt
+DEBUG: Scraping URL: https://belief.horse/notes/what-being-ripped-off-taught-me/
+DEBUG: Successfully scraped 8017 chars from https://belief.horse/notes/what-being-ripped-off-taught-me/. Saved to output/scraped_content/belief_horse_elief_horse_notes_what_being_ripped_off_taught_me_.txt

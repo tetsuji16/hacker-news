@@ -1,0 +1,82 @@
+URL: https://www.freestyle.sh/
+
+1// Like Lovable, Bolt, V0
+2import { freestyle, VmSpec } from "freestyle-sandboxes";
+3import { VmBun } from "@freestyle-sh/with-bun";
+4import { VmDevServer } from "@freestyle-sh/with-dev-server";
+5
+6// Create repo from template
+7const { repoId } = await freestyle.git.repos.create({ ... });
+8
+9const { vm } = await freestyle.vms.create({
+10 with: {
+11 devServer: new VmDevServer({
+12 devCommand: "bun run dev",
+13 runtime: new VmBun(),
+14 repo: repoId
+15 }),
+16 },
+17});
+1// Like Devin, Cursor Agent
+2import { freestyle, VmSpec } from "freestyle-sandboxes";
+3import { VmBun } from "@freestyle-sh/with-bun";
+4
+5const { vm } = await freestyle.vms.create({
+6 git: {
+7 repos: [
+8 { repo: "https://github.com/user/repo.git" },
+9 ]
+10 }
+11});
+12
+13const { forks } = await vm.fork({ count: 3 });
+14
+15await Promise.all([
+16 ai(forks[0], "Build the API endpoints"),
+17 ai(forks[1], "Build the frontend UI"),
+18 ai(forks[2], "Write the test suite"),
+19]);
+1// Like Code Rabbit, Greptile
+2import { freestyle } from "freestyle-sandboxes";
+3import { VmBun } from "@freestyle-sh/with-bun";
+4
+5const { vm } = await freestyle.vms.create({
+6 git: {
+7 repos: [{ repo: repoUrl, rev: branchRev }],
+8 },
+9});
+10
+11const { stdout: lint } = await vm.exec("bun run lint");
+12const { stdout: test } = await vm.exec("bun test");
+13const review = await ai(vm, "Review the diff for bugs");
+14
+15await github.pulls.createReview({
+16 body: review,
+17 event: test.includes("FAIL") ? "REQUEST_CHANGES" : "APPROVE",
+18});
+1// Like OpenClaw, Claude, Cowork
+2import { freestyle } from "freestyle-sandboxes";
+3
+4const { vm } = await freestyle.vms.create({
+5 persistence: { type: "persistent" },
+6 // Pauses after 60s idle — $0 cost, resumes on next exec
+7 idleTimeoutSeconds: 60,
+8});
+9
+10while (true) {
+11 const userMessage = await getNextMessage();
+12 const result = await ai(vm, userMessage);
+13 await respond(result);
+14}
+Sandboxes made for running tens of thousands of agents
+VMs provision in under 700ms from API request to ready machine.
+Clone a running VM without pausing it — get full copies in milliseconds.
+Hibernate VMs and resume exactly where you left off — pay nothing while paused.
+Git repos for your agents.
+Configure webhooks per repo, filter by branch, path, or event type.
+Bidirectional sync between Freestyle and GitHub repositories.
+Push to deploy with Freestyle Deployments or clone into a VM.
+Not containers. Full Linux VMs with real root access.
+Run VMs inside VMs, Docker, or any virtualization stack your agents need. Full KVM support.
+Sealed Linux users, systemd services and groups; multi-user isolation inside every VM.
+The full Linux networking stack with real root access.

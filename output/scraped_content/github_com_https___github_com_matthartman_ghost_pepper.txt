@@ -1,0 +1,40 @@
+URL: https://github.com/matthartman/ghost-pepper
+
+100% local hold-to-talk speech-to-text for macOS. Hold Control to record, release to transcribe and paste. No cloud APIs, no data leaves your machine.
+Download the latest release — macOS 14.0+, Apple Silicon (M1+)
+- Hold Control to talk — release to transcribe and paste into any text field
+- Runs entirely on your Mac — models run locally via Apple Silicon, nothing is sent anywhere
+- Smart cleanup — local LLM removes filler words and handles self-corrections
+- Menu bar app — lives in your menu bar, no dock icon, launches at login
+- Customizable — edit the cleanup prompt, pick your mic, toggle features on/off
+Ghost Pepper uses two open-source models that download automatically on first launch:
+| Model | Size | What it does | |
+|---|---|---|---|
+| Speech-to-text | WhisperKit (small.en) | ~466 MB | Transcribes your speech to text |
+| Text cleanup | Qwen 2.5 (1.5B + 3B) | ~3 GB | Removes filler words and self-corrections |
+Models are served by Hugging Face and cached locally after first download.
+Download the app:
+- Download GhostPepper.dmg
+- Open the DMG, drag Ghost Pepper to Applications
+- Grant Microphone and Accessibility permissions when prompted
+- Hold Control and speak
+Build from source:
+- Clone the repo
+- Open
+GhostPepper.xcodeproj
+in Xcode - Build and run (Cmd+R)
+| Permission | Why |
+|---|---|
+| Microphone | Record your voice |
+| Accessibility | Global hotkey and paste via simulated keystrokes |
+- Launch at login is enabled by default on first run. You can toggle it off in Settings.
+- No logging to disk — transcriptions are never written to files. Debug logs are in-memory only and disappear when the app quits.
+Built with WhisperKit, LLM.swift, Hugging Face, and Sparkle.
+MIT
+All models run locally, no private data leaves your computer. And it's spicy to offer something for free that other apps have raised $80M to build.
+Ghost Pepper requires Accessibility permission, which normally needs admin access to grant. On managed devices, IT admins can pre-approve this via an MDM profile (Jamf, Kandji, Mosaic, etc.) using a Privacy Preferences Policy Control (PPPC) payload:
+| Field | Value |
+|---|---|
+| Bundle ID | com.github.matthartman.ghostpepper |
+| Team ID | BBVMGXR9AY |
+| Permission | Accessibility (com.apple.security.accessibility ) |
