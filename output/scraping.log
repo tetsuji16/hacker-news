@@ -3277,3 +3277,23 @@ DEBUG: Scraping URL: https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head
 DEBUG: Successfully scraped 6616 chars from https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/. Saved to output/scraped_content/krebsonsecurity_com_s_unkn_head_of_ru_ransomware_gangs_revil_gandcrab_.txt
 DEBUG: Scraping URL: https://belief.horse/notes/what-being-ripped-off-taught-me/
 DEBUG: Successfully scraped 8017 chars from https://belief.horse/notes/what-being-ripped-off-taught-me/. Saved to output/scraped_content/belief_horse_elief_horse_notes_what_being_ripped_off_taught_me_.txt
+DEBUG: Scraping URL: https://www.anthropic.com/glasswing
+DEBUG: Successfully scraped 12503 chars from https://www.anthropic.com/glasswing. Saved to output/scraped_content/www_anthropic_com_https___www_anthropic_com_glasswing.txt
+DEBUG: Scraping URL: https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf
+DEBUG: Trafilatura failed to download https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf
+DEBUG: Scraping URL: https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html
+DEBUG: Successfully scraped 34993 chars from https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html. Saved to output/scraped_content/www_allthingsdistributed_com__2026_04_s3_files_and_the_changing_face_of_s3_html.txt
+DEBUG: Scraping URL: https://z.ai/blog/glm-5.1
+DEBUG: Trafilatura extracted empty text from https://z.ai/blog/glm-5.1
+DEBUG: Scraping URL: https://github.com/mattmireles/gemma-tuner-multimodal
+DEBUG: Successfully scraped 13668 chars from https://github.com/mattmireles/gemma-tuner-multimodal. Saved to output/scraped_content/github_com_ps___github_com_mattmireles_gemma_tuner_multimodal.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/articles/c0rx7xzd10xo
+DEBUG: Successfully scraped 2533 chars from https://www.bbc.com/news/articles/c0rx7xzd10xo. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_c0rx7xzd10xo.txt
+DEBUG: Scraping URL: https://www.smithsonianmag.com/smart-news/a-truck-drive-spent-20-years-making-this-astonishing-scale-model-of-every-single-building-in-new-york-city-180988443/
+DEBUG: Successfully scraped 4096 chars from https://www.smithsonianmag.com/smart-news/a-truck-drive-spent-20-years-making-this-astonishing-scale-model-of-every-single-building-in-new-york-city-180988443/. Saved to output/scraped_content/www_smithsonianmag_com__every_single_building_in_new_york_city_180988443_.txt
+DEBUG: Scraping URL: https://www.jakeworth.com/posts/how-to-get-better-at-guitar/
+DEBUG: Successfully scraped 5560 chars from https://www.jakeworth.com/posts/how-to-get-better-at-guitar/. Saved to output/scraped_content/www_jakeworth_com_w_jakeworth_com_posts_how_to_get_better_at_guitar_.txt
+DEBUG: Scraping URL: https://sam-burns.com/posts/concrete-laptop-stand/
+DEBUG: Successfully scraped 3793 chars from https://sam-burns.com/posts/concrete-laptop-stand/. Saved to output/scraped_content/sam-burns_com_https___sam_burns_com_posts_concrete_laptop_stand_.txt
+DEBUG: Scraping URL: https://printervention.app/details
+DEBUG: Successfully scraped 9681 chars from https://printervention.app/details. Saved to output/scraped_content/printervention_app_https___printervention_app_details.txt

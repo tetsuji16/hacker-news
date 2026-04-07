@@ -2639,3 +2639,78 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-07 06:14:46,313 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-07 06:14:46,314 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-07 06:14:46,401 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-07 06:14:55,858 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-07 06:14:55,862 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-06.mp3
+2026-04-07 06:14:55,870 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-07.mp3
+2026-04-08 06:00:56,299 - hn_podcast - INFO - --- New Job Started for 2026-04-08 at 2026-04-08 06:00:56.298940 ---
+2026-04-08 06:00:56,314 - hn_podcast - INFO - Fetching stories for 2026-04-08...
+2026-04-08 06:01:21,094 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-08 06:01:21,099 - hn_podcast - INFO - Processing: Project Glasswing: Securing critical software for the AI era
+2026-04-08 06:01:23,100 - hn_podcast - INFO -   - [SUCCESS] Scraped 12503 characters.
+2026-04-08 06:01:23,102 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:01:31,284 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:01:31,285 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:01:31,286 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:01:46,287 - hn_podcast - INFO - Processing: System Card: Claude Mythos Preview [pdf]
+2026-04-08 06:01:50,588 - trafilatura.downloads - ERROR - download error: https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf MAX_FILE_SIZE exceeded
+2026-04-08 06:01:50,611 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf
+2026-04-08 06:01:50,612 - hn_podcast - INFO - Processing: S3 Files and the changing face of S3
+2026-04-08 06:01:51,197 - hn_podcast - INFO -   - [SUCCESS] Scraped 34993 characters.
+2026-04-08 06:01:51,198 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:01:58,624 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:01:58,626 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:01:58,627 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:02:13,628 - hn_podcast - INFO - Processing: GLM-5.1: Towards Long-Horizon Tasks
+2026-04-08 06:02:14,458 - trafilatura.core - WARNING - discarding data: None
+2026-04-08 06:02:14,460 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://z.ai/blog/glm-5.1
+2026-04-08 06:02:14,461 - hn_podcast - INFO - Processing: Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon
+2026-04-08 06:02:16,954 - hn_podcast - INFO -   - [SUCCESS] Scraped 13668 characters.
+2026-04-08 06:02:16,955 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:02:22,791 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:02:22,792 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:02:22,793 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:02:37,794 - hn_podcast - INFO - Processing: Cambodia unveils a statue of famous landmine-sniffing rat Magawa
+2026-04-08 06:02:38,693 - hn_podcast - INFO -   - [SUCCESS] Scraped 2533 characters.
+2026-04-08 06:02:38,694 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:02:44,090 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:02:44,091 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:02:44,092 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:02:59,093 - hn_podcast - INFO - Processing: A truck driver spent 20 years making a scale model of every building in NYC
+2026-04-08 06:02:59,674 - hn_podcast - INFO -   - [SUCCESS] Scraped 4096 characters.
+2026-04-08 06:02:59,675 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:03:06,894 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:03:06,895 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:03:06,896 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:03:21,896 - hn_podcast - INFO - Processing: How to Get Better at Guitar
+2026-04-08 06:03:22,356 - hn_podcast - INFO -   - [SUCCESS] Scraped 5560 characters.
+2026-04-08 06:03:22,357 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:03:28,942 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:03:28,943 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:03:28,944 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:03:43,945 - hn_podcast - INFO - Processing: Show HN: Brutalist Concrete Laptop Stand (2024)
+2026-04-08 06:03:44,359 - hn_podcast - INFO -   - [SUCCESS] Scraped 3793 characters.
+2026-04-08 06:03:44,361 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:03:51,879 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:03:51,881 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:03:51,882 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:04:06,883 - hn_podcast - INFO - Processing: Rescuing old printers with an in-browser Linux VM bridged to WebUSB over USB/IP
+2026-04-08 06:04:07,335 - hn_podcast - INFO -   - [SUCCESS] Scraped 9681 characters.
+2026-04-08 06:04:07,336 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-08 06:04:15,125 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-08 06:04:15,127 - hn_podcast - INFO -   - Summary generated.
+2026-04-08 06:04:15,128 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-08 06:04:30,130 - hn_podcast - INFO - Final processed articles list length: 8
+2026-04-08 06:04:30,131 - hn_podcast - INFO - Starting audio generation for 8 articles...
+2026-04-08 06:14:29,346 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-08.mp3 (1322.7s)
+2026-04-08 06:14:29,415 - hn_podcast - INFO - Audio generation complete!
+2026-04-08 06:14:29,423 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-08.json (duration=1322s, size=5291276B)
+2026-04-08 06:14:29,424 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-08 06:14:29,427 - hn_podcast - INFO - Found 20 metadata files to process.
+2026-04-08 06:14:29,533 - hn_podcast - INFO - RSS feed generated with 20 episodes at output/podcast.xml
+2026-04-08 06:14:29,554 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-08 06:14:29,555 - hn_podcast - INFO - RSS feed update complete!
+2026-04-08 06:14:29,556 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-08 06:14:29,572 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-08 06:14:29,593 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-08 06:14:29,595 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-08 06:14:29,704 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

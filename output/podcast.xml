@@ -8,8 +8,8 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 06 Apr 2026 21:14:46 +0000</lastBuildDate>
-    <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 07 Apr 2026 21:14:29 +0000</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To"/>
     </itunes:category>
@@ -2298,6 +2298,36 @@ The Battle for Wesnothは、20年以上もの歴史を持つオープンソー�
       <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-07.mp3" length="5649836" type="audio/mpeg"/>
       <itunes:duration>23:32</itunes:duration>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-04-08</title>
+      <description><![CDATA[■ Project Glasswing: Securing critical software for the AI era
+Project Glasswingは、Anthropicが主導し、Apple、Google、Microsoft、NVIDIAなど世界的なテクノロジー企業やインフラ関連企業が参画する、重要ソフトウェアのセキュリティ強化を目的とした大規模イニシアチブである。背景には、Anthropicの未発表AIモデル「Claude Mythos Preview」が驚異的なコーディング理解力と推論能力を有しており、人間の専門家を凌駕する速度と精度で脆弱性を発見・エクスプロイトできるという現実がある。同プロジェクトでは、Mythos Previewを防御的な脆弱性スキャンやペネトレーションテストに活用することで、既存のセキュリティツールでは見逃されていた長年のバグやゼロデイ脆弱性を先制的に修正することを目指している。Anthropicは本プロジェクトに対し1億ドル相当の利用枠提供やオープンソースセキュリティ団体への資金援助を行い、民間と公共セクターが連携してAI時代のサイバーセキュリティ防衛線を構築することを掲げている。この取り組みは、AIがもたらす攻撃の高度化に対し、防御側が主導権を握り、安全なソフトウェア開発プロセスを再構築するための緊急かつ重要な試みである。
+
+■ S3 Files and the changing face of S3
+AWSが発表したS3 Filesは、Amazon EFSとS3を統合し、S3上のデータを直接ファイルシステムとしてマウントすることを可能にする画期的な機能である。かつてゲノム解析などの研究現場で見られた、S3とローカルストレージ間でのデータのコピーや同期による「データ摩擦」は、現代のAIエージェント開発や機械学習ワークロードにおいても依然として大きな障壁となっていた。AWSはS3 TablesやS3 Vectorsに続く新たなデータプリミティブとして本機能を実装することで、開発者がファイルシステムAPIを前提とする既存ツールをそのままS3上のデータに対して適用できる環境を提供し、アプリケーション層とストレージ層の分離と抽象化をさらに推進した。設計過程においては、オブジェクトストレージとファイルシステムの根本的に異なる特性を融合させるという困難な技術的課題が存在したが、結果として、開発者がデータの物理的な配置や移行に悩まされることなく、より柔軟かつ効率的にデータ利活用を行える環境が実現された。
+
+■ Show HN: Gemma 4 Multimodal Fine-Tuner for Apple Silicon
+「Gemma 4 Multimodal Fine-Tuner for Apple Silicon」は、GoogleのオープンモデルであるGemmaをMac上のApple Silicon環境で効率的にファインチューニングするためのツールキットである。本ツールは、テキストのみならず画像や音声といったマルチモーダルな学習にネイティブ対応しており、PEFTを用いたLoRAによるチューニングを実現している。最大の特徴は、データが巨大な場合でもGoogle Cloud StorageやBigQueryから直接データをストリーミングすることで、ローカルストレージの容量制限を気にせず学習を行える点にある。また、PyTorchのMPSバックエンドを利用することで、NVIDIA GPUのような外部ハードウェアを必要とせず、Mac単体でトレーニングから評価、モデルのエクスポートまで完結させることが可能である。これにより、医療や法務といった専門領域のドキュメント、あるいは特殊な画像データなどを、データを外部に流出させることなく安全かつオンデバイスで適応させることが可能となり、ローカルでのAI開発の選択肢を大きく広げるものである。
+
+■ Cambodia unveils a statue of famous landmine-sniffing rat Magawa
+カンボジアのシェムリアップにおいて、地雷探知の功績を称えるネズミ「Magawa」の銅像が公開された。Magawaはベルギーの慈善団体Apopoによって訓練されたアフリカン・ジャイアント・パウチド・ラットであり、2016年から5年間のキャリアで14万平方メートル以上の土地から100個以上の地雷を発見し、その卓越した貢献から動物として初めてPDSAゴールドメダルを授与された。地雷探知におけるネズミの有用性は、その軽量な体躯によって地雷を起爆させない安全性と、爆発物に含まれる化学物質を正確に嗅ぎ分ける鋭い嗅覚にある。現在、地雷探知のみならず結核の早期発見や違法野生動物取引の監視にもネズミの能力が活用されており、2030年までの地雷除去完了を目指すカンボジアにとって、これら「HeroRAT」の活動は不可欠なソリューションとなっている。
+
+■ A truck driver spent 20 years making a scale model of every building in NYC
+トラック運転手であるジョー・マッケンが、2004年から約20年間にわたり独学で制作してきたニューヨーク市全域の精巧な模型が、現在Museum of the City of New Yorkで展示されている。この模型は1,350平方フィートの広さを持ち、5つの行政区にまたがる約100万棟もの建築物や道路、公園を1:2,400の縮尺で再現した圧巻の作品である。マッケンは3Dプリンタなどのデジタル技術を用いることなく、バルサ材やX-Actoナイフ、接着剤といったごく基本的なツールのみを使い、長年トラックの運転業務の傍らで毎日コツコツと制作を続けた。かつて幼少期に訪れた美術館で見た模型に感銘を受けた経験が原動力となっており、完成した模型には各居住者の「物語」を残したいという彼の願いが込められている。TikTokでの拡散をきっかけに美術館の目に留まり、現在は2026年までの長期展示が行われるほど、そのクリエイティビティと情熱が広く評価されている。
+
+■ How to Get Better at Guitar
+本記事は、ギター上達のための最も効率的かつ本質的な方法として、既存のタブ譜を追うのではなく、楽曲を聴き取って自ら書き起こす「トランスクリプション（採譜）」の重要性を説いている。学習のプロセスはシンプルであり、選曲した楽曲を一音ずつ聴いては停止し、その音を指板上で特定して紙に記録するという作業を繰り返すものである。この手法を用いることで、耳と指の連動性が高まり、単なるフレーズの断片的な記憶ではなく、筋肉の記憶に基づいた楽曲全体の再現能力が養われる。また、自己作成したタブ譜を公開されている正確なデータと照らし合わせることで、奏法の誤りや微細なニュアンスを独学で修正することが可能となる。結果として、この地道な繰り返しは、技術的な上達だけでなく、音楽的構造を深く理解する耳を育て、最終的には楽曲を弾きこなす「ミュージシャンとしての自立」を促すことにつながるのである。
+
+■ Show HN: Brutalist Concrete Laptop Stand (2024)
+今回紹介した「Brutalist Concrete Laptop Stand」は、1960年代のブルータリズム建築と都市の老朽化という美学を融合させた、極めて異色な自作のラップトップスタンドである。作者はコンクリートを主材として使用し、あえて不均一に混合させることで経年劣化したような質感を生み出し、さらに塩と過酸化水素水を用いた化学的な手法で鉄筋や装飾を意図的に錆びさせるなど、リアリティのある廃墟感を追求している。外見は非常に無骨で重厚であり、設置のために台車を必要とするほどの重量を持つが、実用面ではUSB充電ポートや電源ソケットを内蔵し、さらに植物を植えるためのスペースを設けることで、無機質なコンクリートと有機的な植物の対比を楽しむデスクアクセサリーとして完成させている。
+
+■ Rescuing old printers with an in-browser Linux VM bridged to WebUSB over USB/IP
+本記事は、ドライバーサポートが終了した古いプリンターをブラウザベースの技術で現代に蘇らせる「Printervention」というプロジェクトを紹介している。このシステムは、WebAssemblyを用いてブラウザ内でx86アーキテクチャをエミュレートする「v86」上にAlpine Linuxを立ち上げ、その中でCUPSを動作させることで印刷処理を行う。最大の特徴は、エミュレートされたLinuxと物理的なUSB機器の橋渡しに「USB/IP」と「tcpip.js」を組み合わせ、WebUSB経由で双方向のUSB通信を実現した点にある。これにより、OS固有のドライバーをインストールすることなく、ブラウザから古いプリンターを直接操作することが可能となった。また、HEIC形式の変換処理やPDF生成、ICCプロファイルによる色補正といった機能もWeb技術で実装されており、旧来のハードウェアを廃棄せず再利用するための非常に独創的かつ現代的なアプローチといえる。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-08.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-08.mp3" length="5291276" type="audio/mpeg"/>
+      <itunes:duration>22:02</itunes:duration>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
