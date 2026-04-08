@@ -3297,3 +3297,23 @@ DEBUG: Scraping URL: https://sam-burns.com/posts/concrete-laptop-stand/
 DEBUG: Successfully scraped 3793 chars from https://sam-burns.com/posts/concrete-laptop-stand/. Saved to output/scraped_content/sam-burns_com_https___sam_burns_com_posts_concrete_laptop_stand_.txt
 DEBUG: Scraping URL: https://printervention.app/details
 DEBUG: Successfully scraped 9681 chars from https://printervention.app/details. Saved to output/scraped_content/printervention_app_https___printervention_app_details.txt
+DEBUG: Scraping URL: https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html
+DEBUG: Successfully scraped 38686 chars from https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html. Saved to output/scraped_content/bryankeller_github_io_b_io_2026_04_08_porting_mac_os_x_nintendo_wii_html.txt
+DEBUG: Scraping URL: https://werwolv.net/posts/usb_for_sw_devs/
+DEBUG: Successfully scraped 15690 chars from https://werwolv.net/posts/usb_for_sw_devs/. Saved to output/scraped_content/werwolv_net_https___werwolv_net_posts_usb_for_sw_devs_.txt
+DEBUG: Scraping URL: https://piechowski.io/post/git-commands-before-reading-code/
+DEBUG: Successfully scraped 4488 chars from https://piechowski.io/post/git-commands-before-reading-code/. Saved to output/scraped_content/piechowski_io_echowski_io_post_git_commands_before_reading_code_.txt
+DEBUG: Scraping URL: https://kalmanfilter.net
+DEBUG: Successfully scraped 35883 chars from https://kalmanfilter.net. Saved to output/scraped_content/kalmanfilter_net_https___kalmanfilter_net.txt
+DEBUG: Scraping URL: https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1
+DEBUG: Successfully scraped 9349 chars from https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1. Saved to output/scraped_content/ai_meta_com_om_blog_introducing_muse_spark_msl___fb_noscript_1.txt
+DEBUG: Scraping URL: https://oseifert.ch/blog/linux-kernel-pgit
+DEBUG: Successfully scraped 27518 chars from https://oseifert.ch/blog/linux-kernel-pgit. Saved to output/scraped_content/oseifert_ch_https___oseifert_ch_blog_linux_kernel_pgit.txt
+DEBUG: Scraping URL: http://www.terrybisson.com/theyre-made-out-of-meat-2/
+DEBUG: Successfully scraped 4983 chars from http://www.terrybisson.com/theyre-made-out-of-meat-2/. Saved to output/scraped_content/www_terrybisson_com_p___www_terrybisson_com_theyre_made_out_of_meat_2_.txt
+DEBUG: Scraping URL: https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/
+DEBUG: Successfully scraped 1022 chars from https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/. Saved to output/scraped_content/sourceforge_net__p_veracrypt_discussion_general_thread_9620d7a4b3_.txt
+DEBUG: Scraping URL: https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess
+DEBUG: Successfully scraped 17786 chars from https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess. Saved to output/scraped_content/aphyr_com_posts_411_the_future_of_everything_is_lies_i_guess.txt
+DEBUG: Scraping URL: https://swift.org/blog/expanding-swift-ide-support/
+DEBUG: Successfully scraped 2022 chars from https://swift.org/blog/expanding-swift-ide-support/. Saved to output/scraped_content/swift_org_ttps___swift_org_blog_expanding_swift_ide_support_.txt

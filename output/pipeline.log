@@ -2714,3 +2714,83 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-08 06:14:29,593 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-08 06:14:29,595 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-08 06:14:29,704 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-08 06:14:39,148 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-09 06:00:39,556 - hn_podcast - INFO - --- New Job Started for 2026-04-09 at 2026-04-09 06:00:39.556129 ---
+2026-04-09 06:00:39,572 - hn_podcast - INFO - Fetching stories for 2026-04-09...
+2026-04-09 06:01:03,239 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-09 06:01:03,244 - hn_podcast - INFO - Processing: I ported Mac OS X to the Nintendo Wii
+2026-04-09 06:01:04,900 - hn_podcast - INFO -   - [SUCCESS] Scraped 38686 characters.
+2026-04-09 06:01:04,902 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:02:03,757 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:02:03,759 - hn_podcast - WARNING -   - Summarization failed for: I ported Mac OS X to the Nintendo Wii
+2026-04-09 06:02:03,760 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:02:18,760 - hn_podcast - INFO - Processing: USB for Software Developers: An introduction to writing userspace USB drivers
+2026-04-09 06:02:20,286 - hn_podcast - INFO -   - [SUCCESS] Scraped 15690 characters.
+2026-04-09 06:02:20,287 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:03:18,462 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:03:18,463 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:03:18,464 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:03:33,465 - hn_podcast - INFO - Processing: Git commands I run before reading any code
+2026-04-09 06:03:34,186 - hn_podcast - INFO -   - [SUCCESS] Scraped 4488 characters.
+2026-04-09 06:03:34,187 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:04:00,617 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:04:00,618 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:04:00,619 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:04:15,620 - hn_podcast - INFO - Processing: Understanding the Kalman filter with a simple radar example
+2026-04-09 06:04:16,770 - hn_podcast - INFO -   - [SUCCESS] Scraped 35883 characters.
+2026-04-09 06:04:16,771 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:04:25,785 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:04:25,786 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:04:25,787 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:04:40,788 - hn_podcast - INFO - Processing: Muse Spark: Scaling towards personal superintelligence
+2026-04-09 06:04:42,301 - hn_podcast - INFO -   - [SUCCESS] Scraped 9349 characters.
+2026-04-09 06:04:42,302 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:04:47,258 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:04:47,259 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:04:47,260 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:05:02,261 - hn_podcast - INFO - Processing: Pgit: I Imported the Linux Kernel into PostgreSQL
+2026-04-09 06:05:03,799 - hn_podcast - INFO -   - [SUCCESS] Scraped 27518 characters.
+2026-04-09 06:05:03,800 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:05:31,634 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:05:31,636 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:05:31,636 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:05:46,638 - hn_podcast - INFO - Processing: They're made out of meat (1991)
+2026-04-09 06:05:47,644 - hn_podcast - INFO -   - [SUCCESS] Scraped 4983 characters.
+2026-04-09 06:05:47,646 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:06:49,047 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:06:49,048 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:06:49,049 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:07:04,050 - hn_podcast - INFO - Processing: Veracrypt project update
+2026-04-09 06:07:05,995 - hn_podcast - INFO -   - [SUCCESS] Scraped 1022 characters.
+2026-04-09 06:07:05,996 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:07:40,145 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:07:40,147 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:07:40,148 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:07:55,149 - hn_podcast - INFO - Processing: ML promises to be profoundly weird
+2026-04-09 06:07:56,297 - hn_podcast - INFO -   - [SUCCESS] Scraped 17786 characters.
+2026-04-09 06:07:56,298 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:08:12,607 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:08:12,608 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:08:12,609 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:08:27,610 - hn_podcast - INFO - Processing: Expanding Swift's IDE Support
+2026-04-09 06:08:27,868 - urllib3.poolmanager - INFO - Redirecting https://swift.org/blog/expanding-swift-ide-support/ -> https://www.swift.org/blog/expanding-swift-ide-support/
+2026-04-09 06:08:28,389 - hn_podcast - INFO -   - [SUCCESS] Scraped 2022 characters.
+2026-04-09 06:08:28,391 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-09 06:08:59,305 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-09 06:08:59,306 - hn_podcast - INFO -   - Summary generated.
+2026-04-09 06:08:59,306 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-09 06:09:14,307 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-09 06:09:14,308 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-09 06:22:58,334 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-09.mp3 (1839.8s)
+2026-04-09 06:22:58,434 - hn_podcast - INFO - Audio generation complete!
+2026-04-09 06:22:58,444 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-09.json (duration=1839s, size=7359500B)
+2026-04-09 06:22:58,447 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-09 06:22:58,454 - hn_podcast - INFO - Found 21 metadata files to process.
+2026-04-09 06:22:58,613 - hn_podcast - INFO - RSS feed generated with 21 episodes at output/podcast.xml
+2026-04-09 06:22:58,633 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-09 06:22:58,634 - hn_podcast - INFO - RSS feed update complete!
+2026-04-09 06:22:58,635 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-09 06:22:58,651 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-09 06:22:58,668 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-09 06:22:58,669 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-09 06:22:58,889 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

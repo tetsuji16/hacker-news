@@ -1,0 +1,11 @@
+URL: https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/
+
+Hi everyone,
+I want to share an update following my absence over the past few months.
+I have encountered some challenges but the most serious one is that Microsoft terminated the account I have used for years to sign Windows drivers and the bootloader. You can see below a screenshot of the message shown when I tried to sign in.
+Microsoft did not send me any emails or prior warnings. I have received no explanation for the termination and their message indicates that no appeal is possible.
+I have tried to contact Microsoft through various channels but I have only received automated replies and bots. I was unable to reach a human.
+This termination impacts my work beyond VeraCrypt and has consequences for my daily job.
+Currently I'm out of options.
+Regarding VeraCrypt, I cannot publish Windows updates. Linux and macOS updates can still be done but Windows is the platform used by the majority of users and so the inability to deliver Windows releases is a major blow to the project.
+I'm open to proposals and help.
