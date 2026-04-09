@@ -3317,3 +3317,23 @@ DEBUG: Scraping URL: https://aphyr.com/posts/411-the-future-of-everything-is-lie
 DEBUG: Successfully scraped 17786 chars from https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess. Saved to output/scraped_content/aphyr_com_posts_411_the_future_of_everything_is_lies_i_guess.txt
 DEBUG: Scraping URL: https://swift.org/blog/expanding-swift-ide-support/
 DEBUG: Successfully scraped 2022 chars from https://swift.org/blog/expanding-swift-ide-support/. Saved to output/scraped_content/swift_org_ttps___swift_org_blog_expanding_swift_ide_support_.txt
+DEBUG: Scraping URL: https://arhan.sh/blog/native-instant-space-switching-on-macos/
+DEBUG: Successfully scraped 3402 chars from https://arhan.sh/blog/native-instant-space-switching-on-macos/. Saved to output/scraped_content/arhan_sh_n_sh_blog_native_instant_space_switching_on_macos_.txt
+DEBUG: Scraping URL: https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers
+DEBUG: Successfully scraped 2372 chars from https://www.gadgetreview.com/maine-is-about-to-become-the-first-state-to-ban-major-new-data-centers. Saved to output/scraped_content/www_gadgetreview_com_come_the_first_state_to_ban_major_new_data_centers.txt
+DEBUG: Scraping URL: https://eaw.app/picoz80/
+DEBUG: Successfully scraped 59889 chars from https://eaw.app/picoz80/. Saved to output/scraped_content/eaw_app_https___eaw_app_picoz80_.txt
+DEBUG: Scraping URL: https://hegel.dev
+DEBUG: Successfully scraped 475 chars from https://hegel.dev. Saved to output/scraped_content/hegel_dev_https___hegel_dev.txt
+DEBUG: Scraping URL: https://colaptop.pages.dev/
+DEBUG: Successfully scraped 3261 chars from https://colaptop.pages.dev/. Saved to output/scraped_content/colaptop_pages_dev_https___colaptop_pages_dev_.txt
+DEBUG: Scraping URL: https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/
+DEBUG: Successfully scraped 3756 chars from https://aywren.com/2026/04/09/netflix-prices-went-up-again-i-bought-a-dvd-player-instead/. Saved to output/scraped_content/aywren_com_rices_went_up_again_i_bought_a_dvd_player_instead_.txt
+DEBUG: Scraping URL: https://github.com/aloshdenny/reverse-SynthID
+DEBUG: Successfully scraped 10295 chars from https://github.com/aloshdenny/reverse-SynthID. Saved to output/scraped_content/github_com_https___github_com_aloshdenny_reverse_SynthID.txt
+DEBUG: Scraping URL: https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture
+DEBUG: Successfully scraped 16420 chars from https://aphyr.com/posts/413-the-future-of-everything-is-lies-i-guess-culture. Saved to output/scraped_content/aphyr_com_3_the_future_of_everything_is_lies_i_guess_culture.txt
+DEBUG: Scraping URL: https://korigamik.dev/blog/bitmap_fonts/
+DEBUG: Successfully scraped 11545 chars from https://korigamik.dev/blog/bitmap_fonts/. Saved to output/scraped_content/korigamik_dev_https___korigamik_dev_blog_bitmap_fonts_.txt
+DEBUG: Scraping URL: https://blog.skypilot.co/research-driven-agents/
+DEBUG: Successfully scraped 21897 chars from https://blog.skypilot.co/research-driven-agents/. Saved to output/scraped_content/blog_skypilot_co_https___blog_skypilot_co_research_driven_agents_.txt

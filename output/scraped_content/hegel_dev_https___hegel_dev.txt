@@ -1,0 +1,18 @@
+URL: https://hegel.dev
+
+Introduction
+Hegel
+Hegel
+Hegel is a universal property-based testing protocol and family of libraries, built on Hypothesis.
+First time here? We recommend starting with the Getting started guide.
+How-to guides
+coming soon!
+Explanation
+Reference
+Hegel is a universal property-based testing protocol and family of libraries, built on Hypothesis.
+First time here? We recommend starting with the Getting started guide.
+Introduction
+How-to guides
+coming soon!
+Explanation
+Reference

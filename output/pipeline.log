@@ -2794,3 +2794,84 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-09 06:22:58,668 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-09 06:22:58,669 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-09 06:22:58,889 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-09 06:23:10,322 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-09 06:23:10,326 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-08.mp3
+2026-04-09 06:23:10,337 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-09.mp3
+2026-04-10 06:00:10,744 - hn_podcast - INFO - --- New Job Started for 2026-04-10 at 2026-04-10 06:00:10.743848 ---
+2026-04-10 06:00:10,762 - hn_podcast - INFO - Fetching stories for 2026-04-10...
+2026-04-10 06:00:35,567 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-10 06:00:35,569 - hn_podcast - INFO - Processing: Native Instant Space Switching on macOS
+2026-04-10 06:00:36,049 - hn_podcast - INFO -   - [SUCCESS] Scraped 3402 characters.
+2026-04-10 06:00:36,050 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:01:51,583 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:01:51,584 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:01:51,585 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:02:06,586 - hn_podcast - INFO - Processing: Maine Is About to Become the First State to Ban Major New Data Centers
+2026-04-10 06:02:08,693 - hn_podcast - INFO -   - [SUCCESS] Scraped 2372 characters.
+2026-04-10 06:02:08,694 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:02:50,566 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:02:50,567 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:02:50,568 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:03:05,569 - hn_podcast - INFO - Processing: PicoZ80 – Drop-In Z80 Replacement
+2026-04-10 06:03:11,081 - hn_podcast - INFO -   - [SUCCESS] Scraped 59889 characters.
+2026-04-10 06:03:11,082 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:03:15,552 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:03:15,553 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:03:15,554 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:03:30,555 - hn_podcast - INFO - Processing: Hegel, a universal property-based testing protocol and family of PBT libraries
+2026-04-10 06:03:30,986 - hn_podcast - INFO -   - [SUCCESS] Scraped 475 characters.
+2026-04-10 06:03:30,987 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:04:00,199 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:04:00,200 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:04:00,201 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:04:15,201 - hn_podcast - INFO - Processing: Old laptops in a colo as low cost servers
+2026-04-10 06:04:15,655 - hn_podcast - INFO -   - [SUCCESS] Scraped 3261 characters.
+2026-04-10 06:04:15,656 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:04:44,331 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:04:44,332 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:04:44,333 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:04:59,333 - hn_podcast - INFO - Processing: Netflix Prices Went Up Again – I Bought a DVD Player Instead
+2026-04-10 06:04:59,961 - hn_podcast - INFO -   - [SUCCESS] Scraped 3756 characters.
+2026-04-10 06:04:59,962 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:05:04,814 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:05:04,815 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:05:04,821 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:05:19,822 - hn_podcast - INFO - Processing: Discovering, detecting, and surgically removing Google's AI watermark
+2026-04-10 06:05:22,323 - hn_podcast - INFO -   - [SUCCESS] Scraped 10295 characters.
+2026-04-10 06:05:22,324 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:05:27,649 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:05:27,651 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:05:27,652 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:05:42,652 - hn_podcast - INFO - Processing: The Future of Everything Is Lies, I Guess: Part 3 – Culture
+2026-04-10 06:05:43,822 - hn_podcast - INFO -   - [SUCCESS] Scraped 16420 characters.
+2026-04-10 06:05:43,823 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:06:01,241 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:06:01,243 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:06:01,243 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:06:16,244 - hn_podcast - INFO - Processing: Bitmap fonts make computers feel like computers again
+2026-04-10 06:06:17,014 - hn_podcast - INFO -   - [SUCCESS] Scraped 11545 characters.
+2026-04-10 06:06:17,016 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:06:21,513 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:06:21,515 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:06:21,520 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:06:36,521 - hn_podcast - INFO - Processing: Research-Driven Agents: What Happens When Your Agent Reads Before It Codes
+2026-04-10 06:06:37,812 - hn_podcast - INFO -   - [SUCCESS] Scraped 21897 characters.
+2026-04-10 06:06:37,813 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-10 06:06:46,191 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-10 06:06:46,193 - hn_podcast - INFO -   - Summary generated.
+2026-04-10 06:06:46,194 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-10 06:07:01,195 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-10 06:07:01,196 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-10 06:20:20,214 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-10.mp3 (1789.3s)
+2026-04-10 06:20:20,308 - hn_podcast - INFO - Audio generation complete!
+2026-04-10 06:20:20,316 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-10.json (duration=1789s, size=7157708B)
+2026-04-10 06:20:20,317 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-10 06:20:20,321 - hn_podcast - INFO - Found 22 metadata files to process.
+2026-04-10 06:20:20,506 - hn_podcast - INFO - RSS feed generated with 22 episodes at output/podcast.xml
+2026-04-10 06:20:20,531 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-10 06:20:20,533 - hn_podcast - INFO - RSS feed update complete!
+2026-04-10 06:20:20,534 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-10 06:20:20,551 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-10 06:20:20,577 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-10 06:20:20,578 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-10 06:20:20,708 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
