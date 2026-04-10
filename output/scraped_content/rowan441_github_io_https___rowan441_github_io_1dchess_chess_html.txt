@@ -1,0 +1,22 @@
+URL: https://rowan441.github.io/1dchess/chess.html
+
+1D-Chess
+1d-chess is a new variant where you can play the beautiful game without all those unneccessary and complicated extra dimensions.
+Play as white against the AI. You might initally find it more difficult than expected, but assming optimal play, is there a forced win for white?
+Mouse over to reveal answer: Try this line: N4 N5, N6 K7, R4 K6, R2 K7, R5++
+Rules
+There are three pieces in 1d-chess:
+King:
+Can move one square in any direction.
+Knight:
+Can move 2 squares forward or backward. (jumping over any pieces in the way)
+Rook:
+Can move in a straight line in any direction.
+Win by checkmating the enemy king. This occurs when the enemy king is in check (under attack by one of your pieces) and there are no legal moves for the opponent to get their king out of check.
+Careful! A draw can occur if:
+- A player is not in check and there are no legal moves for them to play (Stalemate)
+- The same board position is repeated 3 times in a game. (3 Fold Repetition)
+- There are only kings left on the board, thus it is impossible to checkmate the opponent (Insufficient Material)
+Credits
+This chess variant was first described by Martin Gardner in the Mathematical Games column of the July 1980 issue of Scientific American
+See The column on JSTOR

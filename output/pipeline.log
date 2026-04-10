@@ -2875,3 +2875,82 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-10 06:20:20,577 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-10 06:20:20,578 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-10 06:20:20,708 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-10 06:20:32,100 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-11 06:00:32,517 - hn_podcast - INFO - --- New Job Started for 2026-04-11 at 2026-04-11 06:00:32.516962 ---
+2026-04-11 06:00:32,545 - hn_podcast - INFO - Fetching stories for 2026-04-11...
+2026-04-11 06:00:56,855 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-11 06:00:56,860 - hn_podcast - INFO - Processing: 1D Chess
+2026-04-11 06:00:57,443 - hn_podcast - INFO -   - [SUCCESS] Scraped 1251 characters.
+2026-04-11 06:00:57,444 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:01:04,312 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:01:04,319 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:01:04,320 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:01:19,321 - hn_podcast - INFO - Processing: Chimpanzees in Uganda locked in vicious 'civil war', say researchers
+2026-04-11 06:01:20,479 - hn_podcast - INFO -   - [SUCCESS] Scraped 4217 characters.
+2026-04-11 06:01:20,481 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:01:28,370 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:01:28,371 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:01:28,372 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:01:43,373 - hn_podcast - INFO - Processing: WireGuard makes new Windows release following Microsoft signing resolution
+2026-04-11 06:01:44,679 - hn_podcast - INFO -   - [SUCCESS] Scraped 3873 characters.
+2026-04-11 06:01:44,680 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:01:51,716 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:01:51,718 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:01:51,719 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:02:06,720 - hn_podcast - INFO - Processing: Industrial design files for Keychron keyboards and mice
+2026-04-11 06:02:08,743 - hn_podcast - INFO -   - [SUCCESS] Scraped 7028 characters.
+2026-04-11 06:02:08,744 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:02:14,859 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:02:14,860 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:02:14,861 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:02:29,862 - hn_podcast - INFO - Processing: Watgo – A WebAssembly Toolkit for Go
+2026-04-11 06:02:31,019 - hn_podcast - INFO -   - [SUCCESS] Scraped 4592 characters.
+2026-04-11 06:02:31,020 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:02:37,114 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:02:37,115 - hn_podcast - WARNING -   - Summarization failed for: Watgo – A WebAssembly Toolkit for Go
+2026-04-11 06:02:37,116 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:02:52,117 - hn_podcast - INFO - Processing: JSON Formatter Chrome Plugin Now Closed and Injecting Adware
+2026-04-11 06:02:53,822 - hn_podcast - INFO -   - [SUCCESS] Scraped 3205 characters.
+2026-04-11 06:02:53,824 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:02:58,073 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:02:58,075 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:02:58,077 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:03:13,078 - hn_podcast - INFO - Processing: Helium Is Hard to Replace
+2026-04-11 06:03:13,969 - hn_podcast - INFO -   - [SUCCESS] Scraped 13516 characters.
+2026-04-11 06:03:13,970 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:03:21,628 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:03:21,629 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:03:21,630 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:03:36,631 - hn_podcast - INFO - Processing: Show HN: FluidCAD – Parametric CAD with JavaScript
+2026-04-11 06:03:37,254 - hn_podcast - INFO -   - [SUCCESS] Scraped 1621 characters.
+2026-04-11 06:03:37,256 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:03:43,598 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:03:43,600 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:03:43,601 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:03:58,602 - hn_podcast - INFO - Processing: AI assistance when contributing to the Linux kernel
+2026-04-11 06:03:59,937 - hn_podcast - INFO -   - [SUCCESS] Scraped 1529 characters.
+2026-04-11 06:03:59,938 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:04:05,967 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:04:05,968 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:04:05,969 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:04:20,970 - hn_podcast - INFO - Processing: What is RISC-V and why it matters to Canonical
+2026-04-11 06:04:24,573 - hn_podcast - INFO -   - [SUCCESS] Scraped 7509 characters.
+2026-04-11 06:04:24,574 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-11 06:04:28,095 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-11 06:04:28,096 - hn_podcast - INFO -   - Summary generated.
+2026-04-11 06:04:28,097 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-11 06:04:43,098 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-11 06:04:43,099 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-11 06:18:02,626 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-11.mp3 (1711.0s)
+2026-04-11 06:18:02,741 - hn_podcast - INFO - Audio generation complete!
+2026-04-11 06:18:02,753 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-11.json (duration=1711s, size=6844460B)
+2026-04-11 06:18:02,754 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-11 06:18:02,758 - hn_podcast - INFO - Found 23 metadata files to process.
+2026-04-11 06:18:02,944 - hn_podcast - INFO - RSS feed generated with 23 episodes at output/podcast.xml
+2026-04-11 06:18:02,998 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-11 06:18:02,999 - hn_podcast - INFO - RSS feed update complete!
+2026-04-11 06:18:03,000 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-11 06:18:03,018 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-11 06:18:03,045 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-11 06:18:03,046 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-11 06:18:03,295 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

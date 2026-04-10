@@ -1,0 +1,69 @@
+URL: https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html
+
+[ANNOUNCE] WireGuardNT v0.11 and WireGuard for Windows v0.6 Released
+Jason A. Donenfeld
+Jason at zx2c4.com
+Fri Apr 10 14:20:51 UTC 2026
+Hey folks,
+I generally don't send announcement emails for the Windows software,
+because the built-in updater takes care of notifying the relevant
+users. But because this hasn't been updated in so long, and because of
+recent news articles, I thought it'd be a good idea to notify the
+list.
+After a lot of hardwork, we've released an updated Windows client,
+both the low level kernel driver and api harness, called WireGuardNT,
+and the higher level management software, command line utilities, and
+UI, called WireGuard for Windows.
+There are some new features -- such as support for removing individual
+allowed IPs without dropping packets (as was added already to Linux
+and FreeBSD) and setting very low MTUs on IPv4 connections -- but the
+main improvement is lots of accumulated bug fixes, performance
+improvements, and above all, immense code streamlining due to
+ratcheting forward our minimum supported Windows version [1]. These
+projects are now built in a much more solid foundation, without having
+to maintain decades of compatibility hacks and alternative codepaths,
+and bizarre logic, and dynamic dispatching, and all manner of crust.
+There have also been large toolchain updates -- the EWDK version used
+for the driver, the Clang/LLVM/MingW version used for the userspace
+tooling, the Go version used for the main UI, the EV certificate and
+signing infrastructure -- which all together should amount to better
+performance and more modern code.
+But, as it's our first Windows release in a long while, please test
+and let me know how it goes. Hopefully there are no regressions, and
+we've tested this quite a bit -- including on Windows 10 1507 Build
+10240, the most ancient Windows that we support which Microsoft does
+not anymore -- but you never know. So feel free to write me as needed.
+As always, the built-in updater should be prompting users to click the
+update button, which will check signatures and securely update the
+software. Alternatively, if you're installing for the first time or
+want to update immediately, our mini 80k fetcher will download and
+verify the latest version:
+- https://download.wireguard.com/windows-client/wireguard-installer.exe
+- https://www.wireguard.com/install/
+And to learn more about each of these two Windows projects:
+- https://git.zx2c4.com/wireguard-windows/about/
+- https://git.zx2c4.com/wireguard-nt/about/
+Finally, I should comment on the aforementioned news articles. When we
+tried to submit the new NT kernel driver to Microsoft for signing,
+they had suspended our account, as I wrote about first in a random
+comment [2] on Hacker News in a thread about this happening to another
+project, and then later that day on Twitter [3]. The comments that
+followed were a bit off the rails. There's no conspiracy here from
+Microsoft. But the Internet discussion wound up catching the attention
+of Microsoft, and a day later, the account was unblocked, and all was
+well. I think this is just a case of bureaucratic processes getting a
+bit out of hand, which Microsoft was able to easily remedy. I don't
+think there's been any malice or conspiracy or anything weird. I think
+most news articles currently circulating haven't been updated to show
+that this was actually fixed pretty quickly. So, in case you were
+wondering, "but how can there be a new WireGuard for Windows update
+when the account is blocked?!", now you know that the answer is,
+"because the account was unblocked."
+Anyway, enjoy the new software, and let me know how it works for you.
+Thanks,
+Jason
+[1] https://lists.zx2c4.com/pipermail/wireguard/2026-March/009541.html
+[2] https://news.ycombinator.com/item?id=47687884
+[3] https://x.com/EdgeSecurity/status/2041872931576299888
+More information about the WireGuard
+mailing list

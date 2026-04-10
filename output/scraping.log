@@ -3337,3 +3337,23 @@ DEBUG: Scraping URL: https://korigamik.dev/blog/bitmap_fonts/
 DEBUG: Successfully scraped 11545 chars from https://korigamik.dev/blog/bitmap_fonts/. Saved to output/scraped_content/korigamik_dev_https___korigamik_dev_blog_bitmap_fonts_.txt
 DEBUG: Scraping URL: https://blog.skypilot.co/research-driven-agents/
 DEBUG: Successfully scraped 21897 chars from https://blog.skypilot.co/research-driven-agents/. Saved to output/scraped_content/blog_skypilot_co_https___blog_skypilot_co_research_driven_agents_.txt
+DEBUG: Scraping URL: https://rowan441.github.io/1dchess/chess.html
+DEBUG: Successfully scraped 1251 chars from https://rowan441.github.io/1dchess/chess.html. Saved to output/scraped_content/rowan441_github_io_https___rowan441_github_io_1dchess_chess_html.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/articles/cr71lkzv49po
+DEBUG: Successfully scraped 4217 chars from https://www.bbc.com/news/articles/cr71lkzv49po. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_cr71lkzv49po.txt
+DEBUG: Scraping URL: https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html
+DEBUG: Successfully scraped 3873 chars from https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html. Saved to output/scraped_content/lists_zx2c4_com_2c4_com_pipermail_wireguard_2026_April_009561_html.txt
+DEBUG: Scraping URL: https://github.com/Keychron/Keychron-Keyboards-Hardware-Design
+DEBUG: Successfully scraped 7028 chars from https://github.com/Keychron/Keychron-Keyboards-Hardware-Design. Saved to output/scraped_content/github_com_ub_com_Keychron_Keychron_Keyboards_Hardware_Design.txt
+DEBUG: Scraping URL: https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/
+DEBUG: Successfully scraped 4592 chars from https://eli.thegreenplace.net/2026/watgo-a-webassembly-toolkit-for-go/. Saved to output/scraped_content/eli_thegreenplace_net_place_net_2026_watgo_a_webassembly_toolkit_for_go_.txt
+DEBUG: Scraping URL: https://github.com/callumlocke/json-formatter
+DEBUG: Successfully scraped 3205 chars from https://github.com/callumlocke/json-formatter. Saved to output/scraped_content/github_com_https___github_com_callumlocke_json_formatter.txt
+DEBUG: Scraping URL: https://www.construction-physics.com/p/helium-is-hard-to-replace
+DEBUG: Successfully scraped 13516 chars from https://www.construction-physics.com/p/helium-is-hard-to-replace. Saved to output/scraped_content/www_construction-physics_com_nstruction_physics_com_p_helium_is_hard_to_replace.txt
+DEBUG: Scraping URL: https://fluidcad.io/
+DEBUG: Successfully scraped 1621 chars from https://fluidcad.io/. Saved to output/scraped_content/fluidcad_io_https___fluidcad_io_.txt
+DEBUG: Scraping URL: https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst
+DEBUG: Successfully scraped 1529 chars from https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst. Saved to output/scraped_content/github_com_master_Documentation_process_coding_assistants_rst.txt
+DEBUG: Scraping URL: https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical
+DEBUG: Successfully scraped 7509 chars from https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical. Saved to output/scraped_content/ubuntu_com_101_what_is_it_and_what_does_it_mean_for_canonical.txt
