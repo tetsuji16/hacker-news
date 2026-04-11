@@ -2954,3 +2954,84 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-11 06:18:03,045 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-11 06:18:03,046 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-11 06:18:03,295 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-11 06:18:14,111 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-11 06:18:14,118 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-10.mp3
+2026-04-11 06:18:14,128 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-11.mp3
+2026-04-12 06:00:14,530 - hn_podcast - INFO - --- New Job Started for 2026-04-12 at 2026-04-12 06:00:14.529819 ---
+2026-04-12 06:00:14,548 - hn_podcast - INFO - Fetching stories for 2026-04-12...
+2026-04-12 06:00:38,486 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-12 06:00:38,492 - hn_podcast - INFO - Processing: Small models also found the vulnerabilities that Mythos found
+2026-04-12 06:00:40,721 - hn_podcast - INFO -   - [SUCCESS] Scraped 31471 characters.
+2026-04-12 06:00:40,722 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:00:47,141 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:00:47,142 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:00:47,143 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:01:02,144 - hn_podcast - INFO - Processing: How We Broke Top AI Agent Benchmarks: And What Comes Next
+2026-04-12 06:01:03,084 - hn_podcast - INFO -   - [SUCCESS] Scraped 23901 characters.
+2026-04-12 06:01:03,085 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:01:10,545 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:01:10,546 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:01:10,547 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:01:25,548 - hn_podcast - INFO - Processing: One neat trick to end extreme poverty
+2026-04-12 06:01:28,205 - hn_podcast - INFO -   - [SUCCESS] Scraped 1595 characters.
+2026-04-12 06:01:28,206 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:01:37,213 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:01:37,214 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:01:37,215 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:01:52,215 - hn_podcast - INFO - Processing: How to build a `Git diff` driver
+2026-04-12 06:01:53,775 - hn_podcast - INFO -   - [SUCCESS] Scraped 3977 characters.
+2026-04-12 06:01:53,776 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:02:01,484 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:02:01,486 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:02:01,486 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:02:16,487 - hn_podcast - INFO - Processing: Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS
+2026-04-12 06:02:17,687 - hn_podcast - INFO -   - [SUCCESS] Scraped 1380 characters.
+2026-04-12 06:02:17,688 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:02:23,211 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:02:23,213 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:02:23,214 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:02:38,215 - hn_podcast - INFO - Processing: Dark Castle
+2026-04-12 06:02:39,334 - hn_podcast - INFO -   - [SUCCESS] Scraped 6548 characters.
+2026-04-12 06:02:39,335 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:02:46,540 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:02:46,542 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:02:46,543 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:03:01,544 - hn_podcast - INFO - Processing: Mexican surveillance company Grupo Seguritech watches the U.S. border
+2026-04-12 06:03:02,400 - hn_podcast - INFO -   - [SUCCESS] Scraped 28948 characters.
+2026-04-12 06:03:02,401 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:03:08,905 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:03:08,907 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:03:08,908 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:03:23,909 - hn_podcast - INFO - Processing: Cirrus Labs to join OpenAI
+2026-04-12 06:03:24,267 - hn_podcast - INFO -   - [SUCCESS] Scraped 2494 characters.
+2026-04-12 06:03:24,268 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:03:29,703 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:03:29,704 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:03:29,705 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:03:44,706 - hn_podcast - INFO - Processing: Surelock: Deadlock-Free Mutexes for Rust
+2026-04-12 06:03:45,465 - hn_podcast - INFO -   - [SUCCESS] Scraped 13996 characters.
+2026-04-12 06:03:45,466 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:03:54,299 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:03:54,300 - hn_podcast - WARNING -   - Summarization failed for: Surelock: Deadlock-Free Mutexes for Rust
+2026-04-12 06:03:54,301 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:04:09,302 - hn_podcast - INFO - Processing: Keeping a Postgres Queue Healthy
+2026-04-12 06:04:11,833 - hn_podcast - INFO -   - [SUCCESS] Scraped 23094 characters.
+2026-04-12 06:04:11,835 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-12 06:04:25,955 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-12 06:04:25,956 - hn_podcast - INFO -   - Summary generated.
+2026-04-12 06:04:25,957 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-12 06:04:40,957 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-12 06:04:40,958 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-12 06:17:43,857 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-12.mp3 (1778.9s)
+2026-04-12 06:17:43,965 - hn_podcast - INFO - Audio generation complete!
+2026-04-12 06:17:43,976 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-12.json (duration=1778s, size=7115948B)
+2026-04-12 06:17:43,978 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-12 06:17:43,982 - hn_podcast - INFO - Found 24 metadata files to process.
+2026-04-12 06:17:44,123 - hn_podcast - INFO - RSS feed generated with 24 episodes at output/podcast.xml
+2026-04-12 06:17:44,143 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-12 06:17:44,145 - hn_podcast - INFO - RSS feed update complete!
+2026-04-12 06:17:44,147 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-12 06:17:44,191 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-12 06:17:44,225 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-12 06:17:44,227 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-12 06:17:44,451 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

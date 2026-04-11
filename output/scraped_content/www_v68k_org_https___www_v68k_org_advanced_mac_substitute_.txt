@@ -1,0 +1,12 @@
+URL: https://www.v68k.org/advanced-mac-substitute/
+
+Advanced Mac Substitute
+Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS. It runs 68K Mac applications in an emulator without an Apple ROM or system software.
+Unlike traditional emulators, Advanced Mac Substitute doesn’t emulate the hardware on which an operating system runs (except for the 680x0 processor), but actually replaces the OS — so it launches directly into an application, without a startup phase.
+Advanced Mac Substitute is a factored application. The backend includes a 68K emulator and should build and run on any POSIX-like system. The frontend is a generic bitmapped terminal abstraction, provided by SDL2 (for various platforms) along with custom implementations for macOS, X11, and Linux framebuffer (fbdev).
+Advanced Mac Substitute is capable of running several applications written for the original Macintosh computer. Examples include four games from 1984: Amazing, Solitaire, Missile, and IAGO.
+Current support includes 1-bit-deep graphics, regions, circles and roundrects, lines, cursors, GrafPorts, text, windows, controls, menus, dialogs, and more.
+Source
+Source code for Advanced Mac Substitute is on GitHub.
+If you’re feeling adventurous, you can try out Advanced Mac Substitute in macOS / OS X, the X Window System, a Linux framebuffer console, or a VNC client.
+(Older documentation has moved while revision is under way.)

@@ -1,0 +1,16 @@
+URL: https://cirruslabs.org/
+
+Official announcement
+Cirrus Labs to join OpenAI
+I started Cirrus Labs in 2017 in the spirit of Bell Labs. I wanted to work on fun and challenging engineering problems, in the hope of bootstrapping a business as a byproduct.
+The mission was to help fellow engineers with new kinds of tooling and environments that would make them more efficient and productive in the era of cloud computing. Even the name reflected that ambition: Cirrus, inspired by cirrus clouds, one of the highest clouds in the sky.
+We never raised outside capital. That let us stay patient, stay close to the problems, and put a great deal of care into the products we built.
+Over the last nine years, we were fortunate to innovate across continuous integration, build tools, and virtualization. In 2018, we introduced what we believe was the first SaaS CI/CD system to support Linux, Windows, and macOS while allowing teams to bring their own cloud. In 2022, we built Tart, which became the most popular virtualization solution for Apple Silicon, along with several other tools along the way.
+In 2026, it is impossible to ignore the era of agentic engineering, just as it was impossible to ignore cloud computing in 2017. Agents need new kinds of tooling and environments to be efficient and productive as well.
+This is why when the opportunity arose for us to join OpenAI, it was an easy yes, and I'm happy to announce today that we've entered into an agreement to join OpenAI as part of the Agent Infrastructure team.
+Joining OpenAI allows us to extend the mission we started with Cirrus Labs: building new kinds of tooling and environments that make engineers more effective, for both human engineers and agentic engineers. It also gives us the opportunity to innovate closer to the frontier, where the next generation of engineering workflows is being defined.
+What's next for our existing products?
+In the coming weeks, we will relicense all of our source-available tools, including Tart, Vetu and Orchard under a more permissive license. We have also stopped charging licensing fees for them.
+We are no longer accepting new customers for Cirrus Runners but will continue supporting the service for existing customers through their existing contract periods.
+Cirrus CI will shut down effective Monday, June 1, 2026.
+To everyone who used our products, contributed code, reported bugs, trusted us with their workflows, or supported us along the way: thank you. Building Cirrus Labs has been the privilege of a lifetime.

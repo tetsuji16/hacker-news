@@ -1,0 +1,210 @@
+URL: https://planetscale.com/blog/keeping-a-postgres-queue-healthy
+
+Keeping a Postgres queue healthy
+By Simeon Griggs |
+A healthy digestive system is one that efficiently eliminates waste. Fiber is a key part of a healthy diet, not because it is nutritious, but because it keeps everything you consume moving.
+Databases are not so different. If you want a healthy queue table, you'll need to monitor the systems that are designed to perform cleanup well before they're backed up.
+Postgres has been a popular choice for queue-based workloads long before it was a good fit for the job. Over many years and multiple major versions, Postgres has only become an even stronger choice for this type of workload.
+But what makes job queues uniquely problematic? And in spite of all these advancements, what traps remain?
+It's worth knowing, since they could bring down not only your job queue but also your mixed-workloads database and your entire application.
+Sharing the load
+The "just use Postgres" meme lends credence to the notion that every workload belongs in a Postgres database. It's not the worst idea. You really can throw just about anything at a Postgres database and make it stick. The rich extensions ecosystem fills any functionality gaps in "vanilla" Postgres.
+As a result, you may have multiple distinct workload types running in the same database at the same time. Your OLTP, OLAP, Time Series, Event Sourcing, Full Text, Geospatial, and/or Queue workloads may all be running at the same time in the same database cluster with different needs, challenges, and priorities—while competing for the same resources.
+There are dedicated services for each of these workload types that you can use in isolation. If you're reading this blog post, however, you're likely looking to optimize how they can all work in harmony.
+At PlanetScale, we're always in favor of choosing the right tool for each job—Postgres or otherwise. But if you're curious about maintaining healthy queues alongside mixed workloads in Postgres, keep reading.
+The queue workload
+What makes a queue table unique is that most rows are transient. Inserted, read once, and deleted. So the table's size stays roughly constant while its cumulative throughput is enormous.
+Your application may use a job queue to track asynchronous actions like sending an email, creating an invoice, or generating a report. The major benefit of doing this in Postgres is that you can keep the job state and any other logic running in your database in sync with the transaction.
+If the job fails, the entire transaction fails and rolls back. If the transaction fails, the job may retry or get deleted. Using an external vendor requires careful coordination to keep in sync with your application's transactional state.
+Our example for today
+Consider this simple queue table one might use to create individual jobs that need doing. The payload
+column contains all the information your application needs to complete the operation.
+CREATE TABLE jobs (
+id BIGSERIAL PRIMARY KEY,
+run_at TIMESTAMPTZ DEFAULT now(),
+status TEXT DEFAULT 'pending',
+payload JSONB
+);
+CREATE INDEX idx_jobs_fetch ON jobs (run_at) WHERE status = 'pending';
+As your application regularly performs queries to check for jobs to be done, it searches for the oldest job that is still in a pending
+state, performs whatever work is necessary, and then deletes that job.
+The worker opens a transaction and claims the next pending job:
+BEGIN;
+SELECT * FROM jobs
+WHERE status = 'pending'
+ORDER BY run_at
+LIMIT 1
+FOR UPDATE SKIP LOCKED;
+In practice, keeping this transaction as short as possible is critical — the longer it stays open, the longer it holds back vacuum. The examples in this post assume sub-millisecond worker operations.
+The worker performs whatever work the job requires. If the work fails, the transaction rolls back — the row was never modified, the lock is released, and the job becomes visible to other workers again.
+If the work succeeds, the worker deletes the job and commits:
+DELETE FROM jobs WHERE id = $1;
+COMMIT;
+For concurrency and faster job processing, you may want multiple workers executing individual jobs simultaneously. With the example query above, each worker is protected against performing duplicate work by the line FOR UPDATE SKIP LOCKED
+as the same query will "lock" the row it is working with until the transaction is committed.
+As we can see, the nature of a job queue workload is quite simple. A row is fetched and then deleted. Beneath the surface, however, there's more to it than that. There's cleanup to be done.
+The common issue that degrades job queues and the database they operate in is when the database cannot clean up after these transactions faster than new work accumulates.
+Performance alone is not the problem
+Postgres is documented by others to handle this workload at massive scale. So Postgres' capability to support job queues is not in question.
+Keeping your job queue in harmony with the other competing workloads of your database is typically the challenge.
+The health of your queue table depends not only on its own configuration, but also on the behavior of every other transaction running on the same Postgres instance. While replicas and replication slots can also work against queue tables, this post focuses on competing query traffic on the primary.
+Cleaning up dead tuples is the problem
+When rows mutate, Postgres can maintain multiple versions of the same row, so that different transactions can see row values as of the time they were queried. This is Postgres' implementation of "Multi-Version Concurrency Control" (MVCC) and a core principle of its design.
+This means in our job queue a row in a Postgres database targeted by a DELETE
+operation is not immediately removed. Instead, it is marked for deletion, made invisible to new transactions, and remains in the database until cleaned up. These not-yet-deleted, invisible rows are referred to as "dead tuples."
+Dead tuples are cleaned up by a "vacuum" operation, which can be performed manually or occurs regularly in a healthy Postgres database. While dead tuples are not returned in a SELECT
+query, they still incur a cost.
+For a sequential scan, the executor reads dead tuples from heap pages and checks their visibility before discarding them.
+For an index scan — the kind our job queue relies on with ORDER BY run_at LIMIT 1
+— the cost is more insidious: the B-tree index itself accumulates references to dead tuples, forcing the scan to traverse entries that point to rows no longer visible.
+Each dead index entry means additional I/O to check a heap page only to discard it. This overhead is invisible to the application but can grow substantially with the number of dead tuples.
+As for how frequently cleanup is attempted, autovacuum_naptime
+controls how long the launcher sleeps between checking each database for tables that need vacuuming, usually 1 minute by default. When a table is vacuumed depends on the dead tuple thresholds autovacuum_vacuum_threshold
+and autovacuum_vacuum_scale_factor
+.
+Dead tuples under the hood
+Let's envision the scenario where we have a jobs table in which tasks of different types are regularly created and processed. Another application accesses the same database to perform large analytical queries and generate reports. These are lower-priority and slower to complete.
+Say you perform a query on the jobs queue table:
+SELECT * FROM jobs WHERE status = 'pending'
+The response you expect to see shows those three pending
+jobs:
+-- What you see
+id | run_at | status | payload
+----+-------------------------+---------+-------------------------------
+42 | 2026-04-07 09:01:12 UTC | pending | {"type": "email", "to": "..."}
+43 | 2026-04-07 09:01:14 UTC | pending | {"type": "invoice", "id": 781}
+44 | 2026-04-07 09:01:15 UTC | pending | {"type": "report", "id": 332}
+(3 rows)
+Within each row is metadata that the query executor reads to determine whether it should be included in the response or is invisible to the current transaction. While you can't query for dead tuples, you can include this metadata in the response of any live tuples.
+-- This transaction is given an ID (XID) by the database
+SELECT ctid, xmin, xmax, id, status FROM jobs WHERE status = 'pending';
+ctid | xmin | xmax | id | status
+-------+--------+------+----+---------
+(0,7) | 439821 | 0 | 42 | pending
+(0,8) | 439825 | 0 | 43 | pending
+(0,9) | 439830 | 0 | 44 | pending
+(3 rows)
+ctid
+— the physical location of the tuple on disk, expressed as(page, offset)
+within the table's heap.xmin
+— the transaction ID (XID) that inserted this row; readers use it to decide whether the row existed when their transaction began.xmax
+— the XID that deleted or locked this row; a value of0
+means no transaction has marked it for deletion yet.
+There may also be dead tuples, previously deleted rows that haven't been physically removed yet, which the Postgres executor still has to scan on its way to returning a response. While you only saw three live rows, the executor scanned through many more:
+-- Conceptual view: what the executor scans (not real query output)
+ctid | xmin | xmax | id | status |
+-------+--------+--------+----+---------+
+(0,1) | 439790 | 439792 | 36 | pending | -- dead: xmax set, deleted by transaction 439792
+(0,2) | 439795 | 439797 | 37 | pending | -- dead
+(0,3) | 439800 | 439803 | 38 | pending | -- dead
+(0,4) | 439804 | 439806 | 39 | pending | -- dead
+(0,5) | 439808 | 439812 | 40 | pending | -- dead
+(0,6) | 439814 | 439818 | 41 | pending | -- dead
+(0,7) | 439821 | 0 | 42 | pending | -- live: xmax is 0, not deleted
+(0,8) | 439825 | 0 | 43 | pending | -- live
+(0,9) | 439830 | 0 | 44 | pending | -- live
+(6 dead tuples + 3 live rows scanned, 3 rows returned)
+That story is not limited to the heap. Any index on the table keeps leaf entries in sorted order and each entry references a ctid
+on the heap. A scan in index order follows those pointers and checks the heap. There is wasted work in that scan when any leaf entry still exists when its heap tuple is dead. Conceptually (a worst case when cleanup has not yet removed those pointers):
+-- Conceptual view: index leaf entries visited in run_at order (not real query output)
+run_at (pending) | tid | after heap lookup
+----------------------+-------+--------------------
+2026-04-07 08:59:01 | (0,1) | dead — discarded
+2026-04-07 08:59:03 | (0,2) | dead
+2026-04-07 08:59:05 | (0,3) | dead
+2026-04-07 08:59:07 | (0,4) | dead
+2026-04-07 08:59:09 | (0,5) | dead
+2026-04-07 08:59:11 | (0,6) | dead
+2026-04-07 09:01:12 | (0,7) | live
+2026-04-07 09:01:14 | (0,8) | live
+2026-04-07 09:01:15 | (0,9) | live
+(6 dead index targets + 3 live rows reachable, same shape as the heap walk above)
+At our imaginary scale, three jobs and six dead tuples are no problem.
+However, a database is destined to fail if it cannot reclaim dead tuples faster than its workload creates them. A well-tuned and provisioned Postgres cluster can handle job queue throughput of tens of thousands of jobs per second. So what causes table bloat?
+Typically, this happens when high write churn — the rapid cycle of inserting, updating, and deleting rows — outpaces autovacuum. But autovacuum falling behind isn't just a question of throughput. Even when autovacuum runs frequently enough, it cannot remove dead tuples that might still be visible to an active transaction.
+When autovacuum sucks
+There are a few common situations that make autovacuum ineffective at cleaning up dead tuples.
+Certain table locks can prevent cleanup, and improper autovacuum configuration can contribute to a suboptimal cleanup rate for dead tuples.
+In a healthy database, autovacuum will run regularly and clean up dead tuples as they become visible to it.
+Most commonly, however, cleanup is blocked when active transactions prevent dead tuples from becoming reclaimable. Postgres will not vacuum away any dead tuple that might still be visible to an active transaction. The oldest such transaction sets the cutoff—referred to as the "MVCC horizon." Until that transaction completes, every dead tuple newer than its snapshot is retained.
+A single transaction that takes 2 minutes to complete pins the horizon for the full 2 minutes.
+Another type of workload that produces the same failure mode is multiple overlapping queries, none individually long-running, that keep the horizon pinned continuously.
+For example, imagine three analytics queries, each running for 40 seconds, staggered 20 seconds apart. No individual query would trigger a timeout for running too long. But because one is always active, the horizon never advances, and the effect on vacuum is the same as one transaction that never ends.
+This is unlikely if the only workload your database has is your job queue. But you're following the "just use Postgres" philosophy. So, you have many overlapping workloads, each with its own priorities, that rely on staying out of each other's way. Your problem is not that Postgres is a bad fit for a job queue or that it can't complete jobs fast enough—it's that these fast jobs and the dead tuples they rapidly accumulate aren't being cleaned up fast enough because of other concurrently running, overlapping slower queries.
+Tools at our disposal
+Over several years and major versions of Postgres, new tools have been added to simplify the maintenance of queue performance.
+As mentioned, you may attempt to tune Postgres' autovacuum settings, such as autovacuum_vacuum_cost_delay
+and autovacuum_vacuum_cost_limit
+, to improve the frequency and effectiveness of the operation. But in our imagined scenario, it's not the job queue's throughput we wish to fix; it's how other workloads negatively affect it.
+To prevent long-running queries from running too long, there are several timeout configuration options:
+statement_timeout
+, introduced in Postgres 7.3, kills any individual SQL statement that exceeds the specified duration.idle_in_transaction_session_timeout
+, from Postgres 9.6, terminates sessions that have been idle inside an open transaction for longer than the specified duration.transaction_timeout
+, from Postgres 17.0, kills any active or inactive transaction that exceeds the specified duration.
+However, none of these solves our specific problem. They're blunt instruments that only target the execution time of a single query and cannot limit concurrency or execution cost. We need to prevent any workload that keeps the MVCC horizon continuously pinned.
+What's needed is a tool that can distinguish among different "classes" of traffic, leave high-priority workloads unaffected, and throttle the rate at which lower-priority workloads consume resources.
+Enter Database Traffic Control™
+Traffic Control is part of the Insights extension, developed by PlanetScale and exclusively available for PlanetScale Postgres. Perfect for when you need fine-grained control over how individual queries perform and how many resources they can consume.
+Queries targeted by a Resource Budget in Traffic Control are assigned a limited set of resources; once that limit is exceeded, they can be blocked.
+The solution to our imagined scenario is to limit how often overlapping slower queries can run and how many can run at once. Timeouts are a blunt instrument that can't give us that kind of granular control. With those queries capped, we can be assured autovacuum will be more likely to clean up dead tuples at an acceptable rate.
+Since the solution to our problem involves terminating certain queries, it is critical that our application includes retry logic. It wouldn't be fair to say the database runs better if it does less work. We're trying to smooth out the rate at which work is performed while still doing the same amount.
+In our application, blocked queries aren't rejected forever; they are retried at a more appropriate time.
+Building a demo
+The inspiration for this post came from an internal discussion on the wisdom of putting job queues in your Postgres database, in which the following blog post was shared.
+In 2015, Brandur Leach published Postgres Job Queues & Failure By MVCC, documenting a catastrophic failure mode in Postgres-backed job queues. That blog post also includes a test bench to demonstrate how an unclosed transaction can pin the MVCC horizon and prevent cleanup.
+Fortunately, the original test bench is still available at brandur/que-degradation-test, and so to test everything we've learned so far, we can use it as inspiration to validate our solution.
+Recreating the problem
+A lot has changed since 2015. My intention was to recreate the same application workloads with Postgres 18 and see if I could reproduce the same problem.
+The original test bench requires Ruby, the Que gem (v0.x), and it was tested on Postgres 9.4. Running it as-is would test a decade-old library on modern Postgres, not the pattern on modern Postgres. To isolate the SQL-level behavior in a codebase I could understand, I rewrote the test in TypeScript and with Bun.
+In short, we maintained the same recursive CTE pattern as Que. With the same schema, producer rate, work duration, worker count, and long-runner pattern. Running on a PlanetScale PS-5 cluster (which starts at $5/month).
+The outcome was visible, but manageable, degradation. While the original test put the database into a death spiral within 15 minutes, my PS-5 kept the worker queue near zero for the same duration. However, there was still notable, linear growth in dead tuples, suggesting that on a longer timescale, the same problem would have been encountered. So while the original problem is mitigated in newer versions of Postgres (thanks in part to B-tree index cleanup—bottom-up deletion for version churn, scan-driven removal of dead index tuples, and related behavior), it has not been eliminated.
+Attempts to fix it
+Next, I wondered if newer versions of Postgres have improved performance; can we solve the original problem? There are two specific improvements available to us in 2026 that weren't there in 2015.
+FOR UPDATE SKIP LOCKED
+replaces the recursive CTE entirely with a singleSELECT
+that skips rows locked by other workers.- Batch processing (10 jobs per transaction) one lock acquisition covers 10 jobs instead of 1, amortizing the index scan cost.
+We kept everything else identical: 8 workers, 50 jobs/sec producer, 10ms work, long-runner starts after 45s. The results looked like this:
+| Metric | original (recursive CTE) | enhanced (SKIP LOCKED + batch) |
+|---|---|---|
+| Baseline lock time | 2-3ms | 1.3-3.0ms |
+| End lock time (typical) | 10-34ms | 9-29ms |
+| Worst spike | 84.5ms (at 33k dead tuples) | 180ms (at 24k dead tuples) |
+| Queue depth | 0-100 (oscillating) | 0 (mostly) |
+| Dead tuples at end | 42,400 | 42,450 |
+| Throughput | ~89/s | ~50/s |
+The degradation curves are almost identical. These updates did not affect MVCC degradation, as both approaches scan the same B-tree index and encounter the same dead tuples.
+The major improvement is the throughput difference, but this reflects the test's design, not the lock strategy. At 50 jobs/sec production, the CTE workers each grab jobs independently and outpace the producer, while the batched workers drain the queue and spend time in backoff sleep. Neither version was under real pressure.
+In summary, a Postgres-backed queue designed a decade ago that could kill a database in 15 minutes can now survive longer, but the original problem remains. Modern Postgres has lifted the floor but not removed the ceiling. If instead of running 50 jobs/sec, we ran 500 jobs/sec, the same problem occurs faster, performance degrades, and your application suffers.
+Fixing with Traffic Control
+Resource Budgets in Traffic Control give us a few levers to govern how many resources a targeted query has access to:
+- Server share and burst limit: A percentage of server resources and how quickly they can be consumed.
+- Per-query limit: The time a query can run, measured in seconds of full server usage.
+- Maximum concurrent workers: A percentage of available worker processes.
+Resource Budgets are configured to use one or more of these limits to prevent specific workloads from consuming resources, which would otherwise negatively affect other workloads.
+Queries are targeted most commonly by metadata included in an SQLCommenter tag appended to the query. For our example, the analytics queries had action=analytics
+set.
+Since idle_in_transaction_session_timeout
+can catch and kill the "long-runner" idle transaction from the original benchmark, I switched the degradation trigger to the more realistic production scenario: multiple overlapping analytics queries that hold transactions open through active work — the kind you can't just kill with a session timeout.
+To demonstrate Traffic Control's effectiveness at curbing this degradation, I throttled the Maximum concurrent workers of all action=analytics
+queries to 1 worker (25% of max_worker_processes
+) with the intention of only ever allowing a single analytics query to run at a time.
+To stress the system enough to produce a death spiral within our 15-minute test window, I increased production to 800 jobs/sec.
+I ran the "enhanced" workload twice on the same EC2 instance against the same PlanetScale database:
+- 800 jobs/sec
+- 3 concurrent analytics workers running 120-second queries, staggered so they overlap continuously
+- 15-minute duration
+The results demonstrated the ability to solve the core cleanup problem.
+| Metric | Traffic Control disabled | Traffic Control enabled |
+|---|---|---|
+| Queue backlog | 155,000 jobs | 0 jobs |
+| Lock time | 300ms+ | 2ms |
+| Dead tuples at end | 383,000 | 0–23,000 (cycling) |
+| Analytics queries | 3 concurrent, overlapping | 1 at a time, 2 retrying |
+| VACUUM effectiveness | Blocked (horizon always pinned) | Normal (windows between queries) |
+| Outcome | Death spiral | Completely stable |
+Traffic Control was able to target specific workloads and limit their concurrency — something not possible with autovacuum configuration tuning or timeouts. The analytics reports are still executed as capacity allows, with 15 completed over the 15-minute window. It takes longer to complete more analytics queries, but the queue remains healthy throughout.
+Summary
+The MVCC dead tuple problem in Postgres-backed queues is not a relic of 2015. Modern Postgres has raised the threshold — B-tree improvements and SKIP LOCKED
+buy significant headroom — but the underlying mechanism is unchanged. Dead tuples accumulate when VACUUM cannot clean them, and VACUUM cannot clean them when long-running or overlapping transactions pin the MVCC horizon.
+In a "just use Postgres" world where queues, analytics, and application logic share a single database, this is not a theoretical risk. It is the normal operating condition. The dangerous version isn't a dramatic crash — it's a quietly degraded equilibrium where lock times creep up, jobs slow down, and no alert fires.
+Postgres provides timeout-based tools, but they can't distinguish between workload classes or limit concurrency. If you run queues alongside other workloads, the most impactful thing you can do is ensure VACUUM can keep up. Traffic Control makes that simple.

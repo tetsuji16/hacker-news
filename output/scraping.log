@@ -3357,3 +3357,23 @@ DEBUG: Scraping URL: https://github.com/torvalds/linux/blob/master/Documentation
 DEBUG: Successfully scraped 1529 chars from https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst. Saved to output/scraped_content/github_com_master_Documentation_process_coding_assistants_rst.txt
 DEBUG: Scraping URL: https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical
 DEBUG: Successfully scraped 7509 chars from https://ubuntu.com/blog/risc-v-101-what-is-it-and-what-does-it-mean-for-canonical. Saved to output/scraped_content/ubuntu_com_101_what_is_it_and_what_does_it_mean_for_canonical.txt
+DEBUG: Scraping URL: https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier
+DEBUG: Successfully scraped 31471 chars from https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier. Saved to output/scraped_content/aisle_com__ai_cybersecurity_after_mythos_the_jagged_frontier.txt
+DEBUG: Scraping URL: https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/
+DEBUG: Successfully scraped 23901 chars from https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/. Saved to output/scraped_content/rdi_berkeley_edu_rdi_berkeley_edu_blog_trustworthy_benchmarks_cont_.txt
+DEBUG: Scraping URL: https://www.economist.com/finance-and-economics/2026/04/09/one-neat-trick-to-end-extreme-poverty
+DEBUG: Successfully scraped 1595 chars from https://www.economist.com/finance-and-economics/2026/04/09/one-neat-trick-to-end-extreme-poverty. Saved to output/scraped_content/www_economist_com_s_2026_04_09_one_neat_trick_to_end_extreme_poverty.txt
+DEBUG: Scraping URL: https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/
+DEBUG: Successfully scraped 3977 chars from https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/. Saved to output/scraped_content/www_jvt_me___www_jvt_me_posts_2026_04_11_how_git_diff_driver_.txt
+DEBUG: Scraping URL: https://www.v68k.org/advanced-mac-substitute/
+DEBUG: Successfully scraped 1380 chars from https://www.v68k.org/advanced-mac-substitute/. Saved to output/scraped_content/www_v68k_org_https___www_v68k_org_advanced_mac_substitute_.txt
+DEBUG: Scraping URL: https://darkcastle.co.uk/
+DEBUG: Successfully scraped 6548 chars from https://darkcastle.co.uk/. Saved to output/scraped_content/darkcastle_co_uk_https___darkcastle_co_uk_.txt
+DEBUG: Scraping URL: https://restofworld.org/2026/mexico-seguritech-government-surveillance-profile/
+DEBUG: Successfully scraped 28948 chars from https://restofworld.org/2026/mexico-seguritech-government-surveillance-profile/. Saved to output/scraped_content/restofworld_org_mexico_seguritech_government_surveillance_profile_.txt
+DEBUG: Scraping URL: https://cirruslabs.org/
+DEBUG: Successfully scraped 2494 chars from https://cirruslabs.org/. Saved to output/scraped_content/cirruslabs_org_https___cirruslabs_org_.txt
+DEBUG: Scraping URL: https://notes.brooklynzelenka.com/Blog/Surelock
+DEBUG: Successfully scraped 13996 chars from https://notes.brooklynzelenka.com/Blog/Surelock. Saved to output/scraped_content/notes_brooklynzelenka_com_https___notes_brooklynzelenka_com_Blog_Surelock.txt
+DEBUG: Scraping URL: https://planetscale.com/blog/keeping-a-postgres-queue-healthy
+DEBUG: Successfully scraped 23094 chars from https://planetscale.com/blog/keeping-a-postgres-queue-healthy. Saved to output/scraped_content/planetscale_com_netscale_com_blog_keeping_a_postgres_queue_healthy.txt

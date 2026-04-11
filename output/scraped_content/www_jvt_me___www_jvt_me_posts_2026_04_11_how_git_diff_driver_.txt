@@ -1,0 +1,74 @@
+URL: https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/
+
+How to build a git diff
+driver
+Something I've been meaning to write about since November 2024 is how to create an external command for diffing between files with git diff
+.
+I found that while I was implementing renovate-packagedata-diff
+that there seemed to be a lack of documentation around how to do it, so it would be worthwhile me blogging about it.
+(I've since found that there is some documentation in the Git Diffs man page, but it wasn't exactly well discoverable)
+It's been at the back of my mind as a TODO for some time, and then I was nudged about it fairly recently by Andrew Nesbitt's good post on Git Diff Drivers, and this week looking at diffing OpenAPI specs with oasdiff
+.
+I thought I'd use this as an opportunity for blogging about how this works, as well as adding a separate for oasdiff
+as a diff driver.
+Note that this is a case where we want to expose more information in our output, and can't rely on the textconv
+method to convert a (binary) file to a more diff-able textual format.
+In a lot of cases, using textconv
+is likely sufficient!
+What arguments do we need to handle?
+Although many tools would work out-of-the-box if they expect to be run as tool [before] [after]
+, git diff
+passes 7 arguments to the external tool it's calling.
+Although surprising, this does provide some richer data that is useful to have.
+To give a more "worked example", let's look at what this looks like for updating an existing file, or adding/deleting a file:
+# newlines added for readability purpose only
+# when an existing file is updated
+renovate-packagedata-diff
+renovate/github-co-cddo-api-catalogue.json # 1: filename in the repo
+/tmp/git-blob-shryRa/github-co-cddo-api-catalogue.json # 2: "before"
+f0a1311ae439fff36f994a3be5d5a7eb7d7a34dc # 3: SHA-1 hash of the "before" file
+100644 # 4: octal mode of the "before" file
+/tmp/git-blob-y2mrZp/github-co-cddo-api-catalogue.json # 5: "after"
+e39975894a72f706e6a59bccf31120ffaa219ff3 # 6: SHA-1 hash of the "after" file
+100644 # 7: octal mode of the "after" file
+# when a net-new file is created
+renovate-packagedata-diff
+renovate/github-co-cddo-api-catalogue.json # 1: filename in the repo
+/dev/null # 2: "before"
+. # 3: SHA-1 hash of the "before" file
+. # 4: octal mode of the "before" file
+/tmp/git-blob-iAbnMD/github-co-cddo-api-catalogue.json # 5: "after"
+5c55e5b99b21db68c360419d44dac906c336bec6 # 6: SHA-1 hash of the "after" file
+100644 # 7: octal mode of the "after" file
+# when a file is deleted
+renovate-packagedata-diff
+renovate/github-co-cddo-api-catalogue.json # 1: filename in the repo
+/tmp/git-blob-aBldZ4/github-co-cddo-api-catalogue.json # 2: "before"
+6b24e38aa4aac8e00e44ab68e156744138ef6afc # 3: SHA-1 hash of the "before" file
+100644 # 4: octal mode of the "before" file
+/dev/null # 5: "after"
+. # 6: SHA-1 hash of the "after" file
+. # 7: octal mode of the "after" file
+Note that /dev/null
+is used when a file was created/deleted, and that arguments that aren't relevant in these cases are provided as a .
+.
+It can also be useful to see if the environment variable GIT_PAGER_IN_USE
+is set, if you'd like your command to be able to handle regular arguments and the git diff
+arguments.
+Example with oasdiff
+As noted in my separate post about this, with this information it's straightforward to write a lightweight wrapped script around the oasdiff
+tool for comparing OpenAPI specs.
+For instance, the most basic implementation we can add is:
+#!/usr/bin/env bash
+# Via https://www.jvt.me/posts/2026/04/11/oasdiff-driver/
+# A diff driver for `git diff` to provide a human-readable changelog for a given OpenAPI spec
+if [[ "$2" == "/dev/null" ]]; then
+echo "$1 was added"
+exit 0
+elif [[ "$5" == "/dev/null" ]]; then
+echo "$1 was deleted"
+exit 0
+fi
+# I prefer to have colour always reported
+oasdiff changelog "$2" "$5" --color always
+This doesn't handle any changes in permissions - which may be useful to report - and it may be worth using the SHA-1 checksums of the files to cache the resulting diffs.
