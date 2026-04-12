@@ -3035,3 +3035,76 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-12 06:17:44,225 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-12 06:17:44,227 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-12 06:17:44,451 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-12 06:17:56,015 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-13 06:00:56,470 - hn_podcast - INFO - --- New Job Started for 2026-04-13 at 2026-04-13 06:00:56.470194 ---
+2026-04-13 06:00:56,499 - hn_podcast - INFO - Fetching stories for 2026-04-13...
+2026-04-13 06:01:21,674 - hn_podcast - INFO - Fetched 9 stories.
+2026-04-13 06:01:21,679 - hn_podcast - INFO - Processing: The peril of laziness lost
+2026-04-13 06:01:22,504 - hn_podcast - INFO -   - [SUCCESS] Scraped 5732 characters.
+2026-04-13 06:01:22,506 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:01:29,553 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:01:29,555 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:01:29,556 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:01:44,557 - hn_podcast - INFO - Processing: Bring Back Idiomatic Design
+2026-04-13 06:01:45,743 - hn_podcast - INFO -   - [SUCCESS] Scraped 13835 characters.
+2026-04-13 06:01:45,744 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:01:53,132 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:01:53,134 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:01:53,135 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:02:08,136 - hn_podcast - INFO - Processing: Most people can't juggle one ball
+2026-04-13 06:02:09,982 - hn_podcast - INFO -   - [SUCCESS] Scraped 12175 characters.
+2026-04-13 06:02:09,983 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:02:19,819 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:02:19,821 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:02:19,821 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:02:34,822 - hn_podcast - INFO - Processing: Show HN: Claudraband – Claude Code for the Power User
+2026-04-13 06:02:36,746 - hn_podcast - INFO -   - [SUCCESS] Scraped 4056 characters.
+2026-04-13 06:02:36,748 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:02:43,307 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:02:43,308 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:02:43,309 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:02:58,310 - hn_podcast - INFO - Processing: DIY Soft Drinks
+2026-04-13 06:02:59,593 - hn_podcast - INFO -   - [SUCCESS] Scraped 6374 characters.
+2026-04-13 06:02:59,594 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:03:06,737 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:03:06,739 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:03:06,740 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:03:21,740 - hn_podcast - INFO - Processing: I gave every train in New York an instrument
+2026-04-13 06:03:22,182 - hn_podcast - INFO -   - [SUCCESS] Scraped 1517 characters.
+2026-04-13 06:03:22,183 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:03:51,896 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:03:51,898 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:03:51,899 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:04:06,899 - hn_podcast - INFO - Processing: Google Removes "Doki Doki Literature Club" from Google Play
+2026-04-13 06:04:07,908 - hn_podcast - INFO -   - [SUCCESS] Scraped 307 characters.
+2026-04-13 06:04:07,909 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:04:14,276 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:04:14,278 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:04:14,279 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:04:29,280 - hn_podcast - INFO - Processing: Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)
+2026-04-13 06:04:30,925 - hn_podcast - INFO -   - [SUCCESS] Scraped 2907 characters.
+2026-04-13 06:04:30,926 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:04:37,075 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:04:37,077 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:04:37,078 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:04:52,079 - hn_podcast - INFO - Processing: Show HN: boringBar – a taskbar-style dock replacement for macOS
+2026-04-13 06:04:52,721 - hn_podcast - INFO -   - [SUCCESS] Scraped 4561 characters.
+2026-04-13 06:04:52,722 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-13 06:04:59,813 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-13 06:04:59,814 - hn_podcast - INFO -   - Summary generated.
+2026-04-13 06:04:59,815 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-13 06:05:14,816 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-13 06:05:14,818 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-13 06:16:28,929 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-13.mp3 (1524.6s)
+2026-04-13 06:16:29,013 - hn_podcast - INFO - Audio generation complete!
+2026-04-13 06:16:29,038 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-13.json (duration=1524s, size=6098732B)
+2026-04-13 06:16:29,039 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-13 06:16:29,052 - hn_podcast - INFO - Found 25 metadata files to process.
+2026-04-13 06:16:29,215 - hn_podcast - INFO - RSS feed generated with 25 episodes at output/podcast.xml
+2026-04-13 06:16:29,235 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-13 06:16:29,238 - hn_podcast - INFO - RSS feed update complete!
+2026-04-13 06:16:29,239 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-13 06:16:29,260 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-13 06:16:29,277 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-13 06:16:29,278 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-13 06:16:29,456 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

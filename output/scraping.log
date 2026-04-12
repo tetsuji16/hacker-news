@@ -3377,3 +3377,21 @@ DEBUG: Scraping URL: https://notes.brooklynzelenka.com/Blog/Surelock
 DEBUG: Successfully scraped 13996 chars from https://notes.brooklynzelenka.com/Blog/Surelock. Saved to output/scraped_content/notes_brooklynzelenka_com_https___notes_brooklynzelenka_com_Blog_Surelock.txt
 DEBUG: Scraping URL: https://planetscale.com/blog/keeping-a-postgres-queue-healthy
 DEBUG: Successfully scraped 23094 chars from https://planetscale.com/blog/keeping-a-postgres-queue-healthy. Saved to output/scraped_content/planetscale_com_netscale_com_blog_keeping_a_postgres_queue_healthy.txt
+DEBUG: Scraping URL: https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/
+DEBUG: Successfully scraped 5732 chars from https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/. Saved to output/scraped_content/bcantrill_dtrace_org__dtrace_org_2026_04_12_the_peril_of_laziness_lost_.txt
+DEBUG: Scraping URL: https://essays.johnloeber.com/p/4-bring-back-idiomatic-design
+DEBUG: Successfully scraped 13835 chars from https://essays.johnloeber.com/p/4-bring-back-idiomatic-design. Saved to output/scraped_content/essays_johnloeber_com_ays_johnloeber_com_p_4_bring_back_idiomatic_design.txt
+DEBUG: Scraping URL: https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball
+DEBUG: Successfully scraped 12175 chars from https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball. Saved to output/scraped_content/www_lesswrong_com_TGbKKGqs5EdyYoRc_most_people_can_t_juggle_one_ball.txt
+DEBUG: Scraping URL: https://github.com/halfwhey/claudraband
+DEBUG: Successfully scraped 4056 chars from https://github.com/halfwhey/claudraband. Saved to output/scraped_content/github_com_https___github_com_halfwhey_claudraband.txt
+DEBUG: Scraping URL: https://blinry.org/diy-soft-drinks/
+DEBUG: Successfully scraped 6374 chars from https://blinry.org/diy-soft-drinks/. Saved to output/scraped_content/blinry_org_https___blinry_org_diy_soft_drinks_.txt
+DEBUG: Scraping URL: https://www.trainjazz.com/
+DEBUG: Successfully scraped 1517 chars from https://www.trainjazz.com/. Saved to output/scraped_content/www_trainjazz_com_https___www_trainjazz_com_.txt
+DEBUG: Scraping URL: https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t
+DEBUG: Successfully scraped 307 chars from https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t. Saved to output/scraped_content/bsky_app_y_app_profile_serenityforge_com_post_3mj3r4nbiws2t.txt
+DEBUG: Scraping URL: https://github.com/rochus-keller/OberonSystem3Native/releases
+DEBUG: Successfully scraped 2907 chars from https://github.com/rochus-keller/OberonSystem3Native/releases. Saved to output/scraped_content/github_com_hub_com_rochus_keller_OberonSystem3Native_releases.txt
+DEBUG: Scraping URL: https://boringbar.app/
+DEBUG: Successfully scraped 4561 chars from https://boringbar.app/. Saved to output/scraped_content/boringbar_app_https___boringbar_app_.txt
