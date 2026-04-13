@@ -3395,3 +3395,23 @@ DEBUG: Scraping URL: https://github.com/rochus-keller/OberonSystem3Native/releas
 DEBUG: Successfully scraped 2907 chars from https://github.com/rochus-keller/OberonSystem3Native/releases. Saved to output/scraped_content/github_com_hub_com_rochus_keller_OberonSystem3Native_releases.txt
 DEBUG: Scraping URL: https://boringbar.app/
 DEBUG: Successfully scraped 4561 chars from https://boringbar.app/. Saved to output/scraped_content/boringbar_app_https___boringbar_app_.txt
+DEBUG: Scraping URL: https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/
+DEBUG: Successfully scraped 10517 chars from https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/. Saved to output/scraped_content/anchor_host_ess_plugins_and_planted_a_backdoor_in_all_of_them_.txt
+DEBUG: Scraping URL: https://github.github.com/gh-stack/
+DEBUG: Successfully scraped 2393 chars from https://github.github.com/gh-stack/. Saved to output/scraped_content/github_github_com_https___github_github_com_gh_stack_.txt
+DEBUG: Scraping URL: https://github.com/sterlingcrispin/nothing-ever-happens
+DEBUG: Successfully scraped 2644 chars from https://github.com/sterlingcrispin/nothing-ever-happens. Saved to output/scraped_content/github_com____github_com_sterlingcrispin_nothing_ever_happens.txt
+DEBUG: Scraping URL: https://blog.farre.se/posts/2026/04/10/caching-webidl-codegen/
+DEBUG: Successfully scraped 4785 chars from https://blog.farre.se/posts/2026/04/10/caching-webidl-codegen/. Saved to output/scraped_content/blog_farre_se__farre_se_posts_2026_04_10_caching_webidl_codegen_.txt
+DEBUG: Scraping URL: https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety
+DEBUG: Successfully scraped 23812 chars from https://aphyr.com/posts/417-the-future-of-everything-is-lies-i-guess-safety. Saved to output/scraped_content/aphyr_com_17_the_future_of_everything_is_lies_i_guess_safety.txt
+DEBUG: Scraping URL: https://blog.cloudflare.com/cf-cli-local-explorer/
+DEBUG: Successfully scraped 9435 chars from https://blog.cloudflare.com/cf-cli-local-explorer/. Saved to output/scraped_content/blog_cloudflare_com_https___blog_cloudflare_com_cf_cli_local_explorer_.txt
+DEBUG: Scraping URL: https://bryanhogan.com/blog/obsidian-introduction
+DEBUG: Successfully scraped 3646 chars from https://bryanhogan.com/blog/obsidian-introduction. Saved to output/scraped_content/bryanhogan_com_https___bryanhogan_com_blog_obsidian_introduction.txt
+DEBUG: Scraping URL: https://servo.org/blog/2026/04/13/servo-0.1.0-release/
+DEBUG: Successfully scraped 1289 chars from https://servo.org/blog/2026/04/13/servo-0.1.0-release/. Saved to output/scraped_content/servo_org_s___servo_org_blog_2026_04_13_servo_0_1_0_release_.txt
+DEBUG: Scraping URL: https://www.ithihasas.in
+DEBUG: Successfully scraped 167 chars from https://www.ithihasas.in. Saved to output/scraped_content/www_ithihasas_in_https___www_ithihasas_in.txt
+DEBUG: Scraping URL: https://blog.kaving.me/blog/tracking-down-a-25-regression-on-llvm-risc-v/
+DEBUG: Successfully scraped 23902 chars from https://blog.kaving.me/blog/tracking-down-a-25-regression-on-llvm-risc-v/. Saved to output/scraped_content/blog_kaving_me_blog_tracking_down_a_25_regression_on_llvm_risc_v_.txt

@@ -3108,3 +3108,84 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-13 06:16:29,277 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-13 06:16:29,278 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-13 06:16:29,456 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-13 06:16:39,793 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-13 06:16:39,797 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-12.mp3
+2026-04-13 06:16:39,806 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-13.mp3
+2026-04-14 06:00:40,190 - hn_podcast - INFO - --- New Job Started for 2026-04-14 at 2026-04-14 06:00:40.190479 ---
+2026-04-14 06:00:40,217 - hn_podcast - INFO - Fetching stories for 2026-04-14...
+2026-04-14 06:01:05,111 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-14 06:01:05,118 - hn_podcast - INFO - Processing: Someone Bought 30 WordPress Plugins and Planted a Backdoor in All of Them
+2026-04-14 06:01:06,621 - hn_podcast - INFO -   - [SUCCESS] Scraped 10517 characters.
+2026-04-14 06:01:06,624 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:01:14,468 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:01:14,470 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:01:14,471 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:01:29,472 - hn_podcast - INFO - Processing: GitHub Stacked PRs
+2026-04-14 06:01:30,034 - hn_podcast - INFO -   - [SUCCESS] Scraped 2393 characters.
+2026-04-14 06:01:30,035 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:01:38,121 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:01:38,123 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:01:38,124 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:01:53,125 - hn_podcast - INFO - Processing: Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets
+2026-04-14 06:01:54,941 - hn_podcast - INFO -   - [SUCCESS] Scraped 2644 characters.
+2026-04-14 06:01:54,942 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:02:01,916 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:02:01,917 - hn_podcast - WARNING -   - Summarization failed for: Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets
+2026-04-14 06:02:01,918 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:02:16,919 - hn_podcast - INFO - Processing: How to make Firefox builds 17% faster
+2026-04-14 06:02:17,380 - hn_podcast - INFO -   - [SUCCESS] Scraped 4785 characters.
+2026-04-14 06:02:17,381 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:02:23,578 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:02:23,579 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:02:23,580 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:02:38,581 - hn_podcast - INFO - Processing: The Future of Everything Is Lies, I Guess: Safety
+2026-04-14 06:02:40,006 - hn_podcast - INFO -   - [SUCCESS] Scraped 23812 characters.
+2026-04-14 06:02:40,008 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:02:47,641 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:02:47,643 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:02:47,643 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:03:02,644 - hn_podcast - INFO - Processing: Building a CLI for All of Cloudflare
+2026-04-14 06:03:03,883 - hn_podcast - INFO -   - [SUCCESS] Scraped 9435 characters.
+2026-04-14 06:03:03,884 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:03:10,420 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:03:10,421 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:03:10,422 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:03:25,423 - hn_podcast - INFO - Processing: An Introduction to Obsidian
+2026-04-14 06:03:25,827 - hn_podcast - INFO -   - [SUCCESS] Scraped 3646 characters.
+2026-04-14 06:03:25,828 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:03:31,560 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:03:31,561 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:03:31,562 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:03:46,563 - hn_podcast - INFO - Processing: Servo is now available on crates.io
+2026-04-14 06:03:46,963 - hn_podcast - INFO -   - [SUCCESS] Scraped 1289 characters.
+2026-04-14 06:03:46,963 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:03:52,724 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:03:52,726 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:03:52,727 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:04:07,728 - hn_podcast - INFO - Processing: Show HN: Ithihāsas – a character explorer for Hindu epics, built in a few hours
+2026-04-14 06:04:08,249 - hn_podcast - INFO -   - [SUCCESS] Scraped 167 characters.
+2026-04-14 06:04:08,250 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:04:14,888 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:04:14,889 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:04:14,890 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:04:29,892 - hn_podcast - INFO - Processing: Tracking down a 25% Regression on LLVM RISC-V
+2026-04-14 06:04:31,653 - hn_podcast - INFO -   - [SUCCESS] Scraped 23902 characters.
+2026-04-14 06:04:31,655 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-14 06:04:36,841 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-14 06:04:36,843 - hn_podcast - INFO -   - Summary generated.
+2026-04-14 06:04:36,843 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-14 06:04:51,844 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-14 06:04:51,845 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-14 06:18:29,568 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-14.mp3 (1901.1s)
+2026-04-14 06:18:29,677 - hn_podcast - INFO - Audio generation complete!
+2026-04-14 06:18:29,686 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-14.json (duration=1901s, size=7604684B)
+2026-04-14 06:18:29,687 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-14 06:18:29,691 - hn_podcast - INFO - Found 26 metadata files to process.
+2026-04-14 06:18:29,890 - hn_podcast - INFO - RSS feed generated with 26 episodes at output/podcast.xml
+2026-04-14 06:18:29,914 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-14 06:18:29,916 - hn_podcast - INFO - RSS feed update complete!
+2026-04-14 06:18:29,917 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-14 06:18:29,939 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-14 06:18:29,966 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-14 06:18:29,967 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-14 06:18:30,224 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
