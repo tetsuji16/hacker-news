@@ -3189,3 +3189,79 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-14 06:18:29,966 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-14 06:18:29,967 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-14 06:18:30,224 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-14 06:18:42,016 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-15 06:00:42,428 - hn_podcast - INFO - --- New Job Started for 2026-04-15 at 2026-04-15 06:00:42.427306 ---
+2026-04-15 06:00:42,449 - hn_podcast - INFO - Fetching stories for 2026-04-15...
+2026-04-15 06:01:08,298 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-15 06:01:08,304 - hn_podcast - INFO - Processing: Claude Code Routines
+2026-04-15 06:01:10,561 - hn_podcast - INFO -   - [SUCCESS] Scraped 17438 characters.
+2026-04-15 06:01:10,563 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:01:15,043 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:01:15,044 - hn_podcast - WARNING -   - Summarization failed for: Claude Code Routines
+2026-04-15 06:01:15,044 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:01:30,045 - hn_podcast - INFO - Processing: Rare concert recordings are landing on the Internet Archive
+2026-04-15 06:01:30,714 - hn_podcast - INFO -   - [SUCCESS] Scraped 1395 characters.
+2026-04-15 06:01:30,714 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:02:41,600 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:02:41,606 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:02:41,607 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:02:56,608 - hn_podcast - INFO - Processing: YouTube now world's largest media company, topping Disney
+2026-04-15 06:02:57,798 - hn_podcast - INFO -   - [SUCCESS] Scraped 3520 characters.
+2026-04-15 06:02:57,800 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:03:01,708 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:03:01,710 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:03:01,711 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:03:16,712 - hn_podcast - INFO - Processing: Trusted access for the next era of cyber defense
+2026-04-15 06:03:17,715 - hn_podcast - INFO -   - [SUCCESS] Scraped 9859 characters.
+2026-04-15 06:03:17,716 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:03:27,616 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:03:27,617 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:03:27,618 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:03:42,619 - hn_podcast - INFO - Processing: Spain to expand internet blocks to tennis, golf, movies broadcasting times
+2026-04-15 06:03:43,262 - hn_podcast - INFO -   - [SUCCESS] Scraped 2850 characters.
+2026-04-15 06:03:43,263 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:04:05,197 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:04:05,199 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:04:05,199 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:04:20,202 - hn_podcast - INFO - Processing: 5NF and Database Design
+2026-04-15 06:04:22,219 - hn_podcast - INFO -   - [SUCCESS] Scraped 24450 characters.
+2026-04-15 06:04:22,220 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:08:08,503 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:08:08,505 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:08:08,506 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:08:23,507 - hn_podcast - INFO - Processing: I wrote to Flock's privacy contact to opt out of their domestic spying program
+2026-04-15 06:08:24,605 - hn_podcast - INFO -   - [SUCCESS] Scraped 3177 characters.
+2026-04-15 06:08:24,606 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:08:35,849 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:08:35,850 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:08:35,851 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:08:50,852 - hn_podcast - INFO - Processing: The Orange Pi 6 Plus
+2026-04-15 06:08:52,112 - hn_podcast - INFO -   - [SUCCESS] Scraped 27959 characters.
+2026-04-15 06:08:52,113 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:08:56,137 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:08:56,138 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:08:56,143 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:09:11,145 - hn_podcast - INFO - Processing: Turn your best AI prompts into one-click tools in Chrome
+2026-04-15 06:09:12,356 - hn_podcast - INFO -   - [SUCCESS] Scraped 2588 characters.
+2026-04-15 06:09:12,357 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-15 06:09:18,962 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-15 06:09:18,963 - hn_podcast - INFO -   - Summary generated.
+2026-04-15 06:09:18,965 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-15 06:09:33,966 - hn_podcast - INFO - Processing: guide.world: A compendium of travel guides
+2026-04-15 06:09:35,535 - trafilatura.core - WARNING - discarding data: None
+2026-04-15 06:09:35,538 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://guide.world/
+2026-04-15 06:09:35,539 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-15 06:09:35,540 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-15 06:21:31,331 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-15.mp3 (1562.2s)
+2026-04-15 06:21:31,429 - hn_podcast - INFO - Audio generation complete!
+2026-04-15 06:21:31,462 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-15.json (duration=1562s, size=6249452B)
+2026-04-15 06:21:31,463 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-15 06:21:31,466 - hn_podcast - INFO - Found 27 metadata files to process.
+2026-04-15 06:21:31,702 - hn_podcast - INFO - RSS feed generated with 27 episodes at output/podcast.xml
+2026-04-15 06:21:31,731 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-15 06:21:31,733 - hn_podcast - INFO - RSS feed update complete!
+2026-04-15 06:21:31,734 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-15 06:21:31,755 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-15 06:21:31,779 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-15 06:21:31,780 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-15 06:21:32,013 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

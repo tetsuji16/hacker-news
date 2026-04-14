@@ -1,0 +1,21 @@
+URL: https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html
+
+I wrote to Flock’s privacy contact to opt out of their domestic spying program:
+I am a resident of California. As such, and because you are subject to the CCPA, delete all information about me, my vehicle, and other household members from all of your databases. I do not give you permission to collect or store data about me, my vehicles, or my relatives, in any future situation.
+[Me] [My address]
+They replied today:
+Dear [misspelled name, i.e. not copied and pasted],
+Your request cannot be completed at this time.
+Dear [misspelling again],
+Thank you for submitting your privacy request. At this time, we are unable to process this request for the reasons detailed below.
+Flock Safety provides its services to our customers, and our customers are owners and controllers of the data Flock Safety processes on their behalf. Flock Safety processes data as a service provider and processor for our customers and as a result, we are unable to directly fulfill your request. We recommend contacting the organization that engaged Flock Safety’s services to submit your request, as they are responsible for assessing and responding to it.
+Here are a few additional points about Flock Safety’s data collection and privacy practices:
+- Customer Contracts: Flock Safety’s processing activity as a service provider and processor is governed by the contract we have with our customers, which captures their instructions and the limitations on how Flock Safety may process their data. Flock Safety’s customers own the data and make all decisions around how such data is used and shared.
+- No Sale of Data: Because Flock Safety’s customers own the data, Flock Safety may only process the data in accordance with our customer’s instructions, as outlined in our contracts with customers. Flock Safety is not permitted to sell, publish, or exchange such data for our own commercial purposes.
+- Information Collected: Where Flock Safety’s customers leverage License Plate Reader (LPR) technology, the LPRs do not process sensitive information like names or addresses. Instead, LPRs only capture images of publicly available and visible vehicle characteristics that are taken in the public view.
+- Purpose: Flock Safety customers use data for security purposes, including managing public safety or responding to safety concerns and reports. Additionally, such data may be used to help solve crimes and provide objective evidence.
+- Retention: By default, Flock Safety’s systems only retain data for 30 days, which means that any data collected on behalf of customers is permanently hard deleted on a rolling 30 day basis. Flock Safety customers are able to adjust this retention period based on their local laws or policies.
+For more information about how Flock Safety processes data, please refer to our Privacy Policy and LPR Policy.
+Thank you,
+Flock Safety Privacy Team
+I think that’s legally inaccurate. They’re the entity collecting and processing my personally identifiable information, and my non-lawyer reading of the California Consumer Privacy Act (CCPA) would seem to obligate them to comply with my request. I haven’t decided to engage a lawyer yet, but neither have I ruled it out.
