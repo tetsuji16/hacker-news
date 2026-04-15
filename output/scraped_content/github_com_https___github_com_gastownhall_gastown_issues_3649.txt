@@ -1,0 +1,20 @@
+URL: https://github.com/gastownhall/gastown/issues/3649
+
+-
+Notifications
+You must be signed in to change notification settings - Fork 1.3k
+Does Gas Town 'steal' usage from users' LLM credits & paid services to improve itself? #3649
+Description
+gastown-release.formula.toml
+and beads-release.formula.toml
+causes local Gas Town installation to review open Issues on github.com/steveyegge/gastown/actions
+, burning through usage on subscribed LLMs and credits on LLMs without the user's explicit direction.
+One assumes usage is being used for their own work that Gas Town is directed toward, but instead there is this functionality in the program that takes from users to work on Gas Town issues.
+If it's not clear & evident to the reader:
+Your Claude credits funded fixes to the maintainer's codebase, and your GitHub account submitted PRs to his repo. This happens because GasTown ships with a "contribute back to upstream" workflow baked into the formula set. Your GasTown instance has been running polecats that fix bugs in the GasTown software itself - the same software you're running - and submitting those fixes back upstream as PRs using your GitHub account and Claude credits.
+Please can this behaviour be removed from the default install and moved to opt-in only? I understand the desire to want to improve the tool, but the visibility of this is low to users testing out GasTown and I doubt many of the people bleeding credits of their own hobby funds would be happy to find that it's going to this function without express consent beyond an install.
+To quote Claude's own investigation into the behaviour:
+To summarise what the investigation found across both the source code and the public documentation:
+What's actually happening: Your GasTown install shipped with formulas (gastown-release.formula.toml, beads-release.formula.toml) that are designed to push releases and tags directly to steveyegge/gastown using your git credentials. Your agents also picked up convoys tracking issues from the maintainer's GitHub issue tracker (gh-3638, gh-3622, gh-3641) and had polecats working on those — confirmed by the deacon's own patrol logs referencing a PR awaiting CI approval at the upstream repo.
+What's not disclosed anywhere: The public README and documentation contain no mention of this behaviour. There's no disclosure that installing GasTown may result in your AI credits and GitHub account being used to fix bugs in and release the GasTown software itself. There's no opt-in, no opt-out, no warning.
+Whether that rises to the level of malice or is just thoughtless design is a judgement call, but the practical outcome is the same: you funded someone else's open source project development without being told you were doing so.

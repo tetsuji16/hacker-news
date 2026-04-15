@@ -3265,3 +3265,80 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-15 06:21:31,779 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-15 06:21:31,780 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-15 06:21:32,013 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-15 06:21:42,685 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-15 06:21:42,693 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-14.mp3
+2026-04-15 06:21:42,702 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-15.mp3
+2026-04-16 06:00:43,118 - hn_podcast - INFO - --- New Job Started for 2026-04-16 at 2026-04-16 06:00:43.111926 ---
+2026-04-16 06:00:43,158 - hn_podcast - INFO - Fetching stories for 2026-04-16...
+2026-04-16 06:01:07,887 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-16 06:01:07,892 - hn_podcast - INFO - Processing: Google broke its promise to me – now ICE has my data
+2026-04-16 06:01:09,217 - hn_podcast - INFO -   - [SUCCESS] Scraped 4460 characters.
+2026-04-16 06:01:09,220 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:01:24,812 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:01:24,822 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:01:24,823 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:01:39,824 - hn_podcast - INFO - Processing: PiCore - Raspberry Pi Port of Tiny Core Linux
+2026-04-16 06:01:40,698 - trafilatura.utils - ERROR - parsed tree length: 0, wrong data type or not valid HTML
+2026-04-16 06:01:40,715 - trafilatura.core - ERROR - empty HTML tree: None
+2026-04-16 06:01:40,716 - trafilatura.core - WARNING - discarding data: None
+2026-04-16 06:01:40,717 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: http://tinycorelinux.net/5.x/armv6/releases/README
+2026-04-16 06:01:40,718 - hn_podcast - INFO - Processing: Cybersecurity looks like proof of work now
+2026-04-16 06:01:41,572 - hn_podcast - INFO -   - [SUCCESS] Scraped 5229 characters.
+2026-04-16 06:01:41,573 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:01:45,754 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:01:45,756 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:01:45,757 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:02:00,758 - hn_podcast - INFO - Processing: God sleeps in the minerals
+2026-04-16 06:02:01,630 - hn_podcast - INFO -   - [SUCCESS] Scraped 2273 characters.
+2026-04-16 06:02:01,631 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:02:05,282 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:02:05,283 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:02:05,284 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:02:20,285 - hn_podcast - INFO - Processing: Live Nation illegally monopolized ticketing market, jury finds
+2026-04-16 06:02:20,812 - trafilatura.downloads - ERROR - not a 200 response: 403 for URL https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds
+2026-04-16 06:02:20,813 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds
+2026-04-16 06:02:20,814 - hn_podcast - INFO - Processing: Cal.com is going closed source
+2026-04-16 06:02:24,023 - hn_podcast - INFO -   - [SUCCESS] Scraped 3241 characters.
+2026-04-16 06:02:24,024 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:03:39,957 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:03:39,958 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:03:39,959 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:03:54,960 - hn_podcast - INFO - Processing: Fix monitor that goes black, off or blinks due to static electricity in chair
+2026-04-16 06:03:55,542 - hn_podcast - INFO -   - [SUCCESS] Scraped 4579 characters.
+2026-04-16 06:03:55,543 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:04:05,252 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:04:05,253 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:04:05,254 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:04:20,255 - hn_podcast - INFO - Processing: Want to write a compiler? Just read these two papers (2008)
+2026-04-16 06:04:21,368 - hn_podcast - INFO -   - [SUCCESS] Scraped 3603 characters.
+2026-04-16 06:04:21,369 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:04:25,542 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:04:25,544 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:04:25,548 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:04:40,549 - hn_podcast - INFO - Processing: Does Gas Town 'steal' usage from users' LLM credits to improve itself?
+2026-04-16 06:04:42,736 - hn_podcast - INFO -   - [SUCCESS] Scraped 2688 characters.
+2026-04-16 06:04:42,737 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:04:46,930 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:04:46,931 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:04:46,932 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:05:01,933 - hn_podcast - INFO - Processing: Golden eagles' return to English skies
+2026-04-16 06:05:03,060 - hn_podcast - INFO -   - [SUCCESS] Scraped 6775 characters.
+2026-04-16 06:05:03,061 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-16 06:05:09,153 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-16 06:05:09,154 - hn_podcast - INFO -   - Summary generated.
+2026-04-16 06:05:09,155 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-16 06:05:24,156 - hn_podcast - INFO - Final processed articles list length: 8
+2026-04-16 06:05:24,157 - hn_podcast - INFO - Starting audio generation for 8 articles...
+2026-04-16 06:15:51,929 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-16.mp3 (1357.6s)
+2026-04-16 06:15:52,009 - hn_podcast - INFO - Audio generation complete!
+2026-04-16 06:15:52,032 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-16.json (duration=1357s, size=5431052B)
+2026-04-16 06:15:52,033 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-16 06:15:52,045 - hn_podcast - INFO - Found 28 metadata files to process.
+2026-04-16 06:15:52,285 - hn_podcast - INFO - RSS feed generated with 28 episodes at output/podcast.xml
+2026-04-16 06:15:52,312 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-16 06:15:52,315 - hn_podcast - INFO - RSS feed update complete!
+2026-04-16 06:15:52,316 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-16 06:15:52,341 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-16 06:15:52,361 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-16 06:15:52,362 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-16 06:15:52,574 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

@@ -3435,3 +3435,23 @@ DEBUG: Scraping URL: https://blog.google/products-and-platforms/products/chrome/
 DEBUG: Successfully scraped 2588 chars from https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/. Saved to output/scraped_content/blog_google_ts_and_platforms_products_chrome_skills_in_chrome_.txt
 DEBUG: Scraping URL: https://guide.world/
 DEBUG: Trafilatura extracted empty text from https://guide.world/
+DEBUG: Scraping URL: https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data
+DEBUG: Successfully scraped 4460 chars from https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data. Saved to output/scraped_content/www_eff_org_04_google_broke_its_promise_me_now_ice_has_my_data.txt
+DEBUG: Scraping URL: http://tinycorelinux.net/5.x/armv6/releases/README
+DEBUG: Trafilatura extracted empty text from http://tinycorelinux.net/5.x/armv6/releases/README
+DEBUG: Scraping URL: https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html
+DEBUG: Successfully scraped 5229 chars from https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html. Saved to output/scraped_content/www_dbreunig_com_2026_04_14_cybersecurity_is_proof_of_work_now_html.txt
+DEBUG: Scraping URL: https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/
+DEBUG: Successfully scraped 2273 chars from https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/. Saved to output/scraped_content/wchambliss_wordpress_com_rdpress_com_2026_03_03_god_sleeps_in_the_minerals_.txt
+DEBUG: Scraping URL: https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds
+DEBUG: Trafilatura failed to download https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds
+DEBUG: Scraping URL: https://cal.com/blog/cal-com-goes-closed-source-why
+DEBUG: Successfully scraped 3241 chars from https://cal.com/blog/cal-com-goes-closed-source-why. Saved to output/scraped_content/cal_com_ttps___cal_com_blog_cal_com_goes_closed_source_why.txt
+DEBUG: Scraping URL: https://aalonso.dev/blog/2023/how-to-fix-monitor-that-goes-black-off-due-to-static-electricity-in-chair/
+DEBUG: Successfully scraped 4579 chars from https://aalonso.dev/blog/2023/how-to-fix-monitor-that-goes-black-off-due-to-static-electricity-in-chair/. Saved to output/scraped_content/aalonso_dev_goes_black_off_due_to_static_electricity_in_chair_.txt
+DEBUG: Scraping URL: https://prog21.dadgum.com/30.html
+DEBUG: Successfully scraped 3603 chars from https://prog21.dadgum.com/30.html. Saved to output/scraped_content/prog21_dadgum_com_https___prog21_dadgum_com_30_html.txt
+DEBUG: Scraping URL: https://github.com/gastownhall/gastown/issues/3649
+DEBUG: Successfully scraped 2688 chars from https://github.com/gastownhall/gastown/issues/3649. Saved to output/scraped_content/github_com_https___github_com_gastownhall_gastown_issues_3649.txt
+DEBUG: Scraping URL: https://www.bbc.co.uk/news/articles/cje4zlxqkqdo
+DEBUG: Successfully scraped 6775 chars from https://www.bbc.co.uk/news/articles/cje4zlxqkqdo. Saved to output/scraped_content/www_bbc_co_uk_https___www_bbc_co_uk_news_articles_cje4zlxqkqdo.txt
