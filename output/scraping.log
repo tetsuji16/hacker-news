@@ -3455,3 +3455,19 @@ DEBUG: Scraping URL: https://github.com/gastownhall/gastown/issues/3649
 DEBUG: Successfully scraped 2688 chars from https://github.com/gastownhall/gastown/issues/3649. Saved to output/scraped_content/github_com_https___github_com_gastownhall_gastown_issues_3649.txt
 DEBUG: Scraping URL: https://www.bbc.co.uk/news/articles/cje4zlxqkqdo
 DEBUG: Successfully scraped 6775 chars from https://www.bbc.co.uk/news/articles/cje4zlxqkqdo. Saved to output/scraped_content/www_bbc_co_uk_https___www_bbc_co_uk_news_articles_cje4zlxqkqdo.txt
+DEBUG: Scraping URL: https://openai.com/index/codex-for-almost-everything/
+DEBUG: Successfully scraped 4863 chars from https://openai.com/index/codex-for-almost-everything/. Saved to output/scraped_content/openai_com_ps___openai_com_index_codex_for_almost_everything_.txt
+DEBUG: Scraping URL: https://www.anthropic.com/news/claude-opus-4-7
+DEBUG: Successfully scraped 18106 chars from https://www.anthropic.com/news/claude-opus-4-7. Saved to output/scraped_content/www_anthropic_com_https___www_anthropic_com_news_claude_opus_4_7.txt
+DEBUG: Scraping URL: https://www.fluentu.com/blog/german/german-dog-commands/
+DEBUG: Successfully scraped 14867 chars from https://www.fluentu.com/blog/german/german-dog-commands/. Saved to output/scraped_content/www_fluentu_com___www_fluentu_com_blog_german_german_dog_commands_.txt
+DEBUG: Scraping URL: https://blog.cloudflare.com/ai-platform/
+DEBUG: Successfully scraped 8730 chars from https://blog.cloudflare.com/ai-platform/. Saved to output/scraped_content/blog_cloudflare_com_https___blog_cloudflare_com_ai_platform_.txt
+DEBUG: Scraping URL: https://qwen.ai/blog?id=qwen3.6-35b-a3b
+DEBUG: Trafilatura extracted empty text from https://qwen.ai/blog?id=qwen3.6-35b-a3b
+DEBUG: Scraping URL: https://simonwillison.net/2026/Apr/16/qwen-beats-opus/
+DEBUG: Successfully scraped 2268 chars from https://simonwillison.net/2026/Apr/16/qwen-beats-opus/. Saved to output/scraped_content/simonwillison_net_s___simonwillison_net_2026_Apr_16_qwen_beats_opus_.txt
+DEBUG: Scraping URL: https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html
+DEBUG: Successfully scraped 6332 chars from https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html. Saved to output/scraped_content/android-developers_googleblog_com__build_android_apps_3x_faster_using_any_agent_html.txt
+DEBUG: Scraping URL: https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html
+DEBUG: Successfully scraped 7432 chars from https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html. Saved to output/scraped_content/raymii_org__tutorials_Put_your_SSH_keys_in_your_TPM_chip_html.txt

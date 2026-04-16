@@ -1,0 +1,64 @@
+URL: https://blog.cloudflare.com/ai-platform/
+
+AI models are changing quickly: the best model to use for agentic coding today might in three months be a completely different model from a different provider. On top of this, real-world use cases often require calling more than one model. Your customer support agent might use a fast, cheap model to classify a user's message; a large, reasoning model to plan its actions; and a lightweight model to execute individual tasks.
+This means you need access to all the models, without tying yourself financially and operationally to a single provider. You also need the right systems in place to monitor costs across providers, ensure reliability when one of them has an outage, and manage latency no matter where your users are.
+These challenges are present whenever you’re building with AI, but they get even more pressing when you’re building agents. A simple chatbot might make one inference call per user prompt. An agent might chain ten calls together to complete a single task and suddenly, a single slow provider doesn't add 50ms, it adds 500ms. One failed request isn't a retry, but suddenly a cascade of downstream failures.
+Since launching AI Gateway and Workers AI, we’ve seen incredible adoption from developers building AI-powered applications on Cloudflare and we’ve been shipping fast to keep up! In just the past few months, we've refreshed the dashboard, added zero-setup default gateways, automatic retries on upstream failures, and more granular logging controls. Today, we’re making Cloudflare into a unified inference layer: one API to access any AI model from any provider, built to be fast and reliable.
+One catalog, one unified endpoint
+Starting today, you can call third-party models using the same AI.run() binding you already use for Workers AI. If you’re using Workers, switching from a Cloudflare-hosted model to one from OpenAI, Anthropic, or any other provider is a one-line change.
+const response = await env.AI.run('anthropic/claude-opus-4-6',{
+input: 'What is Cloudflare?',
+}, {
+gateway: { id: "default" },
+});
+For those who don’t use Workers, we’ll be releasing REST API support in the coming weeks, so you can access the full model catalog from any environment.
+We’re also excited to share that you'll now have access to 70+ models across 12+ providers — all through one API, one line of code to switch between them, and one set of credits to pay for them. And we’re quickly expanding this as we go.
+You can browse through our model catalog to find the best model for your use case, from open-source models hosted on Cloudflare Workers AI to proprietary models from the major model providers. We’re excited to be expanding access to models from Alibaba Cloud, AssemblyAI, Bytedance, Google, InWorld, MiniMax, OpenAI, Pixverse, Recraft, Runway, and Vidu — who will provide their models through AI Gateway. Notably, we’re expanding our model offerings to include image, video, and speech models so that you can build multimodal applications
+Accessing all your models through one API also means you can manage all your AI spend in one place. Most companies today are calling an average of 3.5 models across multiple providers, which means no one provider is able to give you a holistic view of your AI usage. With AI Gateway, you’ll get one centralized place to monitor and manage AI spend.
+By including custom metadata with your requests, you can get a breakdown of your costs on the attributes that you care about most, like spend by free vs. paid users, by individual customers, or by specific workflows in your app.
+const response = await env.AI.run('@cf/moonshotai/kimi-k2.5',
+{
+prompt: 'What is AI Gateway?'
+},
+{
+metadata: { "teamId": "AI", "userId": 12345 }
+}
+);
+AI Gateway gives you access to models from all the providers through one API. But sometimes you need to run a model you've fine-tuned on your own data or one optimized for your specific use case. For that, we are working on letting users bring their own model to Workers AI.
+The overwhelming majority of our traffic comes from dedicated instances for Enterprise customers who are running custom models on our platform, and we want to bring this to more customers. To do this, we leverage Replicate’s Cog technology to help you containerize machine learning models.
+Cog is designed to be quite simple: all you need to do is write down dependencies in a cog.yaml file, and your inference code in a Python file. Cog abstracts away all the hard things about packaging ML models, such as CUDA dependencies, Python versions, weight loading, etc.
+Example of a cog.yaml
+file:
+build:
+python_version: "3.13"
+python_requirements: requirements.txt
+predict: "predict.py:Predictor"
+Example of a predict.py
+file, which has a function to set up the model and a function that runs when you receive an inference request (a prediction):
+from cog import BasePredictor, Path, Input
+import torch
+class Predictor(BasePredictor):
+def setup(self):
+"""Load the model into memory to make running multiple predictions efficient"""
+self.net = torch.load("weights.pth")
+def predict(self,
+image: Path = Input(description="Image to enlarge"),
+scale: float = Input(description="Factor to scale image by", default=1.5)
+) -> Path:
+"""Run a single prediction on the model"""
+# ... pre-processing ...
+output = self.net(input)
+# ... post-processing ...
+return output
+Then, you can run cog build to build your container image, and push your Cog container to Workers AI. We will deploy and serve the model for you, which you then access through your usual Workers AI APIs.
+We’re working on some big projects to be able to bring this to more customers, like customer-facing APIs and wrangler commands so that you can push your own containers, as well as faster cold starts through GPU snapshotting. We’ve been testing this internally with Cloudflare teams and some external customers who are guiding our vision. If you’re interested in being a design partner with us, please reach out! Soon, anyone will be able to package their model and use it through Workers AI.
+The fast path to first token
+Using Workers AI models with AI Gateway is particularly powerful if you’re building live agents – where a user's perception of speed hinges on time to first token or how quickly the agent starts responding, rather than how long the full response takes. Even if total inference is 3 seconds, getting that first token 50ms faster makes the difference between an agent that feels zippy and one that feels sluggish.
+Cloudflare's network of data centers in 330 cities around the world means AI Gateway is positioned close to both users and inference endpoints, minimizing the network time before streaming begins.
+Workers AI also hosts open-source models on its public catalog, which now includes large models purpose-built for agents, including Kimi K2.5 and real-time voice models. When you call these Cloudflare-hosted models through AI Gateway, there's no extra hop over the public Internet since your code and inference run on the same global network, giving your agents the lowest latency possible.
+Built for reliability with automatic failover
+When building agents, speed is not the only factor that users care about – reliability matters too. Every step in an agent workflow depends on the steps before it. Reliable inference is crucial for agents because one call failing can affect the entire downstream chain.
+Through AI Gateway, if you're calling a model that's available on multiple providers and one provider goes down, we'll automatically route to another available provider without you having to write any failover logic of your own.
+If you’re building long-running agents with Agents SDK, your streaming inference calls are also resilient to disconnects. AI Gateway buffers streaming responses as they’re generated, independently of your agent's lifetime. If your agent is interrupted mid-inference, it can reconnect to AI Gateway and retrieve the response without having to make a new inference call or paying twice for the same output tokens. Combined with the Agents SDK's built-in checkpointing, the end user never notices.
+The Replicate team has officially joined our AI Platform team, so much so that we don’t even consider ourselves separate teams anymore. We’ve been hard at work on integrations between Replicate and Cloudflare, which include bringing all the Replicate models onto AI Gateway and replatforming the hosted models onto Cloudflare infrastructure. Soon, you’ll be able to access the models you loved on Replicate through AI Gateway, and host the models you deployed on Replicate on Workers AI as well.
+To get started, check out our documentation for AI Gateway or Workers AI. Learn more about building agents on Cloudflare through Agents SDK.

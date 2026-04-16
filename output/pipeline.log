@@ -3342,3 +3342,69 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-16 06:15:52,361 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-16 06:15:52,362 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-16 06:15:52,574 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-16 06:16:02,936 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-17 06:00:03,337 - hn_podcast - INFO - --- New Job Started for 2026-04-17 at 2026-04-17 06:00:03.337226 ---
+2026-04-17 06:00:03,357 - hn_podcast - INFO - Fetching stories for 2026-04-17...
+2026-04-17 06:00:27,632 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-17 06:00:27,638 - hn_podcast - INFO - Processing: Codex for almost everything
+2026-04-17 06:00:28,754 - hn_podcast - INFO -   - [SUCCESS] Scraped 4863 characters.
+2026-04-17 06:00:28,755 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:00:33,645 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:00:33,647 - hn_podcast - INFO -   - Summary generated.
+2026-04-17 06:00:33,647 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:00:48,650 - hn_podcast - INFO - Processing: Claude Opus 4.7
+2026-04-17 06:00:53,749 - hn_podcast - INFO -   - [SUCCESS] Scraped 18106 characters.
+2026-04-17 06:00:53,753 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:00:58,333 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:00:58,335 - hn_podcast - WARNING -   - Summarization failed for: Claude Opus 4.7
+2026-04-17 06:00:58,335 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:01:13,336 - hn_podcast - INFO - Processing: German Dog Commands
+2026-04-17 06:01:14,332 - hn_podcast - INFO -   - [SUCCESS] Scraped 14867 characters.
+2026-04-17 06:01:14,333 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:01:18,387 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:01:18,389 - hn_podcast - INFO -   - Summary generated.
+2026-04-17 06:01:18,393 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:01:33,395 - hn_podcast - INFO - Skipping YouTube URL: https://www.youtube.com/watch?v=XaDa9bBucEI
+2026-04-17 06:01:33,396 - hn_podcast - INFO - Skipping YouTube URL: https://www.youtube.com/watch?v=y2_BqkKTbD8
+2026-04-17 06:01:33,396 - hn_podcast - INFO - Processing: Cloudflare's AI Platform: an inference layer designed for agents
+2026-04-17 06:01:34,675 - hn_podcast - INFO -   - [SUCCESS] Scraped 8730 characters.
+2026-04-17 06:01:34,676 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:01:39,601 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:01:39,602 - hn_podcast - INFO -   - Summary generated.
+2026-04-17 06:01:39,603 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:01:54,604 - hn_podcast - INFO - Processing: Qwen3.6-35B-A3B: Agentic coding power, now open to all
+2026-04-17 06:01:55,261 - trafilatura.core - WARNING - discarding data: None
+2026-04-17 06:01:55,263 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://qwen.ai/blog?id=qwen3.6-35b-a3b
+2026-04-17 06:01:55,264 - hn_podcast - INFO - Processing: Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7
+2026-04-17 06:01:55,723 - hn_podcast - INFO -   - [SUCCESS] Scraped 2268 characters.
+2026-04-17 06:01:55,724 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:02:00,271 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:02:00,272 - hn_podcast - INFO -   - Summary generated.
+2026-04-17 06:02:00,273 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:02:15,274 - hn_podcast - INFO - Processing: Android CLI: Build Android apps 3x faster using any agent
+2026-04-17 06:02:16,802 - hn_podcast - INFO -   - [SUCCESS] Scraped 6332 characters.
+2026-04-17 06:02:16,803 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:02:22,901 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:02:22,902 - hn_podcast - INFO -   - Summary generated.
+2026-04-17 06:02:22,903 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:02:37,904 - hn_podcast - INFO - Processing: Put your SSH keys in your TPM chip
+2026-04-17 06:02:41,037 - hn_podcast - INFO -   - [SUCCESS] Scraped 7432 characters.
+2026-04-17 06:02:41,038 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-17 06:02:45,736 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-17 06:02:45,737 - hn_podcast - INFO -   - Summary generated.
+2026-04-17 06:02:45,738 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-17 06:03:00,739 - hn_podcast - INFO - Final processed articles list length: 7
+2026-04-17 06:03:00,740 - hn_podcast - INFO - Starting audio generation for 7 articles...
+2026-04-17 06:11:52,325 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-17.mp3 (1211.5s)
+2026-04-17 06:11:52,360 - hn_podcast - INFO - Audio generation complete!
+2026-04-17 06:11:52,364 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-17.json (duration=1211s, size=4846508B)
+2026-04-17 06:11:52,365 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-17 06:11:52,367 - hn_podcast - INFO - Found 29 metadata files to process.
+2026-04-17 06:11:52,580 - hn_podcast - INFO - RSS feed generated with 29 episodes at output/podcast.xml
+2026-04-17 06:11:52,625 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-17 06:11:52,627 - hn_podcast - INFO - RSS feed update complete!
+2026-04-17 06:11:52,628 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-17 06:11:52,650 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-17 06:11:52,677 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-17 06:11:52,678 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-17 06:11:52,911 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
