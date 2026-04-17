@@ -3471,3 +3471,23 @@ DEBUG: Scraping URL: https://android-developers.googleblog.com/2026/04/build-and
 DEBUG: Successfully scraped 6332 chars from https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html. Saved to output/scraped_content/android-developers_googleblog_com__build_android_apps_3x_faster_using_any_agent_html.txt
 DEBUG: Scraping URL: https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html
 DEBUG: Successfully scraped 7432 chars from https://raymii.org/s/tutorials/Put_your_SSH_keys_in_your_TPM_chip.html. Saved to output/scraped_content/raymii_org__tutorials_Put_your_SSH_keys_in_your_TPM_chip_html.txt
+DEBUG: Scraping URL: https://www.anthropic.com/news/claude-design-anthropic-labs
+DEBUG: Successfully scraped 5594 chars from https://www.anthropic.com/news/claude-design-anthropic-labs. Saved to output/scraped_content/www_anthropic_com_ww_anthropic_com_news_claude_design_anthropic_labs.txt
+DEBUG: Scraping URL: https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you
+DEBUG: Successfully scraped 11824 chars from https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you. Saved to output/scraped_content/www_claudecodecamp_com_laude_4_7_s_new_tokenizer_here_s_what_it_costs_you.txt
+DEBUG: Scraping URL: https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon
+DEBUG: Successfully scraped 3488 chars from https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon. Saved to output/scraped_content/www_esa_int_and_Robotic_Exploration_The_toxic_side_of_the_Moon.txt
+DEBUG: Scraping URL: https://github.com/smol-machines/smolvm
+DEBUG: Successfully scraped 4791 chars from https://github.com/smol-machines/smolvm. Saved to output/scraped_content/github_com_https___github_com_smol_machines_smolvm.txt
+DEBUG: Scraping URL: https://hex.ooo/library/last_question.html
+DEBUG: Successfully scraped 25063 chars from https://hex.ooo/library/last_question.html. Saved to output/scraped_content/hex_ooo_https___hex_ooo_library_last_question_html.txt
+DEBUG: Scraping URL: https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead
+DEBUG: Successfully scraped 1291 chars from https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead. Saved to output/scraped_content/www_ycombinator_com_tion_jobs_AKZRZDN_platform_engineer_benchmark_lead.txt
+DEBUG: Scraping URL: https://nasaforce.gov/
+DEBUG: Successfully scraped 2590 chars from https://nasaforce.gov/. Saved to output/scraped_content/nasaforce_gov_https___nasaforce_gov_.txt
+DEBUG: Scraping URL: https://www.thehistoryblog.com/archives/75848
+DEBUG: Trafilatura failed to download https://www.thehistoryblog.com/archives/75848
+DEBUG: Scraping URL: https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/
+DEBUG: Successfully scraped 24497 chars from https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/. Saved to output/scraped_content/risky_biz__risky_bulletin_nist_gives_up_enriching_most_cves_.txt
+DEBUG: Scraping URL: https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html
+DEBUG: Successfully scraped 9251 chars from https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html. Saved to output/scraped_content/www_wespiser_com_wespiser_com_posts_2026_04_12_3D_Printing_Biz_html.txt

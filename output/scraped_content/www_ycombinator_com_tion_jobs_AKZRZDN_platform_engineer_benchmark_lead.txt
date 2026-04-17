@@ -1,0 +1,12 @@
+URL: https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead
+
+A senior engineer to own and evolve the platform behind ARC-AGI series of benchmarks. This person will act as the technical owner and architect of our benchmark infrastructure, from stabilizing the current system to laying the foundation for future versions. This is a remote, full-time role.
+What You'll Do:
+- Stabilize and extend the V3 backend and infrastructure - Own performance to keep the current benchmark platform reliable
+- Build the verification and testing layer - Automated model runs, scoring, reproducible eval pipelines, and systems for capturing and querying data exhaust so the team can do deeper model analysis
+- Support early ARC-AGI-4 implementation by building the backend and platform pieces needed for new environments, human data collection, scoring, and deployment
+- Set the early technical foundation for ARC-AGI-5
+What We're Looking For:
+- Strong backend engineering with Python, plus distributed systems, SQL, cloud infrastructure, and production reliability experience
+- Experience building evaluation harnesses, testing pipelines, experiment/data logging, and analysis workflows - ideally for AI/ML systems or other high-volume technical platforms
+- Senior enough to act as a technical owner and architect of the benchmark platform (we have a high agency team)

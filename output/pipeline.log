@@ -3408,3 +3408,83 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-17 06:11:52,677 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-17 06:11:52,678 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-17 06:11:52,911 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-17 06:12:02,419 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-17 06:12:02,423 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-16.mp3
+2026-04-17 06:12:02,431 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-17.mp3
+2026-04-18 06:00:02,831 - hn_podcast - INFO - --- New Job Started for 2026-04-18 at 2026-04-18 06:00:02.830526 ---
+2026-04-18 06:00:02,861 - hn_podcast - INFO - Fetching stories for 2026-04-18...
+2026-04-18 06:00:27,132 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-18 06:00:27,137 - hn_podcast - INFO - Processing: Claude Design
+2026-04-18 06:00:33,183 - hn_podcast - INFO -   - [SUCCESS] Scraped 5594 characters.
+2026-04-18 06:00:33,185 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:00:56,829 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:00:56,831 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:00:56,832 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:01:11,833 - hn_podcast - INFO - Processing: Claude Opus 4.7 costs 20–30% more per session
+2026-04-18 06:01:14,999 - hn_podcast - INFO -   - [SUCCESS] Scraped 11824 characters.
+2026-04-18 06:01:15,000 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:01:20,481 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:01:20,483 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:01:20,484 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:01:35,485 - hn_podcast - INFO - Processing: All 12 moonwalkers had "lunar hay fever" from dust smelling like gunpowder (2018)
+2026-04-18 06:01:36,604 - hn_podcast - INFO -   - [SUCCESS] Scraped 3488 characters.
+2026-04-18 06:01:36,605 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:01:59,590 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:01:59,591 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:01:59,592 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:02:14,593 - hn_podcast - INFO - Processing: Show HN: Smol machines – subsecond coldstart, portable virtual machines
+2026-04-18 06:02:16,780 - hn_podcast - INFO -   - [SUCCESS] Scraped 4791 characters.
+2026-04-18 06:02:16,782 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:02:21,096 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:02:21,098 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:02:21,098 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:02:36,099 - hn_podcast - INFO - Processing: Isaac Asimov: The Last Question (1956)
+2026-04-18 06:02:37,637 - hn_podcast - INFO -   - [SUCCESS] Scraped 25063 characters.
+2026-04-18 06:02:37,638 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:02:53,248 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:02:53,250 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:02:53,251 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:03:08,252 - hn_podcast - INFO - Processing: Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4
+2026-04-18 06:03:09,628 - hn_podcast - INFO -   - [SUCCESS] Scraped 1291 characters.
+2026-04-18 06:03:09,630 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:03:13,859 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:03:13,865 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:03:13,867 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:03:28,868 - hn_podcast - INFO - Processing: NASA Force
+2026-04-18 06:03:29,541 - hn_podcast - INFO -   - [SUCCESS] Scraped 2590 characters.
+2026-04-18 06:03:29,542 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:03:46,057 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:03:46,059 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:03:46,059 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:04:01,060 - hn_podcast - INFO - Processing: Middle schooler finds coin from Troy in Berlin
+2026-04-18 06:04:02,037 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=0, read=None, redirect=2, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /archives/75848
+2026-04-18 06:04:32,623 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=0, read=None, redirect=2, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)'))': /archives/75848
+2026-04-18 06:04:33,190 - trafilatura.downloads - ERROR - download error: https://www.thehistoryblog.com/archives/75848 HTTPSConnectionPool(host='www.thehistoryblog.com', port=443): Max retries exceeded with url: /archives/75848 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+2026-04-18 06:04:33,192 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://www.thehistoryblog.com/archives/75848
+2026-04-18 06:04:33,192 - hn_podcast - INFO - Processing: NIST gives up enriching most CVEs
+2026-04-18 06:04:34,584 - hn_podcast - INFO -   - [SUCCESS] Scraped 24497 characters.
+2026-04-18 06:04:34,586 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:04:53,776 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:04:53,778 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:04:53,778 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:05:08,779 - hn_podcast - INFO - Processing: I built a 3D printing business and ran it for 8 months
+2026-04-18 06:05:09,955 - hn_podcast - INFO -   - [SUCCESS] Scraped 9251 characters.
+2026-04-18 06:05:09,956 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-18 06:05:15,385 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-18 06:05:15,387 - hn_podcast - INFO -   - Summary generated.
+2026-04-18 06:05:15,387 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-18 06:05:30,388 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-18 06:05:30,389 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-18 06:16:53,131 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-18.mp3 (1516.9s)
+2026-04-18 06:16:53,253 - hn_podcast - INFO - Audio generation complete!
+2026-04-18 06:16:53,301 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-18.json (duration=1516s, size=6067916B)
+2026-04-18 06:16:53,303 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-18 06:16:53,313 - hn_podcast - INFO - Found 30 metadata files to process.
+2026-04-18 06:16:53,597 - hn_podcast - INFO - RSS feed generated with 30 episodes at output/podcast.xml
+2026-04-18 06:16:53,623 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-18 06:16:53,625 - hn_podcast - INFO - RSS feed update complete!
+2026-04-18 06:16:53,626 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-18 06:16:53,662 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-18 06:16:53,683 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-18 06:16:53,684 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-18 06:16:53,955 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
