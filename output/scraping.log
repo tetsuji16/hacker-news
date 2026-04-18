@@ -3491,3 +3491,23 @@ DEBUG: Scraping URL: https://risky.biz/risky-bulletin-nist-gives-up-enriching-mo
 DEBUG: Successfully scraped 24497 chars from https://risky.biz/risky-bulletin-nist-gives-up-enriching-most-cves/. Saved to output/scraped_content/risky_biz__risky_bulletin_nist_gives_up_enriching_most_cves_.txt
 DEBUG: Scraping URL: https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html
 DEBUG: Successfully scraped 9251 chars from https://www.wespiser.com/posts/2026-04-12-3D-Printing-Biz.html. Saved to output/scraped_content/www_wespiser_com_wespiser_com_posts_2026_04_12_3D_Printing_Biz_html.txt
+DEBUG: Scraping URL: https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
+DEBUG: Successfully scraped 29447 chars from https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html. Saved to output/scraped_content/www_righto_com__com_2026_04_B_52_star_tracker_angle_computer_html.txt
+DEBUG: Scraping URL: https://samhenri.gold/blog/20260418-claude-design/
+DEBUG: Successfully scraped 6228 chars from https://samhenri.gold/blog/20260418-claude-design/. Saved to output/scraped_content/samhenri_gold_https___samhenri_gold_blog_20260418_claude_design_.txt
+DEBUG: Scraping URL: https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/
+DEBUG: Successfully scraped 5036 chars from https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/. Saved to output/scraped_content/sentinelcolorado_com_rs_to_curb_ai_written_work_and_teach_life_lessons_.txt
+DEBUG: Scraping URL: https://isayeter.com/posts/digitalocean-to-hetzner-migration/
+DEBUG: Successfully scraped 13973 chars from https://isayeter.com/posts/digitalocean-to-hetzner-migration/. Saved to output/scraped_content/isayeter_com_yeter_com_posts_digitalocean_to_hetzner_migration_.txt
+DEBUG: Scraping URL: https://kdenlive.org/news/2026/state-2026/
+DEBUG: Successfully scraped 12113 chars from https://kdenlive.org/news/2026/state-2026/. Saved to output/scraped_content/kdenlive_org_https___kdenlive_org_news_2026_state_2026_.txt
+DEBUG: Scraping URL: https://github.com/drasimwagan/mdv
+DEBUG: Successfully scraped 2045 chars from https://github.com/drasimwagan/mdv. Saved to output/scraped_content/github_com_https___github_com_drasimwagan_mdv.txt
+DEBUG: Scraping URL: https://www.sciencedaily.com/releases/2026/04/260414075641.htm
+DEBUG: Successfully scraped 5223 chars from https://www.sciencedaily.com/releases/2026/04/260414075641.htm. Saved to output/scraped_content/www_sciencedaily_com_sciencedaily_com_releases_2026_04_260414075641_htm.txt
+DEBUG: Scraping URL: https://en.wikipedia.org/wiki/Michael_O._Rabin
+DEBUG: Successfully scraped 12057 chars from https://en.wikipedia.org/wiki/Michael_O._Rabin. Saved to output/scraped_content/en_wikipedia_org_https___en_wikipedia_org_wiki_Michael_O__Rabin.txt
+DEBUG: Scraping URL: https://texascooppower.com/the-astonishing-ride-of-the-abernathy-boys/
+DEBUG: Successfully scraped 3762 chars from https://texascooppower.com/the-astonishing-ride-of-the-abernathy-boys/. Saved to output/scraped_content/texascooppower_com_er_com_the_astonishing_ride_of_the_abernathy_boys_.txt
+DEBUG: Scraping URL: https://www.sumida-aquarium.com/special/sokanzu/en/2026/
+DEBUG: Trafilatura extracted empty text from https://www.sumida-aquarium.com/special/sokanzu/en/2026/

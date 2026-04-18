@@ -3488,3 +3488,79 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-18 06:16:53,683 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-18 06:16:53,684 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-18 06:16:53,955 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-18 06:17:05,107 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-19 06:00:05,525 - hn_podcast - INFO - --- New Job Started for 2026-04-19 at 2026-04-19 06:00:05.523454 ---
+2026-04-19 06:00:05,561 - hn_podcast - INFO - Fetching stories for 2026-04-19...
+2026-04-19 06:00:30,095 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-19 06:00:30,101 - hn_podcast - INFO - Processing: The electromechanical angle computer inside the B-52 bomber's star tracker
+2026-04-19 06:00:32,315 - hn_podcast - INFO -   - [SUCCESS] Scraped 29447 characters.
+2026-04-19 06:00:32,318 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:01:02,609 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:01:02,611 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:01:02,612 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:01:17,613 - hn_podcast - INFO - Processing: Thoughts and feelings around Claude Design
+2026-04-19 06:01:18,275 - hn_podcast - INFO -   - [SUCCESS] Scraped 6228 characters.
+2026-04-19 06:01:18,277 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:01:23,893 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:01:23,894 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:01:23,895 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:01:38,895 - hn_podcast - INFO - Processing: College instructor turns to typewriters to curb AI-written work
+2026-04-19 06:01:39,725 - hn_podcast - INFO -   - [SUCCESS] Scraped 5036 characters.
+2026-04-19 06:01:39,726 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:02:04,442 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:02:04,443 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:02:04,444 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:02:19,445 - hn_podcast - INFO - Processing: Migrating from DigitalOcean to Hetzner
+2026-04-19 06:02:21,478 - hn_podcast - INFO -   - [SUCCESS] Scraped 13973 characters.
+2026-04-19 06:02:21,479 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:02:26,093 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:02:26,095 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:02:26,096 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:02:41,097 - hn_podcast - INFO - Processing: State of Kdenlive
+2026-04-19 06:02:42,903 - hn_podcast - INFO -   - [SUCCESS] Scraped 12113 characters.
+2026-04-19 06:02:42,904 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:03:00,660 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:03:00,661 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:03:00,662 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:03:15,663 - hn_podcast - INFO - Processing: Show HN: MDV – a Markdown superset for docs, dashboards, and slides with data
+2026-04-19 06:03:17,407 - hn_podcast - INFO -   - [SUCCESS] Scraped 2045 characters.
+2026-04-19 06:03:17,408 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:03:23,287 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:03:23,288 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:03:23,289 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:03:38,290 - hn_podcast - INFO - Processing: Scientists discover "cleaner ants" that groom giant ants in Arizona desert
+2026-04-19 06:03:39,840 - hn_podcast - INFO -   - [SUCCESS] Scraped 5223 characters.
+2026-04-19 06:03:39,842 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:04:04,148 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:04:04,150 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:04:04,151 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:04:19,152 - hn_podcast - INFO - Processing: Michael Rabin has died
+2026-04-19 06:04:21,832 - hn_podcast - INFO -   - [SUCCESS] Scraped 12057 characters.
+2026-04-19 06:04:21,833 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:04:27,291 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:04:27,292 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:04:27,293 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:04:42,294 - hn_podcast - INFO - Processing: Young sons of U.S. marshal ride horseback from Oklahoma to New York (2018)
+2026-04-19 06:04:43,057 - hn_podcast - INFO -   - [SUCCESS] Scraped 3762 characters.
+2026-04-19 06:04:43,058 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-19 06:05:18,951 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-19 06:05:18,953 - hn_podcast - INFO -   - Summary generated.
+2026-04-19 06:05:18,957 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-19 06:05:33,959 - hn_podcast - INFO - Processing: Sumida Aquarium Posts 2026 Penguin Relationship Chart, with Drama and Breakups
+2026-04-19 06:05:34,925 - trafilatura.core - WARNING - discarding data: None
+2026-04-19 06:05:34,929 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://www.sumida-aquarium.com/special/sokanzu/en/2026/
+2026-04-19 06:05:34,930 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-19 06:05:34,931 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-19 06:17:28,172 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-19.mp3 (1602.7s)
+2026-04-19 06:17:28,297 - hn_podcast - INFO - Audio generation complete!
+2026-04-19 06:17:28,355 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-19.json (duration=1602s, size=6411212B)
+2026-04-19 06:17:28,356 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-19 06:17:28,371 - hn_podcast - INFO - Found 31 metadata files to process.
+2026-04-19 06:17:28,669 - hn_podcast - INFO - RSS feed generated with 31 episodes at output/podcast.xml
+2026-04-19 06:17:28,724 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-19 06:17:28,726 - hn_podcast - INFO - RSS feed update complete!
+2026-04-19 06:17:28,727 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-19 06:17:28,760 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-19 06:17:28,779 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-19 06:17:28,780 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-19 06:17:29,010 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
