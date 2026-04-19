@@ -1,0 +1,24 @@
+URL: https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532
+
+Swiss authorities want to reduce dependency on Microsoft
+The Swiss government is aiming to gradually shift away from a dependency on Microsoft products, according to the NZZ am Sonntag newspaper.
++Get the most important news from Switzerland in your inbox
+A spokesman for the Federal Chancellery told the newspaper that the federal administration “aims to reduce its dependency on Microsoft, step by step and in the long term”.
+This comes as a surprise, as Microsoft 365 was recently installed on some 54,000 administration workstations – despite concerns about data security. Calls for alternatives previously met with internal resistance and charges of “tinkering”, the NZZ am Sonntag writes.
+More
+‘Switzerland must not give in to the Big Tech narrative’
+Germany as a model?
+However, former army chief Thomas Süssli called for alternative solutions to be examined more quickly. A feasibility study now shows that replacement with open-source software is possible. Germany serves as a reference: there, work is underway on an independent open-source solution in which Bern is also interested.
+The German state of Schleswig-Holstein has already switched over its administration. Open-source software can be used freely, while it can also be further developed independently of corporations.
+Swiss authorities have spent a tidy amount on Microsoft software in recent years: an investigation by SRFExternal link last year showed that the federal government and cantons spent over CHF1.1 billion ($1.4 billion) on licences with the tech giant over the past ten years.
+The Trump administration and its approach to the rule of law are increasing concerns among users of US technology. This is because US law – thanks to the 2018 Cloud Act – allows the government to access all data stored by US tech corporations.
+This means that if data is stored on servers or clouds of US firms such as Microsoft, Apple or Adobe – no matter where in the world – US authorities may request this data from the US corporations. This could even be the case if the servers are in Switzerland. Users generally have no idea which authority is accessing the data nor what is being done with it.
+Adapted from German by AI/dos
+We select the most relevant news for an international audience and use automatic translation tools to translate them into English. A journalist then reviews the translation for clarity and accuracy before publication.
+Providing you with automatically translated news gives us the time to write more in-depth articles. The news stories we select have been written and carefully fact-checked by an external editorial team from news agencies such as Bloomberg or Keystone.
+If you have any questions about how we work, write to us at english@swissinfo.ch
+External Content
+In compliance with the JTI standards
+More: SWI swissinfo.ch certified by the Journalism Trust Initiative
+You can find an overview of ongoing debates with our journalists here . Please join us!
+If you want to start a conversation about a topic raised in this article or want to report factual errors, email us at english@swissinfo.ch.

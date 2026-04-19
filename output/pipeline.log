@@ -3564,3 +3564,85 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-19 06:17:28,779 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-19 06:17:28,780 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-19 06:17:29,010 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-19 06:17:40,598 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-19 06:17:40,606 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-18.mp3
+2026-04-19 06:17:40,616 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-19.mp3
+2026-04-20 06:00:41,019 - hn_podcast - INFO - --- New Job Started for 2026-04-20 at 2026-04-20 06:00:41.018860 ---
+2026-04-20 06:00:41,037 - hn_podcast - INFO - Fetching stories for 2026-04-20...
+2026-04-20 06:01:05,782 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-20 06:01:05,787 - hn_podcast - INFO - Processing: The Bromine Chokepoint: How Strife Could Halt Production of World’s Memory Chips
+2026-04-20 06:01:07,436 - hn_podcast - INFO -   - [SUCCESS] Scraped 13780 characters.
+2026-04-20 06:01:07,438 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:01:14,020 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:01:14,028 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:01:14,029 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:01:29,030 - hn_podcast - INFO - Processing: Vercel April 2026 security incident
+2026-04-20 06:01:30,604 - hn_podcast - INFO -   - [SUCCESS] Scraped 3315 characters.
+2026-04-20 06:01:30,605 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:01:47,495 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:01:47,497 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:01:47,501 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:02:02,503 - hn_podcast - INFO - Processing: A. J. Ayer – ‘What I Saw When I Was Dead’ (1988)
+2026-04-20 06:02:04,681 - hn_podcast - INFO -   - [SUCCESS] Scraped 17539 characters.
+2026-04-20 06:02:04,682 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:02:09,820 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:02:09,821 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:02:09,823 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:02:24,824 - hn_podcast - INFO - Processing: I wrote a CHIP-8 emulator in my own programming language
+2026-04-20 06:02:26,484 - hn_podcast - INFO -   - [SUCCESS] Scraped 321 characters.
+2026-04-20 06:02:26,485 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:02:52,519 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:02:52,520 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:02:52,521 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:03:07,522 - hn_podcast - INFO - Processing: Show HN: Faceoff – A terminal UI for following NHL games
+2026-04-20 06:03:07,879 - hn_podcast - INFO -   - [SUCCESS] Scraped 1872 characters.
+2026-04-20 06:03:07,881 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:03:11,729 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:03:11,730 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:03:11,731 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:03:26,732 - hn_podcast - INFO - Processing: Swiss authorities want to reduce dependency on Microsoft
+2026-04-20 06:03:29,173 - hn_podcast - INFO -   - [SUCCESS] Scraped 3098 characters.
+2026-04-20 06:03:29,174 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:04:00,205 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:04:00,206 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:04:00,207 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:04:15,208 - hn_podcast - INFO - Processing: I learned Unity the wrong way
+2026-04-20 06:04:28,484 - hn_podcast - INFO -   - [SUCCESS] Scraped 275 characters.
+2026-04-20 06:04:28,485 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:05:00,007 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:05:00,008 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:05:00,008 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:05:15,009 - hn_podcast - INFO - Processing: Archive of BYTE magazine, starting with issue #1 in 1975
+2026-04-20 06:05:17,647 - hn_podcast - INFO -   - [SUCCESS] Scraped 342 characters.
+2026-04-20 06:05:17,648 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:05:21,511 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:05:21,512 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:05:21,513 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:05:36,514 - hn_podcast - INFO - Processing: Changes in the system prompt between Claude Opus 4.6 and 4.7
+2026-04-20 06:05:37,089 - hn_podcast - INFO -   - [SUCCESS] Scraped 6287 characters.
+2026-04-20 06:05:37,090 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:06:02,677 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:06:02,679 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:06:02,680 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:06:17,681 - hn_podcast - INFO - Processing: Notion leaks email addresses of all editors of any public page
+2026-04-20 06:06:18,110 - urllib3.poolmanager - INFO - Redirecting https://twitter.com/weezerOSINT/status/2045849358462222720 -> https://x.com/weezerOSINT/status/2045849358462222720
+2026-04-20 06:06:19,446 - hn_podcast - INFO -   - [SUCCESS] Scraped 293 characters.
+2026-04-20 06:06:19,447 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-20 06:06:23,440 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-20 06:06:23,442 - hn_podcast - INFO -   - Summary generated.
+2026-04-20 06:06:23,443 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-20 06:06:38,444 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-20 06:06:38,445 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-20 06:18:50,382 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-20.mp3 (1578.5s)
+2026-04-20 06:18:50,505 - hn_podcast - INFO - Audio generation complete!
+2026-04-20 06:18:50,552 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-20.json (duration=1578s, size=6314252B)
+2026-04-20 06:18:50,553 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-20 06:18:50,562 - hn_podcast - INFO - Found 32 metadata files to process.
+2026-04-20 06:18:50,847 - hn_podcast - INFO - RSS feed generated with 32 episodes at output/podcast.xml
+2026-04-20 06:18:50,873 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-20 06:18:50,875 - hn_podcast - INFO - RSS feed update complete!
+2026-04-20 06:18:50,876 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-20 06:18:50,909 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-20 06:18:50,933 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-20 06:18:50,934 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-20 06:18:51,200 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

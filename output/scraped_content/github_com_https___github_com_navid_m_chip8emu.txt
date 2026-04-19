@@ -1,0 +1,10 @@
+URL: https://github.com/navid-m/chip8emu
+
+To build you need the Spectre Programming Language toolchain:
+spectre ./src/main.sx -o chip8emu
+License: GPL-3.0-only - By Navid M
+| Name | Name | Last commit date | ||
+|---|---|---|---|---|
+To build you need the Spectre Programming Language toolchain:
+spectre ./src/main.sx -o chip8emu
+License: GPL-3.0-only - By Navid M

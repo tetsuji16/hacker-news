@@ -3511,3 +3511,23 @@ DEBUG: Scraping URL: https://texascooppower.com/the-astonishing-ride-of-the-aber
 DEBUG: Successfully scraped 3762 chars from https://texascooppower.com/the-astonishing-ride-of-the-abernathy-boys/. Saved to output/scraped_content/texascooppower_com_er_com_the_astonishing_ride_of_the_abernathy_boys_.txt
 DEBUG: Scraping URL: https://www.sumida-aquarium.com/special/sokanzu/en/2026/
 DEBUG: Trafilatura extracted empty text from https://www.sumida-aquarium.com/special/sokanzu/en/2026/
+DEBUG: Scraping URL: https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/
+DEBUG: Successfully scraped 13780 chars from https://warontherocks.com/cogs-of-war/the-bromine-chokepoint-how-strife-in-the-middle-east-could-halt-production-of-the-worlds-memory-chips/. Saved to output/scraped_content/warontherocks_com__could_halt_production_of_the_worlds_memory_chips_.txt
+DEBUG: Scraping URL: https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/
+DEBUG: Successfully scraped 3315 chars from https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/. Saved to output/scraped_content/www_bleepingcomputer_com_breach_as_hackers_claim_to_be_selling_stolen_data_.txt
+DEBUG: Scraping URL: https://www.philosopher.eu/others-writings/a-j-ayer-what-i-saw-when-i-was-dead/
+DEBUG: Successfully scraped 17539 chars from https://www.philosopher.eu/others-writings/a-j-ayer-what-i-saw-when-i-was-dead/. Saved to output/scraped_content/www_philosopher_eu_hers_writings_a_j_ayer_what_i_saw_when_i_was_dead_.txt
+DEBUG: Scraping URL: https://github.com/navid-m/chip8emu
+DEBUG: Successfully scraped 321 chars from https://github.com/navid-m/chip8emu. Saved to output/scraped_content/github_com_https___github_com_navid_m_chip8emu.txt
+DEBUG: Scraping URL: https://www.vincentgregoire.com/faceoff/
+DEBUG: Successfully scraped 1872 chars from https://www.vincentgregoire.com/faceoff/. Saved to output/scraped_content/www_vincentgregoire_com_https___www_vincentgregoire_com_faceoff_.txt
+DEBUG: Scraping URL: https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532
+DEBUG: Successfully scraped 3098 chars from https://www.swissinfo.ch/eng/swiss-ai/swiss-authorities-want-to-reduce-dependency-on-microsoft/91280532. Saved to output/scraped_content/www_swissinfo_ch_es_want_to_reduce_dependency_on_microsoft_91280532.txt
+DEBUG: Scraping URL: https://darkounity.com/blog/how-i-learned-unity-the-wrong-way
+DEBUG: Successfully scraped 275 chars from https://darkounity.com/blog/how-i-learned-unity-the-wrong-way. Saved to output/scraped_content/darkounity_com_kounity_com_blog_how_i_learned_unity_the_wrong_way.txt
+DEBUG: Scraping URL: https://archive.org/details/byte-magazine-1975-09
+DEBUG: Successfully scraped 342 chars from https://archive.org/details/byte-magazine-1975-09. Saved to output/scraped_content/archive_org_https___archive_org_details_byte_magazine_1975_09.txt
+DEBUG: Scraping URL: https://simonwillison.net/2026/Apr/18/opus-system-prompt/
+DEBUG: Successfully scraped 6287 chars from https://simonwillison.net/2026/Apr/18/opus-system-prompt/. Saved to output/scraped_content/simonwillison_net__simonwillison_net_2026_Apr_18_opus_system_prompt_.txt
+DEBUG: Scraping URL: https://twitter.com/weezerOSINT/status/2045849358462222720
+DEBUG: Successfully scraped 293 chars from https://twitter.com/weezerOSINT/status/2045849358462222720. Saved to output/scraped_content/twitter_com_twitter_com_weezerOSINT_status_2045849358462222720.txt
