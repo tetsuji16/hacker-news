@@ -1,0 +1,91 @@
+URL: https://github.com/Luce-Org/lucebox-hub
+
+Open LLM inference, rewritten by hand for one specific chip at a time.
+Kernels, speculative decoding, and quantization, tailored per target.
+We don't wait for better silicon. We rewrite the software.
+Two projects today, more coming. Each one is a self-contained release with its own benchmarks and paper-style writeup.
+The first megakernel for hybrid DeltaNet/Attention LLMs. All 24 layers of Qwen 3.5-0.8B in a single CUDA dispatch, 1.87 tok/J on a 2020 GPU, matching Apple's latest silicon at 2× the throughput.
+# 1. clone + enter
+git clone https://github.com/Luce-Org/lucebox-hub && cd lucebox-hub/megakernel
+# 2. install (Python 3.10+, CUDA 12+, PyTorch 2.0+). Weights stream from HF on first run.
+pip install -e .
+# 3. run the benchmark (prefill pp520 + decode tg128 vs llama.cpp BF16 + PyTorch HF)
+python final_bench.py
+| Method | Prefill pp520 | Decode tg128 | tok/J |
+|---|---|---|---|
+Megakernel @220W |
+37,800 | 413 | 1.87 |
+llama.cpp BF16 @350W |
+11,247 | 267 | 0.76 |
+| PyTorch HF | 7,578 | 108 | n/a |
+What makes it work: 82 blocks, 512 threads, one persistent kernel. No CPU round-trips between layers. Weights streamed straight from HuggingFace. Cooperative grid sync instead of ~100 kernel launches per token. Power ceiling hit before compute ceiling, so DVFS converts tight execution straight into saved watts.
+Full writeup → · Benchmarks → · Blog post →
+First GGUF port of DFlash speculative decoding. Qwen3.5-27B on a single RTX 3090, Q4_K_M target + BF16 draft, DDTree budget=22.
+- Up to 207 tok/s in the demo (207.6 tok/s DFlash vs 38.0 tok/s AR, 5.46×)
+- 129.5 tok/s mean on the HumanEval 10-prompt bench
+- 3.43× faster than autoregressive (+15% over chain speculative decoding)
+- 2.8× faster than SGLang AWQ on the same hardware
+- 128K context in 24 GB (134.78 tok/s at ctx=131072)
+# 1. clone with submodules (pulls the pinned Luce-Org/llama.cpp@luce-dflash fork)
+git clone --recurse-submodules https://github.com/Luce-Org/lucebox-hub && cd lucebox-hub/dflash
+# 2. build the C++/CUDA decoder (~3 min on sm_86, CUDA 12+, CMake 3.18+)
+cmake -B build -S . -DCMAKE_CUDA_ARCHITECTURES=86 -DCMAKE_BUILD_TYPE=Release
+cmake --build build --target test_dflash -j
+# 3. fetch weights: ~16 GB Q4_K_M target + 3.46 GB bf16 draft
+huggingface-cli download unsloth/Qwen3.5-27B-GGUF Qwen3.5-27B-Q4_K_M.gguf --local-dir models/
+huggingface-cli download z-lab/Qwen3.5-27B-DFlash model.safetensors --local-dir models/draft/
+# 4a. one-shot streaming generate
+python3 scripts/run.py --prompt "def fibonacci(n):"
+# 4b. or reproduce the paper-style bench (HumanEval + GSM8K + Math500, ~15 min)
+python3 scripts/bench_llm.py
+| Benchmark | AR (tok/s) | DFlash+DDTree (tok/s) | Speedup |
+|---|---|---|---|
+| HumanEval | 37.8 | 129.5 | 3.43× |
+| Math500 | 37.7 | 110.5 | 2.93× |
+| GSM8K | 37.7 | 96.2 | 2.55× |
+The constraint that shaped the project. AWQ INT4 of Qwen3.5-27B plus the BF16 draft doesn't leave room for the DDTree verify state on a 24 GB card. Q4_K_M GGUF (~16 GB target) is the largest format that fits target + 3.46 GB draft + budget=22 tree state + KV cache in 24 GB on the RTX 3090. Picking it forced a new port on top of ggml, since no public DFlash runtime supports a GGUF target.
+What we built vs what we didn't. The algorithms are not ours:
+- DFlash (z-lab, 2026): block-diffusion draft conditioned on target hidden states.
+- DDTree (Ringel et al., 2026): tree-structured verify that beats chain verify at the same compute budget.
+What we ported and tuned:
+- C++/CUDA decode engine on top of ggml (no libllama, no Python runtime, Q4_K_M target path).
+- Three custom CUDA kernels for tree-aware SSM state rollback:
+ggml_ssm_conv_tree
+,ggml_gated_delta_net_tree
+,ggml_gated_delta_net_tree_persist
+. - DDTree budget swept for RTX 3090 + Q4_K_M target: budget=22 is the sweet spot.
+- Q4_0 KV cache + sliding
+target_feat
+ring to fit 128K context in 24 GB with ~3% AL hit.
+Full writeup → · Benchmarks → · Blog post →
+Local AI should be a default, not a privilege: private data, no per-token bill, no vendor lock-in. The hardware to run capable models already sits on desks. The software to run those chips well doesn't.
+General-purpose frameworks dominated the last decade because hand-tuning kernels per chip was too expensive to justify. One stack, decent on everything, great on nothing. Most of the silicon's capability stays on the floor.
+AI-assisted development flips that calculus. Rewrites that took a quarter now fit in a release cycle. Lucebox is where we publish them, one chip and one model family at a time. MIT source, full writeup, reproducible benchmarks.
+NVIDIA GPU (Ampere+, sm_86+), CUDA 12+, PyTorch 2.0+. Tested on RTX 3090 (2020).
+dflash needs CMake 3.18+ and --recurse-submodules
+for the pinned Luce-Org/llama.cpp@luce-dflash
+fork (three tree-mode ggml ops).
+Optional, find your GPU's sweet spot: sudo nvidia-smi -pl 220
+(megakernel hits best tok/J at 220 W).
+lucebox-hub/
+├── megakernel/ · fused forward pass for Qwen 3.5-0.8B
+├── dflash/ · DFlash speculative decoding port for Qwen 3.5-27B on RTX 3090
+└── assets/ · banners, cards, diagrams
+Q1 2026 ▮▮▮▮▮▮▮▮▮▮ RTX 3090 kernels & optimizations
+Q2 2026 ▮▮▮▮▮▯▯▯▯▯ Ryzen AI MAX+ 395 optimizations
+Q2 2026 ▮▮▯▯▯▯▯▯▯▯ Heterogeneous CPU + GPU latency optimizations
+@software{lucebox_2026,
+title = {Lucebox: Open LLM Inference, Rewritten by Hand for One Specific Chip at a Time},
+author = {Lucebox},
+url = {https://github.com/Luce-Org/lucebox-hub},
+year = {2026}
+}
+Per-project citations live in each subproject's README.
+- Hazy Research: megakernel idea and the intelligence-per-watt methodology.
+- z-lab/DFlash (Wang et al., 2026): block-diffusion speculative decoding algorithm. We use their published Qwen3.5-27B-DFlash draft weights as-is.
+- DDTree (Ringel & Romano, 2026): tree-structured verify that DFlash 27B uses for its 3.5× speedup over chain spec decoding. liranringel/ddtree.
+- AlpinDale/qwen_megakernel, Infatoshi/MegaQwen: prior art on fused Qwen kernels.
+- Discord: discord.gg/yHfswqZmJQ
+- Website: lucebox.com
+- Issues: github.com/Luce-Org/lucebox-hub/issues
+- Blog: lucebox.com/blog

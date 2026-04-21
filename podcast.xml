@@ -8,8 +8,8 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 19 Apr 2026 21:18:50 +0000</lastBuildDate>
-    <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 21 Apr 2026 21:17:45 +0000</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     <itunes:category text="Technology">
       <itunes:category text="Software How-To"/>
     </itunes:category>
@@ -2733,6 +2733,39 @@ Notionにおいて公開設定されたページを利用する際、当該ペ�
       <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-20.mp3" length="6314252" type="audio/mpeg"/>
       <itunes:duration>26:18</itunes:duration>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker News アップデート 2026-04-22</title>
+      <description><![CDATA[■ The Vercel breach: OAuth attack exposes risk in platform environment variables
+今回のVercelにおけるセキュリティ侵害は、モダンなPaaS環境におけるOAuthによるサプライチェーン攻撃の典型的なリスクを浮き彫りにした。攻撃者はContext.aiが運用するGoogle WorkspaceのOAuthアプリを侵害し、そこから得たアクセス権を用いてVercelの内部システムへ侵入した。このインシデントの重大な点は、Vercelの環境変数管理の設計にあり、デフォルトで「非機密」とされた変数が攻撃者から平文で読み取り可能な状態であったため、顧客のAPIキー等が大規模に露出する結果となった。また、CEOが攻撃のスピード感からAIの活用を指摘しており、攻撃者がAIによる自動化で探索速度を飛躍的に向上させている点は、従来の検知エンジニアリングの見直しを迫る警鐘となっている。さらに、顧客が公式発表より先に漏洩を検知していた事実は、プラットフォーム側における検知から公開までのタイムラグという運用上の課題を露呈させた。本件は、OAuthによる広範な権限委譲が持つ脆弱性と、環境変数の機密性モデルがいかに重要であるかを再確認させる事例である。
+
+■ Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica
+Britannica11.orgは、1910年から1911年にかけて出版された第11版『Encyclopædia Britannica』を、現代的なWebプラットフォームとして再構築したプロジェクトである。単なるスキャンデータの公開にとどまらず、全コンテンツを全文検索可能にし、記事間の相互参照リンクや詳細な注釈を付加することで、構造化データとしての利便性を実現している。このサイトは、20世紀初頭における人類の知の集大成をデジタルアーカイブとして保存するだけでなく、当時の科学的見解や歴史的認識を現代のエンジニアリング手法でアクセス可能にした点に大きな意義があり、史料研究や当時の学術的コンテキストを調査するユーザーにとって極めて価値の高いリソースとなっている。
+
+■ Cal.diy: open-source community edition of cal.com
+Cal.diyは、人気のスケジューリングツールであるCal.comから、エンタープライズ向けの商用コードやProprietaryな機能を完全に取り除いた、コミュニティ主導のオープンソース・エディションである。本プロジェクトはMITライセンスの下で提供され、特定の有料機能や商用ライセンスキーへの依存を排除している点が特徴である。あくまでセルフホスティングを目的としたDIYプロジェクトとして位置付けられており、Node.js、PostgreSQL、Docker環境を用いた自前での運用が前提となっている。企業向けの管理機能やSSOなどは含まれないものの、インフラの完全なコントロールを求める個人開発者や、商用依存のないクリーンなスケジューリング基盤を探しているユーザーにとって、技術的な学習やプライバシー重視の用途に適した選択肢となっている。
+
+■ 10 years: Stephen's Sausage Roll still one of the most influential puzzle games
+Stephen's Sausage Rollは、2014年のリリース以来、パズルゲームの設計思想に革命をもたらした金字塔的な作品である。本作は、わずか数個のゲーム要素とシンプルな操作ルールを組み合わせることで、極めて高い難易度と深い戦略性を両立させており、後の「Thinky Games」と呼ばれるジャンルの規範を確立した。開発者であるStephen Lavelleは、本作のリリース以前にWebベースのパズルゲームエンジンPuzzleScriptを公開しており、両者を通じてグリッドベースのパズルデザインの可能性を劇的に拡張したといえる。本作のミニマルながらも奥深いゲームデザインは、A Monster's ExpeditionやPatrick's Parabox、Bonfire Peaksといった著名なパズルゲームの作者たちに決定的な影響を与えており、現代のインディーゲーム界におけるパズルデザインの指針として、今なお多くの開発者やファンから敬意を集め続けている。
+
+■ Laws of Software Engineering
+ソフトウェアエンジニアリングの法則集は、技術的なベストプラクティスから組織論、心理学的なバイアスに至るまで、開発現場で繰り返し発生する現象を体系化した知恵の結晶である。Conway's LawやBrooks's Lawのように組織と開発プロセスの密接な関係を説くものから、Hyrum's LawのようにAPI設計における予期せぬ依存関係への警告まで、これらの法則は抽象的なエンジニアリングの現場に一定の予測可能性をもたらす。また、KISSやYAGNI、The Boy Scout Ruleといった行動指針は、過度なエンジニアリングを避け、長期的かつ健全な保守性を維持するためのガイドラインとして機能する。さらに、Dunning-Kruger EffectやSunk Cost Fallacyといった心理的な罠を認識することは、技術的な意思決定をより客観的で正確なものにするために不可欠であり、これらを学ぶことは個々の開発者が自身の限界を理解し、より効率的にソフトウェアを構築するための羅針盤となるのである。
+
+■ A Periodic Map of Cheese
+「A Periodic Map of Cheese」は、乳の種類、テクスチャー、熟成法といったチーズ製造の変数を組み合わせ、地図のようにマッピングすることで、未開拓のチーズの可能性を提示するプロジェクトである。このプロジェクトでは、単に奇抜な組み合わせを提案するのではなく、化学的に不可能な組み合わせを排除し、地理的・歴史的制約ゆえに未実現であった「理論上は最高品質になり得るチーズ」を特定している。例えば、高脂肪なヤクの乳とスイスの伝統製法の掛け合わせや、水牛の乳を用いたアザミレンネットによるチーズなど、既存の枠組みを超えた化学反応が期待できる組み合わせが論理的に導き出されている。これは、特定の原材料や地域性が固定観念を生んでいる現状に対し、データ駆動型の視点で食の可能性を再定義しようとする興味深い試みである。
+
+■ Edit store price tags using Flipper Zero
+TagTinkerは、Flipper Zeroを活用して赤外線通信を利用する電子棚札（ESL）のプロトコル解析や表示制御を実験するためのオープンソースの研究プロジェクトである。本プロジェクトは、赤外線信号の構造分析やフレーム解析、さらにはモノクロ画像データの作成・送信といった一連の研究ワークフローを提供することを目的としており、特定の通信形式を持つ電子棚札の挙動を家庭内のテスト環境で検証することが可能となっている。ただし、開発者は本ツールをあくまで教育および研究目的の限定的な用途に供しており、小売店の店舗や第三者の運用システムへの干渉を厳しく禁止している。また、安価な電子棚札は表示情報を揮発性のRAMに保持する仕様が多く、実験中に電源が遮断されるとデータが消失してハードウェアが復旧不能になるリスクがあるため、取り扱いには高い技術的理解と慎重な操作が求められる。
+
+■ Fusion Power Plant Simulator
+今回紹介した「Fusion Power Plant Simulator」は、核融合発電所の運用に必要な多岐にわたるパラメーターを調整し、技術的および経済的な成立性をシミュレーションできるウェブベースの教育ツールである。ユーザーは、加熱エネルギーやパルスレートといった基本設定に加え、D-T、D-D、D-³He、p-¹¹Bなどの多様な燃料サイクルを選択可能であり、変換効率や発電所自体の消費電力であるHouse Loadを考慮したシステム構築を体験できる。本ツールは、科学的利得であるQsciの達成だけでなく、実用的な発電所として稼働させるために不可欠なエネルギー変換の物理学的制約を視覚的に示しており、核融合技術の商業化に向けたエンジニアリングの複雑さを直感的に理解するための優れた教材となっている。
+
+■ Show HN: GoModel – an open-source AI gateway in Go
+GoModelはGo言語で開発された高機能なオープンソースAIゲートウェイであり、OpenAI互換のAPIを通じてOpenAI、Anthropic、Gemini、xAI、Groq、OpenRouter、Azure、Ollamaなど多様なLLMプロバイダーを一元管理することを可能にする。このツールは単なるリクエストの仲介に留まらず、完全一致およびベクトル検索を用いたセマンティックキャッシュ層を備えており、意味的に同一のクエリに対して過去の回答を再利用することで、推論コストの削減とレイテンシの改善を同時に実現する。環境変数による柔軟な設定やDockerを用いた迅速なデプロイに対応しているほか、トークン使用量の統計、モデルごとのコスト追跡、監査ログ、プロメテウスによる監視など、本番環境での運用に必要な機能を網羅的に備えている点が大きな特徴である。]]></description>
+      <guid isPermaLink="false">https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-22.mp3</guid>
+      <enclosure url="https://tetsuji16.github.io/hacker-news/output/podcast_2026-04-22.mp3" length="5987468" type="audio/mpeg"/>
+      <itunes:duration>24:56</itunes:duration>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

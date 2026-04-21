@@ -1,0 +1,64 @@
+URL: https://www.fusionenergybase.com/fusion-power-plant-simulator
+
+Fusion Power Plant Simulator
+☀
+Share
+Copy link
+LinkedIn
+X / Twitter
+Reddit
+Email
+Embed
+Copied!
+Read the explainer article:
+Fusion Physics · Part 1: Scientific Gain and Fusion Power Plants
+Controls
+Heating energy per pulse
+50 MJ
+Pulse rate
+1.00 Hz
+Steady state
+Pulsed
+Scientific gain (
+Q
+sci
+)
+10
+Simple
+Split conversion
+Conversion to electricity eff.
+33%
+Heating system eff.
+50%
+House Load
+20 MW
+Advanced
+Split conversion streams
+Fuel
+D-T (deuterium-tritium)
+D-D (deuterium-deuterium)
+D-³He (deuterium-helium-3)
+p-¹¹B (proton-boron)
+Neutron conversion eff.
+40%
+Charged conversion eff.
+20%
+Heating conversion eff.
+33%
+Blanket Multiplication
+1.00×
+Display
+Power
+Energy
+Q
+= 10
+Conversion to
+electricity = 33%
+Heating
+system = 50%
+Heating
+power = 50 MW
+House = 20 MW
+Rate = 5.0 Hz
+Steady state
+Pulsed

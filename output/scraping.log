@@ -3531,3 +3531,43 @@ DEBUG: Scraping URL: https://simonwillison.net/2026/Apr/18/opus-system-prompt/
 DEBUG: Successfully scraped 6287 chars from https://simonwillison.net/2026/Apr/18/opus-system-prompt/. Saved to output/scraped_content/simonwillison_net__simonwillison_net_2026_Apr_18_opus_system_prompt_.txt
 DEBUG: Scraping URL: https://twitter.com/weezerOSINT/status/2045849358462222720
 DEBUG: Successfully scraped 293 chars from https://twitter.com/weezerOSINT/status/2045849358462222720. Saved to output/scraped_content/twitter_com_twitter_com_weezerOSINT_status_2045849358462222720.txt
+DEBUG: Scraping URL: https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/
+DEBUG: Successfully scraped 8744 chars from https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/. Saved to output/scraped_content/www_apple_com_xecutive_chairman_john_ternus_to_become_apple_ceo_.txt
+DEBUG: Scraping URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/
+DEBUG: Successfully scraped 5609 chars from https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/. Saved to output/scraped_content/stephvee_ca_rtificial_20intelligence_ai_resistance_is_growing_.txt
+DEBUG: Scraping URL: https://qwen.ai/blog?id=qwen3.6-max-preview
+DEBUG: Trafilatura extracted empty text from https://qwen.ai/blog?id=qwen3.6-max-preview
+DEBUG: Scraping URL: https://www.kimi.com/blog/kimi-vendor-verifier
+DEBUG: Successfully scraped 2635 chars from https://www.kimi.com/blog/kimi-vendor-verifier. Saved to output/scraped_content/www_kimi_com_https___www_kimi_com_blog_kimi_vendor_verifier.txt
+DEBUG: Scraping URL: https://github.com/Luce-Org/lucebox-hub
+DEBUG: Successfully scraped 6079 chars from https://github.com/Luce-Org/lucebox-hub. Saved to output/scraped_content/github_com_https___github_com_Luce_Org_lucebox_hub.txt
+DEBUG: Scraping URL: https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/
+DEBUG: Successfully scraped 15101 chars from https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/. Saved to output/scraped_content/warontherocks_com_the_f_35_is_a_masterpiece_built_for_the_wrong_war_.txt
+DEBUG: Scraping URL: https://awesomeagents.ai/news/github-fake-stars-investigation/
+DEBUG: Successfully scraped 21018 chars from https://awesomeagents.ai/news/github-fake-stars-investigation/. Saved to output/scraped_content/awesomeagents_ai_omeagents_ai_news_github_fake_stars_investigation_.txt
+DEBUG: Scraping URL: https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/
+DEBUG: Successfully scraped 16647 chars from https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/. Saved to output/scraped_content/opensource_posit_co_urce_posit_co_blog_2026_04_20_ggsql_alpha_release_.txt
+DEBUG: Scraping URL: https://sr.ht/~jprotopopov/kefir/
+DEBUG: Successfully scraped 34453 chars from https://sr.ht/~jprotopopov/kefir/. Saved to output/scraped_content/sr_ht_https___sr_ht__jprotopopov_kefir_.txt
+DEBUG: Scraping URL: https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/
+DEBUG: Successfully scraped 3263 chars from https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/. Saved to output/scraped_content/techcrunch_com_s_uploaded_to_its_platform_daily_are_ai_generated_.txt
+DEBUG: Scraping URL: https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html
+DEBUG: Successfully scraped 47222 chars from https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html. Saved to output/scraped_content/www_trendmicro_com_esearch_26_d_vercel_breach_oauth_supply_chain_html.txt
+DEBUG: Scraping URL: https://britannica11.org/
+DEBUG: Successfully scraped 145 chars from https://britannica11.org/. Saved to output/scraped_content/britannica11_org_https___britannica11_org_.txt
+DEBUG: Scraping URL: https://github.com/calcom/cal.diy
+DEBUG: Successfully scraped 27234 chars from https://github.com/calcom/cal.diy. Saved to output/scraped_content/github_com_https___github_com_calcom_cal_diy.txt
+DEBUG: Scraping URL: https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/
+DEBUG: Successfully scraped 5341 chars from https://thinkygames.com/features/10-years-of-grilling-stephens-sausage-roll-remains-one-of-the-most-influential-puzzle-games-ever-created/. Saved to output/scraped_content/thinkygames_com_of_the_most_influential_puzzle_games_ever_created_.txt
+DEBUG: Scraping URL: https://frame.work/laptop13pro
+DEBUG: Trafilatura failed to download https://frame.work/laptop13pro
+DEBUG: Scraping URL: https://lawsofsoftwareengineering.com
+DEBUG: Successfully scraped 5514 chars from https://lawsofsoftwareengineering.com. Saved to output/scraped_content/lawsofsoftwareengineering_com_https___lawsofsoftwareengineering_com.txt
+DEBUG: Scraping URL: https://cheesemap.netlify.app/
+DEBUG: Successfully scraped 3814 chars from https://cheesemap.netlify.app/. Saved to output/scraped_content/cheesemap_netlify_app_https___cheesemap_netlify_app_.txt
+DEBUG: Scraping URL: https://github.com/i12bp8/TagTinker
+DEBUG: Successfully scraped 5912 chars from https://github.com/i12bp8/TagTinker. Saved to output/scraped_content/github_com_https___github_com_i12bp8_TagTinker.txt
+DEBUG: Scraping URL: https://www.fusionenergybase.com/fusion-power-plant-simulator
+DEBUG: Successfully scraped 796 chars from https://www.fusionenergybase.com/fusion-power-plant-simulator. Saved to output/scraped_content/www_fusionenergybase_com__fusionenergybase_com_fusion_power_plant_simulator.txt
+DEBUG: Scraping URL: https://github.com/ENTERPILOT/GOModel/
+DEBUG: Successfully scraped 8849 chars from https://github.com/ENTERPILOT/GOModel/. Saved to output/scraped_content/github_com_https___github_com_ENTERPILOT_GOModel_.txt

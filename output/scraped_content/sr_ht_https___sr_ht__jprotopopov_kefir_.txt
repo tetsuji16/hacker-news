@@ -1,0 +1,446 @@
+URL: https://sr.ht/~jprotopopov/kefir/
+
+723abe5 Refactor target IR instruction storage for safer in-place initialization
+~jprotopopov pushed to ~jprotopopov/kefir git
+c1c07bf Implement in-place target IR instruction construction
+~jprotopopov pushed to ~jprotopopov/kefir git
+Kefir is an independent compiler for the C17/C23 programming language, developed by Jevgenij Protopopov. Kefir has been validated with a test suite of 100 software projects, among which are GNU core- and binutils, Curl, Nginx, OpenSSL, Perl, Postgresql, Tcl and many others. The compiler targets x86_64 architecture and System-V AMD64 ABI, supporting Linux, FreeBSD, NetBSD, OpenBSD and DragonflyBSD. The project intends to provide a well-rounded, compatible and compliant compiler, including SSA-based optimization pipeline, debug information generation, position-independent code support, and bit-identical bootstrap. Kefir integrates with the rest of system toolchain --- assembler, linker and shared library.
+Kefir:
+_Decimal
+floating-point support (see Implementation quirks)._Decimal
+floating-point numbers, and atomic operations of non-platform native sizes,
+which require libatomic
+-compatible library.cc
+-compatible command line interface.Important note: as the project is developed and maintained by a single person, unfunded and in spare time, the author warns that uses of Kefir in production settings might be undesirable due to insufficient level of support the author can provide.
+Important note #2: to the best of author's knowledge, all of the claims above are true (and many are reproducibly demonstrated by the test suite). Yet even with full rigour, many bugs, unintended omissions, inconsistencies and misunderstandings may slip through. The author intends to faithfully represent capabilities of the project, and is especially sensitive to any overstatements in this regard. If you have any doubts, objections or otherwise disagree with the above, please do not hesitate contact the author (see Author and contacts) -- corrections will be issued immediately after identifying the deficiency.
+On supported platforms, Kefir is built and tested as follows:
+make test all # Linux glibc
+make test all USE_SHARED=no CC=musl-gcc KEFIR_TEST_USE_MUSL=yes # Linux musl
+gmake test all CC=clang # FreeBSD
+gmake test all CC=clang AS=gas # OpenBSD
+gmake test all CC=gcc AS=gas # NetBSD
+gmake test all LD=/usr/local/bin/ld AS=/usr/local/bin/as # DragonflyBSD
+The installation is done via (g)make install prefix=...
+. The default prefix is
+/opt/kefir
+.
+Kefir build time dependencies are:
+gcc
+and clang
+.Kefir runtime dependencies are:
+crti.o
+, Scrt.o
+, etc.libatomic
+-compatible library (i.e. libatomic
+of gcc or compiler_rt
+of clang).libgcc
+in case decimal floating-number support is desired.Users can consult dist/Dockerfile*
+files that document the necessary
+environment for Ubuntu (base
+target), Fedora and Alpine, respectively, as well
+as dist/PKGBUILD
+for Arch Linux. For *BSD systems, consult respective
+.builds/*.yml
+files.
+Note: upon build, Kefir detects host system toolchain (assembler, linker,
+include and library paths) and configures itself respectively. Upon update of
+the toolchain, Kefir provides kefir-detect-host-env --environment
+command
+whose output shall be placed into $(prefix)/etc/kefir.local
+file.
+Note #2: aforementioned dependencies do not include optional development and
+full test suite dependencies. For these, please consult dist/Dockerfile
+dev
+and full
+targets.
+At the moment, Kefir is automatically tested in Ubuntu 24.04, FreeBSD 14.x, OpenBSD 7.7 and NetBSD 10.x environments; Arch Linux used as the primary development environment. DragonflyBSD support is tested manually prior to release.
+Kefir provides support for _Decimal
+floating-point numbers relying on libgcc
+arithmetic routines. In order to enable the support, Kefir shall be compiled
+directly or transitively (i.e. bootstrapped) by gcc host compiler. Decimal
+arithmetic code produced by Kefir requires linkage with libgcc
+; if conversion
+between bit-precise integers and decimal floating-point numbers is desired,
+libgcc
+of version 14 or newer is required.
+Both BID and DPD encodings are supported, BID being the default one. To enable
+DPD, pass the following Make option when building Kefir:
+EXTRA_CFLAGS="-DKEFIR_PLATFORM_DECIMAL_DPD"
+.
+Kefir can bootstrap libgcc
+version 4.7.4 automatically:
+make bootstrap_libgcc474 -j$(nproc)
+Kefir can build required libatomic routines from compiler_rt
+project via:
+make build_libatomic -j$(nproc)
+Kefir implements cc
+-compatible command line interface and therefore can be
+used as a near-drop-in replacement (see Implementation quirks) of cc
+in
+standard compilation pipelines:
+which kefir # Should output correct path to kefir after installation
+# Example usage
+kefir -O1 -g -fPIC -o hello_world ./hello_world.c
+./hello_world
+Furthermore, kefir provides a manual page that documents command-line options and environment considerations:
+man kefir # Make sure that kefir installation directory is available to man
+kefir --help # Identical to the manual page contents
+Kefir provides scripts to build portable and standalone Kefir distribution package for Linux. The package includes statically-linked Kefir C compiler, musl libc, and selected tools from GNU Binutils. The package is intended to provide a minimalistic C development toolchain independent of host system tooling.
+make portable_bootstrap -j$(nproc)
+# Build artifact is located in bin/portable/kefir-portable-*.tar.gz
+Kefir targets x86_64 instruction set architecture and System-V AMD64 ABI. Supported platforms include modern versions of Linux (glibc & musl libc), FreeBSD, OpenBSD, NetBSD and DragonflyBSD operating systems. A platform is considered supported if:
+c-testsuite
+and gcc-torture
+tests (see Testing and
+validation for the exact tests, conditions, etc).To claim a platform supported, no other requirements are imposed. Other tests
+and validations described in Testing and validation section are focused
+predominantly on Linux to ensure overall compilation process correctness. In
+general, there are very few differences between Linux and BSD system code
+generation, thus full testing and validation sequence shall suffice only on a
+single platform. Please note that libc header quirks are generally the main
+offender of compatibility, thus additional macro definitions or individual
+header overrides might be necessary. Musl libc provides the most smooth
+experience, however Kefir has accumulated sufficient support for GNU C
+extensions to use glibc and BSD libc implementations reasonably (consult
+Implementation quirks and the external test suite part of Testing and
+validation, as well as respective .build/*.yml
+files for platform of choice
+for detailed examples).
+As mentioned in the Installation section, Kefir detects system toolchain configuration on build and uses it later. The compiler also supports a set of environment variables that take precedence over the built-in configuration. Consult respective section of the manual page for details of supported environment variables.
+On Linux, Kefir works with both glibc and musl libc. Musl headers are more standards-compliant and generally provide smoother compatibility. glibc, by contrast, may introduce incompatibilities with non-mainstream compilers (see Implementation quirks).
+On FreeBSD, OpenBSD, and NetBSD, the system standard library can be used, though
+additional macro definitions (e.g. __GNUC__
+, __GNUC_MINOR__
+) may be required
+for successful builds.
+The following details need to be taken into account:
+_Decimal
+floating-point numbers relying on libgcc
+routines for decimal arithmetics
+(see Installation and usage).char8_t
+, char16_t
+and
+char32_t
+types and literals. Kefir relies on the standard library wide
+character encoding facilities, and thus implements this requirement under
+condition that the system locale is Unicode-based. The author believes that
+this is a reasonable assumption.__attribute__
+specificaton with an empty macro, omits packed
+attributes,
+etc., breaking compatibility despite the fact that respective features are
+supported by Kefir. Kefir installation includes shim wrapper for
+<sys/cdefs.h>
+header to fix up the most prominent issues, however absolute
+compatibility cannot be guaranteed. The author recommends getting acquainted
+with project build configurations from the external test suite (see Testing
+and validation).release
+and seq_cst
+sematics. This
+behavior is safe and shall not break any software. Atomic operations of
+non-native sizes rely on external software atomic library (libatomic
+from
+gcc, or compiler_rt
+from clang). Kefir links resulting executables with the
+library automatically in all configurations except musl libc. Furthermore, use
+of <stdatomic.h>
+system header from Clang requires -D__GNUC__=4 -D__GNUC_MINOR__=20
+command line arguments.Several practical considerations users of Kefir might need to take into account:
+source/tests/end2end/supported_builtins1/lib.asmgen.expected
+.The own test suite of the Kefir compiler is maintained by the author as part of the project code base. As a general rule, own test suite is extended to cover any changes made in the compiler. Exceptions are made when existing tests already cover the change, or when a change cannot reasonably be tested (e.g., reproducing a specific bug would require a prohibitively long case). Own test suite includes the following categories of tests:
+*.kefir.c
+and *.host.c
+modules, which are built by Kefir and host C
+compiler respectively, linked together and executed. Typically, host modules
+provide a harness to test Kefir similarly to system tests. Optionally, end2end
+tests might also include snapshot (asmgen
+) tests.
+Historically, development relied mainly on partial tests before the compiler pipeline was complete. Today, most new work is validated primarily with end2end tests.
+In continuous integration environment on Linux glibc and FreeBSD platforms, own test suite is executed with Valgrind and undefined behavior sanitizer. Furthermore, on all supported platforms special "self-test" run is executed, where Kefir acts as host compiler.
+Consult ubuntu.yml
+, ubuntu-musl.yml
+, ubuntu-self.yml
+, freebsd.yml
+,
+freebsd-self.yml
+, openbsd.yml
+, netbsd.yml
+from .builds
+directory for
+detailed setup for own test suite execution on the platform of choice.
+On all supported platforms, Kefir also executes reproducible bootstrap test:
+stage0
+.stage0
+kefir builds itself to produce stage1
+. All intermediate assembly
+listings are preserved.stage1
+kefir builds itself to produce stage2
+. All intermediate assembly
+listings are preserved.stage1
+and stage2
+shall be identical. Furthermore,
+sha256 checksums for kefir
+executable and libkefir.so
+library from
+stage1
+and stage2
+shall be identical too for bootstrap test to succeed.Bootstrap test is performed within fixed environment (i.e. standard library, assembler, linker versions are not changed during the test), and demonstrates that Kefir is able to produce identical copies of itself. On Ubuntu, bootstrap is performed using both GNU As and Yasm as target assemblers.
+Consult ubuntu-other.yml
+, ubuntu-musl.yml
+, freebsd.yml
+, openbsd.yml
+,
+netbsd.yml
+from .builds
+directory for detailed setup for bootstrap test
+execution on the platform of choice.
+For practical purposes, Kefir can be bootstrapped by specifying itself as a CC
+compiler:
+make CC=$(which kefir) -j$(nproc)
+This form of bootstrap does not verify reproducibility, it simply rebuilds the compiler using itself.
+Portable Kefir bootstrap procedure as described in the Installation section is also used in a role of an additional test. The portable bootstrap omits bit-precise reproducibility check, but performs iterative rebuild of complete toolchain (musl libc, GNU As, GNU ld) at each stage. Therefore, it ensures that Kefir is capable of producing a self-sustaining development environment.
+On all supported platforms, Kefir executes the following external test suites:
+_BitInt
+bits -- a separate set of 71 tests imported from gcc
+15.2.0 to ensure correct implementation of bit-precise integers from the C23
+standard. All tests from this suite shall run successfully.On all supported platforms, Kefir is used to build Lua 5.4.8/5.5.0 and execute its basic test suite, which should pass completely. Purpose of this test is demonstration that Kefir is able to successfully build non-trivial software on the target platform. Technically, this is a part of the external test suite (see below), and its inclusion into the general test runs has happened for historical reasons.
+After release 0.5.0, Kefir testing discipline has been expanded to include 20'000 randomly generated csmith cases per nightly test suite run. Thus far, Kefir has successfully passed at least 2'500'000 random tests so far. Testing is differential against gcc --- for all test cases that can be compiled and executed by both kefir and gcc within given timeout, outputs shall be identical. All failing cases are fixed and added to the own test suite.
+This is a suite of 100 third-party open source projects that are built using Kefir with subsequent validation: for most projects, their test suite is executed; where this is not possible, a custom smoke test is performed; for the minority, the fact of a successful build is considered sufficient. Purpose of the external test suite is:
+Except for Lua, the external test suite is executed exclusively in Linux glibc
+environment as defined by dist/Dockerfile
+. Primary reason for that is resource
+constraints. Execution of the external test suite is fully automated:
+make .EXTERNAL_TESTS_SUITE -j$(nproc)
+make .EXTERNAL_EXTRA_TESTS_SUITE -j$(nproc) # only for zig-bootstrap, see below
+The external test suite (except for zig-bootstrap) is executed on a daily basis on current development version of Kefir, as well as at pre-release stage.
+All source archives of third-party software included in the external test suite are mirrored at project's website under release validation section for reproducibility and completeness purposes, starting from version 0.5.0. By default, all external tests still use the original upstream links to the third-party software sources, however these can optionally be replaced with an archival version. Kefir provides necessary scripts for transparent redirection of upstream links to the archive.
+The author believes that outlined limitations do not undermine purpose and utility of the external test suite.
+The software included into the external test suite can be broadly grouped as
+follows. Provided software list is not exhaustive, please look up the
+source/tests/external
+for complete details and specific versions. As a general
+rule, the author performs upgrades for most packages prior to each Kefir
+release.
+Nightly and pre-release test runs largely coincide for Linux platform, and are
+encoded by scripts/pre_release_test.sh
+script that encompasses all stages
+described above. The script is to be executed in the environment as defined by
+dist/Dockerfile
+. In addition, nightly runs include at least 4 CI manifests
+randomly sampled from .builds
+directory. Pre-relase run imposes additional
+requirements:
+.builds
+directory shall run and pass..builds/dragonflybsd.sh
+script shall
+pass.dist/Dockerfile
+.scripts/pre_release_test.sh
+discipline includes own test suite in all
+configurations (with glibc & musl gcc/kefir host, clang host), reproducible
+bootstrap test in all configurations (GNU As & Yasm targets with glibc & musl
+libc), portable bootstrap run, run of the external test suite (with exception
+for zig-bootstrap).
+Nightly tests are executed upon every change to the codebase, batched per day, on a shared-processor VPS with the following specs: AMD EPYC Rome CPU (4 cores), 8 GB of RAM and 8 GB of swap.
+Pre-release tests are executed upon every merge to the master
+branch, which
+coincides with tagging a release.
+Starting from the version 0.5.0, each Kefir release will be accompanied with the following artifacts:
+scripts/pre_release_test.sh
+will
+be preserved and published, along with an archive of external test sources and
+a container image with the test execution environment and all build artifacts
+and intermediate files..builds
+directory. These builds include test runs
+for Linux, FreeBSD, OpenBSD and NetBSD in accordance with the requirements
+outlines in Supported environments section.All artifacts will be published in auditable form along with release source code at Kefir website and signed with author's PGP key.
+Kefir structures compilation pipeline into multiple intermediate represetations between AST and code emission.
+The pipeline is segmented by abstraction level into 3 parts. Target-independent part includes high-level representations that share the same execution semantics (core set of opcodes), but differ by control & data flow representation: linear stack-based IR and structured optimizer SSA (memory SSA is complementary and derived from optimizer SSA as part of some optimization passes). Target-specific part is further segmented based on resource management strategy: virtual representations use virtualized CPU registers characterized by type and allocation constraints, whereas physical 3AC encodes actual register names. Target-specific part too includes representations with different control & data flow shape sharing the same execution semantics.
+Philosophically, Kefir optimization pipeline is structured along two dimensions: abstraction level and concern. The abstraction level defines the degree of source language and machine-specific information available at a particular point, specifying set of available operations and data types. The concern defines raison d'etre for the particular intermediate representation --- executable or analytical --- and thus specifies shape of control & data flow serving stated goal. Core idea is that executable IRs (stack-based and 3-address code) shall have reasonable operational semantics allowing for direct execution by a (virtual) machine of appropriate architecture, whereas analytical representations shall be amenable for analysis and transformation. Furthermore, Kefir enforces hard boundaries between IR families sharing the same abstraction level, ensuring that each family is self-sufficient and carries all information necessary to express program semantics. Each lowering boundary targets executable form of the underlying family, thus enabling simple procedural lowering relieved from the need to construct appropriate control & data flow structures. Therefore, Kefir optimization pipeline can be imagined as vertical zigzag shape in two-dimensional space.
+Such design philosophy may contradict fashionable modern approaches (e.g. MLIR). The author motivates this structure as better suitable to satisfy the following requirements:
+Stack-based IR is a complete representation of an executable module. Apart from executable code, it includes symbol information, type & function signatures, global data definitions, string literals, inline assembly fragments.
+From execution perspective, each function of stack-based IR is characterized by:
+The stack-based IR provides and isolation level between the frontend and middle- and backend of Kefir, encapsulating all target-specific details and providing a unified abstraction to upper layers. Beyond the container for the code, stack-based IR provides a set of APIs for the frontend to retrieve target-specific information (type layouts, sizes, alignments, etc).
+List of stack-based IR opcodes is available in headers/kefir/optimizer/opcode_defs.h and headers/kefir/ir/opcode_defs.h (the former file includes several SSA-specific opcodes too).
+Stack-based IR represents executable form along concern dimension. Earlier versions of kefir used it as operational model for generating stack-based threaded code.
+Optimizer IR is an analytical counterpart to the stack-based IR. It uses a flavour of SSA form with partial ordering of side-effect free operations. Optimizer IR is characterized by:
+Outside of code representation, the optimizer IR shares other aspects of program sematics (symbols, type & function signatures, etc) with stack-based IR. List of optimizer IR opcodes is available in headers/kefir/optimizer/opcode_defs.h.
+The author considers the outlined design to be the most suitable for C compilation and overall beneficially-positioned within the spectrum of SSA forms between LLVM IR and Sea-of-Nodes style extremes. In particular,
+Memory SSA is subordinate to optimizer IR and is constructed from it for certain optimization passes. Memory SSA is constructed by scanning alive instructions within optimizer IR CFG for memory effects (memory accesses, function calls, inline assembly), resulting in a graph consisting of the following nodes: root (function entry point), terminate (function return), produce (write-only memory operations), consume (read-only memory operations), produce-comsume (read-write) and phi. Produce/consume nodes link back to their inducing optimizer IR instructions. Root, produce and produce-consume nodes define a new version of the entire memory which can be consumed by consume, produce-consume and terminate nodes. Distinction between produce and produce-consume nodes serves to reflect the behavior of an operation with respect to memory location it modifies.
+Compared to optimizer IR, memory SSA omits basic block structure and linearizes partial ordering of optimizer IR into an arbitrary total order permited by control & data flow. The latter transformation is valid because the optimizer IR shall ensure that any two partially memory accesses necessarily operate on disjoint segments of memory. Omission of basic blocks is possible because memory SSA does not represent control flow or any other computations explicitly.
+Kefir includes the following high-level optimization passes at -O1
+level:
+mem2reg
+) -- the optimizer identifies
+scalar and complex local variables whose addresses never escape a function and
+never alias, and promotes these local variables into SSA values. This is a
+cornerstone optimization that effectively enables most further analyses.mem2reg
+pass are moved closer to their actual uses to
+make stack frame layout more dense.mem2reg
+and alias analysis infrastructure, identifying segments of local variables
+that are accessed in disjoint non-aliasing manner and never escape. As a
+result, these fragments get promoted into SSA values. This optimizatiom pass
+can be viewed as generalization of mem2reg
+.gvn
+) -- the optimizer identifies instruction subtrees
+that are identical across the function code, and de-duplicates them. Where
+necessary, the de-duplicated subtrees are hoisted. The gvn
+pass only works
+on integral scalar instruction subtrees that do not contain side effects, thus
+it is very conservative. By preceeding it with mem2reg, memory SSA and sroa
+passes, certain portion of memory accesses get promoted into SSA values which
+makes GVN transformation more capable.licm
+) -- the optimizer identifies loops and
+groups them into nests. Instruction subtrees within a loop that are not
+dependent on any of loop values are hoisted to the outer levels of loop nests
+or outside it. As opposed to GVN, LICM integrates memory SSA to hoist
+side-effect free memory loads, and loop-invariant stores in cases where the
+loop is guaranteed to execute.All optimization passes as described above are strictly optional from code
+correctness perspective. In addition to these passes, Kefir implements a
+lowering pass as part of the pipeline. The lowering pass is necessary to
+transform arbitrary-precision arithmetic instructions (used for implementing
+_BitInt
+from the C23 standard) and certain software floating point operations
+into either optimizer-native instruction arithmetic instructions or supporting
+routine calls (see Runtime library below). Lowering does not introduce any
+target-specific details into the IR.
+Optimization levels: at the moment, Kefir supports two optimization levels
+-O0
+and -O1
+(anything else is considered equivalent to -O1
+). Both levels
+include function inlining, local allocation sinking, dead code and dead
+allocation elimination and lowering passes. In addition, -O1
+contains all
+passes described above with some repetitions. Consult source/driver/driver.c
+for the precise optimization pipeline, and consult the manual page for
+command-line options to define the optimization pipeline passes explicitly.
+Virtual 3AC represents a shift along the abstraction dimension axis into the target-specific family with virtualized resource management. In principle, virtual 3AC can be viewed as x86_64 assembly with virtual registers and spill area segments, but technically Kefir separates the container for 3AC (instruction structure, values, label attachment, virtual register types and constraints) from specific instantiation for x86_64. Kefir implements lowering from optimizer IR into x86_64 3AC via simple procedural instruction selection with minimal number of instruction variants and minimal fusion of particularly suitable optimizer IR opcodes. Many optimality concerns, including alternative instruction variants, larger patterns, fusion, addressing modes are shifted into target IR stage. Furthermore, virtual 3AC does not concern itself with legality of any specific instruction shape, accepting any combination of operands --- legalization happens only upon destruction of target IR into physical 3AC.
+The predominant approach to encoding precise register requirements are virtual
+register constraints that specify pre-coloring for register allocator. Virtual
+register constraints are used to encode both ABI (e.g. calling convention) and
+ISA (e.g. implicit register operands) specific requirements, therefore relieving
+post-instruction selection stages from reasoning about these requirements
+outside of mechanical constraint satisfaction. Typically, for constrained
+virtual register, instruction selector also issues special instructions (see
+below) to ensure minimum required lifetime. While 3AC provides a way to specify
+physical registers directly, appeance of these at virtual stage is limited by
+very specific code fragments in function prologue and epilogue, special
+non-allocatable registers (e.g. rsp
+, rbp
+, segment registers), or placements
+that are guarded by constraints of surrounding virtual registers (vanishingly
+small number of cases). In all cases, the rest of pipeline is allowed to operate
+under assumption that specified physical registers never interfere with register
+allocation or any other decisions.
+General set of supported x86-64 opcodes is available in
+headers/kefir/target/asm/amd64/db.h and
+special opcodes are in
+headers/kefir/codegen/amd64/asmcmp.h.
+Among special opcodes, link
+is used as a polymorphic mov
+operation between
+virtual registers of any type, touch
+and weak_touch
+represent virtual
+register lifetime extension operations, with the latter being reserved for
+ABI-induced restrictions (erased after target IR contruction), produce
+represents fresh definition of a virtual register with unspecified value ---
+this one is necessary because in x86-64 use-define chains are often blurry and
+certain instructions (e.g. xor %eax, %eax
+) provide pure definitions while
+technically being RMW with no-op uses.
+Virtual 3AC represents executable form along concern dimension. While it shall be executable by a virtual x86-64 CPU with unbounded number of registers, historically Kefir used it in conjunction with physical 3AC, implementing simple register allocation and devirtualization scheme for legalization of instruction shapes. In current version, virtual 3AC gets converted into target IR for more powerful optimizations.
+Target IR is an analytical counterpart to target-specific Virtual 3AC. It represents state of x86-64 machine with virtualized resource management in SSA form. Target IR is characterized by:
+To illustrate the target IR structure, consider a code fragment representing
+cdq -> idiv
+operation in x86-64 which normally includes multiple implicit
+registers with RMW operations and modifies CPU flags (note: kefir prints IR in
+JSON format, syntax below is semantically equivalent but manually condensed for
+brevity).
+(%42:direct[0] gp variant default requires rdx) = cdq (%41:direct[0] variant 32bit !tied)
+(%43:direct[0] gp variant default requires rax), (%43:direct[1] gp variant default requires rdx),
+(%43:flag_sf), (%43:flag_of), (%43:flag_pf), (%43:flag_cf), (%43:flag_zf) =
+idiv (%40:direct[0] variant 32bit !tied) (%41:direct[0] variant 32bit tied) (%42:direct[0] variant 32bit tied)
+Which can be compared against the equivalent in MachineIR of LLVM.
+The author considers target IR design to have the following beneficial properties:
+With this, target IR implements following transformations:
+Physical 3AC represents the lowest-level abstraction family in it's executable form. It encodes target machine-specific representation of the code with already allocated physical resources. Physical 3AC is characterized by:
+Kefir supports generation of debugging information for GNU As target assembler.
+Generated debug information is in DWARF-5 format, and includes mapping between
+assembly instructions and source code locations, variable locations, type
+information, function signatures. The author has made best-effort attempt to
+preserve variable locations across the optimizer pipeline, however certain
+optimizations at -O1
+level might disrupt debugging experience significantly.
+With exception for non-native atomic operations which require libatomic
+,
+decimal floating-point (libgcc
+) and thread-local storage, Kefir generates
+self-contained assembly listings and requires no runtime library of its own.
+Code generator typically inlines implementations for most of operations into the
+target function directly. The sole exception to this are arbitrary-precision
+arithmetics operations, that are necessary to support _BitInt
+feature of the
+C23 standard, and certain software floating-point operations for complex
+numbers. For these operations, Kefir issues function calls and appends necessary
+functions with internal linkage to the end of the generated assembly listing.
+As a project, Kefir has the following goals, in order of priority:
+cc
+-compatible command line
+interface, extended with certain options supported by gcc or clang
+compilers. The goal is to serve as a drop-in replacement of cc
+in cases
+where limitations documented in Implementation quirks are observed.The project has been in active development since November 2020. In that
+time-span, the author has released several intermediate versions, with complete
+descriptions available in the CHANGELOG
+. It shall be noted that the versioning
+scheme is inconsistent, and can be characterized as "vibe-versioning" (i.e.
+absence of strict versioning scheme and relying on author's personal feeling
+about the release).
+STDC
+pragmas), substantial rewrite
+of code generation layer (see "Target IR" section of Optimization &
+codegen), optimizer improvements including integation of conservative memory
+analysis via memory SSA, 128-bit integer support, extension of real-world
+compatibility.The author does not make any promises or commitments regarding future development. Any commit to the project might be the final one without prior notice. Nevertheless, if development is terminated or indefinitely paused, the author will attempt to communicate this clearly. Furthermore, should any bugs in already published code be discovered after active development cessation, the author might issue limited fixes addressing the issue.
+Kefir is distributed exclusively as source code, which can be obtained from the following sources:
+The author publishes release tarballs at the project's
+website. The author recommends to obtain the
+source code from master
+branch of any of the official mirrors, as it might
+contain more up-to-date code and each merge to that branch is tested as
+thoroughly as releases.
+In addition, the author maintains two PKGBUILD
+build scripts at ArchLinux User
+Repository: kefir and
+kefir-git.
+The author is aware of kefir packages produced by the third parties. The author is not affiliated with any of these package maintainers, so use at your own discretion. Packages might be outdated or otherwise problematic:
+The main body of the compiler code is licensed under GNU GPLv3 (only) terms, see
+LICENSE
+. Please note the only part: Kefir does not include any "later
+version" clause, and publication of new GNU GPL versions does not affect the
+project.
+The arbitrary-precision integer handling routines (headers/kefir_bigint
+) and
+runtime headers (headers/kefir/runtime
+) are licensed under the terms of BSD
+3-clause license. Code from these files is intended to be included into
+artifacts produced by the compiler, therefore licensing requirements are
+relaxed. Furthermore, when these files are used as part of normal compilation
+pipeline with Kefir, their licensing can be treated as being in the spirit of
+GCC Runtime Library
+exception. In such cases,
+the author does not intend to enforce redistribution clauses (#1 and #2) of BSD
+license in any way.
+For clarity, most source files in the repository include a license and copyright headers.
+The author works on the project in accordance with extreme cathedral model. Any potential external code contributions shall be discussed in advance with the author, unless the contribution is trivial and is formatted as a series of short commits that the author can review "at a glance". Any unsolicited non-trivial merge requests that did not undergo prior discussion might get rejected without any further discussion or consideration.
+Nevertheless, the author welcomes non-code contributions, such as bug reports, bug reproduction samples, references to relevant materials, publications, etc.
+Fundamental information:
+Useful tools:
+Supplementary information:
+Kefir-specific links:
+Trivia:
+The author would like to acknowledge (in no particular order) many different people that have influenced author's intention, motivation and ability to work on Kefir:
+source/tests/external
+.The project has been architected, engineered and implemented single-handedly by Jevgenij Protopopov (legal spelling: Jevgēnijs Protopopovs), with the exception for two patches obtained from third parties:
+The author can be contacted by email directly, or via the mailing list.
+Development of the project has been conducted independently without external sources of funding or institutional support.

@@ -1,0 +1,138 @@
+URL: https://awesomeagents.ai/news/github-fake-stars-investigation/
+
+Inside GitHub's Fake Star Economy
+Six million fake stars, $0.06 per click, and a VC funding pipeline that treats GitHub popularity as proof of traction. We ran our own analysis on 20 repos and found the fingerprints.
+TL;DR
+- A peer-reviewed CMU study (ICSE 2026) found 6 million fake stars across 18,617 repositories using 301,000 accounts - with AI/LLM repos the largest non-malicious category
+- Stars sell for $0.03 to $0.85 each on at least a dozen websites, Fiverr gigs, and Telegram channels - no dark web required
+- VCs explicitly use stars as sourcing signals: Redpoint found the median star count at seed is 2,850, and firms run automated scrapers to find fast-growing repos
+- We ran our own analysis sampling 150 profiles per repo across 20 projects and found repos where 36-76% of stargazers have zero followers and fork-to-star ratios 10x below organic baselines
+- The FTC's 2024 rule banning fake social influence metrics carries penalties of $53,088 per violation - and the SEC has already charged startup founders for inflating traction metrics during fundraising
+A GitHub star costs $0.06 at the low end. A seed round unlocks $1 million to $10 million. The math is obvious, and thousands of repositories are exploiting it.
+This investigation maps the full ecosystem: from the peer-reviewed research quantifying the problem, to the marketplaces selling stars openly, to the venture capital pipeline that converts star counts into funding decisions. We ran our own analysis on 20 repositories using the GitHub API, sampling thousands of stargazer profiles to independently verify which projects show fingerprints of manipulation - and which don't.
+The picture that emerges is a mature, professionalized shadow economy operating in plain sight.
+Six million fake stars
+The definitive account comes from a peer-reviewed study presented at ICSE 2026 by researchers at Carnegie Mellon University, North Carolina State University, and Socket. Their tool, StarScout, analyzed 20 terabytes of GitHub metadata - 6.7 billion events and 326 million stars from 2019 to 2024 - and identified approximately 6 million suspected fake stars distributed across 18,617 repositories by roughly 301,000 accounts.
+The problem accelerated dramatically in 2024. By July, 16.66% of all repositories with 50 or more stars were involved in fake star campaigns - up from near-zero before 2022. The researchers' detection proved accurate: 90.42% of flagged repositories and 57.07% of flagged accounts had been deleted as of January 2025, confirming GitHub itself recognized these as illegitimate.
+AI and LLM repositories emerged as the largest non-malicious category of fake-star recipients, ahead of blockchain/cryptocurrency projects in absolute volume at 177,000 fake stars. The study notes that "many of which are academic paper repositories or LLM-related startup products." Critically, 78 repositories with detected fake star campaigns appeared on GitHub Trending, proving that purchased stars successfully game the platform's discovery algorithm.
+Earlier foundational work includes Dagster's March 2023 investigation, where engineers purchased stars from two vendors to study the phenomenon. They found services via basic Google search. A premium vendor - GitHub24, a registered German company (Moller und Ringauf GbR) - charged EUR 0.85 per star and delivered reliably, with all 100 stars persisting after one month. A budget service (Baddhi Shop) sold 1,000 stars for $64, though only 75% survived.
+The marketplace
+The star-selling ecosystem spans dedicated websites, freelance platforms, exchange networks, and underground channels. At least a dozen active websites sell GitHub stars directly, including SocialPlug.io, Buy.fans, Boost-Like.store, GitHubPromoter.com, Followdeh.com, and Vurike.com.
+| Tier | Price per star | Delivery | Account quality |
+|---|---|---|---|
+| Budget (disposable accounts) | $0.03 - $0.10 | Days | New, empty profiles |
+| Mid-range | $0.20 - $0.50 | 1-2 weeks | Some activity history |
+| Premium (aged accounts) | $0.80 - $0.90 | Gradual, "natural" delivery | Years-old profiles with repos and contributions |
+On Fiverr, 24 active gigs sell GitHub promotion, with packages from $5 for basic stars and forks to $25+ for "organic promotion." Many use obfuscated language to evade platform filters. Star exchange platforms like GithubStarMate.com and SafeStarExchange.com - both live and operational - enable free mutual starring through credit-based systems.
+The infrastructure extends beyond stars. At least seven open-source tools on GitHub (fake-git-history, commit-bot, Commiter, and others) exist specifically to fabricate GitHub contribution graphs. Pre-built GitHub profiles with five-year commit histories and Arctic Code Vault Contributor badges sell for approximately $5,000 on Telegram.
+Some vendors offer replacement guarantees - Followdeh advertises 30-day coverage, and premium services promise "non-drop" stars that survive GitHub's detection systems. SocialPlug claims 3.1 million stars delivered across 53,000+ clients and offers a formal API for programmatic purchasing.
+A Tsinghua University study (ACSAC 2020) documented Chinese QQ and WeChat promotion groups with 1,020+ members processing roughly 20 repos per day, generating an estimated $3.4 to $4.4 million annually in promoter profits.
+Our analysis: what fake stargazers look like
+To move beyond reported statistics, we built a GitHub API analysis tool and ran it against 20 repositories: projects flagged by StarScout, fast-growing AI repos from the Runa Capital ROSS Index, and known organic baselines. For each repo, we sampled 150 stargazer profiles and measured account age, public repos, followers, and bio presence.
+The fingerprints of manipulation are unmistakable once you know what to look for.
+The baseline: what organic looks like
+| Metric | Flask (71K stars) | LangChain (133K) | AutoGPT (183K) |
+|---|---|---|---|
+| Median account age | 4,801 days | 2,967 days | 4,022 days |
+| Zero public repos | 5.3% | 5.9% | 2.0% |
+| Zero followers | 10.0% | 11.8% | 5.9% |
+| Ghost accounts | 1.3% | - | - |
+| Suspicious accounts | 0.0% | 0.0% | 0.0% |
+| Fork-to-star ratio | 0.235 | 0.155 | 0.090 |
+| Watcher-to-star ratio | 0.029 | 0.006 | 0.005 |
+Organic repositories are starred by developers who have been on GitHub for years, maintain their own projects, and follow other users. Ghost accounts - zero repos, zero followers, no bio - make up about 1% of a healthy project's stargazer base.
+The manipulated: blockchain repos
+| Metric | Union Labs (74K) | Shardeum (32K) | FreeDomain (157K) | Anoma (34K) |
+|---|---|---|---|---|
+| Median account age | 1,180d | 997d | 1,042d | 1,071d |
+| Zero public repos | 32.7% | 38.0% | 28.0% | 35.3% |
+| Zero followers | 52.0% | 59.3% | 81.3% | 62.0% |
+| Ghost accounts | 19.3% | 28.7% | 28.0% | 26.7% |
+| Fork-to-star ratio | 0.052 | 0.022 | 0.017 | 0.121 |
+| Watcher-to-star ratio | 0.022 | 0.009 | 0.001 | 0.006 |
+These repos share a distinctive fingerprint. The accounts aren't obviously new - median ages of 1,000+ days - so they pass simple "young account" filters. But they're empty: a third have zero repos, half to four-fifths have zero followers, and a quarter are complete ghosts. These are aged accounts purchased or farmed specifically for star campaigns.
+The fork-to-star ratio is the strongest signal. Flask has 235 forks per 1,000 stars. Shardeum has 22. FreeDomain has 17. When nobody is forking a 157,000-star repository, nobody is using it. The watcher-to-star ratio tells the same story: FreeDomain's 0.001 means that for every 1,000 people who starred the repo, just one actually watches it for updates.
+FreeDomain is worth isolating: 157,000 stars, but only 168 watchers and 2,676 forks. That's a watcher-to-star ratio 26x lower than Flask. 81.3% of sampled stargazers have zero followers. This is a repository where almost nobody who starred it has any visible presence on GitHub.
+Union Labs is the most consequential case. It was ranked #1 on Runa Capital's ROSS Index for Q2 2025 - a widely cited VC industry report identifying the "hottest open-source startups" - with 54.2x star growth and 74,300 stars. Our analysis found 32.7% zero-repo accounts, 52% zero-follower accounts, and a fork-to-star ratio of 0.052. The StarScout analysis flagged it with 47.4% suspected fake stars. An influential investment-sourcing report that VCs rely on was topped by a project with nearly half its stars suspected as artificial.
+The AI sector: a mixed picture
+| Metric | RagaAI (16K) | openai-fm (3K) | Langflow (147K) | hermes-agent (74K) |
+|---|---|---|---|---|
+| Median account age | 484d | 116d | 2,859d | 2,932d |
+| Zero public repos | 38.8% | 38.0% | 11.2% | 10.7% |
+| Zero followers | 76.2% | 66.7% | 20.0% | 32.0% |
+| Ghost accounts | 28.0% | 36.0% | - | 6.0% |
+| Suspicious | 0.0% | 66.0% | 0.0% | 8.0% |
+| Fork-to-star ratio | 0.224 | 2.794 | 0.060 | 0.133 |
+RagaAI-Catalyst and openai-fm show clear manipulation signals. RagaAI has 76.2% zero-follower accounts and 28% ghosts - nearly identical to the blockchain pattern. openai-fm is the most extreme case in our dataset: 66% suspicious accounts, 36% ghosts, and a median account age of just 116 days. Two-thirds of its stargazers are less than a year old with virtually no GitHub activity. (The StarScout analysis notes this is likely third-party bots, not OpenAI itself.)
+Langflow - flagged by StarScout at 47.9% fake - showed clean metrics in our profile sample, with a median age of 2,859 days and low ghost rates. This likely reflects improved account quality since the StarScout scan. The 0.060 fork-to-star ratio is still notably low - roughly a quarter of Flask's - suggesting less genuine adoption relative to star count.
+For comparison, NousResearch's hermes-agent looks relatively organic: median age 8 years, 6% ghosts, fork-to-star ratio of 0.133. Despite Reddit accusations of astroturfing, the stargazer population is mostly real developers. The project's crypto-adjacent audience includes more casual GitHub users, which explains slightly elevated zero-follower rates, but the fundamental engagement pattern is legitimate.
+How stars become dollars
+The connection between GitHub star counts and startup funding is not speculative - it is explicitly documented by the investors themselves.
+Jordan Segall, Partner at Redpoint Ventures, published an analysis of 80 developer tool companies showing that the median GitHub star count at seed financing was 2,850 and at Series A was 4,980. He confirmed: "Many VCs write internal scraping programs to identify fast growing github projects for sourcing, and the most common metric they look toward is stars."
+Those numbers set an implicit target. For $85 to $285 in budget stars, a startup can manufacture the 2,850-star seed median. For $990 to $4,500, it can reach Series A territory. Against typical seed rounds of $1-10 million, the ROI ranges from 3,500x to 117,000x.
+Runa Capital publishes the ROSS (Runa Open Source Startup) Index quarterly, ranking the 20 fastest-growing open-source startups by GitHub star growth rate. Per TechCrunch, 68% of ROSS Index startups that attracted investment did so at seed stage, with $169 million raised across tracked rounds. GitHub itself, through its GitHub Fund partnership with M12 (Microsoft's VC arm), commits $10 million annually to invest in 8-10 open-source companies at pre-seed/seed stages based partly on platform traction.
+Documented examples of the star-to-funding pipeline:
+- Lovable (formerly GPT Engineer): 50,000+ stars, $7.5M pre-seed, $200M Series A at $1.8 billion valuation with 45 employees
+- Pangolin: 1,000 stars in January 2025, Y Combinator acceptance, $4.7M seed round by August 2025
+- Browser-use: 50,000 stars in 3 months, Y Combinator W25 batch, $17M seed
+- LangChain: $10M from Benchmark at seed stage
+Dagster's Fraser Marlow, who led the fake star investigation, admitted directly: "In the run-up to the fundraising, I spent a fair amount of time preoccupied with GitHub stars." An academic paper in Organization Science provided rigorous statistical evidence that GitHub engagement correlates with startup funding outcomes - startups active on GitHub are 15 percentage points more likely to have raised a financing round.
+The incentive loop is self-reinforcing: VCs use stars as sourcing signals, so startups manipulate stars, so VCs see inflated traction, so more VCs adopt star-tracking, so more startups manipulate. Redpoint's own published benchmarks give startups an exact target to buy toward.
+The fork-to-star ratio: a simple detection heuristic
+Our analysis revealed the fork-to-star ratio as the strongest simple heuristic for identifying potential manipulation. The logic is straightforward: a star costs nothing and conveys no commitment. A fork means someone downloaded the code to use or modify it.
+| Category | Repos | Avg F/S ratio |
+|---|---|---|
+| Organic baselines (Flask, LangChain, AutoGPT) | 3 | 0.160 |
+| AI tools (crewAI, dify, agno, mem0, browser-use) | 5 | 0.124 |
+| Suspected manipulation (blockchain cluster) | 4 | 0.053 |
+| Extreme cases (Shardeum, FreeDomain) | 2 | 0.020 |
+Any repository with a fork-to-star ratio below 0.05 and more than 10,000 stars warrants scrutiny. The watcher-to-star ratio is even more telling: organic projects average 0.005 to 0.030; FreeDomain registers 0.001.
+These ratios aren't perfect - educational repos and curated lists naturally have low fork rates. But as a first-pass filter, they catch the most egregious cases that raw star counts miss entirely.
+Fake popularity beyond GitHub
+The problem extends to every platform where popularity metrics influence trust.
+npm downloads are trivially inflatable. Developer Andy Richardson demonstrated this by using a single AWS Lambda function (free tier) to push his package is-introspection-query
+to nearly 1 million downloads per week - surpassing legitimate packages like urql
+and mobx
+. Zero actual users. The CMU study found that of repos with fake star campaigns, only 1.23% appeared in package registries, but of those 738 packages, 70.46% had zero dependent projects.
+VS Code Marketplace extensions are similarly vulnerable. Researchers demonstrated 1,000+ installs of a fake extension in 48 hours. AquaSec found 1,283 extensions with known malicious dependencies totaling 229 million installs.
+X/Twitter promotion amplifies artificial GitHub virality through engagement pods - private groups where members agree to like, repost, and comment on each other's content. Growth Terminal sells this as a product feature. NBC News and Clemson University researchers identified a network of 686 X accounts that posted more than 130,000 times using LLM-generated content, some containing telltale artifacts like "Dolphin here!" from the uncensored Dolphin model they employed.
+The Higgsfield AI case documents cross-platform astroturfing at industrial scale: over 100 confirmed spam posts across 60+ subreddits, combined with mass template DMs to content creators offering payment for promotion.
+The legal exposure nobody talks about
+The FTC Consumer Review Rule, effective October 21, 2024, explicitly prohibits selling or buying "fake indicators of social media influence" generated by bots or fake accounts for commercial purposes. Penalties: up to $53,088 per violation. The FTC issued its first warning letters to 10 companies in December 2025. A GitHub star purchased to promote a commercial product fits this framework.
+The SEC precedent is more direct. HeadSpin's CEO was charged with wire fraud (maximum 20 years) and securities fraud for inflating metrics to deceive investors out of $80 million. ComplYant's founder faced charges for claiming $250,000 monthly revenue when actual revenue was $250.
+The SEC's message: "Startup fundraisers cannot use the 'fake it until you make it' ethos to whitewash lying to investors."
+If a startup buys fake GitHub stars to inflate perceived traction during a fundraising round, and investors rely on those metrics to deploy capital, the wire fraud framework applies: using electronic communications to misrepresent material facts for financial gain. No one has been charged specifically for fake GitHub stars yet. Given the CMU research documenting the practice at scale and the FTC rule explicitly covering fake social influence metrics, it may only be a matter of time.
+GitHub's response
+GitHub's Acceptable Use Policies explicitly prohibit "inauthentic interactions, such as fake accounts and automated inauthentic activity," "rank abuse, such as automated starring or following," and "creation of or participation in secondary markets for the purpose of the proliferation of inauthentic activity." The policies even specifically prohibit starring incentivized by "cryptocurrency airdrops, tokens, credits, gifts or other give-aways."
+Enforcement is reactive and asymmetric. GitHub removed 90.42% of repositories flagged by StarScout, but only 57.07% of the accounts that delivered those stars. The infrastructure for future campaigns largely remains intact. When Dagster published its investigation, fake star profiles were deleted within 48 hours - but only after public embarrassment, not proactive detection.
+GitHub has never published an engineering blog post about its detection methods or enforcement statistics. No transparency report exists for star manipulation. The company's VP of Security Operations told Wired only that they "disabled user accounts in accordance with GitHub's Acceptable Use Policies," declining to elaborate - though that comment was specifically about the Stargazers Ghost Network malware operation, not vanity metric manipulation.
+The CMU researchers recommended GitHub adopt a weighted popularity metric based on network centrality rather than raw star counts. A change that would structurally undermine the fake star economy. GitHub has not implemented it.
+What VCs should use instead
+Bessemer Venture Partners calls stars "vanity metrics" and instead tracks unique monthly contributor activity - anyone who created an issue, comment, PR, or commit. Fewer than 5% of top 10,000 projects ever exceeded 250 monthly contributors; only 2% sustained it across six months.
+Jono Bacon at StateShift recommends five metrics that correlate with real adoption: package downloads, issue quality (production edge cases from real users), contributor retention (time to second PR), community discussion depth, and usage telemetry.
+The fork-to-star ratio our analysis surfaced is the simplest first-pass filter. A healthy project has roughly 100-200 forks per 1,000 stars. Projects below 50 forks per 1,000 stars with high absolute counts deserve a closer look.
+As one commenter put it: "You can fake a star count, but you can't fake a bug fix that saves someone's weekend."
+The structural problem
+Three dynamics make this self-reinforcing.
+First, the incentive loop. VCs use stars as sourcing signals. Startups manipulate stars. VCs see inflated traction. More VCs adopt star-tracking. More startups manipulate. Redpoint's published benchmarks - 2,850 at seed, 4,980 at Series A - effectively give startups a price list for how many stars to buy.
+Second, the AI sector's specific vulnerability. The combination of extreme hype, crypto-adjacent funding models that reward token price over product quality, and a reviewer ecosystem on X/Twitter populated partly by fabricated personas creates a perfect environment for manufactured credibility. Our analysis confirmed this: the repos with the worst manipulation signals were overwhelmingly blockchain and crypto-adjacent AI projects.
+Third, GitHub's enforcement asymmetry. Removing repos but leaving 57% of fake accounts intact preserves the labor force of the fake star economy while doing little to deter repeat offenses. Until GitHub implements structural changes - weighted popularity metrics, account-level reputation scoring, or transparent enforcement reporting - the gap between star counts and genuine developer adoption will continue to widen.
+The star economy is a $50 problem with a $50 million consequence. Until the platforms, investors, and regulators catch up, the market will keep paying the $50.
+Sources:
+- He et al. - Six Million (Suspected) Fake Stars in GitHub (ICSE 2026)
+- Dagster - Detecting Fake GitHub Stars
+- Du et al. - Understanding Promotion-as-a-Service on GitHub (ACSAC 2020)
+- Segall, Redpoint Ventures - So How Many Stars Is Enough?
+- TechCrunch - Which open source startups rocketed in 2022?
+- Runa Capital ROSS Index
+- GitHub Fund
+- heathdutton - StarScout Fake Stars Analysis (GitHub Gist)
+- Check Point - Stargazers Ghost Network
+- FTC - Final Rule Banning Fake Reviews
+- SEC - HeadSpin Fraud Charges
+- Conti et al. - Beefing IT Up for Your Investor? (Organization Science, 2025)
+- BVP - Measuring OSS Community Engagement
+- Richardson - How I Exploited npm Downloads
+- NBC News - Republican bot campaign on X
+- GitHub Acceptable Use Policies
+- Marlow, Technical.ly - Should Startups Worry About GitHub Stars?
