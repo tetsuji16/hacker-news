@@ -1,0 +1,63 @@
+URL: https://www.nationsreportcard.gov/highlights/ltt/2023/
+
+Scores decline again for 13-year-old students in reading and mathematics
+The National Center for Education Statistics (NCES) administered the NAEP long-term trend (LTT) reading and mathematics assessments to 13-year-old students from October to December of the 2022–23 school year. The average scores for 13-year-olds declined 4 points in reading and 9 points in mathematics compared to the previous assessment administered during the 2019–20 school year. Compared to a decade ago, the average scores declined 7 points in reading and 14 points in mathematics.
+Figure Trend in NAEP long-term trend reading and mathematics average scores for 13-year-old students
+* Significantly different (p < .05) from 2023.
+This Highlights report compares performance on the NAEP long-term trend reading and mathematics assessments for age 13 students during the 2022–23 school year to previous assessment results, with a focus on results obtained in the 2019–20 school year. Results reflect the performance of a nationally representative sample of 8,700 thirteen-year-olds in each subject. Performance comparisons are based on statistically significant differences between assessment years and between groups. Explore details about the long-term trend assessments and how they differ from main NAEP assessments.
+I. Performance Trends by Percentiles
+Reading scores decline at all selected percentiles since 2020
+NAEP reports scores at five selected percentiles to show changes over time by lower- (10th and 25th percentiles), middle- (50th percentile), and higher- (75th and 90th percentiles) performing students. Percentiles are useful for understanding how overall score gains or losses are distributed across the student population and provide context for the national average score.
+The 2023 reading scores for age 13 students at all five selected percentile levels declined compared to 2020. The declines ranged from 3 to 4 points for middle- and higher-performing students to 6 to 7 points for lower-performing students, though the score declines of lower performers were not significantly different from those of their middle- and higher-performing peers.
+Figure Trend in NAEP long-term trend reading scores at five selected percentiles for 13-year-old students
+Larger declines since 2020 for lower-performing students in mathematics
+The 2023 mathematics scores for age 13 students at all five selected percentile levels declined compared to 2020. The declines ranged from 6 to 8 points for middle- and higher-performing students to 12 to 14 points for lower-performing students, with larger declines for lower performers in comparison to their higher-performing peers.
+Figure Trend in NAEP long-term trend mathematics scores at five selected percentiles for 13-year-old students
+II. Performance Trends by Student Group
+Scores decline for many student groups in reading, and for nearly all student groups in mathematics
+The 2023 average scores in reading declined compared to 2020 for many student groups reported by NAEP; for example, scores were lower for both male and female 13-year-olds, for students eligible and not eligible for the National School Lunch Program (NSLP), and for students attending schools in the Northeast and the Midwest regions. In mathematics, scores declined compared to 2020 for most student groups; for example, scores were lower for Black, Hispanic, and White 13-year-olds, for students attending schools in all regions of the country, for students eligible and not eligible for the NSLP, and for students at all reported levels of parental education.
+See average score results for selected student groups through the drop-down menu selection below. Symbols in the figure indicate the score change between two sets of assessment years: from 2012 to 2020 and from 2020 to 2023. For example, in the figure below for race/ethnicity, the gray diamonds indicate that the 2020 reading score was not significantly different from the 2012 score for any racial/ethnic group with reportable results, and the down arrows indicate that 2023 reading scores declined for White and Black students and for students of Two or More Races in comparison to 2020.
+In mathematics, the 11-point score decrease for female students compared to the 7-point decrease for male students resulted in a widening of the Male−Female score gap in comparison to 2020. Also, the 13-point score decrease among Black students compared to the 6-point decrease among White students resulted in a widening of the White−Black score gap from 35 points in 2020 to 42 points in 2023. In reading, there were no statistically significant changes in these score gaps in 2023 compared to 2020.
+Figure Changes in NAEP long-term trend reading and mathematics average scores for 13-year-old students, by race/ethnicity: 2012, 2020, and 2023
+III. Student Learning Experience
+Students who took the long-term trend assessments in reading and mathematics during the 2022–23 school year also responded to a survey questionnaire. Students taking the long-term trend reading assessment were asked how often they read for fun on their own time; students taking the long-term trend mathematics assessment were asked which type of mathematics course they were currently taking; and all students were asked about the number of days they had been absent from school in the previous month.
+Students’ responses to survey questions provide information with which to compare performance based on their self-reported characteristics and educational experiences. This information may be valuable in helping parents, educators, and policymakers understand what aspects of students’ experiences are related to achievement. Survey questionnaire results, however, do not establish a cause-and-effect relationship between the characteristic or experience and student achievement. NAEP is not designed to identify the causes of performance differences. Numerous factors interact to influence student achievement, including local educational policies and practices, the quality of teachers, and available resources. Such factors may change over time and vary among student groups.
+Percentage of students missing 5 or more days of school monthly has doubled since 2020
+Students who took the 2023 long-term trend reading and mathematics assessments were asked how many days of school they had missed in the last month. Responses to the survey question for both subjects indicate a decrease in the percentages of 13-year-old students reporting having missed none to 2 days in the past month compared to 2020. Conversely, there were increases in the percentages of 13-year-old students who reported missing 3 or 4 days and students who reported missing 5 or more days in the last month. The percentage of students who reported missing 5 or more days doubled from 5 percent in 2020 to 10 percent in 2023.
+For both reading and mathematics, students with fewer missed school days generally had higher average scores in 2023 than students with more missed school days.
+Figure Percentage of 13-year-old students in NAEP long-term trend reading, by number of days student absent from school in a month: 2020 and 2023
+Fourteen percent of students report reading for fun almost every day, lower than previous years
+In 2023, fourteen percent of students reported reading for fun almost every day. This percentage was 3 percentage points lower than 2020, and 13 percentage points lower than 2012. Overall, the percentage of 13-year-old students who reported reading for fun almost every day was lower in 2023 than in all previous assessment years.
+The average reading score in 2023 for those students who reported reading for fun on their own almost every day was 275, which was higher than the scores for students who reported other levels of frequency for reading on their own time. See a data table with average score results.
+Figure Trend in percentages of 13-year-old students in NAEP long-term trend reading, by how often they read for fun on their own time
+Compared to their lower-performing peers, larger percentage of higher-performing students report more frequently reading for fun
+Fifty-one percent of 13-year-old students scoring at or above the 75th percentile in 2023 reported that they read for fun on their own time at least once a week, whereas 28 percent of 13-year-old students scoring below the 25th percentile reported doing so. The percentage of students who reported reading for fun on their own time once or twice a month was also larger for students at or above the 75th percentile. Conversely, the percentages of students who reported reading less frequently—a few times a year or never or hardly ever—were larger for students performing below the 25th percentile.
+Figure Percentage of 13-year-old students in NAEP long-term trend reading, by selected percentiles and by how often they read for fun on their own time: 2023
+How often do you read for fun on your own time? | Proportion of lower-performing students (below 25th percentile) | Proportion of higher-performing students (at or above 75th percentile) |
+|---|---|---|
+| At least once a week | ||
+| Once or twice a month | ||
+| A few times a year | ||
+| Never or hardly ever |
+* Significantly different (p < .05) from students performing at or above the 75th percentile.
+Smaller percentage of students report taking algebra compared to a decade ago, but no change from 2020
+Students were asked, "What kind of mathematics are you taking this year?" and were given five response options: I am not taking mathematics this year; regular mathematics; pre-algebra; algebra; and other. Compared to 2020, there were no significant changes in the percentages of students by type of mathematics taken during the 2022–23 school year.
+Compared to 2012, however, the percentage of 13-year-old students in 2023 who reported they were taking regular mathematics increased from 28 to 42 percent, while the percentage of students taking pre-algebra decreased from 29 to 22 percent, and the percentage of students taking algebra dropped from 34 to 24 percent.
+Average scores were lower in 2023 for all types of mathematics courses presented compared to 2020. See a data table with average score results.
+Figure Trend in percentages of 13-year-old students in NAEP long-term trend mathematics, by type of mathematics taken during the school year
+Compared to their lower-performing peers, larger percentage of higher-performing 13-year-old students report taking algebra
+Forty-four percent of 13-year-old students scoring at or above the 75th percentile in 2023 reported that they were taking algebra during the 2022–23 school year, whereas 10 percent of students scoring below the 25th percentile reported doing so. There was no significant difference between the percentages of lower- and higher-performing 13-year-old students who reported currently taking pre-algebra. The percentage of students who reported taking regular mathematics was higher for students performing below the 25th percentile: Fifty-two percent of lower performers reported taking regular mathematics compared to 23 percent of higher-performing students who reported doing so.
+Figure Percentage of 13-year-old students in NAEP long-term trend mathematics, by selected percentiles and by type of mathematics taken during the school year: 2023
+What kind of mathematics are you taking this year? | Proportion of lower-performing students (below 25th percentile) | Proportion of higher-performing students (at or above 75th percentile) |
+|---|---|---|
+| Not taking mathematics | ||
+| Regular mathematics | ||
+| Pre-algebra | ||
+| Algebra | ||
+| Other |
+# Rounds to zero.
+* Significantly different (p < .05) from students performing at or above the 75th percentile.
+IV. Explore More Long-Term Trend Data
+Generate custom tables for age 13 students in NAEP long-term trend reading and mathematics across all assessment years.
+V. More About the Age 13 Assessment Content and Sample
+Since the 1970s, the NAEP long-term trend assessments have been administered to monitor the academic performance of students across three age levels (9-, 13-, and 17-year-old students). This report mainly focuses on the comparison of age 13 students (typically in grade 8) between 2020 and 2023. A report card summarizing results for 9- and 13-year-old students across all administrations back to the 1970s is forthcoming.

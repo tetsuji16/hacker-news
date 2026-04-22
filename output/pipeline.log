@@ -3795,3 +3795,79 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-22 06:17:45,927 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-22 06:17:45,928 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-22 06:17:46,191 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-22 06:17:56,976 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-22 06:17:56,984 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-20.mp3
+2026-04-22 06:17:56,994 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-22.mp3
+2026-04-23 06:00:57,407 - hn_podcast - INFO - --- New Job Started for 2026-04-23 at 2026-04-23 06:00:57.406598 ---
+2026-04-23 06:00:57,435 - hn_podcast - INFO - Fetching stories for 2026-04-23...
+2026-04-23 06:01:26,889 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-23 06:01:26,895 - hn_podcast - INFO - Processing: Alberta startup sells no-tech tractors for half price
+2026-04-23 06:01:27,236 - trafilatura.downloads - ERROR - not a 200 response: 403 for URL https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/
+2026-04-23 06:01:27,237 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/
+2026-04-23 06:01:27,237 - hn_podcast - INFO - Processing: Over-editing refers to a model modifying code beyond what is necessary
+2026-04-23 06:01:28,331 - hn_podcast - INFO -   - [SUCCESS] Scraped 22480 characters.
+2026-04-23 06:01:28,333 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:01:44,344 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:01:44,347 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:01:44,348 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:01:59,349 - hn_podcast - INFO - Processing: We found a stable Firefox identifier linking all your private Tor identities
+2026-04-23 06:02:01,760 - hn_podcast - INFO -   - [SUCCESS] Scraped 10381 characters.
+2026-04-23 06:02:01,761 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:02:21,943 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:02:21,944 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:02:21,945 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:02:36,946 - hn_podcast - INFO - Processing: 5x5 Pixel font for tiny screens
+2026-04-23 06:02:38,160 - hn_podcast - INFO -   - [SUCCESS] Scraped 3916 characters.
+2026-04-23 06:02:38,161 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:02:50,816 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:02:50,817 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:02:50,818 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:03:05,819 - hn_podcast - INFO - Processing: Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model
+2026-04-23 06:03:06,447 - trafilatura.core - WARNING - discarding data: None
+2026-04-23 06:03:06,450 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://qwen.ai/blog?id=qwen3.6-27b
+2026-04-23 06:03:06,451 - hn_podcast - INFO - Processing: Scores decline again for 13-year-old students in reading and mathematics
+2026-04-23 06:03:08,906 - hn_podcast - INFO -   - [SUCCESS] Scraped 12366 characters.
+2026-04-23 06:03:08,907 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:03:17,646 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:03:17,647 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:03:17,648 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:03:32,649 - hn_podcast - INFO - Processing: Windows 9x Subsystem for Linux
+2026-04-23 06:03:33,816 - hn_podcast - INFO -   - [SUCCESS] Scraped 136 characters.
+2026-04-23 06:03:33,817 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:03:43,724 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:03:43,725 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:03:43,726 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:03:58,727 - hn_podcast - INFO - Processing: You don't need advice from editors on rejected manuscripts
+2026-04-23 06:03:59,205 - urllib3.poolmanager - INFO - Redirecting https://twitter.com/orsonscottcard/status/2046702294406680751 -> https://x.com/orsonscottcard/status/2046702294406680751
+2026-04-23 06:04:01,327 - hn_podcast - INFO -   - [SUCCESS] Scraped 293 characters.
+2026-04-23 06:04:01,328 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:04:13,717 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:04:13,719 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:04:13,719 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:04:28,721 - hn_podcast - INFO - Processing: Apple fixes bug that cops used to extract deleted chat messages from iPhones
+2026-04-23 06:04:29,501 - hn_podcast - INFO -   - [SUCCESS] Scraped 2150 characters.
+2026-04-23 06:04:29,503 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:04:40,404 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:04:40,406 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:04:40,407 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:04:55,409 - hn_podcast - INFO - Processing: The Illuminated Man: an unconventional portrait of JG Ballard
+2026-04-23 06:04:56,100 - hn_podcast - INFO -   - [SUCCESS] Scraped 7224 characters.
+2026-04-23 06:04:56,101 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-23 06:05:12,540 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-23 06:05:12,541 - hn_podcast - INFO -   - Summary generated.
+2026-04-23 06:05:12,542 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-23 06:05:27,543 - hn_podcast - INFO - Final processed articles list length: 8
+2026-04-23 06:05:27,545 - hn_podcast - INFO - Starting audio generation for 8 articles...
+2026-04-23 06:16:10,361 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-23.mp3 (1468.6s)
+2026-04-23 06:16:10,437 - hn_podcast - INFO - Audio generation complete!
+2026-04-23 06:16:10,488 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-23.json (duration=1468s, size=5875052B)
+2026-04-23 06:16:10,489 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-23 06:16:10,509 - hn_podcast - INFO - Found 34 metadata files to process.
+2026-04-23 06:16:10,906 - hn_podcast - INFO - RSS feed generated with 34 episodes at output/podcast.xml
+2026-04-23 06:16:10,942 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-23 06:16:10,944 - hn_podcast - INFO - RSS feed update complete!
+2026-04-23 06:16:10,945 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-23 06:16:10,986 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-23 06:16:11,017 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-23 06:16:11,018 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-23 06:16:11,496 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git

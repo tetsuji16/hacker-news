@@ -3571,3 +3571,23 @@ DEBUG: Scraping URL: https://www.fusionenergybase.com/fusion-power-plant-simulat
 DEBUG: Successfully scraped 796 chars from https://www.fusionenergybase.com/fusion-power-plant-simulator. Saved to output/scraped_content/www_fusionenergybase_com__fusionenergybase_com_fusion_power_plant_simulator.txt
 DEBUG: Scraping URL: https://github.com/ENTERPILOT/GOModel/
 DEBUG: Successfully scraped 8849 chars from https://github.com/ENTERPILOT/GOModel/. Saved to output/scraped_content/github_com_https___github_com_ENTERPILOT_GOModel_.txt
+DEBUG: Scraping URL: https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/
+DEBUG: Trafilatura failed to download https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/
+DEBUG: Scraping URL: https://nrehiew.github.io/blog/minimal_editing/
+DEBUG: Successfully scraped 22480 chars from https://nrehiew.github.io/blog/minimal_editing/. Saved to output/scraped_content/nrehiew_github_io_https___nrehiew_github_io_blog_minimal_editing_.txt
+DEBUG: Scraping URL: https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/
+DEBUG: Successfully scraped 10381 chars from https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/. Saved to output/scraped_content/fingerprint_com__blog_firefox_tor_indexeddb_privacy_vulnerability_.txt
+DEBUG: Scraping URL: https://maurycyz.com/projects/mcufont/
+DEBUG: Successfully scraped 3916 chars from https://maurycyz.com/projects/mcufont/. Saved to output/scraped_content/maurycyz_com_https___maurycyz_com_projects_mcufont_.txt
+DEBUG: Scraping URL: https://qwen.ai/blog?id=qwen3.6-27b
+DEBUG: Trafilatura extracted empty text from https://qwen.ai/blog?id=qwen3.6-27b
+DEBUG: Scraping URL: https://www.nationsreportcard.gov/highlights/ltt/2023/
+DEBUG: Successfully scraped 12366 chars from https://www.nationsreportcard.gov/highlights/ltt/2023/. Saved to output/scraped_content/www_nationsreportcard_gov_s___www_nationsreportcard_gov_highlights_ltt_2023_.txt
+DEBUG: Scraping URL: https://social.hails.org/@hailey/116446826733136456
+DEBUG: Successfully scraped 136 chars from https://social.hails.org/@hailey/116446826733136456. Saved to output/scraped_content/social_hails_org_ttps___social_hails_org__hailey_116446826733136456.txt
+DEBUG: Scraping URL: https://twitter.com/orsonscottcard/status/2046702294406680751
+DEBUG: Successfully scraped 293 chars from https://twitter.com/orsonscottcard/status/2046702294406680751. Saved to output/scraped_content/twitter_com_tter_com_orsonscottcard_status_2046702294406680751.txt
+DEBUG: Scraping URL: https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/
+DEBUG: Successfully scraped 2150 chars from https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/. Saved to output/scraped_content/techcrunch_com_sed_to_extract_deleted_chat_messages_from_iphones_.txt
+DEBUG: Scraping URL: https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard
+DEBUG: Successfully scraped 7224 chars from https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard. Saved to output/scraped_content/www_theguardian_com_an_review_an_unconventional_portrait_of_jg_ballard.txt
