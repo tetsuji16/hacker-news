@@ -1,0 +1,84 @@
+URL: https://socket.dev/blog/bitwarden-cli-compromised
+
+Socket researchers discovered that the Bitwarden CLI was compromised as part of the ongoing Checkmarx supply chain campaign. The open source password manager serves more than 10 million users and over 50,000 businesses, and ranks among among the top three password managers by enterprise adoption.
+The affected package version appears to be @bitwarden/cli2026.4.0
+, and the malicious code was published in bw1.js
+, a file included in the package contents. The attack appears to have leveraged a compromised GitHub Action in Bitwarden’s CI/CD pipeline, consistent with the pattern seen across other affected repositories in this campaign.
+What we know so far:
+- Bitwarden CLI builds were affected
+- The compromise follows the same GitHub Actions supply chain vector identified in the broader Checkmarx campaign
+This is an ongoing investigation. Socket's security research team is conducting a full technical analysis and will publish detailed findings, including affected versions, indicators of compromise, and remediation guidance.
+If you use Bitwarden CLI, we recommend reviewing your CI logs and rotating any secrets that may have been exposed to the compromised workflow. At this time, the compromise only involves only the npm package for the CLI. Bitwarden’s Chrome extension, MCP server, and other legitimate distributions have not been affected yet.
+Technical analysis#
+The malicious payload was in a file named bw1.js
+, which shares core infrastructure with the Checkmarx mcpAddon.js
+we analyzed yesterday:
+- Same C2 endpoint: Uses identical
+audit.checkmarx[.]cx/v1/telemetry
+endpoint, obfuscated via __decodeScrambled
+with seed 0x3039
+. Exfiltration also occurs through GitHub API (commit-based) and npm registry (token theft/republishing) - Embedded payloads: Same gzip+base64 structure containing a Python memory-scraping script targeting GitHub Actions Runner.Worker, a setup.mjs loader for republished npm packages, a GitHub Actions workflow YAML, hardcoded RSA public keys, and an ideological manifesto string
+- Credential harvesting: GitHub tokens via Runner.Worker memory scraping and environment variables, AWS credentials via ~/.aws/ files and environment, Azure tokens via azd, GCP credentials via gcloud config config-helper, npm configuration files (.npmrc), SSH keys, environment variables, and Claude/MCP configuration files
+- Github Exfiltration: Public repositories created under victim accounts using Dune-themed naming ({word}-{word}-{3digits}), with encrypted results committed and tokens embedded in commit messages using the marker
+LongLiveTheResistanceAgainstMachines
+- Supply chain propagation: npm token theft to identify writable packages and republish with injected preinstall hooks, GitHub Actions workflow injection to capture repository secrets
+- Russian locale kill switch: Exits silently if system locale begins with "ru", checking Intl.DateTimeFormat().resolvedOptions().locale and environment variables LC_ALL, LC_MESSAGES, LANGUAGE, and LANG
+- Runtime: Bun v1.3.13 interpreter downloaded from GitHub releases
+This payload (bw1.js)also includes several indicators not documented in the Checkmarx incident:
+- Lock file: Hardcoded path
+/tmp/tmp.987654321.lock
+prevents multiple instances from running simultaneously - Shell profile persistence: Injects payload into
+~/.bashrc
+and ~/.zshrc
+- Explicit branding: Repository description
+Shai-Hulud: The Third Coming
+replaces the deceptive "Checkmarx Configuration Storage", and debug strings include "Would be executing butlerian jihad!"
+The shared tooling strongly suggests a connection to the same malware ecosystem, but the operational signatures differ in ways that complicate attribution. The Checkmarx attack was claimed by TeamPCP via the @pcpcats social media account after discovery, and the malware itself attempted to blend in with legitimate-looking descriptions. This payload takes a different approach: the ideological branding is embedded directly in the malware, from the Shai-Hulud repository names to the "Butlerian Jihad" manifesto payload to commit messages proclaiming resistance against machines. This suggests either a different operator using shared infrastructure, a splinter group with stronger ideological motivations, or an evolution in the campaign's public posture.
+Recommendations#
+Organizations that installed the malicious Bitwarden npm package should treat this incident as a credential exposure and CI/CD compromise event.
+Immediately remove the affected package from developer systems and build environments. Rotate any credentials that may have been exposed to those environments, including GitHub tokens, npm tokens, cloud credentials, SSH keys, and CI/CD secrets. Review GitHub for unauthorized repository creation, unexpected workflow files under .github/workflows/, suspicious workflow runs, artifact downloads, and public repositories matching the observed Dune-themed staging pattern ({word}-{word}-{3digits}). Check for the following keywords in newly published repositories if you believe you may be impacted:
+atreides
+cogitor
+fedaykin
+fremen
+futar
+gesserit
+ghola
+harkonnen
+heighliner
+kanly
+kralizec
+lasgun
+laza
+melange
+mentat
+navigator
+ornithopter
+phibian
+powindah
+prana
+prescient
+sandworm
+sardaukar
+sayyadina
+sietch
+siridar
+slig
+stillsuit
+thumper
+tleilaxu
+Audit npm for unauthorized publishes, version changes, or newly added install hooks. In cloud environments, review access logs for unusual secret access, token use, and newly issued credentials.
+On endpoints and runners, hunt for outbound connections to the observed exfiltration infrastructure (audit[.]checkmarx[.]cx
+), execution of Bun where it is not normally used, access to files such as .npmrc, .git-credentials, .env, cloud credential stores, gcloud, az, or azd. Check for the lock file /tmp/tmp.987654321.lock
+and shell profile modifications in ~/.bashrc and ~/.zshrc. For GitHub Actions, review whether any unapproved workflows were created on transient branches and whether artifacts such as format-results.txt
+were generated or downloaded.
+As a longer-term control, reduce the blast radius of future supply chain incidents by locking down token scopes, requiring short-lived credentials where possible, restricting who can create or publish packages, hardening GitHub Actions permissions, disabling unnecessary artifact access, and monitoring for new public repositories or workflow changes created outside normal release processes.
+IOCs#
+Malicious Package
+Network Indicators
+94[.]154[.]172[.]43
+https://audit.checkmarx[.]cx/v1/telemetry
+File System Indicators (Victim Package Compromise)
+/tmp/tmp.987654321.lock
+/tmp/_tmp_<Unix Epoch Timestamp>/
+package-updated.tgz

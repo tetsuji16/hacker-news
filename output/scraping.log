@@ -3591,3 +3591,23 @@ DEBUG: Scraping URL: https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops
 DEBUG: Successfully scraped 2150 chars from https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/. Saved to output/scraped_content/techcrunch_com_sed_to_extract_deleted_chat_messages_from_iphones_.txt
 DEBUG: Scraping URL: https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard
 DEBUG: Successfully scraped 7224 chars from https://www.theguardian.com/books/2026/apr/20/the-illuminated-man-by-christopher-priest-and-nina-allan-review-an-unconventional-portrait-of-jg-ballard. Saved to output/scraped_content/www_theguardian_com_an_review_an_unconventional_portrait_of_jg_ballard.txt
+DEBUG: Scraping URL: https://openai.com/index/introducing-gpt-5-5/
+DEBUG: Successfully scraped 24759 chars from https://openai.com/index/introducing-gpt-5-5/. Saved to output/scraped_content/openai_com_https___openai_com_index_introducing_gpt_5_5_.txt
+DEBUG: Scraping URL: https://socket.dev/blog/bitwarden-cli-compromised
+DEBUG: Successfully scraped 6668 chars from https://socket.dev/blog/bitwarden-cli-compromised. Saved to output/scraped_content/socket_dev_https___socket_dev_blog_bitwarden_cli_compromised.txt
+DEBUG: Scraping URL: https://www.anthropic.com/engineering/april-23-postmortem
+DEBUG: Successfully scraped 9537 chars from https://www.anthropic.com/engineering/april-23-postmortem. Saved to output/scraped_content/www_anthropic_com__www_anthropic_com_engineering_april_23_postmortem.txt
+DEBUG: Scraping URL: https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a
+DEBUG: Trafilatura failed to download https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a
+DEBUG: Scraping URL: https://joshblais.com/blog/using-the-internet-like-its-1999/
+DEBUG: Successfully scraped 11692 chars from https://joshblais.com/blog/using-the-internet-like-its-1999/. Saved to output/scraped_content/joshblais_com_shblais_com_blog_using_the_internet_like_its_1999_.txt
+DEBUG: Scraping URL: https://blog.meshcore.io/2026/04/23/the-split
+DEBUG: Successfully scraped 3771 chars from https://blog.meshcore.io/2026/04/23/the-split. Saved to output/scraped_content/blog_meshcore_io_https___blog_meshcore_io_2026_04_23_the_split.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/articles/c9d4zgnqpqeo
+DEBUG: Successfully scraped 5165 chars from https://www.bbc.com/news/articles/c9d4zgnqpqeo. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_c9d4zgnqpqeo.txt
+DEBUG: Scraping URL: https://www.githubstatus.com/incidents/myrbk7jvvs6p
+DEBUG: Successfully scraped 1034 chars from https://www.githubstatus.com/incidents/myrbk7jvvs6p. Saved to output/scraped_content/www_githubstatus_com_ttps___www_githubstatus_com_incidents_myrbk7jvvs6p.txt
+DEBUG: Scraping URL: https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/
+DEBUG: Successfully scraped 11442 chars from https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/. Saved to output/scraped_content/www_wired_com_ees_are_starting_to_wonder_if_theyre_the_bad_guys_.txt
+DEBUG: Scraping URL: https://skyandtelescope.org/astronomy-news/astronomers-find-the-edge-of-the-milky-way/
+DEBUG: Successfully scraped 3527 chars from https://skyandtelescope.org/astronomy-news/astronomers-find-the-edge-of-the-milky-way/. Saved to output/scraped_content/skyandtelescope_org_y_news_astronomers_find_the_edge_of_the_milky_way_.txt
