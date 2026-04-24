@@ -3611,3 +3611,23 @@ DEBUG: Scraping URL: https://www.wired.com/story/palantir-employees-are-starting
 DEBUG: Successfully scraped 11442 chars from https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/. Saved to output/scraped_content/www_wired_com_ees_are_starting_to_wonder_if_theyre_the_bad_guys_.txt
 DEBUG: Scraping URL: https://skyandtelescope.org/astronomy-news/astronomers-find-the-edge-of-the-milky-way/
 DEBUG: Successfully scraped 3527 chars from https://skyandtelescope.org/astronomy-news/astronomers-find-the-edge-of-the-milky-way/. Saved to output/scraped_content/skyandtelescope_org_y_news_astronomers_find_the_edge_of_the_milky_way_.txt
+DEBUG: Scraping URL: https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/
+DEBUG: Successfully scraped 3487 chars from https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/. Saved to output/scraped_content/techcrunch_com_invest_up_to_40b_in_anthropic_in_cash_and_compute_.txt
+DEBUG: Scraping URL: https://hhh.hn/rodecaster-duo-fw/
+DEBUG: Successfully scraped 5728 chars from https://hhh.hn/rodecaster-duo-fw/. Saved to output/scraped_content/hhh_hn_https___hhh_hn_rodecaster_duo_fw_.txt
+DEBUG: Scraping URL: https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/
+DEBUG: Successfully scraped 2655 chars from https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/. Saved to output/scraped_content/blogs_loc_gov_ov_picturethis_2026_04_the_classic_american_diner_.txt
+DEBUG: Scraping URL: https://kevinlynagh.com/newsletter/2026_04_overthinking/
+DEBUG: Successfully scraped 11788 chars from https://kevinlynagh.com/newsletter/2026_04_overthinking/. Saved to output/scraped_content/kevinlynagh_com___kevinlynagh_com_newsletter_2026_04_overthinking_.txt
+DEBUG: Scraping URL: https://nickyreinert.de/en/2026/2026-04-24-claude-critics/
+DEBUG: Successfully scraped 6326 chars from https://nickyreinert.de/en/2026/2026-04-24-claude-critics/. Saved to output/scraped_content/nickyreinert_de_nickyreinert_de_en_2026_2026_04_24_claude_critics_.txt
+DEBUG: Scraping URL: https://driggsby.com/blog/claude-code-routine-watch-my-finances
+DEBUG: Successfully scraped 6014 chars from https://driggsby.com/blog/claude-code-routine-watch-my-finances. Saved to output/scraped_content/driggsby_com_sby_com_blog_claude_code_routine_watch_my_finances.txt
+DEBUG: Scraping URL: https://gigazine.net/gsc_news/en/20260424-filco-diatec/
+DEBUG: Successfully scraped 1514 chars from https://gigazine.net/gsc_news/en/20260424-filco-diatec/. Saved to output/scraped_content/gigazine_net____gigazine_net_gsc_news_en_20260424_filco_diatec_.txt
+DEBUG: Scraping URL: https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/
+DEBUG: Successfully scraped 1932 chars from https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/. Saved to output/scraped_content/viewfromthewing_com_f_daily_noise_travelers_say_it_changed_everything_.txt
+DEBUG: Scraping URL: https://developers.openai.com/api/docs/changelog
+DEBUG: Successfully scraped 21269 chars from https://developers.openai.com/api/docs/changelog. Saved to output/scraped_content/developers_openai_com_https___developers_openai_com_api_docs_changelog.txt
+DEBUG: Scraping URL: https://nate.leaflet.pub/3mk4xkaxobc2p
+DEBUG: Successfully scraped 1393 chars from https://nate.leaflet.pub/3mk4xkaxobc2p. Saved to output/scraped_content/nate_leaflet_pub_https___nate_leaflet_pub_3mk4xkaxobc2p.txt

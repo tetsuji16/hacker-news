@@ -3947,3 +3947,84 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-24 06:17:15,451 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-24 06:17:15,452 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-24 06:17:15,692 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-24 06:17:27,409 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-24 06:17:27,413 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-23.mp3
+2026-04-24 06:17:27,423 - hn_podcast - INFO - Deleted local audio file for space optimization: output/podcast_2026-04-24.mp3
+2026-04-25 06:00:27,822 - hn_podcast - INFO - --- New Job Started for 2026-04-25 at 2026-04-25 06:00:27.822081 ---
+2026-04-25 06:00:27,855 - hn_podcast - INFO - Fetching stories for 2026-04-25...
+2026-04-25 06:00:53,177 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-25 06:00:53,183 - hn_podcast - INFO - Processing: Google to invest up to $40B in Anthropic in cash and compute
+2026-04-25 06:00:54,313 - hn_podcast - INFO -   - [SUCCESS] Scraped 3487 characters.
+2026-04-25 06:00:54,315 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:00:59,490 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:00:59,500 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:00:59,501 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:01:14,502 - hn_podcast - INFO - Processing: My audio interface has SSH enabled by default
+2026-04-25 06:01:15,161 - hn_podcast - INFO -   - [SUCCESS] Scraped 5728 characters.
+2026-04-25 06:01:15,162 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:01:19,054 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:01:19,055 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:01:19,056 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:01:34,057 - hn_podcast - INFO - Processing: The Classic American Diner
+2026-04-25 06:01:34,674 - hn_podcast - INFO -   - [SUCCESS] Scraped 2655 characters.
+2026-04-25 06:01:34,676 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:01:38,084 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:01:38,085 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:01:38,085 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:01:53,086 - hn_podcast - INFO - Processing: Sabotaging projects by overthinking, scope creep, and structural diffing
+2026-04-25 06:01:54,568 - hn_podcast - INFO -   - [SUCCESS] Scraped 11788 characters.
+2026-04-25 06:01:54,569 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:02:00,102 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:02:00,104 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:02:00,105 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:02:15,106 - hn_podcast - INFO - Processing: I Cancelled Claude: Token Issues, Declining Quality, and Poor Support
+2026-04-25 06:02:15,728 - hn_podcast - INFO -   - [SUCCESS] Scraped 6326 characters.
+2026-04-25 06:02:15,729 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:02:20,738 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:02:20,740 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:02:20,741 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:02:35,742 - hn_podcast - INFO - Processing: Could a Claude Code routine watch my finances?
+2026-04-25 06:02:36,189 - hn_podcast - INFO -   - [SUCCESS] Scraped 6014 characters.
+2026-04-25 06:02:36,190 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:02:41,474 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:02:41,475 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:02:41,476 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:02:56,477 - hn_podcast - INFO - Processing: Diatec, known for its mechanical keyboard brand FILCO, has ceased operations
+2026-04-25 06:02:57,013 - hn_podcast - INFO -   - [SUCCESS] Scraped 1514 characters.
+2026-04-25 06:02:57,014 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:03:00,215 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:03:00,217 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:03:00,217 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:03:15,218 - hn_podcast - INFO - Processing: SFO Quiet Airport (2025)
+2026-04-25 06:03:16,707 - hn_podcast - INFO -   - [SUCCESS] Scraped 1932 characters.
+2026-04-25 06:03:16,708 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:03:20,486 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:03:20,487 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:03:20,492 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:03:35,493 - hn_podcast - INFO - Processing: OpenAI releases GPT-5.5 and GPT-5.5 Pro in the API
+2026-04-25 06:03:40,471 - hn_podcast - INFO -   - [SUCCESS] Scraped 21269 characters.
+2026-04-25 06:03:40,472 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:03:44,449 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:03:44,450 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:03:44,451 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:03:59,452 - hn_podcast - INFO - Processing: How to be anti-social – a guide to incoherent and isolating social experiences
+2026-04-25 06:04:01,262 - hn_podcast - INFO -   - [SUCCESS] Scraped 1393 characters.
+2026-04-25 06:04:01,263 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-25 06:04:06,774 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-25 06:04:06,775 - hn_podcast - INFO -   - Summary generated.
+2026-04-25 06:04:06,776 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-25 06:04:21,777 - hn_podcast - INFO - Final processed articles list length: 10
+2026-04-25 06:04:21,778 - hn_podcast - INFO - Starting audio generation for 10 articles...
+2026-04-25 06:17:03,261 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-25.mp3 (1732.2s)
+2026-04-25 06:17:03,386 - hn_podcast - INFO - Audio generation complete!
+2026-04-25 06:17:03,452 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-25.json (duration=1732s, size=6929420B)
+2026-04-25 06:17:03,454 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-25 06:17:03,472 - hn_podcast - INFO - Found 36 metadata files to process.
+2026-04-25 06:17:03,855 - hn_podcast - INFO - RSS feed generated with 36 episodes at output/podcast.xml
+2026-04-25 06:17:03,901 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-25 06:17:03,904 - hn_podcast - INFO - RSS feed update complete!
+2026-04-25 06:17:03,906 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-25 06:17:03,943 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-25 06:17:03,969 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-25 06:17:03,971 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-25 06:17:04,240 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
