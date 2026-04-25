@@ -1,0 +1,78 @@
+URL: https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/
+
+It's OK to Use Coding Assistance Tools To Revive The Projects You Never Were Going To Finish
+Note: I initially drafted this before my last post on how Claude Code is getting worse. I'm putting it out now so I can reference it in a future post on OpenCode. As you can imagine my opinion on Claude Code has shifted since I wrote this.
+Long ago I attempted a personal project, but never finished due to life being busy. [1] Sort of like the Japanese word Tsundoku, for the pile of books you intend to eventually read one day. We all have these projects and they are good candidates for testing out AI coding assistance. After all, they were never going to get done anyway.
+The POC I put together was a shim between YouTube Music and the OpenSubsonic api. Explaining OpenSubsonic could be its own article, but for our purposes it's an API contract for nicely decoupling music streaming clients and servers. You can pick your own options for both. In my case I like Navidrome for the server, Feishin for desktop, and as I mentioned in my post on GrapheneOS, Symfonium for Android.
+Anyways, the shim made YouTube Music conform to the API so I could add it to any of my clients. Under the hood I used ytmusicapi
+for metadata lookup and programmatically called yt-dlp
+to stream the music. Getting basic streaming working was pretty simple. However, there was a long tail implementing all the endpoints in a conformant way. Then as always, there were new shiny projects that stole my attention away. Like that embedded rust location project I promise I'll finish at some point. Maybe.
+Luckily, nothing was really novel in that streaming project, and there is a clear spec to implement which is perfect for assisted coding. So a month and a half ago I thought I would test Claude Code with Opus 4.6 and see how it did implementing the project from scratch. After all, they gave me a free $50 in credit, so I might as well.
+The setup
+Since I had already written a proof of concept by hand, I had my own opinions about the implementation and laying all of that out beforehand constrained the tool in a nice way.
+I did the following:
+- Created a uv project with
+fastapi
+,pydantic
+,ytmusicapi
+andyt-dlp
+as dependencies. - Changed main.py to the example FastAPI main file.
+- Dropped the openapi spec for OpenSubsonic in the folder.
+- Added a brief description in a readme file:
+This project acts as a shim, exposing YouTube music as an opensubsonic client. It uses fastapi for its server with pydantic, ytmusicapi for metadata and yt-dlp for streaming."
+opensubsonic docs are available at: https://example.docsy.dev/docs/reference/
+The openapi spec is in openapi.json.
+- Added an empty TODO file.
+- Generated a CLAUDE.md file using
+/init
+.
+I also often add a section like this to the CLAUDE.md file:
+## Conventions
+- Methods should have type annotations for args and returns as well as docstrings.
+- Use Pydantic for data modeling. Use modern Pydantic V2 conventions.
+- Doc strings should use the Google style format with an args and returns sections.
+- Write unit tests with modern pytest style, eg top level methods using `assert` and fixtures.
+That's mostly based on past experience for what I have to repeatedly ask Claude Code not to do.
+I've bundled up this starting point into a git repository in case anyone else wants to try the experiment.
+Implementing the MVP
+With that setup done, I let Claude kick things off. The workflow I typically use is:
+- Enter plan mode.
+- Prompt for the next piece of work.
+- After getting the initial plan, look for gaps / problems and ask follow up questions until I like the plan.
+- Provide links to resources when Claude is off.
+- Ask Claude to use the search tool to figure out what is idiomatic when there are multiple options and it is unclear to me which to take.
+- Use "Accept and clear context".
+- Repeat.
+The first prompt I used was:
+Have a look at the openapi.json file. This is a spec for the opensubsonic api. Implement an async fastapi server that stubs out all of the methods. There are both older xml endpoints and newer style json endpoints. You only need to handle the newer json endpoints.
+For this kind of change I like to clear context after implementing and then ask a follow up question:
+I implemented stubbed versions of all the methods specified in openapi.json. Double-check they are correct.
+Even with a spec, Claude Code makes mistakes the first time, but then will catch them (mostly) the second time through.
+Also, after implementing larger changes, I like to re-run /init
+to update the CLAUDE.md file to cover the new pieces.
+The next major prompt was:
+The methods for all endpoints are stubbed out now. I want to connect a subsonic client, search for a song, and stream it to the client. What is the minimum amount of functionality needed to implement that? Use ytmusicapi for searching YouTube music and yt-dlp for streaming.
+I got an implementation that looked reasonable pretty quickly, but fell over when trying to actually connect with Feishin. At that point I iterated by testing the client and handing the server request logs to Claude Code. Even with a spec there are details that are not spelled out clearly, like how endpoints may have a .view
+suffix that needs to be stripped. Every time there was an error I generated new unit tests to cover them.
+I was shocked to hear the audio streaming through feishin after only a couple of iterations. The main issues involved stubbed endpoints returning nothing. They mostly had to be updated to return empty, but correctly structured responses.
+Just getting an MVP is the easy part though. Not that far beyond what I implemented in my POC.
+Working through the long tail.
+The rest of the work was the less interesting, more drudgery parts to make the project actually usable. From the docs, OpenSubsonic has ~80 endpoints spread over 15 different categories.
+For the MVP use case I only had to support:
+- getLicense, getUser, getGenres and getMusicDirectories with empty, but valid collections.
+- getSong as a pass through that returned the ID in the query params and default values.
+- search3 with a very basic ytmusicapi call.
+- stream with a yt-dlp call wrapped in an
+asyncio.to_thread
+to extract the URL for the"bestaudio"
+format. - getCoverArt with a call to yt-dlp to extract the cover image URL.
+To support the full functionality of a subsonic client I:
+- Added simple in memory caching for ytmusicapi calls to avoid hitting usage limits.
+- Used sqlite for storing music metadata and implemented all the endpoints in the browsing category. Even getTopSongs by querying for the top songs list.
+- Saved the song to disk as it streamed to avoid redownloading songs. I had to have additional handling to clean up the incomplete file when a client disconnects from the stream endpoint before the file was fully downloaded.
+I knew all these things had to be done to make my own POC more usable, and I could have done them, but never did. At the same time, since I never planned to release anything I absolutely skipped the hard bits around authentication.
+All together I was able to get a working service that I could connect to from a subsonic client in a short evening. In the end I dubbed the project "Sub-standard".
+Is this good?
+I don't want to sound like an AI coding assist booster. I still have fears around deskilling from relying on these tools too much. That's why I still bang my head against the wall trying to learn Rust.
+In my mind there are different buckets for personal projects. One is things I do to learn and grow and the other is things I really wish existed. [2] This kind of project falls into the second bucket. Using AI coding assist to reify those projects is sort of a form of wish fulfillment. I never would have gotten to it, but now I can have the project. One less metaphorical book sitting unread on bookshelf.
+In the end I think the important thing is not whether you are doing projects in bucket 2, but whether you are also still doing the stretch projects in bucket 1.

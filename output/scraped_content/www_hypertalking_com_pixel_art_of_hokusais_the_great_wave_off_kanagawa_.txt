@@ -1,0 +1,19 @@
+URL: https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/
+
+1-bit Hokusai’s ”The Great Wave”
+5 years ago I started a now completely stalled project (fingers crossed I can figure out how to restart soon) to draw all of Hokusai’s 36 views of Mount Fuji as 1-bit pixel art.
+Why?
+I started this project for no other reason than I love to get into the ‘flow state’ from this kind of creative endeavour, and obviously I love to use old Macintosh computers.
+It feels very satisfying to get each pixel to fall into place, capturing both the original vision of Hokusai and the aesthetic that Susan Kare mastered early on with ‘the Japanese lady’.
+Kare’s picture of course starred on the cover of every box of MacPaint and you can still buy beautiful prints of it today, directly from her.
+Another challenging aspect of this project is to make sure the images are the original Macintosh screen resolution of 512 x 342 pixels. Why do I do this to myself?! Well, it just felt ‘right’ and I guess I’m a glutton for punishment when I want to make things feel authentic.
+How?
+The idea is to recreate every one of Hokusai’s woodcut prints from the series on an early black and white Macintosh, using contemporary hardware and software.
+I usually use either my Quadra 700 or PowerBook 100, mostly because those are my reliable and easy to access computers (that run System 7, my favourite and most familiar OS of that era).
+Software-wise I use Aldus SuperPaint 3.0, which is what my family had when I was a kid. Yes, I’d say that all of this is 99% nostalgia-driven…
+Anyway, @polyducks urged me to share at least the first of these (although this was actually the 2nd or 3rd of the series I tackled, not sure why I did them ‘out of order’), “The Great Wave off Kanagawa”. Took me a while to get around to it, but here it is:
+This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+Please, if you reproduce this or post it anywhere be sure to credit me and link back to this website!
+Bonus!
+As a little extra, if you have a Macintosh with a 640 x 480 screen, you can download a version (PNG | PICT as compressed .zip) to use as a desktop pattern.
+I’ll aim to post more from this project soon.

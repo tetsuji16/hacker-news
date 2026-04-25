@@ -3631,3 +3631,23 @@ DEBUG: Scraping URL: https://developers.openai.com/api/docs/changelog
 DEBUG: Successfully scraped 21269 chars from https://developers.openai.com/api/docs/changelog. Saved to output/scraped_content/developers_openai_com_https___developers_openai_com_api_docs_changelog.txt
 DEBUG: Scraping URL: https://nate.leaflet.pub/3mk4xkaxobc2p
 DEBUG: Successfully scraped 1393 chars from https://nate.leaflet.pub/3mk4xkaxobc2p. Saved to output/scraped_content/nate_leaflet_pub_https___nate_leaflet_pub_3mk4xkaxobc2p.txt
+DEBUG: Scraping URL: https://fffff.at/free-universal-construction-kit/
+DEBUG: Successfully scraped 22833 chars from https://fffff.at/free-universal-construction-kit/. Saved to output/scraped_content/fffff_at_https___fffff_at_free_universal_construction_kit_.txt
+DEBUG: Scraping URL: https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/
+DEBUG: Successfully scraped 2172 chars from https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/. Saved to output/scraped_content/www_hypertalking_com_pixel_art_of_hokusais_the_great_wave_off_kanagawa_.txt
+DEBUG: Scraping URL: https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/
+DEBUG: Successfully scraped 8013 chars from https://blog.matthewbrunelle.com/its-ok-to-use-coding-assistance-tools-to-revive-the-projects-you-never-were-going-to-finish/. Saved to output/scraped_content/blog_matthewbrunelle_com_evive_the_projects_you_never_were_going_to_finish_.txt
+DEBUG: Scraping URL: https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/
+DEBUG: Successfully scraped 4927 chars from https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/. Saved to output/scraped_content/www_jeffgeerling_com_26_new_10_gbe_usb_adapters_cooler_smaller_cheaper_.txt
+DEBUG: Scraping URL: https://www.bbc.com/news/articles/c51y797v200o
+DEBUG: Successfully scraped 8482 chars from https://www.bbc.com/news/articles/c51y797v200o. Saved to output/scraped_content/www_bbc_com_https___www_bbc_com_news_articles_c51y797v200o.txt
+DEBUG: Scraping URL: https://github.com/MartinGalway/C64_music
+DEBUG: Successfully scraped 736 chars from https://github.com/MartinGalway/C64_music. Saved to output/scraped_content/github_com_https___github_com_MartinGalway_C64_music.txt
+DEBUG: Scraping URL: https://parl.ai/projects/params_vs_compute/
+DEBUG: Successfully scraped 6874 chars from https://parl.ai/projects/params_vs_compute/. Saved to output/scraped_content/parl_ai_https___parl_ai_projects_params_vs_compute_.txt
+DEBUG: Scraping URL: https://fabiensanglard.net/discret11/
+DEBUG: Successfully scraped 8437 chars from https://fabiensanglard.net/discret11/. Saved to output/scraped_content/fabiensanglard_net_https___fabiensanglard_net_discret11_.txt
+DEBUG: Scraping URL: https://blog.happyfellow.dev/simulacrum-of-knowledge-work/
+DEBUG: Trafilatura failed to download https://blog.happyfellow.dev/simulacrum-of-knowledge-work/
+DEBUG: Scraping URL: https://getkloak.io/
+DEBUG: Successfully scraped 2161 chars from https://getkloak.io/. Saved to output/scraped_content/getkloak_io_https___getkloak_io_.txt

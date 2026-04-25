@@ -4028,3 +4028,79 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 2026-04-25 06:17:03,969 - hn_podcast - INFO - Root index.html and RSS updated successfully.
 2026-04-25 06:17:03,971 - hn_podcast - INFO - Pushing updates to GitHub...
 2026-04-25 06:17:04,240 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
+2026-04-25 06:17:16,385 - hn_podcast - INFO - SUCCESS: Successfully pushed changes to GitHub!
+2026-04-26 06:00:16,853 - hn_podcast - INFO - --- New Job Started for 2026-04-26 at 2026-04-26 06:00:16.853019 ---
+2026-04-26 06:00:16,903 - hn_podcast - INFO - Fetching stories for 2026-04-26...
+2026-04-26 06:00:41,349 - hn_podcast - INFO - Fetched 10 stories.
+2026-04-26 06:00:41,354 - hn_podcast - INFO - Processing: The Free Universal Construction Kit
+2026-04-26 06:00:44,083 - hn_podcast - INFO -   - [SUCCESS] Scraped 22833 characters.
+2026-04-26 06:00:44,086 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:00:49,245 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:00:49,247 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:00:49,248 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:01:04,249 - hn_podcast - INFO - Processing: 1-Bit Hokusai's "The Great Wave" (2023)
+2026-04-26 06:01:05,392 - hn_podcast - INFO -   - [SUCCESS] Scraped 2172 characters.
+2026-04-26 06:01:05,394 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:01:09,128 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:01:09,129 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:01:09,131 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:01:24,132 - hn_podcast - INFO - Processing: Using coding assistance tools to revive projects you never were going to finish
+2026-04-26 06:01:24,935 - hn_podcast - INFO -   - [SUCCESS] Scraped 8013 characters.
+2026-04-26 06:01:24,936 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:01:30,139 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:01:30,141 - hn_podcast - WARNING -   - Summarization failed for: Using coding assistance tools to revive projects you never were going to finish
+2026-04-26 06:01:30,142 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:01:45,143 - hn_podcast - INFO - Processing: New 10 GbE USB adapters are cooler, smaller, cheaper
+2026-04-26 06:01:45,604 - hn_podcast - INFO -   - [SUCCESS] Scraped 4927 characters.
+2026-04-26 06:01:45,605 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:01:49,796 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:01:49,797 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:01:49,798 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:02:04,799 - hn_podcast - INFO - Processing: Desmond Morris has died
+2026-04-26 06:02:06,129 - hn_podcast - INFO -   - [SUCCESS] Scraped 8482 characters.
+2026-04-26 06:02:06,132 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:02:10,860 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:02:10,862 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:02:10,863 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:02:25,864 - hn_podcast - INFO - Processing: Martin Galway's music source files from 1980's Commodore 64 games
+2026-04-26 06:02:27,491 - hn_podcast - INFO -   - [SUCCESS] Scraped 736 characters.
+2026-04-26 06:02:27,492 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:02:31,263 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:02:31,265 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:02:31,266 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:02:46,267 - hn_podcast - INFO - Processing: Which one is more important: more parameters or more computation? (2021)
+2026-04-26 06:02:46,774 - hn_podcast - INFO -   - [SUCCESS] Scraped 6874 characters.
+2026-04-26 06:02:46,775 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:02:50,933 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:02:50,935 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:02:50,936 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:03:05,937 - hn_podcast - INFO - Processing: Discret 11, the French TV encryption of the 80s
+2026-04-26 06:03:07,308 - hn_podcast - INFO -   - [SUCCESS] Scraped 8437 characters.
+2026-04-26 06:03:07,309 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:03:12,777 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:03:12,779 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:03:12,780 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:03:27,781 - hn_podcast - INFO - Processing: Simulacrum of Knowledge Work
+2026-04-26 06:03:28,524 - trafilatura.downloads - ERROR - not a 200 response: 403 for URL https://blog.happyfellow.dev/simulacrum-of-knowledge-work/
+2026-04-26 06:03:28,527 - hn_podcast - WARNING -   - [FAIL] Scraping failed or too short. Skipping: https://blog.happyfellow.dev/simulacrum-of-knowledge-work/
+2026-04-26 06:03:28,528 - hn_podcast - INFO - Processing: Show HN: Kloak, A secret manager that keeps K8s workload away from secrets
+2026-04-26 06:03:29,144 - hn_podcast - INFO -   - [SUCCESS] Scraped 2161 characters.
+2026-04-26 06:03:29,145 - hn_podcast - INFO -   - Attempting summarization with gemini-3.1-flash-lite-preview...
+2026-04-26 06:03:33,121 - hn_podcast - INFO -     gemini-3.1-flash-lite-preview success!
+2026-04-26 06:03:33,122 - hn_podcast - INFO -   - Summary generated.
+2026-04-26 06:03:33,123 - hn_podcast - INFO -   - Waiting 15s to respect API rate limits...
+2026-04-26 06:03:48,124 - hn_podcast - INFO - Final processed articles list length: 9
+2026-04-26 06:03:48,125 - hn_podcast - INFO - Starting audio generation for 9 articles...
+2026-04-26 06:15:29,312 - hn_podcast - INFO - Successfully generated podcast audio at output/podcast_2026-04-26.mp3 (1641.3s)
+2026-04-26 06:15:29,453 - hn_podcast - INFO - Audio generation complete!
+2026-04-26 06:15:29,499 - hn_podcast - INFO - Enhanced metadata saved to output/podcast_2026-04-26.json (duration=1641s, size=6565676B)
+2026-04-26 06:15:29,500 - hn_podcast - INFO - Updating RSS feed at: output/podcast.xml
+2026-04-26 06:15:29,510 - hn_podcast - INFO - Found 37 metadata files to process.
+2026-04-26 06:15:29,849 - hn_podcast - INFO - RSS feed generated with 37 episodes at output/podcast.xml
+2026-04-26 06:15:29,908 - hn_podcast - INFO - Index HTML generated at output/index.html
+2026-04-26 06:15:29,910 - hn_podcast - INFO - RSS feed update complete!
+2026-04-26 06:15:29,911 - hn_podcast - INFO - Syncing RSS to root: /app/podcast.xml
+2026-04-26 06:15:29,924 - hn_podcast - INFO - Syncing index.html to root: /app/index.html
+2026-04-26 06:15:29,979 - hn_podcast - INFO - Root index.html and RSS updated successfully.
+2026-04-26 06:15:29,980 - hn_podcast - INFO - Pushing updates to GitHub...
+2026-04-26 06:15:30,222 - hn_podcast - INFO - Current remote: https://***:***@github.com/tetsuji16/hacker-news.git
